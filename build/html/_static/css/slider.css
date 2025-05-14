@@ -1,0 +1,27 @@
+#slider-container{
+    
+   
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  font-family:Arial, sans-serif;
+}
+
+#slider{
+  width:80%;
+  position:relative;
+}
+
+#slider img{
+  opacity:0;
+  width:100%;
+  position:absolute;
+  transition:all 1s;
+  border-radius:6px;
+  box-shadow:0 5px 30px #000000;
+}
+
+#slider img.selected{
+  opacity:1;
+}

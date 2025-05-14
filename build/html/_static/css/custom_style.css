@@ -1,0 +1,197 @@
+:root {
+    
+    --primary-color: #000000; /* Couleur principale noir*/
+    --secondary-color:  #7C2041; /* Couleur secondaire magenta*/
+    --tertiary-color: #B3104A; /* Couleur secondaire rose*/
+    --text-color: #32323D; /* Couleur du texte */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-family: 'Fredoka', sans-serif;
+    font-style: bold !important;
+    margin-top: 70px !important;
+    margin-bottom:70px !important;
+    color: var(--primary-color) !important;
+    text-align: center !important ;
+    font-size: 4.4em !important; 
+}
+
+h2 {
+    font-family: 'Fredoka', sans-serif;
+    font-style: bold;
+    margin-top: 70px !important;
+    margin-bottom:70px !important;
+    color: var(--secondary-color) !important;
+    font-size: 2.8em !important;
+}
+
+h3 {
+    font-family: 'Fredoka', sans-serif;
+    color: var(--tertiary-color) !important; /* Utilise la variable de couleur */
+    margin-top:70px !important;
+    margin-bottom:50px !important;
+    font-size: 1.8em !important;
+    margin-left: 70px !important;
+}
+
+.p-emphase {
+    font-size: 1.4em;
+    padding: 10px;
+    text-align:center;
+}
+
+#div-colour
+
+{
+background-color: #FFF8E7;
+padding: 20px;
+border-radius: 5px;
+}
+
+.banner-image {
+    position: absolute;  /* Positionne l'image de manière absolue par rapport à son premier parent positionné */
+    top: 30px;           /* Place la bannière tout en haut */
+    left: 0;             /* L'aligne à gauche de la fenêtre */
+    width: 100vw;        /* S'assure que l'image prend 100% de la largeur de la fenêtre */
+    height: auto;        /* Garde les proportions de l'image */
+    z-index: 1000;       /* S'assure que l'image est au-dessus du contenu */
+    margin: 0;
+    padding: 0;
+}
+
+/* 	Button */
+
+.button-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 250px;
+  height: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: var(--tertiary-color);
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+
+.button:hover {
+  background-color: var(--secondary-color);
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+
+/* Modification du template */
+
+/*  Organisation générale de la page */
+
+/*   main-page */
+
+@media (min-width: 960px) {
+    .bd-page-width {
+        max-width: 95rem !important;
+    }    
+    
+/*   Left-sidebar */
+
+.bd-sidebar-primary {
+    
+    width: 20% !important; 
+}
+
+.bd-links__title {
+
+    display: none;
+    margin-bottom: 40px;
+
+}
+
+.navbar-header-items__start {
+
+   width: 20% !important; 
+    
+}
+
+    /* menu du haut */
+
+.navbar-header-items__center li {
+
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+
+}
+    
+.navbar-header-items__center {
+
+    width: 80% !important; 
+}
+
+.navbar-header-items__end {
+
+    width: 50% !important; 
+}
+    
+.bd-sidebar-primary {
+    
+    width: 20% !important; 
+}
+
+
+
+
+/* Supprimer le style par défaut du lien <a> */
+a.reference.internal {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Styliser le <span> contenant le terme du glossaire */
+a.reference.internal > span.xref.std.std-term {
+  color: green;
+  text-decoration: underline dotted;
+  cursor: pointer;
+  position: relative;
+  padding-right: 1em; /* espace pour l'icône */
+  transition: color 0.2s ease-in-out;
+}
+
+/* Ajouter une icône 📘 après le terme */
+a.reference.internal > span.xref.std.std-term::after {
+  content: " 🧠";
+  position: static;
+  right: 0;
+  top: 0;
+  font-size: 0.85em;
+  opacity: 0.7;
+  pointer-events: none; /* ne gêne pas le clic */
+}
+
+/* Changement de couleur au survol */
+a.reference.internal:hover > span.xref.std.std-term {
+  color: orange;
+}
+
+
+
+
+
+
+
+
+

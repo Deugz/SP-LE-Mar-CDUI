@@ -1,0 +1,1592 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>4 - Système de Veille &#8212; Label Ecole V0 0.0.1 documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=362ab14a" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster.custom.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster.bundle.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster-sideTip-shadow.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster-sideTip-punk.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster-sideTip-noir.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster-sideTip-light.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster-sideTip-borderless.min.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/micromodal.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/custom_style.css?v=06b5301d" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/slider.css?v=31e19075" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/flash-card.css?v=d4949c41" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@400;700&display=swap" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../../../../_static/jquery.js?v=5d32c60e"></script>
+    <script src="../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+    <script src="../../../../_static/documentation_options.js?v=e645c8fa"></script>
+    <script src="../../../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/scripts/sphinx-book-theme.js"></script>
+    <script src="../../../../_static/js/hoverxref.js"></script>
+    <script src="../../../../_static/js/tooltipster.bundle.min.js"></script>
+    <script src="../../../../_static/js/micromodal.min.js"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="../../../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'content/Cours/GDP/Veille/Veille';</script>
+    <script src="../../../../_static/_static/scripts/slider-script.js"></script>
+    <script src="../../../../_static/_static/scripts/page-layout.js"></script>
+    <link rel="canonical" href="https://deugz.github.io/SP-LE-Mar-CDUI/build/html/index.html/content/Cours/GDP/Veille/Veille.html" />
+    <link rel="icon" href="../../../../_static/Label-Ecole-Logo.png"/>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="5 - Benchmark Digital" href="../Benchmark/Benchmark.html" />
+    <link rel="prev" title="3 - Identifier ses utilisateurs" href="../Utilisateurs/Utilisateurs.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../../_static/Label-Ecole-Logo.png" class="logo__image only-light" alt=""/>
+    <script>document.write(`<img src="../../../../_static/Label-Ecole-Logo.png" class="logo__image only-dark" alt=""/>`);</script>
+  
+  
+    <p class="title logo__title"> &nbsp (13) CDUI &nbsp </p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../Diplome/Diplome-main.html">
+    🎓 Le Diplome
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../Promo/CDP2/CDP2-Main.html">
+    💑 La Promo
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../index-cours.html">
+    🛠️ Les Cours
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../Projet/index-Projet.html">
+    ✨ Votre Projet
+  </a>
+</li>
+
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="pst-nav-more-links">
+                    More
+                </button>
+                <ul id="pst-nav-more-links" class="dropdown-menu">
+                    
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="../../../Promo/CDP1/CDP1-Main.html">
+    ✅ Promo 1
+  </a>
+</li>
+
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://drive.google.com/drive/folders/1Gqv0_RDXwI7om8ob1uVuu7__oYLtDHYp" title="Drive" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-google-drive fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Drive</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FParis&showPrint=0&mode=WEEK&hl=fr&src=dmRlZ3VpbkBsYWJlbC1lbW1hdXMuY28&src=Y185OWQ3Y2M0MWJhYjE4OTBlYWYyY2FhZmJjZDZjYWZiN2ZjMWRiNmZkYzI1Y2UwYmQ0ZTgzMGFmNzkwZmU1YTgxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4uZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=bG1lcmVzc2VAbGFiZWwtZW1tYXVzLmNv&color=%230B8043&color=%234285F4&color=%230B8043&color=%23AD1457" title="Calendrier" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-calendar-days fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Calendrier</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/Deugz/Encyclopedia-Home" title="Discord" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-discord fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Discord</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/Deugz/SP-Label-Ecole" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../Diplome/Diplome-main.html">
+    🎓 Le Diplome
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../Promo/CDP2/CDP2-Main.html">
+    💑 La Promo
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../index-cours.html">
+    🛠️ Les Cours
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../Projet/index-Projet.html">
+    ✨ Votre Projet
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../Promo/CDP1/CDP1-Main.html">
+    ✅ Promo 1
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://drive.google.com/drive/folders/1Gqv0_RDXwI7om8ob1uVuu7__oYLtDHYp" title="Drive" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-google-drive fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Drive</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FParis&showPrint=0&mode=WEEK&hl=fr&src=dmRlZ3VpbkBsYWJlbC1lbW1hdXMuY28&src=Y185OWQ3Y2M0MWJhYjE4OTBlYWYyY2FhZmJjZDZjYWZiN2ZjMWRiNmZkYzI1Y2UwYmQ0ZTgzMGFmNzkwZmU1YTgxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4uZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=bG1lcmVzc2VAbGFiZWwtZW1tYXVzLmNv&color=%230B8043&color=%234285F4&color=%230B8043&color=%23AD1457" title="Calendrier" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-calendar-days fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Calendrier</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/Deugz/Encyclopedia-Home" title="Discord" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-discord fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Discord</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/Deugz/SP-Label-Ecole" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">🧐 Introduction</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../Intro/Edito/Edito.html">0 - Le p’tit mot du Vince</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Intro/e-commerce/e-commerce.html">1 - Web et e-commerce</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">💼 Gestion de projet</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../CDC/CDC.html">2 - Cahier des charges</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Utilisateurs/Utilisateurs.html">3 - Identifier ses utilisateurs</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">4 - Système de Veille</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Benchmark/Benchmark.html">5 - Benchmark Digital</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../Bonus/Bonus-GDP.html">Bonus</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../Bonus/Organisation/Organisation.html">Bien s’organiser</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">🎨 Graphisme</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../Graphisme/Logiciels/Illustrator/Illustrator.html">6 - Démarrer sur Illustrator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Graphisme/Charte-Graphique/Charte-graphique.html">7 - Charte Graphique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Graphisme/Logiciels/Photoshop/Photoshop.html">8 - Photoshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Graphisme/Print/Print.html">9 - Support Print</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Graphisme/Bonus/Bonus-Graphisme.html">Bonus</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Graphisme/Bonus/Logo/Logo.html">Créer votre Logo!</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">🧭 Web-Design</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../Design/Introduction-UX/Introduction-UX.html">10 - Introduction à l’UX Design</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Design/Navigation/Navigation.html">11 - Concevoir la Navigation (UX)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Design/Interface/Interface.html">12 - Concevoir l’Interface (UI)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Design/Test-Utilisateur/Test-Utilisateur.html">13 - Test Utilisateur</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Design/Bonus/Bonus-Webdesign.html">Bonus</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Design/Bonus/Figma/Figma.html">Figma</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">🎥 Vidéo / photographie</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../Video-Photo/Photo/Base-Photo.html">14 - Bases de Photographie</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Video-Photo/Video/Storyboard.html">15 - Storyboard Vidéo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Video-Photo/Video/Son-Image.html">16 - Prise de Son et Image</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Video-Photo/Video/Montage.html">17 - Montage Vidéo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Video-Photo/Bonus/Bonus-Video-Photo.html">Bonus</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">🔧 Developpement Web</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../Dev-Web/RGPD/RGPD.html">18 - Droit de l’internet &amp; RGPD</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Dev-Web/HTML-CSS-JS/Developpement-Main.html">19 - HTML / CSS / JS</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Dev-Web/HTML-CSS-JS/html.html">19.a - HTML</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Dev-Web/HTML-CSS-JS/css.html">19.b - CSS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Dev-Web/HTML-CSS-JS/js.html">19.c - Javascript</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Dev-Web/Wordpress/Wordpress.html">20 - Wordpress</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Dev-Web/Bonus/Bonus-Dev-Web.html">Bonus</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Dev-Web/Bonus/Accessibilite/Accessible.html">Accessibilité</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">📈 Webmarketing</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../WebMarketing/Reseau-Social/Reseau-Social.html">21 - Stratégie Réseau Sociale</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../WebMarketing/SEO/SEO.html">22 - Référencement (SEO)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../WebMarketing/Emailing/Emailing.html">23 - Campagne d’emailing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../WebMarketing/Analytics/Google-Analytics.html">24 - Google Analytics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../WebMarketing/Bonus/Bonus-Webmarketing.html">Bonus</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">👑 Soft Skills &amp; Autres</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../Soft-Skills/CV-motive.html">CV &amp; lettre de motive</a></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../../../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../../index-cours.html" class="nav-link">🛠️ Les Cours</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page">4 - Système...</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="systeme-de-veille">
+<h1>4 - Système de Veille<a class="headerlink" href="#systeme-de-veille" title="Link to this heading">#</a></h1>
+<hr class="docutils" />
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<blockquote>
+<div><p>Aprés avoir définit notre projet, mis en place notre cahier des charges et commencer a réfléchir à nos cibles et personas, nous arrivons au chapitre important de la veille. Je vais reprendre les notions importantes du cours et plus particulièrement comment la veille peut vous être utile tout au long de votre projet.</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div id="div-colour"> 
+<p><strong>Informations</strong></p>
+<p>✍  - Vincent <br>
+🚧 - En cours<br>
+🔨 - 26/11/2024<br />
+🕑 - 20 - 30 min <br></p>
+</div>    
+<br>
+</div>
+</div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Syllabus</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<blockquote>
+<div><p class="sd-card-text"><strong>Module 4</strong>: <em>Mettre en place un système de veille de la concurrence</em></p>
+<p class="sd-card-text"><strong>Objectif global</strong>:</p>
+<p class="sd-card-text">L’objectif global est que l’apprenant comprenne et maîtrise la mise en place d’un système de veille de la concurrence.</p>
+<p class="sd-card-text"><strong>Plan de cours</strong>:</p>
+<ul class="simple">
+<li><p class="sd-card-text">I. Mettre en place la veille de la concurrence :</p>
+<ul>
+<li><p class="sd-card-text">La veille et l’information</p></li>
+<li><p class="sd-card-text">S’organiser pour faire de la veille</p></li>
+<li><p class="sd-card-text">Réaliser le ciblage de sa veille</p></li>
+<li><p class="sd-card-text">Cycle de veille et recherche d’information</p></li>
+<li><p class="sd-card-text">Fonctionnement d’un moteur de recherche sur le web</p></li>
+</ul>
+</li>
+<li><p class="sd-card-text">II. Les bonnes pratiques de la recherche d’information :</p>
+<ul>
+<li><p class="sd-card-text">Rechercher des informations sur le web avec Google</p></li>
+<li><p class="sd-card-text">Rechercher des contenus multimédias</p></li>
+<li><p class="sd-card-text">Rechercher de l’information sur les réseaux sociaux</p></li>
+<li><p class="sd-card-text">De l’intérêt de travailler avec des sources d’information</p></li>
+</ul>
+</li>
+<li><p class="sd-card-text">III. Vers l’automatisation de sa veille :</p>
+<ul>
+<li><p class="sd-card-text">Définir ses alertes à partir de mots clés</p></li>
+<li><p class="sd-card-text">Exploiter les flux RSS</p></li>
+<li><p class="sd-card-text">Surveiller des pages web</p></li>
+<li><p class="sd-card-text">Faire de la veille sur le web social</p></li>
+<li><p class="sd-card-text">Exploiter l’information de veille</p></li>
+</ul>
+</li>
+</ul>
+<p class="sd-card-text"><strong>Livrables</strong>:</p>
+<ul class="simple">
+<li><p class="sd-card-text">Avoir la méthode et les outils pour mettre en place un système de veille de la concurrence efficace</p></li>
+</ul>
+</div></blockquote>
+</div>
+</details><details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Support de Cours</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-0">
+Autres promos</label><div class="sd-tab-content docutils">
+<iframe src="https://drive.google.com/file/d/1xoV6J2BnRlUW8X6wvSQ__iEfMnchekz3/preview" 
+        width="100%" 
+        height="400px" 
+        frameborder="0" 
+        allowfullscreen>
+</iframe>
+</div>
+</div>
+</div>
+</details><br>
+<div class="warning dropdown admonition">
+<p class="admonition-title">Ingénieurie pédagogique (le Bahut)</p>
+<p>Petite phrase pour expliquer:</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="Pedagogie/4-Deroule-Peda.html"><span class="std std-doc">Lien vers la page</span></a></p></li>
+</ul>
+</div>
+<br>
+<hr class="docutils" />
+<section id="c-est-quoi-la-veille">
+<h2>C’est quoi la veille ?<a class="headerlink" href="#c-est-quoi-la-veille" title="Link to this heading">#</a></h2>
+<p class="p-emphase">La veille consiste à surveiller, collecter et analyser régulièrement des informations sur un sujet précis. Elle sert à rester informé des nouveautés, des tendances ou des évolutions qui pourraient être utiles pour prendre de meilleures décisions.
+</p>
+<br>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Exemple</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text">Une entreprise fait de la veille pour savoir ce que font ses concurrents, découvrir de nouvelles technologies ou comprendre les besoins de ses clients.</p>
+</div>
+</div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>En résumé</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="sd-card-text">C’est une activité pour rester à jour et anticiper grâce à des informations pertinentes et actualisées.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+<p><dotlottie-player src="https://lottie.host/4d96bd38-a245-4923-8bdb-7519adc0029f/5qfZuFYSWp.json" background="transparent" speed="1" style="width: 100%; height: auto; display: block; margin: auto;" loop autoplay></dotlottie-player></p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+</div>
+</div>
+</div>
+</section>
+<section id="se-poser-les-bonnes-questions">
+<h2>Se poser les bonnes questions !<a class="headerlink" href="#se-poser-les-bonnes-questions" title="Link to this heading">#</a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<blockquote>
+<div><p>La veille est un outil que l’on met en place pour s’informer des tendances en cours (dans l’instant présent - d’où l’intéret de la faire de manière régulière, ou de l’automatiser) et prendre des meilleurs décisions pour le futur. mais nous ne sommes pas encore des chefs d’entreprises accomplie à la conquette des marchés … Je vous propose donc de faire un petit pas en arrière:</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<p><dotlottie-player src="https://lottie.host/79216f30-19dd-43bb-8f0f-94476c3d9e42/bDT7BRE14D.lottie" background="transparent" speed="1" style="width: 100%; height: auto" loop autoplay></dotlottie-player></p>
+</div>
+</div>
+</div>
+<br>
+<p class="p-emphase">Interrogeons nous donc de manière générale sur notre marché (définie en <a href=""> Section 2 </a>), pour afiner la définition de nos cibles et construire des personas cohérentes (définies dans la <a href=""> Section 3 </a>).
+</p>
+<section id="eviter-les-biais-cognitifs">
+<h3>Eviter les biais cognitifs<a class="headerlink" href="#eviter-les-biais-cognitifs" title="Link to this heading">#</a></h3>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<br>
+<blockquote>
+<div><p>Créer des personas à la va-vite, c’est un peu comme partir en randonnée avec une carte dessinée à la main : on croit savoir où on va, mais on risque de se perdre en chemin. Sans prendre le temps d’analyser correctement les cibles, on s’appuie sur des intuitions qui semblent solides mais qui peuvent être complètement à côté de la plaque. Résultat : des personas qui ne ressemblent pas vraiment aux utilisateurs réels, souvent parce qu’ils sont influencés par des biais cognitifs qu’on n’a même pas conscience d’appliquer.</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/96e71aeb-b70b-4c65-b6b5-c374906667ce/UWDex7AajH.json" background="##fff" speed="1" style="width: 100%; height: auto" loop autoplay direction="1" mode="normal"></lottie-player>
+</div>
+</div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">C’est quoi un biais cognitif ?</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="p-emphase">Les biais cognitifs sont des distorsions dans le traitement de l’information par notre cerveau, qui peuvent nous amener à des jugements ou des décisions irrationnelles.</p>
+<hr class="docutils" />
+<br>
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Biais d’attention sélective</strong> : Tendance à se concentrer sur certaines informations tout en en ignorant d’autres, souvent en raison de leur saillance.</p></li>
+</ul>
+<br>
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Biais de confirmation</strong> : Recherche, interprétation ou mémorisation d’informations qui confirment nos croyances, tout en ignorant celles qui les contredisent.</p></li>
+</ul>
+<br>
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Effet de halo</strong> : Tendance à juger positivement ou négativement une personne ou une chose sur la base d’une seule caractéristique (ex. : une personne sympathique est automatiquement perçue comme compétente).</p></li>
+</ul>
+<br>
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Biais de mémoire sélective</strong> : Rappel préférentiel d’événements ou d’informations en accord avec nos croyances ou émotions.</p></li>
+</ul>
+<br>
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Biais d’ancrage</strong> : Dépendance excessive à la première information reçue (l’ancre) pour prendre une décision.</p></li>
+</ul>
+<br>
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Et plus encore !</strong></p></li>
+</ul>
+</div>
+</details></section>
+<section id="examples-de-questions">
+<h3>Examples de questions<a class="headerlink" href="#examples-de-questions" title="Link to this heading">#</a></h3>
+<br>
+<div class="sd-sphinx-override sd-cards-carousel sd-card-cols-2 docutils">
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Taille du marché</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="p-emphase"><em>"Quelle est la taille du marché mondial pour [ton produit/service] en 2024 et sa croissance prévue d'ici 2028 ?"</em></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Tendances du secteur</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="p-emphase"><em>"Quelles sont les principales tendances du marché pour [ton secteur] dans les cinq dernières années ?"</em></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Concurrence</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="p-emphase"><em>"Quels sont les principaux acteurs du marché dans le secteur de [ton produit/service], et quelle est leur part de marché respective ?"</em></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Comportement des consommateurs</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="p-emphase"><em>"Quels sont les comportements d'achat des consommateurs pour [ton produit/service] dans [ton pays] ?"</em></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Analyse démographique</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="p-emphase"><em>"Comment les consommateurs pour [ton produit/service] se répartissent en termes de démographie ?"</em></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Barrières à l’entrée</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<p class="p-emphase"><em>"Quelles sont les barrières à l'entrée pour un nouveau produit/service dans [ton secteur] en 2024 ?"</em></p>
+</div>
+</div>
+<div class="sd-card sd-sphinx-override sd-mb-3 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Et bien plus encore …</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/2675e6f3-6135-4447-95a5-80252016a801/pBIsbGK9z3.json" background="##FFFFFF" speed="1" style="width: 100%; height: auto" loop autoplay direction="1" mode="normal"></lottie-player>
+</div>
+</div>
+</div>
+<br>
+<br>
+<div class="warning dropdown admonition">
+<p class="admonition-title">Il faut continuellement se poser des questions,</p>
+<p>Oui c’est très important de se poser des questions</p>
+</div>
+<div class="tip dropdown admonition">
+<p class="admonition-title">Car à l’examen on vous en posera beaucoup !</p>
+<p>Pendant l’examen, le jury vous demandera de justifier vos choix ! (pourquoi avez vous choisi cette cible …). Avoir réaliser en amont un travail de questionnement vous aidera à aborder ces questions avec sérénité</p>
+</div>
+<br>
+</section>
+</section>
+<section id="quels-outils-pour-s-informer">
+<h2>Quels outils pour s’informer ?<a class="headerlink" href="#quels-outils-pour-s-informer" title="Link to this heading">#</a></h2>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<br>
+<br>
+<br>
+<p class="p-emphase"><strong>En voila une bonne question ! </strong></p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<p><dotlottie-player src="https://lottie.host/9ba4f007-2277-4334-a244-f21918770b9b/qNc9m3sixn.lottie" background="transparent" speed="1" style="width: 100%; height: auto" loop autoplay></dotlottie-player></p>
+</div>
+</div>
+</div>
+<section id="internet-bien-sur">
+<h3>Internet bien sûr !<a class="headerlink" href="#internet-bien-sur" title="Link to this heading">#</a></h3>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Google</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/Google__G__logo.svg.png"><img alt="../../../../_images/Google__G__logo.svg.png" src="../../../../_images/Google__G__logo.svg.png" style="width: 100%;" />
+</a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://www.google.fr/" rel="noreferrer" target="_blank"><span>https://www.google.fr/</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Youtube</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<a class="reference internal image-reference" href="../../../../_images/YouTube_full-color_icon_(2017).svg.png"><img alt="../../../../_images/YouTube_full-color_icon_%282017%29.svg.png" src="../../../../_images/YouTube_full-color_icon_%282017%29.svg.png" style="width: 100%;" />
+</a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://www.youtube.com/" rel="noreferrer" target="_blank"><span>https://www.youtube.com/</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Linkedin</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/Linkedin_circle.svg.png"><img alt="../../../../_images/Linkedin_circle.svg.png" src="../../../../_images/Linkedin_circle.svg.png" style="width: 100%;" />
+</a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://www.linkedin.com/" rel="noreferrer" target="_blank"><span>https://www.linkedin.com/</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Autres</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/internet-connection-contact-svgrepo-com.svg"><img alt="../../../../_images/internet-connection-contact-svgrepo-com.svg" src="../../../../_images/internet-connection-contact-svgrepo-com.svg" width="100%" /></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<br>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Bonnes pratiques de la recherche sur internet</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-1" name="sd-tab-set-1" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-1">
+Google</label><div class="sd-tab-content docutils">
+<ul class="simple">
+<li><p class="sd-card-text">bookmarks …</p></li>
+</ul>
+</div>
+<input id="sd-tab-item-2" name="sd-tab-set-1" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-2">
+Youtube</label><div class="sd-tab-content docutils">
+<ul class="simple">
+<li><p class="sd-card-text">S’abonner</p></li>
+</ul>
+</div>
+<input id="sd-tab-item-3" name="sd-tab-set-1" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-3">
+Linkedin</label><div class="sd-tab-content docutils">
+<ul class="simple">
+<li><p class="sd-card-text">Suivre des profils intéréssants</p></li>
+</ul>
+</div>
+<input id="sd-tab-item-4" name="sd-tab-set-1" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-4">
+Autres Outils</label><div class="sd-tab-content docutils">
+<ul class="simple">
+<li><p class="sd-card-text">webinaires</p></li>
+</ul>
+</div>
+</div>
+</div>
+</details><br>
+</section>
+<section id="l-intelligence-artificielle">
+<h3>L’Intelligence Artificielle ?<a class="headerlink" href="#l-intelligence-artificielle" title="Link to this heading">#</a></h3>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Chat GPT</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/ChatGPT_logo.svg.png"><img alt="../../../../_images/ChatGPT_logo.svg.png" src="../../../../_images/ChatGPT_logo.svg.png" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Avis: 🌟 🌟 ★ ★ ★</p>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://openai.com/index/chatgpt/" rel="noreferrer" target="_blank"><span>https://openai.com/index/chatgpt/</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<blockquote>
+<div><p>ChatGPT est un outil puissant pour synthétiser et expliquer rapidement des informations complexes, rendant la recherche plus rapide et accessible. Il peut aider à clarifier des sujets, explorer des idées ou fournir des pistes initiales. Cependant, <strong>il est essentiel de vérifier les informations qu’il fournit</strong> : bien qu’il s’appuie sur de vastes bases de connaissances, il peut parfois générer des réponses inexactes ou approximatives. Utilisez-le comme un point de départ, mais complétez par des sources fiables pour garantir la précision de vos recherches.</p>
+</div></blockquote>
+</div>
+</div>
+</div>
+<p class="p-emphase">Le problème de ChatGPT est qu'il ne cite pas ses sources !</p>
+<br>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Perplexity</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/turquoise402xperplexity.ai_.png"><img alt="../../../../_images/turquoise402xperplexity.ai_.png" src="../../../../_images/turquoise402xperplexity.ai_.png" style="width: 100%;" />
+</a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Avis: 🌟 🌟 🌟 🌟 ★</p>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://www.perplexity.ai/" rel="noreferrer" target="_blank"><span>https://www.perplexity.ai/</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<blockquote>
+<div><p>Perplexity est un outil de recherche assistée par IA conçu pour fournir des réponses claires et précises à vos questions, tout <strong>en s’appuyant sur des sources qu’il cite directement</strong>. Il combine la rapidité de l’IA et la transparence des références, ce qui le rend idéal pour explorer des sujets ou valider des faits. Toutefois, comme pour tout outil, il est important de croiser les informations et de vérifier la fiabilité des sources fournies pour assurer une recherche rigoureuse.</p>
+</div></blockquote>
+</div>
+</div>
+</div>
+<br>
+<div class="warning dropdown admonition">
+<p class="admonition-title">Attention quand on utilise l’IA !</p>
+<p>Je ne peux que vous recommander de <strong>vérifier ce que vous dit l’IA</strong>.</p>
+<p>De plus (et on y pense pas forcément) ca consomme beaucoup d’énergie!</p>
+<figure class="align-default" id="consommation-ia">
+<a class="reference internal image-reference" href="../../../../_images/Consommation-IA.png"><img alt="../../../../_images/Consommation-IA.png" src="../../../../_images/Consommation-IA.png" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">La consommation (en gramme de Carbonne) de l’IA générative <strong>Source</strong>: <a class="reference external" href="https://dataforgood.fr/iagenerative/" rel="noreferrer" target="_blank">DataforGood</a></span><a class="headerlink" href="#consommation-ia" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</div>
+<br>
+</section>
+<section id="interroge-directement-ta-cible">
+<h3>Intérroge directement ta cible !<a class="headerlink" href="#interroge-directement-ta-cible" title="Link to this heading">#</a></h3>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<p class="p-emphase">C'est la source d'information la plus directe, et celle sur laquel vous avez le plus de controle ! </p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/9768261c-d883-4ca4-a263-0e0789d1b50d/bhuZ7D3Jgv.json" background="##fff" speed="1" style="width: 100%; height: auto" loop autoplay direction="1" mode="normal"></lottie-player>
+</div>
+</div>
+</div>
+<section id="les-outils-de-questionnaires">
+<h4>Les Outils de questionnaires<a class="headerlink" href="#les-outils-de-questionnaires" title="Link to this heading">#</a></h4>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Google Forms</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/Google_Forms_2020_Logo.svg.png"><img alt="../../../../_images/Google_Forms_2020_Logo.svg.png" class="align-center" src="../../../../_images/Google_Forms_2020_Logo.svg.png" style="width: 75%;" />
+</a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://www.google.fr/intl/fr/forms/about/" rel="noreferrer" target="_blank"><span>https://www.google.fr/intl/fr/forms/about/</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Typeform</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<a class="reference internal image-reference" href="../../../../_images/typeforme-logo.jpg"><img alt="../../../../_images/typeforme-logo.jpg" src="../../../../_images/typeforme-logo.jpg" style="width: 100%;" />
+</a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://www.typeform.com/" rel="noreferrer" target="_blank"><span>https://www.typeform.com/</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>SurveyMonkey</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<br>
+<a class="reference internal image-reference" href="../../../../_images/SurveyMonkey-Logo.png"><img alt="../../../../_images/SurveyMonkey-Logo.png" src="../../../../_images/SurveyMonkey-Logo.png" style="width: 100%;" />
+</a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://fr.surveymonkey.com/" rel="noreferrer" target="_blank"><span>https://fr.surveymonkey.com/</span></a></div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Comparaison entre les différents outils de questionnaire</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-5" name="sd-tab-set-2" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-5">
+Google Forms</label><div class="sd-tab-content docutils">
+<p class="sd-card-text"><strong>Pourquoi le choisir</strong> :</p>
+<ul class="simple">
+<li><p class="sd-card-text">Gratuit et illimité : Permet de collecter autant de réponses que nécessaire.</p></li>
+<li><p class="sd-card-text">Facile d’utilisation : Interface intuitive, idéale pour créer des questionnaires rapidement.</p></li>
+<li><p class="sd-card-text">Analyse intégrée : Les réponses sont automatiquement organisées dans des graphiques et peuvent être exportées vers Google Sheets pour une analyse approfondie.</p></li>
+</ul>
+<p class="sd-card-text"><strong>Limites</strong> :</p>
+<ul class="simple">
+<li><p class="sd-card-text">Moins de personnalisation visuelle et absence de fonctionnalités avancées comme la logique conditionnelle complexe.</p></li>
+</ul>
+</div>
+<input id="sd-tab-item-6" name="sd-tab-set-2" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-6">
+Typeform</label><div class="sd-tab-content docutils">
+<p class="sd-card-text"><strong>Pourquoi le choisir</strong> :</p>
+<ul class="simple">
+<li><p class="sd-card-text">Expérience utilisateur fluide : Design interactif et attrayant, engageant pour les répondants.</p></li>
+<li><p class="sd-card-text">Facile à utiliser : Interface conviviale pour la création de questionnaires esthétiques.</p></li>
+<li><p class="sd-card-text">Logique conditionnelle : Permet une navigation dynamique en fonction des réponses.</p></li>
+</ul>
+<p class="sd-card-text"><strong>Limites</strong> :</p>
+<ul class="simple">
+<li><p class="sd-card-text">Limité à 10 questions et 10 réponses par mois dans la version gratuite.</p></li>
+</ul>
+</div>
+<input id="sd-tab-item-7" name="sd-tab-set-2" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-7">
+SurveyMonkey</label><div class="sd-tab-content docutils">
+<p class="sd-card-text"><strong>Pourquoi le choisir</strong> :</p>
+<ul class="simple">
+<li><p class="sd-card-text">Professionnel et fiable : Reconnue pour sa robustesse dans les études de marché.</p></li>
+<li><p class="sd-card-text">Personnalisation : Offre des modèles de questionnaires adaptés à différents secteurs.</p></li>
+<li><p class="sd-card-text">Logique conditionnelle (basique) : Possibilité d’afficher des questions en fonction des réponses.</p></li>
+</ul>
+<p class="sd-card-text"><strong>Limites</strong> :</p>
+<ul class="simple">
+<li><p class="sd-card-text">La version gratuite est limitée à 10 questions par enquête et 100 réponses par questionnaire.</p></li>
+</ul>
+</div>
+</div>
+</div>
+</details><div class="dropdown tip admonition">
+<p class="admonition-title">Bonnes pratiques quand on créé un questionnaire</p>
+<p>Créer un questionnaire efficace nécessite de suivre plusieurs bonnes pratiques pour garantir des réponses pertinentes et exploitables. Voici les principales :</p>
+<p><strong>1. Définir clairement ses objectifs</strong></p>
+<ul class="simple">
+<li><p>Identifiez les informations précises que vous souhaitez recueillir.</p></li>
+<li><p>Formulez des objectifs clairs : quelles décisions l’étude de marché va-t-elle éclairer ? (ex. : évaluer la demande, comprendre les préférences clients).</p></li>
+</ul>
+<p><strong>2. Connaître sa cible</strong></p>
+<ul class="simple">
+<li><p>Adaptez le ton, la langue et le niveau de détail au profil des répondants.</p></li>
+<li><p>Assurez-vous que les questions sont compréhensibles pour votre audience cible.</p></li>
+</ul>
+<p><strong>3. Structurer le questionnaire de manière logique</strong></p>
+<ul class="simple">
+<li><p><strong>Commencez par des questions simples</strong> pour mettre les répondants à l’aise.</p></li>
+<li><p>Placez les questions plus complexes ou sensibles vers la fin.</p></li>
+<li><p>Terminez par des questions facultatives ou ouvertes pour recueillir des idées complémentaires.</p></li>
+</ul>
+<p><strong>4. Utiliser un langage clair et précis</strong></p>
+<ul class="simple">
+<li><p>Évitez les termes techniques, ambigus ou les formulations complexes.</p></li>
+<li><p>Posez une seule question à la fois : privilégiez des questions directes et courtes.</p></li>
+</ul>
+<p><strong>5. Privilégier des questions fermées (mais pas exclusivement)</strong></p>
+<ul class="simple">
+<li><p>Les questions à choix multiples sont plus faciles à analyser : par exemple, « Quelle est votre tranche d’âge ? ».</p></li>
+<li><p>Ajoutez des options telles que « Autre : précisez » pour les réponses ouvertes si nécessaire.</p></li>
+</ul>
+<p><strong>6. Utiliser des échelles avec cohérence</strong></p>
+<ul class="simple">
+<li><p>Si vous utilisez des échelles (ex. : de 1 à 5 pour évaluer une satisfaction), gardez les mêmes formats tout au long du questionnaire pour éviter de perturber les répondants.</p></li>
+<li><p>Soyez explicite sur le sens de l’échelle : par exemple, « 1 = Pas du tout satisfait, 5 = Très satisfait ».</p></li>
+</ul>
+<p><strong>7. Garder le questionnaire court et engageant</strong></p>
+<ul class="simple">
+<li><p>Limitez le nombre de questions : les questionnaires trop longs découragent les répondants.</p></li>
+<li><p>Annoncez le temps estimé au début (idéalement 5 à 10 minutes maximum).</p></li>
+</ul>
+<p><strong>8. Éviter les biais dans les questions</strong></p>
+<ul class="simple">
+<li><p><strong>Pas de questions orientées</strong> : « Pourquoi pensez-vous que notre produit est le meilleur ? » pourrait influencer la réponse.</p></li>
+<li><p>Proposez des options équilibrées pour les réponses (ex. : « Très satisfait, Satisfait, Neutre, Insatisfait, Très insatisfait »).</p></li>
+</ul>
+<p><strong>9. Tester le questionnaire</strong></p>
+<ul class="simple">
+<li><p>Faites un test auprès de collègues ou d’un petit groupe de personnes représentatives de votre cible.</p></li>
+<li><p>Vérifiez que les questions sont claires et qu’elles recueillent les informations attendues.</p></li>
+</ul>
+<p><strong>10. Assurer la confidentialité et encourager la participation</strong></p>
+<ul class="simple">
+<li><p>Indiquez comment les données seront utilisées (ex. : « Vos réponses resteront anonymes »).</p></li>
+<li><p>Si possible, offrez une incitation (ex. : un tirage au sort ou un accès à une synthèse des résultats).</p></li>
+</ul>
+</div>
+<br>
+<blockquote>
+<div><p>J’ai créé ce site sans forcément prendre le temps de receuillir vos besoins (il faut dire aussi que vous êtes mes cibles secondaire, la cible principale étant moi même (on en reparlera)). Permettez moi cependant de réparer cette erreur en vous proposant un petit questionnaire (à titre d’exemple) pour mieux comprendre votre ressenti vis a vis de la formation ainsi que les besoins que vous pourriez avoir.</p>
+<p><em>Cliquez sur le bouton ci-dessous pour accéder au questionnaire</em></p>
+</div></blockquote>
+<br>
+<div class="button-container">
+  <button class="button">Le Questionnaire <br>🕑- 5 min</button>
+</div>
+</section>
+</section>
+</section>
+<section id="receuil-les-donnees">
+<h2>Receuil les données<a class="headerlink" href="#receuil-les-donnees" title="Link to this heading">#</a></h2>
+<section id="les-2-methodes-de-veille">
+<h3>Les 2 méthodes de veille<a class="headerlink" href="#les-2-methodes-de-veille" title="Link to this heading">#</a></h3>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-5 sd-row-cols-xs-5 sd-row-cols-sm-5 sd-row-cols-md-5 sd-row-cols-lg-5 docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<div class="flashcard" id="card2">
+<div class="flashcard-inner">
+<div class="flashcard-front">
+<h4 style="color:black;"><strong>PULL</strong></h4>
+<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/9b3f9870-f287-4cc6-9e23-9ba59fc89be0/xW5N6wHwT9.json" background="##fff" speed="1" style="width: 80%; height: auto" loop autoplay direction="1" mode="normal"></lottie-player>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<div class="flashcard-back">
+<p><strong>C'est quand vous allez chercher l'information</strong>. <br>L'utilisateur doit effectuer une démarche active pour trouver les données qui l'intéressent.
+</p>
+</div>
+</div>
+</div>    
+<p><button class="button-flash-card" onclick="flipCard('card2')">Retourner</button></p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<div class="flashcard" id="card1">
+        <div class="flashcard-inner">
+            <div class="flashcard-front">
+<h4 style="color:black;"><strong>PUSH</strong></h4>    
+<br>                
+<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<p><dotlottie-player src="https://lottie.host/f4a9d370-7266-4714-b129-42fab1dd40af/N79N2pBgoj.lottie" background="transparent" speed="1" style="width: 80%; height: auto" loop autoplay></dotlottie-player></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<div class="flashcard-back">
+<p><strong>C'est quand l'information vient à vous.</strong> <br>Les informations sont directement envoyées à l'utilisateur sans qu'il ait besoin de les chercher.</p>
+</div>
+</div>
+</div>
+<p><button class="button-flash-card" onclick="flipCard('card1')">Retourner </button></p>
+</div>
+</div>
+</div>
+<!-- partial -->
+<script  src="../../../../_static/assets/scripts/flash-card.js"></script>
+<br>
+</section>
+<section id="les-differents-cas-d-usage">
+<h3>Les différents cas d’usage<a class="headerlink" href="#les-differents-cas-d-usage" title="Link to this heading">#</a></h3>
+<br>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="4-Veille-b" frameborder="0" width="1000" height="562.5" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/67461c334bc03be5580d139f" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+<br>
+<br>
+<blockquote>
+<div><p>Jusqu’ici on a vu des outils pour <strong>aller chercher de l’information</strong> (méthode pull), très importante en début de projet. Cependant, pour continuer à rester informé (sans y passer trop de temps non plus), automatisons tout ça !</p>
+</div></blockquote>
+</section>
+<section id="automatise-ta-veille">
+<h3>Automatise ta veille<a class="headerlink" href="#automatise-ta-veille" title="Link to this heading">#</a></h3>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Google Alert</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/logo-google-alerts.png"><img alt="../../../../_images/logo-google-alerts.png" class="align-center" src="../../../../_images/logo-google-alerts.png" style="width: 100%;" />
+</a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://www.google.fr/alerts" rel="noreferrer" target="_blank"><span>https://www.google.fr/alerts</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Les Newsletters</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/news-530220_640.jpg"><img alt="../../../../_images/news-530220_640.jpg" class="align-center" src="../../../../_images/news-530220_640.jpg" style="width: 100%;" />
+</a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://www.google.fr/intl/fr/forms/about/" rel="noreferrer" target="_blank"><span>https://www.google.fr/intl/fr/forms/about/</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Flux RSS</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/256px-Rss_Shiny_Icon.svg.png"><img alt="../../../../_images/256px-Rss_Shiny_Icon.svg.png" class="align-center" src="../../../../_images/256px-Rss_Shiny_Icon.svg.png" style="width: 75%;" />
+</a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://www.google.fr/intl/fr/forms/about/" rel="noreferrer" target="_blank"><span>https://www.google.fr/intl/fr/forms/about/</span></a></div>
+</div>
+</div>
+</div>
+<br>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Comparaison entre les différents outils de veille automatique</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-8" name="sd-tab-set-3" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-8">
+Google Alert</label><div class="sd-tab-content docutils">
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p class="sd-card-text">Insérer image</p>
+</div>
+</div>
+<input id="sd-tab-item-9" name="sd-tab-set-3" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-9">
+Newsletter</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">On y pense pas assé mais les newletters sont un outil très performant pour automatiser votre veille. Il faut en revanche avoir fait un travail important de recherche en amont pour sélectionner les sites leaders dans votre secteur.</p>
+</div>
+<input id="sd-tab-item-10" name="sd-tab-set-3" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-10">
+Flux RSS</label><div class="sd-tab-content docutils">
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p class="sd-card-text">Comment les mettre en place</p>
+</div>
+</div>
+</div>
+</div>
+</details></section>
+</section>
+<section id="utilise-ton-tableau-de-veille">
+<h2>Utilise ton tableau de veille<a class="headerlink" href="#utilise-ton-tableau-de-veille" title="Link to this heading">#</a></h2>
+<p class="p-emphase">Quand une information te parvient, et si elle te semble pertinente, inscrit la dans ton tableau de veille ! </p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<blockquote>
+<div><p>Une alerte google peut nous parvenir par mail à tout moment (c’est son but, de nous alerter lorsqu’une nouvelle information est disponible). En revanche, il n’est pas recommandé de stopper immédiatement l’action qu’on est en train d’effectuer pour traiter cette info. C’est en cela que le tableau de veille est utile, pour stocker l’information en attendant que vous ayez le temps de la traiter</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header docutils">
+<p class="sd-card-text"><strong>Tableau de veille</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/256px-Microsoft_Office_Excel_(2019–present).svg.png"><img alt="../../../../_images/256px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" class="align-center" src="../../../../_images/256px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png" style="width: 80%;" />
+</a>
+</div>
+<div class="sd-card-footer docutils">
+<p class="sd-card-text">Télécharger</p>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="../../../../_static/assets/a-telecharger/Tableau-de-veille-pour-CDC-Vince.xlsx" rel="noreferrer" target="_blank"><span>../../../../_static/assets/a-telecharger/Tableau-de-veille-pour-CDC-Vince.xlsx</span></a></div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGXkHUJGXw/TgaHIIPdoCTdd4CUW2IoBA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGXkHUJGXw&#x2F;TgaHIIPdoCTdd4CUW2IoBA&#x2F;view?utm_content=DAGXkHUJGXw&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Domaine</a> par Vincent Deguin
+</section>
+<section id="analyse-les-informations">
+<h2>Analyse les informations<a class="headerlink" href="#analyse-les-informations" title="Link to this heading">#</a></h2>
+<br>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 100%; padding-top: 0; height: 0;"><iframe title="Genially sans titre" frameborder="0" width="800" height="800" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/67424a09559c9e0171393c50" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+<blockquote>
+<div><p>Le diagrammme suivant représente les différentes étapes nécéssaires a l’analyse d’une information</p>
+</div></blockquote>
+<section id="matrice-swot">
+<h3>Matrice SWOT<a class="headerlink" href="#matrice-swot" title="Link to this heading">#</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>En fonction des resultats de ta veille tu vas voire émerger des opportunités ou des menaces, qui peuvent venir nourrir ton analyse SWOT (déja débuté au Chapitre 2 ?)</p>
+</div>
+<figure class="align-default" id="id1">
+<a class="reference internal image-reference" href="../../../../_images/SWOT_fr.svg"><img alt="../../../../_images/SWOT_fr.svg" src="../../../../_images/SWOT_fr.svg" width="100%" /></a>
+<figcaption>
+<p><span class="caption-text">La matrice SWOT</span><a class="headerlink" href="#id1" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="pour-conclure">
+<h2>Pour Conclure<a class="headerlink" href="#pour-conclure" title="Link to this heading">#</a></h2>
+<section id="en-resume">
+<h3>En résumé<a class="headerlink" href="#en-resume" title="Link to this heading">#</a></h3>
+</section>
+<section id="examples-de-bonnes-veille">
+<h3>Examples de bonnes veille<a class="headerlink" href="#examples-de-bonnes-veille" title="Link to this heading">#</a></h3>
+</section>
+</section>
+<section id="en-plus">
+<h2>En Plus<a class="headerlink" href="#en-plus" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://bpifrance-creation.fr/encyclopedie/letude-marche/determiner-sa-strategie/elaborer-sa-strategie-dentreprise-lanalyse" rel="noreferrer" target="_blank">analyse PESTEL</a></p></li>
+</ul>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./content\Cours\GDP\Veille"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../Utilisateurs/Utilisateurs.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">3 - Identifier ses utilisateurs</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../Benchmark/Benchmark.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">5 - Benchmark Digital</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> 
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-est-quoi-la-veille">C’est quoi la veille ?</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#se-poser-les-bonnes-questions">Se poser les bonnes questions !</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#eviter-les-biais-cognitifs">Eviter les biais cognitifs</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-de-questions">Examples de questions</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quels-outils-pour-s-informer">Quels outils pour s’informer ?</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#internet-bien-sur">Internet bien sûr !</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-intelligence-artificielle">L’Intelligence Artificielle ?</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#interroge-directement-ta-cible">Intérroge directement ta cible !</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#les-outils-de-questionnaires">Les Outils de questionnaires</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#receuil-les-donnees">Receuil les données</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-2-methodes-de-veille">Les 2 méthodes de veille</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-differents-cas-d-usage">Les différents cas d’usage</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#automatise-ta-veille">Automatise ta veille</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#utilise-ton-tableau-de-veille">Utilise ton tableau de veille</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#analyse-les-informations">Analyse les informations</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#matrice-swot">Matrice SWOT</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pour-conclure">Pour Conclure</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#en-resume">En résumé</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#examples-de-bonnes-veille">Examples de bonnes veille</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#en-plus">En Plus</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../../../../_sources/content/Cours/GDP/Veille/Veille.md">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Vincent Deguin.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.3.7.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.4.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

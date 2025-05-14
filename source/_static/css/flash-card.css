@@ -1,0 +1,85 @@
+:root {
+    
+    --primary-color: #000000; /* Couleur principale noir*/
+    --secondary-color: #9B3086; /* Couleur secondaire magenta*/
+    --tertiary-color: #CC8CB8; /* Couleur secondaire rose*/
+    --text-color: #333333; /* Couleur du texte */
+}
+
+.flashcard {
+            width: 100%;
+            height: 400px;
+            text-align: center;
+            cursor: pointer;
+            perspective: 1000px; /* Perspective pour l'effet 3D */
+            margin: 20px;
+}
+
+.flashcard-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.6s ease-in-out; /* Douceur de la transition */
+            transform-style: preserve-3d; /* Conserve l'effet 3D */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour donner un effet de profondeur */
+            border: 2px solid #333; /* Ajoute une bordure sur toute la carte */
+            border-radius: 10px; /* Arrondir les coins */
+}
+
+.flashcard-front, .flashcard-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            padding: 10px;
+            box-sizing: border-box; /* Inclut la bordure dans les dimensions de l'élément */
+            backface-visibility: hidden; /* Masque la face arrière quand non visible */
+            justify-content: center; /* Centre horizontalement */
+            align-items: center; /* Centre verticalement */
+            background-color: #bbb;
+            color: white;
+            font-size: 18px;
+            border-radius: 10px;
+}
+
+/* Styles spécifiques pour chaque face */
+
+.flashcard-front {
+            background-color: white; /* Couleur pour la face avant */
+}
+
+.flashcard-back {
+            background-color: var(--secondary-color); /* Couleur pour la face arrière */
+        display: flex;
+    justify-content: center;
+    align-items: center;
+            transform: rotateY(180deg); /* Inversion de la face arrière pour la rotation */
+}
+
+.flashcard-back p{
+            color: white !important;
+
+}
+
+.flip {
+            transform: rotateY(180deg); /* Applique la rotation */
+}
+
+
+/* 	Button pour flash-card*/
+
+.button-flash-card {
+  margin: 0 auto;
+  display: block;
+  border-radius: 8px;
+  background-color: var(--tertiary-color);
+  border:1px solid black;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 1);
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  min-width:200px;
+  width: auto;
+  transition: all 0.5s;
+  cursor: pointer;
+}
