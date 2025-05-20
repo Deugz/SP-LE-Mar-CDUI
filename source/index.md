@@ -73,6 +73,9 @@ Reprendre les différentes étapes de la création d'un projet (pitch) - Pitch ?
 ```
 
 
+<iframe src="sphinx_site_graph.html" width="100%" height="800px" title="sitemap de site en 2D"></iframe>
+
+
 ## Comment ca marche ?
 
 ```{warning}

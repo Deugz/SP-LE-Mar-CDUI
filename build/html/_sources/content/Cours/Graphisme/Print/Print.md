@@ -51,4 +51,16 @@
 
 :::::
 
+## Formats
+
+- Format A0 841 × 1189
+- Format B0 1414 × 1000
+- Format A1 594 × 841
+- Format A2 420 × 594
+- Format A3 297 × 420
+- Format A4 210 × 297
+
+
+
+
 ## Synthèse
