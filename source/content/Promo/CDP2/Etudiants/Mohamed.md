@@ -47,3 +47,20 @@
 :::
 
 ::::
+
+
+## Projet
+
+<p class="p-emphase"> Solideo</p>
+
+### Besoins
+
+#### Carte Interactive
+
+#### Recommandations et notations
+
+
+## Examen Blanc 1
+
+- Inclut le storytelling dans la pres
+- Plus de visuels et moins de texte dans l'intro

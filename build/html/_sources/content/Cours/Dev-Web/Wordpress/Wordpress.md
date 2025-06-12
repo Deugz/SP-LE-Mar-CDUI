@@ -87,4 +87,15 @@ Prestashop Open Source !!
 
 ```
 
+
+## Autres CMS
+
+- [Penpot](https://penpot.app/)
+
+
+### IA
+
+- [Cursor](https://www.cursor.com/pricing)
+
+
 ## Synthèse

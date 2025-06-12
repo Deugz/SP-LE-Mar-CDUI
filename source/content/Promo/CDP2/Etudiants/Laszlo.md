@@ -47,3 +47,51 @@
 :::
 
 ::::
+
+## Projet
+
+<p class="p-emphase">Je lançe un service en ligne de gravure laser sur bois pour créer des petits objets personnalisables (magnets, cartes, cadeaux, accessoires…) destinés aux particuliers comme aux professionnels (événementiel, entreprises, artisans...)</p>
+
+- [Questionnaire](https://forms.gle/K2WYRTWP4dCm4JNZ8)
+
+## Besoins
+
+### Plugin de dessin 
+
+```{note}
+
+Pour son projet, Laszlo souhaite permettre à ses utilisateurs de dessiner un pattern qu'il gravera ensuite sur du bois.
+
+```
+
+#### Plugin Wordpress
+
+##### WPDrawSVG
+
+- [lien]()
+
+- Fonctionnalités :
+    - Permet de dessiner sur une toile HTML5 avec des outils vectoriels.
+    - Peut être intégré dans une page ou un article.
+    - Les dessins peuvent être exportés au format SVG.
+
+#### Plugin HTML
+
+<p class="p-emphase">Intégration manuelle</p>
+
+- [SVG-Edit](https://github.com/SVG-Edit/svgedit) : (open source)
+- [Fabric.js](https://fabricjs.com/)
+
+##### Test (SVG-Edit)
+
+<iframe
+    id="svgEditorContainer"
+    src="https://svgedit.netlify.app/editor/index.html"
+    width="100%"
+    height="600px"
+    frameborder="0">
+</iframe>
+
+
+
+

@@ -1,17 +1,5 @@
 # ✅ Promo 1
 
-***
-
-```{toctree}
-:maxdepth: 2
-:caption: Suivie
-:hidden:
-
-CDP1/Suivie
-
-```
-
-
 ```{toctree}
 :maxdepth: 2
 :caption: Apprenants
@@ -37,6 +25,10 @@ Etudiants/Yanis
 Etudiants/Yassine
 
 ```
+
+
+***
+
 
 ## Photos
 

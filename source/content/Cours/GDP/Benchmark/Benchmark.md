@@ -54,6 +54,19 @@
 
 :::::
 
+
+## Le Cours
+
+
+```{warning}
+
+Gros focus sur le score Woorank
+
+```
+
+### Tableau de Benchmark
+
+
 ## Synthèse
 
 

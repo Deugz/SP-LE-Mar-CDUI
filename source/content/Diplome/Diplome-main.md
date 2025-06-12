@@ -29,7 +29,7 @@ Metier/Evaluation
 **Titre RNCP**
 ^^^
 
-```{image} _static/logos/France-competence.jpg
+```{image} ../../_static/logos/France-competence.jpg
 
 ```
 

@@ -47,3 +47,12 @@
 :::
 
 ::::
+
+## Projet
+
+```{note}
+
+Intéréssé par l'écoconception
+
+
+```

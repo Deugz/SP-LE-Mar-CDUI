@@ -47,3 +47,12 @@
 :::
 
 ::::
+
+## Projet
+
+- [Questionnaire](https://docs.google.com/forms/d/1ayBOkQgF3VwrbkBrN-BOLJdeajWO1i2YSlKOvtiRcCU/edit)
+
+## Exam blanc 1
+
+- Attention a la lecture
+- cible : 

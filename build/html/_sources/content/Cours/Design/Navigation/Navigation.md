@@ -57,4 +57,17 @@
 
 :::::
 
+## Parcours Utilisateur
+
+- [blog-ux.com](https://blog-ux.com/quest-ce-que-le-parcours-utilisateur/)
+
+
+
+
 ## Synthèse
+
+
+
+
+
+

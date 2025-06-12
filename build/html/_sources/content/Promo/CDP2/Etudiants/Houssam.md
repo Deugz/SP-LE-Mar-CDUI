@@ -47,3 +47,16 @@
 :::
 
 ::::
+
+## Projet
+
+
+
+- [Questionnaire](https://forms.gle/JWbYd9HSReLWXW4X9)
+
+```{note}
+
+Pas mal ce questionnaire, mais tu nous parle beaucoup de produit **premium**, sans vraiment nous définir ce que c'est.
+
+
+```

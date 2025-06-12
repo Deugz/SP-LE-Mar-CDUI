@@ -1,6 +1,5 @@
 # 💑 La Promo
 
-***
 ```{toctree}
 :maxdepth: 2
 :caption: Encadrants
@@ -10,17 +9,6 @@ Encadrants/Isaure
 Encadrants/Vince
 
 ```
-
-
-```{toctree}
-:maxdepth: 2
-:caption: Suivie
-:hidden:
-
-CDP1/Suivie
-
-```
-
 
 ```{toctree}
 :maxdepth: 2
@@ -45,12 +33,14 @@ Etudiants/Zaccaria
 
 ```
 
+***
+
 ## Photos
 
 
 ```{note}
 
-Créer des dossiers pour chacun des apprenants
+Créer un slider avec les images
 
 ```
 

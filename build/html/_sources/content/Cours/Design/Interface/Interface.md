@@ -50,7 +50,33 @@ A venir
 
 :::::
 
+## Intro 
+
+```{note}
+
+- récupérer les ressources de Léo (dans Docs)
+
+```
+
+
+
+
+
 ## Synthèse
+
+
+## Ressources
+
+- [Bonnes pratiques du design web](https://anthonyhobday.com/sideprojects/saferules/)
+
+```{warning}
+
+Très bonne ressource mais en Anglais ...
+
+
+```
+
+- [Laws of UX](https://lawsofux.com/)
 
 
 ### Police

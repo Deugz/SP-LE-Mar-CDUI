@@ -60,3 +60,11 @@ src="https://www.canva.com/design/DAGlj1a7UWc/6wwQcqj1c56nZGMR-Rkafw/view?embed"
 </iframe>
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGlj1a7UWc&#x2F;6wwQcqj1c56nZGMR-Rkafw&#x2F;view?utm_content=DAGlj1a7UWc&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Test des Drivers</a> par Vdeguin
+
+
+## Test
+
+- [Lien Veille](../../../Cours/GDP/Veille/Veille)
+
+
+

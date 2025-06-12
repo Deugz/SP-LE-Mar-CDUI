@@ -57,4 +57,36 @@
 
 :::::
 
+
+
+
+## Parcours Utilisateur
+
+- [blog-ux.com](https://blog-ux.com/quest-ce-que-le-parcours-utilisateur/)
+
+### Arborescence
+
+```{note}
+
+Insérer documents situé dans docs et extraire 
+
+
+```
+
+
+## Bonnes pratiques
+
+- [Lois d'UX](https://blog.hubspot.fr/website/lois-ux)
+
+
 ## Synthèse
+
+## Ressource complémentaires
+
+- 
+
+
+
+
+
+

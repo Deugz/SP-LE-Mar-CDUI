@@ -1,7 +1,5 @@
 # 🛠️ Les Cours 
 
-***
-
 ```{toctree}
 :maxdepth: 2
 :caption: 🧐 Introduction
@@ -93,8 +91,28 @@ WebMarketing/Bonus/Bonus-Webmarketing
 :caption: 👑 Soft Skills & Autres
 :hidden:
 
+Soft-Skills/Pitch
 Soft-Skills/CV-motive
 
 ```
+
+***
+
+```{note}
+
+On met quoi dans cette page d'intro !?
+
+- Ingénierie de formation: enchainement des modules, fil rouge, lien avec les différents attendus du titre RNCP
+
+```
+
+```{admonition} To Do
+
+Mettre en place un système de tag qui avec les trois dimensions du titre RNCP et les différentes sous catégories pour chaque ! 
+
+
+```
+
+
 
 

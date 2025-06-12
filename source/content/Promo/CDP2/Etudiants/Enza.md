@@ -47,3 +47,28 @@
 :::
 
 ::::
+
+## Projet
+
+<p class="p-emphase">Cosm'Ethique</p>
+
+- [Questionnaire](https://docs.google.com/forms/d/e/1FAIpQLSeMVc9J60HkU0AxLsWZEgY4YBmm4NqyuvcC5_XnFVZ-LRK5KA/viewform?usp=sharing&ouid=114894192610915425084)
+
+
+## Examen blanc 1
+
+### Concurrents
+
+- Toogoodtogo
+
+-  Blissim
+
+
+```{note}
+
+Diagramme des trois cercles avec interconnexion:
+- Social
+- Ecologique
+- Beauté
+
+```

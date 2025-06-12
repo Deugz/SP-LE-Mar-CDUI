@@ -56,6 +56,60 @@
 
 :::::
 
+```{warning}
+
+
+Parler des chapitres eco-conception et accessibilité qui sont dans la partie Bonus
+
+```
+
+## Le Design ?
+
+```{note}
+
+Introduction sur le design général et les différentes méthodes de Design 
+
+```
+
+## Design System
+
+### Un example
+
+<iframe src="https://www.behance.net/embed/project/128860125?ilo0=1" height="500" width="100%" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
+
+
+
+
+
+### Design Thinking
+
+
+
+### Atomic Design
+
+- [blog-ux.com](https://blog-ux.com/quest-ce-que-latomic-design/)
+
+## Ressources
+
+- [15 Tips for Better Signup / Login UX](https://www.learnui.design/blog/tips-signup-login-ux.html)
+
+- [Usabilis.com](https://www.usabilis.com/experience-map-carte-dexperience/?utm_source=blog_ux&utm_medium=referent&utm_id=info)
+
+```{note}
+
+Pas mal de templates a télécharger
+
+
+```
+
+- [uxpressia.com](https://uxpressia.com/)
+
+```{note}
+
+Des templates pour faciliter la définition de l'UX
+
+```
+
 ## Synthèse
 
 

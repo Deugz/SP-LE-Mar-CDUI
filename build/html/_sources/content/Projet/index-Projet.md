@@ -1,31 +1,58 @@
 # ✨ Votre Projet
 
-***
+```{toctree}
+:maxdepth: 2
+:caption: ⚠️ Avant de Commencer
+:hidden:
+
+Avant-de-Commencer/Pourquoi-Comment/Pourquoi-Comment
+Avant-de-Commencer/Livrables/Livrables
+Avant-de-Commencer/Environnement/Environement-main
+Avant-de-Commencer/Bonnes-Pratiques/Bonnes-pratiques
+
+```
 
 ```{toctree}
 :maxdepth: 2
-:caption: ✍ Votre Cahier des Charges
+:caption: 📅 Cahier des charges
 :hidden:
 
-CDC/Contexte/Contexte
-CDC/Analyse/Analyse
-CDC/Print/Print
-CDC/Pre-conception/Pre-conception
-CDC/Video-promo/Video-promo
-CDC/Site/Site
-CDC/Communication/Communication
-
+CDC/CDC
 
 ```
 
 
 ```{toctree}
 :maxdepth: 2
-:caption: 🗣 Support de présentation
+:caption: ✍ Le Dossier Projet
+:hidden:
+
+Dossier-Projet/Contexte/Contexte
+Dossier-Projet/Analyse/Analyse
+Dossier-Projet/Print/Print
+Dossier-Projet/Pre-conception/Pre-conception
+Dossier-Projet/Video-promo/Video-promo
+Dossier-Projet/Site/Site
+Dossier-Projet/Communication/Communication
+
+```
+
+
+```{toctree}
+:maxdepth: 2
+:caption: 🗣 Support de Présentation
 :hidden:
 
 Canva/Astuces
 
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: 💼 Dossier Professionel
+:hidden:
+
+Dossier-Professionel/DP
 
 ```
 
@@ -34,11 +61,12 @@ Canva/Astuces
 :caption: Annexes
 :hidden:
 
-../Glossaire
-
+../Annexes/Glossaire
+../Annexes/Webography
 
 ```
 
+***
 
 ```{note}
 

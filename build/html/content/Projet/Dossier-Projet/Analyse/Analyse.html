@@ -1,0 +1,788 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="../../../../" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Analyse &#8212; Label Ecole V0 0.0.1 documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css?v=362ab14a" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/togglebutton.css?v=13237357" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/sphinx-thebe.css?v=4fa983c6" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster.custom.css?v=7bc2f056" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster.bundle.min.css?v=37217874" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster-sideTip-shadow.min.css?v=6227e517" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster-sideTip-punk.min.css?v=94669e23" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster-sideTip-noir.min.css?v=21a39f42" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster-sideTip-light.min.css?v=a18b2449" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster-sideTip-borderless.min.css?v=dbff53e4" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/micromodal.css?v=d7bf34ee" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/sphinx-design.min.css?v=95c83b7e" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/custom_style.css?v=06b5301d" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/slider.css?v=31e19075" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/flash-card.css?v=d4949c41" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@400;700&display=swap" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script src="../../../../_static/jquery.js?v=5d32c60e"></script>
+    <script src="../../../../_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+    <script src="../../../../_static/documentation_options.js?v=e645c8fa"></script>
+    <script src="../../../../_static/doctools.js?v=9a2dae69"></script>
+    <script src="../../../../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../../../../_static/scripts/sphinx-book-theme.js"></script>
+    <script src="../../../../_static/js/hoverxref.js?v=9fdeeee5"></script>
+    <script src="../../../../_static/js/tooltipster.bundle.min.js?v=18bf091b"></script>
+    <script src="../../../../_static/js/micromodal.min.js?v=04d6302d"></script>
+    <script async="async" kind="hypothesis" src="https://hypothes.is/embed.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../../../_static/togglebutton.js?v=4a39c7ea"></script>
+    <script src="../../../../_static/design-tabs.js?v=f930bc37"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../../../_static/sphinx-thebe.js?v=c100c467"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'content/Projet/Dossier-Projet/Analyse/Analyse';</script>
+    <script src="../../../../_static/_static/scripts/slider-script.js"></script>
+    <script src="../../../../_static/_static/scripts/page-layout.js"></script>
+    <link rel="canonical" href="https://deugz.github.io/SP-LE-Mar-CDUI/build/html/index.html/content/Projet/Dossier-Projet/Analyse/Analyse.html" />
+    <link rel="icon" href="../../../../_static/Label-Ecole-Logo.png"/>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Print" href="../Print/Print.html" />
+    <link rel="prev" title="Contexte" href="../Contexte/Contexte.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+<div class="bd-header__inner bd-page-width">
+  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
+    <span class="fa-solid fa-bars"></span>
+  </button>
+  
+  
+  <div class="col-lg-3 navbar-header-items__start">
+    
+      <div class="navbar-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../../../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../../../_static/Label-Ecole-Logo.png" class="logo__image only-light" alt=""/>
+    <script>document.write(`<img src="../../../../_static/Label-Ecole-Logo.png" class="logo__image only-dark" alt=""/>`);</script>
+  
+  
+    <p class="title logo__title"> &nbsp (13) CDUI &nbsp </p>
+  
+</a></div>
+    
+  </div>
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../Diplome/Diplome-main.html">
+    🎓 Le Diplome
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../Promo/CDP2/CDP2-Main.html">
+    💑 La Promo
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../Cours/index-cours.html">
+    🛠️ Les Cours
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../index-Projet.html">
+    ✨ Votre Projet
+  </a>
+</li>
+
+            <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle nav-item" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-controls="pst-nav-more-links">
+                    More
+                </button>
+                <ul id="pst-nav-more-links" class="dropdown-menu">
+                    
+<li class=" ">
+  <a class="nav-link dropdown-item nav-internal" href="../../../Promo/CDP1/CDP1-Main.html">
+    ✅ Promo 1
+  </a>
+</li>
+
+                </ul>
+            </li>
+            
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+        </div>
+      
+      
+        <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
+      
+        <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://drive.google.com/drive/folders/1Gqv0_RDXwI7om8ob1uVuu7__oYLtDHYp" title="Drive" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-google-drive fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Drive</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FParis&showPrint=0&mode=WEEK&hl=fr&src=dmRlZ3VpbkBsYWJlbC1lbW1hdXMuY28&src=Y185OWQ3Y2M0MWJhYjE4OTBlYWYyY2FhZmJjZDZjYWZiN2ZjMWRiNmZkYzI1Y2UwYmQ0ZTgzMGFmNzkwZmU1YTgxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4uZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=bG1lcmVzc2VAbGFiZWwtZW1tYXVzLmNv&color=%230B8043&color=%234285F4&color=%230B8043&color=%23AD1457" title="Calendrier" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-calendar-days fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Calendrier</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/Deugz/Encyclopedia-Home" title="Discord" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-discord fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Discord</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/Deugz/SP-Label-Ecole" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script>
+    </div>
+  
+
+  
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
+</div>
+
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          
+          
+            <div class="navbar-item">
+<nav>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../Diplome/Diplome-main.html">
+    🎓 Le Diplome
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../Promo/CDP2/CDP2-Main.html">
+    💑 La Promo
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../Cours/index-cours.html">
+    🛠️ Les Cours
+  </a>
+</li>
+
+
+<li class="nav-item current active">
+  <a class="nav-link nav-internal" href="../../index-Projet.html">
+    ✨ Votre Projet
+  </a>
+</li>
+
+
+<li class="nav-item ">
+  <a class="nav-link nav-internal" href="../../../Promo/CDP1/CDP1-Main.html">
+    ✅ Promo 1
+  </a>
+</li>
+
+  </ul>
+</nav></div>
+          
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script></div>
+        
+          <div class="navbar-item"><ul class="navbar-icon-links"
+    aria-label="Icon Links">
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://drive.google.com/drive/folders/1Gqv0_RDXwI7om8ob1uVuu7__oYLtDHYp" title="Drive" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-google-drive fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Drive</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=Europe%2FParis&showPrint=0&mode=WEEK&hl=fr&src=dmRlZ3VpbkBsYWJlbC1lbW1hdXMuY28&src=Y185OWQ3Y2M0MWJhYjE4OTBlYWYyY2FhZmJjZDZjYWZiN2ZjMWRiNmZkYzI1Y2UwYmQ0ZTgzMGFmNzkwZmU1YTgxQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4uZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=bG1lcmVzc2VAbGFiZWwtZW1tYXVzLmNv&color=%230B8043&color=%234285F4&color=%230B8043&color=%23AD1457" title="Calendrier" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-regular fa-calendar-days fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Calendrier</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/Deugz/Encyclopedia-Home" title="Discord" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-discord fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">Discord</span></a>
+        </li>
+        <li class="nav-item">
+          
+          
+          
+          
+          
+          
+          
+          
+          <a href="https://github.com/Deugz/SP-Label-Ecole" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
+            <span class="sr-only">GitHub</span></a>
+        </li>
+</ul></div>
+        
+      </div>
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+<nav class="bd-docs-nav bd-links"
+     aria-label="Section Navigation">
+  <p class="bd-links__title" role="heading" aria-level="1">Section Navigation</p>
+  <div class="bd-toc-item navbar-nav"><p aria-level="2" class="caption" role="heading"><span class="caption-text">⚠️ Avant de Commencer</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../Avant-de-Commencer/Pourquoi-Comment/Pourquoi-Comment.html">Un Projet, Pourquoi &amp; Comment ?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Avant-de-Commencer/Livrables/Livrables.html">Les Différents Livrables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Avant-de-Commencer/Environnement/Environement-main.html">Votre Environnement de Travail</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Avant-de-Commencer/Bonnes-Pratiques/Bonnes-pratiques.html">Bonnes Pratiques</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">📅 Cahier des charges</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../CDC/CDC.html">Cahier des charges</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">✍ Le Dossier Projet</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../Contexte/Contexte.html">Contexte</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Analyse</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Print/Print.html">Print</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Pre-conception/Pre-conception.html">Pré-conception</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Video-promo/Video-promo.html">Vidéo Promo</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Site/Site.html">Création du Site</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Communication/Communication.html">Stratégie de Communication</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">🗣 Support de Présentation</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../Canva/Astuces.html">Astuces</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">💼 Dossier Professionel</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../Dossier-Professionel/DP.html">Dossier Pro</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Annexes</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../../Annexes/Glossaire.html">Glossaire</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../Annexes/Webography.html">Webography</a></li>
+</ul>
+</div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item">
+
+
+
+<nav aria-label="Breadcrumb" class="d-print-none">
+  <ul class="bd-breadcrumbs">
+    
+    <li class="breadcrumb-item breadcrumb-home">
+      <a href="../../../../index.html" class="nav-link" aria-label="Home">
+        <i class="fa-solid fa-home"></i>
+      </a>
+    </li>
+    
+    <li class="breadcrumb-item"><a href="../../index-Projet.html" class="nav-link">✨ Votre Projet</a></li>
+    
+    <li class="breadcrumb-item active" aria-current="page">Analyse</li>
+  </ul>
+</nav>
+</div>
+      
+    </div>
+  
+  
+</div>
+</div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="analyse">
+<h1>Analyse<a class="headerlink" href="#analyse" title="Link to this heading">#</a></h1>
+<section id="l-analyse-en-amont-de-la-creation-du-site-internet">
+<h2>L’analyse en amont de la création du site internet<a class="headerlink" href="#l-analyse-en-amont-de-la-creation-du-site-internet" title="Link to this heading">#</a></h2>
+<div class="dropdown tip admonition">
+<p class="admonition-title">Mettre en place son système de veille</p>
+<p>La mise en place d’un système de veille pour un projet de vente en ligne est essentielle pour rester compétitif et informé des tendances du marché. Voici les étapes pour y parvenir :</p>
+<ol class="arabic simple">
+<li><p><strong>Définir les objectifs de veille :</strong> Identifier clairement ce que tu souhaites surveiller. Cela peut inclure la concurrence, les tendances du marché, les nouvelles technologies, les comportements des consommateurs, etc.</p></li>
+<li><p><strong>Choisir les sources de veille :</strong> Sélectionner les sources pertinentes pour ton domaine, comme les sites d’actualités, les blogs, les forums, les réseaux sociaux, les rapports sectoriels, les newsletters, les médias spécialisés, etc.</p></li>
+</ol>
+<blockquote>
+<div><p>Il existe différents outils pour mettre en place une veille notamment Pocket, Google trend ou encore <a class="reference external" href="https://www.perplexity.ai/" rel="noreferrer" target="_blank">https://www.perplexity.ai/</a> (attention avec l’IA, ne soyez pas fainéant, analysez vous-même les chiffres, l’analyse donnée par perplexity n’est pas professionnelle et plutôt générique et creuse, mais les sources intéressantes ! )</p>
+</div></blockquote>
+</div>
+<div class="dropdown tip admonition">
+<p class="admonition-title">Mettre en place un tableau de recueil de l’information</p>
+<p>Pour pouvoir mener à bien ta veille, il y a un tableau de veille mis à ta disposition dans le drive. C’est ici que tu vas pouvoir regrouper tous les éléments que tu jugeras utile à ton projet.</p>
+<ul class="simple">
+<li><p><strong>Mettre un lien vers tableau de veille !!</strong></p></li>
+</ul>
+</div>
+<div class="dropdown tip admonition">
+<p class="admonition-title">Définir les cibles de son projet</p>
+<p>Définir les cibles de ton projet est une étape essentielle pour orienter tes efforts de manière efficace. C’est le centre de ton projet. Par la suite, l’ensemble des livrables vont être orientés et pensés avec tes cibles. Voici un processus en plusieurs étapes pour t’aider à définir clairement tes cibles :</p>
+<ol class="arabic simple">
+<li><p><strong>Analyse du marché :</strong> Grâce à ta veille, tu as pu faire une analyse approfondie du marché dans lequel ton projet évoluera. Tu as identifié les segments de marché, les tendances, les besoins non satisfaits et les opportunités.</p></li>
+<li><p><strong>Segmentation :</strong> Sur la base de cette veille (analyse de marché), tu peux diviser ton marché en segments distincts en fonction de critères tels que l’âge, le sexe, la localisation, les intérêts, les comportements d’achat, les préférences, etc.</p></li>
+</ol>
+<p>Comment segmenter les cibles ?</p>
+<ul class="simple">
+<li><p><strong>Cœur de cible :</strong> Le cœur de cible représente le groupe démographique ou comportemental le plus pertinent et précisément adapté à votre produit, service ou projet. C’est le segment de ton audience qui bénéficie le plus directement de ce que tu offres et qui est le plus susceptible de l’adopter. C’est là que se trouve ton public idéal.</p></li>
+<li><p><strong>Cible principale :</strong> La cible principale est le segment d’audience que tu vises en priorité. C’est le groupe sur lequel tu concentres tes efforts marketing, tes messages et tes stratégies pour générer le plus grand impact initial. Cette cible est souvent en étroite relation avec le cœur de cible.</p></li>
+<li><p><strong>Cible secondaire ou tertiaire :</strong> Les cibles secondaires et tertiaires sont des groupes d’audience qui ne sont pas directement au cœur de ta proposition, mais qui ont néanmoins un intérêt pour ton produit ou service. Elles pourraient être des segments complémentaires, des utilisateurs potentiels à plus long terme ou des groupes connexes qui pourraient être touchés indirectement par ce que tu offres.</p></li>
+</ul>
+<p>En résumé, le cœur de cible représente le public idéal le plus directement lié à ton projet, la cible principale est le groupe auquel tu t’adresses en priorité, et les cibles secondaires ou tertiaires sont des groupes supplémentaires qui peuvent également être intéressés par ce que tu proposes, bien que de manière indirecte ou à un stade ultérieur.</p>
+<p>Lorsqu’une marque démarre, elle doit avoir des cibles bien précises et au fur et à mesure s’élargir. Dans le métier, on dit que plus la cible est large, moins on touche de personnes.</p>
+<p>Dans cet exemple il est à noter que le coeur de cible est un segment plus précis qui se retrouve dans la cible principale qui est un peu plus large.</p>
+</div>
+<div class="dropdown tip admonition">
+<p class="admonition-title">Expliquer comment tu comptes utiliser cette veille</p>
+<p>Pour résumer votre veille et justifier les cibles, expliquez comment votre veille va vous servir à vous tenir au courant de l’évolution des tendances, des fonctionnalités, des méthodes de communication, des attentes de votre cible, bref de tout ce qui est relatif à votre projet. Néanmoins tout au long de votre oral, vous devrez faire référence à votre veille pour justifier vos choix. Pas de panique, ça se travaillera petit à petit à l’entrainement à l’oral.</p>
+</div>
+<div class="dropdown tip admonition">
+<p class="admonition-title">Créer 2 fiches persona</p>
+<ol class="arabic simple">
+<li><p><strong>Personnalisation des personas :</strong> Pour chaque segment identifié, créez des personas détaillées (au moins 2 personas). Les personas sont des profils semi-fictifs de vos clients idéaux, incorporant des informations démographiques, psychographiques et comportementales.</p></li>
+<li><p><strong>Objectifs et besoins :</strong> Pour chaque persona, identifiez leurs objectifs, leurs besoins, leurs problèmes et leurs aspirations. Comment votre projet peut-il répondre à ces aspects ? Pensez aussi à leur manière d’utiliser les technologies, quelles sont leurs habitudes…?</p></li>
+<li><p><strong>Avantages et proposition de valeur :</strong> Déterminez les avantages spécifiques que votre projet apporte à chaque persona. Comment votre solution résout-elle leurs problèmes ou répond-elle à leurs besoins ?</p></li>
+</ol>
+</div>
+<div class="dropdown tip admonition">
+<p class="admonition-title">Benchmark digital d’au moins deux sites concurrents</p>
+<p>À l’aide du tableau excel, analysez au moins deux concurrents directs.</p>
+<p>Analyser les concurrents directs en matière de conception UI/UX à travers un benchmark digital peut fournir des informations précieuses pour améliorer votre propre approche. Voici comment procéder :</p>
+<ol class="arabic simple">
+<li><p><strong>Identifiez vos concurrents directs :</strong> Identifiez au moins deux concurrents qui opèrent dans le même domaine et offrent des produits ou services similaires.</p></li>
+<li><p><strong>Définissez les critères de benchmark :</strong> Identifiez les aspects spécifiques que vous souhaitez évaluer, tels que la conception du site web, la convivialité, les fonctionnalités, l’expérience utilisateur, les interactions, la communication sur les réseaux sociaux, etc. Vous pouvez également rechercher quelles sont leurs audiences en utilisant <a class="reference external" href="https://www.similarweb.com/fr/" rel="noreferrer" target="_blank">similar web</a> afin de les comparer avec vos cibles.</p></li>
+<li><p><strong>Analysez leur site web et applications :</strong> Parcourez leurs sites web de manière approfondie. Observez la disposition, la navigation, l’utilisation des couleurs, des typographies, des icônes, et l’esprit général du site web.</p></li>
+<li><p><strong>Explorez les fonctionnalités :</strong> Notez les fonctionnalités spécifiques qu’ils offrent et comment elles sont mises en œuvre. Identifiez les points faibles et les points forts de chaque concurrent.</p></li>
+<li><p><strong>Évaluez l’expérience utilisateur :</strong> Mettez-vous dans la peau d’un utilisateur et évaluez l’expérience globale. Notez la facilité de navigation, la rapidité de chargement, la cohérence visuelle, etc.</p></li>
+<li><p><strong>Examinez les interactions :</strong> Analysez les micro-interactions, les animations et les réactions visuelles lors des interactions utilisateur. Cela peut donner un aperçu de la qualité de l’expérience utilisateur (par exemple les effets de survol, l’apparition des photos des produits, la manière dont l’interaction se fait avec le menu, etc…).</p></li>
+<li><p><strong>Évaluez la stratégie mobile :</strong> Assurez-vous d’examiner les versions mobiles de leurs sites web et applications. La conception responsive et l’expérience mobile sont cruciales. En effet, le mobile first est incontournable aujourd’hui quand on sait qu’en 2021 48 % des Français effectuent des <em><strong>achats</strong></em> e-commerce depuis leur <em><strong>mobile</strong></em>, soit près de la moitié.</p></li>
+<li><p><strong>Analysez les retours des utilisateurs :</strong> Recherchez des critiques, des commentaires ou des avis d’utilisateurs concernant leurs produits. Identifiez les points forts et les points faibles signalés par les utilisateurs et la manière dont votre concurrent gère les retours et avis des clients. Cela fait partie de la communication.</p></li>
+<li><p><strong>Mesurez les performances :</strong> Utilisez des outils d’analyse web pour évaluer les performances de leurs sites en termes de temps de chargement, de taux de rebond, etc.</p></li>
+</ol>
+</div>
+<div class="dropdown tip admonition">
+<p class="admonition-title">Définir les objectifs du site en fonction du benchmark</p>
+<ol class="arabic simple">
+<li><p><strong>Synthétisez vos observations :</strong> Résumez vos observations et faite une diagnostic.</p></li>
+<li><p><strong>Tirez des enseignements :</strong> Identifiez les meilleures pratiques et les opportunités d’innovation pour vous différencier et faire mieux que vos concurrents. Utilisez ces enseignements pour améliorer votre propre conception UI/UX.</p></li>
+<li><p><strong>Innovation et différenciation :</strong> Bien que le benchmark puisse vous aider à comprendre les tendances du marché, ne négligez pas la possibilité d’apporter des innovations uniques qui vous différencient de vos concurrents.</p></li>
+</ol>
+<p>En intégrant ces analyses de benchmark dans votre processus de conception UI/UX, vous pouvez créer des expériences utilisateur plus solides et mieux répondre aux besoins de votre public.</p>
+</div>
+<blockquote>
+<div><p>🧑‍🎓 <strong>LES ATTENDUS POUR LE DIPLÔME</strong>
+Pour le diplôme, les attendus du jury sont d’avoir accès dans votre cahier des charges à ces éléments.
+<strong>Pour les livrables</strong> à produire, vous devez avoir :</p>
+<ul class="simple">
+<li><p>Un tableau de recueil de l’information</p></li>
+<li><p>Les cibles de votre projet</p></li>
+<li><p>Au minimum 2 personas</p></li>
+<li><p>Un tableau de benchmark digital
+<strong>Pour l’oral</strong>, il est attendu de présenter votre méthode pour mettre en place votre système de veille, présenter vos grands enseignements de la veille, présenter vos cibles et les personas, une slide par concurrents qui résume vos observations et votre diagnostic du benchmark avec les plus et les moins et ce que vous souhaitez mettre en place.</p></li>
+</ul>
+</div></blockquote>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./content\Projet\Dossier-Projet\Analyse"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="../Contexte/Contexte.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Contexte</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../Print/Print.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Print</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> 
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#l-analyse-en-amont-de-la-creation-du-site-internet">L’analyse en amont de la création du site internet</a></li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../../../../_sources/content/Projet/Dossier-Projet/Analyse/Analyse.md">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+
+  <p class="copyright">
+    
+      © Copyright 2024, Vincent Deguin.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.3.7.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item">
+<p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.4.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>

@@ -33,7 +33,7 @@
 :::
 
 :::{grid-item-card}
-:link: https://www.canva.com/design/DAGUF2whjeg/UMWbYzex1s2EbMyUrfZnUw/view?utm_content=DAGUF2whjeg&utm_campaign=designshare&utm_medium=link&utm_source=editor
+:link: https://www.canva.com/design/DAGpHs8xreo/AbI31iIaoKwRJQd8ZZDwBw/edit
 :class-header: bg-light
 :columns: 4
 **Canva**
@@ -47,3 +47,16 @@
 :::
 
 ::::
+
+## Projet
+
+- [Questionnaire](https://forms.gle/8LtuAFui66tKW2j96)
+
+
+
+## Examen Blanc 1
+
+- Difficultés dans la présentation (synchronisation entre les slides et le dialogue)
+- mentionne le nom de domaine pour choix du nom, bien :)
+- beaucoup d'informations dans les diapos (mieux exploiter le cahier des charges et faire remonter les informations les plus importantes dans la présentation)
+- Accéléerer le rythme de la présentation (aller plus a l'essentiel)
