@@ -57,14 +57,34 @@
 
 :::::
 
+
+
+
 ## Parcours Utilisateur
 
 - [blog-ux.com](https://blog-ux.com/quest-ce-que-le-parcours-utilisateur/)
 
+### Arborescence
 
+```{note}
+
+A fin de construire votre arborescence, je vous invite à consulter le document suivant
+
+```
+
+- [Guide pour construire l'arborescence de son site](Docs/FR-Guide-construire-arborescence-site-web)
+
+
+## Bonnes pratiques
+
+- [Lois d'UX](https://blog.hubspot.fr/website/lois-ux)
 
 
 ## Synthèse
+
+## Ressource complémentaires
+
+- 
 
 
 

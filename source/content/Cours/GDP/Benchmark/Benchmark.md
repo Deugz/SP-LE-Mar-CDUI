@@ -46,13 +46,22 @@
 
 :::{tab-item} Autres promos
 
-
+<iframe src="chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://drive.usercontent.google.com/download?id=1BkyhXs4h1g2ErjVKa07BEaMk-s79ASST&authuser=0&acrobatPromotionSource=GmailListView" 
+        width="100%" 
+        height="400px" 
+        frameborder="0" 
+        allowfullscreen>
+</iframe>
 
 :::
 
 ::::
 
 :::::
+
+[Lien vers les livrables](https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Projet/Dossier-Projet/Analyse/Analyse.html#DP-Benchmark)
+
+
 
 
 ## Le Cours
@@ -65,6 +74,23 @@ Gros focus sur le score Woorank
 ```
 
 ### Tableau de Benchmark
+
+```{note}
+
+Mettre le tableau de benchmark et expliquer le système de notation
+
+```
+
+
+
+
+## Examples 
+
+```{note}
+
+Sélectionner des projets et mettre des liens vers les projets des apprenants en question
+
+```
 
 
 ## Synthèse
@@ -131,3 +157,30 @@ Très bon outil (très, trop ?) puissant!
 
 
 ```
+
+## Analyse Technologie
+
+ ### Wappalyzer
+
+Fonctionnalités : Identifie CMS, frameworks, langages serveur, outils d’analyse, widgets, CDN, etc.
+
+Extension navigateur disponible (Chrome/Firefox).
+
+Très simple d’utilisation : il suffit de saisir l’URL du site.
+
+### BuiltWith
+
+Très complet, notamment pour les sites e-commerce.
+
+Donne des informations détaillées sur les technologies front-end, back-end, hébergement, sécurité, etc.
+
+Utilisé aussi pour la veille concurrentielle.
+
+### WhatRuns
+
+Extension navigateur légère et intuitive.
+
+Affiche les technologies utilisées directement lors de la navigation sur un site.
+
+Très pratique pour une utilisation rapide et discrète.
+

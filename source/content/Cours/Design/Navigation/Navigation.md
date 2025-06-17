@@ -68,10 +68,11 @@
 
 ```{note}
 
-Insérer documents situé dans docs et extraire 
-
+A fin de construire votre arborescence, je vous invite à consulter le document suivant
 
 ```
+
+- [Guide pour construire l'arborescence de son site](Docs/FR-Guide-construire-arborescence-site-web)
 
 
 ## Bonnes pratiques

@@ -51,7 +51,19 @@
 
 ## Projet
 
-<p class="p-emphase"> Solideo</p>
+<p class="p-emphase"> Solideo</p>https://www.openscience.fr/IMG/pdf/iste_roisi20v1n1_5-2.pdf
+
+### Définition du Besoin
+
+#### Veille
+
+- [Article intéréssant](https://www.openscience.fr/IMG/pdf/iste_roisi20v1n1_5-2.pdf)
+
+```{note}
+
+A explorer pour mon propre projet (Vincent)
+
+```
 
 ### Besoins
 
@@ -64,3 +76,7 @@
 
 - Inclut le storytelling dans la pres
 - Plus de visuels et moins de texte dans l'intro
+
+## Vidéo
+
+Vidéo explicative. Introduction du concept de partage, explication 

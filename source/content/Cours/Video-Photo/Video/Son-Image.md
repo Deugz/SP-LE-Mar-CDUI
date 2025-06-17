@@ -7,4 +7,6 @@ Pas de syllabus ! (ni de cours)
 
 ```
 
+## Outils d'IA
+
 ## Synthèse

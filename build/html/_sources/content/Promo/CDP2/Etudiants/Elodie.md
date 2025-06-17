@@ -50,4 +50,13 @@
 
 ## Projet
 
+### Définition du Besoin
+
 - [Questionnaire](https://forms.gle/fi5rtcHAyzjGhF8t8)
+
+
+### Vidéo
+
+Vidéo explicative sur le concept. Voi off (pas envie qu'on la voit)
+
+- 2 vidéos (1 site internet et une réseau sociaux)

@@ -54,6 +54,11 @@
 
 - [Questionnaire](https://forms.gle/K2WYRTWP4dCm4JNZ8)
 
+
+### Vidéo
+
+Vidéo qui explique la méthode
+
 ## Besoins
 
 ### Plugin de dessin 
@@ -91,6 +96,22 @@ Pour son projet, Laszlo souhaite permettre à ses utilisateurs de dessiner un pa
     height="600px"
     frameborder="0">
 </iframe>
+
+###### En pratique
+
+Ajoute ce bout de code dans ton site
+
+```{html}
+
+<iframe
+    id="svgEditorContainer"
+    src="https://svgedit.netlify.app/editor/index.html"
+    width="100%"
+    height="600px"
+    frameborder="0">
+</iframe>
+
+```
 
 
 

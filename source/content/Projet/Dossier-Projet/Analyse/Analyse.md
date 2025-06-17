@@ -63,6 +63,10 @@ Pour résumer votre veille et justifier les cibles, expliquez comment votre veil
 
 ```
 
+
+
+(admonition-id)=DP-Benchmark
+
 ```{admonition} Benchmark digital d’au moins deux sites concurrents
 :class: dropdown, tip
 

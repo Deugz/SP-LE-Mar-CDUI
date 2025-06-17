@@ -78,6 +78,13 @@ A venir
 
 :::::
 
+## Le Cours
+
+### C'est quoi Wordpress ?
+
+#### CMS
+
+<p class="p-empha">Content Management System
 
 - Autres CMS [liste de e-commerce Nation](https://www.ecommerce-nation.fr/top-solutions-cms-ecommerce/)
 
@@ -87,8 +94,9 @@ Prestashop Open Source !!
 
 ```
 
+- [Liste autres CMS](https://blog.hubspot.fr/website/cms?hubs_content=blog.hubspot.fr/website/lois-ux&hubs_content-cta=null&hubs_post-cta=blognavcard-website)
 
-## Autres CMS
+### Autres CMS
 
 - [Penpot](https://penpot.app/)
 
