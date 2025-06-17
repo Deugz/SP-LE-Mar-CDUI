@@ -51,7 +51,7 @@ intersphinx_mapping = {
 hoverxref_auto_ref = True
 hoverxref_domains = ['std']
 
-myst_enable_extensions = ["colon_fence", "linkify", "substitution"]
+myst_enable_extensions = ["colon_fence", "linkify", "substitution", "attrs_block", "deflist"]
 myst_heading_anchors = 2
 
 
