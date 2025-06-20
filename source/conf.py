@@ -55,9 +55,12 @@ intersphinx_mapping = {
 hoverxref_auto_ref = True
 hoverxref_domains = ['std']
 
-myst_enable_extensions = ["colon_fence", "linkify", "substitution", ]
-myst_heading_anchors = 2
+myst_enable_extensions = ["colon_fence", "html_admonition", "html_image", "replacements", "linkify", "substitution", ]
+myst_heading_anchors = 3
 
+myst_substitutions = {
+    "last_updated": "{{ last_updated }}"
+}
 
 
 templates_path = ['_templates']

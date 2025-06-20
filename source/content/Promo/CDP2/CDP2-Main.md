@@ -15,21 +15,21 @@ Encadrants/Vince
 :caption: Apprenants
 :hidden:
 
-Etudiants/Amar
-Etudiants/Elodie
-Etudiants/Enza
-Etudiants/Fahar
-Etudiants/Houssam
+Etudiants/Amar/Amar
+Etudiants/Elodie/Elodie
+Etudiants/Enza/Enza
+Etudiants/Fahar/Fahar
+Etudiants/Houssam/Houssam
 Etudiants/Laszlo/Laszlo
-Etudiants/Manon
-Etudiants/Marwan
-Etudiants/Mehdi
-Etudiants/Mohamed
-Etudiants/Nouah
-Etudiants/Rafik
-Etudiants/Sofiane
-Etudiants/Soumaya
-Etudiants/Zaccaria
+Etudiants/Manon/Manon
+Etudiants/Marwan/Marwan
+Etudiants/Mehdi/Mehdi
+Etudiants/Mohamed/Mohamed
+Etudiants/Nouah/Nouah
+Etudiants/Rafik/Rafik
+Etudiants/Sofiane/Sofiane
+Etudiants/Soumaya/Soumaya
+Etudiants/Zaccaria/Zaccaria
 
 ```
 

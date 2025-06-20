@@ -95,6 +95,9 @@ Reprendre les différentes étapes de la création d'un projet (pitch) - Pitch ?
 ```
 
 
+📅 Dernière mise à jour : {last_updated}
+
+
 
 
 
