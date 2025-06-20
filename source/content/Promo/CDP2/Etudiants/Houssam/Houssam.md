@@ -60,3 +60,11 @@ Pas mal ce questionnaire, mais tu nous parle beaucoup de produit **premium**, sa
 
 
 ```
+
+### Print
+
+```{note}
+
+Inclure les différentes itérations de son print.
+
+```

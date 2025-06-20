@@ -112,6 +112,76 @@ Des templates pour faciliter la définition de l'UX
 
 ## Synthèse
 
+::::{grid} 4
+
+:::{grid-item}
+
+```{image} Docs/ergo-1-compatibilite.png
+
+```
+
+:::
+
+:::{grid-item}
+
+```{image} Docs/ergo-2-guidage.png
+
+```
+
+:::
+
+:::{grid-item}
+
+```{image} Docs/ergo-3-adaptabilite.png
+
+```
+
+:::
+
+:::{grid-item}
+
+```{image} Docs/ergo-4-coherence.png
+
+```
+
+:::
+
+:::{grid-item}
+
+```{image} Docs/ergo-5-controle.png
+
+```
+
+:::
+
+:::{grid-item}
+
+```{image} Docs/ergo-6-cdt.png
+
+```
+
+:::
+
+:::{grid-item}
+
+```{image} Docs/ergo-7-erreurs.png
+
+```
+
+:::
+
+:::{grid-item}
+
+```{image} Docs/ergo-8-codes.png
+
+```
+
+:::
+
+::::
+
+
+
 
 ```{note}
 

@@ -114,5 +114,56 @@ Ajoute ce bout de code dans ton site
 ```
 
 
+## Test
+
+### Boutton en bois
+
+
+<style>
+    .wood-button {
+      background-image: url('https://www.publicdomainpictures.net/pictures/270000/velka/wood-texture-background.jpg');
+      background-size: cover;
+      background-position: center;
+      border: 2px solid #5c3b20;
+      border-radius: 14px;
+      color: #2b1a0e;
+      font-size: 22px;
+      padding: 18px 36px;
+      box-shadow:
+        inset 2px 2px 5px rgba(0, 0, 0, 0.6),
+        inset -2px -2px 4px rgba(255, 255, 255, 0.1),
+        4px 4px 12px rgba(0, 0, 0, 0.3);
+      text-shadow:
+        1px 1px 0 #000,
+       -1px -1px 0 #000,
+        inset 0 0 6px rgba(0, 0, 0, 0.7);
+      font-weight: bold;
+      text-transform: uppercase;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .wood-button:hover {
+      transform: translateY(-2px);
+      box-shadow:
+        inset 1px 1px 3px rgba(0, 0, 0, 0.5),
+        6px 6px 10px rgba(0, 0, 0, 0.4);
+    }
+
+    .wood-button:active {
+      transform: translateY(1px);
+      box-shadow:
+        inset 2px 2px 6px rgba(0, 0, 0, 0.7);
+      text-shadow: none;
+      color: #1a0d05;
+    }
+</style>
+
+
+<button class="wood-button">Gravé Bois</button>
+
+
+
+
 
 

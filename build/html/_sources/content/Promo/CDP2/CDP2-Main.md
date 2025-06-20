@@ -20,7 +20,7 @@ Etudiants/Elodie
 Etudiants/Enza
 Etudiants/Fahar
 Etudiants/Houssam
-Etudiants/Laszlo
+Etudiants/Laszlo/Laszlo
 Etudiants/Manon
 Etudiants/Marwan
 Etudiants/Mehdi

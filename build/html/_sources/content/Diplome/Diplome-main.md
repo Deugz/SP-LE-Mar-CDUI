@@ -6,8 +6,41 @@
 :hidden:
 
 Metier/Concepteur_UI
-Metier/Competences/Competences_UI
+Metier/CDUI-CDP
 Metier/Evaluation
+
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: Graphisme
+:hidden:
+
+Competences/Graphisme/Illustration
+Competences/Graphisme/Interfaces
+Competences/Graphisme/Animations
+Competences/Graphisme/Supports
+
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: Communication
+:hidden:
+
+Competences/Communication/webmarketing
+Competences/Communication/veille
+
+```
+
+```{toctree}
+:maxdepth: 2
+:caption: Dev Web
+:hidden:
+
+Competences/Dev-Web/Integrer
+Competences/Dev-Web/Adapter
+Competences/Dev-Web/Optimiser
 
 ```
 

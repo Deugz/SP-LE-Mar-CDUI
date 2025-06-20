@@ -108,10 +108,53 @@ Petite phrase pour expliquer:
 
 <br>
 
+
+<p class="p-emphase">Attendus et Livrables </p>
+
+::::{grid} 3
+
+:::{grid-item-card}
+:link: https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Diplome/Diplome-main.html
+:class-header: bg-light
+:columns: 4
+**Le Diplome** (Référentiel)
+^^^
+
+image
+
+:::
+
+:::{grid-item-card}
+:link: https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Projet/Dossier-Projet/Analyse/Analyse.html
+:class-header: bg-light
+:columns: 4
+**Le Dossier Projet**
+^^^
+
+image
+
+:::
+
+:::{grid-item-card}
+:link: https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Projet/Canva/Astuces.html
+:class-header: bg-light
+:columns: 4
+**Présentation Canva**
+^^^
+
+image
+
+:::
+
+::::
+
+<br>
+
 ***
 
 ## C'est quoi la veille ?
 
+<br>
 
 <p class="p-emphase">La veille consiste à surveiller, collecter et analyser régulièrement des informations sur un sujet précis. Elle sert à rester informé des nouveautés, des tendances ou des évolutions qui pourraient être utiles pour prendre de meilleures décisions.
 </p>
@@ -169,6 +212,9 @@ C'est une activité pour rester à jour et anticiper grâce à des informations 
 :::
 
 ::::
+
+
+
 
 
 ## Se poser les bonnes questions !

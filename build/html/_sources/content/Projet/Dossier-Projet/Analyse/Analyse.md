@@ -1,10 +1,21 @@
 # Analyse
 
+<p class="p-emphase">L'analyse en amont de la création du site internet</p>
 
-## L'analyse en amont de la création du site internet
+> 🧑‍🎓 **LES ATTENDUS POUR LE DIPLÔME**
+Pour le diplôme, les attendus du jury sont d’avoir accès dans votre cahier des charges à ces éléments. 
+**Pour les livrables** à produire, vous devez avoir : 
+>- Un tableau de recueil de l’information
+>- Les cibles de votre projet
+>- Au minimum 2 personas 
+>- Un tableau de benchmark digital
+>**Pour l’oral**, il est attendu de présenter votre méthode pour mettre en place votre système de veille, présenter vos grands enseignements de la veille, présenter vos cibles et les personas, une slide par concurrents qui résume vos observations et votre diagnostic du benchmark avec les plus et les moins et ce que vous souhaitez mettre en place.
 
-```{admonition} Mettre en place son système de veille
-:class: dropdown, tip
+
+***
+
+
+## Mettre en place son système de veille
 
 La mise en place d'un système de veille pour un projet de vente en ligne est essentielle pour rester compétitif et informé des tendances du marché. Voici les étapes pour y parvenir :
 
@@ -14,19 +25,20 @@ La mise en place d'un système de veille pour un projet de vente en ligne est es
 > Il existe différents outils pour mettre en place une veille notamment Pocket, Google trend ou encore https://www.perplexity.ai/ (attention avec l’IA, ne soyez pas fainéant, analysez vous-même les chiffres, l’analyse donnée par perplexity n’est pas professionnelle et plutôt générique et creuse, mais les sources intéressantes ! ) 
 
 
-```
-
-```{admonition} Mettre en place un tableau de recueil de l'information
-:class: dropdown, tip
+## Mettre en place un tableau de recueil de l'information
 
 Pour pouvoir mener à bien ta veille, il y a un tableau de veille mis à ta disposition dans le drive. C’est ici que tu vas pouvoir regrouper tous les éléments que tu jugeras utile à ton projet. 
+
+```{note}
 
 - **Mettre un lien vers tableau de veille !!**
 
 ```
 
-```{admonition} Définir les cibles de son projet
-:class: dropdown, tip
+
+
+
+## Définir les cibles de son projet
 
 Définir les cibles de ton projet est une étape essentielle pour orienter tes efforts de manière efficace. C’est le centre de ton projet. Par la suite, l’ensemble des livrables vont être orientés et pensés avec tes cibles. Voici un processus en plusieurs étapes pour t’aider à définir clairement tes cibles :
 
@@ -45,30 +57,18 @@ Lorsqu’une marque démarre, elle doit avoir des cibles bien précises et au fu
 
 Dans cet exemple il est à noter que le coeur de cible est un segment plus précis qui se retrouve dans la cible principale qui est un peu plus large.
 
-```
+## Expliquer comment tu comptes utiliser cette veille
 
-```{admonition} Expliquer comment tu comptes utiliser cette veille
-:class: dropdown, tip
 
 Pour résumer votre veille et justifier les cibles, expliquez comment votre veille va vous servir à vous tenir au courant de l’évolution des tendances, des fonctionnalités, des méthodes de communication, des attentes de votre cible, bref de tout ce qui est relatif à votre projet. Néanmoins tout au long de votre oral, vous devrez faire référence à votre veille pour justifier vos choix. Pas de panique, ça se travaillera petit à petit à l’entrainement à l’oral. 
 
-```
-
-```{admonition} Créer 2 fiches persona
-:class: dropdown, tip
+## Créer 2 fiches persona
 
 1. **Personnalisation des personas :** Pour chaque segment identifié, créez des personas détaillées (au moins 2 personas). Les personas sont des profils semi-fictifs de vos clients idéaux, incorporant des informations démographiques, psychographiques et comportementales. 
 2. **Objectifs et besoins :** Pour chaque persona, identifiez leurs objectifs, leurs besoins, leurs problèmes et leurs aspirations. Comment votre projet peut-il répondre à ces aspects ? Pensez aussi à leur manière d’utiliser les technologies, quelles sont leurs habitudes…?
 3. **Avantages et proposition de valeur :** Déterminez les avantages spécifiques que votre projet apporte à chaque persona. Comment votre solution résout-elle leurs problèmes ou répond-elle à leurs besoins ?
 
-```
-
-
-
-(DP-Benchmark)=
-
-```{admonition} Benchmark digital d’au moins deux sites concurrents
-:class: dropdown, tip
+## Benchmark digital d’au moins deux sites concurrents
 
 À l’aide du tableau excel, analysez au moins deux concurrents directs. 
 
@@ -84,25 +84,13 @@ Analyser les concurrents directs en matière de conception UI/UX à travers un b
 8. **Analysez les retours des utilisateurs :** Recherchez des critiques, des commentaires ou des avis d'utilisateurs concernant leurs produits. Identifiez les points forts et les points faibles signalés par les utilisateurs et la manière dont votre concurrent gère les retours et avis des clients. Cela fait partie de la communication. 
 9. **Mesurez les performances :** Utilisez des outils d'analyse web pour évaluer les performances de leurs sites en termes de temps de chargement, de taux de rebond, etc.
 
-```
+## Définir les objectifs du site en fonction du benchmark
 
-```{admonition} Définir les objectifs du site en fonction du benchmark
-:class: dropdown, tip
-
-1. **Synthétisez vos observations :** Résumez vos observations et faite une diagnostic. 
+1. **Synthétisez vos observations :** Résumez vos observations et faite un diagnostic. 
 2. **Tirez des enseignements :** Identifiez les meilleures pratiques et les opportunités d'innovation pour vous différencier et faire mieux que vos concurrents. Utilisez ces enseignements pour améliorer votre propre conception UI/UX.
 3. **Innovation et différenciation :** Bien que le benchmark puisse vous aider à comprendre les tendances du marché, ne négligez pas la possibilité d'apporter des innovations uniques qui vous différencient de vos concurrents.
 
 En intégrant ces analyses de benchmark dans votre processus de conception UI/UX, vous pouvez créer des expériences utilisateur plus solides et mieux répondre aux besoins de votre public.
 
 
-```
 
-> 🧑‍🎓 **LES ATTENDUS POUR LE DIPLÔME**
-Pour le diplôme, les attendus du jury sont d’avoir accès dans votre cahier des charges à ces éléments. 
-**Pour les livrables** à produire, vous devez avoir : 
->- Un tableau de recueil de l’information
->- Les cibles de votre projet
->- Au minimum 2 personas 
->- Un tableau de benchmark digital
->**Pour l’oral**, il est attendu de présenter votre méthode pour mettre en place votre système de veille, présenter vos grands enseignements de la veille, présenter vos cibles et les personas, une slide par concurrents qui résume vos observations et votre diagnostic du benchmark avec les plus et les moins et ce que vous souhaitez mettre en place. 

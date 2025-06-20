@@ -50,7 +50,9 @@ A venir
 
 :::::
 
-## Intro 
+## Cours
+
+### Intro 
 
 ```{note}
 
@@ -59,20 +61,72 @@ A venir
 ```
 
 
+### Prototypage
 
 
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/M0xkv7Sqtc0?si=rKt9ysUmvt4O4dsy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
+
+
+#### Variables
+
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/pwEndoM4ZCc?si=MMNs048XcTKngP6e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
+
+##### Etape 1 
+
+<p class="p-emphase">Créer les variables et les connecter à notre design</p>
+
+- De quelles variables j'ai besoin ?
+    - Nom
+    - Prix
+    - Taille 
 
 ## Synthèse
 
 
+
+
+
+### Examples
+
 ## Ressources
+
+### Cours Complets
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 5
+
+> Test de présentation
+> - [Lien](https://academie.digidop.fr/formations/figma)
+
+
+:::
+
+:::{grid-item}
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3J7zfAxz_fM?si=Ud_8_Xa8-AH09xtj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+:::
+
+::::
+
+
+
 
 - [Bonnes pratiques du design web](https://anthonyhobday.com/sideprojects/saferules/)
 
 ```{warning}
 
 Très bonne ressource mais en Anglais ...
-
 
 ```
 

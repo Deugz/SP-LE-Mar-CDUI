@@ -38,10 +38,14 @@ extensions = [
   "sphinx_thebe",
   "hoverxref.extension",
   "sphinx_new_tab_link",
-  "sphinx_sitemap",  
+  "sphinx_sitemap", 
+  "sphinx_last_updated_by_git", 
 ]
 
+
 html_baseurl = 'https://deugz.github.io/SP-LE-Mar-CDUI/build/html/index.html'
+html_last_updated_fmt = "%d %B %Y"
+
 
 import os
 intersphinx_mapping = {
@@ -51,7 +55,7 @@ intersphinx_mapping = {
 hoverxref_auto_ref = True
 hoverxref_domains = ['std']
 
-myst_enable_extensions = ["colon_fence", "linkify", "substitution", "attrs_block", "deflist"]
+myst_enable_extensions = ["colon_fence", "linkify", "substitution", ]
 myst_heading_anchors = 2
 
 
@@ -111,6 +115,6 @@ html_theme_options = {
 
 
 html_css_files = ["css/custom_style.css", "css/slider.css", "css/flash-card.css",'https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@400;700&display=swap',]
-html_js_files = ["_static/scripts/slider-script.js", "_static/scripts/page-layout.js", "_static/scripts/custom.js"]
+html_js_files = ["_static/scripts/slider-script.js", "_static/scripts/page-layout.js", ]
 
     
