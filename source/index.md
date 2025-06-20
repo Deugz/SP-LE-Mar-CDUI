@@ -86,5 +86,16 @@ Reprendre les différentes étapes de la création d'un projet (pitch) - Pitch ?
 ```
 
 
+## Test
+
+```{raw} html
+
+<p><em>Dernière mise à jour : {{ last_updated }}</em></p>
+
+```
+
+
+
+
 
 
