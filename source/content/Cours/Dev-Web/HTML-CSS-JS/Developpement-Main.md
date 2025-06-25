@@ -43,3 +43,13 @@ Permet de checker votre site selon les standards W3C
 
 
 ```
+
+## Ressources
+
+- [snipzy.dev](https://snipzy.dev/)
+
+```{note}
+
+Frontend code snippets
+
+```

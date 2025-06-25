@@ -1,4 +1,4 @@
-# 💑 La Promo
+# 💪 CDP 2
 
 ```{toctree}
 :maxdepth: 2

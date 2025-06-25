@@ -12,7 +12,7 @@
 ^^^
 
 
-```{image} ../../Docs/Logos/256px-Google_Drive_icon_(2020).svg.png
+```{image} ../../../Docs/Logos/256px-Google_Drive_icon_(2020).svg.png
 :width: 100%
 ```
 
@@ -26,7 +26,7 @@
 ^^^
 
 
-```{image} ../../Docs/Logos/256px-Microsoft_Office_Word_(2019–present).svg.png
+```{image} ../../../Docs/Logos/256px-Microsoft_Office_Word_(2019–present).svg.png
 :width: 100%
 ```
 
@@ -40,10 +40,42 @@
 ^^^
 
 
-```{image} ../../Docs/Logos/Canva_icon_2021.svg
+```{image} ../../../Docs/Logos/Canva_icon_2021.svg
 :width: 100%
 ```
 
 :::
 
 ::::
+
+## Besoins
+
+### Integration IA
+
+#### Outils
+
+- [N8N](https://n8n.io/)
+
+```{note}
+
+Très bon site pour mettre en place des workflows d'automatisation grace a l'IA. 
+
+Je te conseil grandement de le tester mon ami !
+
+```
+
+- Github repositorie avec plein de template n8n et donc plusieurs cas d'usage - [Lien](https://github.com/Zie619/n8n-workflows)
+
+```{note}
+
+Très bon point de départ pour ton projet et bonne ressource a explorer ;)
+
+```
+
+#### Ressources
+
+```{warning}
+
+Récupérer le document que je lui avait envoyé !
+
+```

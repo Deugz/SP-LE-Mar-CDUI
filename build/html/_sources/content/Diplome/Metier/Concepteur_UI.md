@@ -1,4 +1,32 @@
-# C'est quoi ce métier ?
+# Présentation du Diplôme
+
+## Titre Professionnel
+
+<p class="p-emphase">Reconnue par le <strong>Ministère du Travail</strong></p>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Description des attendus ...
+
+:::
+
+:::{grid-item-card}
+:link: https://www.francecompetences.fr/recherche/rncp/35634/#anchor3
+:class-header: bg-light
+:columns: 3
+**Titre RNCP**
+^^^
+
+```{image} ../../../_static/logos/France-competence.jpg
+
+```
+
+:::
+
+::::
 
 ## Activités
 
@@ -15,25 +43,25 @@
 
 ## Métiers
 
-- UI designer
-- Web designer
-- Chargé de communication digitale
-- Chargé de veille technologique et stratégique
-- Web marketeur
-- Web réalisateur
-- Référenceur
-- Intégrateur multimédia
-- Réalisateur multimédia
-- Infographiste 2D/3D
-- Concepteur intégrateur internet
-- Animateur 2D/3D
-- Designer d'interactivité
-- Assistant chef de projet multimédia
-- Lead UI designer
-- Concepteur multimédia
-- UX designer
-- Architecte d'information
-- Directeur de projet
-- Directeur de création interactive
-- Directeur d'agence web
+- [UI designer](https://www.onisep.fr/ressources/univers-metier/metiers/ui-designer)
+- [Web designer](https://www.onisep.fr/ressources/univers-metier/metiers/webdesigner)
+- [Chargé de communication digitale](https://www.onisep.fr/ressources/univers-metier/metiers/chef-cheffe-de-projet-communication-digitale)
+- [Chargé de veille technologique et stratégique](https://www.onisep.fr/ressources/univers-metier/metiers/veilleur-veilleuse-strategique)
+- [Web marketeur]()
+- [Web réalisateur]()
+- [Référenceur](https://www.onisep.fr/ressources/univers-metier/metiers/charge-chargee-de-referencement-web)
+- [Intégrateur multimédia]()
+- [Réalisateur multimédia]()
+- [Infographiste 2D/3D]()
+- [Concepteur intégrateur internet]()
+- [Animateur 2D/3D]()
+- [Designer d'interactivité]()
+- [Assistant chef de projet multimédia]()
+- [Lead UI designer]()
+- [Concepteur multimédia](https://www.onisep.fr/ressources/univers-metier/metiers/concepteur-conceptrice-multimedia)
+- [UX designer]()
+- [Architecte d'information]()
+- [Directeur de projet]()
+- [Directeur de création interactive]()
+- [Directeur d'agence web]()
 

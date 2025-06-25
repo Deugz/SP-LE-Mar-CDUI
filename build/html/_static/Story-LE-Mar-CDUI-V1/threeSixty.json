@@ -1,0 +1,32 @@
+{
+  "version": "3.94.33511.0",
+  "course_id": "6elbiVczAJt",
+  "title": "Story-LE-Mar-CDUI",
+  "thumbnail": "story_content/thumbnail.jpg",
+  "scenes": [
+    {
+      "title": "Scène sans titre"
+    }
+  ],
+  "slides": [
+    {
+      "id": "6Gjsk8yaEgy",
+      "title": "Diapositive sans titre",
+      "scene_index": "1.1"
+    },
+    {
+      "id": "6ik4CBYr91p",
+      "title": "Diapositive sans titre",
+      "scene_index": "1.2"
+    }
+  ],
+  "player": {
+    "name": "unified",
+    "width": 1300,
+    "height": 791
+  },
+  "stage": {
+    "width": 1280,
+    "height": 720
+  }
+}

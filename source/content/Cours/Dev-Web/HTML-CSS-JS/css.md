@@ -45,4 +45,8 @@ A venir
 
 :::::
 
+## Ressources
+
+- [Hypercolor](https://hypercolor.dev/)
+
 ## Synthèse

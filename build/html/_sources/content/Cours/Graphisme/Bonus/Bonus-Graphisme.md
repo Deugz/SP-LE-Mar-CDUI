@@ -19,3 +19,20 @@ Service de l'état mais payant. Existe t'il une alternative gratuite ?
 
 
 ```
+
+## Jeux
+
+### Typography
+
+- [shape.method.ac](https://shape.method.ac/)
+
+
+```{note}
+
+Jeux très intéréssant pour exercer son oeil
+
+- A utiliser comme ressource pour créer des exercices dans les ateliers libre 
+
+- [Exemple Youtube](https://www.youtube.com/watch?v=rHV1XORLLAE)
+
+```

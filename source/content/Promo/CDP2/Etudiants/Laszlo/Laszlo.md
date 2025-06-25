@@ -12,7 +12,7 @@
 ^^^
 
 
-```{image} ../../Docs/Logos/256px-Google_Drive_icon_(2020).svg.png
+```{image} ../../../Docs/Logos/256px-Google_Drive_icon_(2020).svg.png
 :width: 100%
 ```
 
@@ -26,7 +26,7 @@
 ^^^
 
 
-```{image} ../../Docs/Logos/256px-Microsoft_Office_Word_(2019–present).svg.png
+```{image} ../../../Docs/Logos/256px-Microsoft_Office_Word_(2019–present).svg.png
 :width: 100%
 ```
 
@@ -40,7 +40,7 @@
 ^^^
 
 
-```{image} ../../Docs/Logos/Canva_icon_2021.svg
+```{image} ../../../Docs/Logos/Canva_icon_2021.svg
 :width: 100%
 ```
 

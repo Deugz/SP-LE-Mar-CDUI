@@ -1,4 +1,4 @@
-# 🎓 Le Diplome
+# 🎓 Diplôme
 
 ```{toctree}
 :maxdepth: 2
@@ -44,49 +44,64 @@ Competences/Dev-Web/Optimiser
 
 ```
 
+
+<br>
+
+<div class="scroll-image-row">
+  <img src="../../_static/Storytelling/Comic/Comic-index-1.png" class="scroll-in from-left stagger image-large" alt="Image 2">
+  <img src="../../_static/Storytelling/profile-pic-round.png" class="scroll-in from-right stagger image-small" alt="Illustration faisant fonction de storytelling">
+</div>
+
+
+<br>
+
+
 ## Concepteur Designer UI
 
-::::{grid} 2
 
-:::{grid-item}
-:columns: 9
 
-> Description des attendus ...
+### Présentation du Diplôme
 
-:::
 
-:::{grid-item-card}
-:link: https://www.francecompetences.fr/recherche/rncp/35634/#anchor3
-:class-header: bg-light
-:columns: 3
-**Titre RNCP**
-^^^
+### CDUI vs CDP e-Commerce
 
-```{image} ../../_static/logos/France-competence.jpg
 
-```
-
-:::
-
-::::
-
-### Chef de Projet e-Commerce ?
+### Référentiel d’évaluation
 
 
 
-## La Pédagogie
-
-- Pédagogie
-
-- Chargé de projet e-commerce 
-
-
-
+<p class="p-emphase"><strong>3 Compétences Principales</strong></p>
 
 ```{note}
 
-Créer un génially qui explique un peu notre facon de voire la pédagogie
-
+Créer un shéma (trois cercles qui s'emboitent), pour introduire les différentes compétences
 
 ```
+
+## Graphisme
+
+
+### Illustrations, Graphismes, Visuels
+
+### Interfaces & Prototypages
+
+### Animations Vidéo
+
+### Supports de Communications
+
+## Communication
+
+### Stratégie Webmarketing
+
+### Système de Veille
+
+## Développement Web
+
+### Intégrer
+
+### Adapter
+
+### Optimiser
+
+
 

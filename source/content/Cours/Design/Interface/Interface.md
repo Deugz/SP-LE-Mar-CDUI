@@ -56,8 +56,18 @@ A venir
 
 ```{note}
 
-- récupérer les ressources de Léo (dans Docs)
+- récupérer les ressources de Léo (dans Docs) et créer une activité de type drag & drop avec les différents termes de vocabulaire UI vs UX
 
+```
+
+### Étapes de Conception
+
+```{figure} Docs/Intro-etapes-design.png
+---
+width: 100%
+name: Etapes-conception
+---
+Les étapes de conception
 ```
 
 

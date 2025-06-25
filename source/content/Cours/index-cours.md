@@ -1,4 +1,4 @@
-# 🛠️ Les Cours 
+# 🧠 Cours 
 
 ```{toctree}
 :maxdepth: 2
@@ -110,6 +110,16 @@ On met quoi dans cette page d'intro !?
 
 Mettre en place un système de tag qui avec les trois dimensions du titre RNCP et les différentes sous catégories pour chaque ! 
 
+
+```
+
+## Outils (en vrac)
+
+- [mcstumble](https://www.mcstumble.com/)
+
+```{note}
+
+Pleins d'outils pour le web et également un outil de recherche pour chercher des sources d'inspirations
 
 ```
 

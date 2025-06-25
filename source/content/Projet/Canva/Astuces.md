@@ -18,3 +18,21 @@ Reprendre toute les infos du doc d'Iris et créer une activité pour que les app
 ```
 
 ## Examples de projets
+
+
+
+
+
+## Outils IA
+
+### Diagrammes
+
+- [napkin.ai](https://www.napkin.ai/)
+
+```{note}
+
+Outil IA pour générer des diagrammes à partir de textes
+
+- créer un lien depuis et vers la page de veille
+
+```

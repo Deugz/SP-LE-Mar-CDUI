@@ -53,4 +53,21 @@ A venir
 
 :::::
 
+## Cours
+
+
+
+
+## Ressources
+
+### AI
+
+- [Blaze.ai](https://www.blaze.ai/)
+
+```{note}
+
+A tester
+
+```
+
 ## Synthèse

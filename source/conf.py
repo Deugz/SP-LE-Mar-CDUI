@@ -117,7 +117,7 @@ html_theme_options = {
 }
 
 
-html_css_files = ["css/custom_style.css", "css/slider.css", "css/flash-card.css",'https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@400;700&display=swap',]
-html_js_files = ["_static/scripts/slider-script.js", "_static/scripts/page-layout.js", ]
+html_css_files = ["css/custom_style.css", "css/slider.css", "css/flash-card.css", "css/sliding-image.css", 'https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@400;700&display=swap',]
+html_js_files = ["scripts/slider-script.js", "scripts/page-layout.js", "scripts/flash-card.js", "scripts/sliding-image.js"]
 
     

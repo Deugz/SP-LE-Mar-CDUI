@@ -1,4 +1,10 @@
-# Référenciel d'évaluation
+# Référentiel d'évaluation
+
+```{note}
+
+Inclure les fichiers pdf des grilles d'évaluation
+
+```
 
 ## Observations
 

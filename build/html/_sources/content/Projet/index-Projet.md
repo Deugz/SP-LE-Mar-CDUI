@@ -1,4 +1,4 @@
-# ✨ Votre Projet
+# ✨ Projet
 
 ```{toctree}
 :maxdepth: 2
@@ -53,16 +53,6 @@ Canva/Astuces
 :hidden:
 
 Dossier-Professionel/DP
-
-```
-
-```{toctree}
-:maxdepth: 2
-:caption: Annexes
-:hidden:
-
-../Annexes/Glossaire
-../Annexes/Webography
 
 ```
 

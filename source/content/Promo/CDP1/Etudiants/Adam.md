@@ -33,7 +33,7 @@
 :::
 
 :::{grid-item-card}
-:link: 
+:link: https://www.canva.com/design/DAGUTWKRATs/HtPit0MYcp-umQf2BLgqTw/edit
 :class-header: bg-light
 :columns: 4
 **Canva**

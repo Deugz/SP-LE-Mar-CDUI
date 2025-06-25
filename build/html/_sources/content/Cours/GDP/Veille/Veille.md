@@ -879,11 +879,10 @@ Créer un questionnaire efficace nécessite de suivre plusieurs bonnes pratiques
 
 :::
 
-
 ::::
 
 <!-- partial -->
-<script  src="../../../../_static/assets/scripts/flash-card.js"></script>
+<script  src="../../../../_static/scripts/flash-card.js"></script>
 
 <br>
 

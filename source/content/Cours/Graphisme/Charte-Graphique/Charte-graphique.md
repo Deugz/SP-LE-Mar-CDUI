@@ -61,6 +61,37 @@
 
 :::::
 
+## Cours
+
+### Couleurs
+
+#### Outils de sélection
+
+- [www.realtimecolors.com](https://www.realtimecolors.com/)
+
+```{note}
+
+Outils pour tester ta palette de couleurs sur un site factice ? a tester
+
+```
+
+- [Codepen](https://codepen.io/Juxtopposed/pen/gOBWdaY)
+
+```{note}
+
+Un jeux pour tester la visibilité de différentes nuances de couleurs
+
+```
+
+### Typography
+
+#### Explorez
+
+- [onts.ilovetypography.com](https://fonts.ilovetypography.com/)
+
+
+
+
 ## Synthèse
 
 :::{dropdown} Exemple avec la charte olympique

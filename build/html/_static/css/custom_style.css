@@ -1,5 +1,5 @@
 :root {
-    
+    --bkg-color: #000000;
     --primary-color: #000000; /* Couleur principale noir*/
     --secondary-color:  #7C2041; /* Couleur secondaire magenta*/
     --tertiary-color: #B3104A; /* Couleur secondaire rose*/
@@ -8,16 +8,19 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    
 }
 
 h1 {
     font-family: 'Fredoka', sans-serif;
     font-style: bold !important;
-    margin-top: 70px !important;
-    margin-bottom:70px !important;
     color: var(--primary-color) !important;
     text-align: center !important ;
-    font-size: 4.4em !important; 
+    font-size: 4.2em !important; 
+    background-color: white;
+    border: 2px solid #000;     /* Bordure noire de 2px */
+    border-radius: 10px;        /* Bords arrondis */
+    padding: 20px 20px; 
 }
 
 h2 {
@@ -26,7 +29,7 @@ h2 {
     margin-top: 70px !important;
     margin-bottom:70px !important;
     color: var(--secondary-color) !important;
-    font-size: 2.8em !important;
+    font-size: 2.6em !important;
 }
 
 h3 {
@@ -61,6 +64,22 @@ border-radius: 5px;
     z-index: 1000;       /* S'assure que l'image est au-dessus du contenu */
     margin: 0;
     padding: 0;
+}
+
+/* 	Custom admonitions */
+
+div.admonition.admonition-youtube {
+  border-color: hsl(0deg 100% 50%); /* YouTube red */
+}
+
+div.admonition.admonition-youtube > .admonition-title {
+  background-color: hsl(0deg 99% 18%);
+  color: white;
+}
+
+div.admonition.admonition-youtube > .admonition-title::after {
+  color: hsl(0deg 100% 50%);
+  content: "\f26c"; /* fa-solid fa-tv */
 }
 
 /* 	Video resize */
@@ -126,8 +145,21 @@ border-radius: 5px;
 @media (min-width: 960px) {
     .bd-page-width {
         max-width: 95rem !important;
-    }    
+        
+    } 
     
+}
+
+.bd-article-container {
+    background-color: rgba(255, 245, 236, 0.3) ;
+    max-width: 70em !important;
+}
+
+.sd-card-body {
+    background-color: white !important;
+    
+}
+
 /*   Left-sidebar */
 
 .bd-sidebar-primary {
@@ -152,8 +184,8 @@ border-radius: 5px;
 
 .navbar-header-items__center li {
 
-    margin-left: 15px !important;
-    margin-right: 15px !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
 
 }
     
