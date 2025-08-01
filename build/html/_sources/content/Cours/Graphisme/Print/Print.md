@@ -63,6 +63,27 @@
 
 ## Mockups
 
+### Sites
+
+::::{grid}
+
+:::{grid-item}
+:columns: 4
+
+> Un site qui a l'air sympa pour générer des mockups. <br >A tester !
+
+- 👀 → [maneken.app](https://maneken.app/)
+
+:::
+
+:::{grid-item}
+:columns: 8
+
+<video src="https://d3cjtrqzwhkv47.cloudfront.net/marketing-site/editor/maneken-reel-1440.mp4" controls width="100%" align="center"></video>
+
+:::
+
+::::
 
 ### Ressources
 

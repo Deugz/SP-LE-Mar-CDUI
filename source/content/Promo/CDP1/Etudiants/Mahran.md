@@ -55,50 +55,31 @@ Le lien canva partagé ne contient que les personas, demander le lien vers le ca
 
 ```
 
-## Examen Blanc
+## Projet
 
+### Vidéo
 
-```{warning}
+::::{grid} 3
 
-Veut-il vraiment devenir chargé de projet e-commerce
+:::{grid-item}
+:columns: 1
 
+:::
 
-```
+:::{grid-item}
+:columns: 10
 
-- Gros manque de confiance en soi
+<video src="../../../../_static/Video-apprenants/CDP1-MySeriesMania-Teaser.mp4" controls width="100%" align="center"></video>
 
-- manque de travail
+:::
 
-- Bonne entrée
+:::{grid-item}
+:columns: 1
 
-- plateforme ***e-commerce*
+:::
 
-- gros stress
+::::
 
-- benchmark 
-
-```{note}
-
-Le benchmark réalisé n'est pas un benchmarkt technologique
-
-
-```
-
-- penser a lui dire de se mettre
-
-
-## A faire
-
-- Montre nous les interfaces
-
-- parler de la veille
-
-- Récupérer les information de tes concurrents
-
-- parler de bollywood dans les veille
-
-- Ajouter les frustrations chez les personas
-    - citer les series ou films préférés des personas 
 
 
 

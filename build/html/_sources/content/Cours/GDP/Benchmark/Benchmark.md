@@ -62,6 +62,23 @@
 ## Les Attendus
 
 
+```{figure} Docs/Expl-Bench-Slide.png
+---
+width: 90%
+name: Expl-Bench-Slide
+---
+Voici un **exemple** de slide pour présenter les résultats de votre benchmark
+```
+
+<br>
+
+```{note}
+
+Créer une version interactive avec genially
+
+
+```
+
 
 ## Le Cours
 
@@ -118,7 +135,162 @@ Lien vers les critères de bastien et scapin vue en webdesign
 
 #### Outils 
 
-- [Woorank](https://www.woorank.com/fr)
+```{note}
+
+Faire un benchmark des différents outils
+
+- AZ jouter que si besoin de rentrer son numéro de carte pour obtenir une version d'éssaie, le site suivant peut générer des numéros de carte aléatoire : [namso-gen.com](https://namso-gen.com/?tab=basic&network=random)
+
+```
+
+##### Wappalyzer
+
+::::{grid}
+
+:::{grid-item}
+:columns: 9
+
+
+> Cette extension pour Firefox permet de définir les techniques utilisées sur un site internet. Vous pouvez par conséquent scanner et analyser les sites de vos concurrents pour comprendre leur fonctionnement et les types de logiciels qu’ils utilisent.  Dès qu’un site web vous plaît, vous pourrez comprendre comment il a été conçu et retenir les initiatives intéressantes.
+
+:::
+
+:::{grid-item-card}
+:link: https://www.wappalyzer.com/
+:class-header: bg-light
+:columns: 3
+**Wappalyzer**
+^^^
+
+<br>
+
+```{image} Docs/wappalyzer-icon.webp
+:width: 100%
+```
+
+<br>
+
+:::
+
+::::
+
+
+##### Woorank
+
+::::{grid}
+
+:::{grid-item}
+:columns: 9
+
+
+> Ce logiciel propose une analyse du référencement naturel (SEO) mettant en évidence les points faibles et les facteurs d’amélioration des sites internet. Vous pouvez collecter des données sur les sites de vos concurrents mais également sur le vôtre. De quoi savoir rapidement comment accroître votre visibilité et comprendre les techniques de vos concurrents !
+
+:::
+
+:::{grid-item-card}
+:link: https://www.woorank.com/fr
+:class-header: bg-light
+:columns: 3
+**Woorank**
+^^^
+
+<br>
+
+```{image} Docs/logo-woorank.png
+:width: 100%
+```
+
+:::
+
+::::
+
+##### Semrush
+
+::::{grid}
+
+:::{grid-item}
+:columns: 9
+
+
+> C’est un logiciel qui permet de suivre son positionnement et celui de ses concurrents sur les différents moteurs de recherche. Il met à votre disposition de nombreuses informations intéressantes pour optimiser sa stratégie de référencement naturel. Vous pourrez notamment analyser les sources de trafic d’une page web, observer le positionnement de sites et les nouveaux concurrents, cibler des mots-clés, etc.
+
+:::
+
+:::{grid-item-card}
+:link: https://www.semrush.com/
+:class-header: bg-light
+:columns: 3
+**Semrush**
+^^^
+
+<br>
+
+```{image} Docs/logo-semrush.png
+:width: 100%
+```
+
+:::
+
+::::
+
+##### Ahrefs
+
+::::{grid}
+
+:::{grid-item}
+:columns: 9
+
+
+> Il s’agit d’un logiciel d’analyse de référencement. Ahrefs vous aide à comprendre pourquoi vos concurrents se classent si haut dans les résultats des moteurs de recherche et ce que vous devez faire pour les distancer. Il propose de nombreux outils comme des recherches de mots-clés, l’analyse des liens entrants, du contenu et le suivi du classement des moteurs de recherche pour vous fournir des données complètes.
+
+:::
+
+:::{grid-item-card}
+:link: https://ahrefs.com/fr
+:class-header: bg-light
+:columns: 3
+**Ahrefs**
+^^^
+
+<br>
+
+```{image} Docs/logo-ahref.webp
+:width: 100%
+```
+
+:::
+
+::::
+
+
+##### Majestic
+
+::::{grid}
+
+:::{grid-item}
+:columns: 9
+
+
+> C’est un outil d’analyse utile pour vos campagnes de netlinking. Il vous propose de scanner les backlinks d’un site internet pour déterminer leur valeur et donc leur impact sur votre référencement naturel. Grâce à ses conseils vous pourrez maximiser l’impact de votre netlinking et ses autres fonctionnalités une analyse poussée de différents liens.
+
+:::
+
+:::{grid-item-card}
+:link: https://majestic.com/
+:class-header: bg-light
+:columns: 3
+**Majestic**
+^^^
+
+<br>
+
+```{image} Docs/majestic-logo.png
+:width: 100%
+```
+
+:::
+
+::::
 
 - [website.grader](https://website.grader.com/)
 

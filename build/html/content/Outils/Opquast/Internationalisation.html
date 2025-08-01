@@ -8,6 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <meta property="article:modified_time" content="2025-06-25T09:58:05+02:00" />
     <title>Internationalisation &#8212; Label Ecole V0 0.0.1 documentation</title>
   
   
@@ -85,6 +86,7 @@
     <link rel="prev" title="Images et Médias" href="Image-media.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+    <meta name="docbuild:last-update" content="25 June 2025"/>
   </head>
   
   
@@ -336,6 +338,10 @@ document.write(`
   
 
   
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
 </div>
 
     </header>
@@ -565,6 +571,193 @@ document.write(`
                   
   <section id="internationalisation">
 <h1>Internationalisation<a class="headerlink" href="#internationalisation" title="Link to this heading">#</a></h1>
+<section id="regles">
+<h2>Règles<a class="headerlink" href="#regles" title="Link to this heading">#</a></h2>
+<section id="l-indicatif-international-est-disponible-pour-tous-les-numeros-de-telephone">
+<h3>123 - L’indicatif international est disponible pour tous les numéros de téléphone.<a class="headerlink" href="#l-indicatif-international-est-disponible-pour-tous-les-numeros-de-telephone" title="Link to this heading">#</a></h3>
+<section id="objectif">
+<h4>Objectif<a class="headerlink" href="#objectif" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre l’utilisation immédiate du contact téléphonique quel que soit le contexte utilisateur.</p></li>
+</ul>
+</section>
+<section id="mise-en-oeuvre">
+<h4>Mise en œuvre<a class="headerlink" href="#mise-en-oeuvre" title="Link to this heading">#</a></h4>
+<p>Ajouter à chaque numéro de téléphone l’indicatif du pays sous la forme +indicatif international - numéro de téléphone.</p>
+<p>Retirer pour chaque numéro le premier 0. Exemple pour la France : +33 1 23 45 67 89.</p>
+</section>
+<section id="controle">
+<h4>Contrôle<a class="headerlink" href="#controle" title="Link to this heading">#</a></h4>
+<p>Pour chaque numéro de téléphone indiqué dans le site :</p>
+<ul class="simple">
+<li><p>Vérifier que tous les numéros sont précédés de l’indicatif du pays sous la forme +indicatif international - numéro de téléphone, par exemple +33 pour la France.</p></li>
+<li><p>Vérifier que le premier 0 des numéros a été retiré. Exemple pour la France : +33 6 11 22 33 44.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-pays-est-precise-pour-toutes-les-adresses-postales">
+<h3>124 - Le pays est précisé pour toutes les adresses postales.<a class="headerlink" href="#le-pays-est-precise-pour-toutes-les-adresses-postales" title="Link to this heading">#</a></h3>
+<section id="id1">
+<h4>Objectif<a class="headerlink" href="#id1" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs d’identifier immédiatement le pays associé à l’adresse postale, sans ambiguïté et sans avoir recours à d’autres éléments (ville, région, code postal, numéro de téléphone).</p></li>
+</ul>
+</section>
+<section id="id2">
+<h4>Mise en œuvre<a class="headerlink" href="#id2" title="Link to this heading">#</a></h4>
+<p>Indiquer explicitement le pays dans l’adresse postale sous forme textuelle.</p>
+</section>
+<section id="id3">
+<h4>Contrôle<a class="headerlink" href="#id3" title="Link to this heading">#</a></h4>
+<p>Pour chaque adresse postale indiquée dans le site :</p>
+<ul class="simple">
+<li><p>Vérifier la présence de la mention textuelle et explicite du pays dans toutes les adresses postales.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-code-source-de-chaque-page-indique-la-langue-principale-du-contenu">
+<h3>125 - Le code source de chaque page indique la langue principale du contenu.<a class="headerlink" href="#le-code-source-de-chaque-page-indique-la-langue-principale-du-contenu" title="Link to this heading">#</a></h3>
+<section id="id4">
+<h4>Objectif<a class="headerlink" href="#id4" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Favoriser l’indexation des contenus selon leur langue.</p></li>
+<li><p>Faciliter la traduction automatique.</p></li>
+<li><p>Permettre une lecture correcte du contenu par un outil de synthèse vocale.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id5">
+<h4>Mise en œuvre<a class="headerlink" href="#id5" title="Link to this heading">#</a></h4>
+<p>Renseigner l’attribut  <code class="docutils literal notranslate"><span class="pre">lang</span></code>  de l’élément racine  <code class="docutils literal notranslate"><span class="pre">html</span></code>  à l’aide du code langue approprié (tel qu’indiqué par le registre tenu par l’<a class="reference external" href="http://www.iana.org/assignments/language-subtag-registry" rel="noreferrer" target="_blank">IANA</a>. En pratique, pour le français, cela donne : <code class="docutils literal notranslate"><span class="pre">&lt;html</span> <span class="pre">lang=&quot;fr&quot;&gt;</span></code> (en HTML) et <code class="docutils literal notranslate"><span class="pre">&lt;html</span> <span class="pre">lang=&quot;fr&quot;</span> <span class="pre">xml:lang=&quot;fr&quot;&gt;</span></code> (en XHTML).</p>
+<p>À défaut, dans des cas plus complexes, la langue du contenu peut être indiquée via les différents éléments parents :  <code class="docutils literal notranslate"><span class="pre">head</span></code> ,  <code class="docutils literal notranslate"><span class="pre">body</span></code> ,  <code class="docutils literal notranslate"><span class="pre">title</span></code> , etc.</p>
+<p>En savoir plus: <a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Global_attributes/lang" rel="noreferrer" target="_blank">MDN</a></p>
+</section>
+<section id="id6">
+<h4>Contrôle<a class="headerlink" href="#id6" title="Link to this heading">#</a></h4>
+<p>La vérification consiste à contrôler la présence et la pertinence de l’attribut lang de l’élément  <code class="docutils literal notranslate"><span class="pre">html</span></code>  (ou à défaut de ses éléments descendants) dans le code source, par exemple à l’aide de Firebug. Dans le code source de chaque page :</p>
+<ul class="simple">
+<li><p>Vérifier que la langue par défaut du contenu est indiquée via l’attribut  <code class="docutils literal notranslate"><span class="pre">lang</span></code>  de l’élément  <code class="docutils literal notranslate"><span class="pre">html</span></code> , par exemple <code class="docutils literal notranslate"><span class="pre">&lt;html</span> <span class="pre">lang=&quot;fr&quot;&gt;</span></code> (en HTML)</p></li>
+<li><p>À défaut, vérifier qu’elle est au moins héritée, pour chaque élément de contenu, d’un élément parent ( <code class="docutils literal notranslate"><span class="pre">head</span></code> ,  <code class="docutils literal notranslate"><span class="pre">body</span></code> ,  <code class="docutils literal notranslate"><span class="pre">title</span></code> , etc.) via son attribut  lang .</p></li>
+</ul>
+<p>Vérifier la validité et la pertinence du code de langue utilisé. Pour cela, recourir par exemple au Language Subtag Lookup Tool de Richard Ishida ( <a class="reference external" href="https://r12a.github.io/app-subtags/" rel="noreferrer" target="_blank">lien</a> )</p>
+<p>Parmi les cas courants de codes de langue erronés, citons  <code class="docutils literal notranslate"><span class="pre">jp</span></code>  au lieu de  <code class="docutils literal notranslate"><span class="pre">ja</span></code>  pour le japonais,  <code class="docutils literal notranslate"><span class="pre">lu</span></code>  au lieu de  <code class="docutils literal notranslate"><span class="pre">lb</span></code>  pour le luxembourgeois,  <code class="docutils literal notranslate"><span class="pre">gr</span></code>  au lieu de  <code class="docutils literal notranslate"><span class="pre">el</span></code>  pour le grec,  <code class="docutils literal notranslate"><span class="pre">lat</span></code>  au lieu de  <code class="docutils literal notranslate"><span class="pre">la</span></code>  pour le latin et  <code class="docutils literal notranslate"><span class="pre">oci</span></code>  au lieu de  <code class="docutils literal notranslate"><span class="pre">oc</span></code>  pour l’occitan. Par ailleurs, les codes  <code class="docutils literal notranslate"><span class="pre">mul</span></code>  pour « langues multiples » et  <code class="docutils literal notranslate"><span class="pre">und</span></code>  pour « langue indéterminée » ne doivent pas être utilisés dans un contenu web. Enfin, l’attribut  <code class="docutils literal notranslate"><span class="pre">xml:lang</span></code>  peut être également renseigné en complément de l’attribut  <code class="docutils literal notranslate"><span class="pre">lang</span></code> , mais il n’est pas suffisant pour rendre conforme cette bonne pratique.</p>
+</section>
+</section>
+<section id="la-langue-principale-de-la-page-cible-d-un-lien-est-identifiable-lorsqu-elle-differe-de-celle-de-la-page-d-origine">
+<h3>126 - La langue principale de la page cible d’un lien est identifiable lorsqu’elle diffère de celle de la page d’origine.<a class="headerlink" href="#la-langue-principale-de-la-page-cible-d-un-lien-est-identifiable-lorsqu-elle-differe-de-celle-de-la-page-d-origine" title="Link to this heading">#</a></h3>
+<section id="id7">
+<h4>Objectif<a class="headerlink" href="#id7" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs et outils de navigation d’anticiper le changement de langue en cours de navigation.</p></li>
+<li><p>Éviter aux utilisateurs de se rendre sur une page dont ils ne comprennent pas la langue.</p></li>
+</ul>
+</section>
+<section id="id8">
+<h4>Mise en œuvre<a class="headerlink" href="#id8" title="Link to this heading">#</a></h4>
+<p>La langue cible d’un lien peut être indiquée :</p>
+<ul class="simple">
+<li><p>Simplement via le libellé du lien qui sera rédigé dans la langue cible ;</p></li>
+<li><p>Éventuellement à l’aide d’une icône appropriée (drapeau) ;</p></li>
+<li><p>Éventuellement de manière explicite dans le libellé du lien ou dans son contexte immédiat, en mentionnant la langue directement.</p></li>
+</ul>
+</section>
+<section id="id9">
+<h4>Contrôle<a class="headerlink" href="#id9" title="Link to this heading">#</a></h4>
+<p>Dans le site :</p>
+<ul class="simple">
+<li><p>Identifier manuellement les liens dont le contenu de la page cible n’est pas rédigé dans la même langue que celle de la page courante ;</p></li>
+<li><p>Vérifier, pour chacun de ces liens, que l’utilisateur est immédiatement informé de la nature de la langue concernée soit à la lecture du libellé (rédigé dans la langue cible), soit via une icône, soit via une information donnée dans le contexte du lien.</p></li>
+</ul>
+</section>
+</section>
+<section id="chaque-changement-de-langue-est-signale">
+<h3>127 - Chaque changement de langue est signalé.<a class="headerlink" href="#chaque-changement-de-langue-est-signale" title="Link to this heading">#</a></h3>
+<section id="id10">
+<h4>Objectif<a class="headerlink" href="#id10" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux aides techniques d’interpréter correctement les contenus exprimés dans une autre langue.</p></li>
+<li><p>Faciliter le travail des outils de traduction automatique.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id11">
+<h4>Mise en œuvre<a class="headerlink" href="#id11" title="Link to this heading">#</a></h4>
+<p>Utiliser l’attribut  <code class="docutils literal notranslate"><span class="pre">lang</span></code>  et le code de langue adapté pour chaque contenu dont la langue diffère de celle de la page courante. Par exemple : <code class="docutils literal notranslate"><span class="pre">&lt;title</span> <span class="pre">lang=&quot;en&quot;&gt;</span> <span class="pre">Open</span> <span class="pre">quality</span> <span class="pre">standards</span> <span class="pre">&lt;/title&gt;</span></code></p>
+<p>Si le contenu dont la langue diffère n’est pas déjà balisé par un élément de la structure HTML existante (titre, lien, citation etc.), il est alors nécessaire d’ajouter un élément spécifique ( <code class="docutils literal notranslate"><span class="pre">div</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">span</span></code> ) pour spécifier la langue de cet élément (à l’exception du contenu de l’élément  <code class="docutils literal notranslate"><span class="pre">title</span></code>  qui ne peut comporter de balisage interne).</p>
+</section>
+<section id="id12">
+<h4>Contrôle<a class="headerlink" href="#id12" title="Link to this heading">#</a></h4>
+<p>Dans chaque page examinée :</p>
+<ul class="simple">
+<li><p>Repérer tous les contenus rédigés dans une autre langue que la langue principale, sans oublier les contenus des attributs HTML restitués à l’utilisateur (tel que celui de l’attribut  <code class="docutils literal notranslate"><span class="pre">alt</span></code>  des images)</p></li>
+</ul>
+<p>Contrôler que la langue de ces contenus est précisée via un attribut  <code class="docutils literal notranslate"><span class="pre">lang</span></code>  placé sur l’élément concerné par le changement de langue (titre, lien, item de liste) ou hérité d’un élément parent.</p>
+</section>
+</section>
+<section id="les-liens-d-acces-aux-versions-traduites-pointent-directement-vers-la-traduction-de-la-page-courante">
+<h3>128 - Les liens d’accès aux versions traduites pointent directement vers la traduction de la page courante.<a class="headerlink" href="#les-liens-d-acces-aux-versions-traduites-pointent-directement-vers-la-traduction-de-la-page-courante" title="Link to this heading">#</a></h3>
+<section id="id13">
+<h4>Objectif<a class="headerlink" href="#id13" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Donner un accès direct et immédiat aux traductions de la page courante.</p></li>
+</ul>
+</section>
+<section id="id14">
+<h4>Mise en œuvre<a class="headerlink" href="#id14" title="Link to this heading">#</a></h4>
+<p>Fournir sur chaque page dont le contenu a été traduit un lien ou un formulaire de navigation donnant immédiatement accès à la version traduite de la page courante, sans retour à la page d’’accueil de la version linguistique concernée.</p>
+</section>
+<section id="id15">
+<h4>Contrôle<a class="headerlink" href="#id15" title="Link to this heading">#</a></h4>
+<p>Dans le cas d’un site internationalisé :</p>
+<ul class="simple">
+<li><p>S’assurer que les liens vers les traductions du contenu conduisent immédiatement à la traduction du contenu de la page en cours, sans retour en page d’accueil.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-liens-vers-les-versions-equivalentes-de-la-page-ou-du-site-sont-rediges-dans-leur-langue-cible">
+<h3>129 - Les liens vers les versions équivalentes de la page ou du site sont rédigés dans leur langue cible.<a class="headerlink" href="#les-liens-vers-les-versions-equivalentes-de-la-page-ou-du-site-sont-rediges-dans-leur-langue-cible" title="Link to this heading">#</a></h3>
+<section id="id16">
+<h4>Objectif<a class="headerlink" href="#id16" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre l’identification immédiate du lien pertinent par l’utilisateur. Rendre compréhensible des liens spécialement créés pour un public spécifique.</p></li>
+</ul>
+</section>
+<section id="id17">
+<h4>Mise en œuvre<a class="headerlink" href="#id17" title="Link to this heading">#</a></h4>
+<p>Rédiger les liens et les alternatives textuelles d’images-liens concernées dans la langue de chaque page cible. Par exemple, inscrire « English version » pour un lien menant vers une version anglaise de la page actuellement rédigée en français.</p>
+</section>
+<section id="id18">
+<h4>Contrôle<a class="headerlink" href="#id18" title="Link to this heading">#</a></h4>
+<p>Dans le cas d’un site internationalisé :</p>
+<ul class="simple">
+<li><p>Vérifier que chaque lien, qui mène vers une autre version linguistique de la page ou du site, est rédigé dans la langue cible.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-serveur-respecte-l-ordre-preferentiel-de-langues-des-outils-de-consultation">
+<h3>130 - Le serveur respecte l’ordre préférentiel de langues des outils de consultation.<a class="headerlink" href="#le-serveur-respecte-l-ordre-preferentiel-de-langues-des-outils-de-consultation" title="Link to this heading">#</a></h3>
+<section id="id19">
+<h4>Objectif<a class="headerlink" href="#id19" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Envoyer prioritairement à l’utilisateur la version de la page correspondant à la langue qu’il a indiqué dans les préférences de son outil de consultation.</p></li>
+</ul>
+</section>
+<section id="id20">
+<h4>Mise en œuvre<a class="headerlink" href="#id20" title="Link to this heading">#</a></h4>
+<p>Utiliser la négociation de contenu disponible selon le serveur, en testant les valeurs de l’en-tête HTTP accept-language.</p>
+</section>
+<section id="id21">
+<h4>Contrôle<a class="headerlink" href="#id21" title="Link to this heading">#</a></h4>
+<p>Pour un site disponible en plusieurs langues (français et anglais, par exemple) :</p>
+<ul class="simple">
+<li><p>Modifier les options de votre navigateur pour choisir votre langue favorite : sélectionner, par exemple, l’anglais en tant que langue préférée ;</p></li>
+<li><p>Taper l’URL principale du site dans ce même navigateur et vérifier que les contenus de la page sont disponibles dans la langue retenue comme favorite. Dans notre exemple, la version anglaise devrait être automatiquement renvoyée.</p></li>
+<li><p>Effectuer le même test en choisissant une autre langue favorite dans les options du navigateur.</p></li>
+</ul>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -620,6 +813,80 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> 
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regles">Règles</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-indicatif-international-est-disponible-pour-tous-les-numeros-de-telephone">123 - L’indicatif international est disponible pour tous les numéros de téléphone.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#objectif">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-en-oeuvre">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#controle">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-pays-est-precise-pour-toutes-les-adresses-postales">124 - Le pays est précisé pour toutes les adresses postales.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-code-source-de-chaque-page-indique-la-langue-principale-du-contenu">125 - Le code source de chaque page indique la langue principale du contenu.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-langue-principale-de-la-page-cible-d-un-lien-est-identifiable-lorsqu-elle-differe-de-celle-de-la-page-d-origine">126 - La langue principale de la page cible d’un lien est identifiable lorsqu’elle diffère de celle de la page d’origine.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chaque-changement-de-langue-est-signale">127 - Chaque changement de langue est signalé.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-liens-d-acces-aux-versions-traduites-pointent-directement-vers-la-traduction-de-la-page-courante">128 - Les liens d’accès aux versions traduites pointent directement vers la traduction de la page courante.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-liens-vers-les-versions-equivalentes-de-la-page-ou-du-site-sont-rediges-dans-leur-langue-cible">129 - Les liens vers les versions équivalentes de la page ou du site sont rédigés dans leur langue cible.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-serveur-respecte-l-ordre-preferentiel-de-langues-des-outils-de-consultation">130 - Le serveur respecte l’ordre préférentiel de langues des outils de consultation.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">Contrôle</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../../../_sources/content/Outils/Opquast/Internationalisation.md">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
               
             
           </div>

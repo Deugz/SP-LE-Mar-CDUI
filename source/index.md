@@ -76,9 +76,9 @@ content/Promo/CDP1/CDP1-Main
 
 <br>
 
-## 🧭 Explorez, Cherchez ...
+## 🧭 Explorez, Cherchez et Trouvez…
 
-<p class="p-emphase">Toutes les informations dont vous avez besoin pour réussir</p>
+<p class="p-emphase">Toutes les informations dont vous avez <strong>besoin pour réussir</strong></p>
 
 <br>
 
@@ -95,7 +95,7 @@ image
 :::
 
 :::{grid-item-card}
-:link: https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Projet/Dossier-Projet/Analyse/Analyse.html
+:link: https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Cours/index-cours.html
 :class-header: bg-light
 **🧠 Les Cours**
 ^^^
@@ -105,7 +105,7 @@ image
 :::
 
 :::{grid-item-card}
-:link: https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Projet/Canva/Astuces.html
+:link: https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Projet/index-Projet.html
 :class-header: bg-light
 **✨ Votre Projet**
 ^^^
@@ -115,7 +115,7 @@ image
 :::
 
 :::{grid-item-card}
-:link: https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Projet/Canva/Astuces.html
+:link: https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Outils/index-outils.html
 :class-header: bg-light
 **🛠️ Les Outils**
 ^^^
@@ -126,7 +126,7 @@ image
 
 
 :::{grid-item-card}
-:link: https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Projet/Canva/Astuces.html
+:link: https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Promo/CDP2/CDP2-Main.html
 :class-header: bg-light
 **💪 La Promo** 
 ^^^
@@ -146,7 +146,7 @@ Inclure le sitemap
 
 ```
 
-## Et Contribuez !
+## Donnez votre avis, et Contribuez !
 
 <br>
 

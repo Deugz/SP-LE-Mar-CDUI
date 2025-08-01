@@ -8,6 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <meta property="article:modified_time" content="2025-06-25T09:58:05+02:00" />
     <title>Contenus &#8212; Label Ecole V0 0.0.1 documentation</title>
   
   
@@ -85,6 +86,7 @@
     <link rel="prev" title="🛠️ Outils" href="../index-outils.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+    <meta name="docbuild:last-update" content="25 June 2025"/>
   </head>
   
   
@@ -573,6 +575,332 @@ document.write(`
 <h2>Règles<a class="headerlink" href="#regles" title="Link to this heading">#</a></h2>
 <section id="le-site-fournit-aux-utilisateurs-la-possibilite-de-connaitre-les-nouveaux-contenus-ou-services">
 <h3>1 - Le site fournit aux utilisateurs la possibilité de connaître les nouveaux contenus ou services.<a class="headerlink" href="#le-site-fournit-aux-utilisateurs-la-possibilite-de-connaitre-les-nouveaux-contenus-ou-services" title="Link to this heading">#</a></h3>
+<section id="objectif">
+<h4>Objectif<a class="headerlink" href="#objectif" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs d’identifier immédiatement les nouveaux contenus ou services en ligne.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation.</p></li>
+</ul>
+</section>
+<section id="mise-en-oeuvre">
+<h4>Mise en œuvre<a class="headerlink" href="#mise-en-oeuvre" title="Link to this heading">#</a></h4>
+<p>À titre d’exemple, les différentes solutions ci-dessous peuvent être déployées seules ou conjointement :</p>
+<ul class="simple">
+<li><p>Publier un flux RSS des actualités du site.</p></li>
+<li><p>Publier une rubrique du type « Actualités du site » ou « Quoi de neuf ? »</p></li>
+<li><p>Indiquer un compte de type Twitter, Facebook ou autre, où sont publiées les actualités concernant le site.</p></li>
+</ul>
+</section>
+<section id="controle">
+<h4>Contrôle<a class="headerlink" href="#controle" title="Link to this heading">#</a></h4>
+<p>Dans l’ensemble du site, vérifier que les nouveaux contenus ou services sont accessibles par exemple grâce à un canal d’information interne au site (flux RSS des actualités, rubrique du type « Actualités du site », etc.) ou un canal externe lui-même accessible depuis le site (obligatoirement via sa page d’accueil) tel qu’un compte Twitter.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Publier un flux RSS</p>
+</div>
+</section>
+</section>
+<section id="les-informations-relatives-aux-droits-de-copie-et-de-reutilisation-sont-disponibles-depuis-toutes-les-pages">
+<h3>2 - Les informations relatives aux droits de copie et de réutilisation sont disponibles depuis toutes les pages.<a class="headerlink" href="#les-informations-relatives-aux-droits-de-copie-et-de-reutilisation-sont-disponibles-depuis-toutes-les-pages" title="Link to this heading">#</a></h3>
+<section id="id1">
+<h4>Objectif<a class="headerlink" href="#id1" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Informer les utilisateurs sur les conditions sous lesquelles sont publiés les contenus.</p></li>
+<li><p>Informer les utilisateurs sur les conditions de copie et de réutilisation.</p></li>
+</ul>
+</section>
+<section id="id2">
+<h4>Mise en œuvre<a class="headerlink" href="#id2" title="Link to this heading">#</a></h4>
+<p>Indiquer les droits de copie et de réutilisation des divers éléments du site sur chaque page ou via un hyperlien pointant vers une page spécifique.</p>
+</section>
+<section id="id3">
+<h4>Contrôle<a class="headerlink" href="#id3" title="Link to this heading">#</a></h4>
+<p>Dans chacune des pages évaluées, vérifier la présence de la mention complète des droits de copie et de réutilisation ou d’un lien donnant directement accès à la mention des droits de copie et de réutilisation.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Mettre mention licence CC dans le footer</p>
+</div>
+</section>
+</section>
+<section id="le-code-source-de-chaque-page-contient-une-metadonnee-qui-en-decrit-le-contenu">
+<h3>3 - Le code source de chaque page contient une métadonnée qui en décrit le contenu.<a class="headerlink" href="#le-code-source-de-chaque-page-contient-une-metadonnee-qui-en-decrit-le-contenu" title="Link to this heading">#</a></h3>
+<section id="id4">
+<h4>Objectif<a class="headerlink" href="#id4" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux outils de recherche et d’indexation d’extraire des informations à propos du contenu des pages.</p></li>
+<li><p>Améliorer la restitution aux utilisateurs des résultats de recherche.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation.</p></li>
+</ul>
+</section>
+<section id="id5">
+<h4>Mise en œuvre<a class="headerlink" href="#id5" title="Link to this heading">#</a></h4>
+<p>Renseigner la balise  <code class="docutils literal notranslate"><span class="pre">&amp;lt;meta</span> <span class="pre">name=&quot;description&quot;</span> <span class="pre">content=&quot;&quot;</span> <span class="pre">/&amp;gt;</span></code> , ou à défaut un élément spécifique ayant la même fonction, avec une description du contenu de la page ou du site.</p>
+</section>
+<section id="id6">
+<h4>Contrôle<a class="headerlink" href="#id6" title="Link to this heading">#</a></h4>
+<p>Dans le code source de chaque page examinée :</p>
+<ul class="simple">
+<li><p>Vérifier la présence de la balise  <code class="docutils literal notranslate"><span class="pre">&amp;lt;meta</span> <span class="pre">name=&quot;description&quot;</span> <span class="pre">content=&quot;&quot;</span> <span class="pre">/&amp;gt;</span></code>  ou d’un équivalent à l’aide, par exemple, des outils de développement des navigateurs.</p></li>
+<li><p>Contrôler que le texte de cette balise décrit effectivement, de façon spécifique ou plus générique, le contenu de la page.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Vérifier et mettre en place</p>
+</div>
+</section>
+</section>
+<section id="les-dates-sont-presentees-dans-des-formats-explicites">
+<h3>4 - Les dates sont présentées dans des formats explicites.<a class="headerlink" href="#les-dates-sont-presentees-dans-des-formats-explicites" title="Link to this heading">#</a></h3>
+<section id="id7">
+<h4>Objectif<a class="headerlink" href="#id7" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Éviter aux utilisateurs les risques de méprise sur le sens d’une date.</p></li>
+<li><p>Faciliter la compréhension et la réutilisation des contenus concernés.</p></li>
+</ul>
+</section>
+<section id="id8">
+<h4>Mise en œuvre<a class="headerlink" href="#id8" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>S’assurer que le mois est écrit en toutes lettres (« décembre ») ou en abrégé (« déc. »), mais pas au format numérique.</p></li>
+<li><p>Indiquer les 4 chiffres de l’année.</p></li>
+</ul>
+<p>Cette exigence doit être prévue dans les systèmes de gestion de contenu où la datation est automatisée.</p>
+</section>
+<section id="id9">
+<h4>Contrôle<a class="headerlink" href="#id9" title="Link to this heading">#</a></h4>
+<p>Identifier les pages comportant des dates, et pour chacune des dates trouvées :</p>
+<ul class="simple">
+<li><p>Vérifier que le mois n’est pas indiqué dans un format numérique, mais en lettre (complet ou abrégé).</p></li>
+<li><p>Vérifier que l’année est indiquée sur quatre chiffres et non deux.</p></li>
+</ul>
+<p>Les dates à saisir par l’utilisateur final dans les formulaires ne sont pas concernées par cette bonne pratique : leur format, quel qu’il soit, est considéré comme suffisamment explicite, dès lors que la saisie s’effectue via un datepicker ou bien manuellement mais avec une indication du format attendu (du type “JJ/MM/AA”).</p>
+</section>
+</section>
+<section id="la-premiere-occurrence-d-une-abreviation-ou-d-un-acronyme-dans-le-corps-de-chaque-page-donne-acces-a-sa-signification">
+<h3>5 - La première occurrence d’une abréviation ou d’un acronyme dans le corps de chaque page donne accès à sa signification.<a class="headerlink" href="#la-premiere-occurrence-d-une-abreviation-ou-d-un-acronyme-dans-le-corps-de-chaque-page-donne-acces-a-sa-signification" title="Link to this heading">#</a></h3>
+<section id="id10">
+<h4>Objectif<a class="headerlink" href="#id10" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre à l’utilisateur d’accéder rapidement à la signification d’un sigle.</p></li>
+<li><p>Permettre l’exploitation du contenu par un robot (pour l’établissement d’un index des sigles).</p></li>
+<li><p>Favoriser le référencement du contenu.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+</ul>
+</section>
+<section id="id11">
+<h4>Mise en œuvre<a class="headerlink" href="#id11" title="Link to this heading">#</a></h4>
+<p>Au moins lors de la première apparition d’un sigle, acronyme ou abréviation dans la page, il s’agira de veiller à recourir à au moins l’une des méthodes ci-dessous :</p>
+<ul class="simple">
+<li><p>Expliciter sa signification au sein même du texte, par exemple : « une DTD (déclaration de type de document) ».</p></li>
+<li><p>Fournir un lien donnant accès à sa signification dans une page de glossaire ou via un affichage dynamique (bulle d’aide JavaScript).</p></li>
+<li><p>Baliser avec l’élément HTML <code class="docutils literal notranslate"><span class="pre">abbr</span></code>  et renseigner l’attribut <code class="docutils literal notranslate"><span class="pre">title</span></code> de celui-ci pour indiquer sa signification.</p></li>
+</ul>
+<p>La bonne pratique ne fait cette exigence que pour la première occurence dans la page : cela peut être fait ou non pour les suivantes.</p>
+</section>
+<section id="id12">
+<h4>Contrôle<a class="headerlink" href="#id12" title="Link to this heading">#</a></h4>
+<p>Dans chaque page examinée, identifier visuellement chaque sigle, abréviation ou acronyme présent dans la page, puis vérifier, pour sa première occurence dans la page, la présence, au moins :</p>
+<ul class="simple">
+<li><p>de sa signification immédiatement indiquée dans le contexte, par exemple entre parenthèses.</p></li>
+<li><p>d’un lien sur le sigle donnant accès à sa signification, par exemple dans un glossaire.</p></li>
+<li><p>ou de l’élément <code class="docutils literal notranslate"><span class="pre">abbr</span></code> doté d’un attribut <code class="docutils literal notranslate"><span class="pre">title</span></code> explicitant sa signification.</p></li>
+</ul>
+</section>
+</section>
+<section id="la-date-de-publication-des-contenus-qui-le-necessitent-est-indiquee">
+<h3>6 - La date de publication des contenus qui le nécessitent est indiquée.<a class="headerlink" href="#la-date-de-publication-des-contenus-qui-le-necessitent-est-indiquee" title="Link to this heading">#</a></h3>
+<section id="id13">
+<h4>Objectif<a class="headerlink" href="#id13" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre à l’utilisateur de remettre l’information en contexte.</p></li>
+<li><p>Prévenir la diffusion d’informations obsolètes.</p></li>
+<li><p>Renforcer la confiance dans les informations et faciliter les citations</p></li>
+</ul>
+</section>
+<section id="id14">
+<h4>Mise en œuvre<a class="headerlink" href="#id14" title="Link to this heading">#</a></h4>
+<p>Associer à chaque contenu qui le nécessite (article, actualité, produit, etc.) sa date de publication affichée.</p>
+</section>
+<section id="id15">
+<h4>Contrôle<a class="headerlink" href="#id15" title="Link to this heading">#</a></h4>
+<p>Vérifier que les contenus qui le nécessitent sont tous associés à une date de publication affichée.</p>
+</section>
+</section>
+<section id="un-lexique-ou-un-glossaire-adapte-au-public-vise-explique-le-vocabulaire-sectoriel-ou-technique">
+<h3>7 - Un lexique ou un glossaire adapté au public visé explique le vocabulaire sectoriel ou technique.<a class="headerlink" href="#un-lexique-ou-un-glossaire-adapte-au-public-vise-explique-le-vocabulaire-sectoriel-ou-technique" title="Link to this heading">#</a></h3>
+<section id="id16">
+<h4>Objectif<a class="headerlink" href="#id16" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs de comprendre les contenus sectoriels ou à caractère technique.</p></li>
+<li><p>Faciliter l’utilisation d’un service.</p></li>
+<li><p>Améliorer le référencement sur des mots-clés ou expressions techniques.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id17">
+<h4>Mise en œuvre<a class="headerlink" href="#id17" title="Link to this heading">#</a></h4>
+<p>Pour mettre en œuvre cette bonne pratique, il s’agira de fournir :</p>
+<ul class="simple">
+<li><p>Une section, une page ou une série de pages de glossaire explicitant le vocabulaire technique ou sectoriel utilisé dans le contenu du site. Ce glossaire devra être disponible directement depuis chaque page du site.</p></li>
+<li><p>Ou bien un mécanisme permettant à l’utilisateur d’accéder à la définition des termes du vocabulaire technique ou sectoriel, depuis au moins leur première occurrence dans chaque page du site.</p></li>
+</ul>
+</section>
+<section id="id18">
+<h4>Contrôle<a class="headerlink" href="#id18" title="Link to this heading">#</a></h4>
+<p>Pour chaque page contenant du vocabulaire spécifique, contrôler qu’il est possible d’accéder :</p>
+<ul class="simple">
+<li><p>À une section jouant le rôle de glossaire dans chaque page concernée.</p></li>
+<li><p>À une page ou une série de pages de glossaire disponible via les menus de navigation.</p></li>
+<li><p>Ou directement à la définition des termes depuis au moins leur première occurrence dans chaque page du site via un lien ou un tooltip.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Mise en place ok, a implémenter au fur et à mesure</p>
+</div>
+</section>
+</section>
+<section id="les-contenus-publicitaires-ou-sponsorises-sont-identifies-comme-tels">
+<h3>8 - Les contenus publicitaires ou sponsorisés sont identifiés comme tels.<a class="headerlink" href="#les-contenus-publicitaires-ou-sponsorises-sont-identifies-comme-tels" title="Link to this heading">#</a></h3>
+<section id="id19">
+<h4>Objectif<a class="headerlink" href="#id19" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre une identification immédiate des contenus publicitaires ou sponsorisés.</p></li>
+<li><p>Éviter les confusions entre contenus rédactionnels et publicitaires.</p></li>
+<li><p>Prévenir les risques associés aux conflits d’intérêt.</p></li>
+</ul>
+</section>
+<section id="id20">
+<h4>Mise en œuvre<a class="headerlink" href="#id20" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Signaler les publicités par une mention permettant de les identifier (publicité, pub, partenariats…).</p></li>
+<li><p>Et, dans la mesure du possible, séparer graphiquement la publicité du reste du contenu.</p></li>
+</ul>
+</section>
+<section id="id21">
+<h4>Contrôle<a class="headerlink" href="#id21" title="Link to this heading">#</a></h4>
+<p>Au sein du site examiné :</p>
+<ul class="simple">
+<li><p>Identifier les contenus publicitaires.</p></li>
+<li><p>Vérifier que tous les espaces dédiés à la publicité se différencient du reste du contenu et comportent une mention permettant de les identifier sans ambiguïté : typiquement, la mention « publicité » affichée au dessus ou en dessous du contenu concerné.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Ok, pas de pub</p>
+</div>
+</section>
+</section>
+<section id="les-conditions-de-moderation-des-espaces-publics-sont-indiquees">
+<h3>9 - Les conditions de modération des espaces publics sont indiquées.<a class="headerlink" href="#les-conditions-de-moderation-des-espaces-publics-sont-indiquees" title="Link to this heading">#</a></h3>
+<section id="id22">
+<h4>Objectif<a class="headerlink" href="#id22" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Expliquer aux utilisateurs pour quelles raisons et dans quelle mesure leurs publications peuvent être modérées.</p></li>
+<li><p>Limiter le nombre de réclamations des utilisateurs ne voyant pas leur publication apparaître.</p></li>
+</ul>
+</section>
+<section id="id23">
+<h4>Mise en œuvre<a class="headerlink" href="#id23" title="Link to this heading">#</a></h4>
+<p>Pour chaque espace public du site nécessitant modération  (zone de commentaire, forum etc.) : indiquer les conditions de modération des espaces publics, dans le contexte de ceux-ci, ou bien dans une page spécifique disponible depuis-ceux-ci.</p>
+</section>
+<section id="id24">
+<h4>Contrôle<a class="headerlink" href="#id24" title="Link to this heading">#</a></h4>
+<p>Pour chaque espace public du site nécessitant modération (zone de commentaire, forum etc.) vérifier la présence des conditions de modération ou, à défaut, d’un lien vers une page spécifique ou une page générique telle que la page des mentions légales, la rubrique d’aide  où elles sont indiquées.</p>
+</section>
+</section>
+<section id="les-contenus-ou-fichiers-destines-a-des-espaces-publics-peuvent-etre-verifies-avant-leur-envoi-definitif">
+<h3>10 - Les contenus ou fichiers destinés à des espaces publics peuvent être vérifiés avant leur envoi définitif.<a class="headerlink" href="#les-contenus-ou-fichiers-destines-a-des-espaces-publics-peuvent-etre-verifies-avant-leur-envoi-definitif" title="Link to this heading">#</a></h3>
+<section id="id25">
+<h4>Objectif<a class="headerlink" href="#id25" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre à l’utilisateur de vérifier sa saisie en contexte et, si nécessaire, de la corriger avant envoi.</p></li>
+<li><p>Diminuer le nombre de demandes de rectification ou de suppression.</p></li>
+</ul>
+</section>
+<section id="id26">
+<h4>Mise en œuvre<a class="headerlink" href="#id26" title="Link to this heading">#</a></h4>
+<p>Mettre en place une prévisualisation des informations saisies avant la soumission définitive du formulaire, avec possibilité de les modifier.</p>
+</section>
+<section id="id27">
+<h4>Contrôle<a class="headerlink" href="#id27" title="Link to this heading">#</a></h4>
+<p>Pour chaque espace public du site (zone de commentaire, forum, page personnelle publique, avatar, portfolio de documents, etc.) :</p>
+<ul class="simple">
+<li><p>Saisir des informations destinées à être rendues publiques telles que des images associées à un compte ou un commentaire.</p></li>
+<li><p>Vérifier que la soumission définitive du formulaire de saisie est précédée d’une étape permettant, si l’utilisateur le souhaite, de contrôler et de modifier le résultat de sa saisie avant publication.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-espaces-publics-proposent-au-moins-un-moyen-de-signaler-les-abus">
+<h3>11 - Les espaces publics proposent au moins un moyen de signaler les abus.<a class="headerlink" href="#les-espaces-publics-proposent-au-moins-un-moyen-de-signaler-les-abus" title="Link to this heading">#</a></h3>
+<section id="id28">
+<h4>Objectif<a class="headerlink" href="#id28" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter le signalement de contenus illégaux ou inappropriés.</p></li>
+<li><p>Accélérer la détection de ces contenus.</p></li>
+<li><p>Limiter les risques de consultation de contenus illégaux ou inappropriés.</p></li>
+</ul>
+</section>
+<section id="id29">
+<h4>Mise en œuvre<a class="headerlink" href="#id29" title="Link to this heading">#</a></h4>
+<p>Par exemple, faire figurer un lien « Signaler un abus » à proximité de chaque contenu publié par les internautes, qui mène vers un formulaire permettant de préciser les raisons du signalement. À défaut, indiquer l’adresse e-mail du modérateur.</p>
+</section>
+<section id="id30">
+<h4>Contrôle<a class="headerlink" href="#id30" title="Link to this heading">#</a></h4>
+<p>Dans chaque espace public (zone de commentaire, forum etc.) ou à défaut, dans la page Contact ou celle des Mentions légales où figureraient les conditions de modération : vérifier qu’il existe une procédure permettant de signaler directement un abus.</p>
+</section>
+</section>
+<section id="chaque-graphique-est-accompagne-de-ses-donnees-numeriques">
+<h3>12 - Chaque graphique est accompagné de ses données numériques.<a class="headerlink" href="#chaque-graphique-est-accompagne-de-ses-donnees-numeriques" title="Link to this heading">#</a></h3>
+<section id="id31">
+<h4>Objectif<a class="headerlink" href="#id31" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre ou améliorer la compréhension du graphique.</p></li>
+<li><p>Faciliter le partage des données.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id32">
+<h4>Mise en œuvre<a class="headerlink" href="#id32" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Afficher de manière structurée, dans le contexte immédiat du graphique, toutes les données numériques qu’il représente, par exemple sous forme de tableau de données.</p></li>
+<li><p>Ou fournir dans le le contexte immédiat du graphique un lien vers un contenu du même type.</p></li>
+</ul>
+</section>
+<section id="id33">
+<h4>Contrôle<a class="headerlink" href="#id33" title="Link to this heading">#</a></h4>
+<p>Vérifier la présence, pour chaque graphique, d’un contenu structuré indiquant toutes les données numériques qu’il représente, ou d’un lien vers une page fournissant celles-ci.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Insérer une caption avec une description du graphique</p>
+</div>
+</section>
+</section>
+<section id="la-page-des-resultats-de-recherche-indique-le-nombre-de-resultats-le-nombre-de-pages-de-resultats-et-le-nombre-de-resultats-par-page">
+<h3>13 - La page des résultats de recherche indique le nombre de résultats, le nombre de pages de résultats, et le nombre de résultats par page.<a class="headerlink" href="#la-page-des-resultats-de-recherche-indique-le-nombre-de-resultats-le-nombre-de-pages-de-resultats-et-le-nombre-de-resultats-par-page" title="Link to this heading">#</a></h3>
+<section id="id34">
+<h4>Objectif<a class="headerlink" href="#id34" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs d’avoir l’ensemble des informations essentielles relatives à la recherche qu’ils ont effectuée.</p></li>
+</ul>
+</section>
+<section id="id35">
+<h4>Mise en œuvre<a class="headerlink" href="#id35" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Le nombre global de résultats est généralement annoncé et rappelé dans le titre de chaque page de résultats (par exemple : 246 résultats correspondent à votre requête « Exemple »).</p></li>
+<li><p>Le nombre de pages de résultats est généralement indiqué dans le menu de navigation entre les pages de résultats.</p></li>
+<li><p>Le nombre de résultats par page est généralement indiqué avant la liste des résultats.</p></li>
+</ul>
+</section>
+<section id="id36">
+<h4>Contrôle<a class="headerlink" href="#id36" title="Link to this heading">#</a></h4>
+<p>Via le moteur de recherche du site examiné :</p>
+<ul class="simple">
+<li><p>Effectuer une ou plusieurs requêtes sur le ou les formulaire(s) de recherche (en fonction de la configuration des résultats, il peut être nécessaire de tester des requêtes ayant successivement un nombre réduit de résultat, un nombre important et aucun résultat) ;</p></li>
+<li><p>Vérifier, dans chaque page de résultats, la présence du nombre global de résultats ;</p></li>
+<li><p>Contrôler, en cas de résultats paginés, que le nombre total de pages de résultats et le nombre de résultats par page sont présents dans chaque page de résultats.</p></li>
+</ul>
+</section>
 </section>
 </section>
 </section>
@@ -641,11 +969,97 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regles">Règles</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-fournit-aux-utilisateurs-la-possibilite-de-connaitre-les-nouveaux-contenus-ou-services">1 - Le site fournit aux utilisateurs la possibilité de connaître les nouveaux contenus ou services.</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-fournit-aux-utilisateurs-la-possibilite-de-connaitre-les-nouveaux-contenus-ou-services">1 - Le site fournit aux utilisateurs la possibilité de connaître les nouveaux contenus ou services.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#objectif">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-en-oeuvre">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#controle">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-informations-relatives-aux-droits-de-copie-et-de-reutilisation-sont-disponibles-depuis-toutes-les-pages">2 - Les informations relatives aux droits de copie et de réutilisation sont disponibles depuis toutes les pages.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-code-source-de-chaque-page-contient-une-metadonnee-qui-en-decrit-le-contenu">3 - Le code source de chaque page contient une métadonnée qui en décrit le contenu.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-dates-sont-presentees-dans-des-formats-explicites">4 - Les dates sont présentées dans des formats explicites.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-premiere-occurrence-d-une-abreviation-ou-d-un-acronyme-dans-le-corps-de-chaque-page-donne-acces-a-sa-signification">5 - La première occurrence d’une abréviation ou d’un acronyme dans le corps de chaque page donne accès à sa signification.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-date-de-publication-des-contenus-qui-le-necessitent-est-indiquee">6 - La date de publication des contenus qui le nécessitent est indiquée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#un-lexique-ou-un-glossaire-adapte-au-public-vise-explique-le-vocabulaire-sectoriel-ou-technique">7 - Un lexique ou un glossaire adapté au public visé explique le vocabulaire sectoriel ou technique.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-contenus-publicitaires-ou-sponsorises-sont-identifies-comme-tels">8 - Les contenus publicitaires ou sponsorisés sont identifiés comme tels.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-conditions-de-moderation-des-espaces-publics-sont-indiquees">9 - Les conditions de modération des espaces publics sont indiquées.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id23">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id24">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-contenus-ou-fichiers-destines-a-des-espaces-publics-peuvent-etre-verifies-avant-leur-envoi-definitif">10 - Les contenus ou fichiers destinés à des espaces publics peuvent être vérifiés avant leur envoi définitif.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id25">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id26">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id27">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-espaces-publics-proposent-au-moins-un-moyen-de-signaler-les-abus">11 - Les espaces publics proposent au moins un moyen de signaler les abus.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id28">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id29">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id30">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chaque-graphique-est-accompagne-de-ses-donnees-numeriques">12 - Chaque graphique est accompagné de ses données numériques.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id31">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id32">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id33">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-page-des-resultats-de-recherche-indique-le-nombre-de-resultats-le-nombre-de-pages-de-resultats-et-le-nombre-de-resultats-par-page">13 - La page des résultats de recherche indique le nombre de résultats, le nombre de pages de résultats, et le nombre de résultats par page.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id34">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id35">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id36">Contrôle</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
   </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../../../_sources/content/Outils/Opquast/Contenus.md">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
 
 </div></div>
               

@@ -8,6 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <meta property="article:modified_time" content="2025-06-25T09:58:05+02:00" />
     <title>Serveur et Performance &#8212; Label Ecole V0 0.0.1 documentation</title>
   
   
@@ -85,6 +86,7 @@
     <link rel="prev" title="Sécurité" href="S%C3%A9curit%C3%A9.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+    <meta name="docbuild:last-update" content="25 June 2025"/>
   </head>
   
   
@@ -336,6 +338,10 @@ document.write(`
   
 
   
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
 </div>
 
     </header>
@@ -565,6 +571,315 @@ document.write(`
                   
   <section id="serveur-et-performance">
 <h1>Serveur et Performance<a class="headerlink" href="#serveur-et-performance" title="Link to this heading">#</a></h1>
+<section id="regles">
+<h2>Règles<a class="headerlink" href="#regles" title="Link to this heading">#</a></h2>
+<section id="l-adresse-du-site-fonctionne-avec-et-sans-prefixe-www">
+<h3>211 - L’adresse du site fonctionne avec et sans préfixe www.<a class="headerlink" href="#l-adresse-du-site-fonctionne-avec-et-sans-prefixe-www" title="Link to this heading">#</a></h3>
+<section id="objectif">
+<h4>Objectif<a class="headerlink" href="#objectif" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs de rejoindre la page d’accueil du site même lorsqu’ils oublient de taper le préfixe www.</p></li>
+<li><p>Diminuer l’impact énergétique lié à la consultation du site</p></li>
+</ul>
+</section>
+<section id="mise-en-oeuvre">
+<h4>Mise en œuvre<a class="headerlink" href="#mise-en-oeuvre" title="Link to this heading">#</a></h4>
+<p>Configurer le serveur de façon à ce qu’il gère les adresses sans www (acheminement).</p>
+</section>
+<section id="controle">
+<h4>Contrôle<a class="headerlink" href="#controle" title="Link to this heading">#</a></h4>
+<p>Sur quelques unes des pages examinées :</p>
+<ul class="simple">
+<li><p>Enlever le préfixe «www» dans l’adresse de la page, au sein de la barre d’URL de votre navigateur ;</p></li>
+<li><p>Vérifier que vous avez toujours accès au site.</p></li>
+</ul>
+<p>Attention : certains navigateurs masquent par défaut le préfixe www. Le test devra donc se faire en ajoutant http:// ou <a class="reference external" href="https://devant" rel="noreferrer" target="_blank">https://devant</a> l’adresse tout en omettant le préfixe</p>
+</section>
+</section>
+<section id="la-racine-du-site-contient-des-instructions-pour-les-robots-d-indexation">
+<h3>212 - La racine du site contient des instructions pour les robots d’indexation.<a class="headerlink" href="#la-racine-du-site-contient-des-instructions-pour-les-robots-d-indexation" title="Link to this heading">#</a></h3>
+<section id="id1">
+<h4>Objectif<a class="headerlink" href="#id1" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre un référencement ciblé.</p></li>
+<li><p>Améliorer le guidage des outils de recherche.</p></li>
+<li><p>Diminuer l’impact énergétique lié à la consultation du site.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id2">
+<h4>Mise en œuvre<a class="headerlink" href="#id2" title="Link to this heading">#</a></h4>
+<p>Pour définir les répertoires, fichiers ou types de fichiers non indexables, utiliser les instructions  <code class="docutils literal notranslate"><span class="pre">user-agent</span></code>  et  <code class="docutils literal notranslate"><span class="pre">disallow</span></code>  dans un fichier texte unique appelé  <code class="docutils literal notranslate"><span class="pre">robots.txt</span></code> , placé dans le répertoire racine du site.</p>
+<p>Alternativement, pour agir au niveau d’une page spécifique, utiliser dans celle-ci la balise  <code class="docutils literal notranslate"><span class="pre">meta</span> <span class="pre">name=&quot;robots&quot;</span> <span class="pre">content=&quot;attribut1,</span> <span class="pre">attribut2&quot;</span></code>:</p>
+<ul class="simple">
+<li><p>attribut1 peut prendre les valeurs  <code class="docutils literal notranslate"><span class="pre">index</span></code>  (indexer cette page) ou  <code class="docutils literal notranslate"><span class="pre">noindex</span></code>  (ne pas indexer cette page) ;</p></li>
+<li><p>attribut2 peut prendre les valeurs  <code class="docutils literal notranslate"><span class="pre">follow</span></code>  (suivre les liens contenus dans cette page) ou  <code class="docutils literal notranslate"><span class="pre">nofollow</span></code>  (ne pas suivre les liens).</p></li>
+</ul>
+<p><strong>En savoir plus</strong>:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/meta" rel="noreferrer" target="_blank"><meta> : l’élément de métadonnées du document</a></p></li>
+</ul>
+</section>
+<section id="id3">
+<h4>Contrôle<a class="headerlink" href="#id3" title="Link to this heading">#</a></h4>
+<p>À partir de l’adresse URL de votre site :</p>
+<ul class="simple">
+<li><p>Accéder tout d’abord à l’adresse du fichier robots.txt, à la racine du site, en tapant par exemple <a class="reference external" href="http://example.com/robots.txt" rel="noreferrer" target="_blank">http://example.com/robots.txt</a> dans la barre d’adresse du navigateur ;</p></li>
+<li><p>Vérifier la présence du fichier  <code class="docutils literal notranslate"><span class="pre">robots.txt</span></code>  placé dans le répertoire racine du site ;</p></li>
+<li><p>Vérifier la validité de la syntaxe du fichier  <code class="docutils literal notranslate"><span class="pre">robots.txt</span></code>  à l’aide des indications données par les moteurs de recherche</p></li>
+</ul>
+<p>En l’absence de fichier  <code class="docutils literal notranslate"><span class="pre">robots.txt</span></code>  vérifier la présence et la validité de la balise  <code class="docutils literal notranslate"><span class="pre">meta</span> <span class="pre">name=&quot;robots&quot;</span> <span class="pre">content=&quot;attribut1,</span> <span class="pre">attribut2&quot;</span></code>  dans chaque page.</p>
+</section>
+</section>
+<section id="le-site-propose-un-fichier-sitemap-indiquant-les-contenus-a-explorer">
+<h3>213 - Le site propose un fichier sitemap indiquant les contenus à explorer.<a class="headerlink" href="#le-site-propose-un-fichier-sitemap-indiquant-les-contenus-a-explorer" title="Link to this heading">#</a></h3>
+<section id="id4">
+<h4>Objectif<a class="headerlink" href="#id4" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation.</p></li>
+<li><p>Diminuer l’impact énergétique lié à la consultation du site.</p></li>
+</ul>
+</section>
+<section id="id5">
+<h4>Mise en œuvre<a class="headerlink" href="#id5" title="Link to this heading">#</a></h4>
+<p>Créer un fichier  <code class="docutils literal notranslate"><span class="pre">sitemap.xml</span></code>  contenant la liste des pages du site à la racine du site. À défaut de respecter le format XML, une simple liste d’URL est acceptée par les moteurs.</p>
+</section>
+<section id="id6">
+<h4>Contrôle<a class="headerlink" href="#id6" title="Link to this heading">#</a></h4>
+<p>Via l’adresse url du site examiné :</p>
+<ul class="simple">
+<li><p>Vérifier qu’un fichier  <code class="docutils literal notranslate"><span class="pre">sitemap.xml</span></code>  existe à la racine du site, en y accédant directement dans le navigateur avec une URL du type <a class="reference external" href="http://example.com/sitemap.xml" rel="noreferrer" target="_blank">http://example.com/sitemap.xml</a> ;</p></li>
+<li><p>À défaut, consulter le fichier <code class="docutils literal notranslate"><span class="pre">robots.txt</span></code>  pour y rechercher une URL spécifique mentionnée sous la forme  <code class="docutils literal notranslate"><span class="pre">sitemap:</span> <span class="pre">http://example.com/adresse/du/fichier.xml</span></code> .</p></li>
+</ul>
+</section>
+</section>
+<section id="le-serveur-ne-force-pas-la-redirection-vers-la-version-ou-l-application-mobile">
+<h3>214 - Le serveur ne force pas la redirection vers la version ou l’application mobile.<a class="headerlink" href="#le-serveur-ne-force-pas-la-redirection-vers-la-version-ou-l-application-mobile" title="Link to this heading">#</a></h3>
+<section id="id7">
+<h4>Objectif<a class="headerlink" href="#id7" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Laisser le choix à l’utilisateur de la version ayant ses préférences.</p></li>
+<li><p>Améliorer la compatibilité avec les terminaux mobiles</p></li>
+</ul>
+</section>
+<section id="id8">
+<h4>Mise en œuvre<a class="headerlink" href="#id8" title="Link to this heading">#</a></h4>
+<p>Ne pas rediriger côté serveur vers la version mobile (en dynamic serving ou en cas de version mobile dédiée) sans possibilité pour l’utilisateur de désactiver cette redirection.</p>
+</section>
+<section id="id9">
+<h4>Contrôle<a class="headerlink" href="#id9" title="Link to this heading">#</a></h4>
+<p>Contrôler manuellement qu’il est possible d’accéder à la version desktop depuis un périphérique mobile.</p>
+</section>
+</section>
+<section id="le-serveur-envoie-un-code-http-404-pour-les-ressources-non-trouvees">
+<h3>215 - Le serveur envoie un code HTTP 404 pour les ressources non trouvées.<a class="headerlink" href="#le-serveur-envoie-un-code-http-404-pour-les-ressources-non-trouvees" title="Link to this heading">#</a></h3>
+<section id="id10">
+<h4>Objectif<a class="headerlink" href="#id10" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre la détection automatisée des URL erronées.</p></li>
+<li><p>Transmettre au navigateur une information sûre.</p></li>
+<li><p>Diminuer l’impact énergétique lié à la consultation du site.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id11">
+<h4>Mise en œuvre<a class="headerlink" href="#id11" title="Link to this heading">#</a></h4>
+<p>Modifier la configuration du serveur web pour renvoyer l’utilisateur vers une page personnalisée lorsque la ressource demandée n’existe pas.</p>
+<p>Si la configuration principale du serveur n’est pas directement accessible et si l’environnement le permet, utiliser une configuration locale par répertoire. Par exemple, l’environnement Apache autorise la création d’un fichier  <code class="docutils literal notranslate"><span class="pre">.htaccess</span></code>  contenant des directives relatives aux traitements des erreurs :  <code class="docutils literal notranslate"><span class="pre">ErrorDocument</span> <span class="pre">404</span> <span class="pre">/mapage.html</span></code>.</p>
+</section>
+<section id="id12">
+<h4>Contrôle<a class="headerlink" href="#id12" title="Link to this heading">#</a></h4>
+<p>Pour chaque site examiné :</p>
+<ul class="simple">
+<li><p>Taper l’adresse URL du site suivie de caractères aléatoires (du type <a class="reference external" href="http://www.example.com/lsghlshdgkjsdgk" rel="noreferrer" target="_blank">http://www.example.com/lsghlshdgkjsdgk</a>).</p></li>
+<li><p>Vérifier à l’aide d’un outil de développement que le statut indiqué est bien  <code class="docutils literal notranslate"><span class="pre">404</span> <span class="pre">not</span> <span class="pre">found</span></code>.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-serveur-envoie-une-page-d-erreur-404-personnalisee">
+<h3>216 - Le serveur envoie une page d’erreur 404 personnalisée.<a class="headerlink" href="#le-serveur-envoie-une-page-d-erreur-404-personnalisee" title="Link to this heading">#</a></h3>
+<section id="id13">
+<h4>Objectif<a class="headerlink" href="#id13" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Informer l’utilisateur sur l’erreur rencontrée, sur la continuité de fonctionnement du serveur</p></li>
+<li><p>Lever le doute sur un éventuel problème lié à sa connexion.</p></li>
+</ul>
+</section>
+<section id="id14">
+<h4>Mise en œuvre<a class="headerlink" href="#id14" title="Link to this heading">#</a></h4>
+<p>Modifier la configuration du serveur web pour renvoyer l’utilisateur vers une page personnalisée lorsque la ressource demandée n’existe pas.</p>
+<p>Si la configuration principale du serveur n’est pas directement accessible et si l’environnement le permet, utiliser une configuration locale par répertoire. Par exemple, l’environnement Apache autorise la création d’un fichier  <code class="docutils literal notranslate"><span class="pre">.htaccess</span></code>  contenant des directives relatives aux traitements des erreurs :  <code class="docutils literal notranslate"><span class="pre">ErrorDocument</span> <span class="pre">404</span> <span class="pre">/mapage404.html</span></code> .</p>
+</section>
+<section id="id15">
+<h4>Contrôle<a class="headerlink" href="#id15" title="Link to this heading">#</a></h4>
+<p>À partir de n’importe quelle adresse url du site examiné :</p>
+<ul class="simple">
+<li><p>Modifier l’adresse URL afin d’obtenir une erreur 404, par exemple, en ajoutant une série caractères aléatoires en fin d’adresse tel que : <a class="reference external" href="https://www.exemple.com/dbvdjb" rel="noreferrer" target="_blank">https://www.exemple.com/dbvdjb</a></p></li>
+<li><p>Vérifier que la page retournée correspond à une page personnalisée, cohérente avec le reste du site, et non pas à la page 404 envoyée par défaut par le serveur (Apache, IIS, Nginx) ;</p></li>
+<li><p>Dans le cas de l’utilisation d’un CMS, ce dernier peut vous faire croire qu’il ne renvoie pas la page 404 par défaut, il faudra donc effectuer la même vérification via l’adresse URL d’une image ou d’un fichier CSS ou encore JS pour valider définitivement cette bonne pratique.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-serveur-envoie-une-page-d-interdiction-403-personnalisee">
+<h3>217 - Le serveur envoie une page d’interdiction 403 personnalisée.<a class="headerlink" href="#le-serveur-envoie-une-page-d-interdiction-403-personnalisee" title="Link to this heading">#</a></h3>
+<section id="id16">
+<h4>Objectif<a class="headerlink" href="#id16" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Rassurer l’internaute sur le fait qu’il est toujours dans le même site.</p></li>
+<li><p>Permettre à l’administrateur du site de mettre des éléments de guidage pour l’utilisateur.</p></li>
+<li><p>Informer l’utilisateur sur l’erreur rencontrée, sur la continuité de fonctionnement du serveur et mettre hors de cause sa connexion.</p></li>
+</ul>
+</section>
+<section id="id17">
+<h4>Mise en œuvre<a class="headerlink" href="#id17" title="Link to this heading">#</a></h4>
+<p>Modifier la configuration du serveur web pour renvoyer l’utilisateur vers une page personnalisée lorsque l’accès à la ressource demandée n’est pas autorisé.</p>
+<p>Si la configuration principale du serveur n’est pas directement accessible et si l’environnement le permet, utiliser une configuration locale par répertoire. Par exemple, l’environnement Apache autorise la création d’un fichier  <code class="docutils literal notranslate"><span class="pre">.htaccess</span></code>  contenant des directives relatives aux traitements des erreurs :  <code class="docutils literal notranslate"><span class="pre">ErrorDocument</span> <span class="pre">403</span> <span class="pre">/mapage403.html</span></code> .</p>
+</section>
+<section id="id18">
+<h4>Contrôle<a class="headerlink" href="#id18" title="Link to this heading">#</a></h4>
+<p>Pour chaque site audité :</p>
+<ul class="simple">
+<li><p>Obtenir une page d’erreur 403, pour cela, vous pouvez retirer la dernière partie de l’adresse url d’une des images du site pour ne garder que le nom des répertoires présents entre les slashs de cette adresse, par exemple : <a class="reference external" href="https://www.exemple/com/img/" rel="noreferrer" target="_blank">https://www.exemple/com/img/</a>. La page affichée devrait alors être une page d’erreur 403.</p></li>
+<li><p>Vérifier que la page retournée ne correspond pas à la page 403 renvoyée par défaut par le serveur (Apache, IIS, Nginx) mais bien à une page d’erreur personnalisée, dont le graphisme est cohérent avec l’ensemble du site.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-menu-principal-de-navigation-figure-sur-les-pages-d-erreur-personnalisees">
+<h3>218 - Le menu principal de navigation figure sur les pages d’erreur personnalisées.<a class="headerlink" href="#le-menu-principal-de-navigation-figure-sur-les-pages-d-erreur-personnalisees" title="Link to this heading">#</a></h3>
+<section id="id19">
+<h4>Objectif<a class="headerlink" href="#id19" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Éviter aux utilisateurs les ruptures de navigation, l’arrivée sur des pages cul-de-sac ou l’obligation d’utiliser le bouton Précédent du navigateur.</p></li>
+</ul>
+</section>
+<section id="id20">
+<h4>Mise en œuvre<a class="headerlink" href="#id20" title="Link to this heading">#</a></h4>
+<p>La page d’erreur 404 reprend soit de façon dynamique soit de façon statique l’ensemble de la navigation principale du site.</p>
+</section>
+<section id="id21">
+<h4>Contrôle<a class="headerlink" href="#id21" title="Link to this heading">#</a></h4>
+<p>Pour chaque site examinée:</p>
+<ul class="simple">
+<li><p>Modifier l’adresse URL afin d’obtenir une page d’erreur 404, par exemple, en ajoutant une série de trois ou quatre caractères aléatoires en fin d’adresse tel que : <a class="reference external" href="https://www.exemple.com/dbvdjb" rel="noreferrer" target="_blank">https://www.exemple.com/dbvdjb</a>.</p></li>
+<li><p>Valider que la page retournée contient les éléments du menu principal de navigation.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-serveur-transmet-des-contenus-compresses-aux-clients-qui-les-acceptent">
+<h3>219 - Le serveur transmet des contenus compressés aux clients qui les acceptent.<a class="headerlink" href="#le-serveur-transmet-des-contenus-compresses-aux-clients-qui-les-acceptent" title="Link to this heading">#</a></h3>
+<section id="id22">
+<h4>Objectif<a class="headerlink" href="#id22" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Améliorer la vitesse de rendu de la page.</p></li>
+<li><p>Diminuer les coûts de bande passante.</p></li>
+<li><p>Diminuer l’impact énergétique lié à la consultation du site</p></li>
+</ul>
+</section>
+<section id="id23">
+<h4>Mise en œuvre<a class="headerlink" href="#id23" title="Link to this heading">#</a></h4>
+<p>Activer le module Gzip ou Deflate du serveur pour compresser les ressources Javascript, CSS et HTML.</p>
+</section>
+<section id="id24">
+<h4>Contrôle<a class="headerlink" href="#id24" title="Link to this heading">#</a></h4>
+<p>Pour chaque page examinée :</p>
+<ul class="simple">
+<li><p>Vérifier la compression des contenus (Gzip) à l’aide d’un outil dédié.</p></li>
+</ul>
+<p>Attention à bien vérifier tous les éléments liés (CSS, JS, HTML) et pas seulement la page en elle-même. Les formats déjà compressés comme les images JPEG ou PNG ou les archives zip, par exemple, ne doivent pas être recompressés.</p>
+<p>Si la taille avant compression d’un élément est inférieure à 1 Ko, il n’est pas nécessaire de le compresser, au risque de voir son poids augmenter.</p>
+</section>
+</section>
+<section id="le-serveur-envoie-les-informations-permettant-la-mise-en-cache-des-contenus">
+<h3>220 - Le serveur envoie les informations permettant la mise en cache des contenus.<a class="headerlink" href="#le-serveur-envoie-les-informations-permettant-la-mise-en-cache-des-contenus" title="Link to this heading">#</a></h3>
+<section id="id25">
+<h4>Objectif<a class="headerlink" href="#id25" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Accélérer l’affichage des contenus et permettre une navigation plus fluide.</p></li>
+<li><p>Réduire les coûts de bande passante.</p></li>
+</ul>
+</section>
+<section id="id26">
+<h4>Mise en œuvre<a class="headerlink" href="#id26" title="Link to this heading">#</a></h4>
+<p>Configurer le serveur web pour qu’il puisse gérer la mise en cache des éléments statiques et gérer – au niveau applicatif – la possible mise en cache des éléments dynamiques.</p>
+<p>En pratique, et en accord avec les spécifications HTTP, le serveur devra envoyer les en-têtes etag, date et last-modified correspondant, respectivement, à l’identifiant de la ressource, à la date de traitement de la requête et à la date de dernière modification de la ressource demandée. L’ensemble des dates est au format GMT. Ces informations peuvent être complétées par les champs content-length et expires si la taille en octets et la date d’expiration exacte du contenu sont connues.</p>
+<p>Afin d’informer les proxys et les clients finaux sur le comportement à adopter vis-à-vis des contenus mis en cache, les auteurs devront utiliser l’en-tête HTTP cache-control en accord avec les délais de réactualisation nécessaires et le caractère privé de la diffusion.</p>
+<p>La possible mise en cache pourra être ainsi finalisée par la soumission d’un message 304 Not Modified (sans la ressource demandée dans le corps de la requête) lorsque le serveur recevra un en-tête if-modified-since contenant une date antérieure à la date de modification de ladite ressource.</p>
+</section>
+<section id="id27">
+<h4>Contrôle<a class="headerlink" href="#id27" title="Link to this heading">#</a></h4>
+<p>Pour chaque page : vérifier la possible mise en cache des éléments de la page à l’aide d’un outil dédié (outils de développement, service en ligne, etc.) Attention à bien vérifier tous les éléments liés (CSS, JS, images) et pas seulement la page en elle-même.</p>
+</section>
+</section>
+<section id="les-en-tetes-envoyes-par-le-serveur-contiennent-les-informations-relatives-au-jeu-de-caracteres-employe">
+<h3>221 - Les en-têtes envoyés par le serveur contiennent les informations relatives au jeu de caractères employé.<a class="headerlink" href="#les-en-tetes-envoyes-par-le-serveur-contiennent-les-informations-relatives-au-jeu-de-caracteres-employe" title="Link to this heading">#</a></h3>
+<section id="id28">
+<h4>Objectif<a class="headerlink" href="#id28" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre au navigateur de choisir le bon encodage des caractères pour afficher la page.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id29">
+<h4>Mise en œuvre<a class="headerlink" href="#id29" title="Link to this heading">#</a></h4>
+<p>Le paramètre  <code class="docutils literal notranslate"><span class="pre">charset</span></code>  de l’en-tête HTTP content-type est renseigné sous la forme :  <code class="docutils literal notranslate"><span class="pre">Content-Type:</span> <span class="pre">text/html;</span> <span class="pre">charset=utf-8</span></code>  (utf-8 étant ici un exemple), en fonction du jeu de caractères effectivement utilisé par le document et de son type MIME.</p>
+</section>
+<section id="id30">
+<h4>Contrôle<a class="headerlink" href="#id30" title="Link to this heading">#</a></h4>
+<p>Pour chaque page examinée :</p>
+<ul class="simple">
+<li><p>Vérifier la présence du  <code class="docutils literal notranslate"><span class="pre">charset</span></code>  dans le champ content-type renvoyé par le serveur avec un outil dédié ;</p></li>
+<li><p>Vérifier que le jeu de caractères déclaré correspond effectivement au jeu de caractères utilisé par le document. En présence de caractères non corrects à la place des accents ou autres, la bonne pratique sera certainement invalidée.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-feuilles-de-style-du-site-sont-minifiees">
+<h3>222 - Les feuilles de style du site sont minifiées.<a class="headerlink" href="#les-feuilles-de-style-du-site-sont-minifiees" title="Link to this heading">#</a></h3>
+<section id="id31">
+<h4>Objectif<a class="headerlink" href="#id31" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Minimiser la quantité de données à télécharger par l’utilisateur.</p></li>
+<li><p>Améliorer les performances.</p></li>
+<li><p>Diminuer l’impact énergétique lié à la consultation du site</p></li>
+</ul>
+</section>
+<section id="id32">
+<h4>Mise en œuvre<a class="headerlink" href="#id32" title="Link to this heading">#</a></h4>
+<p>Supprimer les espaces non nécessaires et les commentaires dans les fichiers CSS en recourant à des outils dédiés.</p>
+</section>
+<section id="id33">
+<h4>Contrôle<a class="headerlink" href="#id33" title="Link to this heading">#</a></h4>
+<p>Pour l’ensemble du site</p>
+<ul class="simple">
+<li><p>Vérifier manuellement au sein de tous les fichiers CSS qu’aucun retour ligne, commentaire, indentation ou saut de ligne n’est présent.</p></li>
+<li><p>Ou identifier la liste des fichiers CSS non minifiés à l’aide d’outils de développement (navigateurs, outils en ligne, etc.)</p></li>
+</ul>
+</section>
+</section>
+<section id="les-scripts-du-site-sont-minifies">
+<h3>223 - Les scripts du site sont minifiés.<a class="headerlink" href="#les-scripts-du-site-sont-minifies" title="Link to this heading">#</a></h3>
+<section id="id34">
+<h4>Objectif<a class="headerlink" href="#id34" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Accélérer la vitesse d’affichage des pages.</p></li>
+<li><p>Améliorer les performances.</p></li>
+<li><p>Diminuer la quantité de données à télécharger.</p></li>
+<li><p>Diminuer l’impact énergétique lié à la consultation du site</p></li>
+</ul>
+</section>
+<section id="id35">
+<h4>Mise en œuvre<a class="headerlink" href="#id35" title="Link to this heading">#</a></h4>
+<p>Supprimer les espaces non nécessaires ainsi que les commentaires dans les fichiers Javascript, en recourant à des outils dédiés.</p>
+</section>
+<section id="id36">
+<h4>Contrôle<a class="headerlink" href="#id36" title="Link to this heading">#</a></h4>
+<p>Pour l’ensemble du site :</p>
+<ul class="simple">
+<li><p>Vérifier manuellement au sein de tous les fichiers Javascript qu’aucun retour ligne, indentation ou saut de ligne n’est présent.</p></li>
+<li><p>Ou identifier la liste des scripts Javascript non minifiés à l’aide d’outils de développement (navigateurs, outils en ligne, etc.).</p></li>
+</ul>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -620,6 +935,110 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> 
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regles">Règles</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-adresse-du-site-fonctionne-avec-et-sans-prefixe-www">211 - L’adresse du site fonctionne avec et sans préfixe www.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#objectif">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-en-oeuvre">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#controle">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-racine-du-site-contient-des-instructions-pour-les-robots-d-indexation">212 - La racine du site contient des instructions pour les robots d’indexation.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-propose-un-fichier-sitemap-indiquant-les-contenus-a-explorer">213 - Le site propose un fichier sitemap indiquant les contenus à explorer.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-serveur-ne-force-pas-la-redirection-vers-la-version-ou-l-application-mobile">214 - Le serveur ne force pas la redirection vers la version ou l’application mobile.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-serveur-envoie-un-code-http-404-pour-les-ressources-non-trouvees">215 - Le serveur envoie un code HTTP 404 pour les ressources non trouvées.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-serveur-envoie-une-page-d-erreur-404-personnalisee">216 - Le serveur envoie une page d’erreur 404 personnalisée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-serveur-envoie-une-page-d-interdiction-403-personnalisee">217 - Le serveur envoie une page d’interdiction 403 personnalisée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-menu-principal-de-navigation-figure-sur-les-pages-d-erreur-personnalisees">218 - Le menu principal de navigation figure sur les pages d’erreur personnalisées.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-serveur-transmet-des-contenus-compresses-aux-clients-qui-les-acceptent">219 - Le serveur transmet des contenus compressés aux clients qui les acceptent.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id23">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id24">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-serveur-envoie-les-informations-permettant-la-mise-en-cache-des-contenus">220 - Le serveur envoie les informations permettant la mise en cache des contenus.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id25">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id26">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id27">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-en-tetes-envoyes-par-le-serveur-contiennent-les-informations-relatives-au-jeu-de-caracteres-employe">221 - Les en-têtes envoyés par le serveur contiennent les informations relatives au jeu de caractères employé.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id28">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id29">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id30">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-feuilles-de-style-du-site-sont-minifiees">222 - Les feuilles de style du site sont minifiées.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id31">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id32">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id33">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-scripts-du-site-sont-minifies">223 - Les scripts du site sont minifiés.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id34">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id35">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id36">Contrôle</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../../../_sources/content/Outils/Opquast/Serveur-perf.md">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
               
             
           </div>

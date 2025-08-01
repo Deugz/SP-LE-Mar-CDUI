@@ -58,4 +58,87 @@ Pas le bon support mais quelques documents sur le drive
 
 :::::
 
+## Cours
+
+
+
+
+
+
+
+
+
+
+
+## Exemples 
+
+### Professionels
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 4
+
+> Texte de présentation
+
+:::
+
+:::{grid-item}
+:columns: 8
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N72Zw2EBm4A?si=kONM3pl6rI74fn4T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+:::
+
+::::
+
+### Apprenants
+
+#### Soula
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 1
+
+:::
+
+:::{grid-item}
+:columns: 10
+
+<video src="../../../../_static/Video-apprenants/CDP1-NEZ-ROUGE.mp4" controls width="100%" align="center"></video>
+
+:::
+
+:::{grid-item}
+:columns: 1
+
+:::
+
+::::
+
+
+#### Mahran
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 1
+
+:::
+
+:::{grid-item}
+:columns: 10
+
+<video src="../../../../_static/Video-apprenants/CDP1-MySeriesMania-Teaser.mp4" controls width="100%" align="center"></video>
+
+:::
+
+:::{grid-item}
+:columns: 1
+
+:::
+
+::::
+
 ## Synthèse

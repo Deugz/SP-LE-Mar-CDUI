@@ -11,6 +11,18 @@ Présenter des outils qui permettent de bien s'organiser
 
 ```
 
+## Gérer Ses Fichiers
+
+```{note}
+
+Expliquer la structure du 
+
+```
+
+
+
+
+
 ## Diagramme de Gant
 
 - [Bonne ressource](https://www.reussirsesprojets.com/diagramme-de-gantt/)

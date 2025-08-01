@@ -8,6 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <meta property="article:modified_time" content="2025-06-25T09:58:05+02:00" />
     <title>Formulaires &#8212; Label Ecole V0 0.0.1 documentation</title>
   
   
@@ -85,6 +86,7 @@
     <link rel="prev" title="E-Commerce" href="E-commerce.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+    <meta name="docbuild:last-update" content="25 June 2025"/>
   </head>
   
   
@@ -336,6 +338,10 @@ document.write(`
   
 
   
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
 </div>
 
     </header>
@@ -565,6 +571,615 @@ document.write(`
                   
   <section id="formulaires">
 <h1>Formulaires<a class="headerlink" href="#formulaires" title="Link to this heading">#</a></h1>
+<section id="regles">
+<h2>Règles<a class="headerlink" href="#regles" title="Link to this heading">#</a></h2>
+<section id="chaque-champ-de-formulaire-est-associe-dans-le-code-source-a-une-etiquette-qui-lui-est-propre">
+<h3>67 - Chaque champ de formulaire est associé dans le code source à une étiquette qui lui est propre.<a class="headerlink" href="#chaque-champ-de-formulaire-est-associe-dans-le-code-source-a-une-etiquette-qui-lui-est-propre" title="Link to this heading">#</a></h3>
+<section id="objectif">
+<h4>Objectif<a class="headerlink" href="#objectif" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter la compréhension des données attendues dans les formulaires.</p></li>
+<li><p>Permettre aux aides techniques d’accessibilité de restituer les champs de formulaires en les associant systématiquement à une étiquette indiquant leur rôle et la nature de la saisie attendue.</p></li>
+<li><p>Faciliter la saisie en permettant de sélectionner le champ via un clic sur son étiquette aussi bien que sur le champ lui-même (particulièrement en cas de case à cocher ou de case radio).</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="mise-en-oeuvre">
+<h4>Mise en œuvre<a class="headerlink" href="#mise-en-oeuvre" title="Link to this heading">#</a></h4>
+<p>Donner à chaque champ de formulaire une étiquette qui lui soit explicitement associée :</p>
+<ul class="simple">
+<li><p>si l’étiquette est visible, sous la forme d’un élément  label  doté d’un attribut  for  reprenant la valeur de l’attribut  <code class="docutils literal notranslate"><span class="pre">id</span></code>  affecté au champ, par exemple :</p></li>
+</ul>
+<p><code class="docutils literal notranslate"><span class="pre">&lt;label</span> <span class="pre">for=&quot;nom1&quot;&gt;Nom</span> <span class="pre">de</span> <span class="pre">famille</span> <span class="pre">:&lt;/label&gt;</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">&lt;input</span> <span class="pre">id=&quot;nom1&quot;</span> <span class="pre">type=&quot;text&quot;</span> <span class="pre">name=&quot;nom&quot;&gt;</span></code></p>
+<ul class="simple">
+<li><p>si l’affichage de l’étiquette n’est pas souhaitée (placeholder), sous la forme d’un attribut  aria-label  ou  aria-labelledby .</p></li>
+</ul>
+<p>Le recours à une étiquette <code class="docutils literal notranslate"><span class="pre">&lt;label</span> <span class="pre">for=&quot;…&quot;&gt;</span></code> masquée via les styles CSS est déconseillé au profit de l’attribut  <code class="docutils literal notranslate"><span class="pre">aria-label</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">aria-labelledby</span></code> .</p>
+</section>
+<section id="controle">
+<h4>Contrôle<a class="headerlink" href="#controle" title="Link to this heading">#</a></h4>
+<p>Pour chaque champ de formulaire :</p>
+<ul class="simple">
+<li><p>Vérifier, en regardant le code source ou à l’aide de Firebug, que l’attribut  <code class="docutils literal notranslate"><span class="pre">for</span></code>, propre à l’élément  <code class="docutils literal notranslate"><span class="pre">label</span></code>, ainsi que l’attribut  <code class="docutils literal notranslate"><span class="pre">id</span></code>  du champ ont exactement le même contenu. Si les valeurs de ces deux attributs sont effectivement identiques, l’étiquette ( <code class="docutils literal notranslate"><span class="pre">label</span></code> ) est bien associée au champ (<code class="docutils literal notranslate"><span class="pre">input</span></code>).</p></li>
+<li><p>Dans le cas où aucune étiquette n’est visible dans le site (placeholder), vérifier que chaque champ de formulaire est doté d’un attribut  <code class="docutils literal notranslate"><span class="pre">aria-label</span></code>  ou <code class="docutils literal notranslate"><span class="pre">aria-labelledby</span></code> .</p></li>
+</ul>
+<p>Dans les deux cas, vérifier enfin que l’étiquette décrit effectivement le rôle du champ ou la nature de l’information qui doit y être saisie. Cette bonne pratique ne peut donc être automatisée mais nécessite un examen manuel de chaque formulaire</p>
+</section>
+</section>
+<section id="les-informations-completant-l-etiquette-d-un-champ-sont-associees-a-celui-ci-dans-le-code-source">
+<h3>68 - Les informations complétant l’étiquette d’un champ sont associées à celui-ci dans le code-source<a class="headerlink" href="#les-informations-completant-l-etiquette-d-un-champ-sont-associees-a-celui-ci-dans-le-code-source" title="Link to this heading">#</a></h3>
+<section id="id1">
+<h4>Objectif<a class="headerlink" href="#id1" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Optimiser le rendu dans les lecteurs d’écran en permettant d’expliciter les étiquettes des champs de formulaire.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id2">
+<h4>Mise en œuvre<a class="headerlink" href="#id2" title="Link to this heading">#</a></h4>
+<p>Associer explicitement dans le code source chaque information venant compléter une étiquette de champ de formulaire, ou venant informer l’utilisateur en cas d’erreur de saisie :</p>
+<ul class="simple">
+<li><p>soit à l’aide d’un regroupement de champ fieldset et de l’élément legend ;</p></li>
+<li><p>soit à l’aide de l’attribut  aria-describedby .</p></li>
+</ul>
+</section>
+<section id="id3">
+<h4>Contrôle<a class="headerlink" href="#id3" title="Link to this heading">#</a></h4>
+<p>Vérifier dans le code source que chaque information venant compléter une étiquette de champ de formulaire, ou venant informer l’utilisateur en cas d’erreur de saisie :</p>
+<ul class="simple">
+<li><p>est associée au champ en étant balisée par un élément legend inclus dans un élément fieldset regroupant les champs concernés ;</p></li>
+<li><p>ou est associée au champ via un attribut <code class="docutils literal notranslate"><span class="pre">aria-describedby</span></code>.</p></li>
+</ul>
+</section>
+</section>
+<section id="l-etiquette-de-chaque-champ-de-formulaire-indique-si-la-saisie-est-obligatoire">
+<h3>69 - L’étiquette de chaque champ de formulaire indique si la saisie est obligatoire.<a class="headerlink" href="#l-etiquette-de-chaque-champ-de-formulaire-indique-si-la-saisie-est-obligatoire" title="Link to this heading">#</a></h3>
+<section id="id4">
+<h4>Objectif<a class="headerlink" href="#id4" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs de savoir à l’avance si un champ est obligatoire.</p></li>
+<li><p>Prévenir les erreurs avant qu’elles ne surviennent.</p></li>
+<li><p>Renforcer la confiance des utilisateurs sur l’utilisation de leurs données.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id5">
+<h4>Mise en œuvre<a class="headerlink" href="#id5" title="Link to this heading">#</a></h4>
+<p>Indiquer le caractère obligatoire de la saisie dans l’étiquette associée au champ. Si l’indication est faite avec un symbole graphique (astérisque par exemple), faire précéder le formulaire d’une légende explicitant ce symbole.</p>
+</section>
+<section id="id6">
+<h4>Contrôle<a class="headerlink" href="#id6" title="Link to this heading">#</a></h4>
+<p>Pour chaque formulaire :</p>
+<ul class="simple">
+<li><p>Vérifier que l’étiquette associée à chaque champ en indique le caractère obligatoire, si besoin en contrôlant, avec un inspecteur de code, que l’information est bien présente dans l’élément  <code class="docutils literal notranslate"><span class="pre">label</span></code> ,  dans un attribut  <code class="docutils literal notranslate"><span class="pre">aria-label</span></code>,  ou bien qu’elle est reliée au champ via un attribut  <code class="docutils literal notranslate"><span class="pre">aria-labelledby</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">aria-describedby</span></code>.</p></li>
+<li><p>Vérifier que les champs dont l’étiquette ne donne aucune information sur leur caractère obligatoire sont bien facultatifs, en validant le formulaire sans les remplir. Si un message d’erreur indique qu’ils doivent être remplis ou si le formulaire ne peut être validé ainsi, la bonne pratique est invalidée.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-format-de-saisie-des-champs-de-formulaire-qui-le-necessitent-est-indique">
+<h3>70 - Le format de saisie des champs de formulaire qui le nécessitent est indiqué<a class="headerlink" href="#le-format-de-saisie-des-champs-de-formulaire-qui-le-necessitent-est-indique" title="Link to this heading">#</a></h3>
+<section id="id7">
+<h4>Objectif<a class="headerlink" href="#id7" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Limiter le risque d’erreurs de saisie.</p></li>
+<li><p>Limiter les risques associés à l’envoi de données erronées ou impossibles à exploiter.</p></li>
+<li><p>Éviter que l’utilisateur ne renonce à poursuivre faute d’information sur la saisie attendue.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id8">
+<h4>Mise en œuvre<a class="headerlink" href="#id8" title="Link to this heading">#</a></h4>
+<p>Indiquer quel est le format de saisie attendue via l’étiquette associée au champ. Par exemple :  <code class="docutils literal notranslate"><span class="pre">&amp;lt;label</span> <span class="pre">for=&quot;mail&quot;&amp;gt;</span></code> Adresse email (du type <a class="reference external" href="mailto:mail&#37;&#52;&#48;exemple&#46;com" rel="noreferrer" target="_blank">mail<span>&#64;</span>exemple<span>&#46;</span>com</a>) <code class="docutils literal notranslate"><span class="pre">&amp;lt;/label&amp;gt;</span></code></p>
+</section>
+<section id="id9">
+<h4>Contrôle<a class="headerlink" href="#id9" title="Link to this heading">#</a></h4>
+<p>Pour chaque formulaire :</p>
+<ul class="simple">
+<li><p>Soumettre différentes erreurs possibles dans chaque formulaire : non-respect d’un format demandé ou prévisible (format d’adresse e-mail, de date, etc.), afin de détecter les champs pour lesquels un format de saisie spécifique est imposé.</p></li>
+<li><p>Vérifier, à l’aide d’un inspecteur de code, que l’étiquette associée à chaque champ concerné en indique le format attendu dans l’élément label ou via un attribut ARIA.</p></li>
+</ul>
+</section>
+</section>
+<section id="l-utilisateur-est-averti-lorsqu-une-saisie-est-sensible-a-la-casse">
+<h3>71 - L’utilisateur est averti lorsqu’une saisie est sensible à la casse.<a class="headerlink" href="#l-utilisateur-est-averti-lorsqu-une-saisie-est-sensible-a-la-casse" title="Link to this heading">#</a></h3>
+<section id="id10">
+<h4>Objectif<a class="headerlink" href="#id10" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Éviter le risque d’erreur et donc éviter à l’utilisateur de devoir remplir plusieurs fois un même champ.</p></li>
+<li><p>Éviter l’incompréhension de l’utilisateur qui pense avoir rempli correctement le champ et qui le voit signalé en erreur.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id11">
+<h4>Mise en œuvre<a class="headerlink" href="#id11" title="Link to this heading">#</a></h4>
+<p>Si la saisie attendue est sensible à la casse, préciser dans l’étiquette associée au champ qu’elle doit être réalisée en majuscules ou en minuscules selon le cas.</p>
+</section>
+<section id="id12">
+<h4>Contrôle<a class="headerlink" href="#id12" title="Link to this heading">#</a></h4>
+<p>Pour chaque formulaire</p>
+<ul class="simple">
+<li><p>Détecter les champs dont la saisie est sensible à la casse en inscrivant le texte demandé en majuscules puis en minuscules et contrôler si, dans l’un des deux cas, la saisie est rejetée ;</p></li>
+<li><p>En cas de rejet de la saisie à cause de sa casse, vérifier que l’étiquette associée à chaque champ, via l’élément  <code class="docutils literal notranslate"><span class="pre">label</span></code>  ou dans l’attribut  <code class="docutils literal notranslate"><span class="pre">aria-label</span></code> , informe l’utilisateur de cette sensibilité.</p></li>
+<li></li>
+</ul>
+</section>
+</section>
+<section id="l-etiquette-de-chaque-champ-de-formulaire-qui-le-necessite-indique-les-limites-de-nombre-de-caracteres">
+<h3>72 - L’étiquette de chaque champ de formulaire qui le nécessite indique les limites de nombre de caractères<a class="headerlink" href="#l-etiquette-de-chaque-champ-de-formulaire-qui-le-necessite-indique-les-limites-de-nombre-de-caracteres" title="Link to this heading">#</a></h3>
+<section id="id13">
+<h4>Objectif<a class="headerlink" href="#id13" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Prévenir les erreurs d’envoi de formulaires.</p></li>
+<li><p>Prévenir les pertes de données.</p></li>
+<li><p>Éviter l’agacement et l’incompréhension de l’utilisateur.</p></li>
+</ul>
+</section>
+<section id="id14">
+<h4>Mise en œuvre<a class="headerlink" href="#id14" title="Link to this heading">#</a></h4>
+<p>Pour chaque champ faisait l’objet d’une limitation spécifique du nombre de caractères qui peuvent être saisis, indiquer le nombre de caractères maximum dans l’étiquette du champ, ou dans une mention explicitement associée à celle-ci dans le code HTML.</p>
+</section>
+<section id="id15">
+<h4>Contrôle<a class="headerlink" href="#id15" title="Link to this heading">#</a></h4>
+<p>Vérifier, pour chaque champ faisant l’objet d’une limitation spécifique du nombre de caractères qui peuvent être saisis, que le nombre de caractères autorisés est indiqué dans l’étiquette du champ, ou via une mention explicitement associée à celle-ci dans le code HTML.</p>
+</section>
+</section>
+<section id="la-creation-d-un-mot-de-passe-par-l-utilisateur-fait-l-objet-d-un-mecanisme-de-prevention-des-erreurs-de-saisie">
+<h3>73 - La création d’un mot de passe par l’utilisateur fait l’objet d’un mécanisme de prévention des erreurs de saisie.<a class="headerlink" href="#la-creation-d-un-mot-de-passe-par-l-utilisateur-fait-l-objet-d-un-mecanisme-de-prevention-des-erreurs-de-saisie" title="Link to this heading">#</a></h3>
+<section id="id16">
+<h4>Objectif<a class="headerlink" href="#id16" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Éviter à l’utilisateur de saisir un mot de passe qui ne correspond finalement pas à celui qu’il a souhaité ou mémorisé.</p></li>
+</ul>
+</section>
+<section id="id17">
+<h4>Mise en œuvre<a class="headerlink" href="#id17" title="Link to this heading">#</a></h4>
+<p>Proposer, après le champ de saisie du mot de passe, un champ de confirmation où le mot de passe doit être saisi à nouveau et vérifier que les deux saisies sont effectivement identiques lors de la soumission.</p>
+</section>
+<section id="id18">
+<h4>Contrôle<a class="headerlink" href="#id18" title="Link to this heading">#</a></h4>
+<p>Dans le cas d’une création de mot de passe :</p>
+<ul class="simple">
+<li><p>Vérifier qu’un mécanisme de double saisie des mots de passe, généralement présent sous la forme de deux champs successifs, est systématiquement présent.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-caracteres-saisis-dans-un-champ-de-mot-de-passe-peuvent-etre-affiches-en-clair">
+<h3>74 - Les caractères saisis dans un champ de mot de passe peuvent être affichés en clair.<a class="headerlink" href="#les-caracteres-saisis-dans-un-champ-de-mot-de-passe-peuvent-etre-affiches-en-clair" title="Link to this heading">#</a></h3>
+<section id="id19">
+<h4>Objectif<a class="headerlink" href="#id19" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter la saisie des mots de passe, notamment sur les claviers virtuels des terminaux mobiles.</p></li>
+<li><p>Prévenir les erreurs.</p></li>
+</ul>
+</section>
+<section id="id20">
+<h4>Mise en œuvre<a class="headerlink" href="#id20" title="Link to this heading">#</a></h4>
+<p>Afficher un bouton associé à un script qui bascule la valeur de l’attribut type du champ de saisie entre les valeurs  <code class="docutils literal notranslate"><span class="pre">password</span></code> et <code class="docutils literal notranslate"><span class="pre">text</span></code>.</p>
+</section>
+<section id="id21">
+<h4>Contrôle<a class="headerlink" href="#id21" title="Link to this heading">#</a></h4>
+<p>Contrôler manuellement la possibilité d’afficher le mot de passe en clair via un dispositif inclus dans la page.</p>
+</section>
+</section>
+<section id="chaque-etiquette-de-formulaire-est-visuellement-rattachee-au-champ-qu-elle-decrit">
+<h3>75 - Chaque étiquette de formulaire est visuellement rattachée au champ qu’elle décrit.<a class="headerlink" href="#chaque-etiquette-de-formulaire-est-visuellement-rattachee-au-champ-qu-elle-decrit" title="Link to this heading">#</a></h3>
+<section id="id22">
+<h4>Objectif<a class="headerlink" href="#id22" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs d’identifier sans ambiguïté les champs de formulaire et la nature des informations à saisir.</p></li>
+<li><p>Prévenir les erreurs de saisie.</p></li>
+<li><p>Faciliter et accélérer l’usage du formulaire.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id23">
+<h4>Mise en œuvre<a class="headerlink" href="#id23" title="Link to this heading">#</a></h4>
+<p>Veiller à ce que l’étiquette visible de chaque champ de formulaire soit affichée à proximité immédiate du champ concerné, afin que le rapport entre ceux-ci puisse être perçu sans ambiguïté.</p>
+<p>Éviter les mises en forme de formulaire entraînant la présence d’un espace vide important entre un champ et son étiquette, ou un positionnement inhabituel de l’étiquette telle qu’une étiquette placée en-dessous du champ, ou une étiquette de case à cocher placée au dessus de celle-ci.</p>
+</section>
+<section id="id24">
+<h4>Contrôle<a class="headerlink" href="#id24" title="Link to this heading">#</a></h4>
+<p>Pour chaque formulaire</p>
+<ul class="simple">
+<li><p>S’assurer que chaque étiquette de formulaire est affichée à proximité immédiate du champ concerné sur toutes les tailles d’écran (attention au mobile);</p></li>
+<li><p>Vérifier que l’étiquette occupe une position prévisible : au-dessus ou à gauche d’un champ sauf pour les champs  <code class="docutils literal notranslate"><span class="pre">input</span> <span class="pre">type</span> <span class="pre">radio</span></code>  et  <code class="docutils literal notranslate"><span class="pre">checkbox</span></code>  où elle peut se trouver à droite ou à gauche du champ.</p></li>
+</ul>
+<p>La proximité immédiate est une mesure à préciser selon le contexte mais elle est de l’ordre d’une trentaine de pixels maximum pour une étiquette placée à gauche du champ, d’un interligne pour une étiquette placée au-dessus du champ et de quelques pixels pour l’étiquette d’une case radio ou à cocher.</p>
+</section>
+</section>
+<section id="les-informations-contextuelles-se-rapportant-a-un-champ-de-formulaire-lui-sont-visuellement-rattachees">
+<h3>76 - Les informations contextuelles se rapportant à un champ de formulaire lui sont visuellement rattachées.<a class="headerlink" href="#les-informations-contextuelles-se-rapportant-a-un-champ-de-formulaire-lui-sont-visuellement-rattachees" title="Link to this heading">#</a></h3>
+<section id="id25">
+<h4>Objectif<a class="headerlink" href="#id25" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter l’utilisation des formulaires dans tous les contextes utilisateurs, notamment les utilisateurs de loupe d’écran ou ceux qui doivent grossir le texte de façon importante.</p></li>
+<li><p>Prévenir les erreurs de saisie.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+</ul>
+</section>
+<section id="id26">
+<h4>Mise en œuvre<a class="headerlink" href="#id26" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Afficher les informations qui viennent compléter l’étiquette du champ (aide à la saisie, signalement des erreurs, etc.) à proximité immédiate du champ et de son étiquette, afin que le rapport entre ceux-ci puisse être perçu sans ambiguïté.</p></li>
+<li><p>Éviter les mises en forme de formulaire entraînant la présence d’un espace vide important entre ces éléments.</p></li>
+</ul>
+</section>
+<section id="id27">
+<h4>Contrôle<a class="headerlink" href="#id27" title="Link to this heading">#</a></h4>
+<p>Vérifier pour chaque champ de formulaire :</p>
+<ul class="simple">
+<li><p>Que les éventuelles informations complétant l’étiquette du champ (aide à la saisie, signalement des erreurs, etc.) sont affichées à proximité immédiate du champ et de son étiquette.</p></li>
+<li><p>Qu’il n’y a pas d’espace vide important entre ces éléments.</p></li>
+</ul>
+</section>
+</section>
+<section id="en-cas-de-rejet-des-donnees-saisies-dans-un-formulaire-les-champs-contenant-les-donnees-rejetees-sont-indiques-a-l-utilisateur">
+<h3>77 - En cas de rejet des données saisies dans un formulaire, les champs contenant les données rejetées sont indiqués à l’utilisateur.<a class="headerlink" href="#en-cas-de-rejet-des-donnees-saisies-dans-un-formulaire-les-champs-contenant-les-donnees-rejetees-sont-indiques-a-l-utilisateur" title="Link to this heading">#</a></h3>
+<section id="id28">
+<h4>Objectif<a class="headerlink" href="#id28" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Donner un retour à l’utilisateur sur l’action qu’il vient d’effectuer.</p></li>
+<li><p>Guider l’utilisateur directement vers les éléments sur lesquels il doit agir.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id29">
+<h4>Mise en œuvre<a class="headerlink" href="#id29" title="Link to this heading">#</a></h4>
+<p>Faire figurer en début de formulaire un message indiquant que tout ou partie des champs nécessite une correction de la saisie précédente. Indiquer également cette information dans l’élément <code class="docutils literal notranslate"><span class="pre">title</span></code>  de la page.</p>
+<p>Ajouter éventuellement au message en début de formulaire la liste des champs à corriger.</p>
+<p>Indiquer explicitement dans l’étiquette de chaque champ concerné qu’il doit être corrigé.</p>
+</section>
+<section id="id30">
+<h4>Contrôle<a class="headerlink" href="#id30" title="Link to this heading">#</a></h4>
+<p>Pour chaque formulaire :</p>
+<ul class="simple">
+<li><p>Soumettre différentes erreurs possibles dans chaque formulaire telles que absence de saisie d’un champ obligatoire, non-respect d’un format demandé ou prévisible (format d’adresse mail, de date, etc.), sensibilité à la casse.</p></li>
+<li><p>Puis, vérifier que l’utilisateur est informé de la présence d’erreurs à corriger au moins dans l’élément <code class="docutils literal notranslate"><span class="pre">title</span></code>  de la page et que chaque champ erroné est signalé via son étiquette.</p></li>
+</ul>
+</section>
+</section>
+<section id="en-cas-de-rejet-des-donnees-saisies-dans-un-formulaire-les-raisons-du-rejet-sont-indiquees-a-l-utilisateur">
+<h3>78 - En cas de rejet des données saisies dans un formulaire, les raisons du rejet sont indiquées à l’utilisateur.<a class="headerlink" href="#en-cas-de-rejet-des-donnees-saisies-dans-un-formulaire-les-raisons-du-rejet-sont-indiquees-a-l-utilisateur" title="Link to this heading">#</a></h3>
+<section id="id31">
+<h4>Objectif<a class="headerlink" href="#id31" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Aider l’internaute à comprendre ce qu’on attend et, ainsi, faciliter le passage à l’étape suivante.</p></li>
+<li><p>Éviter la frustration de l’utilisateur face à une erreur dont il n’aurait pas la solution immédiate.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+</ul>
+</section>
+<section id="id32">
+<h4>Mise en œuvre<a class="headerlink" href="#id32" title="Link to this heading">#</a></h4>
+<p>Pour chaque champ contenant des données rejetées, indiquer la nature de l’erreur et fournir une aide à la correction</p>
+<ul class="simple">
+<li><p>Soit en début de formulaire, dans une liste des champs erronés ;</p></li>
+<li><p>Soit dans le contexte de chaque champ, autant que possible via leur étiquette <code class="docutils literal notranslate"><span class="pre">label</span></code>.</p></li>
+</ul>
+</section>
+<section id="id33">
+<h4>Contrôle<a class="headerlink" href="#id33" title="Link to this heading">#</a></h4>
+<p>Pour chaque formulaire examiné :</p>
+<ul class="simple">
+<li><p>Soumettre les différentes erreurs possibles dans chaque formulaire absence de saisie d’un champ, non-respect d’un format demandé ou prévisible (format d’adresse mail, de date, etc.), sensibilité à la casse, etc.</p></li>
+<li><p>Vérifier, si la saisie est rejetée, que la nature de l’erreur est précisée de manière à fournir l’aide nécessaire à sa correction, par l’un des moyens indiqués dans le paragraphe de mise en oeuvre.</p></li>
+</ul>
+</section>
+</section>
+<section id="en-cas-de-rejet-des-donnees-saisies-dans-un-formulaire-toutes-les-donnees-saisies-peuvent-etre-modifiees-par-l-utilisateur">
+<h3>79 - En cas de rejet des données saisies dans un formulaire, toutes les données saisies peuvent être modifiées par l’utilisateur.<a class="headerlink" href="#en-cas-de-rejet-des-donnees-saisies-dans-un-formulaire-toutes-les-donnees-saisies-peuvent-etre-modifiees-par-l-utilisateur" title="Link to this heading">#</a></h3>
+<section id="id34">
+<h4>Objectif<a class="headerlink" href="#id34" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Laisser la main à l’utilisateur sur la totalité des informations qu’il donne.</p></li>
+<li><p>Faciliter la correction des erreurs commises par l’utilisateur.</p></li>
+<li><p>Permettre à l’utilisateur de modifier des informations sur lesquelles il voudrait revenir.</p></li>
+<li><p>Éviter que l’utilisateur ne quitte le formulaire avant validation définitive.</p></li>
+</ul>
+</section>
+<section id="id35">
+<h4>Mise en œuvre<a class="headerlink" href="#id35" title="Link to this heading">#</a></h4>
+<p>Stocker toutes les données saisies dans des <strong>variables de session</strong> afin de pouvoir les afficher de nouveau telles qu’elles ont été saisies dans les champs.</p>
+<p>Rendre possible la modification des champs après rejet des données.</p>
+</section>
+<section id="id36">
+<h4>Contrôle<a class="headerlink" href="#id36" title="Link to this heading">#</a></h4>
+<p>Pour chaque formulaire audité</p>
+<ul class="simple">
+<li><p>Provoquer le rejet de la saisie en soumettant les différentes erreurs possibles : absence de saisie d’un champ, non-respect d’un format demandé ou prévisible (format d’adresse mail, de date, etc.), sensibilité à la casse ;</p></li>
+<li><p>Puis, vérifier que le formulaire est affiché de nouveau tel qu’il a été rempli, ceci afin de pouvoir éventuellement de le corriger.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-messages-d-erreur-personnalises-sont-exprimes-dans-la-langue-du-formulaire">
+<h3>80 - Les messages d’erreur personnalisés sont exprimés dans la langue du formulaire.<a class="headerlink" href="#les-messages-d-erreur-personnalises-sont-exprimes-dans-la-langue-du-formulaire" title="Link to this heading">#</a></h3>
+<section id="id37">
+<h4>Objectif<a class="headerlink" href="#id37" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Prévenir les difficultés de saisie et améliorer la compréhension des messages d’erreur.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id38">
+<h4>Mise en œuvre<a class="headerlink" href="#id38" title="Link to this heading">#</a></h4>
+<p>S’assurer que tous les messages d’erreur prévus par les outils de gestion d’erreur de saisie sont traduits et délivrés dans la même langue que les autres libellés du formulaire (étiquettes, etc.)</p>
+</section>
+<section id="id39">
+<h4>Contrôle<a class="headerlink" href="#id39" title="Link to this heading">#</a></h4>
+<p>Vérifier que tous les messages d’erreur affichés lors de la saisie dans un formulaire sont dans la même langue que les autres libellés du formulaire (étiquettes, etc.)</p>
+</section>
+</section>
+<section id="lors-de-la-saisie-d-un-formulaire-reparti-sur-plusieurs-pages-un-recapitulatif-global-est-affiche-avant-l-envoi-definitif">
+<h3>81 - Lors de la saisie d’un formulaire réparti sur plusieurs pages, un récapitulatif global est affiché avant l’envoi définitif.<a class="headerlink" href="#lors-de-la-saisie-d-un-formulaire-reparti-sur-plusieurs-pages-un-recapitulatif-global-est-affiche-avant-l-envoi-definitif" title="Link to this heading">#</a></h3>
+<section id="id40">
+<h4>Objectif<a class="headerlink" href="#id40" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Donner à l’utilisateur une vue globale de ce qu’il a saisi dans les pages précédentes.</p></li>
+<li><p>Permettre à l’utilisateur de vérifier l’ensemble des informations d’une procédure complexe avant la soumission définitive.</p></li>
+</ul>
+</section>
+<section id="id41">
+<h4>Mise en œuvre<a class="headerlink" href="#id41" title="Link to this heading">#</a></h4>
+<p>Stocker les informations saisies dans des variables de session afin de pouvoir en afficher un récapitulatif global avant validation.</p>
+</section>
+<section id="id42">
+<h4>Contrôle<a class="headerlink" href="#id42" title="Link to this heading">#</a></h4>
+<p>Pour chaque formulaire réparti sur plusieurs pages :</p>
+<ul class="simple">
+<li><p>Soumettre complètement le formulaire.</p></li>
+<li><p>Vérifier que la soumission finale donne lieu à l’affichage d’un récapitulatif des saisies successives, affiché avant la validation finale du processus par l’utilisateur.</p></li>
+</ul>
+</section>
+</section>
+<section id="la-page-affichee-apres-l-envoi-d-un-formulaire-permet-de-reprendre-directement-la-navigation">
+<h3>82 - La page affichée après l’envoi d’un formulaire permet de reprendre directement la navigation.<a class="headerlink" href="#la-page-affichee-apres-l-envoi-d-un-formulaire-permet-de-reprendre-directement-la-navigation" title="Link to this heading">#</a></h3>
+<section id="id43">
+<h4>Objectif<a class="headerlink" href="#id43" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Éviter de dérouter l’utilisateur en le menant à une page en impasse, y compris par l’utilisation de la fonction « page précédente » du navigateur.</p></li>
+<li><p>Limiter le risque de double envoi de formulaire.</p></li>
+</ul>
+</section>
+<section id="id44">
+<h4>Mise en œuvre<a class="headerlink" href="#id44" title="Link to this heading">#</a></h4>
+<p>Après envoi d’un formulaire, afficher une page de confirmation du succès ou d’avertissement d’échec de l’envoi, où sont présents les éléments de navigation du site.</p>
+</section>
+<section id="id45">
+<h4>Contrôle<a class="headerlink" href="#id45" title="Link to this heading">#</a></h4>
+<p>Pour chaque formulaire examiné</p>
+<ul class="simple">
+<li><p>Remplir les champs demandés et soumettre le formulaire ;</p></li>
+<li><p>Vérifier que l’envoi final de chaque formulaire présent dans le site est suivi de l’affichage d’une page comportant les éléments nécessaires à la poursuite de la navigation (menu principal, lien retour en page d’accueil, etc.).</p></li>
+</ul>
+</section>
+</section>
+<section id="la-soumission-d-un-formulaire-est-suivie-d-un-message-indiquant-la-reussite-ou-non-de-l-action-souhaitee">
+<h3>83 - La soumission d’un formulaire est suivie d’un message indiquant la réussite ou non de l’action souhaitée.<a class="headerlink" href="#la-soumission-d-un-formulaire-est-suivie-d-un-message-indiquant-la-reussite-ou-non-de-l-action-souhaitee" title="Link to this heading">#</a></h3>
+<section id="id46">
+<h4>Objectif<a class="headerlink" href="#id46" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Fournir à l’utilisateur un retour immédiat et explicite sur l’action qu’il vient d’effectuer.</p></li>
+<li><p>Éviter la frustration d’un utilisateur qui pense que le processus s’est déroulé avec succès alors qu’il y a eu un problème.</p></li>
+</ul>
+</section>
+<section id="id47">
+<h4>Mise en œuvre<a class="headerlink" href="#id47" title="Link to this heading">#</a></h4>
+<p>Retourner une page de confirmation explicite après soumission d’un formulaire.</p>
+</section>
+<section id="id48">
+<h4>Contrôle<a class="headerlink" href="#id48" title="Link to this heading">#</a></h4>
+<p>Pour chaque formulaire</p>
+<ul class="simple">
+<li><p>Soumettre complètement le formulaire ;</p></li>
+<li><p>Vérifier que la soumission finale du formulaire donne lieu à l’affichage d’une page de confirmation indiquant explicitement la réussite ou l’échec de l’opération concernée.</p></li>
+</ul>
+</section>
+</section>
+<section id="l-utilisateur-est-averti-au-debut-d-un-processus-complexe-de-la-nature-des-donnees-et-documents-exiges">
+<h3>84 - L’utilisateur est averti au début d’un processus complexe de la nature des données et documents exigés.<a class="headerlink" href="#l-utilisateur-est-averti-au-debut-d-un-processus-complexe-de-la-nature-des-donnees-et-documents-exiges" title="Link to this heading">#</a></h3>
+<section id="id49">
+<h4>Objectif<a class="headerlink" href="#id49" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Augmenter le taux de réussite du processus complexe.</p></li>
+<li><p>Maintenir et améliorer l’image de marque.</p></li>
+<li><p>Permettre à l’utilisateur de préparer les éventuels documents nécéssaires.</p></li>
+</ul>
+</section>
+<section id="id50">
+<h4>Mise en œuvre<a class="headerlink" href="#id50" title="Link to this heading">#</a></h4>
+<p>Pour tout processus complexe, par exemple un formulaire de commande, afficher avant la première étape de celui-ci la liste des documents ou informations spécifiques qui devront être fournis par l’utilisateur pour finaliser le processus.</p>
+</section>
+<section id="id51">
+<h4>Contrôle<a class="headerlink" href="#id51" title="Link to this heading">#</a></h4>
+<p>Vérifier pour chaque processus complexe que la liste des documents ou informations spécifiques nécessaires pour finaliser le processus est indiquée à l’utilisateur avant la première étape de celui-ci.</p>
+</section>
+</section>
+<section id="les-processus-complexes-sont-accompagnes-de-la-liste-de-leurs-etapes">
+<h3>85 - Les processus complexes sont accompagnés de la liste de leurs étapes.<a class="headerlink" href="#les-processus-complexes-sont-accompagnes-de-la-liste-de-leurs-etapes" title="Link to this heading">#</a></h3>
+<section id="id52">
+<h4>Objectif<a class="headerlink" href="#id52" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Donner de la visibilité à l’utilisateur sur les actions qu’il va réaliser (temps, ordre des étapes, informations nécessaires pour les accomplir, etc.).</p></li>
+<li><p>Éviter que l’utilisateur ne se sente piégé dans un processus dont il n’avait pas prévu la durée.</p></li>
+</ul>
+</section>
+<section id="id53">
+<h4>Mise en œuvre<a class="headerlink" href="#id53" title="Link to this heading">#</a></h4>
+<p>Pour tout processus complexe, par exemple un formulaire de commande, afficher à chaque étape la liste intégrale de toutes ses étapes.</p>
+</section>
+<section id="id54">
+<h4>Contrôle<a class="headerlink" href="#id54" title="Link to this heading">#</a></h4>
+<p>Dans le cas de processus complexes :</p>
+<ul class="simple">
+<li><p>Vérifier, pour chaque page concernée, que la liste des étapes y est indiquée, en règle générale sous forme d’un chemin d’étapes en tête de page ou de formulaire.</p></li>
+</ul>
+</section>
+</section>
+<section id="l-etape-en-cours-d-un-processus-complexe-est-indiquee">
+<h3>86 - L’étape en cours d’un processus complexe est indiquée.<a class="headerlink" href="#l-etape-en-cours-d-un-processus-complexe-est-indiquee" title="Link to this heading">#</a></h3>
+<section id="id55">
+<h4>Objectif<a class="headerlink" href="#id55" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre à l’utilisateur d’identifier le degré d’avancement dans un processus.</p></li>
+<li><p>Rassurer l’utilisateur lors de la réalisation d’un processus complexe.</p></li>
+</ul>
+</section>
+<section id="id56">
+<h4>Mise en œuvre<a class="headerlink" href="#id56" title="Link to this heading">#</a></h4>
+<p>Préciser sur chaque page du processus l’étape correspondant à la page en cours.</p>
+</section>
+<section id="id57">
+<h4>Contrôle<a class="headerlink" href="#id57" title="Link to this heading">#</a></h4>
+<p>Dans le cas de processus complexes, vérifier, pour chaque page concernée, que l’étape en cours y est indiquée</p>
+<ul class="simple">
+<li><p>Dans le titre de page ;</p></li>
+<li><p>Dans le contenu de page, sous la forme d’une mise en évidence dans le chemin d’étapes en tête de page ou de formulaire, par exemple « Étape 2 – Coordonnées » ou « Étape 4 – Paiement ».</p></li>
+</ul>
+</section>
+</section>
+<section id="chaque-etape-d-un-processus-complexe-permet-de-revenir-a-l-etape-precedente">
+<h3>87 - Chaque étape d’un processus complexe permet de revenir à l’étape précédente.<a class="headerlink" href="#chaque-etape-d-un-processus-complexe-permet-de-revenir-a-l-etape-precedente" title="Link to this heading">#</a></h3>
+<section id="id58">
+<h4>Objectif<a class="headerlink" href="#id58" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter l’utilisation des formulaires répartis sur plusieurs pages successives.</p></li>
+<li><p>Réduire les risques d’erreurs de saisie. Limiter les risques d’abandon en cours de processus.</p></li>
+</ul>
+</section>
+<section id="id59">
+<h4>Mise en œuvre<a class="headerlink" href="#id59" title="Link to this heading">#</a></h4>
+<p>Fournir à chaque étape du formulaire un bouton de navigation permettant de retourner à l’étape précédente.</p>
+</section>
+<section id="id60">
+<h4>Contrôle<a class="headerlink" href="#id60" title="Link to this heading">#</a></h4>
+<p>Vérifier manuellement la possibilité de revenir à chaque étape précédente du processus.</p>
+</section>
+</section>
+<section id="l-utilisateur-est-averti-de-la-perte-d-information-en-cas-d-utilisation-de-l-historique-de-son-navigateur-dans-un-processus-complexe">
+<h3>88 - L’utilisateur est averti de la perte d’information en cas d’utilisation de l’historique de son navigateur dans un processus complexe.<a class="headerlink" href="#l-utilisateur-est-averti-de-la-perte-d-information-en-cas-d-utilisation-de-l-historique-de-son-navigateur-dans-un-processus-complexe" title="Link to this heading">#</a></h3>
+<section id="id61">
+<h4>Objectif<a class="headerlink" href="#id61" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter l’utilisation des formulaires répartis sur plusieurs pages successives.</p></li>
+<li><p>Limiter les risques d’abandon en cours de processus.</p></li>
+</ul>
+</section>
+<section id="id62">
+<h4>Mise en œuvre<a class="headerlink" href="#id62" title="Link to this heading">#</a></h4>
+<p>Générer une alerte JavaScript en cas de l’utilisation de la fonctionnalité « back » de l’historique du navigateur.</p>
+</section>
+<section id="id63">
+<h4>Contrôle<a class="headerlink" href="#id63" title="Link to this heading">#</a></h4>
+<p>Amorcer la saisie d’un formulaire après la première étape du processus, puis activer le bouton « back » du navigateur.</p>
+</section>
+</section>
+<section id="la-navigation-dans-un-processus-complexe-ne-provoque-pas-la-perte-des-donnees-precedemment-soumises">
+<h3>89 - La navigation dans un processus complexe ne provoque pas la perte des données précédemment soumises.<a class="headerlink" href="#la-navigation-dans-un-processus-complexe-ne-provoque-pas-la-perte-des-donnees-precedemment-soumises" title="Link to this heading">#</a></h3>
+<section id="id64">
+<h4>Objectif<a class="headerlink" href="#id64" title="Link to this heading">#</a></h4>
+<p>-Faciliter la saisie et sa correction dans les formulaires répartis par étapes.</p>
+<ul class="simple">
+<li><p>Limiter les risques d’abandon en cours de procédure.</p></li>
+</ul>
+</section>
+<section id="id65">
+<h4>Mise en œuvre<a class="headerlink" href="#id65" title="Link to this heading">#</a></h4>
+<p>Prévoir, au niveau de la gestion de la navigation dans les étapes du processus, l’enregistrement des données saisies à chaque étape, de manière à pouvoir afficher à nouveau celle-ci sans perte de données après que l’utilisateur a utilisé le mécanisme de navigation dans les étapes.</p>
+</section>
+<section id="id66">
+<h4>Contrôle<a class="headerlink" href="#id66" title="Link to this heading">#</a></h4>
+<p>Utiliser le mécanisme de navigation dans les étapes précédentes de la saisie et vérifier manuellement que les données saisies à chaque étape sont conservées et affichées à nouveau par la suite.</p>
+</section>
+</section>
+<section id="le-copier-coller-est-possible-dans-les-champs-de-formulaire">
+<h3>90 - Le copier coller est possible dans les champs de formulaire.<a class="headerlink" href="#le-copier-coller-est-possible-dans-les-champs-de-formulaire" title="Link to this heading">#</a></h3>
+<section id="id67">
+<h4>Objectif<a class="headerlink" href="#id67" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter la saisie dans les formulaires.</p></li>
+</ul>
+</section>
+<section id="id68">
+<h4>Mise en œuvre<a class="headerlink" href="#id68" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Ne pas intercepter les événements JavaScript  <code class="docutils literal notranslate"><span class="pre">onpaste</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">keydown</span></code>  pour bloquer le coller dans un champ de formulaire.</p></li>
+<li><p>Ne pas intercepter les événements JavaScript  <code class="docutils literal notranslate"><span class="pre">oncopy</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">oncut</span></code>  pour bloquer le copier dans un champ de formulaire.</p></li>
+</ul>
+</section>
+<section id="id69">
+<h4>Contrôle<a class="headerlink" href="#id69" title="Link to this heading">#</a></h4>
+<p>Vérifier qu’il est possible de copier le contenu de chaque champ y compris les champs de type  <code class="docutils literal notranslate"><span class="pre">password</span></code>  (en utilisant le menu contextuel du navigateur ou à défaut un mécanisme propre au formulaire).Vérifier qu’il est possible de coller un contenu dans chaque champ y compris dans les champs de type  <code class="docutils literal notranslate"><span class="pre">password</span></code>  (en utilisant le menu contextuel du navigateur ou à défaut un mécanisme propre au formulaire).</p>
+</section>
+</section>
+<section id="les-elements-d-une-liste-deroulante-qui-peuvent-etre-regroupes-le-sont-de-maniere-appropriee">
+<h3>91 - Les éléments d’une liste déroulante qui peuvent être regroupés le sont de manière appropriée.<a class="headerlink" href="#les-elements-d-une-liste-deroulante-qui-peuvent-etre-regroupes-le-sont-de-maniere-appropriee" title="Link to this heading">#</a></h3>
+<section id="id70">
+<h4>Objectif<a class="headerlink" href="#id70" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux aides techniques de restituer à l’utilisateur une liste dont l’organisation est clairement perceptible et qui facilite le passage d’un élément de la liste à un autre.</p></li>
+<li><p>Favoriser un rendu approprié des listes déroulantes complexes dans tous les navigateurs.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id71">
+<h4>Mise en œuvre<a class="headerlink" href="#id71" title="Link to this heading">#</a></h4>
+<p>Utiliser l’élément  <code class="docutils literal notranslate"><span class="pre">optgroup</span></code>  pour baliser les regroupements thématiques d’éléments option dans les listes  <code class="docutils literal notranslate"><span class="pre">select</span></code> .</p>
+<p>Utiliser l’attribut  <code class="docutils literal notranslate"><span class="pre">label</span></code>  de l’élément  <code class="docutils literal notranslate"><span class="pre">optgroup</span></code>  pour afficher l’étiquette de chaque regroupement.</p>
+</section>
+<section id="id72">
+<h4>Contrôle<a class="headerlink" href="#id72" title="Link to this heading">#</a></h4>
+<p>Pour chaque liste déroulante :</p>
+<ul class="simple">
+<li><p>Ouvrir chaque liste ( <code class="docutils literal notranslate"><span class="pre">select</span></code> ) pour détecter celles qui nécessiteraient un regroupement d’éléments  <code class="docutils literal notranslate"><span class="pre">option</span></code> , par exemple des regroupements de modèles de voitures classés par marques ou des regroupements de villes réalisés par département ;</p></li>
+<li><p>Vérifier, en examinant le code source à l’aide de Firebug, que chaque série d’éléments  <code class="docutils literal notranslate"><span class="pre">option</span></code>  qui devraient être regroupés est balisée avec l’élément  <code class="docutils literal notranslate"><span class="pre">optgroup</span></code>  ;</p></li>
+<li><p>Vérifier que chaque élément  <code class="docutils literal notranslate"><span class="pre">optgroup</span></code>  est doté d’un attribut  <code class="docutils literal notranslate"><span class="pre">label</span></code>  associant un libellé pertinent au groupe d’options concerné.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-listes-d-options-de-formulaires-sont-presentees-dans-un-ordre-identifiable">
+<h3>92 - Les listes d’options de formulaires sont présentées dans un ordre identifiable.<a class="headerlink" href="#les-listes-d-options-de-formulaires-sont-presentees-dans-un-ordre-identifiable" title="Link to this heading">#</a></h3>
+<section id="id73">
+<h4>Objectif<a class="headerlink" href="#id73" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs d’accéder rapidement à l’item de liste recherché.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id74">
+<h4>Mise en œuvre<a class="headerlink" href="#id74" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Présenter les items dans un ordre identifiable, par exemple par ordre alphabétique ou chronologique.</p></li>
+</ul>
+</section>
+<section id="id75">
+<h4>Contrôle<a class="headerlink" href="#id75" title="Link to this heading">#</a></h4>
+<p>Pour chaque liste déroulante contenant plusieurs items</p>
+<ul class="simple">
+<li><p>Vérifier, pour chaque liste  <code class="docutils literal notranslate"><span class="pre">select</span></code> , que les éléments  <code class="docutils literal notranslate"><span class="pre">option</span></code>  apparaissent dans un ordre identifiable (alphabétique, numérique, chronologique, thématique, etc.).</p></li>
+</ul>
+<p>La vérification s’effectue manuellement en contrôlant visuellement l’ordre des éléments au sein de chaque élément  <code class="docutils literal notranslate"><span class="pre">select</span></code> .</p>
+</section>
+</section>
+<section id="les-champs-de-saisie-de-type-mail-url-telephone-nombre-recherche-mots-de-passe-heure-et-date-sont-dotes-du-type-approprie">
+<h3>93 - Les champs de saisie de type mail, URL, téléphone, nombre, recherche, mots de passe, heure et date sont dotés du type approprié.<a class="headerlink" href="#les-champs-de-saisie-de-type-mail-url-telephone-nombre-recherche-mots-de-passe-heure-et-date-sont-dotes-du-type-approprie" title="Link to this heading">#</a></h3>
+<section id="id76">
+<h4>Objectif<a class="headerlink" href="#id76" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre l’utilisation des claviers virtuels adaptés aux différents types de saisie sur les terminaux mobiles.</p></li>
+<li><p>Faciliter la validation de la saisie.</p></li>
+<li><p>Améliorer la compatibilité avec les terminaux mobiles.</p></li>
+</ul>
+</section>
+<section id="id77">
+<h4>Mise en œuvre<a class="headerlink" href="#id77" title="Link to this heading">#</a></h4>
+<p>Doter chaque élément input concerné d’un attribut type correspondant à la saisie attendue :  <code class="docutils literal notranslate"><span class="pre">email</span></code> ,  <code class="docutils literal notranslate"><span class="pre">url</span></code> ,  <code class="docutils literal notranslate"><span class="pre">tel</span></code> ,  <code class="docutils literal notranslate"><span class="pre">number</span></code> ,  <code class="docutils literal notranslate"><span class="pre">search</span></code> ,  <code class="docutils literal notranslate"><span class="pre">password</span></code> ,  <code class="docutils literal notranslate"><span class="pre">date</span></code> ,  <code class="docutils literal notranslate"><span class="pre">time</span></code> .</p>
+</section>
+<section id="id78">
+<h4>Contrôle<a class="headerlink" href="#id78" title="Link to this heading">#</a></h4>
+<p>Vérifier, pour chaque élément input concerné, la présence de l’attribut type doté de la valeur correspondant au type de saisie attendue :  <code class="docutils literal notranslate"><span class="pre">email</span></code> ,  <code class="docutils literal notranslate"><span class="pre">url</span></code> ,  <code class="docutils literal notranslate"><span class="pre">tel</span></code> ,  <code class="docutils literal notranslate"><span class="pre">number</span></code> ,  <code class="docutils literal notranslate"><span class="pre">search</span></code> ,  <code class="docutils literal notranslate"><span class="pre">password</span></code> ,  <code class="docutils literal notranslate"><span class="pre">date</span></code> ,  <code class="docutils literal notranslate"><span class="pre">time</span></code> .</p>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -620,6 +1235,194 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> 
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regles">Règles</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chaque-champ-de-formulaire-est-associe-dans-le-code-source-a-une-etiquette-qui-lui-est-propre">67 - Chaque champ de formulaire est associé dans le code source à une étiquette qui lui est propre.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#objectif">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-en-oeuvre">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#controle">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-informations-completant-l-etiquette-d-un-champ-sont-associees-a-celui-ci-dans-le-code-source">68 - Les informations complétant l’étiquette d’un champ sont associées à celui-ci dans le code-source</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-etiquette-de-chaque-champ-de-formulaire-indique-si-la-saisie-est-obligatoire">69 - L’étiquette de chaque champ de formulaire indique si la saisie est obligatoire.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-format-de-saisie-des-champs-de-formulaire-qui-le-necessitent-est-indique">70 - Le format de saisie des champs de formulaire qui le nécessitent est indiqué</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-utilisateur-est-averti-lorsqu-une-saisie-est-sensible-a-la-casse">71 - L’utilisateur est averti lorsqu’une saisie est sensible à la casse.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-etiquette-de-chaque-champ-de-formulaire-qui-le-necessite-indique-les-limites-de-nombre-de-caracteres">72 - L’étiquette de chaque champ de formulaire qui le nécessite indique les limites de nombre de caractères</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-creation-d-un-mot-de-passe-par-l-utilisateur-fait-l-objet-d-un-mecanisme-de-prevention-des-erreurs-de-saisie">73 - La création d’un mot de passe par l’utilisateur fait l’objet d’un mécanisme de prévention des erreurs de saisie.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-caracteres-saisis-dans-un-champ-de-mot-de-passe-peuvent-etre-affiches-en-clair">74 - Les caractères saisis dans un champ de mot de passe peuvent être affichés en clair.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chaque-etiquette-de-formulaire-est-visuellement-rattachee-au-champ-qu-elle-decrit">75 - Chaque étiquette de formulaire est visuellement rattachée au champ qu’elle décrit.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id23">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id24">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-informations-contextuelles-se-rapportant-a-un-champ-de-formulaire-lui-sont-visuellement-rattachees">76 - Les informations contextuelles se rapportant à un champ de formulaire lui sont visuellement rattachées.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id25">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id26">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id27">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#en-cas-de-rejet-des-donnees-saisies-dans-un-formulaire-les-champs-contenant-les-donnees-rejetees-sont-indiques-a-l-utilisateur">77 - En cas de rejet des données saisies dans un formulaire, les champs contenant les données rejetées sont indiqués à l’utilisateur.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id28">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id29">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id30">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#en-cas-de-rejet-des-donnees-saisies-dans-un-formulaire-les-raisons-du-rejet-sont-indiquees-a-l-utilisateur">78 - En cas de rejet des données saisies dans un formulaire, les raisons du rejet sont indiquées à l’utilisateur.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id31">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id32">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id33">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#en-cas-de-rejet-des-donnees-saisies-dans-un-formulaire-toutes-les-donnees-saisies-peuvent-etre-modifiees-par-l-utilisateur">79 - En cas de rejet des données saisies dans un formulaire, toutes les données saisies peuvent être modifiées par l’utilisateur.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id34">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id35">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id36">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-messages-d-erreur-personnalises-sont-exprimes-dans-la-langue-du-formulaire">80 - Les messages d’erreur personnalisés sont exprimés dans la langue du formulaire.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id37">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id38">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id39">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lors-de-la-saisie-d-un-formulaire-reparti-sur-plusieurs-pages-un-recapitulatif-global-est-affiche-avant-l-envoi-definitif">81 - Lors de la saisie d’un formulaire réparti sur plusieurs pages, un récapitulatif global est affiché avant l’envoi définitif.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id40">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id41">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id42">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-page-affichee-apres-l-envoi-d-un-formulaire-permet-de-reprendre-directement-la-navigation">82 - La page affichée après l’envoi d’un formulaire permet de reprendre directement la navigation.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id43">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id44">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id45">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-soumission-d-un-formulaire-est-suivie-d-un-message-indiquant-la-reussite-ou-non-de-l-action-souhaitee">83 - La soumission d’un formulaire est suivie d’un message indiquant la réussite ou non de l’action souhaitée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id46">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id47">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id48">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-utilisateur-est-averti-au-debut-d-un-processus-complexe-de-la-nature-des-donnees-et-documents-exiges">84 - L’utilisateur est averti au début d’un processus complexe de la nature des données et documents exigés.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id49">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id50">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id51">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-processus-complexes-sont-accompagnes-de-la-liste-de-leurs-etapes">85 - Les processus complexes sont accompagnés de la liste de leurs étapes.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id52">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id53">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id54">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-etape-en-cours-d-un-processus-complexe-est-indiquee">86 - L’étape en cours d’un processus complexe est indiquée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id55">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id56">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id57">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chaque-etape-d-un-processus-complexe-permet-de-revenir-a-l-etape-precedente">87 - Chaque étape d’un processus complexe permet de revenir à l’étape précédente.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id58">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id59">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id60">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-utilisateur-est-averti-de-la-perte-d-information-en-cas-d-utilisation-de-l-historique-de-son-navigateur-dans-un-processus-complexe">88 - L’utilisateur est averti de la perte d’information en cas d’utilisation de l’historique de son navigateur dans un processus complexe.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id61">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id62">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id63">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-navigation-dans-un-processus-complexe-ne-provoque-pas-la-perte-des-donnees-precedemment-soumises">89 - La navigation dans un processus complexe ne provoque pas la perte des données précédemment soumises.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id64">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id65">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id66">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-copier-coller-est-possible-dans-les-champs-de-formulaire">90 - Le copier coller est possible dans les champs de formulaire.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id67">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id68">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id69">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-elements-d-une-liste-deroulante-qui-peuvent-etre-regroupes-le-sont-de-maniere-appropriee">91 - Les éléments d’une liste déroulante qui peuvent être regroupés le sont de manière appropriée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id70">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id71">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id72">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-listes-d-options-de-formulaires-sont-presentees-dans-un-ordre-identifiable">92 - Les listes d’options de formulaires sont présentées dans un ordre identifiable.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id73">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id74">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id75">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-champs-de-saisie-de-type-mail-url-telephone-nombre-recherche-mots-de-passe-heure-et-date-sont-dotes-du-type-approprie">93 - Les champs de saisie de type mail, URL, téléphone, nombre, recherche, mots de passe, heure et date sont dotés du type approprié.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id76">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id77">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id78">Contrôle</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../../../_sources/content/Outils/Opquast/Formulaire.md">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
               
             
           </div>

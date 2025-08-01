@@ -8,6 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <meta property="article:modified_time" content="2025-06-25T09:58:05+02:00" />
     <title>Liens &#8212; Label Ecole V0 0.0.1 documentation</title>
   
   
@@ -85,6 +86,7 @@
     <link rel="prev" title="Internationalisation" href="Internationalisation.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+    <meta name="docbuild:last-update" content="25 June 2025"/>
   </head>
   
   
@@ -336,6 +338,10 @@ document.write(`
   
 
   
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
 </div>
 
     </header>
@@ -565,6 +571,410 @@ document.write(`
                   
   <section id="liens">
 <h1>Liens<a class="headerlink" href="#liens" title="Link to this heading">#</a></h1>
+<section id="regles">
+<h2>Règles<a class="headerlink" href="#regles" title="Link to this heading">#</a></h2>
+<section id="chaque-lien-est-dote-d-un-intitule-dans-le-code-source">
+<h3>131 - Chaque lien est doté d’un intitulé dans le code source.<a class="headerlink" href="#chaque-lien-est-dote-d-un-intitule-dans-le-code-source" title="Link to this heading">#</a></h3>
+<section id="objectif">
+<h4>Objectif<a class="headerlink" href="#objectif" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Éviter aux utilisateurs d’avoir uniquement une URL peu compréhensible en guise de libellé.</p></li>
+<li><p>Éviter les liens qui deviennent invisibles lorsque les styles CSS ou les images d’arrière-plan ne sont pas pris en compte.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="mise-en-oeuvre">
+<h4>Mise en œuvre<a class="headerlink" href="#mise-en-oeuvre" title="Link to this heading">#</a></h4>
+<p>Donner à chaque lien un libellé textuel (entre les balises ouvrantes et fermantes de l’élément  <code class="docutils literal notranslate"><span class="pre">a</span></code> ) ou, si nécessaire, via l’alternative textuelle d’un élément  <code class="docutils literal notranslate"><span class="pre">img</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">object</span></code> , etc.</p>
+<p>Ne pas masquer à l’affichage le libellé textuel de l’élément  <code class="docutils literal notranslate"><span class="pre">a</span></code>  pour le remplacer par un effet de style CSS (image d’arrière-plan).</p>
+<p>En savoir plus: <a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/a" rel="noreferrer" target="_blank"><a> : l’élément d’ancre - HTML (HyperText Markup Language) | MDN</a></p>
+<section id="controle">
+<h5>Contrôle<a class="headerlink" href="#controle" title="Link to this heading">#</a></h5>
+<p>La détection des liens vides nécessite l’examen du code généré afin de contrôler le contenu effectivement présent dans la balise  <code class="docutils literal notranslate"><span class="pre">a</span></code> , dans l’alternative de la balise  <code class="docutils literal notranslate"><span class="pre">img</span></code>  en cas d’image-lien ou encore dans l’alternative des éléments  <code class="docutils literal notranslate"><span class="pre">object</span></code>  et  <code class="docutils literal notranslate"><span class="pre">embed</span></code> , etc.</p>
+<p>Dans chaque page examinée :</p>
+<ul class="simple">
+<li><p>Vérifier que chaque lien texte a un libellé affiché lorsque les styles CSS sont désactivés.</p></li>
+<li><p>Contrôler que chaque lien image a un libellé affiché lorsque les images sont désactivées ;</p></li>
+</ul>
+<p>Dans le cas des liens HTML, il faut également vérifier que le libellé est affiché lorsque les couleurs seules sont désactivées.</p>
+</section>
+</section>
+</section>
+<section id="le-libelle-de-chaque-lien-decrit-sa-fonction-ou-la-nature-du-contenu-vers-lequel-il-pointe">
+<h3>132 - Le libellé de chaque lien décrit sa fonction ou la nature du contenu vers lequel il pointe.<a class="headerlink" href="#le-libelle-de-chaque-lien-decrit-sa-fonction-ou-la-nature-du-contenu-vers-lequel-il-pointe" title="Link to this heading">#</a></h3>
+</section>
+<section id="id1">
+<h3>Objectif<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs d’identifier précisément la nature du lien et d’éviter des actions erronées.</p></li>
+<li><p>Permettre aux outils d’indexation d’associer un libellé à une ressource.</p></li>
+<li><p>Permettre aux lecteurs d’écran d’en indiquer la cible de façon explicite et d’éviter de désorienter les utilisateurs.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+<section id="id2">
+<h4>Mise en œuvre<a class="headerlink" href="#id2" title="Link to this heading">#</a></h4>
+<p>Indiquer sans ambiguïté le contenu de la page cible du lien, la fonction du lien ou son comportement, le cas échéant, dans le libellé des liens (portion de texte située entre les balises <code class="docutils literal notranslate"><span class="pre">&lt;a</span> <span class="pre">href=&quot;URL&quot;&gt;</span></code> et <code class="docutils literal notranslate"><span class="pre">&lt;/a&gt;</span></code> ou dans l’alternative textuelle de l’image placée entre ces balises, éventuellement combinée au libellé textuel).</p>
+</section>
+<section id="id3">
+<h4>Contrôle<a class="headerlink" href="#id3" title="Link to this heading">#</a></h4>
+<p>Dans le code source de chaque lien texte ou image-lien</p>
+<ul class="simple">
+<li><p>Vérifier que le libellé du lien désigne explicitement la nature ou la fonction du contenu visé, ou encore la fonction spécifique du lien ;</p></li>
+<li><p>Contrôler, dans le cas d’images-liens, que l’attribut  <code class="docutils literal notranslate"><span class="pre">alt</span></code>  de l’image joue ce rôle.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-liens-de-meme-nature-ont-des-couleurs-des-formes-et-des-comportements-identiques-sur-toutes-les-pages">
+<h3>133 - Les liens de même nature ont des couleurs, des formes et des comportements identiques sur toutes les pages.<a class="headerlink" href="#les-liens-de-meme-nature-ont-des-couleurs-des-formes-et-des-comportements-identiques-sur-toutes-les-pages" title="Link to this heading">#</a></h3>
+<section id="id4">
+<h4>Objectif<a class="headerlink" href="#id4" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Accélérer l’apprentissage du fonctionnement de l’interface.</p></li>
+<li><p>Améliorer l’identification des liens et de leurs fonctions respectives.</p></li>
+</ul>
+</section>
+<section id="id5">
+<h4>Mise en œuvre<a class="headerlink" href="#id5" title="Link to this heading">#</a></h4>
+<p>Appliquer des propriétés communes de style, de couleur, de graisse, de casse, de soulignement aux ensembles de liens de même nature.</p>
+</section>
+<section id="id6">
+<h4>Contrôle<a class="headerlink" href="#id6" title="Link to this heading">#</a></h4>
+<p>Dans l’ensemble du site :</p>
+<ul class="simple">
+<li><p>Vérifier que les liens de même nature (menus, liens au fil du texte, autres groupes de liens tels qu’un nuage de tags, etc.) ont des présentations visuellement similaires dans l’ensemble du site.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-soulignement-est-reserve-aux-liens">
+<h3>134 - Le soulignement est réservé aux liens.<a class="headerlink" href="#le-soulignement-est-reserve-aux-liens" title="Link to this heading">#</a></h3>
+<section id="id7">
+<h4>Objectif<a class="headerlink" href="#id7" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Éviter les clics inutiles sur des contenus soulignés perçus comme des hyperliens.</p></li>
+<li><p>Faciliter l’identification des liens.</p></li>
+</ul>
+</section>
+<section id="id8">
+<h4>Mise en œuvre<a class="headerlink" href="#id8" title="Link to this heading">#</a></h4>
+<p>Ne pas utiliser le soulignement pour des textes simples ou des éléments qui ne constituent pas des liens.</p>
+</section>
+<section id="id9">
+<h4>Contrôle<a class="headerlink" href="#id9" title="Link to this heading">#</a></h4>
+<p>Dans chaque page contenant des contenus soulignés :</p>
+<ul class="simple">
+<li><p>Identifier les textes soulignés dans le site ;</p></li>
+<li><p>Contrôler la nature de ces contenus pour vérifier s’il s’agit effectivement d’hyperliens.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-liens-sont-visuellement-differencies-du-reste-du-contenu">
+<h3>135 - Les liens sont visuellement différenciés du reste du contenu.<a class="headerlink" href="#les-liens-sont-visuellement-differencies-du-reste-du-contenu" title="Link to this heading">#</a></h3>
+<section id="id10">
+<h4>Objectif<a class="headerlink" href="#id10" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs d’identifier facilement les liens au fil du texte ainsi que les blocs de navigation.</p></li>
+<li><p>Améliorer la visibilité et l’affordance des liens.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id11">
+<h4>Mise en œuvre<a class="headerlink" href="#id11" title="Link to this heading">#</a></h4>
+<p>Les hyperliens peuvent être différenciés à l’aide des propriétés CSS de couleur de texte, de couleur d’arrière-plan, de soulignement, de mise en gras, de bordures, de police de caractères, etc.</p>
+</section>
+<section id="id12">
+<h4>Contrôle<a class="headerlink" href="#id12" title="Link to this heading">#</a></h4>
+<p>Dans chaque page examinée :</p>
+<ul class="simple">
+<li><p>Identifier les liens présents au fil du texte ;</p></li>
+<li><p>Vérifier que ces liens se différencient visuellement du reste du texte au sein duquel ils se trouvent placés.</p></li>
+<li><p>Vérifier que les liens différenciés par la couleur présentent un ratio de contraste minimal de 3 avec le texte environnant et qu’ils sont identifiables au survol ou à la prise de focus clavier.</p></li>
+</ul>
+<p>Cette vérification ne s’applique pas aux blocs de navigation dont la nature est par ailleurs évidente pour l’utilisateur (menus).</p>
+</section>
+</section>
+<section id="le-site-n-applique-pas-le-meme-style-aux-liens-visites-et-non-visites">
+<h3>136 - Le site n’applique pas le même style aux liens visités et non visités.<a class="headerlink" href="#le-site-n-applique-pas-le-meme-style-aux-liens-visites-et-non-visites" title="Link to this heading">#</a></h3>
+<section id="id13">
+<h4>Objectif<a class="headerlink" href="#id13" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter l’identification des contenus déjà visités.</p></li>
+<li><p>Faciliter l’identification des contenus restant à découvrir.</p></li>
+<li><p>Inciter à la découverte de nouveaux contenus</p></li>
+</ul>
+</section>
+<section id="id14">
+<h4>Mise en œuvre<a class="headerlink" href="#id14" title="Link to this heading">#</a></h4>
+<p>En dehors des menus de navigation, ne pas appliquer les mêmes styles CSS par défaut pour les liens non visités (sélecteurs  <code class="docutils literal notranslate"><span class="pre">a</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">a:link</span></code> ) et pour les liens visités (sélecteur <code class="docutils literal notranslate"><span class="pre">a:visited</span></code> ). Pour ce faire : soit prévoir un rendu spécifique pour les liens visités, soit ne pas indiquer de règle de rendu pour ceux-ci (le style par défaut du navigateur pourra alors s’appliquer sans difficulté).</p>
+<p><strong>En savoir plus</strong>:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/CSS/:visited" rel="noreferrer" target="_blank">:visited - CSS</a></p></li>
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/CSS/:link" rel="noreferrer" target="_blank">:link - CSS</a></p></li>
+</ul>
+</section>
+<section id="id15">
+<h4>Contrôle<a class="headerlink" href="#id15" title="Link to this heading">#</a></h4>
+<p>Dans chaque page contenant des hyperliens :</p>
+<ul class="simple">
+<li><p>Contrôler la présence et l’utilisation du sélecteur <code class="docutils literal notranslate"><span class="pre">:visited</span></code>  dans les feuilles de style CSS et l’utilisation d’un style différent de celui appliqué à  <code class="docutils literal notranslate"><span class="pre">a</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">a:link</span></code>  ou bien ;</p></li>
+<li><p>Contrôler l’absence du sélecteur  <code class="docutils literal notranslate"><span class="pre">:visited</span></code>  dans les feuilles de style CSS pour laisser le style par défaut du navigateur s’appliquer</p></li>
+</ul>
+</section>
+</section>
+<section id="les-liens-internes-et-externes-sont-differencies">
+<h3>137 - Les liens internes et externes sont différenciés.<a class="headerlink" href="#les-liens-internes-et-externes-sont-differencies" title="Link to this heading">#</a></h3>
+<section id="id16">
+<h4>Objectif<a class="headerlink" href="#id16" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Avertir clairement l’internaute du fait qu’il va quitter le service en ligne qu’il est en train de visiter.</p></li>
+<li><p>Faciliter le repérage des liens externes.</p></li>
+</ul>
+</section>
+<section id="id17">
+<h4>Mise en œuvre<a class="headerlink" href="#id17" title="Link to this heading">#</a></h4>
+<p>Il est possible d’ajouter l’information « lien externe » dans le libellé du lien (mention textuelle, icône HTML spécifique), dans l’attribut  <code class="docutils literal notranslate"><span class="pre">title</span></code>  du lien en y reprenant et en y complétant le libellé, via la mise en forme du lien (icône CSS) ou encore via le comportement du lien (ouverture dans une nouvelle fenêtre réservée aux liens externes, avec avertissement préalable).</p>
+</section>
+<section id="id18">
+<h4>Contrôle<a class="headerlink" href="#id18" title="Link to this heading">#</a></h4>
+<p>Pour chaque page contenant des liens :</p>
+<ul class="simple">
+<li><p>Vérifier que les liens internes et externes sont différenciés par le moyen d’une mention textuelle, d’une icône ou d’un comportement qui leur est propre. La vérification s’effectue manuellement en contrôlant visuellement les liens.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-liens-internes-vers-les-contenus-a-acces-limite-sont-differencies">
+<h3>138 - Les liens internes vers les contenus à accès limité sont différenciés<a class="headerlink" href="#les-liens-internes-vers-les-contenus-a-acces-limite-sont-differencies" title="Link to this heading">#</a></h3>
+<section id="id19">
+<h4>Objectif<a class="headerlink" href="#id19" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Éviter aux utilisateurs des clics inutiles et une perte de temps.</p></li>
+<li><p>Prévenir la déception des utilisateurs.</p></li>
+</ul>
+</section>
+<section id="id20">
+<h4>Mise en œuvre<a class="headerlink" href="#id20" title="Link to this heading">#</a></h4>
+<p>Les liens internes vers des contenus dont l’accès nécessite une authentification peuvent être différenciés à l’aide de pictogrammes ou des propriétés CSS de couleur de texte, de couleur d’arrière-plan, de mise en gras, de bordures, de police de caractères, etc.</p>
+</section>
+<section id="id21">
+<h4>Contrôle<a class="headerlink" href="#id21" title="Link to this heading">#</a></h4>
+<p>Dans chaque page examinée :</p>
+<ul class="simple">
+<li><p>Identifier les liens  internes vers des contenus dont l’accès nécessite une authentification.</p></li>
+<li><p>Vérifier que ces liens se différencient visuellement des autres liens internes.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-liens-provoquant-l-ouverture-d-un-logiciel-externe-ont-un-libelle-explicite">
+<h3>139 - Les liens provoquant l’ouverture d’un logiciel externe ont un libellé explicite.<a class="headerlink" href="#les-liens-provoquant-l-ouverture-d-un-logiciel-externe-ont-un-libelle-explicite" title="Link to this heading">#</a></h3>
+<section id="id22">
+<h4>Objectif<a class="headerlink" href="#id22" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Éviter sur le poste client l’ouverture inopinée d’un autre logiciel que le navigateur Web.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id23">
+<h4>Mise en œuvre<a class="headerlink" href="#id23" title="Link to this heading">#</a></h4>
+<p>Rédiger les libellés de liens concernés de manière à annoncer le comportement pour mieux l’anticiper. Par exemple, il est préférable de rédiger les liens  mailto  sous la forme « Envoyer un mail  » plutôt qu’un simple lien « Contact ».</p>
+</section>
+<section id="id24">
+<h4>Contrôle<a class="headerlink" href="#id24" title="Link to this heading">#</a></h4>
+<p>Dans toutes les pages inspectées :</p>
+<ul class="simple">
+<li><p>Examiner le contenu pour y détecter les liens provoquant l’ouverture d’un logiciel externe (lien mail par exemple).</p></li>
+<li><p>Pour chaque lien concerné, vérifier que le libellé du lien est suffisamment explicite pour que l’utilisateur soit prévenu de son comportement particulier.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-numeros-de-telephone-sont-activables-via-le-protocole-approprie">
+<h3>140 - Les numéros de téléphone sont activables via le protocole approprié.<a class="headerlink" href="#les-numeros-de-telephone-sont-activables-via-le-protocole-approprie" title="Link to this heading">#</a></h3>
+<section id="id25">
+<h4>Objectif<a class="headerlink" href="#id25" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter l’utilisation des numéros de téléphone, notamment sur les terminaux mobiles.</p></li>
+</ul>
+</section>
+<section id="id26">
+<h4>Mise en œuvre<a class="headerlink" href="#id26" title="Link to this heading">#</a></h4>
+<p>Baliser les numéros de téléphone avec un lien  <code class="docutils literal notranslate"><span class="pre">a</span></code>  doté d’un attribut  <code class="docutils literal notranslate"><span class="pre">href</span></code>  du type  <code class="docutils literal notranslate"><span class="pre">href=&quot;tel:+xx</span> <span class="pre">x</span> <span class="pre">xx</span> <span class="pre">xx</span> <span class="pre">xx</span> <span class="pre">xx&quot;</span></code> .</p>
+</section>
+<section id="id27">
+<h4>Contrôle<a class="headerlink" href="#id27" title="Link to this heading">#</a></h4>
+<p>Vérifier, dans le code HTML généré, le balisage des numéros de téléphone sous la forme a  <code class="docutils literal notranslate"><span class="pre">href=&quot;tel:+xx</span> <span class="pre">x</span> <span class="pre">xx</span> <span class="pre">xx</span> <span class="pre">xx</span> <span class="pre">xx&quot;</span></code>.</p>
+</section>
+</section>
+<section id="l-utilisateur-est-averti-des-ouvertures-de-nouvelles-fenetres">
+<h3>141 - L’utilisateur est averti des ouvertures de nouvelles fenêtres.<a class="headerlink" href="#l-utilisateur-est-averti-des-ouvertures-de-nouvelles-fenetres" title="Link to this heading">#</a></h3>
+<section id="id28">
+<h4>Objectif<a class="headerlink" href="#id28" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre à l’utilisateur d’anticiper le résultat de l’activation d’un lien.</p></li>
+<li><p>Éviter aux utilisateurs d’aides techniques d’être désorientés par l’ouverture d’une nouvelle fenêtre qui n’est pas toujours perceptible et perturbe notamment l’utilisation de l’historique de navigation.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id29">
+<h4>Mise en œuvre<a class="headerlink" href="#id29" title="Link to this heading">#</a></h4>
+<p>Ajouter une mention du type « (nouvelle fenêtre) », soit directement dans le libellé du lien, soit dans son attribut  <code class="docutils literal notranslate"><span class="pre">title</span></code>  qui doit alors reprendre et compléter le libellé.</p>
+<p>Ajouter une mention du type « (nouvelle fenêtre) » dans les étiquettes de contrôle de formulaire, dans les libellés de boutons ou dans tout autre objet provoquant l’ouverture d’une nouvelle fenêtre.</p>
+</section>
+<section id="id30">
+<h4>Contrôle<a class="headerlink" href="#id30" title="Link to this heading">#</a></h4>
+<p>Dans les pages inspectées :</p>
+<ul class="simple">
+<li><p>Identifier les liens et autres contrôles d’ouverture d’une nouvelle fenêtre, c’est-à-dire :</p></li>
+<li><p>Les usages de l’attribut  <code class="docutils literal notranslate"><span class="pre">target</span></code>  dans la source générée HTML ;</p></li>
+<li><p>Les usages de la fonctionnalité  <code class="docutils literal notranslate"><span class="pre">window.open</span></code>  via une recherche dans les fichiers Javascript et dans la source HTML ;</p></li>
+<li><p>Vérifier, pour chacun de ces liens, quelle que soit la technologie utilisée, la présence d’un avertissement explicite consultable avant toute action sur celui-ci.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-format-des-fichiers-proposes-en-telechargement-est-indique">
+<h3>142 - Le format des fichiers proposés en téléchargement est indiqué.<a class="headerlink" href="#le-format-des-fichiers-proposes-en-telechargement-est-indique" title="Link to this heading">#</a></h3>
+<section id="id31">
+<h4>Objectif<a class="headerlink" href="#id31" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs de savoir en temps utile si leurs outils les autorisent à consulter les fichiers proposés en téléchargement.</p></li>
+<li><p>Réduire la charge serveur en évitant les téléchargements inutiles.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id32">
+<h4>Mise en œuvre<a class="headerlink" href="#id32" title="Link to this heading">#</a></h4>
+<p>Au minimum, prévoir une page d’aide indiquant le format des fichiers proposés s’il est unique.</p>
+<p>Au mieux, indiquer le format pour chaque lien permettant de télécharger un fichier.</p>
+</section>
+<section id="id33">
+<h4>Contrôle<a class="headerlink" href="#id33" title="Link to this heading">#</a></h4>
+<p>Pour chaque lien de téléchargement, vérifier qu’il est possible d’en connaître le format via :</p>
+<ul class="simple">
+<li><p>Une information générique donnée dans une page d’aide ;</p></li>
+<li><p>Une information donnée dans le contexte du lien : paragraphe ou élément de liste  <code class="docutils literal notranslate"><span class="pre">li</span></code>  où il est inclus, titre de section qui le précède, cellule d’en-tête de tableau associée à celle où il est présent ;</p></li>
+<li><p>L’attribut  <code class="docutils literal notranslate"><span class="pre">title</span></code>  du lien reprenant et complétant le libellé de celui-ci ;</p></li>
+<li><p>Une information donnée dans le libellé du lien ;</p></li>
+<li><p>Une icône dotée d’un texte alternatif indiquant le format du fichier.</p></li>
+</ul>
+</section>
+</section>
+<section id="la-taille-des-fichiers-internes-proposes-en-telechargement-est-indiquee">
+<h3>143 - La taille des fichiers internes proposés en téléchargement est indiquée.<a class="headerlink" href="#la-taille-des-fichiers-internes-proposes-en-telechargement-est-indiquee" title="Link to this heading">#</a></h3>
+<section id="id34">
+<h4>Objectif<a class="headerlink" href="#id34" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Informer de façon préventive les utilisateurs sur la quantité de données à télécharger.</p></li>
+<li><p>Permettre aux utilisateurs de différer le téléchargement en connexion bas débit ou mobile.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id35">
+<h4>Mise en œuvre<a class="headerlink" href="#id35" title="Link to this heading">#</a></h4>
+<p>Au minimum, prévoir une page d’aide indiquant le poids moyen ou maximum pour l’ensemble des fichiers proposés.</p>
+<p>Au mieux, indiquer le poids lors de chaque lien permettant de télécharger un fichier.</p>
+</section>
+<section id="id36">
+<h4>Contrôle<a class="headerlink" href="#id36" title="Link to this heading">#</a></h4>
+<p>Pour chaque lien de téléchargement, vérifier qu’il est possible d’en connaître le poids :</p>
+<ul class="simple">
+<li><p>Via une information générique donnée dans une page d’aide ;</p></li>
+<li><p>Via une information donnée dans le contexte du lien : paragraphe ou élément de liste  <code class="docutils literal notranslate"><span class="pre">li</span></code>  où il est inclus, titre de section qui le précède, cellule d’en-tête de tableau associée à celle où il est présent ;</p></li>
+<li><p>Via l’attribut  <code class="docutils literal notranslate"><span class="pre">title</span></code>  du lien reprenant et complétant le libellé de celui-ci ;</p></li>
+<li><p>Ou via une information donnée dans le libellé du lien.</p></li>
+</ul>
+</section>
+</section>
+<section id="la-langue-des-fichiers-en-telechargement-est-precisee-lorsqu-elle-differe-de-celle-de-la-page-d-origine">
+<h3>144 - La langue des fichiers en téléchargement est précisée lorsqu’elle diffère de celle de la page d’origine.<a class="headerlink" href="#la-langue-des-fichiers-en-telechargement-est-precisee-lorsqu-elle-differe-de-celle-de-la-page-d-origine" title="Link to this heading">#</a></h3>
+<section id="id37">
+<h4>Objectif<a class="headerlink" href="#id37" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Éviter aux utilisateurs des téléchargements inutiles.</p></li>
+<li><p>Informer les utilisateurs du contenu des fichiers en téléchargement.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id38">
+<h4>Mise en œuvre<a class="headerlink" href="#id38" title="Link to this heading">#</a></h4>
+<p>Indiquer la langue du contenu du document :</p>
+<ul class="simple">
+<li><p>Soit dans le libellé du lien ;</p></li>
+<li><p>Soit via l’attribut  <code class="docutils literal notranslate"><span class="pre">title</span></code>  du lien.</p></li>
+</ul>
+</section>
+<section id="id39">
+<h4>Contrôle<a class="headerlink" href="#id39" title="Link to this heading">#</a></h4>
+<p>Pour chaque lien de téléchargement menant à un document rédigé dans une autre langue que celle de la page concerné, vérifier qu’il est possible de connaître la langue du fichier à télécharger :</p>
+<ul class="simple">
+<li><p>Via une information donnée dans le libellé du lien ;</p></li>
+<li><p>Via l’attribut  <code class="docutils literal notranslate"><span class="pre">title</span></code>  du lien reprenant et complétant le libellé de celui-ci ;</p></li>
+<li><p>Via une information donnée dans le contexte du lien : paragraphe ou élément de liste  <code class="docutils literal notranslate"><span class="pre">li</span></code>  où il est inclus, titre de section qui le précède, cellule d’en-tête de tableau associée à celle où il est présent ;</p></li>
+<li><p>Ou via une information générique donnée dans une page d’aide.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-nommage-des-fichiers-internes-proposes-en-telechargement-permet-d-en-identifier-le-contenu-et-la-provenance">
+<h3>145 - Le nommage des fichiers internes proposés en téléchargement permet d’en identifier le contenu et la provenance.<a class="headerlink" href="#le-nommage-des-fichiers-internes-proposes-en-telechargement-permet-d-en-identifier-le-contenu-et-la-provenance" title="Link to this heading">#</a></h3>
+<section id="id40">
+<h4>Objectif<a class="headerlink" href="#id40" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Améliorer l’identification des fichiers internes.</p></li>
+<li><p>Éviter les confusions pour l’utilisateur.</p></li>
+</ul>
+</section>
+<section id="id41">
+<h4>Mise en œuvre<a class="headerlink" href="#id41" title="Link to this heading">#</a></h4>
+<p>Pour chaque fichier interne téléchargeable par l’utilisateur, utiliser un nom de fichier mentionnant explicitement le site ou le service de manière à permettre de l’identifier, ainsi que la nature du contenu (facture, contrat, etc).</p>
+</section>
+<section id="id42">
+<h4>Contrôle<a class="headerlink" href="#id42" title="Link to this heading">#</a></h4>
+<p>Vérifier, pour chaque fichier interne qui peut être téléchargé par l’utilisateur, que le nom du fichier mentionne explicitement le site ou le service ainsi que la nature du contenu.</p>
+</section>
+</section>
+<section id="le-site-n-impose-pas-d-interdiction-ou-de-restriction-a-la-mise-en-place-des-liens-entrants">
+<h3>146 - Le site n’impose pas d’interdiction ou de restriction à la mise en place des liens entrants.<a class="headerlink" href="#le-site-n-impose-pas-d-interdiction-ou-de-restriction-a-la-mise-en-place-des-liens-entrants" title="Link to this heading">#</a></h3>
+<section id="id43">
+<h4>Objectif<a class="headerlink" href="#id43" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter le référencement à travers l’obtention de liens entrants.</p></li>
+<li><p>Augmenter la visibilité du site pour les utilisateurs.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id44">
+<h4>Mise en œuvre<a class="headerlink" href="#id44" title="Link to this heading">#</a></h4>
+<p>Ne pas publier de conditions restreignant ou interdisant la mise en place dans des sites externes de liens pointant vers le site.</p>
+</section>
+<section id="id45">
+<h4>Contrôle<a class="headerlink" href="#id45" title="Link to this heading">#</a></h4>
+<p>Dans les pages de type « mentions légales », dans les conditions générales d’utilisation ou dans la page dédiée aux crédits du site :</p>
+<ul class="simple">
+<li><p>Vérifier l’absence de conditions restreignant ou interdisant la mise en place dans d’autres sites de liens pointant vers le site.</p></li>
+</ul>
+</section>
+</section>
+<section id="tous-les-liens-internes-du-site-sont-valides">
+<h3>147 - Tous les liens internes du site sont valides.<a class="headerlink" href="#tous-les-liens-internes-du-site-sont-valides" title="Link to this heading">#</a></h3>
+<section id="id46">
+<h4>Objectif<a class="headerlink" href="#id46" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Éviter les erreurs 404 en cours de navigation.</p></li>
+<li><p>Faciliter un accès rapide à tous les contenus.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id47">
+<h4>Mise en œuvre<a class="headerlink" href="#id47" title="Link to this heading">#</a></h4>
+<p>S’assurer que l’outil utilisé pour la rédaction des contenus possède une gestion satisfaisante et cohérente des hyperliens internes.</p>
+<p>Si ce n’est pas le cas, lancer régulièrement un contrôle de la validité de l’ensemble des liens du site.</p>
+</section>
+<section id="id48">
+<h4>Contrôle<a class="headerlink" href="#id48" title="Link to this heading">#</a></h4>
+<p>Dans l’ensemble du site :</p>
+<ul class="simple">
+<li><p>Vérifier l’absence de liens internes menant à des erreurs de type 404.</p></li>
+</ul>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -620,6 +1030,136 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> 
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regles">Règles</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chaque-lien-est-dote-d-un-intitule-dans-le-code-source">131 - Chaque lien est doté d’un intitulé dans le code source.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#objectif">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-en-oeuvre">Mise en œuvre</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#controle">Contrôle</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-libelle-de-chaque-lien-decrit-sa-fonction-ou-la-nature-du-contenu-vers-lequel-il-pointe">132 - Le libellé de chaque lien décrit sa fonction ou la nature du contenu vers lequel il pointe.</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Objectif</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-liens-de-meme-nature-ont-des-couleurs-des-formes-et-des-comportements-identiques-sur-toutes-les-pages">133 - Les liens de même nature ont des couleurs, des formes et des comportements identiques sur toutes les pages.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-soulignement-est-reserve-aux-liens">134 - Le soulignement est réservé aux liens.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-liens-sont-visuellement-differencies-du-reste-du-contenu">135 - Les liens sont visuellement différenciés du reste du contenu.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-n-applique-pas-le-meme-style-aux-liens-visites-et-non-visites">136 - Le site n’applique pas le même style aux liens visités et non visités.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-liens-internes-et-externes-sont-differencies">137 - Les liens internes et externes sont différenciés.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-liens-internes-vers-les-contenus-a-acces-limite-sont-differencies">138 - Les liens internes vers les contenus à accès limité sont différenciés</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-liens-provoquant-l-ouverture-d-un-logiciel-externe-ont-un-libelle-explicite">139 - Les liens provoquant l’ouverture d’un logiciel externe ont un libellé explicite.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id23">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id24">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-numeros-de-telephone-sont-activables-via-le-protocole-approprie">140 - Les numéros de téléphone sont activables via le protocole approprié.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id25">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id26">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id27">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-utilisateur-est-averti-des-ouvertures-de-nouvelles-fenetres">141 - L’utilisateur est averti des ouvertures de nouvelles fenêtres.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id28">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id29">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id30">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-format-des-fichiers-proposes-en-telechargement-est-indique">142 - Le format des fichiers proposés en téléchargement est indiqué.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id31">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id32">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id33">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-taille-des-fichiers-internes-proposes-en-telechargement-est-indiquee">143 - La taille des fichiers internes proposés en téléchargement est indiquée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id34">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id35">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id36">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-langue-des-fichiers-en-telechargement-est-precisee-lorsqu-elle-differe-de-celle-de-la-page-d-origine">144 - La langue des fichiers en téléchargement est précisée lorsqu’elle diffère de celle de la page d’origine.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id37">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id38">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id39">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-nommage-des-fichiers-internes-proposes-en-telechargement-permet-d-en-identifier-le-contenu-et-la-provenance">145 - Le nommage des fichiers internes proposés en téléchargement permet d’en identifier le contenu et la provenance.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id40">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id41">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id42">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-n-impose-pas-d-interdiction-ou-de-restriction-a-la-mise-en-place-des-liens-entrants">146 - Le site n’impose pas d’interdiction ou de restriction à la mise en place des liens entrants.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id43">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id44">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id45">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#tous-les-liens-internes-du-site-sont-valides">147 - Tous les liens internes du site sont valides.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id46">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id47">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id48">Contrôle</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../../../_sources/content/Outils/Opquast/Liens.md">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
               
             
           </div>

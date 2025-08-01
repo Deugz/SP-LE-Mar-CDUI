@@ -59,4 +59,16 @@
 
 :::::
 
+## Exemples
+
+### CV Interactifs
+
+- [Digital Learning Manager](https://storage.googleapis.com/cvjpq/CV%20Interactif%20Jean-Philippe%20QUIVIGER/story.html)
+
+```{note}
+
+Technologie utilisée: Storyline
+
+```
+
 ## Synthèse

@@ -8,6 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <meta property="article:modified_time" content="2025-06-25T09:58:05+02:00" />
     <title>Sécurité &#8212; Label Ecole V0 0.0.1 documentation</title>
   
   
@@ -85,6 +86,7 @@
     <link rel="prev" title="Présentation" href="Pr%C3%A9sentation.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+    <meta name="docbuild:last-update" content="25 June 2025"/>
   </head>
   
   
@@ -336,6 +338,10 @@ document.write(`
   
 
   
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
 </div>
 
     </header>
@@ -565,6 +571,369 @@ document.write(`
                   
   <section id="securite">
 <h1>Sécurité<a class="headerlink" href="#securite" title="Link to this heading">#</a></h1>
+<section id="regles">
+<h2>Règles<a class="headerlink" href="#regles" title="Link to this heading">#</a></h2>
+<section id="toutes-les-pages-utilisent-le-protocole-https">
+<h3>192 - Toutes les pages utilisent le protocole HTTPS.<a class="headerlink" href="#toutes-les-pages-utilisent-le-protocole-https" title="Link to this heading">#</a></h3>
+<section id="objectif">
+<h4>Objectif<a class="headerlink" href="#objectif" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Prévenir le risque d’interception et de vol de données.</p></li>
+<li><p>Améliorer la sécurité du site Web.</p></li>
+<li><p>Rassurer les utilisateurs.</p></li>
+</ul>
+</section>
+<section id="mise-en-oeuvre">
+<h4>Mise en œuvre<a class="headerlink" href="#mise-en-oeuvre" title="Link to this heading">#</a></h4>
+<p>Ne pas utiliser le protocole HTTP,  mais uniquement HTTPS pour toutes les ressources de chaque page du site.</p>
+</section>
+<section id="controle">
+<h4>Contrôle<a class="headerlink" href="#controle" title="Link to this heading">#</a></h4>
+<p>Vérifier que chaque page et ressource de page du site utilise le protocole HTTPS et non HTTP.</p>
+</section>
+</section>
+<section id="les-certificats-de-securite-sont-signes-et-en-cours-de-validite">
+<h3>193 - Les certificats de sécurité sont signés et en cours de validité.<a class="headerlink" href="#les-certificats-de-securite-sont-signes-et-en-cours-de-validite" title="Link to this heading">#</a></h3>
+<section id="id1">
+<h4>Objectif<a class="headerlink" href="#id1" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs de connaître la validité du certificat et contribuer à la sécurisation de la transaction.</p></li>
+</ul>
+</section>
+<section id="id2">
+<h4>Mise en œuvre<a class="headerlink" href="#id2" title="Link to this heading">#</a></h4>
+<p>Faire un suivi rigoureux des certificats de sécurité utilisés sur le site en anticipant les dates de renouvellement.</p>
+</section>
+<section id="id3">
+<h4>Contrôle<a class="headerlink" href="#id3" title="Link to this heading">#</a></h4>
+<p>Vérifier la validité du certificat à l’aide d’un outil en ligne, ou bien à l’aide des outils fournis par les navigateurs</p>
+<p>La plupart des navigateurs affichent également une alerte lorsqu’ils rencontrent un certificat non valide.</p>
+</section>
+</section>
+<section id="les-pages-utilisant-https-ont-un-en-tete-de-transport-strict">
+<h3>194 - Les pages utilisant HTTPS ont un en-tête de transport strict.<a class="headerlink" href="#les-pages-utilisant-https-ont-un-en-tete-de-transport-strict" title="Link to this heading">#</a></h3>
+<section id="id4">
+<h4>Objectif<a class="headerlink" href="#id4" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Améliorer la sécurité des échanges.</p></li>
+<li><p>Prévenir les risques d’attaques.</p></li>
+</ul>
+</section>
+<section id="id5">
+<h4>Mise en œuvre<a class="headerlink" href="#id5" title="Link to this heading">#</a></h4>
+<p>Utiliser pour chaque page l’entête HTTP Strict Transport Security et son paramètre max-age pour spécifier que le navigateur doit convertir toutes les requêtes en HTTP en requêtes HTTPS.</p>
+</section>
+<section id="id6">
+<h4>Contrôle<a class="headerlink" href="#id6" title="Link to this heading">#</a></h4>
+<p>vérifier que le serveur envoie pour chaque page l’entête HTTP Strict Transport Security avec le paramètre max-age spécifiant la durée pendant laquelle le navigateur doit doit convertir toutes les requêtes en HTTP en requêtes HTTPS</p>
+</section>
+</section>
+<section id="les-pages-utilisant-le-protocole-https-ne-proposent-pas-de-ressources-http">
+<h3>195 - Les pages utilisant le protocole HTTPS ne proposent pas de ressources HTTP.<a class="headerlink" href="#les-pages-utilisant-le-protocole-https-ne-proposent-pas-de-ressources-http" title="Link to this heading">#</a></h3>
+<section id="id7">
+<h4>Objectif<a class="headerlink" href="#id7" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Prévenir les alertes de type “site non sécurisé” dans les outils de consultation.</p></li>
+<li><p>Améliorer la sécurité pour l’ensemble des ressources du site.</p></li>
+</ul>
+</section>
+<section id="id8">
+<h4>Mise en œuvre<a class="headerlink" href="#id8" title="Link to this heading">#</a></h4>
+<p>Pour chaque page du site envoyée par le serveur en HTTPS, fournir toutes les ressources qui la composent (images, fichiers CSS, JS, etc.) via le protocole HTTPS et non via HTTP.</p>
+</section>
+<section id="id9">
+<h4>Contrôle<a class="headerlink" href="#id9" title="Link to this heading">#</a></h4>
+<p>Pour chaque page du site envoyée par le serveur en HTTPS, vérifier qu’aucune des ressources qui la composent (images, fichiers CSS, JS, etc.) n’est fournie via le protocole HTTP.</p>
+</section>
+</section>
+<section id="les-operations-relatives-aux-mots-de-passe-peuvent-etre-effectuees-integralement-en-ligne">
+<h3>196 - Les opérations relatives aux mots de passe peuvent être effectuées intégralement en ligne.<a class="headerlink" href="#les-operations-relatives-aux-mots-de-passe-peuvent-etre-effectuees-integralement-en-ligne" title="Link to this heading">#</a></h3>
+<section id="id10">
+<h4>Objectif<a class="headerlink" href="#id10" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Fournir une solution immédiate au problème de l’utilisateur.</p></li>
+<li><p>Limiter les difficultés liées à l’utilisation d’autres modes de communication.</p></li>
+</ul>
+</section>
+<section id="id11">
+<h4>Mise en œuvre<a class="headerlink" href="#id11" title="Link to this heading">#</a></h4>
+<p>Permettre à l’utilisateur d’effectuer toutes les actions liées au mot de passe (réinitialisation  de passe perdu, modification, etc.) intégralement en ligne. Par exemple : pas d’envoi d’un rappel de mot de passe ou d’un nouveau mot de passe par courrier postal.</p>
+</section>
+<section id="id12">
+<h4>Contrôle<a class="headerlink" href="#id12" title="Link to this heading">#</a></h4>
+<p>Vérifier qu’il est possible d’effectuer intégralement en ligne toutes les actions liées au mot de passe (réinitialisation de mot de passe perdu, modification, etc.).</p>
+</section>
+</section>
+<section id="les-mots-de-passe-peuvent-etre-choisis-ou-changes-par-l-utilisateur">
+<h3>197 - Les mots de passe peuvent être choisis ou changés par l’utilisateur.<a class="headerlink" href="#les-mots-de-passe-peuvent-etre-choisis-ou-changes-par-l-utilisateur" title="Link to this heading">#</a></h3>
+<section id="id13">
+<h4>Objectif<a class="headerlink" href="#id13" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs de choisir un mot de passe personnalisé.</p></li>
+<li><p>Éviter aux utilisateurs de rechercher leur mot de passe à chaque connexion.</p></li>
+</ul>
+</section>
+<section id="id14">
+<h4>Mise en œuvre<a class="headerlink" href="#id14" title="Link to this heading">#</a></h4>
+<p>Fournir une procédure en ligne permettant le choix d’un mot de passe personnalisé dès la création du compte ou la modification ultérieure des mots de passe automatiquement générés.</p>
+<p>Fournir un accès à la modification du mot de passe depuis la gestion du compte utilisateur ou à défaut dans le contexte du formulaire d’identification.</p>
+</section>
+<section id="id15">
+<h4>Contrôle<a class="headerlink" href="#id15" title="Link to this heading">#</a></h4>
+<p>Dans tout site proposant un accès par mot de passe :</p>
+<ul class="simple">
+<li><p>Vérifier qu’il est possible de saisir le mot de passe de son choix à la création du compte ou, dans le cas où le mot de passe est automatiquement généré par le service en ligne, contrôler qu’il est possible de le modifier après l’inscription.</p></li>
+</ul>
+</section>
+</section>
+<section id="un-dispositif-sensibilise-l-utilisateur-sur-le-degre-de-securisation-du-mot-de-passe-qu-il-choisit">
+<h3>198 - Un dispositif sensibilise l’utilisateur sur le degré de sécurisation du mot de passe qu’il choisit<a class="headerlink" href="#un-dispositif-sensibilise-l-utilisateur-sur-le-degre-de-securisation-du-mot-de-passe-qu-il-choisit" title="Link to this heading">#</a></h3>
+<section id="id16">
+<h4>Objectif<a class="headerlink" href="#id16" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Informer les utilisateurs sur le niveau de sécurité du mot de passe choisi et donc sur les risques de détournement.</p></li>
+</ul>
+</section>
+<section id="id17">
+<h4>Mise en œuvre<a class="headerlink" href="#id17" title="Link to this heading">#</a></h4>
+<p>La saisie du mot de passe donne lieu à une validation et à un retour indiquant son degré de sécurité, avant soumission définitive du formulaire d’inscription ou de changement de mot de passe.</p>
+</section>
+<section id="id18">
+<h4>Contrôle<a class="headerlink" href="#id18" title="Link to this heading">#</a></h4>
+<p>Pour tout formulaire d’inscription ou de changement de mot de passe :</p>
+<ul class="simple">
+<li><p>Saisir un mot de passe et s’assurer que cette saisie donne lieu à une validation et à un retour indiquant son degré de sécurité, et ce, avant la soumission définitive du formulaire.</p></li>
+</ul>
+<p>Cette validation peut être plus ou moins exigeante : contrôle du nombre de caractères, de l’absence de l’identifiant du compte dans le mot de passe, du type de caractères présents, etc.</p>
+</section>
+</section>
+<section id="le-site-propose-une-procedure-de-reinitialisation-du-mot-de-passe">
+<h3>199 - Le site propose une procédure de réinitialisation du mot de passe.<a class="headerlink" href="#le-site-propose-une-procedure-de-reinitialisation-du-mot-de-passe" title="Link to this heading">#</a></h3>
+<section id="id19">
+<h4>Objectif<a class="headerlink" href="#id19" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permette à l’utilisateur d’accéder à son compte en cas de perte du mot de passe.</p></li>
+<li><p>Simplifier la gestion des comptes utilisateurs.</p></li>
+<li><p>Renforcer la sécurité en évitant le stockage de mots de passe non cryptés afin de pouvoir les communiquer de nouveau à l’utilisateur.</p></li>
+</ul>
+</section>
+<section id="id20">
+<h4>Mise en œuvre<a class="headerlink" href="#id20" title="Link to this heading">#</a></h4>
+<p>Fournir un lien permettant l’envoi d’un mail à l’adresse associée au compte indiquant la procédure de réinitialisation.</p>
+<p>Placer de préférence ce lien dans le formulaire de connexion.</p>
+</section>
+<section id="id21">
+<h4>Contrôle<a class="headerlink" href="#id21" title="Link to this heading">#</a></h4>
+<p>Dans un site proposant un compte personnel protégé par mot de passe :</p>
+<ul class="simple">
+<li><p>Sans être identifié sur le site, vérifier la présence d’un lien du type « Mot de passe oublié ? » à proximité du formulaire de connexion ;</p></li>
+<li><p>Vérifier la présence d’une procédure permettant la création d’un nouveau mot de passe sur la page pointée par le lien « Mot de passe oublié ? » ;</p></li>
+<li><p>Vérifier qu’il s’agit bien d’une procédure de réinitialisation et non pas d’un simple renvoi du mot de passe actuel.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-site-ne-communique-pas-de-mot-de-passe-par-mail">
+<h3>200 - Le site ne communique pas de mot de passe par mail<a class="headerlink" href="#le-site-ne-communique-pas-de-mot-de-passe-par-mail" title="Link to this heading">#</a></h3>
+<section id="id22">
+<h4>Objectif<a class="headerlink" href="#id22" title="Link to this heading">#</a></h4>
+<p>Limiter les risques d’interception des mots de passe.</p>
+</section>
+<section id="id23">
+<h4>Mise en œuvre<a class="headerlink" href="#id23" title="Link to this heading">#</a></h4>
+<p>Lors d’une création de compte ou en cas de demande de réinitialisation ou de rappel du mot passe, ne pas adresser celui-ci à l’utilisateur par mail. Fournir le mot de passe ou sa procédure de réinitialisation uniquement en ligne.</p>
+</section>
+<section id="id24">
+<h4>Contrôle<a class="headerlink" href="#id24" title="Link to this heading">#</a></h4>
+<p>Vérifier qu’aucun mot de passe n’est envoyé à l’utilisateur par mail lors de la création de compte ou en cas de demande de réinitialisation ou de rappel du mot passe.</p>
+</section>
+</section>
+<section id="les-en-tetes-envoyes-par-le-serveur-desactivent-la-detection-automatique-du-type-mime-de-chaque-ressource">
+<h3>201 - Les en-têtes envoyés par le serveur désactivent la détection automatique du type MIME de chaque ressource.<a class="headerlink" href="#les-en-tetes-envoyes-par-le-serveur-desactivent-la-detection-automatique-du-type-mime-de-chaque-ressource" title="Link to this heading">#</a></h3>
+<section id="id25">
+<h4>Objectif<a class="headerlink" href="#id25" title="Link to this heading">#</a></h4>
+<p>Réduire les risques de téléchargement d’un contenu dangereux dissimulé.</p>
+</section>
+<section id="id26">
+<h4>Mise en œuvre<a class="headerlink" href="#id26" title="Link to this heading">#</a></h4>
+<p>Configurer le serveur pour adresser l’en-tête X-Content-Type-Options avec la valeur nosniff.</p>
+</section>
+<section id="id27">
+<h4>Contrôle<a class="headerlink" href="#id27" title="Link to this heading">#</a></h4>
+<p>Vérifier, à l’aide d’un outil d’inspection des en-têtes HTTP, la présence de l’en-tête X-Content-Type-Options avec la valeur nosniff.</p>
+</section>
+</section>
+<section id="le-serveur-indique-le-type-mime-de-chaque-ressource">
+<h3>202 - Le serveur indique le type MIME de chaque ressource.<a class="headerlink" href="#le-serveur-indique-le-type-mime-de-chaque-ressource" title="Link to this heading">#</a></h3>
+<section id="id28">
+<h4>Objectif<a class="headerlink" href="#id28" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Réduire les risques de téléchargement d’un contenu dangereux dissimulé.</p></li>
+</ul>
+</section>
+<section id="id29">
+<h4>Mise en œuvre<a class="headerlink" href="#id29" title="Link to this heading">#</a></h4>
+<p>Configurer le serveur pour adresser pour chaque ressource (texte, image, script, etc.) l’en-tête ContentType renseigné avec le type MIME approprié, par exemple :</p>
+<ul class="simple">
+<li><p>text/html ;</p></li>
+<li><p>application/pdf.</p></li>
+</ul>
+</section>
+<section id="id30">
+<h4>Contrôle<a class="headerlink" href="#id30" title="Link to this heading">#</a></h4>
+<p>Vérifier, à l’aide d’un outil d’inspection des en-têtes HTTP, la présence de ContentType avec la valeur correspondant au type de ressource.</p>
+</section>
+</section>
+<section id="les-informations-sur-la-securite-des-transactions-sont-indiquees">
+<h3>203 - Les informations sur la sécurité des transactions sont indiquées.<a class="headerlink" href="#les-informations-sur-la-securite-des-transactions-sont-indiquees" title="Link to this heading">#</a></h3>
+<section id="id31">
+<h4>Objectif<a class="headerlink" href="#id31" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Contribuer à l’information des utilisateurs sur la sécurisation des échanges de données sensibles.</p></li>
+</ul>
+</section>
+<section id="id32">
+<h4>Mise en œuvre<a class="headerlink" href="#id32" title="Link to this heading">#</a></h4>
+<p>Indiquer le mode (SSL, TLS) et le niveau de cryptage des données (128 ou 256 bits, etc.) sur les pages concernées. Il est aussi possible d’indiquer comment retrouver l’information par le biais de son navigateur dans la mesure où la plupart offrent cette possibilité.</p>
+</section>
+<section id="id33">
+<h4>Contrôle<a class="headerlink" href="#id33" title="Link to this heading">#</a></h4>
+<p>Dans un site proposant d’effectuer des transactions en ligne : contrôler que les informations sur le niveau et le mode de cryptage des données sont facilement accessibles depuis une page d’aide ou une FAQ, par exemple. Si la procédure indique comment retrouver l’information dans l’interface d’un navigateur, elle doit faire référence aux principaux navigateurs du marché.</p>
+</section>
+</section>
+<section id="le-serveur-n-envoie-pas-la-liste-des-fichiers-des-repertoires-n-ayant-pas-de-page-d-index">
+<h3>204 - Le serveur n’envoie pas la liste des fichiers des répertoires n’ayant pas de page d’index.<a class="headerlink" href="#le-serveur-n-envoie-pas-la-liste-des-fichiers-des-repertoires-n-ayant-pas-de-page-d-index" title="Link to this heading">#</a></h3>
+<section id="id34">
+<h4>Objectif<a class="headerlink" href="#id34" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Éviter l’affichage de listes de fichiers contenus dans un répertoire.</p></li>
+<li><p>Améliorer la sécurité du serveur.</p></li>
+<li><p>Limiter les risques d’intrusion.</p></li>
+</ul>
+</section>
+<section id="id35">
+<h4>Mise en œuvre<a class="headerlink" href="#id35" title="Link to this heading">#</a></h4>
+<p>Configurer le serveur pour qu’il ne renvoie pas la liste des fichiers présents dans un répertoire. Pour Apache, ajouter par exemple  <code class="docutils literal notranslate"><span class="pre">options</span> <span class="pre">–indexes</span></code>  dans le  <code class="docutils literal notranslate"><span class="pre">.htaccess</span></code> .</p>
+</section>
+<section id="id36">
+<h4>Contrôle<a class="headerlink" href="#id36" title="Link to this heading">#</a></h4>
+<p>Pour chaque site audité :</p>
+<ul class="simple">
+<li><p>Contrôler que l’appel à un répertoire sans page par défaut – comme le répertoire des images, des scripts JS ou des feuilles de style – ne renvoie pas la liste du contenu de ce dossier (cette action peut en revanche mener à une page d’erreur ou à une redirection).</p></li>
+</ul>
+</section>
+</section>
+<section id="le-serveur-envoie-les-informations-d-activation-de-protection-cross-site-scripting">
+<h3>205 - Le serveur envoie les informations d’activation de protection cross site scripting.<a class="headerlink" href="#le-serveur-envoie-les-informations-d-activation-de-protection-cross-site-scripting" title="Link to this heading">#</a></h3>
+<section id="id37">
+<h4>Objectif<a class="headerlink" href="#id37" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Réduire les risques de téléchargement d’un contenu dangereux dissimulé.</p></li>
+</ul>
+</section>
+<section id="id38">
+<h4>Mise en œuvre<a class="headerlink" href="#id38" title="Link to this heading">#</a></h4>
+<p>Configurer le serveur pour l’envoi de l’en-tête HTTP X-XSS-Protection avec la valeur 1 mode=block.</p>
+</section>
+<section id="id39">
+<h4>Contrôle<a class="headerlink" href="#id39" title="Link to this heading">#</a></h4>
+<p>Vérifier, à l’aide d’un outil d’inspection des en-têtes HTTP, la présence de X-XSS-Protection avec la valeur 1; mode=block.</p>
+</section>
+</section>
+<section id="le-serveur-envoie-les-informations-indiquant-les-domaines-autorises-a-integrer-ses-pages-dans-des-cadres">
+<h3>206 - Le serveur envoie les informations indiquant les domaines autorisés à intégrer ses pages dans des cadres.<a class="headerlink" href="#le-serveur-envoie-les-informations-indiquant-les-domaines-autorises-a-integrer-ses-pages-dans-des-cadres" title="Link to this heading">#</a></h3>
+<section id="id40">
+<h4>Objectif<a class="headerlink" href="#id40" title="Link to this heading">#</a></h4>
+<p>Réduire les risques d’utilisation trompeuse du contenu.</p>
+</section>
+<section id="id41">
+<h4>Mise en œuvre<a class="headerlink" href="#id41" title="Link to this heading">#</a></h4>
+<p>Configurer le serveur pour l’envoi de l’en-tête HTTP X-Frame-Options avec la valeur deny (pour interdire toute inclusion de la page dans un cadre, quel qu’en soit le site) ou sameorigin (pour limiter les inclusions à des cadres du même nom de domaine que la page). La valeur allow-from (pour limiter les inclusions à des URL spécifiques) ne bénéficie pas, en revanche, à l’heure où nous écrivons ces lignes, d’un support suffisant.</p>
+</section>
+</section>
+<section id="id42">
+<h3>Contrôle<a class="headerlink" href="#id42" title="Link to this heading">#</a></h3>
+<p>Vérifier à l’aide d’un outil d’inspection des en-têtes HTTP la présence de X-Frame-Options avec la valeur deny ou sameorigin.</p>
+</section>
+<section id="le-site-propose-un-mecanisme-de-securite-permettant-de-restreindre-l-origine-des-contenus">
+<h3>207 - Le site propose un mécanisme de sécurité permettant de restreindre l’origine des contenus.<a class="headerlink" href="#le-site-propose-un-mecanisme-de-securite-permettant-de-restreindre-l-origine-des-contenus" title="Link to this heading">#</a></h3>
+<section id="id43">
+<h4>Objectif<a class="headerlink" href="#id43" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Réduire les risques d’exécution ou d’affichage d’un contenu non désirable ou d’une source non autorisée.</p></li>
+</ul>
+</section>
+<section id="id44">
+<h4>Mise en œuvre<a class="headerlink" href="#id44" title="Link to this heading">#</a></h4>
+<p>Activer l’en-tête HTTP Content-Security-Policy avec les directives CSP 1 appropriées :</p>
+<ul class="simple">
+<li><p>img-src pour les images</p></li>
+<li><p>script-src pour le JavaScript</p></li>
+<li><p>style-src pour les styles CSS</p></li>
+<li><p>font-src pour les webfonts</p></li>
+</ul>
+</section>
+<section id="id45">
+<h4>Contrôle<a class="headerlink" href="#id45" title="Link to this heading">#</a></h4>
+<p>Vérifier, à l’aide d’un outil d’inspection des en-têtes HTTP, la présence de l’en-tête Content-Security-Policy.</p>
+</section>
+</section>
+<section id="le-serveur-ne-communique-pas-d-informations-sur-les-logiciels-et-langages-utilises">
+<h3>208 - Le serveur ne communique pas d’informations sur les logiciels et langages utilisés.<a class="headerlink" href="#le-serveur-ne-communique-pas-d-informations-sur-les-logiciels-et-langages-utilises" title="Link to this heading">#</a></h3>
+<section id="id46">
+<h4>Objectif<a class="headerlink" href="#id46" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Prévenir les risques d’intrusion sur le serveur.</p></li>
+<li><p>Prévenir l’apparition de contenus ou scripts malveillants sur le site.</p></li>
+</ul>
+</section>
+<section id="id47">
+<h4>Mise en œuvre<a class="headerlink" href="#id47" title="Link to this heading">#</a></h4>
+<p>Ne communiquer via les entêtes HTTP envoyés par le serveur aucune information sur les logiciels et langages utilisés côté serveur, en particulier via les entêtes Server, X-Powered-By et X-AspNet-Version.</p>
+</section>
+<section id="id48">
+<h4>Contrôle<a class="headerlink" href="#id48" title="Link to this heading">#</a></h4>
+<p>Vérifier que les les entêtes HTTP envoyés par le serveur ne donnent aucune information sur les logiciels et langages utilisés côté serveur.</p>
+</section>
+</section>
+<section id="le-controle-d-integrite-des-ressources-tierces-est-present-et-valide">
+<h3>209 - Le contrôle d’intégrité des ressources tierces est présent et valide<a class="headerlink" href="#le-controle-d-integrite-des-ressources-tierces-est-present-et-valide" title="Link to this heading">#</a></h3>
+<section id="id49">
+<h4>Objectif<a class="headerlink" href="#id49" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Prévenir les risques de diffusion de code malveillant.</p></li>
+<li><p>Limiter les risques associés à la diffusion de code malveillant désindexation, plaintes…</p></li>
+</ul>
+</section>
+<section id="id50">
+<h4>Mise en œuvre<a class="headerlink" href="#id50" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Utiliser l’attribut integrity de chaque élément  <code class="docutils literal notranslate"><span class="pre">link</span></code>  et  <code class="docutils literal notranslate"><span class="pre">script</span></code>  (appelant un fichier externe) pour fournir au navigateur le hachage cryptographique (hachage SRI) auquel le fichier doit correspondre.</p></li>
+</ul>
+</section>
+<section id="id51">
+<h4>Contrôle<a class="headerlink" href="#id51" title="Link to this heading">#</a></h4>
+<p>Vérifier pour chaque élément  <code class="docutils literal notranslate"><span class="pre">link</span></code>  et  <code class="docutils literal notranslate"><span class="pre">script</span></code>  (appelant un fichier externe) la présence de l’attribut  <code class="docutils literal notranslate"><span class="pre">integrity</span></code>  indiquant le hachage cryptographique (hachage SRI) auquel le fichier concerné doit correspondre.</p>
+</section>
+</section>
+<section id="le-site-propose-au-moins-deux-mecanismes-pour-valider-une-operation-securisee">
+<h3>210 - Le site propose au moins deux mécanismes pour valider une opération sécurisée.<a class="headerlink" href="#le-site-propose-au-moins-deux-mecanismes-pour-valider-une-operation-securisee" title="Link to this heading">#</a></h3>
+<section id="id52">
+<h4>Objectif<a class="headerlink" href="#id52" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Prévenir les risques d’échec des opérations.</p></li>
+<li><p>Éviter l’exclusion d’utilisateurs pour des raisons techniques ou matérielles.</p></li>
+</ul>
+</section>
+<section id="id53">
+<h4>Mise en œuvre<a class="headerlink" href="#id53" title="Link to this heading">#</a></h4>
+<p>Pour toute opération sécurisée par un système de type authentification à double facteur ou autre authentification forte, fournir à l’utilisateur au moins deux mécanismes au choix pour l’utiliser (par exemple, authentification par SMS ou par  terminal de validation).</p>
+</section>
+<section id="id54">
+<h4>Contrôle<a class="headerlink" href="#id54" title="Link to this heading">#</a></h4>
+<p>Vérifier pour toute opération sécurisée par un système de type authentification à double facteur ou autre authentification forte, que l’utilisateur a le choix entre au moins deux mécanismes (par exemple, authentification par SMS ou par  terminal de validation).</p>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -620,6 +989,146 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> 
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regles">Règles</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#toutes-les-pages-utilisent-le-protocole-https">192 - Toutes les pages utilisent le protocole HTTPS.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#objectif">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-en-oeuvre">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#controle">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-certificats-de-securite-sont-signes-et-en-cours-de-validite">193 - Les certificats de sécurité sont signés et en cours de validité.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-pages-utilisant-https-ont-un-en-tete-de-transport-strict">194 - Les pages utilisant HTTPS ont un en-tête de transport strict.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-pages-utilisant-le-protocole-https-ne-proposent-pas-de-ressources-http">195 - Les pages utilisant le protocole HTTPS ne proposent pas de ressources HTTP.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-operations-relatives-aux-mots-de-passe-peuvent-etre-effectuees-integralement-en-ligne">196 - Les opérations relatives aux mots de passe peuvent être effectuées intégralement en ligne.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-mots-de-passe-peuvent-etre-choisis-ou-changes-par-l-utilisateur">197 - Les mots de passe peuvent être choisis ou changés par l’utilisateur.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#un-dispositif-sensibilise-l-utilisateur-sur-le-degre-de-securisation-du-mot-de-passe-qu-il-choisit">198 - Un dispositif sensibilise l’utilisateur sur le degré de sécurisation du mot de passe qu’il choisit</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-propose-une-procedure-de-reinitialisation-du-mot-de-passe">199 - Le site propose une procédure de réinitialisation du mot de passe.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-ne-communique-pas-de-mot-de-passe-par-mail">200 - Le site ne communique pas de mot de passe par mail</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id23">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id24">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-en-tetes-envoyes-par-le-serveur-desactivent-la-detection-automatique-du-type-mime-de-chaque-ressource">201 - Les en-têtes envoyés par le serveur désactivent la détection automatique du type MIME de chaque ressource.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id25">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id26">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id27">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-serveur-indique-le-type-mime-de-chaque-ressource">202 - Le serveur indique le type MIME de chaque ressource.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id28">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id29">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id30">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-informations-sur-la-securite-des-transactions-sont-indiquees">203 - Les informations sur la sécurité des transactions sont indiquées.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id31">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id32">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id33">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-serveur-n-envoie-pas-la-liste-des-fichiers-des-repertoires-n-ayant-pas-de-page-d-index">204 - Le serveur n’envoie pas la liste des fichiers des répertoires n’ayant pas de page d’index.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id34">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id35">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id36">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-serveur-envoie-les-informations-d-activation-de-protection-cross-site-scripting">205 - Le serveur envoie les informations d’activation de protection cross site scripting.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id37">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id38">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id39">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-serveur-envoie-les-informations-indiquant-les-domaines-autorises-a-integrer-ses-pages-dans-des-cadres">206 - Le serveur envoie les informations indiquant les domaines autorisés à intégrer ses pages dans des cadres.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id40">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id41">Mise en œuvre</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id42">Contrôle</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-propose-un-mecanisme-de-securite-permettant-de-restreindre-l-origine-des-contenus">207 - Le site propose un mécanisme de sécurité permettant de restreindre l’origine des contenus.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id43">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id44">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id45">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-serveur-ne-communique-pas-d-informations-sur-les-logiciels-et-langages-utilises">208 - Le serveur ne communique pas d’informations sur les logiciels et langages utilisés.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id46">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id47">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id48">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-controle-d-integrite-des-ressources-tierces-est-present-et-valide">209 - Le contrôle d’intégrité des ressources tierces est présent et valide</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id49">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id50">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id51">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-propose-au-moins-deux-mecanismes-pour-valider-une-operation-securisee">210 - Le site propose au moins deux mécanismes pour valider une opération sécurisée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id52">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id53">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id54">Contrôle</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../../../_sources/content/Outils/Opquast/Sécurité.md">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
               
             
           </div>

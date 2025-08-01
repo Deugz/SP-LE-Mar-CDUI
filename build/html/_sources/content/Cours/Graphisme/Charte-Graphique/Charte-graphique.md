@@ -144,3 +144,16 @@ Un site qui met en lumière les copies dans les pubs. La personne réalise égal
 ### Bibliothèques d'images
 
 - [Unsplash](https://unsplash.com/fr)
+
+## Synthèse
+
+### Exemples de bonnes charte graphique
+
+#### LifterLMS 
+
+- [Charte Graphique](https://gocodebox.github.io/lifterlms-brand/)
+
+```{note}
+créer une carte avec le logo pour emmener vers la charte graphique et expliquer brièvement la société. Mettre un dropdown en bas qui explique pourquoi c'est une bonne charte graphique
+```
+

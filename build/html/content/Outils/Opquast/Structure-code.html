@@ -8,6 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <meta property="article:modified_time" content="2025-06-25T09:58:05+02:00" />
     <title>Structure et Code &#8212; Label Ecole V0 0.0.1 documentation</title>
   
   
@@ -85,6 +86,7 @@
     <link rel="prev" title="Serveur et Performance" href="Serveur-perf.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+    <meta name="docbuild:last-update" content="25 June 2025"/>
   </head>
   
   
@@ -336,6 +338,10 @@ document.write(`
   
 
   
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
 </div>
 
     </header>
@@ -565,6 +571,434 @@ document.write(`
                   
   <section id="structure-et-code">
 <h1>Structure et Code<a class="headerlink" href="#structure-et-code" title="Link to this heading">#</a></h1>
+<section id="regles">
+<h2>Règles<a class="headerlink" href="#regles" title="Link to this heading">#</a></h2>
+<section id="la-date-de-publication-ou-de-mise-a-jour-des-contenus-est-mise-a-disposition-sous-forme-programmatique">
+<h3>224 - La date de publication ou de mise à jour des contenus est mise à disposition sous forme programmatique.<a class="headerlink" href="#la-date-de-publication-ou-de-mise-a-jour-des-contenus-est-mise-a-disposition-sous-forme-programmatique" title="Link to this heading">#</a></h3>
+<section id="objectif">
+<h4>Objectif<a class="headerlink" href="#objectif" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Fournir une date de publication aux moteurs de recherche et outils d’indexation.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="mise-en-oeuvre">
+<h4>Mise en œuvre<a class="headerlink" href="#mise-en-oeuvre" title="Link to this heading">#</a></h4>
+<p>Utiliser l’élément HTML  <code class="docutils literal notranslate"><span class="pre">time</span></code>  pour baliser les dates de publication et de mise à jour du contenu affichées sur le site, et son attribut  <code class="docutils literal notranslate"><span class="pre">datetime</span></code>  pour indiquer celles-ci au format standard requis par la spécification HTML5.</p>
+</section>
+<section id="controle">
+<h4>Contrôle<a class="headerlink" href="#controle" title="Link to this heading">#</a></h4>
+<p>Vérifier que chaque date de publication ou de mise à jour du contenu affichée sur le site est balisée avec l’élément HTML <code class="docutils literal notranslate"><span class="pre">time</span></code> , doté d’un attribut  <code class="docutils literal notranslate"><span class="pre">datetime</span></code>  indiquant la date au format standard requis par la spécification HTML5.</p>
+</section>
+</section>
+<section id="le-code-source-de-chaque-page-contient-une-metadonnee-qui-definit-le-jeu-de-caracteres">
+<h3>225 - Le code source de chaque page contient une métadonnée qui définit le jeu de caractères.<a class="headerlink" href="#le-code-source-de-chaque-page-contient-une-metadonnee-qui-definit-le-jeu-de-caracteres" title="Link to this heading">#</a></h3>
+<section id="id1">
+<h4>Objectif<a class="headerlink" href="#id1" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre un affichage hors ligne correct des pages en indiquant au navigateur quel est le jeu de caractères utilisé.</p></li>
+<li><p>Prévenir le risque de problèmes d’affichage de caractères lié à un fonctionnement parfois hasardeux des mécanismes de rattrapage des navigateurs quand ils ne disposent pas de l’information nécessaire via l’en-tête HTTP content-type.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id2">
+<h4>Mise en œuvre<a class="headerlink" href="#id2" title="Link to this heading">#</a></h4>
+<p>L’élément meta est renseigné en fonction de l’encodage effectif du document et de son type MIME sous la forme :</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">meta</span> <span class="pre">charset=&quot;utf-8&quot;</span></code>  en HTML5</p></li>
+</ul>
+</section>
+<section id="id3">
+<h4>Contrôle<a class="headerlink" href="#id3" title="Link to this heading">#</a></h4>
+<p>Ce critère peut être vérifié par l’examen du code source, à l’aide d’un outil de développement. Pour chaque page :</p>
+<ul class="simple">
+<li><p>Vérifier la présence de l’élément meta http-equiv=”Content- Type” ou charset.</p></li>
+<li><p>Vérifier la pertinence du jeu de caractères indiqué dans son attribut content ou charset.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-codage-de-caracteres-utilise-est-utf-8">
+<h3>226 - Le codage de caractères utilisé est UTF-8.<a class="headerlink" href="#le-codage-de-caracteres-utilise-est-utf-8" title="Link to this heading">#</a></h3>
+<section id="id4">
+<h4>Objectif<a class="headerlink" href="#id4" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Recourir à un jeu de caractères international.</p></li>
+<li><p>Prévenir les défauts d’affichage.</p></li>
+<li><p>Faciliter la manipulation des contenus par les utilisateurs et les développeurs.</p></li>
+</ul>
+</section>
+<section id="id5">
+<h4>Mise en œuvre<a class="headerlink" href="#id5" title="Link to this heading">#</a></h4>
+<p>Configurer le serveur et les bases de données de manière à utiliser UTF-8.</p>
+<p>Choisir des outils (logiciels de développement, frameworks, CMS, outils de production de contenu) compatibles avec UTF-8.</p>
+</section>
+<section id="id6">
+<h4>Contrôle<a class="headerlink" href="#id6" title="Link to this heading">#</a></h4>
+<p>Cette vérification s’effectue en trois temps. Pour chaque page examinée :</p>
+<ul class="simple">
+<li><p>Vérifier l’indication du jeu de caractères donnée par l’en-tête HTTP content-type envoyée par le serveur, à l’aide d’un outil dédié.</p></li>
+<li><p>Vérifier, le cas échéant, la conformité à cet en-tête de l’élément meta http-equiv=”Content-Type” dans le code HTML des pages.</p></li>
+<li><p>Vérifier que le contenu des pages est effectivement encodé en UTF-8 (absence de caractères inattendus ou erronés), par exemple en soumettant la page à une validation HTML auprès du validateur du W3C (<a class="reference internal" href="#validator.w3.org"><span class="xref myst">Validatpr W3C</span></a>).</p></li>
+</ul>
+<p>L’outil <a class="reference internal" href="#validator.w3.org/i18n-checker/"><span class="xref myst">Internationalization Checker du W3C</span></a> permet de combiner ces trois étapes.</p>
+</section>
+</section>
+<section id="le-contenu-de-chaque-page-est-organise-selon-une-structure-de-titres-et-sous-titres-hierarchisee">
+<h3>227 - Le contenu de chaque page est organisé selon une structure de titres et sous-titres hiérarchisée.<a class="headerlink" href="#le-contenu-de-chaque-page-est-organise-selon-une-structure-de-titres-et-sous-titres-hierarchisee" title="Link to this heading">#</a></h3>
+<section id="id7">
+<h4>Objectif<a class="headerlink" href="#id7" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs qui le souhaitent de visualiser la structure du contenu de la page et d’y naviguer.</p></li>
+<li><p>Permettre aux machines et aux outils d’indexation d’extraire le plan de chaque page.</p></li>
+<li><p>Améliorer le référencement en facilitant l’interprétation du contenu par les robots d’indexation.</p></li>
+</ul>
+</section>
+<section id="id8">
+<h4>Mise en œuvre<a class="headerlink" href="#id8" title="Link to this heading">#</a></h4>
+<p>Structurer le document en titres et sous-titres à l’aide des éléments HTML h1 à h6.</p>
+<p>Veiller à ce que la structure ne comporte pas de « trous » : un titre de niveau h2 ne doit pas être suivi d’un titre h4, h5 ou h6, par exemple.</p>
+<p>Veiller à ce que chaque page comporte au moins un titre de niveau 1 avec l’élément h1.</p>
+<p><strong>En savoir plus</strong>:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/Heading_Elements" rel="noreferrer" target="_blank"><h1>-<h6> : les éléments de titre de section</a></p></li>
+</ul>
+</section>
+<section id="id9">
+<h4>Contrôle<a class="headerlink" href="#id9" title="Link to this heading">#</a></h4>
+<p>Dans chaque page, contrôler successivement :</p>
+<ul class="simple">
+<li><p>la présence d’au moins un élément h1 correspondant au titre de la section principale du contenu de la page ;</p></li>
+<li><p>la présence de sous-titres h2 à h6 (si nécessaire) correspondant aux titres des sous-sections de contenu principal de la page ;</p></li>
+<li><p>l’absence d’interruption dans la succession descendante des titres h1 à h6, c’est-à-dire par exemple l’absence de titre h1 suivi d’un titre h3.</p></li>
+</ul>
+<p>La vérification doit s’effectuer en tenant compte d’éventuels éléments de titres masqués à l’affichage ou bien de titres générés par JavaScript. On peut, à cet effet, utiliser la fonction d’affichage de la table des matières de la page disponible dans certains outils de développement.</p>
+</section>
+</section>
+<section id="les-elements-visuellement-presentes-sous-forme-de-liste-sont-balises-de-facon-appropriee-dans-le-code-source">
+<h3>228 - Les éléments visuellement présentés sous forme de liste sont balisés de façon appropriée dans le code source.<a class="headerlink" href="#les-elements-visuellement-presentes-sous-forme-de-liste-sont-balises-de-facon-appropriee-dans-le-code-source" title="Link to this heading">#</a></h3>
+<section id="id10">
+<h4>Objectif<a class="headerlink" href="#id10" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre l’identification des listes par les navigateurs et les aides techniques et donc leur restitution appropriée afin de faciliter leur compréhension par les utilisateurs.</p></li>
+<li><p>Améliorer la sémantique du contenu des pages et sa réutilisabilité.</p></li>
+</ul>
+</section>
+<section id="id11">
+<h4>Mise en œuvre<a class="headerlink" href="#id11" title="Link to this heading">#</a></h4>
+<p>Soit utiliser les éléments HTML appropriés :</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">ul,</span> <span class="pre">li</span></code>  pour les listes non ordonnées ;</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ol,</span> <span class="pre">li</span></code> pour les listes ordonnées ;</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">dl,</span> <span class="pre">dt,</span> <span class="pre">dd</span></code>  pour les listes de définitions ou de descriptions.</p></li>
+</ul>
+<p>Soit recourir aux attributs ARIA permettant de donner la sémantique d’une liste non ordonnée ou ordonnée à un contenu balisé de manière plus générique :</p>
+<ul class="simple">
+<li><p>donner au conteneur de la liste un attribut <code class="docutils literal notranslate"><span class="pre">role=&quot;list&quot;</span></code>  ;</p></li>
+<li><p>donner à chaque élément de la liste un attribut  <code class="docutils literal notranslate"><span class="pre">role=&quot;listitem&quot;</span></code>  ;</p></li>
+</ul>
+<p>(il n’existe pas d’équivalent aux listes de définitions via un rôle ARIA).</p>
+<p><strong>En savoir plus</strong>:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/ul" rel="noreferrer" target="_blank">ul</a></p></li>
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/ol" rel="noreferrer" target="_blank">ol</a></p></li>
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/dl" rel="noreferrer" target="_blank">dl</a></p></li>
+</ul>
+</section>
+<section id="id12">
+<h4>Contrôle<a class="headerlink" href="#id12" title="Link to this heading">#</a></h4>
+<p>Pour chaque page contenant une liste :</p>
+<ul class="simple">
+<li><p>Contrôler le code source des contenus présentés sous forme de liste (caractérisés par la présence de retours à la ligne et de marqueurs de listes tels que des puces ou des numéros) à l’aide d’un inspecteur de code.</p></li>
+<li><p>Vérifier si le code source de ces listes apparentes comporte bien les éléments HTML correspondant au type de liste concerné :  <code class="docutils literal notranslate"><span class="pre">ul,</span> <span class="pre">li</span></code>  pour une liste non ordonnée (liste à puces),  <code class="docutils literal notranslate"><span class="pre">ol,</span> <span class="pre">li</span></code>  pour une liste ordonnée (liste numérotée) et  <code class="docutils literal notranslate"><span class="pre">dl,</span> <span class="pre">dt,</span> <span class="pre">dd</span></code> npour une liste de définitions ou, à défaut, les rôles ARIA  <code class="docutils literal notranslate"><span class="pre">list</span></code>  et  <code class="docutils literal notranslate"><span class="pre">listitem</span></code>.</p></li>
+</ul>
+</section>
+</section>
+<section id="chaque-identifiant-html-n-est-utilise-qu-une-seule-fois-par-page">
+<h3>229 - Chaque identifiant HTML n’est utilisé qu’une seule fois par page.<a class="headerlink" href="#chaque-identifiant-html-n-est-utilise-qu-une-seule-fois-par-page" title="Link to this heading">#</a></h3>
+<section id="id13">
+<h4>Objectif<a class="headerlink" href="#id13" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Éviter les erreurs de restitution du contenu ou d’interaction via les scripts.</p></li>
+<li><p>Limiter les risques d’interprétation hasardeuse du Document Object Model (DOM) par des agents utilisateurs différents.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id14">
+<h4>Mise en œuvre<a class="headerlink" href="#id14" title="Link to this heading">#</a></h4>
+<p>La solution la plus radicale consiste à s’assurer de la validité complète du code source des pages, à l’aide d’un validateur tel que <a class="reference external" href="https://validator.w3.org/" rel="noreferrer" target="_blank">The W3C Markup Validation Service</a>. Cette solution conduit cependant à tenir compte de l’ensemble des erreurs de validation du code source qui n’entrent pas dans le champ de cette bonne pratique. Pour s’en tenir au seul champ de cette bonne pratique, on veillera à éviter toute valeur dupliquée d’un attribut  <code class="docutils literal notranslate"><span class="pre">id</span></code>  dans une même page HTML.</p>
+<p><strong>En savoir plus</strong>:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Global_attributes/id" rel="noreferrer" target="_blank">id</a></p></li>
+</ul>
+</section>
+<section id="id15">
+<h4>Contrôle<a class="headerlink" href="#id15" title="Link to this heading">#</a></h4>
+<p>Soumettre la page au validateur HTML du <a class="reference internal" href="#validator.w3.org"><span class="xref myst">W3C</span></a> ou un autre outil de validation de code et vérifier que chaque valeur d’attribut <code class="docutils literal notranslate"><span class="pre">id</span></code>  est unique dans la page.</p>
+</section>
+</section>
+<section id="le-site-ne-bloque-pas-la-copie-de-contenu">
+<h3>230 - Le site ne bloque pas la copie de contenu<a class="headerlink" href="#le-site-ne-bloque-pas-la-copie-de-contenu" title="Link to this heading">#</a></h3>
+<section id="id16">
+<h4>Objectif<a class="headerlink" href="#id16" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter l’utilisation du contenu par les utilisateurs (traduction, référence, citation etc.)</p></li>
+<li><p>Laisser aux utilisateurs la maîtrise de leur navigateur.</p></li>
+</ul>
+</section>
+<section id="id17">
+<h4>Mise en œuvre<a class="headerlink" href="#id17" title="Link to this heading">#</a></h4>
+<p>Ne pas utiliser JavaScript ou CSS, ou toute autre technique, pour bloquer la fonctionnalité “copier” du navigateur dans les pages du site.</p>
+</section>
+<section id="id18">
+<h4>Contrôle<a class="headerlink" href="#id18" title="Link to this heading">#</a></h4>
+<p>Vérifier pour chaque page du site que la copie du contenu est possible à l’aide de la fonctionnalité courante du navigateur.</p>
+</section>
+</section>
+<section id="le-site-ne-bloque-pas-l-acces-au-menu-contextuel">
+<h3>231 - Le site ne bloque pas l’accès au menu contextuel<a class="headerlink" href="#le-site-ne-bloque-pas-l-acces-au-menu-contextuel" title="Link to this heading">#</a></h3>
+<section id="id19">
+<h4>Objectif<a class="headerlink" href="#id19" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter la navigation et l’accès aux fonctionnalités des outils de consultations.</p></li>
+<li><p>Laisser aux utilisateurs le contrôle de leurs menus et actions.</p></li>
+</ul>
+</section>
+<section id="id20">
+<h4>Mise en œuvre<a class="headerlink" href="#id20" title="Link to this heading">#</a></h4>
+<p>Ne pas utiliser JavaScript ou toute autre technique, pour bloquer la fonctionnalité “menu contextuel” (clic droit) du navigateur dans les pages du site.</p>
+</section>
+<section id="id21">
+<h4>Contrôle<a class="headerlink" href="#id21" title="Link to this heading">#</a></h4>
+<p>Vérifier pour chaque page du site que le menu contextuel du navigateur peut être ouvert à partir de l’ensemble des contenus affichés.</p>
+</section>
+</section>
+<section id="le-site-n-impose-pas-de-redirection-ou-de-rafraichissement-automatique-cote-client">
+<h3>232 - Le site n’impose pas de redirection ou de rafraîchissement automatique côté client.<a class="headerlink" href="#le-site-n-impose-pas-de-redirection-ou-de-rafraichissement-automatique-cote-client" title="Link to this heading">#</a></h3>
+<section id="id22">
+<h4>Objectif<a class="headerlink" href="#id22" title="Link to this heading">#</a></h4>
+<p>Laisser à l’utilisateur le contrôle de son navigateur et de son interface de consultation</p>
+<ul class="simple">
+<li><p>Éviter des coupures ou des pertes d’information en cours de lecture, notamment pour les utilisateurs équipés de lecteurs d’écran qu’un rafraîchissement ou une redirection temporisée interromprait lors de la consultation.</p></li>
+<li><p>Ne pas pénaliser la consultation du contenu en mobilité lorsque la qualité du réseau est variable sur une courte échelle de temps.</p></li>
+<li><p>Permettre à l’utilisateur d’éviter un surcroît non désiré de coût d’utilisation des données mobiles.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+</ul>
+</section>
+<section id="id23">
+<h4>Mise en œuvre<a class="headerlink" href="#id23" title="Link to this heading">#</a></h4>
+<p>Ne pas utiliser l’élément <code class="docutils literal notranslate"><span class="pre">meta</span> <span class="pre">http-equiv=&quot;refresh&quot;</span></code> .</p>
+<p>Fournir à l’utilisateur un moyen de désactiver les éventuels rafraîchissements automatiques et les redirections créées :</p>
+<p>`- en JavaScript ;</p>
+<ul class="simple">
+<li><p>via un élément  <code class="docutils literal notranslate"><span class="pre">object</span></code>, <code class="docutils literal notranslate"><span class="pre">embed</span></code> ou <code class="docutils literal notranslate"><span class="pre">applet</span></code>  ;</p></li>
+<li><p>ou via un  <code class="docutils literal notranslate"><span class="pre">en-tête</span> <span class="pre">HTTP</span> <span class="pre">refresh</span></code> .</p></li>
+</ul>
+</section>
+<section id="id24">
+<h4>Contrôle<a class="headerlink" href="#id24" title="Link to this heading">#</a></h4>
+<p>Pour chaque page examinée :</p>
+<ul class="simple">
+<li><p>Vérifier, à l’aide d’un inspecteur de code, l’absence de l’élément  <code class="docutils literal notranslate"><span class="pre">meta</span> <span class="pre">http-equiv=&quot;refresh&quot;</span></code> .</p></li>
+<li><p>Vérifier que la consultation de la page ne révèle aucun rafraîchissement automatique ni aucune redirection côté client qui ne soient désactivables auparavant via l’interface du site (sans devoir faire appel à une éventuelle fonctionnalité propre au navigateur).</p></li>
+</ul>
+<p>La détection de l’élément  <code class="docutils literal notranslate"><span class="pre">meta</span> <span class="pre">http-equiv=&quot;refresh&quot;</span></code>  est aisée en observant le code source de la page. En revanche, la diversité des dispositifs JavaScript de rafraîchissement automatique impose de procéder également à un contrôle via la consultation de la page dans le navigateur. Ce contrôle peut être facilité si le navigateur offre une option interdisant certains de ces rafraîchissements et affiche alors un bandeau d’alerte. Mais seule l’observation de la page permet une détection à coup sûr.</p>
+</section>
+</section>
+<section id="le-texte-des-documents-pdf-internes-est-selectionnable">
+<h3>233 - Le texte des documents PDF internes est sélectionnable.<a class="headerlink" href="#le-texte-des-documents-pdf-internes-est-selectionnable" title="Link to this heading">#</a></h3>
+<section id="id25">
+<h4>Objectif<a class="headerlink" href="#id25" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre le référencement des contenus des documents PDF.</p></li>
+<li><p>Faciliter la manipulation et la réutilisation du contenu des documents PDF (traduction, copier coller…).</p></li>
+<li><p>Garantir la lisibilité des contenus des documents PDF.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+</ul>
+</section>
+<section id="id26">
+<h4>Mise en œuvre<a class="headerlink" href="#id26" title="Link to this heading">#</a></h4>
+<p>Ne pas diffuser de PDF issus de la numérisation de documents initiaux mais uniquement des documents convertis au format numérique (par OCR le cas échéant).</p>
+</section>
+<section id="id27">
+<h4>Contrôle<a class="headerlink" href="#id27" title="Link to this heading">#</a></h4>
+<p>Pour chaque document PDF interne publié dans le site :</p>
+<ul class="simple">
+<li><p>Afficher ou ouvrir le document</p></li>
+<li><p>Vérifier que le texte affiché est immédiatement sélectionnable à l’écran ou bien qu’il peut être consulté dans un lecteur d’écran.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-documents-pdf-internes-sont-dotes-d-une-structure-de-titres">
+<h3>234 - Les documents PDF internes sont dotés d’une structure de titres.<a class="headerlink" href="#les-documents-pdf-internes-sont-dotes-d-une-structure-de-titres" title="Link to this heading">#</a></h3>
+<section id="id28">
+<h4>Objectif<a class="headerlink" href="#id28" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs d’accéder directement à différentes sections d’un document PDF.</p></li>
+<li><p>Fournir une structure de titres aux utilisateurs qui en ont besoin.</p></li>
+<li><p>Permettre la consultation d’un PDF via une aide technique.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id29">
+<h4>Mise en œuvre<a class="headerlink" href="#id29" title="Link to this heading">#</a></h4>
+<p>Lorsque le document PDF est issu d’une suite bureautique telle que Word ou OpenOffice, il faut utiliser les styles et formatages proposés par le logiciel de manière à générer un PDF structuré, en appliquant les styles de texte tels que Titre 1, Titre 2, Titre 3 pour les différents niveaux de titre.Ces styles peuvent ensuite être modifiés pour les adapter à la présentation souhaitée. Enfin, l’option Exporter en PDF balisé ou tagué doit être activée au moment de l’export PDF.</p>
+<ul class="simple">
+<li><p>Pour plus d’informations, consulter la rubrique accessibilité du site  <a class="reference external" href="https://www.adobe.com/home" rel="noreferrer" target="_blank">Adobe: Creative, marketing and document management solutions</a></p></li>
+</ul>
+</section>
+<section id="id30">
+<h4>Contrôle<a class="headerlink" href="#id30" title="Link to this heading">#</a></h4>
+<p>Pour chaque document PDF interne, vérifier la présence des éléments de structure de titre :</p>
+<ul class="simple">
+<li><p>à l’aide d’un outil d’inspection du code ;</p></li>
+<li><p>en ouvrant le document dans un lecteur PDF permettant d’afficher les signets ;</p></li>
+<li><p>ou en consultant le document dans un lecteur d’écran.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-fils-de-syndication-sont-detectables-par-les-agents-utilisateurs">
+<h3>235 - Les fils de syndication sont détectables par les agents utilisateurs.<a class="headerlink" href="#les-fils-de-syndication-sont-detectables-par-les-agents-utilisateurs" title="Link to this heading">#</a></h3>
+<section id="id31">
+<h4>Objectif<a class="headerlink" href="#id31" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre au navigateur d’indiquer dans son interface la présence d’un fil de syndication associé à la page en cours de consultation.</p></li>
+</ul>
+</section>
+<section id="id32">
+<h4>Mise en œuvre<a class="headerlink" href="#id32" title="Link to this heading">#</a></h4>
+<p>Indiquer les fils RSS dans la section  <code class="docutils literal notranslate"><span class="pre">head</span></code>  de la page, à l’aide d’un élément  <code class="docutils literal notranslate"><span class="pre">link</span></code>  du type :</p>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">link</span> <span class="na">title</span><span class="o">=</span><span class="s">&quot;La bonne pratique du jour&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;https://checklists.opquast.com/dailybp/feed&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;application/rss+xml&quot;</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;alternate&quot;</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+</section>
+<section id="id33">
+<h4>Contrôle<a class="headerlink" href="#id33" title="Link to this heading">#</a></h4>
+<p>Dans le code source des pages du site :</p>
+<ul class="simple">
+<li><p>Identifier les différents fils de syndication ;</p></li>
+<li><p>Contrôler, par exemple à l’aide de Firebug, la présence de l’élément  <code class="docutils literal notranslate"><span class="pre">link</span></code>  approprié ( <code class="docutils literal notranslate"><span class="pre">type=&quot;application/rss+xml&quot;</span></code> ) dans l’en-tête de la page HTML ;</p></li>
+<li><p>Vérifier que l’adresse URL présente dans l’élément <code class="docutils literal notranslate"><span class="pre">link</span></code> affiche bien un contenu RSS.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-cellules-des-tableaux-de-donnees-sont-reliees-a-leurs-en-tetes">
+<h3>236 - Les cellules des tableaux de données sont reliées à leurs en-têtes.<a class="headerlink" href="#les-cellules-des-tableaux-de-donnees-sont-reliees-a-leurs-en-tetes" title="Link to this heading">#</a></h3>
+<section id="id34">
+<h4>Objectif<a class="headerlink" href="#id34" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux aides techniques de restituer l’information contenue dans les tableaux de données de manière compréhensible, en indiquant à l’utilisateur les relations logiques entre contenu et en-têtes du tableau.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id35">
+<h4>Mise en œuvre<a class="headerlink" href="#id35" title="Link to this heading">#</a></h4>
+<p>Utiliser l’élément HTML  <code class="docutils literal notranslate"><span class="pre">th</span></code>  et son attribut  <code class="docutils literal notranslate"><span class="pre">scope</span></code>  pour baliser les cellules d’en-têtes et expliciter leur portée ( <code class="docutils literal notranslate"><span class="pre">scope</span></code>  de valeur  <code class="docutils literal notranslate"><span class="pre">col</span></code>  pour un en-tête de colonne, de valeur  <code class="docutils literal notranslate"><span class="pre">row</span></code>  pour un en-tête de ligne).</p>
+<p>Pour les en-têtes qui ne s’appliquent qu’à une partie d’une ligne ou d’une colonne, contrôler la présence systématique de l’attribut  <code class="docutils literal notranslate"><span class="pre">id</span></code>  pour l’élément  <code class="docutils literal notranslate"><span class="pre">th</span></code>  et de l’attribut  <code class="docutils literal notranslate"><span class="pre">headers</span></code>  pour les éléments  <code class="docutils literal notranslate"><span class="pre">td</span></code>  avec les valeurs appropriées :</p>
+<ul class="simple">
+<li><p>Donner à chaque en-tête (élément  <code class="docutils literal notranslate"><span class="pre">th</span></code> ) un attribut  <code class="docutils literal notranslate"><span class="pre">id</span></code>  (par exemple,  <code class="docutils literal notranslate"><span class="pre">id=&quot;foo&quot;</span></code> ) ;</p></li>
+<li><p>Utiliser l’attribut  <code class="docutils literal notranslate"><span class="pre">headers</span></code>  dans chaque cellule (élément  <code class="docutils literal notranslate"><span class="pre">td</span></code> ) pour indiquer les en-têtes associées (par exemple,  <code class="docutils literal notranslate"><span class="pre">headers=&quot;foo&quot;</span></code>  pour chaque cellule rattachée à l’en-tête ayant l’attribut  <code class="docutils literal notranslate"><span class="pre">id=&quot;foo&quot;</span></code> ).</p></li>
+</ul>
+</section>
+<section id="id36">
+<h4>Contrôle<a class="headerlink" href="#id36" title="Link to this heading">#</a></h4>
+<p>Dans le code généré des tableaux de données :</p>
+<ul class="simple">
+<li><p>Vérifier l’utilisation systématique de l’élément  <code class="docutils literal notranslate"><span class="pre">th</span></code>  pour baliser les en-têtes de ligne ou de colonne ;</p></li>
+<li><p>Pour les en-têtes s’appliquant à la totalité d’une ligne ou d’une colonne, contrôler la présence systématique de l’attribut  <code class="docutils literal notranslate"><span class="pre">scope</span></code>  doté de la valeur appropriée ( <code class="docutils literal notranslate"><span class="pre">row</span></code>  pour une ligne ou  <code class="docutils literal notranslate"><span class="pre">col</span></code>  pour une colonne) ;</p></li>
+<li><p>Pour les en-têtes qui ne s’appliquent qu’à une partie d’une ligne ou d’une colonne, contrôler la présence systématique de l’attribut  <code class="docutils literal notranslate"><span class="pre">id</span></code>  pour l’élément  <code class="docutils literal notranslate"><span class="pre">th</span></code>  et de l’attribut  <code class="docutils literal notranslate"><span class="pre">headers</span></code>  pour les éléments  <code class="docutils literal notranslate"><span class="pre">td</span></code>  avec les valeurs appropriées :</p></li>
+<li><p>Chaque en-tête (élément  <code class="docutils literal notranslate"><span class="pre">th</span></code> ) doit être dotée d’un attribut  <code class="docutils literal notranslate"><span class="pre">id</span></code>  (par exemple,  <code class="docutils literal notranslate"><span class="pre">id=&quot;foo&quot;</span></code> ) ;</p></li>
+<li><p>L’attribut headers doit être utilisée dans chaque cellule (élément  <code class="docutils literal notranslate"><span class="pre">td</span></code> ) pour indiquer les en-têtes associées (par exemple,  <code class="docutils literal notranslate"><span class="pre">headers=&quot;foo&quot;</span></code>  pour chaque cellule rattachée à l’en-tête ayant l’attribut  <code class="docutils literal notranslate"><span class="pre">id=&quot;foo&quot;</span></code> ).</p></li>
+</ul>
+</section>
+</section>
+<section id="les-titres-des-tableaux-de-donnees-sont-renseignes">
+<h3>237 - Les titres des tableaux de données sont renseignés.<a class="headerlink" href="#les-titres-des-tableaux-de-donnees-sont-renseignes" title="Link to this heading">#</a></h3>
+<section id="id37">
+<h4>Objectif<a class="headerlink" href="#id37" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs d’aides techniques (lecteurs d’écran) d’identifier aisément la nature des informations fournies par un tableau.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id38">
+<h4>Mise en œuvre<a class="headerlink" href="#id38" title="Link to this heading">#</a></h4>
+<p>Utiliser et renseigner l’élément HTML  <code class="docutils literal notranslate"><span class="pre">caption</span></code>  pour chaque tableau de données.</p>
+<p>Le cas échéant, recourir à un élément  <code class="docutils literal notranslate"><span class="pre">caption</span></code>  masqué à l’affichage.</p>
+</section>
+<section id="id39">
+<h4>Contrôle<a class="headerlink" href="#id39" title="Link to this heading">#</a></h4>
+<p>Pour chaque tableau de données :</p>
+<ul class="simple">
+<li><p>Vérifier la présence de l’élément  <code class="docutils literal notranslate"><span class="pre">caption</span></code> . Si cet élément est masqué à l’affichage à l’aide d’une classe CSS, vérifier qu’il reste accessible pour les lecteurs d’écran ;</p></li>
+<li><p>Contrôler la pertinence de l’élément  <code class="docutils literal notranslate"><span class="pre">caption</span></code>  qui doit permettre d’identifier la nature des informations apportées par le tableau.</p></li>
+</ul>
+<p>Cette vérification peut être partiellement automatisée pour ce qui est de la présence de l’élément de titre  <code class="docutils literal notranslate"><span class="pre">caption</span></code>  mais le contrôle de sa pertinence nécessite un examen manuel.</p>
+</section>
+</section>
+<section id="la-linearisation-des-tableaux-utilises-pour-la-mise-en-page-ne-nuit-pas-a-la-comprehension-des-contenus">
+<h3>238 - La linéarisation des tableaux utilisés pour la mise en page ne nuit pas à la compréhension des contenus.<a class="headerlink" href="#la-linearisation-des-tableaux-utilises-pour-la-mise-en-page-ne-nuit-pas-a-la-comprehension-des-contenus" title="Link to this heading">#</a></h3>
+<section id="id40">
+<h4>Objectif<a class="headerlink" href="#id40" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Fournir un contenu compréhensible aux utilisateurs dont l’agent utilisateur ou l’aide technique (lecteur d’écran) ne permet pas de restituer la mise en forme initialement prévue à l’aide d’un tableau.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id41">
+<h4>Mise en œuvre<a class="headerlink" href="#id41" title="Link to this heading">#</a></h4>
+<p>Regrouper dans une même cellule  <code class="docutils literal notranslate"><span class="pre">td</span></code>  les informations qui doivent être verticalement associées (ne pas les répartir dans des cellules placées dans des lignes successives du tableau).</p>
+</section>
+<section id="id42">
+<h4>Contrôle<a class="headerlink" href="#id42" title="Link to this heading">#</a></h4>
+<p>Pour chaque tableau de mise en forme, c’est-à-dire pour chaque tableau ne comportant pas de donnée reliée à des en-têtes de ligne ou de colonne :</p>
+<ul class="simple">
+<li><p>Procéder à la linéarisation de l’affichage à l’aide d’un outils de développement.</p></li>
+<li><p>Vérifier que le contenu linéarisé reste compréhensible, sans incohérence ni perte d’information.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-tableaux-de-donnees-ne-sont-pas-remplaces-par-des-images">
+<h3>239 - Les tableaux de données ne sont pas remplacés par des images.<a class="headerlink" href="#les-tableaux-de-donnees-ne-sont-pas-remplaces-par-des-images" title="Link to this heading">#</a></h3>
+<section id="id43">
+<h4>Objectif<a class="headerlink" href="#id43" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs d’accéder à des tableaux exploitables par leur agent utilisateur et restitués de manière compréhensible dans tous les cas.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées. Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id44">
+<h4>Mise en œuvre<a class="headerlink" href="#id44" title="Link to this heading">#</a></h4>
+<p>Utiliser systématiquement l’élément  <code class="docutils literal notranslate"><span class="pre">table</span></code>  et les éléments associés  <code class="docutils literal notranslate"><span class="pre">tr,</span> <span class="pre">td,</span> <span class="pre">th,</span> <span class="pre">caption</span></code>  pour baliser les tableaux de données, et non des images reproduisant le tableau.</p>
+</section>
+<section id="id45">
+<h4>Contrôle<a class="headerlink" href="#id45" title="Link to this heading">#</a></h4>
+<p>S’assurer qu’aucun tableau de données n’est géré sous forme d’image.</p>
+</section>
+</section>
+<section id="les-tableaux-de-donnees-ne-sont-pas-simules-a-l-aide-de-texte-mis-en-forme">
+<h3>240 - Les tableaux de données ne sont pas simulés à l’aide de texte mis en forme.<a class="headerlink" href="#les-tableaux-de-donnees-ne-sont-pas-simules-a-l-aide-de-texte-mis-en-forme" title="Link to this heading">#</a></h3>
+<section id="id46">
+<h4>Objectif<a class="headerlink" href="#id46" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs d’accéder à des tableaux exploitables par leur agent utilisateur et restitués de manière compréhensible dans tous les cas.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées. Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id47">
+<h4>Mise en œuvre<a class="headerlink" href="#id47" title="Link to this heading">#</a></h4>
+<p>Utiliser systématiquement l’élément  table  et les éléments associés  tr, td, th, caption , pour baliser les tableaux de données, et non des artifices reposant sur des accumulations d’espaces insécables ou de caractères graphiques tels que les pipes (lignes verticales « | »).</p>
+</section>
+<section id="id48">
+<h4>Contrôle<a class="headerlink" href="#id48" title="Link to this heading">#</a></h4>
+<p>Pour chaque contenu affiché sous forme de tableau de données (c’est-à-dire associant des cellules de données à des en-têtes de ligne ou de colonnes) :</p>
+<ul class="simple">
+<li><p>S’assurer que celui-ci est balisé avec les éléments HTML  tr  (ligne),  td  (cellule de données),  th  (en-tête de ligne ou de colonne) et  caption  (titre du tableau), par exemple à l’aide d’un outil de développement.</p></li>
+</ul>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -620,6 +1054,134 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> 
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regles">Règles</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-date-de-publication-ou-de-mise-a-jour-des-contenus-est-mise-a-disposition-sous-forme-programmatique">224 - La date de publication ou de mise à jour des contenus est mise à disposition sous forme programmatique.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#objectif">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-en-oeuvre">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#controle">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-code-source-de-chaque-page-contient-une-metadonnee-qui-definit-le-jeu-de-caracteres">225 - Le code source de chaque page contient une métadonnée qui définit le jeu de caractères.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-codage-de-caracteres-utilise-est-utf-8">226 - Le codage de caractères utilisé est UTF-8.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-contenu-de-chaque-page-est-organise-selon-une-structure-de-titres-et-sous-titres-hierarchisee">227 - Le contenu de chaque page est organisé selon une structure de titres et sous-titres hiérarchisée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-elements-visuellement-presentes-sous-forme-de-liste-sont-balises-de-facon-appropriee-dans-le-code-source">228 - Les éléments visuellement présentés sous forme de liste sont balisés de façon appropriée dans le code source.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chaque-identifiant-html-n-est-utilise-qu-une-seule-fois-par-page">229 - Chaque identifiant HTML n’est utilisé qu’une seule fois par page.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-ne-bloque-pas-la-copie-de-contenu">230 - Le site ne bloque pas la copie de contenu</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-ne-bloque-pas-l-acces-au-menu-contextuel">231 - Le site ne bloque pas l’accès au menu contextuel</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-n-impose-pas-de-redirection-ou-de-rafraichissement-automatique-cote-client">232 - Le site n’impose pas de redirection ou de rafraîchissement automatique côté client.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id23">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id24">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-texte-des-documents-pdf-internes-est-selectionnable">233 - Le texte des documents PDF internes est sélectionnable.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id25">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id26">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id27">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-documents-pdf-internes-sont-dotes-d-une-structure-de-titres">234 - Les documents PDF internes sont dotés d’une structure de titres.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id28">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id29">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id30">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-fils-de-syndication-sont-detectables-par-les-agents-utilisateurs">235 - Les fils de syndication sont détectables par les agents utilisateurs.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id31">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id32">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id33">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-cellules-des-tableaux-de-donnees-sont-reliees-a-leurs-en-tetes">236 - Les cellules des tableaux de données sont reliées à leurs en-têtes.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id34">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id35">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id36">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-titres-des-tableaux-de-donnees-sont-renseignes">237 - Les titres des tableaux de données sont renseignés.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id37">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id38">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id39">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-linearisation-des-tableaux-utilises-pour-la-mise-en-page-ne-nuit-pas-a-la-comprehension-des-contenus">238 - La linéarisation des tableaux utilisés pour la mise en page ne nuit pas à la compréhension des contenus.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id40">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id41">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id42">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-tableaux-de-donnees-ne-sont-pas-remplaces-par-des-images">239 - Les tableaux de données ne sont pas remplacés par des images.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id43">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id44">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id45">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-tableaux-de-donnees-ne-sont-pas-simules-a-l-aide-de-texte-mis-en-forme">240 - Les tableaux de données ne sont pas simulés à l’aide de texte mis en forme.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id46">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id47">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id48">Contrôle</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../../../_sources/content/Outils/Opquast/Structure-code.md">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
               
             
           </div>

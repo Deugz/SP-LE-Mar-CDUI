@@ -8,6 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <meta property="article:modified_time" content="2025-06-25T09:58:05+02:00" />
     <title>Navigation &#8212; Label Ecole V0 0.0.1 documentation</title>
   
   
@@ -85,6 +86,7 @@
     <link rel="prev" title="Liens" href="Liens.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+    <meta name="docbuild:last-update" content="25 June 2025"/>
   </head>
   
   
@@ -336,6 +338,10 @@ document.write(`
   
 
   
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
 </div>
 
     </header>
@@ -565,6 +571,456 @@ document.write(`
                   
   <section id="navigation">
 <h1>Navigation<a class="headerlink" href="#navigation" title="Link to this heading">#</a></h1>
+<section id="regles">
+<h2>Règles<a class="headerlink" href="#regles" title="Link to this heading">#</a></h2>
+<section id="si-le-site-n-est-pas-reserve-a-un-public-specifique-l-acces-aux-contenus-est-immediat">
+<h3>148 - Si le site n’est pas réservé à un public spécifique, l’accès aux contenus est immédiat.<a class="headerlink" href="#si-le-site-n-est-pas-reserve-a-un-public-specifique-l-acces-aux-contenus-est-immediat" title="Link to this heading">#</a></h3>
+<section id="objectif">
+<h4>Objectif<a class="headerlink" href="#objectif" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs de commencer immédiatement leur navigation sur la ressource qu’ils ont demandée.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="mise-en-oeuvre">
+<h4>Mise en œuvre<a class="headerlink" href="#mise-en-oeuvre" title="Link to this heading">#</a></h4>
+<p>Ne pas imposer d’élément différant l’accès au contenu sauf en cas de contenu réservé à un public spécifique.</p>
+</section>
+<section id="controle">
+<h4>Contrôle<a class="headerlink" href="#controle" title="Link to this heading">#</a></h4>
+<p>Dans le site examiné :</p>
+<ul class="simple">
+<li><p>Accéder successivement à la page d’accueil du site et à une page interne via une adresse directement saisie dans le navigateur ou depuis un site tiers ;</p></li>
+<li><p>Vérifier alors que l’accès au contenu est immédiat, sans avoir à « passer » au préalable un affichage temporaire d’avertissement (sauf en cas de contenu réservé à un public spécifique comme dans le cas d’un public majeur) ou bien un message à caractère publicitaire ou informatif.</p></li>
+</ul>
+</section>
+</section>
+<section id="la-navigation-sur-le-site-ne-provoque-pas-l-ouverture-de-popups">
+<h3>149 - La navigation sur le site ne provoque pas l’ouverture de popups.<a class="headerlink" href="#la-navigation-sur-le-site-ne-provoque-pas-l-ouverture-de-popups" title="Link to this heading">#</a></h3>
+<section id="id1">
+<h4>Objectif<a class="headerlink" href="#id1" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre à l’utilisateur de naviguer sur le site sans avoir d’opération spécifique à effectuer pendant la navigation.</p></li>
+<li><p>Éviter à des utilisateurs d’aides techniques d’être désorientés par l’ouverture d’une nouvelle fenêtre qui ne sera pas toujours aisément perceptible et qui perturbe notamment l’utilisation de l’historique de navigation ou qui masquera dans un lecteur d’écran la fenêtre principale.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+</ul>
+</section>
+<section id="id2">
+<h4>Mise en œuvre<a class="headerlink" href="#id2" title="Link to this heading">#</a></h4>
+<p>Ne pas utiliser d’ouverture automatique de fenêtres popup (événement d’ouverture de fenêtre lors du chargement d’une page) sur les pages internes du site.</p>
+</section>
+<section id="id3">
+<h4>Contrôle<a class="headerlink" href="#id3" title="Link to this heading">#</a></h4>
+<p>Cette bonne pratique est à vérifier manuellement à l’occasion de l’ensemble des autres tests, en prenant soin de désactiver toute éventuelle fonctionnalité de blocage des popups dans le navigateur utilisé.</p>
+<p>Dans toutes les pages internes du site :</p>
+<ul class="simple">
+<li><p>Vérifier que la navigation dans les pages internes du site ne déclenche pas l’ouverture automatique de nouvelles fenêtres.</p></li>
+</ul>
+</section>
+</section>
+<section id="il-est-possible-de-revenir-a-la-page-d-accueil-depuis-toutes-les-pages">
+<h3>150 - Il est possible de revenir à la page d’accueil depuis toutes les pages.<a class="headerlink" href="#il-est-possible-de-revenir-a-la-page-d-accueil-depuis-toutes-les-pages" title="Link to this heading">#</a></h3>
+<section id="id4">
+<h4>Objectif<a class="headerlink" href="#id4" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs de revenir en page d’accueil en cas de désorientation.</p></li>
+<li><p>Identifier le l ien principal permettant d’accéder au site.</p></li>
+</ul>
+</section>
+<section id="id5">
+<h4>Mise en œuvre<a class="headerlink" href="#id5" title="Link to this heading">#</a></h4>
+<p>Prévoir un lien vers la page d’accueil sur chaque page du site.</p>
+<p>Veiller à ce que ce lien soit de préférence toujours au même endroit (début du fil d’Ariane, menu de navigation, etc.).</p>
+<p>Le cas échéant, utiliser l’URL correspondant à l’adresse générique du site (URL du domaine) du type <code class="docutils literal notranslate"><span class="pre">http://exemple.com</span></code> plutôt que l’URL interne de la page, par exemple <code class="docutils literal notranslate"><span class="pre">http://exemple.com/V1/accueil.html</span></code>.</p>
+<p>Si un logo de site est présent dans les pages, il doit être cliquable et permettre de revenir vers l’accueil.</p>
+</section>
+<section id="id6">
+<h4>Contrôle<a class="headerlink" href="#id6" title="Link to this heading">#</a></h4>
+<p>Cette vérification gagne à être effectuée, si possible, à partir des templates et en tenant compte des éventuels services tiers susceptibles de produire des pages qui ne correspondraient pas à ces templates.</p>
+<p>Dans chacune des pages du site :</p>
+<ul class="simple">
+<li><p>Vérifier qu’il est possible de revenir directement à la page d’accueil depuis toutes les pages, à partir d’un lien explicite distinct de l’éventuel lien sur le logo principal.</p></li>
+</ul>
+</section>
+</section>
+<section id="chaque-page-affiche-une-information-permettant-de-connaitre-son-emplacement-dans-l-arborescence-du-site">
+<h3>151 - Chaque page affiche une information permettant de connaître son emplacement dans l’arborescence du site.<a class="headerlink" href="#chaque-page-affiche-une-information-permettant-de-connaitre-son-emplacement-dans-l-arborescence-du-site" title="Link to this heading">#</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Possibilité de faire quelque chose d’intéréssant avec le sitemap et une visualisation graphique</p>
+</div>
+<section id="id7">
+<h4>Objectif<a class="headerlink" href="#id7" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre à l’utilisateur de déterminer son emplacement dans le site.</p></li>
+<li><p>Simplifier le passage des moteurs de recherche.</p></li>
+<li><p>Faciliter la navigation dans l’arborescence des contenus.</p></li>
+</ul>
+</section>
+<section id="id8">
+<h4>Mise en œuvre<a class="headerlink" href="#id8" title="Link to this heading">#</a></h4>
+<p>Fournir un fil d’Ariane au début de la zone de contenu principal de la page.</p>
+</section>
+<section id="id9">
+<h4>Contrôle<a class="headerlink" href="#id9" title="Link to this heading">#</a></h4>
+<p>La vérification nécessite une inspection manuelle contrôlant la présence et la pertinence du fil d’Ariane sur les différentes pages ou, le cas échéant, dans les templates sous réserve de services tiers produisant un contenu spécifique.</p>
+<p>Dans les pages examinées ou les templates du site :</p>
+<ul class="simple">
+<li><p>Vérifier la présence systématique du fil d’Ariane sur toutes les pages, à l’exception éventuelle de la page d’accueil du site ;</p></li>
+<li><p>S’assurer que le fil d’Ariane est immédiatement identifiable grâce à une mise en forme prévisible par l’utilisateur.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-items-actifs-de-menu-sont-signales">
+<h3>152 - Les items actifs de menu sont signalés.<a class="headerlink" href="#les-items-actifs-de-menu-sont-signales" title="Link to this heading">#</a></h3>
+<section id="id10">
+<h4>Objectif<a class="headerlink" href="#id10" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Donner aux utilisateurs un moyen supplémentaire de se repérer dans l’architecture du site.</p></li>
+</ul>
+</section>
+<section id="id11">
+<h4>Mise en œuvre<a class="headerlink" href="#id11" title="Link to this heading">#</a></h4>
+<p>Différencier l’item actif de menu correspondant à la section ou la page en cours des autres lien du menu, au moins visuellement.</p>
+</section>
+<section id="id12">
+<h4>Contrôle<a class="headerlink" href="#id12" title="Link to this heading">#</a></h4>
+<p>Vérifier pour chaque menu de navigation que l’item actif de menu correspondant à la section ou la page affichée se différencie au moins visuellement des autres liens du menu.</p>
+</section>
+</section>
+<section id="les-blocs-de-navigation-de-meme-nature-sont-affiches-aux-memes-emplacements-sur-toutes-les-pages">
+<h3>153 - Les blocs de navigation de même nature sont affichés aux mêmes emplacements sur toutes les pages.<a class="headerlink" href="#les-blocs-de-navigation-de-meme-nature-sont-affiches-aux-memes-emplacements-sur-toutes-les-pages" title="Link to this heading">#</a></h3>
+<section id="id13">
+<h4>Objectif<a class="headerlink" href="#id13" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter l’apprentissage de la navigation sur l’interface.</p></li>
+<li><p>Faciliter le repérage de l’information.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id14">
+<h4>Mise en œuvre<a class="headerlink" href="#id14" title="Link to this heading">#</a></h4>
+<p>Conserver le même positionnement à l’écran des menus de navigation sur l’ensemble du site.</p>
+</section>
+<section id="id15">
+<h4>Contrôle<a class="headerlink" href="#id15" title="Link to this heading">#</a></h4>
+<p>Au fil des autres contrôles :</p>
+<ul class="simple">
+<li><p>Vérifier que les menus de navigation sont affichés au même endroit à l’écran.</p></li>
+</ul>
+<p>La vérification peut également être menée en amont du projet, lors de la conception des maquettes graphiques et en aval du projet lors de l’intégration finale pour vérifier l’absence d’une dégradation de cette bonne pratique due, par exemple, à la mise en place de services tiers.</p>
+</section>
+</section>
+<section id="les-icones-de-navigation-sont-accompagnees-d-une-legende-explicite">
+<h3>154 - Les icônes de navigation sont accompagnées d’une légende explicite.<a class="headerlink" href="#les-icones-de-navigation-sont-accompagnees-d-une-legende-explicite" title="Link to this heading">#</a></h3>
+<section id="id16">
+<h4>Objectif<a class="headerlink" href="#id16" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Limiter le temps d’apprentissage de l’interface.</p></li>
+<li><p>Faciliter la compréhension des icônes.</p></li>
+<li><p>Limiter le risque d’erreurs.</p></li>
+</ul>
+</section>
+<section id="id17">
+<h4>Mise en œuvre<a class="headerlink" href="#id17" title="Link to this heading">#</a></h4>
+<p>La nature de la cible de chaque icône-lien lorsqu’elle n’est pas accompagnée d’un contenu textuel est précisée par l’attribut  <code class="docutils literal notranslate"><span class="pre">alt</span></code>  de l’image et par l’attribut  <code class="docutils literal notranslate"><span class="pre">title</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">aria-label</span></code>  du lien.</p>
+<p>En savoir plus: <a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/img" rel="noreferrer" target="_blank"> : l’élément d’image embarquée</a></p>
+</section>
+<section id="id18">
+<h4>Contrôle<a class="headerlink" href="#id18" title="Link to this heading">#</a></h4>
+<p>Vérifier que chaque icône de navigation ou d’action sans contenu textuel associé est dotée :</p>
+<ul class="simple">
+<li><p>D’un attribut  <code class="docutils literal notranslate"><span class="pre">alt</span></code>  pertinent pour l’élément  <code class="docutils literal notranslate"><span class="pre">img</span></code>  ;</p></li>
+</ul>
+<p>D’un attribut  <code class="docutils literal notranslate"><span class="pre">title</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">aria-label</span></code>  pertinent pour l’élément  <code class="docutils literal notranslate"><span class="pre">a</span></code> ,  <code class="docutils literal notranslate"><span class="pre">button</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">input</span></code>  ;</p>
+</section>
+</section>
+<section id="les-mecanismes-de-fermeture-de-fenetres-sont-visuellement-rattachees-a-leur-contenu">
+<h3>155 - Les mécanismes de fermeture de fenêtres sont visuellement rattachées à leur contenu.<a class="headerlink" href="#les-mecanismes-de-fermeture-de-fenetres-sont-visuellement-rattachees-a-leur-contenu" title="Link to this heading">#</a></h3>
+<section id="id19">
+<h4>Objectif<a class="headerlink" href="#id19" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Limiter le temps d’apprentissage de l’interface.</p></li>
+<li><p>Accélérer l’accès aux contenus.</p></li>
+<li><p>Faciliter la navigation.</p></li>
+</ul>
+</section>
+<section id="id20">
+<h4>Mise en œuvre<a class="headerlink" href="#id20" title="Link to this heading">#</a></h4>
+<p>Positionner chaque bouton de fermeture de fenêtre modale ou similaire dans le bloc visuel de celle-ci (généralement dans le coin supérieur droit) ou de manière contiguë.</p>
+</section>
+<section id="id21">
+<h4>Contrôle<a class="headerlink" href="#id21" title="Link to this heading">#</a></h4>
+<p>Vérifier que chaque bouton de fermeture de fenêtre est placé dans le bloc concerné ou contigu.</p>
+</section>
+</section>
+<section id="les-mecanismes-de-fermetures-de-fenetres-sont-immediatement-disponibles">
+<h3>156 - Les mécanismes de fermetures de fenêtres sont immédiatement disponibles.<a class="headerlink" href="#les-mecanismes-de-fermetures-de-fenetres-sont-immediatement-disponibles" title="Link to this heading">#</a></h3>
+<section id="id22">
+<h4>Objectif<a class="headerlink" href="#id22" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Limiter le temps d’apprentissage de l’interface.</p></li>
+<li><p>Accélérer l’accès aux contenus.</p></li>
+<li><p>Réduire le taux de rebond.</p></li>
+</ul>
+</section>
+<section id="id23">
+<h4>Mise en œuvre<a class="headerlink" href="#id23" title="Link to this heading">#</a></h4>
+<p>Éviter tout contenu temporaire de type publicité qui retarde l’accès à la possibilité de fermer une fenêtre modale ou similaire.</p>
+</section>
+<section id="id24">
+<h4>Contrôle<a class="headerlink" href="#id24" title="Link to this heading">#</a></h4>
+<p>S’assurer que chaque fenêtre modale ou similaire peut être fermée dès son affichage.</p>
+</section>
+</section>
+<section id="les-nouvelles-fenetres-dimensionnees-et-les-fenetres-modales-sont-dotees-d-un-bouton-de-fermeture-explicite">
+<h3>157 - Les nouvelles fenêtres dimensionnées et les fenêtres modales sont dotées d’un bouton de fermeture explicite.<a class="headerlink" href="#les-nouvelles-fenetres-dimensionnees-et-les-fenetres-modales-sont-dotees-d-un-bouton-de-fermeture-explicite" title="Link to this heading">#</a></h3>
+<section id="id25">
+<h4>Objectif<a class="headerlink" href="#id25" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Donner aux utilisateurs des indications explicites pour fermer une fenêtre ou une boîte modale.</p></li>
+<li><p>Accélérer l’accès aux contenus.</p></li>
+</ul>
+</section>
+<section id="id26">
+<h4>Mise en œuvre<a class="headerlink" href="#id26" title="Link to this heading">#</a></h4>
+<p>Placer, dans chaque fenêtre dimensionnée ou modale, un bouton ou un lien avec un libellé explicite pour la fermeture et associer ce bouton à une action de fermeture.</p>
+</section>
+<section id="id27">
+<h4>Contrôle<a class="headerlink" href="#id27" title="Link to this heading">#</a></h4>
+<p>Pour chaque fenêtre « réelle » (popup dimensionnée) ou chaque fenêtre simulée affichée en surimpression du contenu (fenêtre modale), et ce, quelle que soit la technologie utilisée :</p>
+<ul class="simple">
+<li><p>Vérifier que le corps des fenêtres dimensionnées et des fenêtres modales contient un bouton ou un lien permettant de les fermer ;</p></li>
+<li><p>Vérifier que le libellé du bouton ou du lien de fermeture est explicite.</p></li>
+</ul>
+<p>Les fenêtres dont la fermeture ne se fait qu’implicitement, par exemple via la touche d’échappement, invalident cette bonne pratique.</p>
+</section>
+</section>
+<section id="les-mecanismes-de-fermetures-de-fenetres-sont-affiches-aux-memes-emplacements-sur-toutes-les-pages">
+<h3>158 - Les mécanismes de fermetures de fenêtres sont affichés aux mêmes emplacements sur toutes les pages.<a class="headerlink" href="#les-mecanismes-de-fermetures-de-fenetres-sont-affiches-aux-memes-emplacements-sur-toutes-les-pages" title="Link to this heading">#</a></h3>
+<section id="id28">
+<h4>Objectif<a class="headerlink" href="#id28" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Limiter le temps d’apprentissage de l’interface.</p></li>
+<li><p>Accélérer l’accès aux contenus.</p></li>
+<li><p>Faciliter la navigation.</p></li>
+</ul>
+</section>
+<section id="id29">
+<h4>Mise en œuvre<a class="headerlink" href="#id29" title="Link to this heading">#</a></h4>
+<p>Opter pour un positionnement systématique des boutons de fermeture dans un même emplacement, pour toutes les fenêtres modales et similaires (par exemple, en haut à droite de la fenêtre).</p>
+</section>
+<section id="id30">
+<h4>Contrôle<a class="headerlink" href="#id30" title="Link to this heading">#</a></h4>
+<p>S’assurer visuellement que l’emplacement de tous les boutons de fermeture est identique à travers le site.</p>
+</section>
+</section>
+<section id="chaque-page-contient-des-liens-d-acces-rapide-places-au-debut-du-code-source">
+<h3>159 - Chaque page contient des liens d’accès rapide placés au début du code source.<a class="headerlink" href="#chaque-page-contient-des-liens-d-acces-rapide-places-au-debut-du-code-source" title="Link to this heading">#</a></h3>
+<section id="id31">
+<h4>Objectif<a class="headerlink" href="#id31" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs qui consultent les pages de manière linéaire (mode vocal) ou semi-linéaire (écran de faible largeur) de ne pas avoir à défiler l’ensemble des éléments sur chaque page pour accéder aux contenus.</p></li>
+<li><p>Fournir des raccourcis accélérant la navigation au clavier et évitant des actions au clavier répétées pour parcourir la page et atteindre la zone souhaitée.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id32">
+<h4>Mise en œuvre<a class="headerlink" href="#id32" title="Link to this heading">#</a></h4>
+<p>Fournir en début de code HTML, avant tout autre lien ou formulaire présent dans la page, les liens visant des ancres correspondantes :</p>
+<ul class="simple">
+<li><p>Vers le menu principal si celui-ci n’est pas immédiatement placé après l’en-tête de page ;</p></li>
+<li><p>Vers le contenu principal si celui-ci n’est pas immédiatement placé après l’en-tête de page ;</p></li>
+<li><p>Vers le formulaire du moteur de recherche si celui-ci n’est pas immédiatement placé après l’en-tête de page.</p></li>
+</ul>
+<p>Le cas échéant, ce menu d’accès rapide peut être masqué au chargement de la page et s’afficher lors de la première tabulation entrant dans celle-ci (via Javascript ou CSS).</p>
+</section>
+<section id="id33">
+<h4>Contrôle<a class="headerlink" href="#id33" title="Link to this heading">#</a></h4>
+<p>Cette bonne pratique gagne à être vérifiée en association avec l’ensemble des bonnes pratiques concernant la navigation au clavier puisque si ces liens d’accès rapide sont présents, ils doivent au minimum apparaître dès la première tabulation dans la page.</p>
+<p>Lors de la navigation dans le site ou de l’inspection des templates (sous réserve de tenir compte des pages dépendants de services tiers) :</p>
+<ul class="simple">
+<li><p>Vérifier la présence des liens d’accès rapide au menu, au contenu et à la recherche selon l’organisation de la page ;</p></li>
+<li><p>Vérifier qu’ils sont bien placés dans le code de manière à apparaître dès la première tabulation dans la page ;</p></li>
+<li><p>Vérifier qu’en cas de masquage par défaut, ils sont affichés lisiblement lors de la première tabulation, à un emplacement prévisible par l’utilisateur ;</p></li>
+<li><p>Vérifier que leur fonctionnement est effectif, c’est-à-dire qu’ils permettent d’accéder au menu ou à la zone de contenu et d’y poursuivre immédiatement la navigation au clavier, ou au champ de saisie du formulaire de recherche et de procéder à la saisie.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-focus-clavier-n-est-ni-supprime-ni-masque">
+<h3>160 - Le focus clavier n’est ni supprimé ni masqué.<a class="headerlink" href="#le-focus-clavier-n-est-ni-supprime-ni-masque" title="Link to this heading">#</a></h3>
+<section id="id34">
+<h4>Objectif<a class="headerlink" href="#id34" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre la navigation au clavier ou via des périphériques d’entrées ou des dispositifs qui ne reposent pas sur la souris.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+</ul>
+</section>
+<section id="id35">
+<h4>Mise en œuvre<a class="headerlink" href="#id35" title="Link to this heading">#</a></h4>
+<p>Veiller à ne pas masquer ou supprimer l’effet visuel de prise de focus qui indique quel est l’élément atteint lors de la navigation au clavier. En particulier, ne pas annuler la valeur par défaut de la propriété CSS  <code class="docutils literal notranslate"><span class="pre">outline</span></code>  sans la remplacer par une autre valeur personnalisée ou un effet visuel suffisamment perceptible.</p>
+<p>Ne pas supprimer via Javascript la prise de focus clavier (exploitation de l’événement  <code class="docutils literal notranslate"><span class="pre">onblur</span></code> ).</p>
+</section>
+<section id="id36">
+<h4>Contrôle<a class="headerlink" href="#id36" title="Link to this heading">#</a></h4>
+<p>Ce contrôle s’effectue sur l’ensemble des éléments interactifs, prioritairement à l’aide de la touche tabulation et, dans l’interface de certains widgets, à l’aide de touches de déplacement spécifiques (touches flèches).</p>
+<p>Pour chaque élément interactif contenu dans les pages examinées :</p>
+<p>Vérifier que l’indication visuelle du focus par défaut du navigateur est au moins présente ou qu’une indication visuelle spécifique a été aménagée.</p>
+</section>
+</section>
+<section id="le-site-est-integralement-utilisable-au-clavier">
+<h3>161 - Le site est intégralement utilisable au clavier.<a class="headerlink" href="#le-site-est-integralement-utilisable-au-clavier" title="Link to this heading">#</a></h3>
+<section id="id37">
+<h4>Objectif<a class="headerlink" href="#id37" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre la navigation au clavier pour les utilisateurs ayant une préférence pour cette pratique.</p></li>
+<li><p>Permettre la consultation des contenus et l’utilisation des services indépendamment du périphérique d’entrée.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+</ul>
+</section>
+<section id="id38">
+<h4>Mise en œuvre<a class="headerlink" href="#id38" title="Link to this heading">#</a></h4>
+<p>Recourir à des gestionnaires d’événements universels en cas d’interaction basée sur Javascript (par exemple,  <code class="docutils literal notranslate"><span class="pre">onclick</span></code>  pour un lien  <code class="docutils literal notranslate"><span class="pre">a</span></code>  ou pour un champ ou contrôle de formulaire) ou, à défaut, compléter les gestionnaires d’événements non universels ( <code class="docutils literal notranslate"><span class="pre">onmouseover</span></code>  par exemple) par un second gestionnaire permettant l’accès clavier ( <code class="docutils literal notranslate"><span class="pre">onfocus</span></code>  par exemple) ou encore fournir un moyen d’accès alternatif.</p>
+</section>
+<section id="id39">
+<h4>Contrôle<a class="headerlink" href="#id39" title="Link to this heading">#</a></h4>
+<p>Cette vérification s’applique à l’ensemble des éléments interactifs : hyperliens, boutons, champs de formulaires, widgets Javascript, etc. Le mode d’interaction par défaut est la touche tabulation pour atteindre les liens, les champs et les contrôles, puis la touche entrée pour les activer. Dans certains widgets, un mode d’interaction spécifique peut être présent : barre d’espace pour valider, touches flèches pour se déplacer, touche d’échappement pour fermer ou sortir. Autant que possible dans ce cas, ces touches spécifiques devraient être indiquées à l’utilisateur.</p>
+<p>Au sein de chaque page examinée :</p>
+<ul class="simple">
+<li><p>Vérifier que l’ensemble des interactions, liens, boutons, champs de formulaires, présents dans les pages sont utilisables au clavier, à l’exception de ceux pour lesquels cela n’aurait pas de sens, comme une fonctionnalité de tracé à la souris.</p></li>
+</ul>
+</section>
+</section>
+<section id="la-navigation-au-clavier-s-effectue-dans-un-ordre-previsible">
+<h3>162 - La navigation au clavier s’effectue dans un ordre prévisible.<a class="headerlink" href="#la-navigation-au-clavier-s-effectue-dans-un-ordre-previsible" title="Link to this heading">#</a></h3>
+<section id="id40">
+<h4>Objectif<a class="headerlink" href="#id40" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter la navigation au clavier.</p></li>
+<li><p>Permettre aux utilisateurs de clavier de se doter de repères de navigation.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id41">
+<h4>Mise en œuvre<a class="headerlink" href="#id41" title="Link to this heading">#</a></h4>
+<p>Organiser les contenus dans l’ordre linéaire du code HTML de manière à regrouper et ordonner logiquement les liens et les contrôles de formulaires qui apparaissent les uns à la suite des autres à l’affichage et ordonner logiquement les principaux blocs de navigation et de contenu composant la page.</p>
+<p>Le cas échéant, et en dernier ressort, recourir à l’attribut HTML  tabindex  pour créer un ordre de navigation au clavier spécifique, différent de l’ordre par défaut issu de l’organisation des liens et des contrôles de formulaires dans le code.</p>
+<p>Gérer spécifiquement l’ordre de navigation au clavier en cas de fenêtre modale ou de widget.</p>
+</section>
+<section id="id42">
+<h4>Contrôle<a class="headerlink" href="#id42" title="Link to this heading">#</a></h4>
+<p>Ce contrôle s’effectue sur l’ensemble des éléments interactifs, prioritairement à l’aide de la touche tabulation et, dans l’interface de certains widgets, à l’aide de touches de déplacement spécifiques (touches flèches) :</p>
+<ul class="simple">
+<li><p>Naviguer au clavier puis vérifier que l’ordre de passage d’un élément à un autre est identique entre les différentes pages ;</p></li>
+<li><p>Vérifier que l’ordre de passage est adapté au contenu concerné. Par exemple, la navigation clavier dans une pseudo-popup javascript commence par son bouton de fermeture</p></li>
+<li><p>Contrôler que l’ordre est prévisible par l’utilisateur : sauf exceptions, cet ordre doit être aussi proche que possible de l’ordre de lecture, par exemple haut-bas et gauche-droite pour les écritures lisibles de gauche à droite.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-site-propose-un-moteur-de-recherche-interne">
+<h3>163 - Le site propose un moteur de recherche interne.<a class="headerlink" href="#le-site-propose-un-moteur-de-recherche-interne" title="Link to this heading">#</a></h3>
+<section id="id43">
+<h4>Objectif<a class="headerlink" href="#id43" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Fournir aux utilisateurs une solution de navigation alternative et d’accès rapide aux contenus liés à des mots-clés retenus par ceux-ci.</p></li>
+<li><p>Diminuer l’impact énergétique lié à la consultation du site.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+</ul>
+</section>
+<section id="id44">
+<h4>Mise en œuvre<a class="headerlink" href="#id44" title="Link to this heading">#</a></h4>
+<p>Proposer un formulaire et une fonctionnalité de recherche simple, qu’il s’agisse d’une solution interne ou de l’incorporation d’une solution externe.</p>
+</section>
+<section id="id45">
+<h4>Contrôle<a class="headerlink" href="#id45" title="Link to this heading">#</a></h4>
+<p>Dans toutes les pages évaluées ou bien en contrôlant les templates du site (sous réserve de tenir compte de pages dépendant de solutions tierces) :</p>
+<ul class="simple">
+<li><p>Vérifier manuellement la présence systématique d’un moteur de recherche.</p></li>
+</ul>
+</section>
+</section>
+<section id="chaque-page-de-resultats-de-recherche-peut-etre-atteint-via-une-adresse-web">
+<h3>164 - Chaque page de résultats de recherche peut être atteint via une adresse Web.<a class="headerlink" href="#chaque-page-de-resultats-de-recherche-peut-etre-atteint-via-une-adresse-web" title="Link to this heading">#</a></h3>
+<section id="id46">
+<h4>Objectif<a class="headerlink" href="#id46" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre à l’utilisateur de partager ou de conserver dans ses signets un résultat de recherche.</p></li>
+<li><p>Diminuer l’impact énergétique lié à la consultation du site.</p></li>
+</ul>
+</section>
+<section id="id47">
+<h4>Mise en œuvre<a class="headerlink" href="#id47" title="Link to this heading">#</a></h4>
+<p>Gérer les requêtes du formulaire de recherche en utilisant la méthode GET.</p>
+</section>
+<section id="id48">
+<h4>Contrôle<a class="headerlink" href="#id48" title="Link to this heading">#</a></h4>
+<p>Faire une recherche et contrôler que l’Url de la page de résultats permet d’accéder à ceux-ci.</p>
+</section>
+</section>
+<section id="il-est-possible-de-relancer-une-recherche-depuis-sa-page-de-resultats">
+<h3>165 - Il est possible de relancer une recherche depuis sa page de résultats.<a class="headerlink" href="#il-est-possible-de-relancer-une-recherche-depuis-sa-page-de-resultats" title="Link to this heading">#</a></h3>
+<section id="id49">
+<h4>Objectif<a class="headerlink" href="#id49" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Améliorer et accélérer les opérations de recherche par les utilisateurs en évitant les retours à la page de recherche initiale.</p></li>
+</ul>
+</section>
+<section id="id50">
+<h4>Mise en œuvre<a class="headerlink" href="#id50" title="Link to this heading">#</a></h4>
+<p>Dans chaque page de résultat de recherche, afficher le formulaire de recherche avec la saisie précédente de l’utilisateur, de manière à ce qu’il puisse modifier celle-ci et valider immédiatement une nouvelle recherche.</p>
+</section>
+<section id="id51">
+<h4>Contrôle<a class="headerlink" href="#id51" title="Link to this heading">#</a></h4>
+<p>Vérifier, pour chaque page de résultat de recherche, que l’utilisateur peut valider immédiatement une nouvelle recherche à l’aide du formulaire de recherche pré-rempli avec sa saisie précédente, modifiable.</p>
+</section>
+</section>
+<section id="un-plan-du-site-est-disponible-depuis-chaque-page">
+<h3>166 - Un plan du site est disponible depuis chaque page.<a class="headerlink" href="#un-plan-du-site-est-disponible-depuis-chaque-page" title="Link to this heading">#</a></h3>
+<section id="id52">
+<h4>Objectif<a class="headerlink" href="#id52" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Fournir aux utilisateurs une solution en cas de désorientation, pour naviguer et se repérer dans le site, pour visualiser l’ensemble des contenus et la taille du site.</p></li>
+<li><p>Inciter les responsables du contenu à représenter graphiquement et à rationaliser leur contenu.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id53">
+<h4>Mise en œuvre<a class="headerlink" href="#id53" title="Link to this heading">#</a></h4>
+<p>Créer un plan de site qui donne accès, directement ou indirectement, à la totalité des pages du site sous la forme d’une liste de liens textuels explicites.</p>
+<p>Structurer cette liste de manière à refléter l’organisation des rubriques du site, à l’aide d’éléments de titre et d’éléments de liste imbriqués.</p>
+<p>La profondeur de l’arborescence à représenter varie en fonction des contenus, mais elle est en général limitée aux trois premiers niveaux. Les pages satellites telles que la page Contact et les mentions légales doivent figurer dans le plan de site.</p>
+</section>
+<section id="id54">
+<h4>Contrôle<a class="headerlink" href="#id54" title="Link to this heading">#</a></h4>
+<p>Cette vérification gagne à être effectuée si possible à partir des templates, en tenant compte des éventuels services tiers. Dans le site :</p>
+<ul class="simple">
+<li><p>Vérifier la présence d’une page de plan de site ;</p></li>
+<li><p>Contrôler qu’un lien vers celui-ci est disponible dans chaque page du site.</p></li>
+</ul>
+<p>L’emplacement du lien vers le plan de site est indifférent (en-tête, menu, pied de page) mais il est préférable qu’il soit constant sur l’ensemble du site. La présence du lien « plan de site » est particulièrement pertinente dans les pages 404 et 403.</p>
+</section>
+</section>
+<section id="les-limites-de-temps-imposees-a-une-action-ou-un-acces-sont-indiquees">
+<h3>167 - Les limites de temps imposées à une action ou un accès sont indiquées.<a class="headerlink" href="#les-limites-de-temps-imposees-a-une-action-ou-un-acces-sont-indiquees" title="Link to this heading">#</a></h3>
+<section id="id55">
+<h4>Objectif<a class="headerlink" href="#id55" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Avertir des utilisateurs ayant des contraintes spécifiques de manipulation ou de temps.</p></li>
+<li><p>Éviter les pertes de données et de temps pour l’utilisateur.</p></li>
+<li><p>Prévenir les échecs de commande.</p></li>
+</ul>
+</section>
+<section id="id56">
+<h4>Mise en œuvre<a class="headerlink" href="#id56" title="Link to this heading">#</a></h4>
+<p>Pour toute action que l’utilisateur doit exécuter dans une limite de temps imposée, ou toute action ou information mises à disposition pendant un temps limité, informer l’utilisateur de cette limite et de sa durée, avant le déclenchement de l’action ou la mise à disposition.</p>
+</section>
+<section id="id57">
+<h4>Contrôle<a class="headerlink" href="#id57" title="Link to this heading">#</a></h4>
+<p>Pour toute action que l’utilisateur doit exécuter dans une limite de temps imposée, ou toute action ou information mises à disposition pendant un temps limité, vérifier que l’utilisateur est informé de cette limite et de sa durée,  avant le déclenchement de l’action ou la mise à disposition.</p>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -620,6 +1076,152 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> 
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regles">Règles</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#si-le-site-n-est-pas-reserve-a-un-public-specifique-l-acces-aux-contenus-est-immediat">148 - Si le site n’est pas réservé à un public spécifique, l’accès aux contenus est immédiat.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#objectif">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-en-oeuvre">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#controle">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-navigation-sur-le-site-ne-provoque-pas-l-ouverture-de-popups">149 - La navigation sur le site ne provoque pas l’ouverture de popups.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#il-est-possible-de-revenir-a-la-page-d-accueil-depuis-toutes-les-pages">150 - Il est possible de revenir à la page d’accueil depuis toutes les pages.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chaque-page-affiche-une-information-permettant-de-connaitre-son-emplacement-dans-l-arborescence-du-site">151 - Chaque page affiche une information permettant de connaître son emplacement dans l’arborescence du site.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-items-actifs-de-menu-sont-signales">152 - Les items actifs de menu sont signalés.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-blocs-de-navigation-de-meme-nature-sont-affiches-aux-memes-emplacements-sur-toutes-les-pages">153 - Les blocs de navigation de même nature sont affichés aux mêmes emplacements sur toutes les pages.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-icones-de-navigation-sont-accompagnees-d-une-legende-explicite">154 - Les icônes de navigation sont accompagnées d’une légende explicite.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-mecanismes-de-fermeture-de-fenetres-sont-visuellement-rattachees-a-leur-contenu">155 - Les mécanismes de fermeture de fenêtres sont visuellement rattachées à leur contenu.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-mecanismes-de-fermetures-de-fenetres-sont-immediatement-disponibles">156 - Les mécanismes de fermetures de fenêtres sont immédiatement disponibles.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id23">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id24">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-nouvelles-fenetres-dimensionnees-et-les-fenetres-modales-sont-dotees-d-un-bouton-de-fermeture-explicite">157 - Les nouvelles fenêtres dimensionnées et les fenêtres modales sont dotées d’un bouton de fermeture explicite.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id25">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id26">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id27">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-mecanismes-de-fermetures-de-fenetres-sont-affiches-aux-memes-emplacements-sur-toutes-les-pages">158 - Les mécanismes de fermetures de fenêtres sont affichés aux mêmes emplacements sur toutes les pages.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id28">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id29">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id30">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chaque-page-contient-des-liens-d-acces-rapide-places-au-debut-du-code-source">159 - Chaque page contient des liens d’accès rapide placés au début du code source.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id31">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id32">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id33">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-focus-clavier-n-est-ni-supprime-ni-masque">160 - Le focus clavier n’est ni supprimé ni masqué.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id34">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id35">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id36">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-est-integralement-utilisable-au-clavier">161 - Le site est intégralement utilisable au clavier.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id37">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id38">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id39">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-navigation-au-clavier-s-effectue-dans-un-ordre-previsible">162 - La navigation au clavier s’effectue dans un ordre prévisible.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id40">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id41">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id42">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-propose-un-moteur-de-recherche-interne">163 - Le site propose un moteur de recherche interne.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id43">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id44">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id45">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chaque-page-de-resultats-de-recherche-peut-etre-atteint-via-une-adresse-web">164 - Chaque page de résultats de recherche peut être atteint via une adresse Web.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id46">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id47">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id48">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#il-est-possible-de-relancer-une-recherche-depuis-sa-page-de-resultats">165 - Il est possible de relancer une recherche depuis sa page de résultats.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id49">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id50">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id51">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#un-plan-du-site-est-disponible-depuis-chaque-page">166 - Un plan du site est disponible depuis chaque page.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id52">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id53">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id54">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-limites-de-temps-imposees-a-une-action-ou-un-acces-sont-indiquees">167 - Les limites de temps imposées à une action ou un accès sont indiquées.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id55">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id56">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id57">Contrôle</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../../../_sources/content/Outils/Opquast/Navigation.md">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
               
             
           </div>

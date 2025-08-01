@@ -77,6 +77,10 @@ Un outil IA qui permet de faire tout un tas de trucs en lien avec les images (sp
 
 ```
 
+### Google video
+
+- [VEO3](https://gemini.google/overview/video-generation/?hl=fr&utm_source=substack&utm_medium=email)
+
 ### Remove.photos
 
 - [remove.photos](https://remove.photos/)
@@ -152,5 +156,9 @@ Outil pour changer la tonalité de différentes music
 Plutot pour un usage récréatif de type karaoké. 
 
 ```
+
+### Infography
+
+- [app.infography.in](https://app.infography.in/login)
 
 ## Synthèse

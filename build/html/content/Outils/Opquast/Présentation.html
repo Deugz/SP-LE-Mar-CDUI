@@ -8,6 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <meta property="article:modified_time" content="2025-06-25T09:58:05+02:00" />
     <title>Présentation &#8212; Label Ecole V0 0.0.1 documentation</title>
   
   
@@ -85,6 +86,7 @@
     <link rel="prev" title="Newsletter" href="Newsletter.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+    <meta name="docbuild:last-update" content="25 June 2025"/>
   </head>
   
   
@@ -336,6 +338,10 @@ document.write(`
   
 
   
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
 </div>
 
     </header>
@@ -565,6 +571,444 @@ document.write(`
                   
   <section id="presentation">
 <h1>Présentation<a class="headerlink" href="#presentation" title="Link to this heading">#</a></h1>
+<section id="regles">
+<h2>Règles<a class="headerlink" href="#regles" title="Link to this heading">#</a></h2>
+<section id="la-charte-graphique-est-coherente-sur-l-ensemble-du-site">
+<h3>175 - La charte graphique est cohérente sur l’ensemble du site.<a class="headerlink" href="#la-charte-graphique-est-coherente-sur-l-ensemble-du-site" title="Link to this heading">#</a></h3>
+<section id="objectif">
+<h4>Objectif<a class="headerlink" href="#objectif" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre une homogénéité et une continuité dans la visite et la navigation.</p></li>
+<li><p>Permettre une identification permanente du service en ligne visité.</p></li>
+</ul>
+</section>
+<section id="mise-en-oeuvre">
+<h4>Mise en œuvre<a class="headerlink" href="#mise-en-oeuvre" title="Link to this heading">#</a></h4>
+<p>Utiliser des feuilles de styles communes à tout le site, ce qui par rebond améliore la cohérence globale de tout le site.</p>
+</section>
+<section id="controle">
+<h4>Contrôle<a class="headerlink" href="#controle" title="Link to this heading">#</a></h4>
+<p>Au fil des contrôles de bonnes pratiques :</p>
+<ul class="simple">
+<li><p>S’assurer que le site utilise des éléments graphiques communs à toutes les pages, en portant notamment une attention particulière à la présence et à l’emplacement des menus de navigation, à la couleur des sections du site, à la largeur des pages et à la cohérence de la charte graphique globale utilisée pour les titres et pour les textes.</p></li>
+</ul>
+<p>La vérification peut également être menée en amont du projet, lors de la conception des maquettes graphiques, ou en aval du projet lors de l’intégration finale pour vérifier l’absence d’une dégradation de cette homogénéité graphique due, par exemple, à la mise en place de services tiers.</p>
+</section>
+</section>
+<section id="l-information-n-est-pas-vehiculee-uniquement-par-la-couleur">
+<h3>176 - L’information n’est pas véhiculée uniquement par la couleur.<a class="headerlink" href="#l-information-n-est-pas-vehiculee-uniquement-par-la-couleur" title="Link to this heading">#</a></h3>
+<section id="id1">
+<h4>Objectif<a class="headerlink" href="#id1" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre l’accès à l’information pour les utilisateurs dont le navigateur, la plate-forme, l’aide technique ou encore le handicap (comme le daltonisme) ne permettent pas de visualiser ou de différencier les couleurs.</p></li>
+<li><p>Rendre l’information accessible aux robots d’indexation.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id2">
+<h4>Mise en œuvre<a class="headerlink" href="#id2" title="Link to this heading">#</a></h4>
+<p>Fournir un complément à la couleur pour véhiculer l’information qu’elle porte. Ce complément, indépendant de la couche de mise en forme CSS, peut être de plusieurs ordres :</p>
+<ul class="simple">
+<li><p>prévoir un balisage sémantique (strong, em, etc.) ;</p></li>
+<li><p>ajouter des mentions textuelles (astérisque signalant un champ obligatoire) ;</p></li>
+<li><p>ajouter des hachures, motifs, bordures, etc. dans les cartes et les graphiques.</p></li>
+</ul>
+</section>
+<section id="id3">
+<h4>Contrôle<a class="headerlink" href="#id3" title="Link to this heading">#</a></h4>
+<p>La vérification nécessite de comparer visuellement deux versions de la page : la version normale et une version où les couleurs seront désactivées. Elle est donc plus aisée à mener avec un double écran. Pour chaque page examinée :</p>
+<ul class="simple">
+<li><p>Désactiver le support de la couleur via votre barre d’outils de test puis passer les images en niveau de gris.</p></li>
+<li><p>Vérifier par comparaison si la version sans couleurs présente des pertes d’information. Ce sera par exemple le cas dans un menu de navigation où la rubrique en cours ne se différencie que par sa couleur, ou encore dans une carte dont les zones sont de simples aplats de couleur sans bordure ni motifs.</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>l’information peut parfois être présente indépendamment de la couleur dans un attribut title, provoquant l’apparition d’une infobulle au survol du contenu. L’accès à l’infobulle depuis le clavier n’étant à ce jour pas possible par défaut dans tous les navigateurs, cette solution doit être écartée.</p>
+</div>
+</section>
+</section>
+<section id="les-contenus-sont-presentes-avec-un-contraste-suffisant-par-rapport-a-leur-arriere-plan">
+<h3>177 - Les contenus sont présentés avec un contraste suffisant par rapport à leur arrière-plan.<a class="headerlink" href="#les-contenus-sont-presentes-avec-un-contraste-suffisant-par-rapport-a-leur-arriere-plan" title="Link to this heading">#</a></h3>
+</section>
+<section id="id4">
+<h3>Objectif<a class="headerlink" href="#id4" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>Permettre une bonne lisibilité des contenus.</p></li>
+<li><p>Limiter la charge mentale lors de la consultation.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+<section id="id5">
+<h4>Mise en œuvre<a class="headerlink" href="#id5" title="Link to this heading">#</a></h4>
+<p>Veiller à conserver un ratio de contraste minimal de 3:1 entre le texte et son arrière-plan, tel qu’il peut être mesuré via l’algorithme WCAG2.0.</p>
+</section>
+<section id="id6">
+<h4>Contrôle<a class="headerlink" href="#id6" title="Link to this heading">#</a></h4>
+<p>Dans l’ensemble des pages :</p>
+<ul class="simple">
+<li><p>Repérer les contenus dont la différence de contraste/luminosité avec leur arrière-plan est potentiellement insuffisante</p></li>
+<li><p>Utiliser un outil du type Colour Contrast Analyzer pour calculer le ratio de contraste : cliquer sur Luminosité et relever la couleur du premier plan puis celle du second plan dans les champs dédiés ;</p></li>
+<li><p>Vérifier que le ratio de contraste relevé est supérieur ou égal à 3:1</p></li>
+</ul>
+<p>Dans le cas de textes placés sur un arrière-plan en dégradé, en motif ou photographique, la mesure de couleur de l’arrière-plan est prise au point le plus défavorable jouxtant le texte (pour un texte noir, le pixel le plus sombre). Il est conseillé de tenir également compte de l’agrandissement éventuel de la taille de caractère par l’utilisateur (Zoom texte seulement), qui peut entraîner un changement dans la superposition texte/arrière-plan.</p>
+</section>
+</section>
+<section id="le-contenu-et-le-sens-de-chaque-page-ne-sont-pas-alteres-lorsque-les-styles-sont-desactives">
+<h3>178 - Le contenu et le sens de chaque page ne sont pas altérés lorsque les styles sont désactivés.<a class="headerlink" href="#le-contenu-et-le-sens-de-chaque-page-ne-sont-pas-alteres-lorsque-les-styles-sont-desactives" title="Link to this heading">#</a></h3>
+<section id="id7">
+<h4>Objectif<a class="headerlink" href="#id7" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre la compréhension des contenus par les utilisateurs dont le navigateur n’appliquera pas les feuilles de styles du site ou dont le mode d’accès n’est pas visuel.</p></li>
+<li><p>Séparer rigoureusement les contenus de la présentation pour améliorer leur interopérabilité.</p></li>
+<li><p>Favoriser le référencement du contenu.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id8">
+<h4>Mise en œuvre<a class="headerlink" href="#id8" title="Link to this heading">#</a></h4>
+<p>Dans l’usage de CSS (y compris via JavaScript), veiller à conserver la cohérence des contenus pour les présenter dans le même ordre avec ou sans mise en forme CSS. On évitera ainsi de se retrouver, par exemple, avec un menu coupé en deux si les feuilles de styles sont désactivées.</p>
+</section>
+<section id="id9">
+<h4>Contrôle<a class="headerlink" href="#id9" title="Link to this heading">#</a></h4>
+<p>Comparer visuellement les pages avec et sans application des styles CSS. L’opération nécessite de recourir, pour chaque page, à l’ensemble de ces méthodes :</p>
+<ul class="simple">
+<li><p>Désactiver les styles CSS dans le navigateur ;</p></li>
+<li><p>Vérifier l’absence de perte d’informations dont la cause peut alors être confirmée en examinant les styles appliqués à l’élément concerné à l’aide d’un inspecteur de code.</p></li>
+<li><p>Vérifier que les contenus restent lisibles, par exemple dans le cas d’une image HTML transparente dont la lisibilité dépendra de la couleur d’arrière-plan appliquée avec la propriété background-color.</p></li>
+<li><p>Vérifier la cohérence du contenu affiché sans CSS, qui doit rester logiquement organisé et parfaitement compréhensible. Par exemple, un organigramme constitué de différents blocs de texte mis en forme via des propriétés CSS de positionnement pourra apparaitre comme une succession de blocs de texte dénuée de sens en l’absence de CSS.</p></li>
+</ul>
+</section>
+</section>
+<section id="un-contenu-n-est-pas-designe-uniquement-par-sa-forme-ou-par-sa-position-a-l-ecran">
+<h3>179 - Un contenu n’est pas désigné uniquement par sa forme ou par sa position à l’écran.<a class="headerlink" href="#un-contenu-n-est-pas-designe-uniquement-par-sa-forme-ou-par-sa-position-a-l-ecran" title="Link to this heading">#</a></h3>
+<section id="id10">
+<h4>Objectif<a class="headerlink" href="#id10" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre la compréhension de l’information sans l’accès au support visuel ou lorsque le rendu de celui-ci est altéré.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id11">
+<h4>Mise en œuvre<a class="headerlink" href="#id11" title="Link to this heading">#</a></h4>
+<p>Lorsqu’un contenu est désigné par une référence à sa forme ou à sa position à l’écran, l’information doit être également disponible par un autre moyen (balisage, mention textuelle, etc.).</p>
+</section>
+<section id="id12">
+<h4>Contrôle<a class="headerlink" href="#id12" title="Link to this heading">#</a></h4>
+<p>Cette vérification concerne une large variété de cas potentiels, par exemple dans une page d’aide où il est fait référence à des captures d’écran ou encore dans le fil d’un texte où il est fait référence à une illustration ou à un tableau. Pour chaque contenu où il est nécessaire d’avoir accès à l’affichage graphique de la page afin de retrouver le contenu ainsi désigné :</p>
+<ul class="simple">
+<li><p>S’assurer que les références à la forme ou à la position à l’écran d’un contenu ne sont pas le seul moyen d’identifier celui-ci.</p></li>
+</ul>
+<p>Les moyens complémentaires peuvent être la référence explicite à un identifiant (exemple « Voir la figure n°1 »), un lien vers une ancre, etc.</p>
+</section>
+</section>
+<section id="un-contenu-qui-doit-etre-restitue-dans-un-lecteur-d-ecran-ne-lui-est-pas-dissimule">
+<h3>180 - Un contenu qui doit être restitué dans un lecteur d’écran ne lui est pas dissimulé.<a class="headerlink" href="#un-contenu-qui-doit-etre-restitue-dans-un-lecteur-d-ecran-ne-lui-est-pas-dissimule" title="Link to this heading">#</a></h3>
+<section id="id13">
+<h4>Objectif<a class="headerlink" href="#id13" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter l’adaptation du rendu au media (mobile ou autre) ou aux besoins de l’utilisateur (agrandissement de la taille des caractères, modification des couleurs, de la police, de la graisse, de la justification, etc.).</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id14">
+<h4>Mise en œuvre<a class="headerlink" href="#id14" title="Link to this heading">#</a></h4>
+<p>Sauf si le contenu concerné est destiné à être rendu visible et perceptible sur action de l’utilisateur (onglets, menus déroulants, etc.) :</p>
+<ul class="simple">
+<li><p>Ne pas utiliser les propriétés display et visibility pour masquer le contenu.</p></li>
+<li><p>Ne pas utiliser l’attribut HTML hidden pour masquer le contenu.</p></li>
+<li><p>Ne pas donner au contenu un attribut ARIA aria-hidden=”true”.</p></li>
+<li><p>Ne pas utiliser le paramètre wmode d’un objet Flash avec les valeurs transparent ou opaque.</p></li>
+</ul>
+<p>Utiliser :</p>
+<ul class="simple">
+<li><p>les propriétés CSS permettant de positionner le contenu en dehors de la zone d’affichage du navigateur (position, text- indent) ou de le rogner (clip) ;</p></li>
+<li><p>les propriétés ARIA permettant d’associer un libellé à un contenu (aria-label, aria-labelledby, aria-describedby) ;</p></li>
+<li><p>ou, dans le cas d’une étiquette de champ de formulaire, l’attribut title de celui-ci.</p></li>
+</ul>
+<p><strong>En savoir plus</strong>:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/CSS/display" rel="noreferrer" target="_blank">display</a></p></li>
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/CSS/visibility" rel="noreferrer" target="_blank">visibility</a></p></li>
+</ul>
+</section>
+<section id="id15">
+<h4>Contrôle<a class="headerlink" href="#id15" title="Link to this heading">#</a></h4>
+<p>Dans le code généré et dans les feuilles de styles CSS des pages examinées :</p>
+<ul class="simple">
+<li><p>Détecter, à l’aide d’un inspecteur de code, des contenus qui seraient masqués à l’affichage (en dehors de ceux destinés à être rendus visibles sur action de l’utilisateur).</p></li>
+<li><p>Vérifier qu’aucun de ces contenus n’utilise les techniques indiquées dans la mise en œuvre s’ils sont destinés à être restitués dans un lecteur d’écran.</p></li>
+</ul>
+</section>
+</section>
+<section id="la-taille-des-elements-cliquables-est-suffisante">
+<h3>181 - La taille des éléments cliquables est suffisante.<a class="headerlink" href="#la-taille-des-elements-cliquables-est-suffisante" title="Link to this heading">#</a></h3>
+<section id="id16">
+<h4>Objectif<a class="headerlink" href="#id16" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre à l’utilisateur de cliquer sur les éléments interactifs. Limiter les fausses manipulations et les manipulations inutiles.</p></li>
+<li><p>Améliorer la compatibilité avec les terminaux mobiles.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+</ul>
+</section>
+<section id="id17">
+<h4>Mise en œuvre<a class="headerlink" href="#id17" title="Link to this heading">#</a></h4>
+<p>Donner à chaque élément cliquable (boutons, liens) une taille par défaut d’au moins 44 par 44 pixels.</p>
+</section>
+<section id="id18">
+<h4>Contrôle<a class="headerlink" href="#id18" title="Link to this heading">#</a></h4>
+<p>vérifier que la taille par défaut de chaque élément cliquable (boutons, liens) est au moins de 44 par 44 pixels.</p>
+</section>
+</section>
+<section id="les-textes-pouvant-etre-mis-en-forme-via-des-styles-ne-sont-pas-remplaces-par-des-images">
+<h3>182 - Les textes pouvant être mis en forme via des styles ne sont pas remplacés par des images.<a class="headerlink" href="#les-textes-pouvant-etre-mis-en-forme-via-des-styles-ne-sont-pas-remplaces-par-des-images" title="Link to this heading">#</a></h3>
+<section id="id19">
+<h4>Objectif<a class="headerlink" href="#id19" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter l’adaptation du rendu au media (mobile ou autre) ou aux besoins de l’utilisateur (agrandissement de la taille des caractères, modification des couleurs, de la police, de la graisse, de la justification, etc.).</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation.</p></li>
+</ul>
+</section>
+<section id="id20">
+<h4>Mise en œuvre<a class="headerlink" href="#id20" title="Link to this heading">#</a></h4>
+<p>Utiliser des textes HTML mis en forme à l’aide des styles CSS (et en particulier les polices de caractères téléchargeables, ou Web fonts).</p>
+</section>
+<section id="id21">
+<h4>Contrôle<a class="headerlink" href="#id21" title="Link to this heading">#</a></h4>
+<p>Cette vérification nécessite l’examen visuel des pages pour identifier les images ne contenant que du texte et évaluer si une mise en forme via CSS aurait permis d’obtenir un rendu équivalent. Pour chaque page contenant des textes mis en images :</p>
+<ul class="simple">
+<li><p>Passer en revue les images (images HTML et éventuelles images d’arrière-plan CSS utilisées pour simuler un contenu éditorial dans un élément vide).</p></li>
+<li><p>Vérifier que les textes mis en image correspondent uniquement à des mises en forme ne pouvant être obtenues via les styles CSS.</p></li>
+</ul>
+<p>Sont exclus de cette exigence : les logos, les bannières publicitaires et les éléments graphiques de promotion.</p>
+</section>
+</section>
+<section id="les-contenus-generes-via-les-styles-sont-dotes-d-une-alternative-appropriee">
+<h3>183 - Les contenus générés via les styles sont dotés d’une alternative appropriée.<a class="headerlink" href="#les-contenus-generes-via-les-styles-sont-dotes-d-une-alternative-appropriee" title="Link to this heading">#</a></h3>
+<section id="id22">
+<h4>Objectif<a class="headerlink" href="#id22" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs placés dans des contextes où les styles ne sont pas restitués (navigateur texte, lecteur d’écran, navigateur avec styles désactivés) d’accéder à l’information présente sous forme de contenus générés en CSS (images d’arrière-plan notamment).</p></li>
+<li><p>Permettre aux robots d’exploiter l’information véhiculée par les styles CSS (référencement, indexation, traduction automatique des alternatives).</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées. Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id23">
+<h4>Mise en œuvre<a class="headerlink" href="#id23" title="Link to this heading">#</a></h4>
+<p>Fournir un contenu masqué à l’affichage via CSS :</p>
+<ul class="simple">
+<li><p>pour chaque information portée par les propriétés CSS background-image ou content ;</p></li>
+<li><p>pour chaque information affichée via un pseudo-élément CSS :before ou :after ;</p></li>
+<li><p>et plus généralement, pour chaque information absente par ailleurs de la page et dont la restitution dépend du support des styles.</p></li>
+</ul>
+<p><strong>En savoir plus</strong>:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/CSS/background-image" rel="noreferrer" target="_blank">background-image</a></p></li>
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/CSS/content" rel="noreferrer" target="_blank">content</a></p></li>
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/CSS/::before" rel="noreferrer" target="_blank">::before (:before)</a></p></li>
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/CSS/::after" rel="noreferrer" target="_blank">::after</a></p></li>
+</ul>
+</section>
+<section id="id24">
+<h4>Contrôle<a class="headerlink" href="#id24" title="Link to this heading">#</a></h4>
+<p>Examiner directement le code CSS et comparer visuellement l’affichage normal de la page avec son rendu après désactivation des images d’arrière-plan. Pour chaque page :</p>
+<ul class="simple">
+<li><p>Afficher les feuilles de styles grâce à une barre d’outils dédiée et vérifier que les propriétés et éléments cités dans le paragraphe « Solution technique » sont absents des CSS ou ne sont pas utilisés pour produire une information par ailleurs absente du code HTML.</p></li>
+<li><p>Désactiver les images d’arrière-plan CSS avec une barre d’outils dédiée.</p></li>
+<li><p>Contrôler l’absence de perte d’information, en comparant l’affichage avec et sans images d’arrière-plan.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-pictogrammes-typographiques-sont-dotes-d-une-alternative-appropriee">
+<h3>184 - Les pictogrammes typographiques sont dotés d’une alternative appropriée.<a class="headerlink" href="#les-pictogrammes-typographiques-sont-dotes-d-une-alternative-appropriee" title="Link to this heading">#</a></h3>
+<section id="id25">
+<h4>Objectif<a class="headerlink" href="#id25" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation.</p></li>
+</ul>
+</section>
+<section id="id26">
+<h4>Mise en œuvre<a class="headerlink" href="#id26" title="Link to this heading">#</a></h4>
+<p>Fournir un contenu masqué à l’affichage via CSS pour chaque information portée par le recours à une police de caractères spécifique.</p>
+</section>
+<section id="id27">
+<h4>Contrôle<a class="headerlink" href="#id27" title="Link to this heading">#</a></h4>
+<p>Examiner directement le code pour vérifier que chaque icône affichée via une police de caractères est dotée d’une alternative dans le contenu HTML.</p>
+</section>
+</section>
+<section id="une-famille-generique-de-police-est-indiquee-comme-dernier-element-de-substitution">
+<h3>185 - Une famille générique de police est indiquée comme dernier élément de substitution.<a class="headerlink" href="#une-famille-generique-de-police-est-indiquee-comme-dernier-element-de-substitution" title="Link to this heading">#</a></h3>
+<section id="id28">
+<h4>Objectif<a class="headerlink" href="#id28" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux contenus de s’afficher correctement, même lorsque les polices prévues ne sont pas présentes sur le système de l’utilisateur.</p></li>
+</ul>
+</section>
+<section id="id29">
+<h4>Mise en œuvre<a class="headerlink" href="#id29" title="Link to this heading">#</a></h4>
+<p>Dans chaque feuille de style CSS, indiquer la famille générique de police appropriée dans les propriétés  <code class="docutils literal notranslate"><span class="pre">font-family</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">font</span></code> :</p>
+<ul class="simple">
+<li><p>Pour les polices serif, ou à empattements (du type Times Roman), spécifier en dernier la famille de police générique serif. Dans l’exemple suivant, le terme « serif » a été correctement ajouté comme dernier élément de la liste des polices  <code class="docutils literal notranslate"><span class="pre">font-family:</span> <span class="pre">Georgia,</span> <span class="pre">&quot;Bookman</span> <span class="pre">Old</span> <span class="pre">Style&quot;,</span> <span class="pre">serif</span></code> .</p></li>
+<li><p>Pour les polices sans serif, ou sans empattements (du type Arial), spécifier en dernier la famille de police générique sans-serif. Par exemple :  <code class="docutils literal notranslate"><span class="pre">font-family:</span> <span class="pre">Optima,</span> <span class="pre">&quot;Trebuchet</span> <span class="pre">MS&quot;,</span> <span class="pre">sans-serif</span></code> ;</p></li>
+<li><p>Pour les polices monospace (du type Courier), spécifier en dernier la famille de police générique monospace. Par exemple,  <code class="docutils literal notranslate"><span class="pre">font-family:</span> <span class="pre">Courier,</span> <span class="pre">monospace</span></code>;</p></li>
+<li><p>De même, utiliser les familles génériques cursive et fantasy pour les polices manuscrites et fantaisies.</p></li>
+</ul>
+<p><strong>En savoir plus</strong>:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/CSS/font" rel="noreferrer" target="_blank">font</a></p></li>
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/CSS/font-family" rel="noreferrer" target="_blank">font-family</a></p></li>
+</ul>
+</section>
+<section id="id30">
+<h4>Contrôle<a class="headerlink" href="#id30" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Dans toutes les feuilles de style CSS (pour tous les media : screen, print, etc.) :</p></li>
+</ul>
+<p>Vérifier à l’aide d’un outil de développement d’un navigateur que chaque propriété  <code class="docutils literal notranslate"><span class="pre">font</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">font-family</span></code>  contient l’un des termes relatifs aux familles génériques de police :  <code class="docutils literal notranslate"><span class="pre">serif</span></code> ,  <code class="docutils literal notranslate"><span class="pre">sans-serif</span></code> ,  <code class="docutils literal notranslate"><span class="pre">monospace</span></code> ,  <code class="docutils literal notranslate"><span class="pre">cursive</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">fantasy</span></code>  ;</p>
+<ul class="simple">
+<li><p>Contrôler que ces termes sont situés en fin de liste pour chaque propriété  <code class="docutils literal notranslate"><span class="pre">font</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">font-family</span></code>  ;</p></li>
+<li><p>S’assurer de la pertinence de la famille générique indiquée :  <code class="docutils literal notranslate"><span class="pre">serif</span></code>  pour les polices à empattements,  <code class="docutils literal notranslate"><span class="pre">sans-serif</span></code>  pour les polices sans empattements,  <code class="docutils literal notranslate"><span class="pre">monospace</span></code> ,  <code class="docutils literal notranslate"><span class="pre">cursive</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">fantasy</span></code>  dans des cas particuliers.</p></li>
+</ul>
+<p>La vérification peut également être effectuée en validant la page HTML à l’aide du validateur CSS du W3C</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://jigsaw.w3.org/css-validator/" rel="noreferrer" target="_blank">CSS Validation Service</a></p></li>
+</ul>
+</section>
+</section>
+<section id="les-styles-ne-justifient-pas-le-texte">
+<h3>186 - Les styles ne justifient pas le texte.<a class="headerlink" href="#les-styles-ne-justifient-pas-le-texte" title="Link to this heading">#</a></h3>
+<section id="id31">
+<h4>Objectif<a class="headerlink" href="#id31" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter la lecture à l’écran, notamment pour les personnes dyslexiques.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+</ul>
+</section>
+<section id="id32">
+<h4>Mise en œuvre<a class="headerlink" href="#id32" title="Link to this heading">#</a></h4>
+<p>Ne pas utiliser la propriété CSS text-align avec la valeur justify, ou tout autre équivalent.</p>
+<p><strong>En savoir plus</strong>:  [text-align](<a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/CSS/text-align" rel="noreferrer" target="_blank">https://developer.mozilla.org/fr/docs/Web/CSS/text-align</a></p>
+</section>
+<section id="id33">
+<h4>Contrôle<a class="headerlink" href="#id33" title="Link to this heading">#</a></h4>
+<p>Vérifier dans le code CSS l’absence de règles text-align : justify.Vérifier dans le code HTML l’absence d’attributs HTML align=”justify”.</p>
+</section>
+</section>
+<section id="les-mises-en-majuscules-a-des-fins-decoratives-sont-effectuees-a-l-aide-des-styles">
+<h3>187 - Les mises en majuscules à des fins décoratives sont effectuées à l’aide des styles<a class="headerlink" href="#les-mises-en-majuscules-a-des-fins-decoratives-sont-effectuees-a-l-aide-des-styles" title="Link to this heading">#</a></h3>
+<section id="id34">
+<h4>Objectif<a class="headerlink" href="#id34" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre un copier-coller des contenus indépendamment de la mise en forme entièrement en majuscules.</p></li>
+<li><p>Faciliter l’adaptation de la mise en forme pour les utilisateurs ayant des difficultés de lecture des textes entièrement en majuscules.</p></li>
+</ul>
+</section>
+<section id="id35">
+<h4>Mise en œuvre<a class="headerlink" href="#id35" title="Link to this heading">#</a></h4>
+<p>Saisir les contenus HTML en respectant l’usage typographique pour les majuscules (début de phrase, noms propres, etc.).</p>
+<p>Utiliser la propriété CSS  <code class="docutils literal notranslate"><span class="pre">text-transform</span></code>  avec la valeur  <code class="docutils literal notranslate"><span class="pre">uppercase</span></code>  pour gérer les mises en majuscules décoratives.</p>
+</section>
+<section id="id36">
+<h4>Contrôle<a class="headerlink" href="#id36" title="Link to this heading">#</a></h4>
+<p>Pour tous les contenus mis entièrement en majuscules :</p>
+<ul class="simple">
+<li><p>Désactiver le support des styles du site dans le navigateur ;</p></li>
+<li><p>Identifier les textes qui apparaissent en majuscules lorsque les styles sont désactivés ;</p></li>
+<li><p>Vérifier que l’usage des majuscules respecte le cadre des conventions typographiques de la langue utilisée. Par exemple : les sigles ou noms d’auteurs dans une bibliographie peuvent être en majuscules.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-site-ne-bloque-pas-les-fonctionnalites-de-zoom-du-navigateur">
+<h3>188 - Le site ne bloque pas les fonctionnalités de zoom du navigateur.<a class="headerlink" href="#le-site-ne-bloque-pas-les-fonctionnalites-de-zoom-du-navigateur" title="Link to this heading">#</a></h3>
+<section id="id37">
+<h4>Objectif<a class="headerlink" href="#id37" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs d’adapter le rendu à leurs besoins ou à leurs préférences en recourant au zoom graphique.</p></li>
+<li><p>Améliorer la compatibilité avec les terminaux mobiles.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id38">
+<h4>Mise en œuvre<a class="headerlink" href="#id38" title="Link to this heading">#</a></h4>
+<p>Ne pas utiliser de mécanisme bloquant le zoom, et en particulier, ne pas utiliser les attributs minimum-scale, maximum-scale et user-scalable de l’élément meta viewport.</p>
+</section>
+<section id="id39">
+<h4>Contrôle<a class="headerlink" href="#id39" title="Link to this heading">#</a></h4>
+<p>Vérifier sur un périphérique tactile qu’il est possible d’agrandir la vue avec la commande de zoom tactile du navigateur.</p>
+</section>
+</section>
+<section id="le-site-propose-un-ou-plusieurs-mecanismes-dedies-a-l-adaptation-aux-terminaux-mobiles">
+<h3>189 - Le site propose un ou plusieurs mécanismes dédiés à l’adaptation aux terminaux mobiles.<a class="headerlink" href="#le-site-propose-un-ou-plusieurs-mecanismes-dedies-a-l-adaptation-aux-terminaux-mobiles" title="Link to this heading">#</a></h3>
+<section id="id40">
+<h4>Objectif<a class="headerlink" href="#id40" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Faciliter la consultation sur les terminaux mobiles.</p></li>
+<li><p>Améliorer le positionnement dans les outils d’indexation qui prennent ce critère en compte.</p></li>
+</ul>
+</section>
+<section id="id41">
+<h4>Mise en œuvre<a class="headerlink" href="#id41" title="Link to this heading">#</a></h4>
+<p>Soit recourir aux media queries ou à l’adaptative design pour adresser au navigateur des règles de style adaptées selon la taille de l’écran.</p>
+<p>Soit fournir une version mobile dédiée.</p>
+</section>
+<section id="id42">
+<h4>Contrôle<a class="headerlink" href="#id42" title="Link to this heading">#</a></h4>
+<p>Comparer l’affichage de la page sur différentes tailles d’écran (desktop, tablettes, smartphone, etc.) et vérifier que le rendu s’adapte à celles-ci.</p>
+</section>
+</section>
+<section id="le-site-propose-des-styles-dedies-a-l-impression">
+<h3>190 - Le site propose des styles dédiés à l’impression.<a class="headerlink" href="#le-site-propose-des-styles-dedies-a-l-impression" title="Link to this heading">#</a></h3>
+<section id="id43">
+<h4>Objectif<a class="headerlink" href="#id43" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre l’impression des contenus sous une forme appropriée au support.</p></li>
+</ul>
+</section>
+<section id="id44">
+<h4>Mise en œuvre<a class="headerlink" href="#id44" title="Link to this heading">#</a></h4>
+<p>Fournir une feuille de style spécifique pour le type de media print, par exemple sous la forme : <code class="docutils literal notranslate"><span class="pre">&lt;</span> <span class="pre">link</span> <span class="pre">rel=&quot;stylesheet&quot;</span> <span class="pre">type=&quot;text/css&quot;</span> <span class="pre">href=&quot;print.css&quot;</span> <span class="pre">media=&quot;print&quot;</span> <span class="pre">/&amp;gt;</span></code> .</p>
+<p>Les styles d’impression peuvent corriger une feuille de style globale (feuille de style pour le media all ou sans mention du media) ou bien s’appliquer seuls pour le media print si la feuille de style d’affichage est appelée en précisant le media print.</p>
+<p><strong>En savoir plus</strong>:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/link" rel="noreferrer" target="_blank"><link> : l’élément de lien vers des ressources externes</a></p></li>
+<li><p><a class="reference external" href="https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/style" rel="noreferrer" target="_blank"><style> : l’élément d’information de style</a></p></li>
+</ul>
+</section>
+<section id="id45">
+<h4>Contrôle<a class="headerlink" href="#id45" title="Link to this heading">#</a></h4>
+<p>Cette bonne pratique peut être évaluée rapidement en testant l’aperçu avant impression dans le navigateur, mais sa confirmation nécessite l’examen du code pour détecter la présence d’un style d’impression pour le media print, qui peut être :</p>
+<ul class="simple">
+<li><p>Sous forme d’une balise du type <code class="docutils literal notranslate"><span class="pre">&lt;link</span> <span class="pre">rel=&quot;stylesheet&quot;</span> <span class="pre">type=&quot;text/css&quot;</span> <span class="pre">media=&quot;print&quot;</span> <span class="pre">href=&quot;print.css&quot;</span> <span class="pre">/&gt;</span></code>;</p></li>
+<li><p>Sous forme d’une balise du type <code class="docutils literal notranslate"><span class="pre">&lt;style</span> <span class="pre">media=&quot;print&quot;</span> <span class="pre">type=&quot;text/css&quot;&gt;…&lt;/style&gt;</span></code> ;</p></li>
+<li><p>Sous forme d’une règle  <code class="docutils literal notranslate"><span class="pre">&#64;media</span> <span class="pre">print</span> <span class="pre">{…}</span></code>  dans une CSS interne ou externe ;</p></li>
+<li><p>Ou sous forme d’une règle  <code class="docutils literal notranslate"><span class="pre">&#64;import</span> <span class="pre">url(&quot;print.css&quot;)</span></code>   <code class="docutils literal notranslate"><span class="pre">print;</span></code>  dans une CSS interne ou externe.</p></li>
+</ul>
+</section>
+</section>
+<section id="le-contenu-de-chaque-page-est-disponible-a-l-impression-sans-blocs-de-navigation">
+<h3>191 - Le contenu de chaque page est disponible à l’impression sans blocs de navigation.<a class="headerlink" href="#le-contenu-de-chaque-page-est-disponible-a-l-impression-sans-blocs-de-navigation" title="Link to this heading">#</a></h3>
+<section id="id46">
+<h4>Objectif<a class="headerlink" href="#id46" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Améliorer la lisibilité et la pertinence des contenus imprimés.</p></li>
+<li><p>Rationaliser l’espace utilisé par les contenus imprimés pour économiser du papier.</p></li>
+<li><p>Diminuer l’impact énergétique lié à la consultation du site</p></li>
+</ul>
+</section>
+<section id="id47">
+<h4>Mise en œuvre<a class="headerlink" href="#id47" title="Link to this heading">#</a></h4>
+<p>Fournir une feuille de style CSS pour le media print, qui masque les blocs de navigation via la propriété  <code class="docutils literal notranslate"><span class="pre">display</span></code> .</p>
+</section>
+<section id="id48">
+<h4>Contrôle<a class="headerlink" href="#id48" title="Link to this heading">#</a></h4>
+<p>Cette vérification peut s’effectuer immédiatement en utilisant l’aperçu avant impression du navigateur :</p>
+<ul class="simple">
+<li><p>Vérifier qu’aucun menu ou autre bloc de navigation ne s’affiche dans l’aperçu avant impression de la page.</p></li>
+</ul>
+<p>Les blocs de navigation peuvent être l’ensemble des menus  <code class="docutils literal notranslate"><span class="pre">nav</span></code> , des éléments de  <code class="docutils literal notranslate"><span class="pre">header</span></code>  ou de pied de page tels qu’un formulaire de recherche ou des liens annexes, un formulaire d’inscription à une newsletter, etc.</p>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -620,6 +1064,134 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> 
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regles">Règles</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-charte-graphique-est-coherente-sur-l-ensemble-du-site">175 - La charte graphique est cohérente sur l’ensemble du site.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#objectif">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-en-oeuvre">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#controle">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#l-information-n-est-pas-vehiculee-uniquement-par-la-couleur">176 - L’information n’est pas véhiculée uniquement par la couleur.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-contenus-sont-presentes-avec-un-contraste-suffisant-par-rapport-a-leur-arriere-plan">177 - Les contenus sont présentés avec un contraste suffisant par rapport à leur arrière-plan.</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Objectif</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-contenu-et-le-sens-de-chaque-page-ne-sont-pas-alteres-lorsque-les-styles-sont-desactives">178 - Le contenu et le sens de chaque page ne sont pas altérés lorsque les styles sont désactivés.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#un-contenu-n-est-pas-designe-uniquement-par-sa-forme-ou-par-sa-position-a-l-ecran">179 - Un contenu n’est pas désigné uniquement par sa forme ou par sa position à l’écran.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#un-contenu-qui-doit-etre-restitue-dans-un-lecteur-d-ecran-ne-lui-est-pas-dissimule">180 - Un contenu qui doit être restitué dans un lecteur d’écran ne lui est pas dissimulé.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-taille-des-elements-cliquables-est-suffisante">181 - La taille des éléments cliquables est suffisante.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-textes-pouvant-etre-mis-en-forme-via-des-styles-ne-sont-pas-remplaces-par-des-images">182 - Les textes pouvant être mis en forme via des styles ne sont pas remplacés par des images.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-contenus-generes-via-les-styles-sont-dotes-d-une-alternative-appropriee">183 - Les contenus générés via les styles sont dotés d’une alternative appropriée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id23">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id24">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-pictogrammes-typographiques-sont-dotes-d-une-alternative-appropriee">184 - Les pictogrammes typographiques sont dotés d’une alternative appropriée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id25">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id26">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id27">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#une-famille-generique-de-police-est-indiquee-comme-dernier-element-de-substitution">185 - Une famille générique de police est indiquée comme dernier élément de substitution.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id28">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id29">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id30">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-styles-ne-justifient-pas-le-texte">186 - Les styles ne justifient pas le texte.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id31">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id32">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id33">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-mises-en-majuscules-a-des-fins-decoratives-sont-effectuees-a-l-aide-des-styles">187 - Les mises en majuscules à des fins décoratives sont effectuées à l’aide des styles</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id34">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id35">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id36">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-ne-bloque-pas-les-fonctionnalites-de-zoom-du-navigateur">188 - Le site ne bloque pas les fonctionnalités de zoom du navigateur.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id37">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id38">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id39">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-propose-un-ou-plusieurs-mecanismes-dedies-a-l-adaptation-aux-terminaux-mobiles">189 - Le site propose un ou plusieurs mécanismes dédiés à l’adaptation aux terminaux mobiles.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id40">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id41">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id42">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-site-propose-des-styles-dedies-a-l-impression">190 - Le site propose des styles dédiés à l’impression.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id43">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id44">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id45">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-contenu-de-chaque-page-est-disponible-a-l-impression-sans-blocs-de-navigation">191 - Le contenu de chaque page est disponible à l’impression sans blocs de navigation.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id46">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id47">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id48">Contrôle</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../../../_sources/content/Outils/Opquast/Présentation.md">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
               
             
           </div>

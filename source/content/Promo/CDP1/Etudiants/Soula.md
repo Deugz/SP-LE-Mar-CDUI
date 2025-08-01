@@ -48,29 +48,27 @@
 
 ::::
 
-## Examen Blanc
+## Projet
 
-- les sources + présentation visuelle des chiffres
+### Vidéo
 
-- mettre plus en valeur le score woorank
+::::{grid} 3
 
-- nommer les couleurs
+:::{grid-item}
+:columns: 1
 
-- logo déclinaison couleurs
+:::
 
-```{note}
+:::{grid-item}
+:columns: 10
 
-Créer des captures d'écran video de la navigation sur les sites partenaires et les commenter en direct avec vignette type vidéo tiktok.
+<video src="../../../../_static/Video-apprenants/CDP1-NEZ-ROUGE.mp4" controls width="100%" align="center"></video>
 
+:::
 
+:::{grid-item}
+:columns: 1
 
-```
+:::
 
-```{warning}
-
-Explorer le potentiel créatif de Soula
-
-
-```
-
-- benchmark / veille
+::::

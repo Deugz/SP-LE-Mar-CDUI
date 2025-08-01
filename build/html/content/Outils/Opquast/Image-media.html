@@ -8,6 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <meta property="article:modified_time" content="2025-06-25T09:58:05+02:00" />
     <title>Images et Médias &#8212; Label Ecole V0 0.0.1 documentation</title>
   
   
@@ -85,6 +86,7 @@
     <link rel="prev" title="Identification et Contact" href="Identification-contact.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+    <meta name="docbuild:last-update" content="25 June 2025"/>
   </head>
   
   
@@ -336,6 +338,10 @@ document.write(`
   
 
   
+    <button class="pst-navbar-icon sidebar-toggle secondary-toggle" aria-label="On this page">
+      <span class="fa-solid fa-outdent"></span>
+    </button>
+  
 </div>
 
     </header>
@@ -565,6 +571,339 @@ document.write(`
                   
   <section id="images-et-medias">
 <h1>Images et Médias<a class="headerlink" href="#images-et-medias" title="Link to this heading">#</a></h1>
+<section id="regles">
+<h2>Règles<a class="headerlink" href="#regles" title="Link to this heading">#</a></h2>
+<section id="chaque-image-decorative-est-dotee-d-une-alternative-textuelle-appropriee">
+<h3>111 - Chaque image décorative est dotée d’une alternative textuelle appropriée.<a class="headerlink" href="#chaque-image-decorative-est-dotee-d-une-alternative-textuelle-appropriee" title="Link to this heading">#</a></h3>
+<section id="objectif">
+<h4>Objectif<a class="headerlink" href="#objectif" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Éviter aux utilisateurs placés dans des contextes où les images ne sont pas perceptibles (navigateur texte, lecteur d’écran, navigateur avec images désactivées) d’être perturbés par des informations sur des images qui leur sont inutiles.</p></li>
+<li><p>Fournir aux robots d’indexation uniquement des informations pertinentes.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="mise-en-oeuvre">
+<h4>Mise en œuvre<a class="headerlink" href="#mise-en-oeuvre" title="Link to this heading">#</a></h4>
+<p>D’une manière générale, si un code (un attribut HTML, par exemple) est prévu pour l’alternative, il doit être présent, mais en restant vide. Pour les cas les plus courants :</p>
+<ul class="simple">
+<li><p>Donner à chaque élément img décoratif un attribut alt vide (alt=””).</p></li>
+<li><p>Donner à chaque élément area décoratif un attribut alt vide.</p></li>
+<li><p>Laisser vide le contenu de chaque élément object concerné (entre les balises <code class="docutils literal notranslate"><span class="pre">&lt;object&gt;</span></code> et <code class="docutils literal notranslate"><span class="pre">&lt;/object&gt;</span></code>).</p></li>
+<li><p>Laisser vide le contenu de chaque élément canvas concerné.</p></li>
+<li><p>Ne donner à chaque élément svg concerné aucun attribut ARIA qui lui confère un label (aria-labelledby, aria-describedby, etc.).</p></li>
+</ul>
+</section>
+<section id="controle">
+<h4>Contrôle<a class="headerlink" href="#controle" title="Link to this heading">#</a></h4>
+<p>Cette vérification s’effectue dans le code HTML généré à l’aide d’un inspecteur de code ou d’une barre d’outils dédiée :</p>
+<ul class="simple">
+<li><p>Tester au préalable la présence des attributs alt en vérifiant la validité du code HTML généré, par exemple avec le validateur du W3C (le validateur HTML signale les images privées d’alternative) : chaque image décorative doit avoir un attribut alt (présent mais vide).</p></li>
+<li><p>Vérifier que chaque image img ne véhiculant pas d’information nécessaire à la compréhension du contenu a bien un alt vide.</p></li>
+<li><p>Vérifier les éventuels autres objets graphiques du type object, canvas dont le contenu (entre les balises ouvrantes et fermantes) doit être vide.</p></li>
+<li><p>Vérifier les éventuels autres éléments du type svg susceptibles de recevoir une alternative via un attribut ARIA.</p></li>
+</ul>
+</section>
+</section>
+<section id="chaque-image-lien-est-dotee-d-une-alternative-textuelle-appropriee">
+<h3>112 - Chaque image-lien est dotée d’une alternative textuelle appropriée.<a class="headerlink" href="#chaque-image-lien-est-dotee-d-une-alternative-textuelle-appropriee" title="Link to this heading">#</a></h3>
+<section id="id1">
+<h4>Objectif<a class="headerlink" href="#id1" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs placés dans des contextes où les images ne sont pas perceptibles (navigateur texte, lecteur d’écran, navigateur avec images désactivées) de comprendre le sens des liens présents sur des images qu’ils ne peuvent voir.</p></li>
+<li><p>Permettre aux robots d’exploiter l’information véhiculée par les images-liens (pour le référencement, l’indexation, la traduction automatique des alternatives d’images-texte).</p></li>
+<li><p>Permettre l’affichage d’un texte pertinent pendant le chargement des images.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id2">
+<h4>Mise en œuvre<a class="headerlink" href="#id2" title="Link to this heading">#</a></h4>
+<p>Les images-liens sont aisées à identifier (elles sont le seul contenu qui est placé entre des balises <code class="docutils literal notranslate"><span class="pre">&lt;a&gt;</span></code> et <code class="docutils literal notranslate"><span class="pre">&lt;/a&gt;</span></code>). Il faut toutefois penser aussi aux liens générés avec JavaScript sur d’autres éléments.D’une manière générale, il faut :</p>
+<ul class="simple">
+<li><p>donner à chaque élément img concerné un attribut alt indiquant la cible ou le rôle du lien ;</p></li>
+<li><p>donner à chaque élément area concerné un attribut alt indiquant la cible ou le rôle du lien ;</p></li>
+<li><p>indiquer la cible ou le rôle du lien dans le contenu de chaque élément object concerné ;</p></li>
+<li><p>indiquer la cible ou le rôle du lien dans le contenu de chaque élément canvas concerné.</p></li>
+</ul>
+</section>
+<section id="id3">
+<h4>Contrôle<a class="headerlink" href="#id3" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Vérifier que l’attribut alt de chaque élément img concerné indique la cible ou le rôle du lien.</p></li>
+<li><p>Vérifier que l’attribut alt de chaque élément area concerné indique la cible ou le rôle du lien.</p></li>
+<li><p>Vérifier que le contenu de chaque élément object concerné indique la cible ou le rôle du lien.</p></li>
+<li><p>Vérifier que le contenu de chaque élément canvas concerné indique la cible ou le rôle du lien.</p></li>
+<li><p>Vérifier le libellé textuel de tout autre élément ayant le rôle d’un lien.</p></li>
+</ul>
+</section>
+</section>
+<section id="chaque-image-porteuse-d-information-est-dotee-d-une-alternative-textuelle-appropriee">
+<h3>113 - Chaque image porteuse d’information est dotée d’une alternative textuelle appropriée.<a class="headerlink" href="#chaque-image-porteuse-d-information-est-dotee-d-une-alternative-textuelle-appropriee" title="Link to this heading">#</a></h3>
+<section id="id4">
+<h4>Objectif<a class="headerlink" href="#id4" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs placés dans des contextes où les images ne sont pas perceptibles (navigateur texte, lecteur d’écran, navigateur avec images désactivées) de comprendre le sens des images qu’ils ne peuvent voir.</p></li>
+<li><p>Permettre aux robots d’exploiter l’information véhiculée par les images (référencement, indexation, traduction automatique des alternatives d’images-texte).</p></li>
+<li><p>Permettre l’affichage d’un texte pendant le chargement des images.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id5">
+<h4>Mise en œuvre<a class="headerlink" href="#id5" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Donner à chaque élément img concerné un attribut alt reproduisant l’information.</p></li>
+<li><p>Donner à chaque élément area concerné un attribut alt reproduisant l’information.</p></li>
+<li><p>Reproduire l’information dans le contenu de chaque élément object concerné.</p></li>
+<li><p>Reproduire l’information dans le contenu de chaque élément canvas concerné.</p></li>
+<li><p>Reproduire l’information dans un libellé textuel associé à chaque élément svg concerné par le biais de son attribut aria-label ou de la balise desc.</p></li>
+</ul>
+<p>Dans le cas d’une image complexe qui ne peut être résumée de manière concise dans une alternative textuelle, le détail de l’information doit être apporté en complément à l’aide d’une description étendue :</p>
+<ul class="simple">
+<li><p>soit via l’attribut longdesc de l’image indiquant l’URL de la description,</p></li>
+<li><p>soit via un lien adjacent à l’image jouant le même rôle,</p></li>
+<li><p>soit dans le contenu de la page, dans le contexte immédiat de l’image. Dans ce dernier cas, l’alternative peut signaler la présence de cette description et y renvoyer.</p></li>
+</ul>
+</section>
+<section id="id6">
+<h4>Contrôle<a class="headerlink" href="#id6" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Vérifier que l’attribut alt de chaque élément img concerné reproduit l’information portée par l’image.</p></li>
+<li><p>Vérifier que l’attribut alt de chaque élément area concerné reproduit l’information portée par l’image.</p></li>
+<li><p>Vérifier que le contenu de chaque élément object concerné reproduit l’information portée par l’image.</p></li>
+<li><p>Vérifier que le contenu de chaque élément canvas concerné reproduit l’information portée par l’image.</p></li>
+<li><p>Vérifier que chaque élément svg concerné est associé à un libellé textuel reproduisant l’information portée par l’image par le biais de son attribut aria-label ou de la balise desc.</p></li>
+<li><p>Vérifier la présence et la pertinence de la description étendue le cas échéant.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-vignettes-et-apercus-ne-sont-pas-des-images-de-taille-superieure-redimensionnees-cote-client">
+<h3>114 - Les vignettes et aperçus ne sont pas des images de taille supérieure redimensionnées côté client.<a class="headerlink" href="#les-vignettes-et-apercus-ne-sont-pas-des-images-de-taille-superieure-redimensionnees-cote-client" title="Link to this heading">#</a></h3>
+<section id="id7">
+<h4>Objectif<a class="headerlink" href="#id7" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Diminuer la quantité de données à télécharger.</p></li>
+<li><p>Améliorer la vitesse d’affichage de la page.</p></li>
+<li><p>Diminuer l’impact énergétique lié à la consultation du site.</p></li>
+</ul>
+</section>
+<section id="id8">
+<h4>Mise en œuvre<a class="headerlink" href="#id8" title="Link to this heading">#</a></h4>
+<p>Utiliser, pour les vignettes de prévisualisation d’images, des versions spécifiques de celles-ci et non les images originales redimensionnées via leurs attributs HTML ou leurs propriétés CSS.</p>
+</section>
+<section id="id9">
+<h4>Contrôle<a class="headerlink" href="#id9" title="Link to this heading">#</a></h4>
+<p>Pour toutes les images HTML présentes dans le code source ou générées via javascript :</p>
+<ul class="simple">
+<li><p>Vérifier qu’elles ne sont pas dotées de propriétés CSS  <code class="docutils literal notranslate"><span class="pre">height</span></code>  ou  <code class="docutils literal notranslate"><span class="pre">width</span></code>  qui modifient la taille apparente des images par rapport à leurs dimensions réelles. Pour cela, utiliser  désactiver tous les styles CSS à l’aide d’un outil de développement web  pour repérer les images dont les dimensions changent après désactivation des styles CSS.</p></li>
+<li><p>Contrôler également que les dimensions indiquées dans les attributs  <code class="docutils literal notranslate"><span class="pre">width</span></code>  et  <code class="docutils literal notranslate"><span class="pre">height</span></code>  du code HTML généré correspondent aux dimensions réelles de l’image à l’aide d’un outils de développement.</p></li>
+</ul>
+<p>Par exemple, on invalidera donc :</p>
+<ul class="simple">
+<li><p>Une image du type <code class="docutils literal notranslate"><span class="pre">&lt;img</span> <span class="pre">height=&quot;300&quot;</span> <span class="pre">width=&quot;600&quot;</span> <span class="pre">class=&quot;thumb&quot;/&gt;</span></code> si la classe  .thumb  impose les propriétés CSS  height: 100px  et  width: auto .</p></li>
+<li><p>Une image du type <code class="docutils literal notranslate"><span class="pre">&lt;img</span> <span class="pre">height=&quot;100&quot;</span> <span class="pre">width=&quot;200&quot;/&gt;</span></code> si les dimensions réelles de l’image sont 300 px de haut et 600 px de large.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-objets-inclus-sont-dotes-d-une-alternative-textuelle-appropriee">
+<h3>115 - Les objets inclus sont dotés d’une alternative textuelle appropriée.<a class="headerlink" href="#les-objets-inclus-sont-dotes-d-une-alternative-textuelle-appropriee" title="Link to this heading">#</a></h3>
+<section id="id10">
+<h4>Objectif<a class="headerlink" href="#id10" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Fournir un accès à l’information pour les utilisateurs dont le navigateur ou la plateforme ne supporte pas l’inclusion d’objets ou les technologies utilisées dans les objets inclus.</p></li>
+<li><p>Faciliter l’exploitation de ces contenus par les robots (référencement en particulier).</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+<li><p>Améliorer la prise en compte des contenus par les moteurs de recherche et outils d’indexation</p></li>
+</ul>
+</section>
+<section id="id11">
+<h4>Mise en œuvre<a class="headerlink" href="#id11" title="Link to this heading">#</a></h4>
+<p>Indiquer l’alternative des objets inclus via l’une des solutions suivantes :</p>
+<ul class="simple">
+<li><p>Le contenu de l’élément HTML  <code class="docutils literal notranslate"><span class="pre">object</span></code>  ;</p></li>
+<li><p>Le contenu de l’élément HTML  <code class="docutils literal notranslate"><span class="pre">noembed</span></code>  ;</p></li>
+<li><p>Un contenu présent immédiatement avant ou après l’objet ;</p></li>
+<li><p>Un lien vers une page fournissant le contenu alternatif, placé immédiatement avant ou après l’objet.</p></li>
+</ul>
+</section>
+<section id="id12">
+<h4>Contrôle<a class="headerlink" href="#id12" title="Link to this heading">#</a></h4>
+<p>Cette vérification nécessite la détection des éléments  <code class="docutils literal notranslate"><span class="pre">object</span></code>  et  <code class="docutils literal notranslate"><span class="pre">embed</span></code> , en tenant compte de leur éventuelle génération via Javascript. Pour chaque page contenant un de ces éléments :</p>
+<ul class="simple">
+<li><p>Désactiver le support des technologies tierces dans le navigateur.</p></li>
+<li><p>S’assurer que l’information alternative est présente et affichée, ou qu’elle est accessible grâce à un lien présent dans le contexte immédiat de chaque objet.</p></li>
+</ul>
+</section>
+</section>
+<section id="chaque-contenu-audio-et-video-est-accompagne-de-sa-transcription-textuelle">
+<h3>116 - Chaque contenu audio et vidéo est accompagné de sa transcription textuelle.<a class="headerlink" href="#chaque-contenu-audio-et-video-est-accompagne-de-sa-transcription-textuelle" title="Link to this heading">#</a></h3>
+<section id="id13">
+<h4>Objectif<a class="headerlink" href="#id13" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs qui ne peuvent accéder au son ou à l’image proposés de diposer d’une transcription textuelle servant d’alternative.</p></li>
+<li><p>Permettre aux utilisateurs d’accéder à l’information contenue dans la vidéo.</p></li>
+<li><p>Permettre l’exploitation de l’information par des robots pour améliorer son indexation et son référencement.</p></li>
+<li><p>Permettre la traduction par des outils linguistiques en ligne.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées.</p></li>
+</ul>
+</section>
+<section id="id14">
+<h4>Mise en œuvre<a class="headerlink" href="#id14" title="Link to this heading">#</a></h4>
+<p>Accompagner chaque contenu audio ou vidéo d’une transcription :</p>
+<ul class="simple">
+<li><p>Soit intégrale (contenant les paroles et une description des sons et éléments visuels nécessaires à la compréhension) ;</p></li>
+<li><p>Soit synthétique (mais reflétant  la totalité de l’information).</p></li>
+</ul>
+<p>La transcription peut :</p>
+<ul class="simple">
+<li><p>Figurer dans la page où se trouve le contenu vidéo ou audio ;</p></li>
+<li><p>u être immédiatement accessible par un lien présent dans la page où se trouve le contenu vidéo ou audio.</p></li>
+</ul>
+</section>
+<section id="id15">
+<h4>Contrôle<a class="headerlink" href="#id15" title="Link to this heading">#</a></h4>
+<p>Identifier chaque page comportant un contenu multimédia et, dans le contexte immédiat de chaque contenu audio ou vidéo, s’assurer de la présence d’une transcription ou d’un lien y donnant immédiatement accès.</p>
+</section>
+</section>
+<section id="les-videos-comportent-des-sous-titres-synchronises">
+<h3>117 - Les vidéos comportent des sous-titres synchronisés.<a class="headerlink" href="#les-videos-comportent-des-sous-titres-synchronises" title="Link to this heading">#</a></h3>
+<section id="id16">
+<h4>Objectif<a class="headerlink" href="#id16" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Permettre aux utilisateurs qui ne peuvent accéder au son de disposer d’une alternative visuelle synchronisée avec l’image suivre confortablement le déroulement de la vidéo sans devoir utiliser un transcript externe.</p></li>
+<li><p>Permettre aux utilisateurs sourds d’accéder aux contenus de la vidéo.</p></li>
+<li><p>Permettre à tous les utilisateurs d’accéder aux contenus de la vidéo.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id17">
+<h4>Mise en œuvre<a class="headerlink" href="#id17" title="Link to this heading">#</a></h4>
+<p>Associer à chaque contenu vidéo des sous-titres synchronisés reprenant au moins l’information donnée par la parole.</p>
+</section>
+<section id="id18">
+<h4>Contrôle<a class="headerlink" href="#id18" title="Link to this heading">#</a></h4>
+<p>Vérifier, pour chaque contenu vidéo fournissant une information par la parole, que celle-ci peut être lue via des sous-titres synchronisés.</p>
+</section>
+</section>
+<section id="la-duree-des-contenus-video-ou-audio-est-indiquee">
+<h3>118 - La durée des contenus vidéo ou audio est indiquée.<a class="headerlink" href="#la-duree-des-contenus-video-ou-audio-est-indiquee" title="Link to this heading">#</a></h3>
+<section id="id19">
+<h4>Objectif<a class="headerlink" href="#id19" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Informer l’utilisateur afin qu’il puisse décider en connaissance de cause de consulter ou de télécharger ou non le contenu concerné.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id20">
+<h4>Mise en œuvre<a class="headerlink" href="#id20" title="Link to this heading">#</a></h4>
+<p>Accompagner chaque contenu vidéo ou audio, à télécharger ou à consulter en ligne, de la mention de sa durée. Celle-ci peut être éventuellement indiquée de manière générique, sous forme d’un ordre de grandeur commun à un ensemble de contenus.</p>
+</section>
+<section id="id21">
+<h4>Contrôle<a class="headerlink" href="#id21" title="Link to this heading">#</a></h4>
+<p>Dans chaque page comportant un contenu multimédia :</p>
+<ul class="simple">
+<li><p>Vérifier que la durée de chaque contenu audio ou vidéo est indiquée avant la consultation de celui-ci, c’est-à-dire dans le contexte immédiat du player.</p></li>
+<li><p>Contrôler que la durée indiquée correspond à la durée réelle, ou qu’il s’agit d’un ordre de grandeur suffisant.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-videos-sont-declenchees-par-l-utilisateur">
+<h3>119 - Les vidéos sont déclenchées par l’utilisateur.<a class="headerlink" href="#les-videos-sont-declenchees-par-l-utilisateur" title="Link to this heading">#</a></h3>
+<section id="id22">
+<h4>Objectif<a class="headerlink" href="#id22" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Laisser à l’utilisateur le contrôle de l’interface visuelle lors de la consultation du site.</p></li>
+<li><p>Ne pas imposer à l’utilisateur le déclenchement d’un contenu animé.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id23">
+<h4>Mise en œuvre<a class="headerlink" href="#id23" title="Link to this heading">#</a></h4>
+<p>Ne pas mettre en place des contenus audio dont le démarrage est automatique et sans action explicite de l’utilisateur en ce sens.</p>
+<p>Ne pas incorporer dans la page d’éléments déclenchant la lecture d’une vidéo non contrôlable par exemple avec l’élément html  <code class="docutils literal notranslate"><span class="pre">vidéo</span></code>  doté de l’attribut  <code class="docutils literal notranslate"><span class="pre">autoplay</span></code>  ou sans l’attribut  <code class="docutils literal notranslate"><span class="pre">controls</span></code> .</p>
+</section>
+<section id="id24">
+<h4>Contrôle<a class="headerlink" href="#id24" title="Link to this heading">#</a></h4>
+<p>Dans chaque page comportant un contenu vidéo :</p>
+<ul class="simple">
+<li><p>Vérifier l’absence de contenus vidéo activés automatiquement au chargement de la page ;</p></li>
+<li><p>Vérifier l’absence de contenus vidéos activés de manière imprévisibles suite à une action de l’utilisateur.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-sons-sont-declenches-par-l-utilisateur">
+<h3>120 - Les sons sont déclenchés par l’utilisateur.<a class="headerlink" href="#les-sons-sont-declenches-par-l-utilisateur" title="Link to this heading">#</a></h3>
+<section id="id25">
+<h4>Objectif<a class="headerlink" href="#id25" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Laisser à l’utilisateur le contrôle du son lors de la consultation du site.</p></li>
+<li><p>Ne pas surprendre l’utilisateur par la diffusion inattendue d’un contenu audio.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id26">
+<h4>Mise en œuvre<a class="headerlink" href="#id26" title="Link to this heading">#</a></h4>
+<p>Ne pas mettre en place des contenus audio dont le démarrage est automatique et sans action explicite de l’utilisateur en ce sens.</p>
+<p>Ne pas incorporer dans la page d’éléments déclenchant la lecture d’un son non contrôlable par exemple avec l’élément html  <code class="docutils literal notranslate"><span class="pre">audio</span></code>  doté de l’attribut  <code class="docutils literal notranslate"><span class="pre">autoplay</span></code>  ou sans l’attribut  <code class="docutils literal notranslate"><span class="pre">controls</span></code> .</p>
+</section>
+<section id="id27">
+<h4>Contrôle<a class="headerlink" href="#id27" title="Link to this heading">#</a></h4>
+<p>Dans chaque page comportant un contenu audio :</p>
+<ul class="simple">
+<li><p>Vérifier l’absence de contenus audio activés automatiquement au chargement de la page ;</p></li>
+<li><p>Vérifier l’absence de contenus audio activés de manière imprévisibles suite à une action de l’utilisateur.</p></li>
+</ul>
+</section>
+</section>
+<section id="les-animations-sons-et-clignotements-peuvent-etre-mis-en-pause">
+<h3>121 - Les animations, sons et clignotements peuvent être mis en pause.<a class="headerlink" href="#les-animations-sons-et-clignotements-peuvent-etre-mis-en-pause" title="Link to this heading">#</a></h3>
+<section id="id28">
+<h4>Objectif<a class="headerlink" href="#id28" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Laisser à l’utilisateur le contrôle des animations lors de la consultation du contenu.</p></li>
+<li><p>Ne pas perturber l’attention en imposant des éléments pouvant gêner celle-ci.</p></li>
+<li><p>Permettre la consultation pas à pas d’animations séquentielles ou de contenus sonores.</p></li>
+<li><p>Améliorer l’accessibilité des contenus aux personnes handicapées</p></li>
+</ul>
+</section>
+<section id="id29">
+<h4>Mise en œuvre<a class="headerlink" href="#id29" title="Link to this heading">#</a></h4>
+<p>Dès lors qu’une animation visuelle a une durée de plus de 5 secondes ou qu’un son a une durée de plus de 3 secondes, doter systématiquement l’objet multimédia des moyens de contrôle nécessaires : démarrage, arrêt, muet ou volume.</p>
+<p>Ne pas utiliser de graphismes animés non contrôlables, ou encore partiellement contrôlables par l’utilisateur (images gif animées en particulier).</p>
+</section>
+<section id="id30">
+<h4>Contrôle<a class="headerlink" href="#id30" title="Link to this heading">#</a></h4>
+<p>Dans chaque page contenant une animation visuelle d’une durée de plus de 5 secondes ou un son d’une durée de plus de 3 secondes :</p>
+<ul class="simple">
+<li><p>Contrôler la possibilité de stopper l’animation, le son ou le clignotement (pause, redémarrage, volume sonore le cas échéant).</p></li>
+</ul>
+<p>Il existe une grande variété de moyens techniques permettant d’inclure une animation dans une page : balisage, propriété CSS, images animées, Javascript, SVG, etc. La vérification de cette bonne pratique nécessite donc un examen au cas par cas de chaque page concernée.</p>
+</section>
+</section>
+<section id="le-deroulement-des-animations-ne-bloque-pas-la-navigation-ou-l-acces-aux-contenus">
+<h3>122 - Le déroulement des animations ne bloque pas la navigation ou l’accès aux contenus.<a class="headerlink" href="#le-deroulement-des-animations-ne-bloque-pas-la-navigation-ou-l-acces-aux-contenus" title="Link to this heading">#</a></h3>
+<section id="id31">
+<h4>Objectif<a class="headerlink" href="#id31" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p>Fournir aux utilisateurs un accès direct et immédiat aux contenus, même lorsque l’administrateur du site décide de proposer une animation ou une publicité préalable.</p></li>
+</ul>
+</section>
+<section id="id32">
+<h4>Mise en œuvre<a class="headerlink" href="#id32" title="Link to this heading">#</a></h4>
+<p>En cas d’animation proposée dans un splash screen, celle-ci doit comporter un lien permettant d’accéder directement aux contenus sans devoir attendre la fin de l’animation.</p>
+</section>
+<section id="id33">
+<h4>Contrôle<a class="headerlink" href="#id33" title="Link to this heading">#</a></h4>
+<p>Pour chaque page dont l’accès est précédé par une animation :</p>
+<ul class="simple">
+<li><p>Vérifier qu’il est possible d’outrepasser l’animation sans devoir attendre la fin de son déroulement, soit par le biais d’un lien d’accès direct au site, soit par un contrôle permettant son arrêt.</p></li>
+</ul>
+<p>Cette bonne pratique concerne, en règle générale, la page d’accueil du site mais elle peut également être en jeu dans des pages internes.</p>
+</section>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -620,6 +959,104 @@ document.write(`
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> 
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regles">Règles</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chaque-image-decorative-est-dotee-d-une-alternative-textuelle-appropriee">111 - Chaque image décorative est dotée d’une alternative textuelle appropriée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#objectif">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-en-oeuvre">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#controle">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chaque-image-lien-est-dotee-d-une-alternative-textuelle-appropriee">112 - Chaque image-lien est dotée d’une alternative textuelle appropriée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chaque-image-porteuse-d-information-est-dotee-d-une-alternative-textuelle-appropriee">113 - Chaque image porteuse d’information est dotée d’une alternative textuelle appropriée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-vignettes-et-apercus-ne-sont-pas-des-images-de-taille-superieure-redimensionnees-cote-client">114 - Les vignettes et aperçus ne sont pas des images de taille supérieure redimensionnées côté client.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-objets-inclus-sont-dotes-d-une-alternative-textuelle-appropriee">115 - Les objets inclus sont dotés d’une alternative textuelle appropriée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id11">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#chaque-contenu-audio-et-video-est-accompagne-de-sa-transcription-textuelle">116 - Chaque contenu audio et vidéo est accompagné de sa transcription textuelle.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id14">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id15">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-videos-comportent-des-sous-titres-synchronises">117 - Les vidéos comportent des sous-titres synchronisés.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id16">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id17">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id18">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#la-duree-des-contenus-video-ou-audio-est-indiquee">118 - La durée des contenus vidéo ou audio est indiquée.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id19">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id20">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id21">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-videos-sont-declenchees-par-l-utilisateur">119 - Les vidéos sont déclenchées par l’utilisateur.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id22">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id23">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id24">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-sons-sont-declenches-par-l-utilisateur">120 - Les sons sont déclenchés par l’utilisateur.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id25">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id26">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id27">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-animations-sons-et-clignotements-peuvent-etre-mis-en-pause">121 - Les animations, sons et clignotements peuvent être mis en pause.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id28">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id29">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id30">Contrôle</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-deroulement-des-animations-ne-bloque-pas-la-navigation-ou-l-acces-aux-contenus">122 - Le déroulement des animations ne bloque pas la navigation ou l’accès aux contenus.</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id31">Objectif</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id32">Mise en œuvre</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id33">Contrôle</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../../../_sources/content/Outils/Opquast/Image-media.md">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
               
             
           </div>
