@@ -38,8 +38,11 @@
 
 ## Fiches ROME
 
-- E1205 - Réalisation de contenus multimédias
-- E1104 - Conception de contenus multimédias
+- [E1205](https://www.soi-tc.fr/assets/fiches_pe/FEM_E1205.pdf) - Réalisation de contenus multimédias
+- [E1104](https://www.soi-tc.fr/assets/fiches_pe/FEM_E1104.pdf) - Conception de contenus multimédias
+- [E1103](https://www.soi-tc.fr/assets/fiches_pe/FEM_E1103.pdf) - Communication
+- [M1403](https://rome.adem.etat.lu/pdf/modified/M1403_ECON.pdf) - Études et prospectives socio-économiques
+- [M1803](https://www.soi-tc.fr/assets/fiches_pe/FEM_M1803.pdf) -  Direction des systèmes d'information
 
 ## Métiers
 

@@ -90,6 +90,10 @@ Un jeux pour tester la visibilité de différentes nuances de couleurs
 - [onts.ilovetypography.com](https://fonts.ilovetypography.com/)
 
 
+## Iconographie
+
+### pictogrammes de réassurance
+
 
 
 ## Synthèse

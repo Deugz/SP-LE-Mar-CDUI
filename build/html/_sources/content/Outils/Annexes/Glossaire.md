@@ -47,7 +47,7 @@ Body
   d'une page à l'autre. A contrario, le header et le footer, eux, sont statiques et comportent les mêmes informations Quelles que soient les pages du site.  
 
 B2B
-  Business to Business, ce terme désigne les entreprises qui commercent avec les autres compagnies.  
+  Business to Business, ce terme désigne les entreprises qui commercent avec les autres compagnies.
 
 B2C
   Business to Consumer, ce terme désigne les entreprises qui commercent avec les consommateurs.  
@@ -102,19 +102,13 @@ Dropdown
   Un dropdown (ou menu déroulant en français) est un élément d’interface utilisateur qui permet à l’utilisateur de choisir une option parmi une liste cachée qui s’affiche lorsqu’on clique ou survole un bouton ou une zone de sélection.
 
 Drupal 
-  CMS ou Système de Gestion de Contenu programmé en langage PHP par Dries Buytaert en 2000. Drupal est un open-source faisant partie des grands leaders sur son marché. En 2010 Drupal équipait environ 1% des 
-  sites internet au niveau mondial. Le CMS est également considéré par les professionnels comme étant simple d’utilisation et ne possédant pas de back office. Les fonctions de Drupal étant moins populaires, 
-  elles sont par conséquent légèrement plus complexes à appréhender.  
+  CMS ou Système de Gestion de Contenu programmé en langage PHP par Dries Buytaert en 2000. Drupal est un open-source faisant partie des grands leaders sur son marché. En 2010 Drupal équipait environ 1% des sites internet au niveau mondial. Le CMS est également considéré par les professionnels comme étant simple d’utilisation et ne possédant pas de back office. Les fonctions de Drupal étant moins populaires, elles sont par conséquent légèrement plus complexes à appréhender.  
 
 DNS
   Domain Name System ou Système de Noms de Domaine en français, le DNS est une base de données disponible sur le réseau permettant de traduire les noms de domaines entre eux (en adresse IP par exemple).
 
 Effet Sandbox 
-   Bac à sable en français, l'Effet Sandbox est apparenté à une mise en quarantaine des nouveaux sites e-commerce par Google. Longtemps considéré comme une rumeur, l'Effet Sandbox, selon Matt Cutts (blogueur 
-  très connu dans le SEO) existe vraiment et consiste à pénaliser les nouveaux sites e-commerce en ne leur permettant pas de monter rapidement dans les SERP; mais ceci en raison d'une période de mise à 
-  l'épreuve. Bien que tout site émergeant ait droit a des chances égales pour se positionner dans les résultats des moteurs de recherches (SERP), Google estime toutefois qu'un nouveau site e-commerce doit 
-  prouver de part plusieurs facteurs (la qualité de ses liens entrants, sa pérennité, sa notoriété, son trafic...) qu'il mérite de gagner des places auprès de ses concurrents déjà actifs sur le marché et 
-  occupant des positions fortement convoitées.
+  Bac à sable en français, l'Effet Sandbox est apparenté à une mise en quarantaine des nouveaux sites e-commerce par Google. Longtemps considéré comme une rumeur, l'Effet Sandbox, selon Matt Cutts (blogueur très connu dans le SEO) existe vraiment et consiste à pénaliser les nouveaux sites e-commerce en ne leur permettant pas de monter rapidement dans les SERP; mais ceci en raison d'une période de mise à l'épreuve. Bien que tout site émergeant ait droit a des chances égales pour se positionner dans les résultats des moteurs de recherches (SERP), Google estime toutefois qu'un nouveau site e-commerce doit prouver de part plusieurs facteurs (la qualité de ses liens entrants, sa pérennité, sa notoriété, son trafic...) qu'il mérite de gagner des places auprès de ses concurrents déjà actifs sur le marché et occupant des positions fortement convoitées.
 
 E-learning
   Formation en ligne ou Apprentissage en ligne, l'E-learning est un terme issu de la cyberculture. Il donne accès à l'apprentissage par des moyens numériques et multimédias. E-mail : Courrier électronique. 
@@ -160,6 +154,9 @@ Hackathon
 Header 
   Le Header désigne le haut d'une page web où se situent des éléments aidant l'utilisateur à naviguer dans le site. Il contient en général le logo du site, une barre de navigation, un formulaire de recherche, 
   un CTA permettant de changer la langue du site etc...  
+
+iframe
+  Un iframe (ou inline frame) est un élément HTML (`<iframe>`) qui permet d’intégrer une page web à l’intérieur d’une autre page web. Autrement dit, c’est comme une "fenêtre" dans ta page actuelle qui affiche une autre page web. [En savoir plus](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/iframe)
 
 Inbound Marketing 
   Stratégie marketing ayant pour fonction d'attirer les clients plutôt que de les solliciter au travers de la publicité. Contrairement à la méthode traditionnelle qu'est l' Outbound marketing, l' Inbound Marketing lui tend à séduire sa cible par son image de marque, son contenu intelligible et pertinent, ses visuels... Les quatre grandes étapes connues à ce jour pour réaliser de l' Inbound Marketing sont : Attirer, Convertir, Conclure et enfin Fidéliser.  

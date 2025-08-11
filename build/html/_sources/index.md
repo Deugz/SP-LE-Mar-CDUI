@@ -70,6 +70,28 @@ content/Promo/CDP1/CDP1-Main
 
 
 
+::::{grid} 2
+
+:::{grid-item}
+:columns: 6
+
+> Explication
+
+:::
+
+:::{grid-item}
+:colulns: 6
+
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js" type="module"></script>
+<dotlottie-wc src="https://lottie.host/fa1b1ce5-5109-4951-b2bf-ac32676f4c1d/Mwyo4Detd6.lottie" style="width: 100%;height: auto" speed="1" autoplay loop></dotlottie-wc>
+
+:::
+
+::::
+
+
+
+
 <div class="embedresize">
 <iframe src="_static/Story-LE-Mar-CDUI-V1/story.html" width="100%" height="auto" style="border:1px solid #ccc;"></iframe>
 </div>

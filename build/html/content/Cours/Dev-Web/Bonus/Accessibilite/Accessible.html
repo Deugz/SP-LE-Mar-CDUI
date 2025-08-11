@@ -548,7 +548,11 @@ document.write(`
 <li class="toctree-l2"><a class="reference internal" href="../../HTML-CSS-JS/js.html">19.c - Javascript</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1"><a class="reference internal" href="../../Wordpress/Wordpress.html">20 - Wordpress</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Wordpress/Wordpress.html">20 - Wordpress</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Wordpress/Elementor.html">Elementor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Wordpress/Woocomerce.html">Woocomerce</a></li>
+</ul>
+</details></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="../Bonus-Dev-Web.html">Bonus</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2 current active"><a class="current reference internal" href="#">Accessibilité</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../Eco-Conception/Eco-conception.html">Eco-Conception</a></li>
@@ -558,7 +562,7 @@ document.write(`
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">📈 Webmarketing</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../../WebMarketing/Reseau-Social/Reseau-Social.html">21 - Stratégie Réseau Sociale</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../WebMarketing/Reseau-Social/Reseau-Social.html">21 - Stratégie Réseau Sociaux</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../WebMarketing/SEO/SEO.html">22 - Référencement (SEO)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../WebMarketing/Emailing/Emailing.html">23 - Campagne d’emailing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../WebMarketing/Analytics/Google-Analytics.html">24 - Google Analytics</a></li>
@@ -634,6 +638,134 @@ document.write(`
 <p class="admonition-title">Note</p>
 <p>Faire le lien vers page dans <a class="reference external" href="https://deugz.github.io/SP-LE-Marseille/build/html/content/Organisation/Certifications/Accessibilite/Accessibilite.html" rel="noreferrer" target="_blank">SP-Marseile</a></p>
 </div>
+<section id="referentiel">
+<h2>Référentiel<a class="headerlink" href="#referentiel" title="Link to this heading">#</a></h2>
+<p>RGAA vs WCAG</p>
+<section id="criteres">
+<h3>Critères<a class="headerlink" href="#criteres" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p>A : Critères de base permettant d’éviter les obstacles majeurs.</p></li>
+<li><p>AA : Critères permettant d’améliorer l’accessibilité pour un public plus large.</p></li>
+<li><p>AAA : Critères les plus stricts, visant l’accessibilité optimale pour tous les utilisateurs.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Les critères A et AA sont requis pour la conformité légale de juin 2025.</strong></p>
+<p>Les critères AAA sont recommandés pour une accessibilité optimale mais ne sont pas obligatoires. Certaines solutions peuvent donner des alternatives aux critères AA (exemple: audio description niveau AA peut être remplacé par une transcription enrichie AAA si non applicable)</p>
+</div>
+</section>
+<section id="legislation">
+<h3>Legislation<a class="headerlink" href="#legislation" title="Link to this heading">#</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>2005 : Loi sur l’égalité des droits → naissance du RGAA</p></li>
+<li><p>2018 : Accessibilité renforcée pour la formation</p></li>
+<li><p>2030 : Fin du délai pour la mise en accessibilité des services existants (EAA)</p></li>
+</ul>
+</div>
+</section>
+</section>
+<section id="les-4-piliers-de-l-accessibilite-numerique">
+<h2>les 4 piliers de l’accessibilité numérique<a class="headerlink" href="#les-4-piliers-de-l-accessibilite-numerique" title="Link to this heading">#</a></h2>
+<section id="perceptible">
+<h3>Perceptible<a class="headerlink" href="#perceptible" title="Link to this heading">#</a></h3>
+<p class="p-emphase">Contenus visibles ou audibles par tous</p>
+</section>
+<section id="utilisable">
+<h3>Utilisable<a class="headerlink" href="#utilisable" title="Link to this heading">#</a></h3>
+<p class="p-emphase">Navigation et interactions simples pour tous.</p>
+</section>
+<section id="comprehensible">
+<h3>Compréhensible<a class="headerlink" href="#comprehensible" title="Link to this heading">#</a></h3>
+<p class="p-emphase">Clarté du contenu et du fonctionnement.</p>
+</section>
+<section id="robuste">
+<h3>Robuste<a class="headerlink" href="#robuste" title="Link to this heading">#</a></h3>
+<p class="p-emphase">Compatibilité avec les dispositifs d’assistance.</p>
+</section>
+</section>
+<section id="test">
+<h2>Test<a class="headerlink" href="#test" title="Link to this heading">#</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Tester helperbird</p>
+</div>
+<section id="navigation-clavier">
+<h3>Navigation Clavier<a class="headerlink" href="#navigation-clavier" title="Link to this heading">#</a></h3>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<img alt="../../../../../_images/navigation-clavier.png" src="../../../../../_images/navigation-clavier.png" />
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<ul class="simple">
+<li><p><strong>“Tab”</strong> pour naviguer entre les éléments interactifs</p></li>
+<li><p><strong>“Maj + Tab”</strong> pour revenir en arrière.</p></li>
+<li><p><strong>“Entrée”</strong> pour valider les actions.</p></li>
+</ul>
+</div>
+</div>
+</div>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Insérer le lien vers les différents raccourcis clavier fournit par Elodie</p>
+</div>
+</section>
+<section id="lecteur-d-ecran">
+<h3>Lecteur d’écran<a class="headerlink" href="#lecteur-d-ecran" title="Link to this heading">#</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Insérer vidéo que Elodie a présenté:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.youtube.com/watch?v=uPCPES9ENvs" rel="noreferrer" target="_blank">Youtube</a></p></li>
+</ul>
+<p>Peut être qu’on peut trouver une meilleure vidéo</p>
+</div>
+</section>
+</section>
+<section id="outils">
+<h2>Outils<a class="headerlink" href="#outils" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p>windows + u pour ouvrir les paramètres d’accesibilités de windows</p></li>
+</ul>
+<section id="checklist-accessibilite">
+<h3>Checklist Accessibilité<a class="headerlink" href="#checklist-accessibilite" title="Link to this heading">#</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Insérer et expliquer la checklist accessibilité de Elodie</p>
+<ul class="simple">
+<li><p><a class="reference download internal" download="" href="../../../../../_downloads/6bbd890dc6e0ceb718a13eef04794047/4-checklists-accessiblit%C3%A9-DL.xlsx"><span class="xref download myst">Tableau excel</span></a></p></li>
+</ul>
+</div>
+</section>
+<section id="site-ressource">
+<h3>Site Ressource<a class="headerlink" href="#site-ressource" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="#"><span class="xref myst">Le site</span></a></p></li>
+</ul>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<blockquote>
+<div><p>Un espace pensé pour rendre l’accessibilité numérique concrète, utile, et partagée dans le digital learning (mais pas que). Cette ressource, conçu et maintenu par <a class="reference external" href="https://www.linkedin.com/in/emigeon/" rel="noreferrer" target="_blank">Elodie Migeon</a> est une véritable mine d’or pour ceux qui veulent intégrer l’accéssibilité dans leurt pratique de conception et de design. Je vous invite à la suivre sur linkedin en cliquant sur le lien ci-dessus</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Formabilité</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<img alt="../../../../../_images/logo-formabilite.png" src="../../../../../_images/logo-formabilite.png" />
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://www.formabilite.fr/" rel="noreferrer" target="_blank"><span>https://www.formabilite.fr/</span></a></div>
+</div>
+</div>
+</div>
+</section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -692,6 +824,37 @@ document.write(`
               
                 <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
 
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> 
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#referentiel">Référentiel</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#criteres">Critères</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#legislation">Legislation</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#les-4-piliers-de-l-accessibilite-numerique">les 4 piliers de l’accessibilité numérique</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#perceptible">Perceptible</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#utilisable">Utilisable</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#comprehensible">Compréhensible</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#robuste">Robuste</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#test">Test</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#navigation-clavier">Navigation Clavier</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#lecteur-d-ecran">Lecteur d’écran</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#outils">Outils</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#checklist-accessibilite">Checklist Accessibilité</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#site-ressource">Site Ressource</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
 
   <div class="sidebar-secondary-item">
 

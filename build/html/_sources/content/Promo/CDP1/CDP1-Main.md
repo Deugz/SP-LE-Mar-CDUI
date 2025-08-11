@@ -1,5 +1,6 @@
 # ✅ CDP 1
 
+
 ```{toctree}
 :maxdepth: 2
 :caption: Apprenants
@@ -32,39 +33,16 @@ Etudiants/Yassine
 
 ***
 
-## Résultats
-
-```{note}
-
-Inclure diagrame canvas (reprendre la charte graphique label emmaus)
-
-
-```
-
-<div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAGmmdKMFIw/WZmJQHB0-AcCqpYK9-G5CA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGmmdKMFIw&#x2F;WZmJQHB0-AcCqpYK9-G5CA&#x2F;view?utm_content=DAGmmdKMFIw&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Design</a> par Vdeguin
-
 ## Apprenants
 
-```{note}
+<p class="p-emphase"> 17 pépites : <em>A jamais les premiers !</em></p>
 
-Utiliser leur logo comme images
-
-
-```
-
-::::{grid} 3
+::::{grid} 4
 
 :::{grid-item-card}
 :link: Etudiants/Adam.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Adam**
 ^^^
 
@@ -79,7 +57,7 @@ Utiliser leur logo comme images
 :::{grid-item-card}
 :link: Etudiants/Anny.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Anny**
 ^^^
 
@@ -96,7 +74,7 @@ Utiliser leur logo comme images
 :::{grid-item-card}
 :link: Etudiants/Audrey.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Audrey**
 ^^^
 
@@ -109,14 +87,10 @@ Utiliser leur logo comme images
 ✅
 :::
 
-::::
-
-::::{grid} 3
-
 :::{grid-item-card}
 :link: Etudiants/Celika.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Celika** 
 ^^^
 
@@ -126,10 +100,14 @@ Logo
 ❌
 :::
 
+::::
+
+::::{grid} 4
+
 :::{grid-item-card}
 :link: Etudiants/Christian.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Christian** 
 ^^^
 
@@ -142,7 +120,7 @@ Logo
 :::{grid-item-card}
 :link: Etudiants/Christophe.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Chrisophe** 
 ^^^
 
@@ -152,14 +130,10 @@ Logo
 ❌
 :::
 
-::::
-
-::::{grid} 3
-
 :::{grid-item-card}
 :link: Etudiants/Corrine.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Corrine** 
 ^^^
 
@@ -175,7 +149,7 @@ Logo
 :::{grid-item-card}
 :link: Etudiants/Jana.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Jana** 
 ^^^
 
@@ -185,10 +159,16 @@ Logo
 ❌
 :::
 
+
+::::
+
+::::{grid} 4
+
+
 :::{grid-item-card}
 :link: Etudiants/Kannel.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Kannel** 
 ^^^
 
@@ -198,14 +178,10 @@ Logo
 ❌
 :::
 
-::::
-
-::::{grid} 3
-
 :::{grid-item-card}
 :link: Etudiants/Mahran.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Mahran** 
 ^^^
 
@@ -225,7 +201,7 @@ Logo
 :::{grid-item-card}
 :link: Etudiants/Ranya.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Ranya** 
 ^^^
 
@@ -238,7 +214,7 @@ Logo
 :::{grid-item-card}
 :link: Etudiants/Salman.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Salman** 
 ^^^
 
@@ -250,12 +226,13 @@ Logo
 
 ::::
 
-::::{grid} 3
+
+::::{grid} 4
 
 :::{grid-item-card}
 :link: Etudiants/Sophia.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Sophia** 
 ^^^
 
@@ -268,7 +245,7 @@ Logo
 :::{grid-item-card}
 :link: Etudiants/Souadrou.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Soidrou** 
 ^^^
 
@@ -284,7 +261,7 @@ Logo
 :::{grid-item-card}
 :link: Etudiants/Soula.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Soula** 
 ^^^
 
@@ -300,14 +277,10 @@ Logo
 ✅
 :::
 
-::::
-
-::::{grid} 3
-
 :::{grid-item-card}
 :link: Etudiants/Sylvia.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Sylvia** 
 ^^^
 
@@ -317,10 +290,14 @@ Logo
 ❌
 :::
 
+::::
+
+::::{grid} 4
+
 :::{grid-item-card}
 :link: Etudiants/Yanis.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Yanis** 
 ^^^
 
@@ -333,7 +310,7 @@ Logo
 :::{grid-item-card}
 :link: Etudiants/Yassine.html
 :class-header: bg-light
-:columns: 4
+:columns: 3
 **Yassine** 
 ^^^
 
@@ -348,6 +325,34 @@ Logo
 
 ::::
 
+## Résultats
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 5
+
+<br>
+
+> Description de la promo
+
+:::
+
+:::{grid-item}
+:columns: 7
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 100.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGmmdKMFIw/WZmJQHB0-AcCqpYK9-G5CA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGmmdKMFIw&#x2F;WZmJQHB0-AcCqpYK9-G5CA&#x2F;view?utm_content=DAGmmdKMFIw&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Design par Vdeguin</a> 
+
+:::
+
+::::
 
 
 ## Souvenirs

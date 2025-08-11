@@ -81,6 +81,24 @@ A venir
 
 ## Avant de commencer
 
+```{note}
+
+Ressources à exploiter:
+- [airtable](https://airtable.com/appXLDuXC6f7zsBZa/shr6ZKHsPmyGiUUEo/tblbHZw7dmkFlCyP4/viwG0KPts4O55fz21?blocks=hide)
+
+- [easywordpresstuto](https://easywordpress.fr/wp-content/uploads/2023/09/checklist-woocommerce.pdf)
+
+- [Tuto woocomerce complet](https://www.youtube.com/watch?app=desktop&v=i7jy8pmw1a8&utm_source=chatgpt.com)
+
+```
+
+```{warning}
+
+Gros travail pédagogique à faire style les différents ingrédients et après en mode livre de recettes pour les différetes étapes. A chaque fois introduire les différentes étapes d'un tuto
+
+```
+
+
 ### Infos Pratiques
 
 - [Liens drive id connexion](https://docs.google.com/spreadsheets/d/1Rr4-fj457lz1ENsoqAQ68IPNPIpPhJDeh5uqT8bZ9Eo/edit?gid=0#gid=0)
@@ -88,6 +106,8 @@ A venir
 ```{warning}
 
 Utiliser cette section pour présenter le site à Isaure
+
+- créer un tuto pour installer le plugin worpress (demande de Florian)
 
 ```
 
@@ -276,6 +296,8 @@ Faire une analyse de elementor et lister les autres constructeurs de thème
 
 ```
 
+Par défaut le constructeur de thème de Wordpress est Guttenberg
+
 ##### Apparence
 
 Utile pour la partie menu, le reste est fait via Elementor
@@ -361,11 +383,62 @@ Le responsive est un élément très important à prendre en compte dans la cré
 
 Dans élémentor sélectionner l'icone mobile et modifier les paramètres de style
 
-## Méthode simple
+
+```{note}
+
+ne pas créer de marges et tout en px, plutot utiliser des pourcentages qui permettent que l'affichage soit similaire entre le desktop et le mobile
+
+```
+
+### Méthode simple
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 6
 
 - **Cacher les éléments et les refaire pour chaque**
 
 Pour cacher les éléments il faut aller dans avancé - responsive - cacher les éléments - Ensuite on créé un nouvel élément sur le mobile que l'on cachera sur ordi
+
+:::
+
+:::{grid-item}
+:columns: 6
+
+```{figure} Docs/Capture-responsive-hide.png
+---
+width: 100%
+name: Capture-responsive-hide
+---
+Capture d'écran illustrant les paramètres à sélectionner pour cacher les éléments
+```
+
+:::
+
+::::
+
+### Autre méthode
+
+```{note}
+
+Prendre l'example d'un espaceur avec le paramètre ajustable (la petite icone)
+
+```
+
+
+## Etapes
+
+### Se poser les bonnes questions
+
+- Quels éléments apparaissent sur toutes les pages :
+    - Header
+    - Footer
+
+- Les pages uniques vont être créés sur pages
+
+- Les éléments qui apparaissent plusieurs fois vont être créés sur Elementor, constructeur de thème
+
 
 
 ## Plugins
@@ -397,9 +470,27 @@ LMS pour Learning Management System, donc des plugins qui permettent de gérer d
 
 - Installer H5P (plugin Moodle) sur Wordpress - [H5P](https://fr.wordpress.org/plugins/h5p/)
 - plugin pour marquer les pages comme terminé (si tu souhaite créer tes cours directement sur Wordpress) - [lifterlms](https://fr.wordpress.org/plugins/lifterlms-lite-lms-progress-tracker/)
+
 ### IA
 
 - [Cursor](https://www.cursor.com/pricing)
+
+
+## Page acceuil
+
+supprimer le titre : Aller dans la roue et selectionner l'option ne pas afficher le titre
+
+## Implémenter votre charte graphique
+
+### Polices personalisés
+
+```{note}
+
+Insérer des liens vers des sites pour convertir les polices dans les différents formats
+
+```
+
+
 
 
 ## Synthèse
