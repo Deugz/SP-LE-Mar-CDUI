@@ -1,5 +1,45 @@
 # 19.b - CSS
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> La deuxième couche de développement, la forme. 3 lettres ... CSS pour *Cascading Style Sheet* 
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 13/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+ 
+    
+:::
+    
+::::
+
 :::{dropdown} Syllabus
 
 > **Module 19**: *HTML_CSS_JS*

@@ -75,6 +75,8 @@ content/Promo/CDP1/CDP1-Main
 :::{grid-item}
 :columns: 6
 
+<br>
+
 > Explication
 
 :::

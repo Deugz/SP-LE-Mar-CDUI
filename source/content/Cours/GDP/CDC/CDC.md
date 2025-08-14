@@ -1,5 +1,46 @@
 # 2 - Cahier des charges 
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> Le Module **Cahier des Charges** est le premier d'une longue série. Il vous donnera les clés pour bien définir votre projet, et vous permettra également de vous mettre dans la peau d'un *chef de projet* (enfin ça reste à voir).
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 12/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+ 
+    
+:::
+    
+::::
+
+
 :::{dropdown} Syllabus
 
 > **Module 2**: *Réaliser le cahier des charges*

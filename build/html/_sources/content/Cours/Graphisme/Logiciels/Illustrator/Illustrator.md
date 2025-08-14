@@ -1,5 +1,44 @@
 # 6 - Démarrer sur Illustrator
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> C'est l'heure désormais de se plonger dans les outils techniques du Concepteur Designer UI. C'est un gros morceau, 3 journées de cours et probablement plusieurs semaines de pratiques ! Néanmoins, vous allez pouvoir désormais accomplir de grandes choses comme créer votre logo et mettre en place votre charte graphique.
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 13/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+ 
+    
+:::
+    
+::::
 
 :::{dropdown} Syllabus
 
@@ -90,6 +129,17 @@ C'est un peu le bordel dans les supports de cours ...
 - Faire le tri et demander à Véronique si besoin
 
 ```
+
+## Avant de Commencer
+
+```{note}
+
+Faire un petit focus sur comment obtenir les accès
+- lien vers le tableau etc
+
+
+```
+
 
 ## Synthèse
 

@@ -1,5 +1,46 @@
 # 17 - Montage Vidéo
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> 3ème Outil de la suite Adobe : Première Pro   
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 13/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+ 
+    
+:::
+    
+::::
+
+
 :::{dropdown} Syllabus
 
 > **Module 17**: *Montage vidéo*

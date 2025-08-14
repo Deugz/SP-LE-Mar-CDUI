@@ -1,5 +1,7 @@
 # 4 - Système de Veille
 
+<br>
+
 ***
 
 <br>
@@ -1092,4 +1094,23 @@ La matrice SWOT
 
 ## En Plus
 
+### Une Veille Collective ?
+
+<p class="p-emphase"> Et oui ! Pourquoi on mettrait pas en place un outil pour faire une veille collective ?</p>
+
+```{note}
+
+Présentation de l'outil discord et explication de comment on peut nourrir cette plateforme grace aux découvertes de chacun.e
+
+```
+
+### Autres Ressources
+
 - [analyse PESTEL](https://bpifrance-creation.fr/encyclopedie/letude-marche/determiner-sa-strategie/elaborer-sa-strategie-dentreprise-lanalyse)
+
+```{note}
+
+Au programme du Master donc faire le lien quand ce dernier sera créé
+
+
+```

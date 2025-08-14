@@ -1,5 +1,45 @@
 # 8 - Photoshop
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> Deuxième logiciels de la suite Adobe, Photoshop.  
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 13/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+ 
+    
+:::
+    
+::::
+
 :::{dropdown} Syllabus
 
 > **Module 8**: *Maîtriser les bases de Photoshop*
@@ -79,5 +119,13 @@
 ::::
 
 :::::
+
+## Cours
+
+```{note}
+
+Lien vers la bibliothèque de mockup de Lisa
+
+```
 
 ## Synthèse

@@ -1,5 +1,45 @@
 # 19.a - HTML
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> La première couche de développement, le corps, l'architecture, le contenue. 4 lettres que vous n'oublierez plus jamais ... HTML pour *HyperText Markup Language* 
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 13/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+ 
+    
+:::
+    
+::::
+
 :::{dropdown} Syllabus
 
 > **Module 19**: *HTML_CSS_JS*
@@ -18,7 +58,7 @@
 >
 >
 >**Livrables**:
->- Structurer une landing page
+>- Structurer une landing page ou un portfolio
 
 :::
 
@@ -47,6 +87,33 @@ A venir
 ::::
 
 :::::
+
+## Cours
+
+```{note}
+
+On peut faire un truc cool ici !!
+
+- A travailler !!
+
+```
+
+
+### Un peu d'histoire
+
+
+
+
+
+## Bonnes Pratiques
+
+### W3C
+
+```{note}
+
+Identifier le lien entre W3C et Opquast
+
+```
 
 ## Synthèse
 

@@ -1,5 +1,45 @@
 # 3 - Identifier ses utilisateurs 
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> Vous avez identifiés un besoin, posé les bases d'un projet. Les idées fusent, elles s'entremêlent et vous avez envie de partir dans de multiples directions. Calmons nous quelques instants et prenons le temps de réfléchir a quelles sont les utilisateurs et utilisatrices a qui notre projet s'adrèsse
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 12/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+ 
+    
+:::
+    
+::::
+
 
 :::{dropdown} Syllabus
 

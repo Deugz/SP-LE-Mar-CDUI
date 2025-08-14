@@ -1,5 +1,45 @@
 # 18 - Droit de l'internet & RGPD
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> Le développement web, gros morceaux que nous entammons ... Mais avant de se plonger dans les aspects techniques que vous redoutez surement, voyons tout d'abbord certains aspects réglementaires.  
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 13/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+ 
+    
+:::
+    
+::::
+
 :::{dropdown} Syllabus
 
 > **Module 18**: *Droit de l’internet & RGPD*
@@ -56,7 +96,7 @@ A venir
 Anita = fondatrice d'aconic avocats
 
 
-- A chaque étape de la création du sote, qu'estce que je dois faire
+- A chaque étape de la création du site, qu'est-ce que je dois faire
 
 
 ### Fiche produit

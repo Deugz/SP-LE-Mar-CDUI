@@ -1,12 +1,44 @@
 # 24 - Google Analytics
 
-Votre module | 
-Objectif global : 
-Plan de cours :
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> Et pour finir, Google Analytics
+
+:::
 
 
-Livrables :
+:::{grid-item}
+:columns: 4
 
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 13/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+ 
+    
+:::
+    
+::::
 
 :::{dropdown} Syllabus
 
@@ -61,4 +93,22 @@ A venir
 
 :::::
 
+## Avant de commencer
+
+```{note}
+
+Etre sur qu'ils ont déja télécharger le plugin GA sur wordpress en amont de la session et qu'ils ont exploré les sites de chacuns.
+
+
+```
+
 ## Synthèse
+
+## Aller plus loin
+
+```{note}
+
+Explorer d'autres options, alternatives à google analytics (un peu moins GAFAM)
+
+
+```

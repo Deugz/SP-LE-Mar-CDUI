@@ -2,12 +2,53 @@
 
 ```{toctree}
 :maxdepth: 2
+:hidden:
 
 Elementor
 Woocomerce
+Post-wordpress/Post-wordpress
 
 ```
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> Wordpress, la destination finale. celle qui nous achèvera tous et toutes 
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 13/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+ 
+    
+:::
+    
+::::
 
 :::{dropdown} Syllabus
 

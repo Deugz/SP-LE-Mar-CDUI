@@ -1,5 +1,45 @@
 # 9 - Support Print
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> Après avoir expérimenté avec les deux mastodontes que sont Illustrator et Photoshop, il est de se reconnecter avec la réalité et de s'intérésser au **support print**, car oui, même à l'heure du 100% numérique, il est toujours agréable de distribuer une carte de visite après une discussion endiablé autour d'un café ou même de s'auto-interpeler devant un poster qui semble vouloir nous parler (ou qu'on trouve simplement jolie) ...
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 13/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+ 
+    
+:::
+    
+::::
+
 :::{dropdown} Syllabus
 
 > **Module 9**: *Techniques et méthodes d’impressions*

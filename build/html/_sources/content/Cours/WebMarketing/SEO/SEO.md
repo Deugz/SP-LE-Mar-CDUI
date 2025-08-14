@@ -1,5 +1,45 @@
 # 22 - Référencement (SEO)
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> Tout est en place, maintenant il faut que notre arrive a destination de notre cible, et pour ça, rien de mieux qu'un SEO solide.
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 13/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+ 
+    
+:::
+    
+::::
+
 :::{dropdown} Syllabus
 
 > **Module 22**: *Connaître les principes et les règles du référencement naturel et les maîtriser*

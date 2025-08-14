@@ -1,6 +1,5 @@
 # Glossaire
 
-
 ::::{glossary}
 
 Ad-exchange
@@ -20,6 +19,9 @@ Affiliation
 
 Analytics 
   Nom du module de statistiques de Google, on y trouve diverses statistiques sur son site internet, comme le nombre de visiteurs en temps réel, leur provenance...  
+
+Apache 
+  *(Apache HTTP Server)*. Logiciel libre de serveur web développé et maintenu par la Apache Software Foundation. Il permet de diffuser des pages et des applications web en répondant aux requêtes HTTP des navigateurs. Polyvalent et modulaire, Apache prend en charge de nombreux langages côté serveur (comme PHP, Python ou Perl) et propose des fonctionnalités telles que la gestion des certificats SSL/TLS, la réécriture d’URL, la compression des contenus ou la gestion fine des accès. Lancé en 1995, il est l’un des serveurs web les plus utilisés au monde et fonctionne sur différents systèmes d’exploitation, notamment Linux, Windows et macOS.
 
 API
   Applications Programming Interface, une API est une interface de programmation qui permet de se brancher sur une application afin d'échanger des données.  
@@ -115,16 +117,16 @@ E-learning
   Celui-ci peut-être rédigé en HTML ou en texte brut. L'e-mail a été inventé en 1965.
    
 ERP
-  Entreprise Ressource Planning ou PGI (Progiciel de Gestion Intégré) en français, c'est un outil permettant de piloter l'entreprise par le biais d'un seul outil comportant les fonctionnalités nécessaires pour 
-  gérer la totalité de l'activité d'une entreprise.  
+  Entreprise Ressource Planning ou PGI (Progiciel de Gestion Intégré) en français, c'est un outil permettant de piloter l'entreprise par le biais d'un seul outil comportant les fonctionnalités nécessaires pour gérer la totalité de l'activité d'une entreprise.  
+
+Étude de marché
+  Analyse méthodique visant à recueillir et interpréter des informations sur un marché donné, dans le but de comprendre son fonctionnement, ses acteurs et ses opportunités. Elle permet d’identifier la taille du marché, son évolution, les tendances, le profil des consommateurs, leurs besoins, ainsi que la concurrence et l’environnement global (économique, technologique, réglementaire). L’étude de marché peut être qualitative (observations, entretiens, focus groups) ou quantitative (questionnaires, données chiffrées) et constitue une étape clé pour évaluer la faisabilité d’un projet, orienter une stratégie commerciale et réduire les risques liés à la prise de décision.
 
 FAQ
-  Foire Aux Questions (Frequently Asked Questions en anglais), c'est ici que figurent des questions communes qu'un utilisateur risque de se poser en naviguant sur le site. Ces questions sont bien-sûr 
-  accompagnées de leur réponse.  
+  Foire Aux Questions (Frequently Asked Questions en anglais), c'est ici que figurent des questions communes qu'un utilisateur risque de se poser en naviguant sur le site. Ces questions sont bien-sûr accompagnées de leur réponse.  
 
 Favicon
-  Un favicon est l’icône affichée dans la barre d’onglet d’un site web. Le favicon est habituellement constitué du logo de l’entreprise ou de la marque. Cela permet aux internautes de savoir, en un rapide coup 
-  d’œil, sur quelles pages ils naviguent.  
+  Un favicon est l’icône affichée dans la barre d’onglet d’un site web. Le favicon est habituellement constitué du logo de l’entreprise ou de la marque. Cela permet aux internautes de savoir, en un rapide coup d’œil, sur quelles pages ils naviguent.  
 
 Firewall
   Pare-feu en français, un Firewall est un logiciel qu'on installe sur un ordinateur afin de le protéger de toute menace. Il peut inclure ou non un antivirus selon les modèles. Exemples de modèles : Arkoon 
@@ -186,6 +188,9 @@ Méthodologie Agile
 MOOC 
   Massive Open Online Course en anglais, un Mooc est une formation en ligne pratiquée au travers de cours généralement accompagnés de vidéos explicatives. Les MOOCs sont ouverts à tous et peuvent être gratuits ou payants selon les plateformes et la qualité des cours offerts.
 
+MySQL
+  Système de gestion de base de données relationnelle (SGBDR) open source, utilisant le langage SQL (Structured Query Language) pour manipuler et interroger les données. MySQL permet de stocker, organiser et retrouver efficacement de grandes quantités d’informations, généralement dans des tables liées entre elles par des relations. Très répandu dans le développement web, il est souvent associé à des langages côté serveur comme PHP pour créer des sites dynamiques et interactifs. Initialement développé par la société MySQL AB en 1995, il appartient aujourd’hui à Oracle Corporation, tout en restant disponible en version libre.
+
 Netlinking 
   Technique de référencement permettant d’améliorer son SEO. Le Netlinking consiste à échanger des liens entrants/sortants afin d’accroître la visibilité d'un site web. Suite à un excès abusif de cette pratique, Google a décidé de pénaliser le positionnement des pages des sites concernés grâce à Google Penguin, l’algorithme PageRank de Google. Contrairement à Google Panda, Google Penguin ne pénalise pas un site dans sa globalité, mais uniquement les pages ayant entravé les règles Google.  
 
@@ -207,6 +212,19 @@ Pay Per Lead (PPL)
 Pay Per Clic (PPC) 
   Mode de paiement utilisé sur les affiches publicitaires en ligne. À chaque clic effectué, l'annonceur est débité d'un certain montant, et ce, à la hauteur du nombre de clics. Ainsi plus le nombre de clics est élevé... plus la facture est salée. Toutefois, afin d'éviter les abus, des robots se chargent d'analyser régulièrement la source du clic pour ne pas débiter l'annonceur inutilement.  
 
+PHP
+  Langage de script libre principalement utilisé pour le développement web côté serveur. PHP est interprété par le serveur avant l’envoi du contenu au navigateur, ce qui permet de générer des pages web dynamiques, de traiter des formulaires, de gérer des sessions, et d’interagir avec des bases de données (notamment MySQL). Il peut être intégré directement dans du code HTML, ce qui le rend particulièrement pratique pour mélanger structure de page et logique applicative. Créé en 1994 par Rasmus Lerdorf, PHP est aujourd’hui largement utilisé pour des systèmes de gestion de contenu (CMS) comme WordPress, Drupal ou Joomla. 
+    ```php
+    <?php
+    // On définit une variable
+    $nom = "Marie";
+    // On affiche un message personnalisé
+    echo "Bonjour " . $nom . " ! Bienvenue sur mon site.";
+    ?>
+
+    ```
+
+
 Ping
   Programme adressant un paquet dans le but de recevoir une réponse afin de mesurer la vitesse de la connexion, exprimée en millisecondes.
 
@@ -227,6 +245,9 @@ Responsive
 
 Retargeting 
   Action publicitaire ayant pour objectif de détecter la présence d'un client sur une Marketplace et qui soit sorti du site sans effectuer d'achats. Le Retargeting consiste à traquer le client par différents leviers webmarketing afin de le sensibiliser à l'achat d'articles qu'il aurait abandonnés ou tout simplement de lui rappeler sa dernière visite dans l'espoir que ce dernier y revienne.  
+
+Serveur
+  Ordinateur ou système informatique (matériel et/ou logiciel) conçu pour fournir des services, des ressources ou des données à d’autres ordinateurs, appelés clients, via un réseau. Un serveur peut héberger des sites web, gérer des bases de données, stocker des fichiers, traiter des requêtes ou exécuter des applications. Dans le contexte web, un serveur reçoit les requêtes des navigateurs, exécute éventuellement du code (ex. : PHP, Python) et renvoie une réponse, généralement en HTML, CSS ou JSON. Le terme « serveur » peut désigner aussi bien la machine physique (hardware) que le programme qui fournit le service (software).
 
 Scrum
   Méthodologie agile signifiant "mêlée", comme au Rugby. C'est une approche dynamique permettant de gérer un projet de manière à pouvoir constamment le réorienter au fil de son évolution.
@@ -254,6 +275,9 @@ Sphinx
 
 Sprint 
   Période allant de deux semaines à un mois dans laquelle les équipes de développement, le Scrum Master et le Product Owner doivent concevoir un élément spécifique du livrable avant révision.
+
+SQL
+  *Structured Query Language*.Langage normalisé utilisé pour interagir avec des bases de données relationnelles. SQL permet de créer, modifier et supprimer la structure des bases (tables, vues, index), ainsi que d’ajouter, mettre à jour, supprimer et interroger les données qu’elles contiennent. Il repose sur une syntaxe déclarative, où l’on décrit le résultat souhaité plutôt que les étapes précises pour l’obtenir. Les principales instructions SQL incluent `SELECT` (lecture), `INSERT` (ajout), `UPDATE` (modification) et `DELETE` (suppression). Créé dans les années 1970 par IBM, SQL est aujourd’hui un standard maintenu par l’ISO et implémenté dans de nombreux systèmes, dont MySQL, PostgreSQL, Oracle Database et Microsoft SQL Server.
 
 Taux de rebond 
   Ce taux représente le pourcentage de visiteurs qui sont entrés sur un site Internet, mais qui n'ont consulté qu'une page avant de repartir.

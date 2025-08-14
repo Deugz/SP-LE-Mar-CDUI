@@ -1,5 +1,46 @@
 # 5 - Benchmark Digital
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> Vous venez de faire une {term}`étude de marché`, peut-être avez vous trouvé durnat vos recherches et la mise en place de votre système de veille, quelques compétiteurs qui sont déja des acteurs de votre marché. L'idée principale du **Benchmark Digital** est l'analyse de ce que font ces acteurs afin de mieux comprendre leur stratégie et d'adapter la nôtre en fonction.
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 12/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+ 
+    
+:::
+    
+::::
+
+
 :::{dropdown} Syllabus
 
 > **Module 5**: *Savoir réaliser un benchmark digital*

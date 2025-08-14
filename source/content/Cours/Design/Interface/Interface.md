@@ -1,6 +1,45 @@
 (12-Conception-UI)= 
 # 12 - Concevoir l'Interface (UI)
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> **L'Interface Utilisateur** ... Partie la plus importante du programme. C'est la que la magie opère, ou vous assemblez tout ce que vous avez accomplie jusqu'ici pour designer une interface utile et agréable pour vos utilisateurs et utilisatrices. Vous allez utiliser LE logiciel du Concepteur Designer à savoir **Figma**  
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 13/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+     
+:::
+    
+::::
+
 :::{dropdown} Syllabus
 
 > **Module 12**: *Concevoir l’interface (UI)*
@@ -49,6 +88,16 @@ A venir
 ::::
 
 :::::
+
+## Avant de Commencer
+
+### Figma
+
+```{note}
+
+Introduction à Figma et explication des différentes fonctionnalités
+
+```
 
 ## Cours
 

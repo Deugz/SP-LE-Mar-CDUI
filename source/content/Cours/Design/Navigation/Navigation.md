@@ -1,5 +1,44 @@
 # 11 - Concevoir la Navigation (UX)
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> La partie la plus importante pour faciliter le parcours utilisateurs est la **navigation**   
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 13/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+     
+:::
+    
+::::
+
 :::{dropdown} Syllabus
 
 > **Module 11**: *Concevoir la navigation*

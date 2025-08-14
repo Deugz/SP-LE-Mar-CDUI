@@ -1,5 +1,45 @@
 # 15 - Storyboard Vidéo
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> Blabla Storyboard   
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 13/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+ 
+    
+:::
+    
+::::
+
 :::{dropdown} Syllabus
 
 > **Module 15**: *Maîtriser les bases de la photographie e-commerce*
@@ -76,6 +116,13 @@ Pas le bon support mais quelques documents sur le drive
 ### Quelle écriture utiliser
 
 - Les différents genres et types de vidéo, en fonction des différents besoins (tuto, pub, avis conso...). Fiction, documentaire, film de genres (action, horreur...). Le ton.
+
+```{note}
+
+Trouver des examples pour illustrer les différents styles
+
+```
+
 - Comment se décompose un film (film = séquences = plans)
 - Avec quels élements on peut écrire un film ? (image et sons et...)
 

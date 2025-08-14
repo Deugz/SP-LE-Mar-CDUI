@@ -1,5 +1,45 @@
 # 13 - Test Utilisateur
 
+<br>
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+> Le **Test Utilisateur**, qui vous permettra d'obtenir des retours sur votre design et de pouvoir ajuster le tir avant de partir en production.  
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+    
+<strong>Informations</strong>
+
+✍  - Vincent <br> 
+🚧 - En cours<br>
+🔨 - 13/08/2025    
+🕑 - 20 - 30 min <br>
+
+ 
+
+</div>    
+
+<br>
+
+     
+:::
+    
+::::
+
+
 :::{dropdown} Syllabus
 
 > **Module 13**: *Tests utilisateurs*
