@@ -2,6 +2,7 @@
 
 ```{toctree}
 :maxdepth: 2
+:hidden:
 
 Accessibilite/Accessible
 Eco-Conception/Eco-conception

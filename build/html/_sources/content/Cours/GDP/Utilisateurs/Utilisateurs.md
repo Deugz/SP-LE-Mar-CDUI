@@ -40,6 +40,9 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Stratégie Webmarketing <../../../Diplome/Competences/Communication/webmarketing.html#cible-focus>`
+
+<br>
 
 :::{dropdown} Syllabus
 

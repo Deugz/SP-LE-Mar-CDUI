@@ -39,6 +39,10 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Interfaces & Prototypages <../../../Diplome/Competences/Graphisme/Interfaces.html#UX-focus>`
+
+<br>
+
 
 :::{dropdown} Syllabus
 

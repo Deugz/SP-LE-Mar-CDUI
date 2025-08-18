@@ -93,6 +93,23 @@ Permet de checker votre site selon les standards W3C
 
 ```
 
+
+## Test
+
+
+```{note}
+
+Utiliser pour faire faire des exercices ou pour faire des démonstrations
+- Utiliser des vrais codepen aussi
+
+```
+
+<iframe id="test-cdp-cduis" title="roue de la fortune" width="100%" height="800" src="https://ladigitale.dev/digipen/editeur.html"></iframe>
+
+
+
+
+
 ## Ressources
 
 - [snipzy.dev](https://snipzy.dev/)

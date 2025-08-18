@@ -14,13 +14,6 @@ dossiers et les fichiers du site en utilisant des outils de transfert de fichier
 Cette compétence nécessite l'utilisation de logiciels professionnels (éditeurs de codes, gestionnaires de sites et de projets) ou de frameworks, utilisant des langages informatiques de balisage ou de présentation
 ou de script : HTML, CSS, JavaScript. Elle nécessite l'utilisation d'outils de test de performance.
 
-## Critères de performance
-
-- Les pages web respectent la charte graphique
-- Les pages tiennent compte des standards de l’organisation W3C
-- L'affichage des pages est optimisé pour les navigateurs cibles
-- Les pages s'adaptent aux périphériques cibles
-- Le code est optimisé pour le référencement naturel
 
 ## Savoir-faire 
 
@@ -58,3 +51,42 @@ ou de script : HTML, CSS, JavaScript. Elle nécessite l'utilisation d'outils de 
 - Connaissance des spécificités des newsletters
 - Connaissance du suivi de production
 - Connaissance des métiers, des disciplines, inhérents aux processus de conception d’un projet Web
+
+## Critères de performance
+
+### Les pages web respectent la charte graphique
+
+#### Bonnes pratiques
+
+
+#### Examples
+
+
+### Les pages tiennent compte des standards de l’organisation W3C
+
+#### Bonnes pratiques
+
+
+#### Examples
+
+
+### L'affichage des pages est optimisé pour les navigateurs cibles
+
+#### Bonnes pratiques
+
+
+#### Examples
+
+### Les pages s'adaptent aux périphériques cibles
+
+#### Bonnes pratiques
+
+
+#### Examples
+
+### Le code est optimisé pour le référencement naturel
+
+#### Bonnes pratiques
+
+
+#### Examples

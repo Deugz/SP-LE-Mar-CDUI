@@ -16,6 +16,16 @@ Explication de ce qu'on a fait jusque là:
 
 ### Et après ?
 
+Et bien après il va falloir que tu récupère le fruit de ton dur labeur, car nous nous devons acceuillir une nouvelle cohorte d'apprenants et on va donc utiliser les hébergements de vos sites pour eux. A la fin de vos examens nous exportons les fichiers de vos site et les stockons dans un disque dur.
+
+```{note}
+
+Ca pourrait être intéréssant de faire faire la manip par les apprenants eux même.
+
+```
+
+Récupérer les fichiers, c'est bien mais il faut pouvoir **reconstruire le site** (avec ou sans wordpress), dans l'optique de pouvoir le retravailler ou de le valoriser pour la suite de votre parcours professionel.
+
 <p class="p-emphase">2 Solutions</p>
 
 ::::{grid} 2
@@ -25,7 +35,8 @@ Explication de ce qu'on a fait jusque là:
 Export et travail en local
 ^^^
 
-
+- Solution gratuite
+- Un peu technique à mettre en place
 
 :::
 
@@ -34,6 +45,10 @@ Export et travail en local
 Transfert vers hébergement perso
 ^^^
 
+- Solution payante
+- Nécéssite l'achat d'un nom de domaine et d'une soltion d'hébergement
+- Moins compliqué
+
 :::
 
 ::::
@@ -41,7 +56,7 @@ Transfert vers hébergement perso
 
 ## Export
 
-> Solution gratuite (mais plus complexe) pour continuer à travailler sur son site 
+Solution gratuite (mais plus complexe) pour continuer à travailler sur son site. Vous récupérez les fichiers qui ont été générés par wordpress et vous aurez la maitrise de ce que vous souhaitez en faire. Continuer à travailler dessus ou les mettre entre les mains d'un développeur (ce qui n'est pas votre métier je vous le rappelle).  
 
 ### 1. Récupérer les Fichiers 
 
@@ -73,7 +88,7 @@ Capture d'écran du dossier obtenue à la suite d'un export depuis wordpress
 
 ### 2. Installer un serveur local
 
-Tu dois installer un logiciel qui contient {term}`Apache` (serveur web), {term}`PHP` (interpréteur) et {term}`MySQL` (base de données). Il existe plusieurs options : 
+> Tu dois installer un logiciel qui contient {term}`Apache` (serveur web), {term}`PHP` (interpréteur) et {term}`MySQL` (base de données). Il existe plusieurs options : 
 
 
 ::::{grid} 3
@@ -192,7 +207,7 @@ Capture d'écran de l'interface MAMP lorsque l'on clique sur l'icone présente s
 width: 100%
 name: MAMP-capture
 ---
-Capture d'écran de l'interface MAMP lorsque l'on clique sur l'icone présente sur e bureau
+Capture d'écran de l'interface MAMP lorsque l'on clique sur l'icone présente sur le bureau
 ```
 
 
@@ -211,7 +226,59 @@ Image de l'interface
 
 ```
 
+```{figure} Docs/Capture-PHPMYADMIN.png
+---
+width: 100%
+name: MAMP-capture
+---
+Capture d'écran de l'interface MAMP lorsque l'on clique sur l'icone présente sur le bureau
+```
+
 
 ### 6. Importer la BDD
 
 BDD ca veut dire base de donnée.
+
+
+
+### 7. Configure Wordpress
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 7
+
+
+
+:::
+
+:::{grid-item}
+:columns: 5
+
+Localise ton fichier `wp-config.php` dans le dossier qui comprend tout les fichiers de ton site et qui est inclue dans le dossier `htdocs`. Si tu l'ouvre dans `VS-Code` il devrait ressembler à l'image présenté à gauche
+
+```php
+
+define('DB_NAME', 'wordpress_local'); // Nom de la base créée
+define('DB_USER', 'root');            // Utilisateur MySQL par défaut avec MAMP
+define('DB_PASSWORD', 'root');        // Mot de passe par défaut avec MAMP
+define('DB_HOST', 'localhost');
+
+```
+
+:::
+
+::::
+
+### 8. Visualise ton site
+
+Une fois ces actions effectués, tu devrais pour visualiser ton site dans ton navigateur. Pour cela :
+
+- Vérifie quel port est utilisé par MAMP
+
+```{note}
+
+Créer un gif pour montrer les différentes étapes
+
+```
+

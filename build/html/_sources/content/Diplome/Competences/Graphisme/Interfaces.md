@@ -1,23 +1,21 @@
 # Interfaces & Prototypages
 
+<br>
+
 <p class="p-emphase"> Concevoir des interfaces graphiques et des prototypes </p>
+
+<br>
+
+- **Liens** : {bdg-link-primary}`🧠 5 - Benchmark Digital <../../../Cours/GDP/Benchmark/Benchmark.html>` {bdg-link-primary}`🧠 7 - Charte Graphique <../../../Cours/Graphisme/Charte-Graphique/Charte-graphique.html>` {bdg-link-primary}`🧠 10 - Introduction à l’UX Design <../../../Cours/Design/Introduction-UX/Introduction-UX.html>` {bdg-link-primary}`🧠 11 - Concevoir la Navigation <../../../Cours/Design/Navigation/Navigation.html>`
 
 ## Description de la compétence – processus de mise en oeuvre
 
 À partir des choix graphiques définis à la conception, des instructions contenues dans le cahier des charges ou communiquées par le responsable du projet ou de la demande directe du client, traiter ou créer
-des éléments graphiques, des visuels, pour concevoir l’interface d'un site ou d'une application ; tout en tenant compte de l'ergonomie, de l'accessibilité, du référencement naturel et de la législation en vigueur
-(droit d’auteur, RGPD, loi de finance). Analyser les interfaces existantes, les tendances du web et les évolutions des habitudes utilisateurs. Concevoir l'interface en réalisant des schémas (par exemple : zoning, wireframe) illustrant la position et le contenu des différents éléments (navigation, entête, contenu, pied de page). Décliner ces schémas pour différents types de périphériques. Définir une orientation graphique et une palette chromatique au travers de prototypes. Rechercher des visuels complémentaires (photos, illustrations, icônes). Sélectionner des typographies adaptées et gérer le texte pour optimiser la lecture sur écran. Structurer et hiérarchiser l'information, anticiper le référencement naturel (titres, sous-titres, listes, fil d’Ariane, etc.), définir une arborescence. Optimiser le poids, la taille et la qualité des réalisations en fonction des spécificités du support. Sélectionner le format d’enregistrement.
+des éléments graphiques, des visuels, pour <span id="UX-focus">concevoir l’interface d'un site ou d'une application ; tout en tenant compte de l'ergonomie, de l'accessibilité, du référencement naturel et de la législation en vigueur (droit d’auteur, RGPD, loi de finance)</span>. <span id="benchmark-focus2">Analyser les interfaces existantes, les tendances du web et les évolutions des habitudes utilisateurs</span>. <span id="interface-focus">Concevoir l'interface en réalisant des schémas (par exemple : zoning, wireframe) illustrant la position et le contenu des différents éléments (navigation, entête, contenu, pied de page). Décliner ces schémas pour différents types de périphériques. Définir une orientation graphique et une palette chromatique au travers de prototypes</span>. Rechercher des visuels complémentaires (photos, illustrations, icônes). Sélectionner des typographies adaptées et gérer le texte pour optimiser la lecture sur écran. <span id="navigation-focus">Structurer et hiérarchiser l'information, anticiper le référencement naturel (titres, sous-titres, listes, fil d’Ariane, etc.), définir une arborescence</span>. Optimiser le poids, la taille et la qualité des réalisations en fonction des spécificités du support. Sélectionner le format d’enregistrement.
 
 ## Contexte(s) professionnel(s) de mise en oeuvre
 
 Cette compétence nécessite l'utilisation de logiciels professionnels de prototypage (Adobe XD, Sketch, Figma…).
-
-## Critères de performance
-
-- Un prototype interactif est réalisé
-- La disposition du contenu est ergonomique
-- Une version du prototype est adaptée à différents types de périphériques
-- La conception tient compte de la législation en vigueur
 
 ## Savoir-faire 
 
@@ -30,7 +28,7 @@ Cette compétence nécessite l'utilisation de logiciels professionnels de protot
 - Prendre en compte des contextes mobiles, utilisateurs novices, bas-débit, international, langue, limitations techniques ou culturelles
 - Réaliser des schémas d'interface
 - Optimiser ses recherches sur le web
-- Créer ou adapter une charte graphique
+- <span id="charte-graphique-focus1">Créer ou adapter une charte graphique</span>
 - Réaliser une planche de tendances
 
 ### Organisationnels
@@ -62,3 +60,16 @@ Cette compétence nécessite l'utilisation de logiciels professionnels de protot
 - Connaissance des principes de base du référencement naturel (SEO)
 - Connaissance des principes de base d’accessibilité et d’ergonomie
 - Connaissance des spécificités des différents types de périphériques
+
+## Critères de performance
+
+### Un prototype interactif est réalisé
+
+
+### La disposition du contenu est ergonomique
+
+
+### Une version du prototype est adaptée à différents types de périphériques
+
+
+### La conception tient compte de la législation en vigueur

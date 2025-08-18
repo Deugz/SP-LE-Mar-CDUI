@@ -2,7 +2,7 @@
 
 ## Règles
 
-### 1 - Le site fournit aux utilisateurs la possibilité de connaître les nouveaux contenus ou services.
+### **1** - Le site fournit aux utilisateurs la possibilité de connaître les nouveaux contenus ou services.
 
 #### Objectif
 
@@ -30,7 +30,7 @@ Publier un flux RSS
 
 ```
 
-### 2 - Les informations relatives aux droits de copie et de réutilisation sont disponibles depuis toutes les pages.
+### **2** - Les informations relatives aux droits de copie et de réutilisation sont disponibles depuis toutes les pages.
 
 #### Objectif
 
@@ -52,7 +52,7 @@ Mettre mention licence CC dans le footer
 
 ```
 
-### 3 - Le code source de chaque page contient une métadonnée qui en décrit le contenu.
+### **3** - Le code source de chaque page contient une métadonnée qui en décrit le contenu.
 
 #### Objectif
 
@@ -79,7 +79,7 @@ Vérifier et mettre en place
 
 ```
 
-### 4 - Les dates sont présentées dans des formats explicites.
+### **4** - Les dates sont présentées dans des formats explicites.
 
 #### Objectif
 
@@ -105,7 +105,7 @@ Identifier les pages comportant des dates, et pour chacune des dates trouvées :
 
 Les dates à saisir par l’utilisateur final dans les formulaires ne sont pas concernées par cette bonne pratique : leur format, quel qu'il soit, est considéré comme suffisamment explicite, dès lors que la saisie s’effectue via un datepicker ou bien manuellement mais avec une indication du format attendu (du type "JJ/MM/AA").
 
-### 5 - La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification.
+### **5** - La première occurrence d'une abréviation ou d'un acronyme dans le corps de chaque page donne accès à sa signification.
 
 #### Objectif
 
@@ -140,7 +140,7 @@ Dans chaque page examinée, identifier visuellement chaque sigle, abréviation o
 - ou de l’élément `abbr` doté d’un attribut `title` explicitant sa signification.
 
 
-### 6 - La date de publication des contenus qui le nécessitent est indiquée.
+### **6** - La date de publication des contenus qui le nécessitent est indiquée.
 
 #### Objectif
 
@@ -159,7 +159,7 @@ Associer à chaque contenu qui le nécessite (article, actualité, produit, etc.
 Vérifier que les contenus qui le nécessitent sont tous associés à une date de publication affichée.
 
 
-### 7 - Un lexique ou un glossaire adapté au public visé explique le vocabulaire sectoriel ou technique.
+### **7** - Un lexique ou un glossaire adapté au public visé explique le vocabulaire sectoriel ou technique.
 
 #### Objectif
 
@@ -198,7 +198,7 @@ Mise en place ok, a implémenter au fur et à mesure
 
 ```
 
-### 8 - Les contenus publicitaires ou sponsorisés sont identifiés comme tels.
+### **8** - Les contenus publicitaires ou sponsorisés sont identifiés comme tels.
 
 #### Objectif
 
@@ -228,7 +228,7 @@ Ok, pas de pub
 
 ```
 
-### 9 - Les conditions de modération des espaces publics sont indiquées.
+### **9** - Les conditions de modération des espaces publics sont indiquées.
 
 #### Objectif
 
@@ -244,7 +244,7 @@ Pour chaque espace public du site nécessitant modération  (zone de commentaire
 
 Pour chaque espace public du site nécessitant modération (zone de commentaire, forum etc.) vérifier la présence des conditions de modération ou, à défaut, d'un lien vers une page spécifique ou une page générique telle que la page des mentions légales, la rubrique d'aide  où elles sont indiquées.
 
-### 10 - Les contenus ou fichiers destinés à des espaces publics peuvent être vérifiés avant leur envoi définitif.
+### **10** - Les contenus ou fichiers destinés à des espaces publics peuvent être vérifiés avant leur envoi définitif.
 
 #### Objectif
 
@@ -264,7 +264,7 @@ Pour chaque espace public du site (zone de commentaire, forum, page personnelle 
 
 - Vérifier que la soumission définitive du formulaire de saisie est précédée d'une étape permettant, si l'utilisateur le souhaite, de contrôler et de modifier le résultat de sa saisie avant publication.
 
-### 11 - Les espaces publics proposent au moins un moyen de signaler les abus.
+### **11** - Les espaces publics proposent au moins un moyen de signaler les abus.
 
 #### Objectif
 
@@ -282,7 +282,7 @@ Par exemple, faire figurer un lien « Signaler un abus » à proximité de chaqu
 
 Dans chaque espace public (zone de commentaire, forum etc.) ou à défaut, dans la page Contact ou celle des Mentions légales où figureraient les conditions de modération : vérifier qu'il existe une procédure permettant de signaler directement un abus.
 
-### 12 - Chaque graphique est accompagné de ses données numériques.
+### **12** - Chaque graphique est accompagné de ses données numériques.
 
 #### Objectif
 
@@ -310,7 +310,7 @@ Insérer une caption avec une description du graphique
 
 ```
 
-### 13 - La page des résultats de recherche indique le nombre de résultats, le nombre de pages de résultats, et le nombre de résultats par page.
+### **13** - La page des résultats de recherche indique le nombre de résultats, le nombre de pages de résultats, et le nombre de résultats par page.
 
 #### Objectif
 

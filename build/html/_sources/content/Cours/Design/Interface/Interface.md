@@ -40,6 +40,10 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Interfaces & Prototypages <../../../Diplome/Competences/Graphisme/Interfaces.html#interface-focus>` {bdg-link-danger}`🎓 Optimiser <../../../Diplome/Competences/Dev-Web/Optimiser.html#interface-focus2>`
+
+<br>
+
 :::{dropdown} Syllabus
 
 > **Module 12**: *Concevoir l’interface (UI)*

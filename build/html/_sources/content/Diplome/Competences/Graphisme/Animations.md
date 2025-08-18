@@ -9,14 +9,7 @@ utilisant des séquences filmées mises à disposition, réaliser un montage pou
 
 ## Contexte(s) professionnel(s) de mise en oeuvre
 
-Cette compétence nécessite l'utilisation d'un logiciel professionnel d’animation (du type : Adobe Animate, Adobe Rush, Adobe Première, Adobe After Effects, ou d'un framework d'animation).
-
-## Critères de performance
-
-- Un story-board est réalisé
-- La taille de l'animation est adaptée au support de diffusion
-- Le format d'enregistrement de l'animation est compatible avec le support
-- Le poids de l'animation est optimisé pour le support de diffusion
+Cette compétence nécessite l'utilisation d'un logiciel professionnel d’animation (du type : Adobe Animate, Adobe Rush, **Adobe Première**, Adobe After Effects, ou d'un framework d'animation).
 
 ## Savoir-faire 
 
@@ -45,3 +38,16 @@ Cette compétence nécessite l'utilisation d'un logiciel professionnel d’anima
 - Connaissance des principes de l’animation : compression/étirement, anticipation, accélération, exagération
 - Connaissance des spécificités des supports et canaux de publication (web mobile, affichage dynamique, ordinateurs de bureau…)
 - Connaissance des techniques de compression et d’optimisation des animations
+
+## Critères de performance
+
+### Un story-board est réalisé
+
+
+### La taille de l'animation est adaptée au support de diffusion
+
+
+### Le format d'enregistrement de l'animation est compatible avec le support
+
+
+### Le poids de l'animation est optimisé pour le support de diffusion

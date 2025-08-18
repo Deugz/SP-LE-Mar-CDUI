@@ -40,6 +40,10 @@
     
 ::::
 
+{bdg-link-danger}`🎓 Supports de Communications <../../../Diplome/Competences/Graphisme/Supports.html#print-focus>`
+
+<br>
+
 :::{dropdown} Syllabus
 
 > **Module 9**: *Techniques et méthodes d’impressions*

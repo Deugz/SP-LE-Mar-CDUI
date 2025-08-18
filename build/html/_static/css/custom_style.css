@@ -135,6 +135,23 @@ div.admonition.admonition-youtube > .admonition-title::after {
   transform: translateY(-7px);
 }
 
+.hash-highlight {
+  background-color: #fff3b0;
+  outline: 2px solid #ffd166;
+  border-radius: .25rem;
+  /* 3s de pause + 2s de fondu = 5s au total */
+  animation: fadeOutHighlight 2s ease-in-out 3s forwards;
+  /* optionnel, aide certains moteurs */
+  will-change: background-color, outline-color;
+}
+
+@keyframes fadeOutHighlight {
+  to {
+    background-color: transparent;
+    outline-color: transparent;
+  }
+}
+
 
 /* Modification du template */
 

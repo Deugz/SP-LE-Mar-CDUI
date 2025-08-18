@@ -40,15 +40,46 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Communication <../../../Diplome/Activités/Communication.html#cdc-focus>` {bdg-link-danger}`🎓 Illustrations, Graphismes, Visuels <../../../Diplome/Competences/Graphisme/Illustration.html#cdc-focus2>` {bdg-link-success}`🛠️ Opq 12 <../../../Outils/Opquast/Contenus.html#chaque-graphique-est-accompagne-de-ses-donnees-numeriques>`
 
-:::{dropdown} Syllabus
+<br>
 
-> **Module 2**: *Réaliser le cahier des charges*
->
->**Objectif global**: 
->
->L'objectif global est que l'apprenant maîtrise les étapes de la construction d'un cahier des charges et puisse remplir son cahier des charges tout au long de sa formation.
->
+:::::{dropdown} Syllabus
+
+<p class="p-emphase"><strong>Module 2</strong>: <em>Réaliser le cahier des charges</em></p>
+
+**Objectif global**: L'objectif global est que l'apprenant maîtrise les étapes de la construction d'un cahier des charges et puisse remplir son cahier des charges tout au long de sa formation.
+
+<br>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
+**Objectif pédagogiques**:
+- Découvrir et maîtriser les étapes de la construction d'un cahier des charges afin de pouvoir remplir son cahier des charges tout au long de sa formation
+- Avoir la méthode et les outils pour définir le contexte, la présentation de l'entreprise, les objectifs du projet, le planning prévisionnel et les cibles
+
+:::
+
+:::{grid-item}
+:columns: 4
+
+<br>
+<br>
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js"
+  type="module"
+></script>
+
+<dotlottie-wc src="https://lottie.host/45fed3e5-f10d-4b72-b1a0-3656ae694bfd/kux8cKpvg0.lottie" style="width: 120%; height: auto" speed="1" autoplay loop></dotlottie-wc>
+
+:::
+
+::::
+
 >**Plan de cours**:
 >- I. Contexte :
 >    - Décrire la genèse du projet
@@ -65,18 +96,32 @@
 >    - Agenda des dates souhaitées pour la validation des différentes étapes (fournir les dates des grandes étapes et des livrables)
 >- VI. Cibles :
 >    - Description du profil des clients de votre entreprise et celui des visiteurs de votre site web
->
->**Livrables**:
->- Avoir une trame de cahier des charges
->- Avoir la méthode et les outils pour définir le contexte, la présentation de l'entreprise, les objectifs du projet, le planning prévisionnel et les cibles.
+
+**Livrables**:
+- Avoir une trame de cahier des charges
+- Avoir la méthode et les outils pour définir le contexte, la présentation de l'entreprise, les objectifs du projet, le planning prévisionnel et les cibles.
 
 
-:::
+:::::
 
 
 :::::{dropdown} Support de Cours 
 
 ::::{tab-set}
+
+:::{tab-item} CDP 2
+
+
+<iframe src="https://drive.google.com/file/d/1TJeB9eeJ3beZg-1KW84r1OKq1Yanveu6/preview" 
+        width="100%" 
+        height="400px" 
+        frameborder="0" 
+        allowfullscreen>
+</iframe>
+
+
+:::
+
 :::{tab-item} CDP 1
 
 
@@ -105,6 +150,224 @@
 
 :::::
 
+
+
+## Avant de Commencer
+
+<p class="p-emphase">Avez-vous un Projet ?</p>
+
+<br>
+
+<style>
+    .CDC-projet-button-container {
+      display: flex;
+      justify-content: space-between;
+      width: 60%;
+      margin: 20px auto;
+    }
+
+    .CDC-projet-button-container button, a.button-link {
+      width: 40%;
+      padding: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      text-align: center;
+      cursor: pointer;
+      display: inline-block;
+      transition: transform 0.2s ease;
+      text-decoration: none;
+    }
+
+    /* Oui en vert */
+    #btnOui, a.button-link.oui {
+      background-color: green;
+    }
+    #btnOui:hover, a.button-link.oui:hover {
+      background-color: limegreen;
+      transform: scale(1.05);
+    }
+
+    /* Non en rouge */
+    #btnNon {
+      background-color: red;
+    }
+    #btnNon:hover {
+      background-color: darkred;
+      transform: scale(1.05);
+    }
+
+    #message {
+      margin-top: 30px;
+      color: darkred;
+      font-style: italic;
+      text-align: center;
+    }
+</style>
+
+<div class="CDC-projet-button-container">
+    <!-- Ici tu choisis l’ancre dans href -->
+    <a href="#bravo-tu-es-desormais-un-maitre-d-ouvrage" class="button-link oui">Oui</a>
+    <button id="btnNon">Non</button>
+</div>
+
+<br>
+
+<p id="message"></p>
+
+<script>
+    const btnNon = document.getElementById('btnNon');
+    const message = document.getElementById('message');
+
+    btnNon.addEventListener('click', function() {
+      message.textContent = "Pas de soucie, on va arrager ça ! Continuez votre lecture, je vais vous présenter quelques outils pour vous aider.";
+    });
+</script>
+
+### Votre Ikigai
+
+```{note}
+
+Créer une version interactive du Ikigai avec un template
+
+- Faire un lien vers mon propre Ikigai
+
+```
+
+
+### Autres outils
+
+- [Explodingtrends](https://explodingtopics.com/)
+
+```{note}
+
+Pour trouver des idées parmi les domaines "trendy"
+
+
+```
+
+#### Canvanizer
+
+- [Lien](https://canvanizer.com/#choosecanvas)
+
+
+```{warning}
+
+Très bon site, à exploiter pour les atelier libre ou avec le formateur pour la phase d'idéation de son projet
+
+```
+
+### Bravo ! Tu es désormais un *Maitre d'Ouvrage*
+
+> Blabla, oui tu as ...
+
+## La Gestion de Projet
+
+### Les parties prenantes 
+
+::::{grid} 2
+
+:::{grid-item-card} 
+:columns: 6
+Maitre d'ouvrage
+^^^
+
+
+:::
+
+:::{grid-item-card} 
+:columns: 6
+Maitre d'oeuvre
+^^^
+
+
+:::
+
+
+::::
+
+
+### CDUI vs CDP e-Commerce
+
+<p class="p-emphase">Petite question</p>
+
+
+::::{grid} 2
+
+:::{grid-item} 
+:columns: 9
+
+> Lors des premières sessions il y a eu pas mal de confusions entre **Concepteur Designer d'Interface Utilisateur** (l'intitulé du titre professionel - le diplome que vous allez obtenir) et **Chef de Projet e-commerce** (l'intitulé de notre formation).
+
+
+:::
+
+:::{grid-item} 
+:columns: 3
+
+```{figure} Docs/QR-Q1-CDP-CDUI.png
+---
+width: 100%
+name: QR-Q1-CDP-CDUI
+---
+Scannez le QR Code (📱) pour répondre à la question - [Source](https://digistorm.app/c/5822674)
+```
+
+:::
+
+::::
+
+
+
+
+## Le Cahier des Charges 
+
+### C'est Quoi ?
+
+
+
+
+
+### Pourquoi Faire ?
+
+<p class="p-emphase">Et bien pour éviter de ce trouver dans ce genre de situations </p>
+
+```{figure} Docs/Capture-image-CDC-besoin.png
+---
+width: 100%
+name: Capture-image-CDC-besoin
+---
+Figure représentant les différences de compréhension d'un même besoin part différentes partie prenantes
+```
+
+- Un cahier des charges a pour objectif de **formaliser un besoin** afin que ce dernier soit **compris par l'ensemble des acteurs impliqués dans le projet**.
+- Un cahier des charges permet de comparer des offres (techniques, financières) de prestataires (appelés aussi “maîtres d’oeuvre”).
+- Un cahier des charges est un document contractuel, qui permet à un {term}`Maître d’ouvrage ` et à son {term}`Maître d’œuvre ` de se mettre d’accord sur le périmètre du projet.
+- Enfin le cahier des charges peut aussi décrire les conditions postérieures à la livraison (période de garantie, maintenance corrective, évolutive, etc.).
+
+
+
+
+### La Pédagogie
+
+- Pédagogie
+
+- Chargé de projet e-commerce 
+
+
+
+
+```{note}
+
+Créer un génially qui explique un peu notre facon de voire la pédagogie
+
+
+```
+
+
+
+
 ## Besoins
 
 - Example cahier des charges
@@ -127,6 +390,7 @@ Utiliser comme contenue
 UTILISER TITRE RNCP !
 
 ```
+
 
 
 
@@ -214,6 +478,39 @@ Le passage en revue du cahier des charges pour y intégrer des règles d’assur
 - aider le prestataire à mieux estimer la quantité de travail nécessaire à l’élaboration du projet.
 L’intégration des règles dans un cahier des charges est une question essentielle qui décide en grande partie de l’avenir et de la réussite du projet. Les règles vous aideront à consolider votre projet et à définir les points sur lesquels vous ne devez pas transiger.
 
+
+## La Gestion de Projet
+
+::::{grid} 2
+
+:::{grid-item} 
+:columns: 6
+
+<br>
+
+<p class="p-emphase">🤔 <em> T'es bien gentil Abraham, mais je suis pas bucheron moi, je suis chef de projet e-commerce ...</em> </p>
+
+<br>
+
+> Et pourtant, il dit quelque chose de très important ce grand monsieur. 
+
+
+:::
+
+:::{grid-item} 
+:columns: 6
+
+```{figure} Docs/Abraham-lincoln-comic.png
+---
+width: 100%
+name: Abraham-lincoln-comic
+---
+Ce bon vieux [Abraham Lincoln](https://fr.wikipedia.org/wiki/Abraham_Lincoln) qui nous éclair de sa lanterne 💡
+```
+
+:::
+
+::::
 
 
 

@@ -39,6 +39,10 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Interfaces & Prototypages <../../../Diplome/Competences/Graphisme/Interfaces.html#navigation-focus>` {bdg-link-danger}`🎓 Optimiser <../../../Diplome/Competences/Dev-Web/Optimiser.html#navigation-focus2>`
+
+<br>
+
 :::{dropdown} Syllabus
 
 > **Module 11**: *Concevoir la navigation*

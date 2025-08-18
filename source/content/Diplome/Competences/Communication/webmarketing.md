@@ -11,13 +11,6 @@ dans une stratégie webmarketing. Proposer un nom de domaine pertinent et sélec
 
 Cette compétence nécessite l’utilisation des réseaux sociaux, des outils d’e-mailing et d'analyse. Elle peut nécessiter l’utilisation d’une suite bureautique afin de réaliser des plans de communication et des comptesrendus.
 
-## Critères de performance
-
-- Le nom de domaine proposé est cohérent par rapport au projet
-- La newsletter est conforme à la demande
-- Le texte de la page de vente est optimisé pour le référencement naturel
-- La charte graphique est respectée sur l’ensemble des supports de communication
-
 ## Savoir-faire 
 
 ### Techniques 
@@ -49,12 +42,34 @@ Cette compétence nécessite l’utilisation des réseaux sociaux, des outils d�
 - Connaissance des solutions d'hébergement
 - Connaissance des critères de sélection d'un nom de domaine
 - Connaissance des principes de base du webmarketing, de l'inbound marketing et de communication
-- Connaissance du marketing de contenu, du parcours client et des personas
+- <span id="cible-focus">Connaissance du marketing de contenu, du parcours client et des personas
+- Connaissance du public cible et de la gamme de produits</span>
 - Connaissance des principes de rédaction pour le web
 - Connaissance des contenus à créer
 - Connaissance du panorama des réseaux sociaux
 - Connaissance des motivations des utilisateurs et la valeur ajoutée du site Web
 - Connaissance des principaux métiers du projet web
-- Connaissance du public cible et de la gamme de produits
 - Connaissance des fonctionnalités de fidélisation de la clientèle
 - Connaissance des objectifs de vente, marketing et relations client
+
+## Critères de performance
+
+### Le nom de domaine proposé est cohérent par rapport au projet
+
+### La newsletter est conforme à la demande
+
+### Le texte de la page de vente est optimisé pour le référencement naturel
+
+```{admonition} Question
+
+Qu'est-ce qui est entendue par *page de vente* ? page d'acceuil, page produit ?
+
+```
+
+### La charte graphique est respectée sur l’ensemble des supports de communication
+
+```{warning}
+
+Donc sur votre support Canva !!
+
+```

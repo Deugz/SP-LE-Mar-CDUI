@@ -40,6 +40,10 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Illustrations, Graphismes, Visuels <../../../../Diplome/Competences/Graphisme/Illustration.html#photoshop-focus>` {bdg-link-danger}`🎓 Supports de Communications <../../../../Diplome/Competences/Graphisme/Supports.html#photoshop-focus2>`
+
+<br>
+
 :::{dropdown} Syllabus
 
 > **Module 8**: *Maîtriser les bases de Photoshop*

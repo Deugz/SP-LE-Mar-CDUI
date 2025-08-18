@@ -1,4 +1,4 @@
-# 0 - Le p'tit mot du Vince
+# 0 - Le p'tit mot de l'équipe
 
 ```{note}
 

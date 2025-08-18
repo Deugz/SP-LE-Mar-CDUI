@@ -1,5 +1,13 @@
 # Bonus
 
+```{toctree}
+:maxdepth: 2
+:hidden:
+
+IA-Gen/IA-Generative
+
+```
+
 <br>
 
 ***
@@ -11,7 +19,7 @@
 :::{grid-item}
 :columns: 8
 
-> 3ème Outil de la suite Adobe : Première Pro   
+> Vous n'avez pas vocation à devenir des réalisateurs. De plus, dans le temps qui vous est impartie (qui est très court), vous n'aurez peut-être pas le temps de réaliser vos propre **Prises de vues et de sons**. Hereusement l'IA explose et nous allons voire dans cette section bonus, comment l'utiliser
 
 :::
 
@@ -45,6 +53,18 @@
 ```{note}
 
 Profiter de cette section pour faire un focus - page spéciale sur les outils d'IA générative
+
+
+```
+
+
+## En plus
+
+### Cout énergétique de L'IA
+
+```{note}
+
+Partager une veille sur le sujet
 
 
 ```

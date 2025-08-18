@@ -40,6 +40,10 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Système de Veille <../../../Diplome/Competences/Communication/veille.html#benchmark-focus>` {bdg-link-danger}`🎓 Interfaces & Prototypages <../../../Diplome/Competences/Graphisme/Interfaces.html#benchmark-focus2>`
+
+<br>
+
 
 :::{dropdown} Syllabus
 

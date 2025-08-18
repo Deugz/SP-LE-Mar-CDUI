@@ -40,6 +40,10 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Illustrations, Graphismes, Visuels <../../../../Diplome/Competences/Graphisme/Illustration.html#illustrator-focus>`
+
+<br>
+
 :::{dropdown} Syllabus
 
 > **Module 6**: *Maîtriser les bases d’Adobe Illustrator*

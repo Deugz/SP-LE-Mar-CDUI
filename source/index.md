@@ -114,7 +114,12 @@ content/Promo/CDP1/CDP1-Main
 **🎓 Le Diplome**
 ^^^
 
-image
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js"
+  type="module"
+></script>
+
+<dotlottie-wc src="https://lottie.host/53716265-de49-467c-a3c2-7c6e33a01704/HRYpkPZ1MM.lottie" style="width: 100%; height: auto" speed="1" autoplay loop ></dotlottie-wc>
 
 :::
 
@@ -124,7 +129,12 @@ image
 **🧠 Les Cours**
 ^^^
 
-image
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js"
+  type="module"
+></script>
+
+<dotlottie-wc src="https://lottie.host/657cf1e2-697c-4c4a-9138-d3fedf45487e/4xzmTC9sEd.lottie" style="width: 100%;height: auto" speed="1" autoplay loop></dotlottie-wc>
 
 :::
 
@@ -134,7 +144,12 @@ image
 **✨ Votre Projet**
 ^^^
 
-image
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.6.2/dist/dotlottie-wc.js"
+  type="module"
+></script>
+
+<dotlottie-wc src="https://lottie.host/73e43d43-149e-41c8-b058-2b27796f4706/cX0mhAB1UL.lottie" style="width: 100% ;height: auto" speed="1" autoplay loop></dotlottie-wc>
 
 :::
 
@@ -164,11 +179,7 @@ image
 
 <br>
 
-```{note}
-
-Inclure le sitemap
-
-```
+<iframe src="_static/pages/sphinx_site_graph-T10-15-08-2025.html" width="100%" height="800px" style="border:1px solid #ccc;" scrolling="no"></iframe>
 
 ## Donnez votre avis, et Contribuez !
 

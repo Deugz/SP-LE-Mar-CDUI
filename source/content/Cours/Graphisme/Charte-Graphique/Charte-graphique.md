@@ -40,6 +40,10 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Illustrations, Graphismes, Visuels <../../../Diplome/Competences/Graphisme/Illustration.html#charte-graphique-focus3>` {bdg-link-danger}`🎓 Interfaces & Prototypages <../../../Diplome/Competences/Graphisme/Interfaces.html#charte-graphique-focus1>` {bdg-link-danger}`🎓 Supports de Communications <../../../Diplome/Competences/Graphisme/Supports.html#charte-graphique-focus2>`
+
+<br>
+
 :::{dropdown} Syllabus
 
 > **Module 7**: *Charte graphique*

@@ -6,24 +6,24 @@
 :caption: Apprenants
 :hidden:
 
-Etudiants/Adam
-Etudiants/Anny
-Etudiants/Audrey
-Etudiants/Celika
-Etudiants/Christian
-Etudiants/Christophe
-Etudiants/Corrine
-Etudiants/Jana
-Etudiants/Kannel
-Etudiants/Mahran
-Etudiants/Ranya
-Etudiants/Salman
-Etudiants/Sophia
-Etudiants/Souadrou
-Etudiants/Soula
-Etudiants/Sylvia
-Etudiants/Yanis
-Etudiants/Yassine
+Etudiants-CDP1/Adam
+Etudiants-CDP1/Anny
+Etudiants-CDP1/Audrey
+Etudiants-CDP1/Celika
+Etudiants-CDP1/Christian
+Etudiants-CDP1/Christophe
+Etudiants-CDP1/Corrine
+Etudiants-CDP1/Jana
+Etudiants-CDP1/Kannel
+Etudiants-CDP1/Mahran
+Etudiants-CDP1/Ranya
+Etudiants-CDP1/Salman
+Etudiants-CDP1/Sophia
+Etudiants-CDP1/Souadrou
+Etudiants-CDP1/Soula
+Etudiants-CDP1/Sylvia
+Etudiants-CDP1/Yanis
+Etudiants-CDP1/Yassine
 
 ```
 

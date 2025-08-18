@@ -1,6 +1,12 @@
 # Optimiser
 
+<br>
+
 <p class="p-emphase"> Optimiser en continu un site web ou une interface </p>
+
+<br>
+
+- **Liens** : {bdg-link-primary}`🧠 11 - Concevoir la Navigation <../../../Cours/Design/Navigation/Navigation.html>`
 
 ## Description de la compétence – processus de mise en oeuvre
 
@@ -13,23 +19,16 @@ optimiser les performances (temps de chargement, rapidité d'affichage…). Soum
 Cette compétence nécessite l'utilisation de logiciels professionnels (éditeurs de codes, gestionnaires de sites et de projets…) utilisant des langages informatiques de balisage, de présentation ou de script :
 HTML, CSS, JavaScript, PHP. Elle nécessite l'utilisation d'outils de test de performance.
 
-## Critères de performance
-
-- Les résultats des analyses sont pris en compte pour optimiser le référencement
-- Le code est optimisé pour les navigateurs cibles
-- Le code est optimisé pour le référencement naturel
-- Le temps de chargement est optimisé
-
 ## Savoir-faire 
 
 ### Techniques 
 
-- Hiérarchiser l’information et l’adapter pour le web
+- <span id="navigation-focus2">Hiérarchiser l’information et l’adapter pour le web</span>
 - Optimiser le poids et la taille des médias
 - Réaliser des tests d'ergonomie
 - Utiliser des outils d'analyse d'audience et de comportement
 - Gérer les droits et l'indexation des fichiers et des dossiers
-- Prendre en compte les retours utilisateurs pour améliorer l’ergonomie
+- <span id="interface-focus2">Prendre en compte les retours utilisateurs pour améliorer l’ergonomie</span>
 
 ### Organisationnels
 
@@ -48,3 +47,35 @@ HTML, CSS, JavaScript, PHP. Elle nécessite l'utilisation d'outils de test de pe
 - Connaissance des principes du référencement naturel (SEO)
 - Connaissance des principes de base d’accessibilité et d’ergonomie
 - Connaissance du rôle des standards dans la diffusion de contenus et de services en ligne de qualité
+
+## Critères de performance
+
+### Les résultats des analyses sont pris en compte pour optimiser le référencement
+
+#### Bonnes pratiques
+
+
+#### Examples
+
+
+
+### Le code est optimisé pour les navigateurs cibles
+
+#### Bonnes pratiques
+
+
+#### Examples
+
+### Le code est optimisé pour le référencement naturel
+
+#### Bonnes pratiques
+
+
+#### Examples
+
+### Le temps de chargement est optimisé
+
+#### Bonnes pratiques
+
+
+#### Examples

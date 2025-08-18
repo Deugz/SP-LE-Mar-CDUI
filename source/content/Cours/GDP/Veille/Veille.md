@@ -40,6 +40,10 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Système de Veille <../../../Diplome/Competences/Communication/veille.html#veille-focus>`
+
+<br>
+
 :::{dropdown} Syllabus
 
 > **Module 4**: *Mettre en place un système de veille de la concurrence*

@@ -15,21 +15,21 @@ Outils/Classement
 :caption: Apprenants
 :hidden:
 
-Etudiants/Amar/Amar
-Etudiants/Elodie/Elodie
-Etudiants/Enza/Enza
-Etudiants/Fahar/Fahar
-Etudiants/Houssam/Houssam
-Etudiants/Laszlo/Laszlo
-Etudiants/Manon/Manon
-Etudiants/Marwan/Marwan
-Etudiants/Mehdi/Mehdi
-Etudiants/Mohamed/Mohamed
-Etudiants/Nouah/Nouah
-Etudiants/Rafik/Rafik
-Etudiants/Sofiane/Sofiane
-Etudiants/Soumaya/Soumaya
-Etudiants/Zaccaria/Zaccaria
+Etudiants-CDP2/Amar/Amar
+Etudiants-CDP2/Elodie/Elodie
+Etudiants-CDP2/Enza/Enza
+Etudiants-CDP2/Fahar/Fahar
+Etudiants-CDP2/Houssam/Houssam
+Etudiants-CDP2/Laszlo/Laszlo
+Etudiants-CDP2/Manon/Manon
+Etudiants-CDP2/Marwan/Marwan
+Etudiants-CDP2/Mehdi/Mehdi
+Etudiants-CDP2/Mohamed/Mohamed
+Etudiants-CDP2/Nouah/Nouah
+Etudiants-CDP2/Rafik/Rafik
+Etudiants-CDP2/Sofiane/Sofiane
+Etudiants-CDP2/Soumaya/Soumaya
+Etudiants-CDP2/Zaccaria/Zaccaria
 
 ```
 

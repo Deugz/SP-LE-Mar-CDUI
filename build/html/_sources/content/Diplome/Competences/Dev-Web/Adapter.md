@@ -13,13 +13,6 @@ dits premiums et s’approprier leur fonctionnement grâce à la documentation f
 
 Cette compétence nécessite l'utilisation de logiciels professionnels (éditeurs de codes, gestionnaires de sites et de projets, transfert FTP) et de langages du web, au minimum HTML, CSS, JavaScript, PHP.
 
-## Critères de performance
-
-- Le système de gestion de contenu est fonctionnel
-- L’installation du système de gestion de contenu est conforme aux bonnes pratiques de sécurité
-- Les modules complémentaires sont fonctionnels
-- La personnalisation du système de gestion de contenu respecte la demande
-
 ## Savoir-faire 
 
 ### Techniques 
@@ -57,3 +50,38 @@ Cette compétence nécessite l'utilisation de logiciels professionnels (éditeur
 - Connaissance des bases de la législation en vigueur sur les droits d'auteur, le droit à l'image, le commerce en ligne et les données personnelles
 - Connaissance de base des solutions de paiement en ligne
 - Connaissance des différences et complémentarités entre approches généralistes et spécialistes (développement ou usage d’un CMS)
+
+## Critères de performance
+
+### Le système de gestion de contenu est fonctionnel
+
+#### La Base
+
+
+#### Bonnes pratiques
+
+
+#### En Plus
+
+#### Examples
+
+### L’installation du système de gestion de contenu est conforme aux bonnes pratiques de sécurité
+
+#### Bonnes pratiques
+
+
+#### Examples
+
+### Les modules complémentaires sont fonctionnels
+
+#### Bonnes pratiques
+
+
+#### Examples
+
+### La personnalisation du système de gestion de contenu respecte la demande
+
+#### Bonnes pratiques
+
+
+#### Examples
