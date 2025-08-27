@@ -40,6 +40,11 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Illustrations, Graphismes, Visuels <../../../Diplome/Competences/Graphisme/Illustration.html#Photo-focus>` {bdg-link-danger}`🎓 Supports de Communications <../../../Diplome/Competences/Graphisme/Supports.html#Photo-focus2>`
+
+<br>
+
+
 :::{dropdown} Syllabus
 
 > **Module 14**: *Maîtriser les bases de la photographie e-commerce*

@@ -1,4 +1,4 @@
-# 7 - Charte Graphique
+# 6 - Charte Graphique
 
 <br>
 
@@ -129,6 +129,11 @@ Un jeux pour tester la visibilité de différentes nuances de couleurs
 
 ### Typography
 
+#### Handwritten
+
+- [Calligrapher](https://www.calligrapher.ai/)
+
+
 #### Explorez
 
 - [onts.ilovetypography.com](https://fonts.ilovetypography.com/)
@@ -204,4 +209,12 @@ Un site qui met en lumière les copies dans les pubs. La personne réalise égal
 ```{note}
 créer une carte avec le logo pour emmener vers la charte graphique et expliquer brièvement la société. Mettre un dropdown en bas qui explique pourquoi c'est une bonne charte graphique
 ```
+
+## En Plus
+
+### Veille Créative
+
+-  [Etienne Mineur](https://www.linkedin.com/in/etiennemineur/?locale=fr_FR)
+    - exemple : [horloge](https://etienne.design/archives/clock_02/)
+    - police (libre) : [Sabrin-AI](https://etienne.design/portfolio/kim_sauvage-3-4-3/)
 

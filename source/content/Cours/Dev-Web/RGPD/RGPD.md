@@ -40,6 +40,10 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Dev-Web Adapter <../../../Diplome/Competences/Dev-Web/Adapter.html#rgpd-focus>`
+
+<br>
+
 :::{dropdown} Syllabus
 
 > **Module 18**: *Droit de l’internet & RGPD*

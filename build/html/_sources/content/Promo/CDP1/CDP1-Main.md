@@ -40,7 +40,7 @@ Etudiants-CDP1/Yassine
 ::::{grid} 4
 
 :::{grid-item-card}
-:link: Etudiants/Adam.html
+:link: Etudiants-CDP1/Adam.html
 :class-header: bg-light
 :columns: 3
 **Adam**
@@ -55,7 +55,7 @@ Etudiants-CDP1/Yassine
 :::
 
 :::{grid-item-card}
-:link: Etudiants/Anny.html
+:link: Etudiants-CDP1/Anny.html
 :class-header: bg-light
 :columns: 3
 **Anny**
@@ -72,7 +72,7 @@ Etudiants-CDP1/Yassine
 :::
 
 :::{grid-item-card}
-:link: Etudiants/Audrey.html
+:link: Etudiants-CDP1/Audrey.html
 :class-header: bg-light
 :columns: 3
 **Audrey**
@@ -88,7 +88,7 @@ Etudiants-CDP1/Yassine
 :::
 
 :::{grid-item-card}
-:link: Etudiants/Celika.html
+:link: Etudiants-CDP1/Celika.html
 :class-header: bg-light
 :columns: 3
 **Celika** 
@@ -105,7 +105,7 @@ Logo
 ::::{grid} 4
 
 :::{grid-item-card}
-:link: Etudiants/Christian.html
+:link: Etudiants-CDP1/Christian.html
 :class-header: bg-light
 :columns: 3
 **Christian** 
@@ -118,7 +118,7 @@ Logo
 :::
 
 :::{grid-item-card}
-:link: Etudiants/Christophe.html
+:link: Etudiants-CDP1/Christophe.html
 :class-header: bg-light
 :columns: 3
 **Chrisophe** 
@@ -131,7 +131,7 @@ Logo
 :::
 
 :::{grid-item-card}
-:link: Etudiants/Corrine.html
+:link: Etudiants-CDP1/Corrine.html
 :class-header: bg-light
 :columns: 3
 **Corrine** 
@@ -147,7 +147,7 @@ Logo
 :::
 
 :::{grid-item-card}
-:link: Etudiants/Jana.html
+:link: Etudiants-CDP1/Jana.html
 :class-header: bg-light
 :columns: 3
 **Jana** 
@@ -166,7 +166,7 @@ Logo
 
 
 :::{grid-item-card}
-:link: Etudiants/Kannel.html
+:link: Etudiants-CDP1/Kannel.html
 :class-header: bg-light
 :columns: 3
 **Kannel** 
@@ -179,7 +179,7 @@ Logo
 :::
 
 :::{grid-item-card}
-:link: Etudiants/Mahran.html
+:link: Etudiants-CDP1/Mahran.html
 :class-header: bg-light
 :columns: 3
 **Mahran** 
@@ -199,7 +199,7 @@ Logo
 :::
 
 :::{grid-item-card}
-:link: Etudiants/Ranya.html
+:link: Etudiants-CDP1/Ranya.html
 :class-header: bg-light
 :columns: 3
 **Ranya** 
@@ -212,7 +212,7 @@ Logo
 :::
 
 :::{grid-item-card}
-:link: Etudiants/Salman.html
+:link: Etudiants-CDP1/Salman.html
 :class-header: bg-light
 :columns: 3
 **Salman** 
@@ -230,7 +230,7 @@ Logo
 ::::{grid} 4
 
 :::{grid-item-card}
-:link: Etudiants/Sophia.html
+:link: Etudiants-CDP1/Sophia.html
 :class-header: bg-light
 :columns: 3
 **Sophia** 
@@ -243,7 +243,7 @@ Logo
 :::
 
 :::{grid-item-card}
-:link: Etudiants/Souadrou.html
+:link: Etudiants-CDP1/Souadrou.html
 :class-header: bg-light
 :columns: 3
 **Soidrou** 
@@ -259,7 +259,7 @@ Logo
 :::
 
 :::{grid-item-card}
-:link: Etudiants/Soula.html
+:link: Etudiants-CDP1/Soula.html
 :class-header: bg-light
 :columns: 3
 **Soula** 
@@ -278,7 +278,7 @@ Logo
 :::
 
 :::{grid-item-card}
-:link: Etudiants/Sylvia.html
+:link: Etudiants-CDP1/Sylvia.html
 :class-header: bg-light
 :columns: 3
 **Sylvia** 
@@ -295,7 +295,7 @@ Logo
 ::::{grid} 4
 
 :::{grid-item-card}
-:link: Etudiants/Yanis.html
+:link: Etudiants-CDP1/Yanis.html
 :class-header: bg-light
 :columns: 3
 **Yanis** 
@@ -308,7 +308,7 @@ Logo
 :::
 
 :::{grid-item-card}
-:link: Etudiants/Yassine.html
+:link: Etudiants-CDP1/Yassine.html
 :class-header: bg-light
 :columns: 3
 **Yassine** 

@@ -1,11 +1,17 @@
 # Animations Vidéo
 
+<br>
+
 <p class="p-emphase"> Réaliser une animation pour différents supports de diffusion </p>
+
+<br>
+
+- **Liens** : {bdg-link-primary}`🧠 15 - Storyboard Vidéo <../../../Cours/Video-Photo/Video/Storyboard.html>` {bdg-link-primary}`🧠 16 - Prise de Son et Image <../../../Cours/Video-Photo/Video/Son-Image.html>` {bdg-link-primary}`🧠 17 - Montage Vidéo <../../../Cours/Video-Photo/Video/Montage.html>`
 
 ## Description de la compétence – processus de mise en oeuvre
 
 À partir du cahier des charges défini à la conception du projet, de la demande directe du client ou de médias fournis, concevoir et réaliser une animation pour différents supports et canaux de diffusion. En
-utilisant des séquences filmées mises à disposition, réaliser un montage pour créer un clip vidéo et le transférer sur un site d'hébergement de vidéos en ligne. Selon la nature de l'animation, concevoir un story-board en tenant compte des règles de cadrage, de rythme, d’échelle des plans et de mouvement. Définir l’aspect graphique de l’animation. Présenter et argumenter le concept et le story-board aux destinataires. En fonction du public, du périphérique cible et du message à communiquer, adapter les différents médias (typographies, illustrations, photos) et associer des effets visuels et des effets sonores. Intégrer les différents médias. Optimiser le poids, adapter la taille de l’animation et choisir le format d'enregistrement pour le support de diffusion (site web, périphérique mobile, réseau d’affichage dynamique). Après validation du client, publier l’animation sur un réseau ou sur un support numérique.
+utilisant des séquences filmées mises à disposition, réaliser un montage pour créer un clip vidéo et le transférer sur un site d'hébergement de vidéos en ligne. <span id="Storyboard-focus">Selon la nature de l'animation, concevoir un story-board en tenant compte des règles de cadrage, de rythme, d’échelle des plans et de mouvement. Définir l’aspect graphique de l’animation. Présenter et argumenter le concept et le story-board aux destinataires</span>. <span id="media-focus">En fonction du public, du périphérique cible et du message à communiquer, adapter les différents médias (typographies, illustrations, photos) et associer des effets visuels et des effets sonores</span>. Intégrer les différents médias. Optimiser le poids, adapter la taille de l’animation et choisir le format d'enregistrement pour le support de diffusion (site web, périphérique mobile, réseau d’affichage dynamique). Après validation du client, publier l’animation sur un réseau ou sur un support numérique.
 
 ## Contexte(s) professionnel(s) de mise en oeuvre
 
@@ -15,7 +21,7 @@ Cette compétence nécessite l'utilisation d'un logiciel professionnel d’anima
 
 ### Techniques 
 
-- Utiliser un logiciel d’animation (du type : Adobe Animate, Adobe Rush, Adobe Première, Adobe After Effects…)
+- <span id="montage-focus">Utiliser un logiciel d’animation (du type : Adobe Animate, Adobe Rush, Adobe Première, Adobe After Effects…)</span>
 - Optimiser le poids et adapter la taille des animations
 
 ### Organisationnels

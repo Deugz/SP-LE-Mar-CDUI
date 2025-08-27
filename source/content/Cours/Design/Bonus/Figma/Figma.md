@@ -1,4 +1,4 @@
-# Figma
+# Perfectionnement Figma
 
 ```{note}
 
@@ -19,4 +19,4 @@ Créer un lexique francais / anglais avec les différentes fonctionnalités de f
 - [Youtube](https://www.youtube.com/watch?v=Lkn3C4a5NqI)
 
 
-### Raccourcis Clavier
+### Raccourci Clavier

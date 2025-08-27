@@ -4,9 +4,9 @@
 :maxdepth: 2
 :hidden:
 
-Accessibilite/Accessible
 Eco-Conception/Eco-conception
 Portefolio/Portefolio
+PhP-SQL/PHP-SQL
 
 ```
 
@@ -50,7 +50,7 @@ Petite introduction du concept de vibecoding et ressources qui en parle (cf Benj
 
 - [emergent](https://app.emergent.sh/)
 
-- ```{note}
+```{note}
 
 A tester
 

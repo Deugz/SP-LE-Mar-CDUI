@@ -1,6 +1,13 @@
 # Stratégie Webmarketing
 
+<br>
+
 <p class="p-emphase"> Mettre en oeuvre une stratégie webmarketing </p>
+
+<br>
+
+- **Liens** : {bdg-link-primary}`🧠 4 - Identifier ses utilisateurs <../../../Cours/GDP/Utilisateurs/Utilisateurs.html>`
+
 
 ## Description de la compétence – processus de mise en oeuvre
 

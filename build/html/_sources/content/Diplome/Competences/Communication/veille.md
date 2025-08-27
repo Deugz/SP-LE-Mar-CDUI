@@ -6,7 +6,7 @@
 
 <br>
 
-- **Liens** : {bdg-link-primary}`🧠 4 - Système de Veille <../../../Cours/GDP/Veille/Veille.html>`
+- **Liens** : {bdg-link-primary}`🧠 3 - Système de Veille <../../../Cours/GDP/Veille/Veille.html>`
 
 ## Description de la compétence – processus de mise en oeuvre
 

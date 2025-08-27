@@ -1,6 +1,12 @@
 # Intégrer
 
+<br>
+
 <p class="p-emphase"> Intégrer des pages web </p>
+
+<br>
+
+- **Liens** : {bdg-link-primary}`🧠 19 - HTML / CSS / JS <../../../Cours/Dev-Web/HTML-CSS-JS/Developpement-Main.html>`
 
 ## Description de la compétence – processus de mise en oeuvre
 
@@ -39,7 +45,7 @@ ou de script : HTML, CSS, JavaScript. Elle nécessite l'utilisation d'outils de 
 
 - Connaissance du vocabulaire professionnel technique, y compris en anglais (niveau A2)
 - Connaissance des différents formats d’enregistrement d'images et de vidéos
-- Connaissance des langages HTML et CSS
+- <span id="dev-focus">Connaissance des langages HTML et CSS</span>
 - Connaissance des standards du web W3C et des normes d'accessibilité WAI ou RGAA
 - Connaissance des techniques du responsive web design
 - Connaissance du langage JavaScript

@@ -1,4 +1,4 @@
-# 8 - Photoshop
+# 8 - Démarrer sur Photoshop
 
 <br>
 

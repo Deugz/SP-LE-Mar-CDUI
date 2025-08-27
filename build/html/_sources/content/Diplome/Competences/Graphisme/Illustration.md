@@ -6,7 +6,7 @@
 
 <br>
 
-- **Liens** : {bdg-link-primary}`🧠 2 - Cahier des charges <../../../Cours/GDP/CDC/CDC.html>` {bdg-link-primary}`🧠 6 - Démarrer sur Illustrator <../../../Cours/Graphisme/Logiciels/Illustrator/Illustrator.html>` {bdg-link-primary}`🧠 7 - Charte Graphique <../../../Cours/Graphisme/Charte-Graphique/Charte-graphique.html>` {bdg-link-primary}`🧠 8 - Photoshop <../../../Cours/Graphisme/Logiciels/Photoshop/Photoshop.html>`
+- **Liens** : {bdg-link-primary}`🧠 2 - Cahier des charges <../../../Cours/GDP/CDC/CDC.html>` {bdg-link-primary}`🧠 3 - Système de Veille <../../../Cours/GDP/Veille/Veille.html>` {bdg-link-primary}`🧠 6 - Charte Graphique <../../../Cours/Graphisme/Charte-Graphique/Charte-graphique.html>` {bdg-link-primary}`🧠 7 - Démarrer sur Illustrator <../../../Cours/Graphisme/Logiciels/Illustrator/Illustrator.html>`  {bdg-link-primary}`🧠 8 - Démarrer sur Photoshop <../../../Cours/Graphisme/Logiciels/Photoshop/Photoshop.html>` {bdg-link-primary}`🧠 14 - Bases de Photographie <../../../Cours/Video-Photo/Photo/Base-Photo.html>`
 
 ## Description de la compétence – processus de mise en oeuvre
 
@@ -46,9 +46,9 @@ graphique.
 - Connaissance des bases de la législation des droits d’auteurs
 - Connaissance des principes de l’image numérique
 - Connaissance des différents modes colorimétriques
-- Connaissance des règles de composition photographique (nombre d’or, règle des tiers, cadrage, perspective...)
+- <span id="Photo-focus">Connaissance des règles de composition photographique (nombre d’or, règle des tiers, cadrage, perspective...)</span>
 - Connaissance de la symbolique des formes et des couleurs
-- Connaissance des principes de la visualisation de données
+- <span id="veille-focus2">Connaissance des principes de la visualisation de données</span>
 - Connaissance des techniques de mise en valeur graphique (effets visuels...)
 - Connaissance des différents formats d’enregistrement d'images
 - Connaissance des fonctions d'un logiciel professionnel d'illustration vectorielle

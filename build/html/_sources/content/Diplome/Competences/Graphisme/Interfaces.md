@@ -6,7 +6,7 @@
 
 <br>
 
-- **Liens** : {bdg-link-primary}`🧠 5 - Benchmark Digital <../../../Cours/GDP/Benchmark/Benchmark.html>` {bdg-link-primary}`🧠 7 - Charte Graphique <../../../Cours/Graphisme/Charte-Graphique/Charte-graphique.html>` {bdg-link-primary}`🧠 10 - Introduction à l’UX Design <../../../Cours/Design/Introduction-UX/Introduction-UX.html>` {bdg-link-primary}`🧠 11 - Concevoir la Navigation <../../../Cours/Design/Navigation/Navigation.html>`
+- **Liens** : {bdg-link-primary}`🧠 5 - Benchmark Digital <../../../Cours/GDP/Benchmark/Benchmark.html>` {bdg-link-primary}`🧠 6 - Charte Graphique <../../../Cours/Graphisme/Charte-Graphique/Charte-graphique.html>` {bdg-link-primary}`🧠 10 - Introduction à l’UX Design <../../../Cours/Design/Introduction-UX/Introduction-UX.html>` {bdg-link-primary}`🧠 11 - Concevoir la Navigation <../../../Cours/Design/Navigation/Navigation.html>`
 
 ## Description de la compétence – processus de mise en oeuvre
 

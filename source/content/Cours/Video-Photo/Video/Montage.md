@@ -40,6 +40,10 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Animations Vidéo <../../../Diplome/Competences/Graphisme/Animations.html#montage-focus>` 
+
+<br>
+
 
 :::{dropdown} Syllabus
 
@@ -183,3 +187,8 @@ Pas le bon support mais quelques documents sur le drive
 ::::
 
 ## Synthèse
+
+
+### IA Générative
+
+- [REX de l'utilisation de l'IA dans les écoles de Design](https://etienne.design/2023/01/27/ai-2-ecole/)

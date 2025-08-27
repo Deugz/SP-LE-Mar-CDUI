@@ -102,7 +102,6 @@ Capture d'écran du dossier obtenue à la suite d'un export depuis wordpress
 
 ```{image} Docs/Xampp-logo.png
 
-
 ```
 
 +++
@@ -229,7 +228,7 @@ Image de l'interface
 ```{figure} Docs/Capture-PHPMYADMIN.png
 ---
 width: 100%
-name: MAMP-capture
+name: Capture-PHPMYADMIN
 ---
 Capture d'écran de l'interface MAMP lorsque l'on clique sur l'icone présente sur le bureau
 ```
@@ -282,3 +281,12 @@ Créer un gif pour montrer les différentes étapes
 
 ```
 
+## Transfert FTP
+
+- Fait partie des choses à savoir faire selon le référentiel ({bdg-link-danger}`🎓 Animations Vidéo <../../../../Diplome/Competences/Dev-Web/Adapter.html#ftp-focus>`)
+
+```{note}
+
+Demander une note à Grégoire ou créer du contenue pédagogique approprié
+
+```

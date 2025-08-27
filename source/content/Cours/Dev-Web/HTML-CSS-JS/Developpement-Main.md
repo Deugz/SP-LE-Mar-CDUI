@@ -51,6 +51,10 @@ js
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Dev-Web Intégrer <../../../Diplome/Competences/Dev-Web/Integrer.html#dev-focus>`
+
+<br>
+
 ## Avant de Commencer
 
 ### Dans la Peau d'un Dev

@@ -79,6 +79,8 @@
     <script src="../../../../_static/scripts/flash-card.js?v=72da52cc"></script>
     <script src="../../../../_static/scripts/sliding-image.js?v=e47ec5d7"></script>
     <script src="../../../../_static/scripts/custom.js?v=beddc9fd"></script>
+    <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-V9S9HSF9X0"></script>
+    <script src="../../../../_static/scripts/ga.js"></script>
     <link rel="canonical" href="https://deugz.github.io/SP-LE-Mar-CDUI/build/html/index.html/content/Cours/Video-Photo/Video/Montage.html" />
     <link rel="icon" href="../../../../_static/Label-Ecole-Logo.png"/>
     <link rel="index" title="Index" href="../../../../genindex.html" />
@@ -500,8 +502,8 @@ document.write(`
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">💼 Gestion de projet</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../GDP/CDC/CDC.html">2 - Cahier des charges</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../GDP/Utilisateurs/Utilisateurs.html">3 - Identifier ses utilisateurs</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../GDP/Veille/Veille.html">4 - Système de Veille</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../GDP/Veille/Veille.html">3 - Système de Veille</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../GDP/Utilisateurs/Utilisateurs.html">4 - Identifier ses utilisateurs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../GDP/Benchmark/Benchmark.html">5 - Benchmark Digital</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../GDP/Bonus/Bonus-GDP.html">Bonus</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../GDP/Bonus/Organisation/Organisation.html">Bien s’organiser</a></li>
@@ -510,12 +512,14 @@ document.write(`
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">🎨 Graphisme</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../../Graphisme/Logiciels/Illustrator/Illustrator.html">6 - Démarrer sur Illustrator</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../Graphisme/Charte-Graphique/Charte-graphique.html">7 - Charte Graphique</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../Graphisme/Logiciels/Photoshop/Photoshop.html">8 - Photoshop</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Graphisme/Charte-Graphique/Charte-graphique.html">6 - Charte Graphique</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Graphisme/Logiciels/Illustrator/Illustrator.html">7 - Démarrer sur Illustrator</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../Graphisme/Logiciels/Photoshop/Photoshop.html">8 - Démarrer sur Photoshop</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../Graphisme/Print/Print.html">9 - Support Print</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../Graphisme/Bonus/Bonus-Graphisme.html">Bonus</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../Graphisme/Bonus/Logo/Logo.html">Créer votre Logo!</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Graphisme/Bonus/Canva/Canva.html">Maitriser Canva</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Graphisme/Logiciels/Illustrator/Perfect-Illustrator.html">Perfectionnement Illustrator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Graphisme/Logiciels/Photoshop/Perfect-Photoshop.html">Perfectionnement Photoshop</a></li>
 </ul>
 </details></li>
 </ul>
@@ -526,9 +530,8 @@ document.write(`
 <li class="toctree-l1"><a class="reference internal" href="../../Design/Interface/Interface.html">12 - Concevoir l’Interface (UI)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../Design/Test-Utilisateur/Test-Utilisateur.html">13 - Test Utilisateur</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../Design/Bonus/Bonus-Webdesign.html">Bonus</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../Design/Bonus/Accessibilit%C3%A9.html">Accessibilité</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Design/Bonus/Eco-Conception.html">Eco-Conception</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Design/Bonus/Figma/Figma.html">Figma</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Design/Bonus/Accessibilite/Accessibilit%C3%A9.html">Accessibilité</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Design/Bonus/Figma/Figma.html">Perfectionnement Figma</a></li>
 </ul>
 </details></li>
 </ul>
@@ -543,7 +546,7 @@ document.write(`
 </ul>
 </details></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">🔧 Developpement Web</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">🔧 Développement Web</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../Dev-Web/RGPD/RGPD.html">18 - Droit de l’internet &amp; RGPD</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../Dev-Web/HTML-CSS-JS/Developpement-Main.html">19 - HTML / CSS / JS</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -552,16 +555,16 @@ document.write(`
 <li class="toctree-l2"><a class="reference internal" href="../../Dev-Web/HTML-CSS-JS/js.html">19.c - Javascript</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="../../Dev-Web/Wordpress/Wordpress.html">20 - Wordpress</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Dev-Web/Wordpress/Wordpress.html">20 - WordPress</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../Dev-Web/Wordpress/Elementor.html">Elementor</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Dev-Web/Wordpress/Woocomerce.html">Woocomerce</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Dev-Web/Wordpress/Post-wordpress/Post-wordpress.html">Post-Wordpress</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../Dev-Web/Bonus/Bonus-Dev-Web.html">Bonus</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../Dev-Web/Bonus/Accessibilite/Accessible.html">Accessibilité</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Dev-Web/Bonus/Eco-Conception/Eco-conception.html">Eco-Conception</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../Dev-Web/Bonus/Portefolio/Portefolio.html">Portefolio</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Dev-Web/Bonus/PhP-SQL/PHP-SQL.html">PHP / SQL</a></li>
 </ul>
 </details></li>
 </ul>
@@ -658,6 +661,10 @@ document.write(`
 </div>
 </div>
 </div>
+<ul class="simple">
+<li><p><strong>Liens</strong> : <a class="sd-sphinx-override sd-badge sd-bg-danger sd-bg-text-danger reference external" href="../../../Diplome/Competences/Graphisme/Animations.html#montage-focus" rel="noreferrer" target="_blank"><span>🎓 Animations Vidéo</span></a></p></li>
+</ul>
+<br>
 <details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
 <summary class="sd-summary-title sd-card-header">
 <span class="sd-summary-text">Syllabus</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
@@ -773,6 +780,12 @@ Autres promos</label><div class="sd-tab-content docutils">
 </section>
 <section id="synthese">
 <h2>Synthèse<a class="headerlink" href="#synthese" title="Link to this heading">#</a></h2>
+<section id="ia-generative">
+<h3>IA Générative<a class="headerlink" href="#ia-generative" title="Link to this heading">#</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="https://etienne.design/2023/01/27/ai-2-ecole/" rel="noreferrer" target="_blank">REX de l’utilisation de l’IA dans les écoles de Design</a></p></li>
+</ul>
+</section>
 </section>
 </section>
 
@@ -849,7 +862,10 @@ Autres promos</label><div class="sd-tab-content docutils">
 </li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#synthese">Synthèse</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#synthese">Synthèse</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#ia-generative">IA Générative</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 

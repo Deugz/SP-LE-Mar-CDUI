@@ -163,7 +163,7 @@ La solution la plus radicale consiste à s’assurer de la validité complète d
 
 #### Contrôle
 
-Soumettre la page au validateur HTML du [W3C](validator.w3.org) ou un autre outil de validation de code et vérifier que chaque valeur d’attribut `id`  est unique dans la page.
+Soumettre la page au validateur HTML du [W3C](validator.w3.org) ou un autre outil de validation de code et vérifier que chaque valeur d’attribut `id` est unique dans la page.
 
 ### 230 - Le site ne bloque pas la copie de contenu
 

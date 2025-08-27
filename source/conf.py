@@ -39,13 +39,17 @@ extensions = [
   "hoverxref.extension",
   "sphinx_new_tab_link",
   "sphinx_sitemap", 
-  "sphinx_last_updated_by_git", 
+  "sphinx_last_updated_by_git",
+  "sphinxcontrib.bibtex",
 ]
 
 
 html_baseurl = 'https://deugz.github.io/SP-LE-Mar-CDUI/build/html/index.html'
 html_last_updated_fmt = "%d %B %Y"
 
+
+bibtex_bibfiles = ["references.bib"]
+bibtex_reference_style = "author_year"  # ou "label" si tu veux un style classique
 
 import os
 intersphinx_mapping = {
@@ -77,7 +81,6 @@ html_favicon = "_static/logos/Label-Ecole-Logo.png"
 html_static_path = ['_static']
 
 html_theme_options = {
-    "analytics_id": "",  # ID Google Analytics (ça marche ?)
     "external_links": [
 
     ],
@@ -118,6 +121,6 @@ html_theme_options = {
 
 
 html_css_files = ["css/custom_style.css", "css/slider.css", "css/flash-card.css", "css/sliding-image.css", 'https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@400;700&display=swap',]
-html_js_files = ["scripts/slider-script.js", "scripts/page-layout.js", "scripts/flash-card.js", "scripts/sliding-image.js", "scripts/custom.js"]
+html_js_files = ["scripts/slider-script.js", "scripts/page-layout.js", "scripts/flash-card.js", "scripts/sliding-image.js", "scripts/custom.js", ("https://www.googletagmanager.com/gtag/js?id=G-V9S9HSF9X0",{"async": "async"}),"scripts/ga.js",]
 
     

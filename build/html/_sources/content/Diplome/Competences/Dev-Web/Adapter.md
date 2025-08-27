@@ -1,6 +1,12 @@
 # Adapter
 
+<br>
+
 <p class="p-emphase"> Adapter des systèmes de gestion de contenus </p>
+
+<br>
+
+- **Liens** : {bdg-link-primary}`🧠 18 - Droit de l’internet & RGPD <../../../Cours/Dev-Web/RGPD/RGPD.html>` {bdg-link-primary}`🧠 20 - Wordpress <../../../Cours/Dev-Web/RGPD/RGPD.html>`
 
 ## Description de la compétence – processus de mise en oeuvre
 
@@ -42,12 +48,12 @@ Cette compétence nécessite l'utilisation de logiciels professionnels (éditeur
 
 - Connaissance des éléments constitutifs d'un cahier des charges
 - Connaissance de l'organisation d'un système de gestion de contenu
-- Connaissance de base de l'utilisation des principaux systèmes de gestion de contenu
+- <span id="wordpress-focus">Connaissance de base de l'utilisation des principaux systèmes de gestion de contenu</span>
 - Connaissance de base du langage PHP, de MySQL et JavaScript
 - Connaissance des langages HTML et CSS
 - Connaissance des principes de base d’expérience utilisateur
 - Connaissance des spécificités des différents navigateurs
-- Connaissance des bases de la législation en vigueur sur les droits d'auteur, le droit à l'image, le commerce en ligne et les données personnelles
+- <span id="rgpd-focus">Connaissance des bases de la législation en vigueur sur les droits d'auteur, le droit à l'image, le commerce en ligne et les données personnelles</span>
 - Connaissance de base des solutions de paiement en ligne
 - Connaissance des différences et complémentarités entre approches généralistes et spécialistes (développement ou usage d’un CMS)
 

@@ -40,6 +40,10 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Animations Vidéo <../../../Diplome/Competences/Graphisme/Animations.html#media-focus>` {bdg-link-danger}`🎓 Supports de Communications <../../../Diplome/Competences/Graphisme/Supports.html#media-focus2>`
+
+<br>
+
 
 ```{warning}
 

@@ -1,4 +1,4 @@
-# 6 - Démarrer sur Illustrator
+# 7 - Démarrer sur Illustrator
 
 <br>
 

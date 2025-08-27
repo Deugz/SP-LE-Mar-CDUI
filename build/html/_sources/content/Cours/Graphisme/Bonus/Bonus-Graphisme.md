@@ -4,8 +4,9 @@
 :maxdepth: 2
 :hidden:
 
-Logo/Logo
-
+Canva/Canva
+../Logiciels/Illustrator/Perfect-Illustrator
+../Logiciels/Photoshop/Perfect-Photoshop
 ```
 
 <br>

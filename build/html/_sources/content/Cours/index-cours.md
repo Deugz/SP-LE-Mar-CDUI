@@ -16,8 +16,8 @@ Intro/e-commerce/e-commerce
 :hidden:
 
 GDP/CDC/CDC
-GDP/Utilisateurs/Utilisateurs
 GDP/Veille/Veille
+GDP/Utilisateurs/Utilisateurs
 GDP/Benchmark/Benchmark
 GDP/Bonus/Bonus-GDP
 ```
@@ -27,8 +27,8 @@ GDP/Bonus/Bonus-GDP
 :caption: 🎨 Graphisme
 :hidden:
 
-Graphisme/Logiciels/Illustrator/Illustrator
 Graphisme/Charte-Graphique/Charte-graphique
+Graphisme/Logiciels/Illustrator/Illustrator
 Graphisme/Logiciels/Photoshop/Photoshop
 Graphisme/Print/Print
 Graphisme/Bonus/Bonus-Graphisme
@@ -63,7 +63,7 @@ Video-Photo/Bonus/Bonus-Video-Photo
 
 ```{toctree}
 :maxdepth: 2
-:caption: 🔧 Developpement Web
+:caption: 🔧 Développement Web
 :hidden:
 
 Dev-Web/RGPD/RGPD
@@ -96,33 +96,949 @@ Soft-Skills/CV-motive
 
 ```
 
-***
+<br>
+
+<div class="scroll-image-row">
+  <img src="../../_static/Storytelling/Comic/comic-diplome.png" class="scroll-in from-left stagger image-large" alt="Image 2">
+  <img src="../../_static/Storytelling/avatar_Viny.png" class="scroll-in from-right stagger image-small" alt="Illustration faisant fonction de storytelling">
+</div>
+
+<br>
+
+## 🧐 Introduction
+
+### 0 - Le p’tit mot de l’équipe
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Intro/Edito/Edito.html
+:class-header: bg-light
+**Édito**
+^^^
+
+image
+
+:::
+
+::::
+
+
+### 1 - Web et e-commerce
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Intro/e-commerce/e-commerce.html
+:class-header: bg-light
+**e-commerce**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="10" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+## 💼 Gestion de projet
+
+### 2 - Cahier des charges
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: GDP/CDC/CDC.html
+:class-header: bg-light
+**CDC**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+### 3 - Système de Veille
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: GDP/Veille/Veille.html
+:class-header: bg-light
+**Veille**
+^^^
+
+image
+
++++
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="80" max="100" style="flex-grow:1; height:1.2em; accent-color: green;"></progress>
+</div>
+:::
+
+::::
+
+
+### 4 - Identifier ses utilisateurs
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: GDP/Utilisateurs/Utilisateurs.html
+:class-header: bg-light
+**Utilisateurs**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="30" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+### 5 - Benchmark Digital
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: GDP/Benchmark/Benchmark.html
+:class-header: bg-light
+**Benchmark**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+### Bonus
 
 ```{note}
 
-On met quoi dans cette page d'intro !?
-
-- Ingénierie de formation: enchainement des modules, fil rouge, lien avec les différents attendus du titre RNCP
+Grid
 
 ```
 
-```{admonition} To Do
+## 🎨 Graphisme
 
-Mettre en place un système de tag qui avec les trois dimensions du titre RNCP et les différentes sous catégories pour chaque ! 
+### 6 - Charte Graphique
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
 
 
-```
+:::
 
-## Outils (en vrac)
+:::{grid-item-card}
+:columns: 3
+:link: Graphisme/Charte-Graphique/Charte-graphique.html
+:class-header: bg-light
+**Charte Graphique**
+^^^
 
-- [mcstumble](https://www.mcstumble.com/)
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+
+### 7 - Démarrer sur Illustrator
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Graphisme/Logiciels/Illustrator/Illustrator.html
+:class-header: bg-light
+**Illustrator**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+
+### 8 - Photoshop
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Graphisme/Logiciels/Photoshop/Photoshop.html
+:class-header: bg-light
+**Photoshop**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+### 9 - Support Print
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Graphisme/Print/Print.html
+:class-header: bg-light
+**Print**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+### Bonus
 
 ```{note}
 
-Pleins d'outils pour le web et également un outil de recherche pour chercher des sources d'inspirations
+Grid
+
+```
+
+## 🧭 Web-Design
+
+### 10 - Introduction à l’UX Design
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Design/Introduction-UX/Introduction-UX.html
+:class-header: bg-light
+**Introduction UX**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+### 11 - Concevoir la Navigation (UX)
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Design/Navigation/Navigation.html
+:class-header: bg-light
+**Navigation**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+### 12 - Concevoir l’Interface (UI)
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Design/Interface/Interface.html
+:class-header: bg-light
+**Interface**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+### 13 - Test Utilisateur
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Design/Test-Utilisateur/Test-Utilisateur.html
+:class-header: bg-light
+**Test Utilisateur**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+### Bonus
+
+```{note}
+
+Grid
+
+```
+
+## 🎥 Vidéo / photographie
+
+### 14 - Bases de Photographie
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Video-Photo/Photo/Base-Photo.html
+:class-header: bg-light
+**Photo**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+
+### 15 - Storyboard Vidéo
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Video-Photo/Video/Storyboard.html
+:class-header: bg-light
+**Storyboard**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+
+### 16 - Prise de Son et Image
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Video-Photo/Video/Son-Image.html
+:class-header: bg-light
+**Son / Image**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+### 17 - Montage Vidéo
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Video-Photo/Montage/Montage.html
+:class-header: bg-light
+**Montage**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+### Bonus
+
+```{note}
+
+Grid
+
+```
+
+## 🔧 Développement Web
+
+### 18 - Droit de l’internet & RGPD
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Dev-Web/RGPD/RGPD.html
+:class-header: bg-light
+**RGPD**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+
+### 19 - HTML / CSS / JS
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Dev-Web/HTML-CSS-JS/Developpement-Main.html
+:class-header: bg-light
+**Développement web**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+
+```{note}
+
+Ajouter grid avec chacun des modules séparemment
+
+```
+
+### 20 - WordPress
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Dev-Web/Wordpress/Wordpress.html
+:class-header: bg-light
+**WordPress**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+
+```{note}
+
+Ajouter grid avec chacun des sous-modules séparemment
 
 ```
 
 
+## 📈 Webmarketing
+
+### 21 - Stratégie Réseau Sociaux 
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
 
 
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: WebMarketing/Reseau-Social/Reseau-Social.html
+:class-header: bg-light
+**Réseaux Social**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+### 22 - Référencement (SEO)
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: WebMarketing/SEO/SEO.html
+:class-header: bg-light
+**SEO**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+### 23 - Campagne d’emailing
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: WebMarketing/Emailing/Emailing.html
+:class-header: bg-light
+**Emailing**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+
+### 24 - Google Analytics
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: WebMarketing/Analytics/Google-Analytics.html
+:class-header: bg-light
+**Analytics**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+### Bonus
+
+```{note}
+
+Grid
+
+```
+
+## 👑 Soft Skills & Autres
+
+
+### Le Pitch
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Soft-Skills/Pitch.html
+:class-header: bg-light
+**Pitch**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::
+
+
+
+### CV & lettre de motive
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Présentation 
+
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: Soft-Skills/CV-motive.html
+:class-header: bg-light
+**CV / Motive**
+^^^
+
+image
+
++++
+
+<div style="display:flex; align-items:center; gap:8px; width:100%;">
+<span style="white-space:nowrap;">🚧</span>
+<progress value="40" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+</div>
+
+:::
+
+::::

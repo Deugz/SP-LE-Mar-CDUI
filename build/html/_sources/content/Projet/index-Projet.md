@@ -2,18 +2,6 @@
 
 ```{toctree}
 :maxdepth: 2
-:caption: ⚠️ Avant de Commencer
-:hidden:
-
-Avant-de-Commencer/Pourquoi-Comment/Pourquoi-Comment
-Avant-de-Commencer/Livrables/Livrables
-Avant-de-Commencer/Environnement/Environement-main
-Avant-de-Commencer/Bonnes-Pratiques/Bonnes-pratiques
-
-```
-
-```{toctree}
-:maxdepth: 2
 :caption: 📅 Cahier des charges
 :hidden:
 
@@ -71,4 +59,51 @@ Transférer le document suivant: [Wikihow](https://scandalous-trillium-e29.notio
 
 ```
 
+## Cahier des charges
 
+```{warning}
+
+Un peu tricky ... Est-ce que c'est nous qui l'écrivons (aprés tout, c'est nous qui mettons en place les contraintes etc)
+
+
+```
+
+
+## Dossier Projet
+
+
+
+## Support de Présentation
+
+```{note}
+
+Inclure la durée de présentation
+
+```
+
+
+## Dossier Professionnel
+
+
+
+```{note}
+
+Des exercices réalisés en cours qui ne correspondent pas à votre projet
+
+```
+
+
+### Print
+
+```{note}
+
+Corep vieux port
+
+```
+
+
+## Présentation Canva
+
+## Autres Documents
+
+### Livret d'évaluation

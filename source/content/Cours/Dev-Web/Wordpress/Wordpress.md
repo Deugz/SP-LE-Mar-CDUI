@@ -1,4 +1,4 @@
-# 20 - Wordpress
+# 20 - WordPress
 
 ```{toctree}
 :maxdepth: 2
@@ -49,6 +49,10 @@ Post-wordpress/Post-wordpress
 :::
     
 ::::
+
+- **Liens** : {bdg-link-danger}`🎓 Dev-Web Adapter <../../../Diplome/Competences/Dev-Web/Adapter.html#wordpress-focus>`
+
+<br>
 
 :::{dropdown} Syllabus
 

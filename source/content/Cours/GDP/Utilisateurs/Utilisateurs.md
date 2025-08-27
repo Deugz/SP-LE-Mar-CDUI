@@ -1,4 +1,4 @@
-# 3 - Identifier ses utilisateurs 
+# 4 - Identifier ses utilisateurs 
 
 <br>
 
@@ -135,13 +135,23 @@ Lien avec le chapitre précédent (définir votre projet)
 
 - Vous **mettre à la place de vos utilisateurs finaux** vous permettra d’avoir des **idées auxquelles vous n’aurez peut-être pas pensé**
 
+<br>
+
+```{figure} Docs/Images/vitesse-pensee.png
+---
+width: 90%
+align: center
+name: 2-vitesses-pensée
+---
+Source [https://sapientagestion.com/](https://sapientagestion.com/actualites/lecture-de-vacances-quest-ce-que-la-finance-comportementale/) - reproduire la figure pour éviter copywrit
+```
 
     
 #### Biais cognitifs
 
 ```{note}
 
-On en reparlera au chapitre suivant ([La Veille](../Veille/Veille))
+On en parlé au chapitre précédent ([La Veille](../Veille/Veille))
 
 
 ```

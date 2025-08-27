@@ -1,4 +1,4 @@
-# 4 - Système de Veille
+# 3 - Système de Veille
 
 <br>
 
@@ -40,7 +40,7 @@
     
 ::::
 
-- **Liens** : {bdg-link-danger}`🎓 Système de Veille <../../../Diplome/Competences/Communication/veille.html#veille-focus>`
+- **Liens** : {bdg-link-danger}`🎓 Système de Veille <../../../Diplome/Competences/Communication/veille.html#veille-focus>` {bdg-link-danger}`🎓 Illustrations, Graphismes, Visuels <../../../Diplome/Competences/Graphisme/Illustration.html#veille-focus2>`
 
 <br>
 
@@ -82,7 +82,24 @@
 :::::{dropdown} Support de Cours 
 
 ::::{tab-set}
+
+:::{tab-item} CDP 2
+
+```{note}
+
+Pas de support de cours
+
+```
+
+:::
+
 :::{tab-item} CDP 1
+
+```{note}
+
+Pas de support de cours
+
+```
 
 :::
 
@@ -1116,5 +1133,15 @@ Présentation de l'outil discord et explication de comment on peut nourrir cette
 
 Au programme du Master donc faire le lien quand ce dernier sera créé
 
+
+```
+
+#### Articles Scientifiques
+
+- {cite}`Amaral2025`
+
+```{note}
+
+A inclure quelque part dans le cours - décrire ce que l'on trouve dans l'article (traduction de l'abstract)
 
 ```

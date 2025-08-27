@@ -39,6 +39,9 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Optimiser <../../../Diplome/Competences/Dev-Web/Optimiser.html#navigation-focus2>`
+
+<br>
 
 :::{dropdown} Syllabus
 

@@ -40,6 +40,10 @@
     
 ::::
 
+- **Liens** : {bdg-link-danger}`🎓 Animations Vidéo <../../../Diplome/Competences/Graphisme/Animations.html#Storyboard-focus>`
+
+<br>
+
 :::{dropdown} Syllabus
 
 > **Module 15**: *Maîtriser les bases de la photographie e-commerce*

@@ -4,8 +4,7 @@
 :maxdepth: 2
 :hidden:
 
-Accessibilité
-Eco-Conception
+Accessibilite/Accessibilité
 Figma/Figma
 
 ```
