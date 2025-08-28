@@ -337,6 +337,16 @@ Faire un benchmark des différents outils
 
 ::::
 
+
+##### Goodsfox
+
+- [goodsfox](https://goodsfox.com/)
+
+3 days free trial
+
+
+
+
 - [website.grader](https://website.grader.com/)
 
 ```{note}
@@ -399,4 +409,18 @@ Extension navigateur légère et intuitive.
 Affiche les technologies utilisées directement lors de la navigation sur un site.
 
 Très pratique pour une utilisation rapide et discrète.
+
+
+## Autres
+
+### Mentions IA
+
+- [brek.ai](https://www.brek.ai/tools/brand-analyzer)
+
+
+permet de checker les mentions de votre site par chat gpt. Analyse très complète, a éssayer !s
+
+
+
+
 

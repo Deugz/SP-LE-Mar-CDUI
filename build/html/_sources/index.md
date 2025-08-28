@@ -294,33 +294,4 @@ Formulaire de contact + livre d'or
 
 ```
 
-<h2>Bienvenue !</h2>
-<input type="text" id="prenom" placeholder="Entrez votre prénom">
-<button id="submitBtn">Valider</button>
 
-<script>
-const API_URL = "1sBOmFlJvSwB9v9U9rsXfMNGjLtZageASnN1XpyrLc44iMi0nWtPW1prp";
-
-document.getElementById("submitBtn").addEventListener("click", async () => {
-  const prenom = document.getElementById("prenom").value;
-  if (!prenom) return alert("Merci d'entrer votre prénom !");
-
-  try {
-    const res = await fetch(API_URL, {
-      method: "POST",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({prenom})
-    });
-
-    const data = await res.json();
-    if (data.status === "ok") {
-      alert(`Bienvenue ${prenom} ! Votre ID est ${data.id}`);
-      document.getElementById("prenom").value = "";
-    }
-  } catch (err) {
-    console.error(err);
-    alert("Erreur lors de l'enregistrement. Réessayez.");
-  }
-});
-
-</script>

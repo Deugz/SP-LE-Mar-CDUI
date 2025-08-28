@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta content="Environnement Numérique d'Apprentissage de la formation &quot;Chef de projet e-commerce&quot; de l'antenne marseillaise de Label Ecole. " lang="fr" name="description" xml:lang="fr" />
 
-    <meta property="article:modified_time" content="2025-08-27T17:48:25+02:00" />
+    <meta property="article:modified_time" content="2025-08-27T17:53:39+02:00" />
     <title>Chef.fe de Projet E-Commerce &#8212; Label Ecole V0 0.0.1 documentation</title>
   
   
@@ -711,35 +711,7 @@ document.write(`
 <p class="admonition-title">Note</p>
 <p>Formulaire de contact + livre d’or</p>
 </div>
-<h2>Bienvenue !</h2>
-<input type="text" id="prenom" placeholder="Entrez votre prénom">
-<button id="submitBtn">Valider</button>
-<script>
-const API_URL = "1sBOmFlJvSwB9v9U9rsXfMNGjLtZageASnN1XpyrLc44iMi0nWtPW1prp";
-
-document.getElementById("submitBtn").addEventListener("click", async () => {
-  const prenom = document.getElementById("prenom").value;
-  if (!prenom) return alert("Merci d'entrer votre prénom !");
-
-  try {
-    const res = await fetch(API_URL, {
-      method: "POST",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({prenom})
-    });
-
-    const data = await res.json();
-    if (data.status === "ok") {
-      alert(`Bienvenue ${prenom} ! Votre ID est ${data.id}`);
-      document.getElementById("prenom").value = "";
-    }
-  } catch (err) {
-    console.error(err);
-    alert("Erreur lors de l'enregistrement. Réessayez.");
-  }
-});
-
-</script></section>
+</section>
 </section>
 
     <script type="text/x-thebe-config">

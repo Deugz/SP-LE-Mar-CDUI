@@ -105,11 +105,20 @@
 
 :::::
 
-## Cours
+## Introduction
 
-### Couleurs
+### Qu'est-ce qu'une charte graphique ?
 
-#### Outils de sélection
+```{note}
+
+Définition
+
+```
+
+
+## Couleurs
+
+### Outils de sélection
 
 - [www.realtimecolors.com](https://www.realtimecolors.com/)
 
@@ -127,21 +136,77 @@ Un jeux pour tester la visibilité de différentes nuances de couleurs
 
 ```
 
-### Typography
+## Typographies
 
-#### Handwritten
+<p class="p-emphase">Et non typologie !</p>
+
+### Handwritten
 
 - [Calligrapher](https://www.calligrapher.ai/)
 
 
 #### Explorez
 
-- [onts.ilovetypography.com](https://fonts.ilovetypography.com/)
+- [fontsilovetypography](https://fonts.ilovetypography.com/)
 
+- [fontpair.co](fontpair.co)
+
+
+```{note}
+
+Méthode pédagogique
+- des apprenants en groupe explorent des polices et font une restitution sur ce qu'ils ont aimé ou non.
+
+```
+
+
+- [Google knowledge base related to fonts](https://fonts.google.com/knowledge)
 
 ## Iconographie
 
 ### pictogrammes de réassurance
+
+```{note}
+
+Paramètres importants
+- cohérence
+- lien avec charte graphique
+
+```
+
+
+### Bibliothèque
+
+- [flaticon](https://www.flaticon.com/fr/)
+
+- [fontawesome](https://fontawesome.com/)
+
+- [Eva icons](https://akveo.github.io/eva-icons/#/?type=outline)
+
+- [remixicon](https://remixicon.com/)
+
+- [heroicons](https://heroicons.com/?utm_source=chatgpt.com)
+
+- [feathericons](https://feathericons.com/)
+
+- [lordicon](https://lordicon.com/)
+
+
+```{admonition} Bonnes pratiques
+
+Choisissez une bibliothèque et prenez toute vos icones dedans afin de maximiser la consistence
+
+```
+
+## Logo
+
+
+```{note}
+
+Lien vers chapitre Illustrator
+
+
+```
 
 
 

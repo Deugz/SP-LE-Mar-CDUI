@@ -196,6 +196,6 @@ Très bonne ressource mais en Anglais ...
 - [Laws of UX](https://lawsofux.com/)
 
 
-### Police
+## Autres méthodes 
 
-- fontpair.co
+- [AtomicDesign](https://atomicdesign.bradfrost.com/chapter-2/)

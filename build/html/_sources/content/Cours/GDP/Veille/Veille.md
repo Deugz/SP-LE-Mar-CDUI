@@ -1136,6 +1136,12 @@ Au programme du Master donc faire le lien quand ce dernier sera créé
 
 ```
 
+#### Outils
+
+##### Veille technologique
+
+- [producthunt](https://www.producthunt.com/)
+
 #### Articles Scientifiques
 
 - {cite}`Amaral2025`
