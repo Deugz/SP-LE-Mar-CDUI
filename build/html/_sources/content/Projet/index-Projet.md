@@ -31,8 +31,9 @@ Dossier-Projet/Communication/Communication
 :caption: 🗣 Support de Présentation
 :hidden:
 
-Canva/Astuces
-
+Canva/Maitriser-Canva
+Canva/Canva-structure
+Canva/Astuces-BP
 ```
 
 ```{toctree}

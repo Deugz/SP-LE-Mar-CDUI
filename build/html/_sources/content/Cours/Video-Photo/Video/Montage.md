@@ -186,6 +186,14 @@ Pas le bon support mais quelques documents sur le drive
 
 ::::
 
+
+## Effets
+
+### Speed Ramp
+
+- [Tuto Youtube](https://youtube.com/shorts/XxhMb5h_z10?si=jMwZ6T8SPiU8VJqy)
+
+
 ## Synthèse
 
 

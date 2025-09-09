@@ -1,5 +1,15 @@
 # Création du Site
 
+```{toctree}
+:maxdepth: 2
+:caption: 
+:hidden:
+
+site-WP
+HTML-CSS-site
+
+```
+
 ## VI- Création du site web
 
 ```{admonition} Structurer et mettre en forme une landing page ou portfolio en HTML CSS & JS

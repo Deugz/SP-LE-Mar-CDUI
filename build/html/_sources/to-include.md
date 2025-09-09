@@ -14,6 +14,14 @@ Un outil pour gérer des commantaire via github
 
 ```
 
+- [Text2quizz](https://latelierduformateur.fr/text2quiz-outil-open-source-de-creation-de-quiz/)
+
+```{note}
+
+Très bonne solution pour générer des questions
+
+```
+
 ## Changer le Branding 
 
 - Trouver un nom : Concepteur Designer d'Interface Utilisateur **Open-Source**

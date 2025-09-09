@@ -129,6 +129,12 @@
 
 ::::
 
+
+### Tutos
+
+- [Youtube mockup emballage](https://youtube.com/shorts/ZBD0JFPjSpM?si=Ryx_zqafTnatyqti)
+
+
 ### Ressources
 
 - [artboard.studio](https://artboard.studio/)

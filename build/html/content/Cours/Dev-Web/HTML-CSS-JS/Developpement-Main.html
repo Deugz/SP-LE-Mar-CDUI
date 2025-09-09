@@ -669,26 +669,31 @@ document.write(`
 <br>
 <section id="avant-de-commencer">
 <h2>Avant de Commencer<a class="headerlink" href="#avant-de-commencer" title="Link to this heading">#</a></h2>
+<p class="p-emphase">Le Développement web, ça vous fait penser à quoi ?</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Activité nuage de mot</p>
+</div>
 <section id="dans-la-peau-d-un-dev">
 <h3>Dans la Peau d’un Dev<a class="headerlink" href="#dans-la-peau-d-un-dev" title="Link to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Installation de VS Code</p></li>
 </ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Utiliser cette page comme une introduction au développement web</p>
-<ul class="simple">
-<li><p>mettre des liens vers des codepens - proposer d’interagir avec le codepen pour voir comment le html css et js interagissent entre eux</p></li>
-</ul>
-</div>
 </section>
+</section>
+<section id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Link to this heading">#</a></h2>
+<section id="les-langages-du-web">
+<h3>Les Langages du web<a class="headerlink" href="#les-langages-du-web" title="Link to this heading">#</a></h3>
+<p class="p-emphase">Qui discute avec qui ?</p>
+<p>Un (ou plusiers) ordinateur qui discute avec un serveur</p>
 </section>
 <section id="le-web">
-<h2>Le Web<a class="headerlink" href="#le-web" title="Link to this heading">#</a></h2>
+<h3>Le Web<a class="headerlink" href="#le-web" title="Link to this heading">#</a></h3>
 <section id="standards">
-<h3>Standards<a class="headerlink" href="#standards" title="Link to this heading">#</a></h3>
+<h4>Standards<a class="headerlink" href="#standards" title="Link to this heading">#</a></h4>
 <section id="w3c">
-<h4>W3C<a class="headerlink" href="#w3c" title="Link to this heading">#</a></h4>
+<h5>W3C<a class="headerlink" href="#w3c" title="Link to this heading">#</a></h5>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <ul class="simple">
@@ -705,6 +710,7 @@ document.write(`
 </section>
 </section>
 </section>
+</section>
 <section id="test">
 <h2>Test<a class="headerlink" href="#test" title="Link to this heading">#</a></h2>
 <div class="admonition note">
@@ -715,9 +721,22 @@ document.write(`
 </ul>
 </div>
 <iframe id="test-cdp-cduis" title="roue de la fortune" width="100%" height="800" src="https://ladigitale.dev/digipen/editeur.html"></iframe>
-</section>
-<section id="ressources">
-<h2>Ressources<a class="headerlink" href="#ressources" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://snipzy.dev/snippets/sticky-navigation.html" rel="noreferrer" target="_blank">Menu de Navigation “Sticky”</a></p></li>
+<li><p><a class="reference external" href="https://snipzy.dev/snippets/scrolling-timeline.html" rel="noreferrer" target="_blank">scrolling-timeline</a></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Peut être utile en page d’acceuil des projets pour présenter les différents livrables de la formation un lien hypertecxt avec des liens vers chaque page</p>
+</div>
+<ul class="simple">
+<li><p><a class="reference external" href="https://masscode.io/snippets/ui/buttons/10/" rel="noreferrer" target="_blank">Bouton stylé</a></p></li>
+</ul>
+<section id="code-snippets">
+<h3>Code Snippets<a class="headerlink" href="#code-snippets" title="Link to this heading">#</a></h3>
+<p>Un Code <a class="reference internal" href="../../../Outils/Glossaire.html#term-Snippet"><span class="xref std std-term">Snippet</span></a> est un petit bout de code que vous pouvez directement copier/coller dans votre projet.</p>
+<section id="banques-de-snippet">
+<h4>Banques de Snippet<a class="headerlink" href="#banques-de-snippet" title="Link to this heading">#</a></h4>
 <ul class="simple">
 <li><p><a class="reference external" href="https://snipzy.dev/" rel="noreferrer" target="_blank">snipzy.dev</a></p></li>
 </ul>
@@ -725,6 +744,47 @@ document.write(`
 <p class="admonition-title">Note</p>
 <p>Frontend code snippets</p>
 </div>
+<ul class="simple">
+<li><p>Codepen</p></li>
+<li><p><a class="reference external" href="https://masscode.io/" rel="noreferrer" target="_blank">Masscode</a></p></li>
+<li><p><a class="reference external" href="https://www.w3schools.com/howto/" rel="noreferrer" target="_blank">W3School How To</a></p></li>
+<li><p><a class="reference external" href="https://www.codeply.com/" rel="noreferrer" target="_blank">codeply</a></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Plus orientés sur les framework</p>
+</div>
+</section>
+</section>
+</section>
+<section id="bonnes-pratiques">
+<h2>Bonnes Pratiques<a class="headerlink" href="#bonnes-pratiques" title="Link to this heading">#</a></h2>
+<section id="architecture-du-projet">
+<h3>Architecture du projet<a class="headerlink" href="#architecture-du-projet" title="Link to this heading">#</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>mon-site/
+│── index.html             # page d’accueil
+│── about.html             # autre page (si besoin)
+│── contact.html           # idem
+│
+├── assets/                # ressources partagées
+│   ├── css/               # styles
+│   │   └── style.css
+│   │
+│   ├── js/                # scripts
+│   │   └── main.js
+│   │
+│   ├── img/               # images
+│   │   ├── logo.png
+│   │   └── background.jpg
+│   │
+│   └── fonts/</p>
+</div>
+</section>
+</section>
+<section id="ressources">
+<h2>Ressources<a class="headerlink" href="#ressources" title="Link to this heading">#</a></h2>
 </section>
 </section>
 
@@ -795,14 +855,28 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dans-la-peau-d-un-dev">Dans la Peau d’un Dev</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#le-web">Le Web</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#standards">Standards</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#w3c">W3C</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#introduction">Introduction</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#les-langages-du-web">Les Langages du web</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-web">Le Web</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#standards">Standards</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#w3c">W3C</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#test">Test</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#test">Test</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#code-snippets">Code Snippets</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#banques-de-snippet">Banques de Snippet</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#bonnes-pratiques">Bonnes Pratiques</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#architecture-du-projet">Architecture du projet</a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ressources">Ressources</a></li>
 </ul>
   </nav></div>

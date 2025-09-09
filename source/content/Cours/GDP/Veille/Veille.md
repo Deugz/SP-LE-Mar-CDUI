@@ -1100,6 +1100,14 @@ La matrice SWOT
 
 
 
+## Testez-vous !
+
+```{note}
+
+Embed ce questionnaire : [Questionnaire veille](https://app.lumi.education/h5p/mco-les-enjeux-de-la-veille-informationnelle-dans-la-dmarche-mercatique-ecrui)
+
+```
+
 
 
 ## Pour Conclure
@@ -1137,6 +1145,10 @@ Au programme du Master donc faire le lien quand ce dernier sera créé
 ```
 
 #### Outils
+
+##### Open Source
+
+- [Flus](https://flus.fr/)
 
 ##### Veille technologique
 

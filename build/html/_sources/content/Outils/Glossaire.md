@@ -281,6 +281,9 @@ Shadow IT
 
 Site Map 
   Plan de site en français, un Site Map permet aux moteurs de recherches d'indexer un site web et les informations relatives à ce dernier. Le Site Map se présente sous la forme d'un ficher XML.
+
+Snippet
+  Petit extrait de code réutilisable qui accomplit une tâche spécifique. Les snippets permettent de gagner du temps et d’éviter de réécrire du code répétitif. Ils peuvent être intégrés directement dans un projet     ou utilisés via des raccourcis dans un éditeur de code.
   
 Sphinx
   Générateur de documentation puissant pour Python et d'autres projets.

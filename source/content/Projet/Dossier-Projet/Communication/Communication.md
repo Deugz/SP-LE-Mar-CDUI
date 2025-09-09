@@ -1,5 +1,17 @@
 # Stratégie de Communication
 
+```{toctree}
+:maxdepth: 2
+:caption: 
+:hidden:
+
+Strat-RS
+15-visuels
+Strat-SEO
+Camp-email
+
+```
+
 ## VII- Stratégie de communication digitale 
 
 ```{admonition} Concevoir un planning stratégique social media

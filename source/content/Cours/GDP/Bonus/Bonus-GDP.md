@@ -48,6 +48,14 @@ Organisation/Organisation
     
 ::::
 
+## Outils
+
+### Trouver vos propres outils
+
+- [Framalibre](https://framalibre.org/)
+
+
+
 ## Bien s'Organiser
 
 ```{note}
@@ -55,3 +63,19 @@ Organisation/Organisation
 Parler du docs *suivie projets apprenants*. Expliquer comment ca marche
 
 ```
+
+
+
+## Autres Ressources:
+
+- [OpenProject](https://www.openproject.org/fr/tarification/)
+
+```{note}
+
+Logiciel de gestion de projet open source
+
+```
+
+### MindMapping
+
+- [Xisemapping](https://latelierduformateur.fr/tutoriels-wisemapping-creation-de-cartes-mentales/)

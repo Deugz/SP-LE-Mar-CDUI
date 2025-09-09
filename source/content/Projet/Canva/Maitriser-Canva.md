@@ -1,4 +1,4 @@
-# Astuces
+# Maitriser l'outil Canva
 
 ```{note}
 
@@ -22,6 +22,12 @@ Reprendre toute les infos du doc d'Iris et créer une activité pour que les app
 
 
 
+## Outils
+
+### Icones
+
+- [brandfetch](https://brandfetch.com/wordpress.com)
+
 
 ## Outils IA
 
@@ -36,3 +42,4 @@ Outil IA pour générer des diagrammes à partir de textes
 - créer un lien depuis et vers la page de veille
 
 ```
+

@@ -57,29 +57,37 @@ js
 
 ## Avant de Commencer
 
-### Dans la Peau d'un Dev
-
-- Installation de VS Code
-
-
+<p class="p-emphase">Le Développement web, ça vous fait penser à quoi ?</p>
 
 
 ```{note}
 
-Utiliser cette page comme une introduction au développement web
+Activité nuage de mot
 
-- mettre des liens vers des codepens - proposer d'interagir avec le codepen pour voir comment le html css et js interagissent entre eux
 
 ```
 
 
 
 
-## Le Web
+### Dans la Peau d'un Dev
 
-### Standards
+- Installation de VS Code
 
-#### W3C
+
+## Introduction
+
+### Les Langages du web 
+
+<p class="p-emphase">Qui discute avec qui ?</p>
+
+Un (ou plusiers) ordinateur qui discute avec un serveur
+
+### Le Web
+
+#### Standards
+
+##### W3C
 
 ```{note}
 
@@ -97,7 +105,6 @@ Permet de checker votre site selon les standards W3C
 
 ```
 
-
 ## Test
 
 
@@ -111,10 +118,27 @@ Utiliser pour faire faire des exercices ou pour faire des démonstrations
 <iframe id="test-cdp-cduis" title="roue de la fortune" width="100%" height="800" src="https://ladigitale.dev/digipen/editeur.html"></iframe>
 
 
+- [Menu de Navigation "Sticky"](https://snipzy.dev/snippets/sticky-navigation.html)
 
 
+- [scrolling-timeline](https://snipzy.dev/snippets/scrolling-timeline.html)
 
-## Ressources
+```{note}
+
+Peut être utile en page d'acceuil des projets pour présenter les différents livrables de la formation un lien hypertecxt avec des liens vers chaque page
+
+
+```
+
+- [Bouton stylé](https://masscode.io/snippets/ui/buttons/10/)
+
+
+### Code Snippets
+
+Un Code {term}`Snippet` est un petit bout de code que vous pouvez directement copier/coller dans votre projet. 
+
+
+#### Banques de Snippet
 
 - [snipzy.dev](https://snipzy.dev/)
 
@@ -123,3 +147,53 @@ Utiliser pour faire faire des exercices ou pour faire des démonstrations
 Frontend code snippets
 
 ```
+
+- Codepen
+
+- [Masscode](https://masscode.io/)
+
+
+- [W3School How To](https://www.w3schools.com/howto/)
+
+
+
+- [codeply](https://www.codeply.com/)
+
+
+```{note}
+
+Plus orientés sur les framework
+
+```
+
+## Bonnes Pratiques
+
+### Architecture du projet
+
+
+```{note}
+
+mon-site/
+│── index.html             # page d'accueil
+│── about.html             # autre page (si besoin)
+│── contact.html           # idem
+│
+├── assets/                # ressources partagées
+│   ├── css/               # styles
+│   │   └── style.css
+│   │
+│   ├── js/                # scripts
+│   │   └── main.js
+│   │
+│   ├── img/               # images
+│   │   ├── logo.png
+│   │   └── background.jpg
+│   │
+│   └── fonts/ 
+
+```
+
+
+
+## Ressources
+
