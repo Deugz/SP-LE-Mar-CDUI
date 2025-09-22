@@ -44,6 +44,14 @@ content/Outils/index-outils
 :caption: Home
 :hidden:
 
+content/Promo/CDP3/CDP3-Main
+```
+
+```{toctree}
+:maxdepth: 4
+:caption: Home
+:hidden:
+
 content/Promo/CDP2/CDP2-Main
 ```
 

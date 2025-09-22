@@ -57,6 +57,7 @@ Transférer le document suivant: [Wikihow](https://scandalous-trillium-e29.notio
 
 - Ajouter ici le document [Examen Blanc Iris](https://docs.google.com/document/d/1nwKl2o_Xk_jOQotVtxxwrWMIumFF-hjcB1GAV5rk1ks/edit?tab=t.0)
 
+- [Document CDC Reda](https://docs.google.com/document/d/1iQCsznYij18leF0ZO9YxlmnyRDQN3g8y8YfLKOd3nz0/edit?tab=t.0)
 
 ```
 

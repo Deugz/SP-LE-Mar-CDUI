@@ -1,4 +1,4 @@
-# 💪 CDP 2
+# ✅ CDP 2
 
 ```{toctree}
 :maxdepth: 3

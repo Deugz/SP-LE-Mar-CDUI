@@ -197,3 +197,15 @@ mon-site/
 
 ## Ressources
 
+- [Benjamen code - apprendre le code](https://www.youtube.com/watch?v=zCF1RqEEago)
+
+```{note}
+
+embed + explication détaillé
+
+```
+
+
+### Sources
+
+- [Le fonctionnement de l'Internet](https://developer.mozilla.org/fr/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work) - Licence CC

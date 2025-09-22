@@ -171,6 +171,9 @@ Inbound Marketing
 Interface Homme-Machine
   Souvent appelée IMH, l'Interface Homme-Machine désigne l'élément permettant à un être humain d'effectuer une interaction avec une machine comme par exemple un écran.
 
+Internet
+  Un réseau mondial qui relie des millions d’ordinateurs et d’appareils entre eux pour permettre d’échanger des informations.
+
 IT
   L'IT ou Technologies de l'Information et de la Communication (TIC) désigne des services, logiciels, et technologies facilitant la rédaction, le stockage, l'affichage et la transmission de l'information.
 

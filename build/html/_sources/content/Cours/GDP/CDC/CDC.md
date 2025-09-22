@@ -238,6 +238,20 @@ Créer une version interactive du Ikigai avec un template
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600" src="https://embed.figma.com/board/ynjK2ZIJLavAEDQnQPe9sS/Ikigai-Diagram--Community-?node-id=0-1&embed-host=share" allowfullscreen></iframe>
 
 
+<p class="p-emphase">🤔 Ce dont le monde a besoin ?</p>
+
+> C'est peut-être la partie la plus difficile de la création d'un projet, et pourtant c'est à mon sens la plus importante.
+
+#### Les Objectifs de Développement Durable
+
+<div class="embedresize">
+<iframe src="https://3-a-alliance.github.io/Module-ODD/story.html" width="100%" height="auto" style="border:1px solid #ccc;"></iframe>
+</div>
+
+
+
+
+
 ### Autres outils
 
 - [Explodingtrends](https://explodingtopics.com/)

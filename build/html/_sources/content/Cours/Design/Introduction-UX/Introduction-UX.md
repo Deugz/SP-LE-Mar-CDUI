@@ -235,3 +235,15 @@ Créer des flash cards avec les différentes critères de Bastien et scapin
 
 ```
 
+## Sections
+
+### Hero section
+
+```{note}
+
+Inclure vidéo - hero section.
+
+Créer un lien vers la section vidéo pour la diminution de la taille et les différents formats vidéo ...
+
+```
+
