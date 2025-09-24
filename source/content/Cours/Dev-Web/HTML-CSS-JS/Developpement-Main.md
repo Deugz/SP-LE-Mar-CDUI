@@ -74,6 +74,8 @@ Activité nuage de mot
 
 - Installation de VS Code
 
+- [Lien](https://code.visualstudio.com/)
+
 
 ## Introduction
 

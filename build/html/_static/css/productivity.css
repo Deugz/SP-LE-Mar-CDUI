@@ -1,0 +1,36 @@
+#productivity-tools {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Pomodoro */
+#pomodoro-timer {
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 8px;
+  background: #fafafa;
+  text-align: center;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.05);
+}
+
+#timer-display {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}
+
+/* Compteur de pas */
+#step-counter {
+  border: 1px solid #ddd;
+  padding: 12px;
+  border-radius: 8px;
+  background: #fafafa;
+  text-align: center;
+  box-shadow: 0 -2px 6px rgba(0,0,0,0.05);
+}
+
+#step-display {
+  font-size: 1.5em;
+  margin: 0.5em 0;
+}

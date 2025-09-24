@@ -4,14 +4,18 @@
 
 ***
 
-<br>
+
+## 🏄 Avant de Commencer 
 
 ::::{grid} 3
 
 :::{grid-item}
 :columns: 8
 
-> Plus pour la culture générale
+> **Introduction** : C'est parti pour notre premier module de la formation *chef de projet e-commerce* ! Cette grosse introduction à pour vocation d'étoffer votre culture générale. Nous verrons dans un premier temps quelques concepts clés qu'il est important de connaitre : Internet, le World Wide Web, ce qu'est un site internet et comment il s'inscrit dans le contexte plus générale du e-commerce. Enfin nous ferons une petite parenthèse sur le consommateur. Gardez en tête que vous allez vous aussi créer votre boutique e-commerce et donc, tout au long de ce module, éssayez d'affiner votre idée. Posez-vous des questions sur ce que vous voulez faire, ce sera toujours ça de fait avant de passer au module 2.
+>
+> 
+> Bonne Lecture 😊  
 
 :::
 
@@ -21,22 +25,95 @@
 
 <div id="div-colour"> 
     
-<strong>Informations</strong>
+<p class="p-emphase"><strong>Infos</strong></p>
 
 ✍  - Vincent <br> 
 🚧 - En cours<br>
 🔨 - 22/09/2025    
-🕑 - 20 - 30 min <br>
+🕑 - 1 h <br>
 
  
 
 </div>    
 
 <br>
+
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+
+<dotlottie-wc src="https://lottie.host/6fe2ffaf-a70c-4e2c-86d0-22ba1b4bdd9a/7LRoEiEN2x.lottie" style="width: 100%;height: auto" autoplay loop></dotlottie-wc>
     
 :::
     
 ::::
+
+
+***
+
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+<div id="div-no-colour"> 
+
+<p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
+
+
+
+- ⭐ Objectif 1
+- ⭐ ⭐ Objectif 2
+- ⭐ ⭐ ⭐ Objectif 3
+
+    
+```{note}
+
+Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)
+
+```
+
+</div>
+ 
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+
+<p class="p-emphase"><strong>Sommaire</strong></p>
+
+[🧠 **La Théorie**](#la-theorie)
+
+- 🌐 Internet
+- 🕸️ World Wibe Web
+- 💻 Site Web
+- 🛒 E-Commerce
+- 💑 Le Consommateur
+
+<br>
+<br>
+
+[💪 **Mise En Pratique**](#mise-en-pratique)
+
+- Activité A
+- Activité A
+
+</div> 
+
+<br>
+    
+:::
+    
+::::
+
 
 - **Liens** : {bdg-link-danger}`🎓 Dev-Web Intégrer <../../../Diplome/Competences/Dev-Web/Integrer.html#dev-focus>`
 
@@ -100,45 +177,107 @@
 
 :::::
 
-## 🌐 Internet 
+
+
+
+
+## 🧠 La Théorie
+
+### 🌐 Internet 
+
+<p class="p-emphase"> <em>"Ca vous inspire !"</em></p>
 
 <br>
 
+```{figure} Docs/Result-Menti1-Prepa-3.png
+---
+width: 100%
+name: Result-Menti1-Prepa-3
+---
+Nuage de mot en réponse a la question : Ca vous inspire quoi Internet réalisé le 22/09/2025 avec Mentimeter
+```
 
-<div class="scroll-image-row">
-  <img src="../../../../_static/Storytelling/Comic/C1-comic-storytelling.png" class="scroll-in from-left stagger image-large" alt="Dialogue">
-  <img src="../../../../_static/Storytelling/avatar_Viny.png" class="scroll-in from-right stagger image-small" alt="Illustration faisant fonction de storytelling">
+<br>
+<br>
+<br>
 
-<a class="btn" href="#open-modal" id="btnModal" style="background:none;border:none;padding:0;cursor:pointer">
-  <!-- Ton SVG directement dans le HTML -->
-  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="50" viewBox="0 0 150 50">
-    <rect x="0" y="0" width="150" height="50" rx="10" ry="10" fill="#4CAF50"/>
-    <text x="75" y="30" font-size="18" text-anchor="middle" fill="white">Ouvrir</text>
-  </svg>
-</a>
+<div class="activite">
+
+<p class="p-emphase">💪 <strong>A - Donne ton avis</strong></p>
+
+***
+
+<br>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Nuage de mot - Idées préconcus internet ..
+
+:::
+
+
+:::{grid-item-card}
+:columns: 3
+:link: e-commerce.html#a-donne-ton-avis
+**Activité A**
+^^^
+
+- 🕑 5 min
+- 🍅 0
+ 
+:::
+    
+::::
+
 
 </div>
 
-<div id="open-modal" class="modal-window">
-  <div>
-    <a href="#" title="Close" class="modal-close">Close</a>
-      <img src="../../../../_static/QR-Code/mentimeter_qr_code-C1.png" alt="QR Code mentimeter word cloud"/>
-  </div>
-</div>
-
-### Donne ton avis
-
-
-<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alsm7thyhyzinsxa5hftkigc9r224zd6/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
 
 <br>
-<br>
 
-### Internet c'est ...
+#### Internet c'est ...
+
 
 <p class="p-emphase"> 👉 Un réseau d'ordinateurs qui communiquent entre eux </p>
 
-#### Une Architecture Réseau
+
+<br>
+<br>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 4
+
+> Paragraphe d'introduction pour expliquer ce que l'on pense d'internet
+
+:::
+
+
+:::{grid-item}
+:columns: 8
+
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+<dotlottie-wc src="https://lottie.host/d1c06d89-5953-4a54-a700-e9f1e07d1306/Nmr6WhqqQs.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc>
+
+
+
+    
+:::
+    
+::::
+
+<br>
+
+
+##### Une Architecture Réseau
 
 ```{figure} Docs/Internet-work2.png
 ---
@@ -279,9 +418,241 @@ Communication physique ou non
 <br>
 
 
-#### Pour Echanger
+##### Pour Echanger
 
-<p class="p-emphase"> <strong>Pleins de Choses ! </strong></p>
+
+<div class="activite">
+
+
+<p class="p-emphase"> 💪 <strong>B - Pleins de Choses ! </strong></p>
+
+***
+
+<br>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 5
+
+> Donner l'opportunité à l'apprenant de choisir parmis une liste de domaine d'échanges sur Internet
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+<dotlottie-wc src="https://lottie.host/abdf77c8-3b46-451b-87f6-5d33821266b1/Oh26YNBJUB.lottie" style="width: 100%;height: auto" autoplay loop></dotlottie-wc>
+
+:::
+
+:::{grid-item-card}
+:columns: 3
+:link: e-commerce.html#b-pleins-de-choses
+**Activité B**
+^^^
+
+- 🕑 20 min
+- 🍅 1
+ 
+:::
+
+::::
+
+<br>
+
+</div>
+
+<br>
+
+
+<p class="p-emphase"><em>"Et tout cela grace au ..."</em></p>
+
+### 🕸️ World Wibe Web
+
+<p class="p-emphase"> 👉 Le World Wide Web (WWW), ou Web, est un système qui permet d’accéder à des informations et des services sur Internet via des pages web liées entre elles par des liens hypertextes, consultables avec un navigateur web.</p>
+
+#### Invention
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
+> Introduction
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<p class="p-emphase"> Tim Berners Lee </p>
+
+```{image} Docs/Sir_Tim_Berners-Lee.jpg
+:width: 100%
+
+
+```
+
+
+    
+:::
+    
+::::
+
+
+#### Evolution
+
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGzW8wsAmQ/wXwCDPTCs4t-8UbGWwxcbA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGzW8wsAmQ&#x2F;wXwCDPTCs4t-8UbGWwxcbA&#x2F;view?utm_content=DAGzW8wsAmQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Design</a> par Vdeguin
+
+
+
+#### Aujourd'hui
+
+
+##### Comment ça marche ?
+
+
+
+###### Hypertext
+
+
+
+###### Standarts
+
+```{note}
+
+W3C
+
+```
+
+
+### 💻 Site Web
+
+
+#### Parlons-en
+
+
+<p class="p-emphase"><strong>Il en existe 2 types</strong></p>
+
+
+<br>
+
+```{note}
+
+Utiliser format flash card
+
+
+```
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 6
+
+**Site static**
+
+:::
+
+
+:::{grid-item}
+:columns: 6
+
+**Site dynamique**
+    
+:::
+    
+::::
+
+
+### 🛒 E-Commerce
+
+Histoire avec lien vers échange transaction
+
+
+### 💑 Le Consommateur
+
+```{note}
+
+Insérer présentation Ines
+
+
+```
+
+## 💪 Mise En Pratique
+
+### A - Donne ton avis
+
+<br>
+
+<div class="scroll-image-row">
+  <img src="../../../../_static/Storytelling/Comic/C1-comic-storytelling.png" class="scroll-in from-left stagger image-large" alt="Dialogue">
+  <img src="../../../../_static/Storytelling/avatar_Viny.png" class="scroll-in from-right stagger image-small" alt="Illustration faisant fonction de storytelling">
+
+<a class="btn" href="#open-modal" id="btnModal" style="background:none;border:none;padding:0;cursor:pointer">
+  <!-- Ton SVG directement dans le HTML -->
+  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="50" viewBox="0 0 150 50">
+    <rect x="0" y="0" width="150" height="50" rx="10" ry="10" fill="#4CAF50"/>
+    <text x="75" y="30" font-size="18" text-anchor="middle" fill="white">Ouvrir</text>
+  </svg>
+</a>
+
+</div>
+
+<div id="open-modal" class="modal-window">
+  <div>
+    <a href="#" title="Close" class="modal-close">Close</a>
+      <img src="../../../../_static/QR-Code/mentimeter_qr_code-C1.png" alt="QR Code mentimeter word cloud"/>
+  </div>
+</div>
+
+:::{dropdown} Résultats (live view)
+
+<div style='position: relative; padding-bottom: 56.25%; padding-top: 35px; height: 0; overflow: hidden;'><iframe sandbox='allow-scripts allow-same-origin allow-presentation' allowfullscreen='true' allowtransparency='true' frameborder='0' height='315' src='https://www.mentimeter.com/app/presentation/alsm7thyhyzinsxa5hftkigc9r224zd6/embed' style='position: absolute; top: 0; left: 0; width: 100%; height: 100%;' width='420'></iframe></div>
+
+
+:::
+
+<br>
+
+
+```{note}
+
+Ci-dessus se trouve une copie de l'interface à mettre en place avant le scéance pour mettre en oeuvre l'activité le nuage de mot. Celle-ci permet au groupe de prendre conscience de la difficulté de définir un concept complexe utilisé pourtant de manière universelle.
+
+- Penser à **renouveller Mentimeter + QR Code à chaque promo** 
+
+```
+
+
+<br>
+
+### B - Pleins de Choses
+
+
+
+```{admonition} Consigne
+
+Utilise les listes ci-dessus pour sélectionner les domaines qui t'intéressent. 
+
+- Note tes choix dans ton [Dossier Projet]() - link vers section !
+
+```
+
 
 <br>
 <br>
@@ -388,89 +759,7 @@ Communication physique ou non
 ::::
 
 <br>
-<br>
 
-<div class="scroll-image-row">
-  <img src="../../../../_static/Storytelling/Comic/C1-comic-storytelling.png" class="scroll-in from-left stagger image-large" alt="Dialogue">
-  <img src="../../../../_static/Storytelling/avatar_Viny.png" class="scroll-in from-right stagger image-small" alt="Illustration faisant fonction de storytelling">
-
-<a class="btn" href="#open-modal" id="btnModal" style="background:none;border:none;padding:0;cursor:pointer">
-  <!-- Ton SVG directement dans le HTML -->
-  <svg xmlns="http://www.w3.org/2000/svg" width="150" height="50" viewBox="0 0 150 50">
-    <rect x="0" y="0" width="150" height="50" rx="10" ry="10" fill="#4CAF50"/>
-    <text x="75" y="30" font-size="18" text-anchor="middle" fill="white">Ouvrir</text>
-  </svg>
-</a>
-
-</div>
-
-<div id="open-modal" class="modal-window">
-  <div>
-    <a href="#" title="Close" class="modal-close">Close</a>
-      <img src="../../../../_static/QR-Code/mentimeter_qr_code-C1.png" alt="QR Code mentimeter word cloud"/>
-  </div>
-</div>
-
-
-```{note}
-
-Activité définition projet
-
-```
-
-
-
-<p class="p-emphase">Et tout cela grace au ...</p>
-
-## 🕸️ World Wibe Web
-
-<p class="p-emphase"> 👉 Le World Wide Web (WWW), ou Web, est un système qui permet d’accéder à des informations et des services sur Internet via des pages web liées entre elles par des liens hypertextes, consultables avec un navigateur web.</p>
-
-### Invention
-
-::::{grid} 2
-
-:::{grid-item}
-:columns: 8
-
-> Introduction
-
-:::
-
-
-:::{grid-item}
-:columns: 4
-
-<p class="p-emphase"> Tim Berners Lee </p>
-
-```{image} Docs/Sir_Tim_Berners-Lee.jpg
-:width: 100%
-
-
-```
-
-
-    
-:::
-    
-::::
-
-
-### Evolution
-
-
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAGzW8wsAmQ/wXwCDPTCs4t-8UbGWwxcbA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGzW8wsAmQ&#x2F;wXwCDPTCs4t-8UbGWwxcbA&#x2F;view?utm_content=DAGzW8wsAmQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Design</a> par Vdeguin
-
-
-
-### Aujourd'hui
 
 
 ```{note}
@@ -480,63 +769,120 @@ Créer un sondage interactif avec les différents types d'utilisation ?
 ```
 
 
-#### Comment ça marche ?
+## 📈 Pour Finir
 
-
-
-#### Hypertext
-
-
-
-#### Standarts
+### Conclusion
 
 ```{note}
 
-W3C
+Conclusion plus fiche résumé (production collaborative ? Framanote ?) - produire un pdf exportable
+
+```
+
+### Test 
+
+#### Tes Connaissances
+
+```{note}
+
+Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregistre la progression de l'apprenant et offre une collection de badge !! 
 
 ```
 
 
-## 💻 Site Web
+#### Ton Projet
 
+::::{grid} 2
 
-### Définition
-
-
-
-
-
-::::{grid} 3
-
-:::{grid-item}
+:::{grid-item-card}
 :columns: 6
 
-**Site static**
+**Dossier Projet**
+
+^^^
+
+- Livrable 1
 
 :::
 
 
-:::{grid-item}
+:::{grid-item-card}
 :columns: 6
 
-**Site dynamique**
+**Présentation Canva**
+
+^^^
+
+- Livrable 1
     
 :::
     
 ::::
 
 
-## 🛒 E-Commerce
-
-Histoire avec lien vers échange transaction
-
-
-## Ressource
-
-- [Information Management: A Proposal - Tim Berners Lee](https://www.w3.org/History/1989/proposal.html) - Le proposal
-- [TheProject](http://info.cern.ch/hypertext/WWW/TheProject.html) : La première page avant wwww 
-
-
 ### Sources
 
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
 - [Le fonctionnement de l'Internet](https://developer.mozilla.org/fr/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work) - Licence CC
+
+    
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<p class="p-emphase"><strong>Glossaire</strong></p>
+
+```{note}
+
+termes du glossaire
+
+```
+
+:::
+    
+::::
+
+
+**Liste Figures**
+
+
+```{note}
+
+Référencer les figures de la page ?
+
+```
+
+#### Plus de Ressources
+
+
+```{note}
+
+Présenter en détail individuellement
+
+```
+
+
+- [Information Management: A Proposal - Tim Berners Lee](https://www.w3.org/History/1989/proposal.html) - Le proposal
+- [TheProject](http://info.cern.ch/hypertext/WWW/TheProject.html) : La première page avant wwww
+
+
+
+
+
+### Commentaires
+
+```{note}
+
+Lien vers formulaire de feedback + possibilité de donner son avis dans les commentaires.
+
+```
+
+

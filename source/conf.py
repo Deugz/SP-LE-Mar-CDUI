@@ -79,6 +79,7 @@ html_theme = 'pydata_sphinx_theme'
 html_logo = "_static/logos/Label-Ecole-Logo.png"
 html_favicon = "_static/logos/Label-Ecole-Logo.png"
 html_static_path = ['_static']
+templates_path = ["_static/_templates"]
 
 html_theme_options = {
     "external_links": [
@@ -116,11 +117,12 @@ html_theme_options = {
     
     
     "navbar_start": ["navbar-logo"],
-    
+
+    "secondary_sidebar_items": ["page-toc", "sourcelink", "productivity-tools"],
 }
 
 
-html_css_files = ["css/custom_style.css", "css/slider.css", "css/flash-card.css", "css/sliding-image.css", "css/modal.css",'https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@400;700&display=swap',]
-html_js_files = ["scripts/slider-script.js", "scripts/page-layout.js", "scripts/flash-card.js", "scripts/sliding-image.js", "scripts/custom.js", ("https://www.googletagmanager.com/gtag/js?id=G-V9S9HSF9X0",{"async": "async"}),"scripts/ga.js",]
+html_css_files = ["css/custom_style.css", "css/slider.css", "css/flash-card.css","css/sliding-image.css", "css/modal.css", "css/productivity.css", 'https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@400;700&display=swap',]
+html_js_files = ["scripts/slider-script.js", "scripts/page-layout.js", "scripts/flash-card.js", "scripts/sliding-image.js", "scripts/custom.js", ("https://www.googletagmanager.com/gtag/js?id=G-V9S9HSF9X0",{"async": "async"}),"scripts/ga.js","scripts/pomodoro.js", "scripts/step-counter.js"]
 
     

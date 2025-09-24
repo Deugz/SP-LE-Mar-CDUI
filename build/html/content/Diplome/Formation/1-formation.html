@@ -41,11 +41,12 @@
     <link rel="stylesheet" type="text/css" href="../../../_static/css/tooltipster-sideTip-borderless.min.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/css/micromodal.css" />
     <link rel="stylesheet" type="text/css" href="../../../_static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../../../_static/css/custom_style.css?v=f94374dd" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/custom_style.css?v=6d69db66" />
     <link rel="stylesheet" type="text/css" href="../../../_static/css/slider.css?v=31e19075" />
     <link rel="stylesheet" type="text/css" href="../../../_static/css/flash-card.css?v=d4949c41" />
     <link rel="stylesheet" type="text/css" href="../../../_static/css/sliding-image.css?v=6628c2e1" />
     <link rel="stylesheet" type="text/css" href="../../../_static/css/modal.css?v=ac63beef" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/productivity.css?v=cdaf373b" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@400;700&display=swap" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -82,6 +83,8 @@
     <script src="../../../_static/scripts/custom.js?v=beddc9fd"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-V9S9HSF9X0"></script>
     <script src="../../../_static/scripts/ga.js?v=c7c7aaaf"></script>
+    <script src="../../../_static/scripts/pomodoro.js?v=d9a168de"></script>
+    <script src="../../../_static/scripts/step-counter.js?v=49667bb6"></script>
     <link rel="canonical" href="https://deugz.github.io/SP-LE-Mar-CDUI/build/html/index.html/content/Diplome/Formation/1-formation.html" />
     <link rel="icon" href="../../../_static/Label-Ecole-Logo.png"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
@@ -750,6 +753,22 @@ document.write(`
     </a>
   </div>
 </div>
+
+  <div class="sidebar-secondary-item"><div id="productivity-tools" class="bd-sidebar__section">
+  <!-- Pomodoro -->
+  <div id="pomodoro-timer">
+    <p>🍅 <strong>Pomodoro</strong></p>
+    <div id="timer-display">25:00</div>
+    <button onclick="startPomodoro()">Start</button>
+    <button onclick="resetPomodoro()">Reset</button>
+  </div>
+
+  <!-- Compteur de pas -->
+  <div id="step-counter">
+    <p>🦶 <strong>Compteur de pas</strong></p>
+    <div id="step-display">0</div>
+  </div>
+</div></div>
 
 </div></div>
               

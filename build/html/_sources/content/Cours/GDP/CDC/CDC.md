@@ -494,8 +494,9 @@ Le passage en revue du cahier des charges pour y intégrer des règles d’assur
 - aider le prestataire à mieux estimer la quantité de travail nécessaire à l’élaboration du projet.
 L’intégration des règles dans un cahier des charges est une question essentielle qui décide en grande partie de l’avenir et de la réussite du projet. Les règles vous aideront à consolider votre projet et à définir les points sur lesquels vous ne devez pas transiger.
 
+## En Pratique
 
-## La Gestion de Projet
+### La Gestion de Projet
 
 ::::{grid} 2
 
@@ -527,6 +528,66 @@ Ce bon vieux [Abraham Lincoln](https://fr.wikipedia.org/wiki/Abraham_Lincoln) qu
 :::
 
 ::::
+
+
+## En Plus
+
+### Résumé
+
+#### Test tes connaissances
+
+```{note}
+
+Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregistre la progression de l'apprenant et offre une collection de badge !! 
+
+```
+
+
+### Ressources
+
+
+::::{grid} 3
+
+:::{grid-item-card}
+:columns: 6
+
+**Sources**
+
+^^^
+
+
+- [Le fonctionnement de l'Internet](https://developer.mozilla.org/fr/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work) - Licence CC
+
+    
+
+:::
+
+
+:::{grid-item-card}
+:columns: 6
+
+**Autres Ressources**
+
+^^^
+
+- [Information Management: A Proposal - Tim Berners Lee](https://www.w3.org/History/1989/proposal.html) - Le proposal
+- [TheProject](http://info.cern.ch/hypertext/WWW/TheProject.html) : La première page avant wwww
+
+
+
+:::
+    
+::::
+
+
+
+### Commentaires
+
+```{note}
+
+Lien vers formulaire de feedback + possibilité de donner son avis dans les commentaires.
+
+```
 
 
 
