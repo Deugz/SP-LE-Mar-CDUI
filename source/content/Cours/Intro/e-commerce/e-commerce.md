@@ -17,6 +17,7 @@
 > 
 > Bonne Lecture 😊  
 
+
 :::
 
 
@@ -149,6 +150,20 @@ Enumérer les différents objectifs pédagogiques (star classification avec diff
 :::::{dropdown} Support de Cours 
 
 ::::{tab-set}
+
+:::{tab-item} CDP 3
+
+
+<iframe src="https://drive.google.com/file/d/1dyY8CVgnTT5QcAdfWezfSY1QwmmCtFHZ/preview" 
+        width="100%" 
+        height="400px" 
+        frameborder="0" 
+        allowfullscreen>
+</iframe>
+
+
+:::
+
 :::{tab-item} CDP 1
 
 
@@ -582,6 +597,52 @@ Utiliser format flash card
 ### 🛒 E-Commerce
 
 Histoire avec lien vers échange transaction
+
+#### Les origines
+
+Développement d'Internet et du Web dans les années 90
+
+Dates clés :
+
+- 1994 : Première transaction en ligne sécurisée
+- 1995 : Lancement d'Amazon, pionnier des ventes en ligne
+- 1998 : Apparition de PayPal, facilitant les paiements en ligne
+
+Technologie : progrès des systèmes de cryptage pour sécuriser les transactions
+
+Modèles initiaux : C2C (Consumer-to-Consumer), B2C (Business-to-Consumer)
+
+Croissance massive : Émergence de géants comme Alibaba, eBay
+
+```{note}
+
+grid 2 pour présenter les chiffres ?
+
+```
+
+Années 2010s :
+
+Montée des places de marché (marketplaces), du m-commerce (mobile commerce) et de
+l’omnicanal
+
+Impact mondial :
+○ Le e-commerce représente une part croissante du commerce global
+○ Explosion des services logistiques et des systèmes de paiement (Stripe, fintechs)
+Tendances actuelles : IA, personnalisation, livraisons rapides (Amazon Prime, drones)
+
+
+#### Chiffres clés 
+
+
+
+
+#### Tunnel de vente
+
+
+
+#### KPIs
+
+
 
 
 ### 💑 Le Consommateur

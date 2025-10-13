@@ -7,7 +7,7 @@ Reprendre les différentes activités pour classifier les différents métiers
 
 ```
 
-### Métiers
+## Métiers
 
 - [UI designer](https://www.onisep.fr/ressources/univers-metier/metiers/ui-designer)
 - [Web designer](https://www.onisep.fr/ressources/univers-metier/metiers/webdesigner)
@@ -29,4 +29,15 @@ Reprendre les différentes activités pour classifier les différents métiers
 - [Directeur de projet](https://www.cegos.fr/ressources/mag/projet/fiche-metier-directeur-de-projets)
 - [Directeur de création interactive](https://www.onisep.fr/ressources/univers-metier/metiers/directeur-directrice-de-creation)
 - [Directeur d'agence web](https://olecio.fr/metiers/responsable-agence-digitale)
+
+## Présentation
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGzOcxc0Ng/jiNLaUfIi3wzLFR5ZTAWEw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGzOcxc0Ng&#x2F;jiNLaUfIi3wzLFR5ZTAWEw&#x2F;view?utm_content=DAGzOcxc0Ng&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">DA Web : )</a> par Jatziri Padrón
 

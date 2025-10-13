@@ -4,7 +4,8 @@
 
 ***
 
-<br>
+
+## 🏄 Avant de Commencer 
 
 ::::{grid} 3
 
@@ -39,6 +40,70 @@
 :::
     
 ::::
+
+***
+
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+<div id="div-no-colour"> 
+
+<p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
+
+
+
+- ⭐ Objectif 1
+- ⭐ ⭐ Objectif 2
+- ⭐ ⭐ ⭐ Objectif 3
+
+    
+```{note}
+
+Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)
+
+```
+
+</div>
+ 
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+
+<p class="p-emphase"><strong>Sommaire</strong></p>
+
+[🧠 **La Théorie**](#la-theorie)
+
+- 🌐 Internet
+- 🕸️ World Wibe Web
+- 💻 Site Web
+- 🛒 E-Commerce
+- 💑 Le Consommateur
+
+<br>
+<br>
+
+[💪 **Mise En Pratique**](#mise-en-pratique)
+
+- Activité A
+- Activité A
+
+</div> 
+
+<br>
+    
+:::
+    
+::::
+
 
 - **Liens** : {bdg-link-danger}`🎓 Illustrations, Graphismes, Visuels <../../../../Diplome/Competences/Graphisme/Illustration.html#illustrator-focus>`
 
@@ -134,30 +199,37 @@ C'est un peu le bordel dans les supports de cours ...
 
 ```
 
-## Avant de Commencer
-
 ```{note}
 
 Faire un petit focus sur comment obtenir les accès
 - lien vers le tableau etc
 
 
-```
-
-
-## Synthèse
-
-```{note}
-
 - Inclure le support de cours + tout les documents inclus dans le drive.
     - raccourcis illustrator dans Docs
 
+
 ```
 
 
-Dessin vectorielle: 
+## 🧠 La Théorie
 
-## Choix des couleurs 
+### 💡 Le Dessin Vectorielle
+
+```{note}
+
+Definition Dessin vectorielle: 
+- Difference entre vectorielle et matricielle
+
+- Expliquer Quelques notions de géométrie (nombre d'or ?)
+
+```
+
+
+
+
+
+### Choix des couleurs 
 
 en fonction du 
 
@@ -185,7 +257,7 @@ A l'import (d'une image), on a la résolution qui s'affiche donc possibilité de
 
 
 
-### Police
+#### Police
 
 ```{admonition} Bonne pratiques
 
@@ -211,17 +283,17 @@ A l'import (d'une image), on a la résolution qui s'affiche donc possibilité de
 ```
 
 
-## Utilisation
+#### Utilisation
 
-### Outils
+##### Outils
 
 - Barre de gauche
 
 
-#### Outil courbure
+###### Outil courbure
 
 
-## Astuces
+### Astuces
 
 - Utilisation de [Adobe Color](https://color.adobe.com/fr/search?q=%C3%A9cologie) pour explorer la génération de palette de couleur. 
 
@@ -230,6 +302,146 @@ A l'import (d'une image), on a la résolution qui s'affiche donc possibilité de
 Intéréssant de lier ce contenue avec la génération de la charte graphique.
 
 ```
+
+## 💪 Mise En Pratique
+
+### Tutos
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/9kSs6No6Agc?si=Rb-gdZWfYkDRcVys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+```{note}
+
+Très bon Tuto pour la base :)
+
+Mettre en responsive + Décrire les différentes parties
+
+- Créer un nouveau projet
+- Interface :
+    - Barre de menue (haut)
+    - Barre d'outil (gauche)
+    - ...
+
+```
+
+- Créer un exercice spécifique pour que les personnes créent leur propre personnage de storytelling ? 
+
+
+## 📈 Pour Finir
+
+### Conclusion
+
+```{note}
+
+Conclusion plus fiche résumé (production collaborative ? Framanote ?) - produire un pdf exportable
+
+```
+
+### Test 
+
+#### Tes Connaissances
+
+```{note}
+
+Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregistre la progression de l'apprenant et offre une collection de badge !! 
+
+```
+
+
+#### Ton Projet
+
+::::{grid} 2
+
+:::{grid-item-card}
+:columns: 6
+
+**Dossier Projet**
+
+^^^
+
+- Livrable 1
+
+:::
+
+
+:::{grid-item-card}
+:columns: 6
+
+**Présentation Canva**
+
+^^^
+
+- Livrable 1
+    
+:::
+    
+::::
+
+
+### Sources
+
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+- [Lister](#) 
+
+    
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<p class="p-emphase"><strong>Glossaire</strong></p>
+
+```{note}
+
+termes du glossaire
+
+```
+
+:::
+    
+::::
+
+
+**Liste Figures**
+
+
+```{note}
+
+Référencer les figures de la page ?
+
+```
+
+#### Plus de Ressources
+
+- [Article scientifique](https://www.cambridge.org/core/journals/design-science/article/idea-evaluation-as-a-design-process-understanding-how-experts-develop-ideas-and-manage-fixations/25D1373257E4CCD170DEF081DFB2BA00?utm_source=chatgpt.com)
+
+```{note}
+
+Ajouter a la biblio
+
+```
+
+
+
+
+### Commentaires
+
+```{note}
+
+Lien vers formulaire de feedback + possibilité de donner son avis dans les commentaires.
+
+```
+
+
+## Notes pendant le cours
+
+
 
 
 

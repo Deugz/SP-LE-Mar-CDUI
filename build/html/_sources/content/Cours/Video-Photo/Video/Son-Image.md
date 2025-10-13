@@ -207,3 +207,34 @@ Plutot pour un usage récréatif de type karaoké.
 - [app.infography.in](https://app.infography.in/login)
 
 ## Synthèse
+
+## Extras
+
+### Gource
+
+- [Lien](https://gource.io/)
+
+```{note}
+
+Outil pour obtenir une représentation visuelle (vidéo) de l'évolution d'un répositorie Github.
+
+- [Help article](https://opensource.com/business/16/8/intro-to-gource)
+
+```
+
+```cmd
+
+gource -a 2 3A_Alliance/School_3A/Formations/Label-Ecole/Marseille/CDUI/SP-LE-Mar-CDUI/
+
+
+```
+
+### Logstalia
+
+- [Lien](https://logstalgia.io/)
+
+- ```{note}
+
+Outil pour obtenir une représentation visuelle (vidéo) de l'évolution des visites sur un site.
+
+```

@@ -4,7 +4,8 @@
 
 ***
 
-<br>
+
+## 🏄 Avant de Commencer 
 
 ::::{grid} 3
 
@@ -39,6 +40,71 @@
 :::
     
 ::::
+
+***
+
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+<div id="div-no-colour"> 
+
+<p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
+
+
+
+- ⭐ Objectif 1
+- ⭐ ⭐ Objectif 2
+- ⭐ ⭐ ⭐ Objectif 3
+
+    
+```{note}
+
+Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)
+
+```
+
+</div>
+ 
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+
+<p class="p-emphase"><strong>Sommaire</strong></p>
+
+[🧠 **La Théorie**](#la-theorie)
+
+- 🌐 Internet
+- 🕸️ World Wibe Web
+- 💻 Site Web
+- 🛒 E-Commerce
+- 💑 Le Consommateur
+
+<br>
+<br>
+
+[💪 **Mise En Pratique**](#mise-en-pratique)
+
+- Activité A
+- Activité A
+
+</div> 
+
+<br>
+    
+:::
+    
+::::
+
+
 
 - **Liens** : {bdg-link-danger}`🎓 Illustrations, Graphismes, Visuels <../../../Diplome/Competences/Graphisme/Illustration.html#charte-graphique-focus3>` {bdg-link-danger}`🎓 Interfaces & Prototypages <../../../Diplome/Competences/Graphisme/Interfaces.html#charte-graphique-focus1>` {bdg-link-danger}`🎓 Supports de Communications <../../../Diplome/Competences/Graphisme/Supports.html#charte-graphique-focus2>`
 
@@ -105,9 +171,36 @@
 
 :::::
 
-## Introduction
+<br>
 
-### Qu'est-ce qu'une charte graphique ?
+***
+
+## 🧠 La Théorie
+
+
+
+### Le Graphisme
+
+```{note}
+
+Introduction générale au graphisme car premier cours en lien avec le sujet
+
+```
+
+#### Le/La Graphiste
+
+```{note}
+
+Introduire la mentalité de l'artiste, créateur
+
+```
+
+
+
+
+### Identité Visuelle
+
+### Charte Graphique 
 
 ```{note}
 
@@ -116,9 +209,9 @@ Définition
 ```
 
 
-## Couleurs
+#### Couleurs
 
-### Outils de sélection
+##### Outils de sélection
 
 - [www.realtimecolors.com](https://www.realtimecolors.com/)
 
@@ -136,16 +229,16 @@ Un jeux pour tester la visibilité de différentes nuances de couleurs
 
 ```
 
-## Typographies
+#### Typographies
 
 <p class="p-emphase">Et non typologie !</p>
 
-### Handwritten
+##### Handwritten
 
 - [Calligrapher](https://www.calligrapher.ai/)
 
 
-#### Explorez
+###### Explorez
 
 - [fontsilovetypography](https://fonts.ilovetypography.com/)
 
@@ -162,9 +255,9 @@ Méthode pédagogique
 
 - [Google knowledge base related to fonts](https://fonts.google.com/knowledge)
 
-## Iconographie
+#### Iconographie
 
-### pictogrammes de réassurance
+##### pictogrammes de réassurance
 
 ```{note}
 
@@ -175,7 +268,7 @@ Paramètres importants
 ```
 
 
-### Bibliothèque
+##### Bibliothèque
 
 - [flaticon](https://www.flaticon.com/fr/)
 
@@ -198,7 +291,7 @@ Choisissez une bibliothèque et prenez toute vos icones dedans afin de maximiser
 
 ```
 
-## Logo
+#### Logo
 
 
 ```{note}
@@ -210,7 +303,7 @@ Lien vers chapitre Illustrator
 
 
 
-## Synthèse
+#### Synthèse
 
 :::{dropdown} Exemple avec la charte olympique
 
@@ -224,7 +317,7 @@ Lien vers chapitre Illustrator
 :::
 
 
-### Cours Ines
+##### Cours Ines
 
 - Identité visuelle et sociologie
 
@@ -238,9 +331,9 @@ Lien vers chapitre Illustrator
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGzbRZbHQk&#x2F;FTMAh8-kihBwvwGz8Nh6SA&#x2F;view?utm_content=DAGzbRZbHQk&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Copie de Identité visuelle</a> par Inès Dhehibi
 
 
-### Atelier pratique
+##### Atelier pratique
 
-#### Portrait Chinois
+###### Portrait Chinois
 
 **Choisir**:
 - Animal
@@ -262,10 +355,110 @@ Exercice hyper intéréssant. Voir plus-tard comment cela se traduit dans la cha
 
 ```
 
+## 💪 Mise En Pratique
 
-## Liens intéréssants 
 
-- [Joelapompe](https://www.joelapompe.net/)
+```{note}
+
+Exercice pour refaire la DA de Label Ecole
+
+```
+
+
+## 📈 Pour Finir
+
+### Conclusion
+
+```{note}
+
+Conclusion plus fiche résumé (production collaborative ? Framanote ?) - produire un pdf exportable
+
+```
+
+### Test 
+
+#### Tes Connaissances
+
+```{note}
+
+Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregistre la progression de l'apprenant et offre une collection de badge !! 
+
+```
+
+
+#### Ton Projet
+
+::::{grid} 2
+
+:::{grid-item-card}
+:columns: 6
+
+**Dossier Projet**
+
+^^^
+
+- Livrable 1
+
+:::
+
+
+:::{grid-item-card}
+:columns: 6
+
+**Présentation Canva**
+
+^^^
+
+- Livrable 1
+    
+:::
+    
+::::
+
+
+### Sources
+
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+- [Lister](#) 
+
+    
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<p class="p-emphase"><strong>Glossaire</strong></p>
+
+```{note}
+
+termes du glossaire
+
+```
+
+:::
+    
+::::
+
+
+**Liste Figures**
+
+
+```{note}
+
+Référencer les figures de la page ?
+
+```
+
+#### Plus de Ressources
+
+- [##Joelapompe](https://www.joelapompe.net/)
 
 ```{note}
 
@@ -273,15 +466,16 @@ Un site qui met en lumière les copies dans les pubs. La personne réalise égal
 
 ```
 
-### Bibliothèques d'images
+
+##### Bibliothèques d'images
 
 - [Unsplash](https://unsplash.com/fr)
 
-## Synthèse
+#### Synthèse
 
-### Exemples de bonnes charte graphique
+##### Exemples de bonnes charte graphique
 
-#### LifterLMS 
+###### LifterLMS 
 
 - [Charte Graphique](https://gocodebox.github.io/lifterlms-brand/)
 
@@ -289,11 +483,26 @@ Un site qui met en lumière les copies dans les pubs. La personne réalise égal
 créer une carte avec le logo pour emmener vers la charte graphique et expliquer brièvement la société. Mettre un dropdown en bas qui explique pourquoi c'est une bonne charte graphique
 ```
 
-## En Plus
+#### En Plus
 
-### Veille Créative
+##### Veille Créative
 
 -  [Etienne Mineur](https://www.linkedin.com/in/etiennemineur/?locale=fr_FR)
     - exemple : [horloge](https://etienne.design/archives/clock_02/)
     - police (libre) : [Sabrin-AI](https://etienne.design/portfolio/kim_sauvage-3-4-3/)
+
+
+
+### Commentaires
+
+```{note}
+
+Lien vers formulaire de feedback + possibilité de donner son avis dans les commentaires.
+
+```
+
+
+## Notes pendant le cours
+
+
 

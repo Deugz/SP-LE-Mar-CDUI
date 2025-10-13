@@ -59,6 +59,8 @@ Transférer le document suivant: [Wikihow](https://scandalous-trillium-e29.notio
 
 - [Document CDC Reda](https://docs.google.com/document/d/1iQCsznYij18leF0ZO9YxlmnyRDQN3g8y8YfLKOd3nz0/edit?tab=t.0)
 
+- [Document livrable Isaure](https://drive.google.com/file/d/1tVT-2cX48UJQt9mjO0Z1DnWiFi-6R8RI/view)
+
 ```
 
 ## Cahier des charges
@@ -67,6 +69,8 @@ Transférer le document suivant: [Wikihow](https://scandalous-trillium-e29.notio
 
 Un peu tricky ... Est-ce que c'est nous qui l'écrivons (aprés tout, c'est nous qui mettons en place les contraintes etc)
 
+- Contexte
+_ Objectifs
 
 ```
 

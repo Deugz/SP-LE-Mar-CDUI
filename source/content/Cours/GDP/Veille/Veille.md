@@ -4,14 +4,15 @@
 
 ***
 
-<br>
+
+## 🏄 Avant de Commencer 
 
 ::::{grid} 3
 
 :::{grid-item}
 :columns: 8
 
-> Aprés avoir définit notre projet, mis en place notre cahier des charges et commencer a réfléchir à nos cibles et personas, nous arrivons au chapitre important de la veille. Je vais reprendre les notions importantes du cours et plus particulièrement comment la veille peut vous être utile tout au long de votre projet.
+> **Introduction** : Aprés avoir définit notre projet, mis en place notre cahier des charges et commencer a réfléchir à nos cibles et personas, nous arrivons au chapitre important de la veille. Je vais reprendre les notions importantes du cours et plus particulièrement comment la veille peut vous être utile tout au long de votre projet.
 
 :::
 
@@ -39,6 +40,70 @@
 :::
     
 ::::
+
+***
+
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+<div id="div-no-colour"> 
+
+<p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
+
+
+
+- ⭐ Objectif 1
+- ⭐ ⭐ Objectif 2
+- ⭐ ⭐ ⭐ Objectif 3
+
+    
+```{note}
+
+Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)
+
+```
+
+</div>
+ 
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+
+<p class="p-emphase"><strong>Sommaire</strong></p>
+
+[🧠 **La Théorie**](#la-theorie)
+
+- 🌐 Internet
+- 🕸️ World Wibe Web
+- 💻 Site Web
+- 🛒 E-Commerce
+- 💑 Le Consommateur
+
+<br>
+<br>
+
+[💪 **Mise En Pratique**](#mise-en-pratique)
+
+- Activité A
+- Activité A
+
+</div> 
+
+<br>
+    
+:::
+    
+::::
+
 
 - **Liens** : {bdg-link-danger}`🎓 Système de Veille <../../../Diplome/Competences/Communication/veille.html#veille-focus>` {bdg-link-danger}`🎓 Illustrations, Graphismes, Visuels <../../../Diplome/Competences/Graphisme/Illustration.html#veille-focus2>`
 
@@ -131,60 +196,17 @@ Petite phrase pour expliquer:
 
 <br>
 
-
-<p class="p-emphase">Attendus et Livrables </p>
-
-::::{grid} 3
-
-:::{grid-item-card}
-:link: https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Diplome/Diplome-main.html
-:class-header: bg-light
-:columns: 4
-**Le Diplome** (Référentiel)
-^^^
-
-image
-
-:::
-
-:::{grid-item-card}
-:link: https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Projet/Dossier-Projet/Analyse/Analyse.html#mettre-en-place-son-systeme-de-veille
-:class-header: bg-light
-:columns: 4
-**Le Dossier Projet**
-^^^
-
-image
-
-:::
-
-:::{grid-item-card}
-:link: https://deugz.github.io/SP-LE-Mar-CDUI/build/html/content/Projet/Canva/Astuces.html
-:class-header: bg-light
-:columns: 4
-**Présentation Canva**
-^^^
-
-image
-
-:::
-
-::::
-
-<br>
-
 ***
 
-## C'est quoi la veille ?
+## 🧠 La Théorie
 
-<br>
+### 💡 Définition
 
-<p class="p-emphase">La veille consiste à surveiller, collecter et analyser régulièrement des informations sur un sujet précis. Elle sert à rester informé des nouveautés, des tendances ou des évolutions qui pourraient être utiles pour prendre de meilleures décisions.
+<p class="p-emphase">👉 La veille consiste à surveiller, collecter et analyser régulièrement des informations sur un sujet précis. Elle sert à rester informé des nouveautés, des tendances ou des évolutions qui pourraient être utiles pour prendre de meilleures décisions.
 </p>
 
 <br>
 <br>
-
 
 ::::{grid}
 
@@ -236,196 +258,108 @@ C'est une activité pour rester à jour et anticiper grâce à des informations 
 
 ::::
 
+#### La Recherche
 
+<p class="p-emphase">Inspirons-nous de la <strong>Méthode Scientifique</strong></p>
 
+<br>
+<br>
 
-
-## Se poser les bonnes questions !
-
-::::{grid}
+::::{grid} 2
 
 :::{grid-item}
-:columns: 8
+:columns: 5
 
+> Avant de rentrer dans le vif du sujet j'aimerai vous introduire à un concept qui m'est chère, la **méthode scientifique**, représenté par le diagramme ci-dessous. 
 
->La veille est un outil que l'on met en place pour s'informer des tendances en cours (dans l'instant présent - d'où l'intéret de la faire de manière régulière, ou de l'automatiser) et prendre des meilleurs décisions pour le futur. mais nous ne sommes pas encore des chefs d'entreprises accomplie à la conquette des marchés ... Je vous propose donc de faire un petit pas en arrière:
 
 :::
 
-
 :::{grid-item}
-:columns: 4
+:columns: 7
 
-<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-<dotlottie-player src="https://lottie.host/79216f30-19dd-43bb-8f0f-94476c3d9e42/bDT7BRE14D.lottie" background="transparent" speed="1" style="width: 100%; height: auto" loop autoplay></dotlottie-player>
+
+```{figure} Docs/Images/The_Scientific_Method.svg
+---
+width: 100%
+name: The_Scientific_Method
+---
+Explication de la méthode scientifique [Source](https://commons.wikimedia.org/wiki/File:The_Scientific_Method.svg#/media/File:The_Scientific_Method.svg)
+```
 
 :::
+
 ::::
 
-<br>
 
-<p class="p-emphase">Interrogeons nous donc de manière générale sur notre marché (définie en <a href=""> Section 2 </a>), pour afiner la définition de nos cibles et construire des personas cohérentes (définies dans la <a href=""> Section 3 </a>).
-</p>
-
-
-
-### Eviter les biais cognitifs
-
-
-::::{grid}
-
-:::{grid-item}
-:columns: 8
+<p class="p-emphase">Pour notre projet</p>
 
 <br>
 
->Créer des personas à la va-vite, c’est un peu comme partir en randonnée avec une carte dessinée à la main : on croit savoir où on va, mais on risque de se perdre en chemin. Sans prendre le temps d’analyser correctement les cibles, on s’appuie sur des intuitions qui semblent solides mais qui peuvent être complètement à côté de la plaque. Résultat : des personas qui ne ressemblent pas vraiment aux utilisateurs réels, souvent parce qu’ils sont influencés par des biais cognitifs qu’on n’a même pas conscience d’appliquer.
-
-:::
+On peut très bien appliquer la méthode scientifique à n'importe quelle projet. D'ailleurs dans le cadre de la formation, ça pourrait prendre la forme suiante : Décrire, pour l'instant, nous somme à l'instant crucial de la recherche. Cette étape est primordiale car elle va nous permettre de générer de bonnes hypothèses. Il est important de faire des bonnes hypothèses sinon il faut repartir du début.
 
 
-:::{grid-item}
-:columns: 4
+<br>
+<br>
+
+::::::{tab-set}
+
+:::::{tab-item} Objectifs
 
 <br>
 
-<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/96e71aeb-b70b-4c65-b6b5-c374906667ce/UWDex7AajH.json" background="##fff" speed="1" style="width: 100%; height: auto" loop autoplay direction="1" mode="normal"></lottie-player>
 
-
-:::
-::::
-
-:::::{dropdown} C'est quoi un biais cognitif ?
-
-<p class="p-emphase">Les biais cognitifs sont des distorsions dans le traitement de l’information par notre cerveau, qui peuvent nous amener à des jugements ou des décisions irrationnelles.</p>
-
-***
-
-<br>
-
-- **Biais d’attention sélective** : Tendance à se concentrer sur certaines informations tout en en ignorant d’autres, souvent en raison de leur saillance.
-
-<br>
-
-- **Biais de confirmation** : Recherche, interprétation ou mémorisation d'informations qui confirment nos croyances, tout en ignorant celles qui les contredisent.
-
-<br>
-
-- **Effet de halo** : Tendance à juger positivement ou négativement une personne ou une chose sur la base d'une seule caractéristique (ex. : une personne sympathique est automatiquement perçue comme compétente).
-
-<br>
-
-- **Biais de mémoire sélective** : Rappel préférentiel d'événements ou d'informations en accord avec nos croyances ou émotions.
-
-<br>
-
-- **Biais d’ancrage** : Dépendance excessive à la première information reçue (l’ancre) pour prendre une décision.
-
-<br>
-
-- **Et plus encore !**
 
 :::::
 
 
-
-### Examples de questions
+:::::{tab-item} Recherche
 
 <br>
 
 
-::::{card-carousel} 2
 
-:::{card}
-**Taille du marché**
-^^^
+:::::
 
-<p class="p-emphase"><em>"Quelle est la taille du marché mondial pour [ton produit/service] en 2024 et sa croissance prévue d'ici 2028 ?"</em></p>
 
-:::
-:::{card}
-**Tendances du secteur**
-^^^
+:::::{tab-item} Hypothèse
 
-<p class="p-emphase"><em>"Quelles sont les principales tendances du marché pour [ton secteur] dans les cinq dernières années ?"</em></p>
+:::::
 
-:::
-:::{card}
 
-**Concurrence**
-^^^
+:::::{tab-item} Teste Utilisateur
 
-<p class="p-emphase"><em>"Quels sont les principaux acteurs du marché dans le secteur de [ton produit/service], et quelle est leur part de marché respective ?"</em></p>
+<br>
 
-:::
-:::{card} 
+:::::
 
-**Comportement des consommateurs**
-^^^
+:::::{tab-item} Analyse des données
 
-<p class="p-emphase"><em>"Quels sont les comportements d'achat des consommateurs pour [ton produit/service] dans [ton pays] ?"</em></p>
+<br>
 
-:::
-:::{card} 
+:::::
 
-**Analyse démographique**
-^^^
+:::::{tab-item} Rapport et Conclusions
 
-<p class="p-emphase"><em>"Comment les consommateurs pour [ton produit/service] se répartissent en termes de démographie ?"</em></p>
+<br>
 
-:::
-:::{card}
+:::::
 
-**Barrières à l'entrée**
-^^^
+::::::
 
-<p class="p-emphase"><em>"Quelles sont les barrières à l'entrée pour un nouveau produit/service dans [ton secteur] en 2024 ?"</em></p>
-
-:::
-
-:::{card}
-
-**Et bien plus encore ...**
-^^^
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/2675e6f3-6135-4447-95a5-80252016a801/pBIsbGK9z3.json" background="##FFFFFF" speed="1" style="width: 100%; height: auto" loop autoplay direction="1" mode="normal"></lottie-player>
-
-:::
-
-::::
 
 <br>
 <br>
 
-```{admonition} Il faut continuellement se poser des questions,
-:class: warning, dropdown
 
-Oui c'est très important de se poser des questions
-
-```
-
-```{admonition} Car à l'examen on vous en posera beaucoup !
-:class: tip, dropdown
-
-Pendant l'examen, le jury vous demandera de justifier vos choix ! (pourquoi avez vous choisi cette cible ...). Avoir réaliser en amont un travail de questionnement vous aidera à aborder ces questions avec sérénité
-
-
-```
-
-<br>
-
-## Quels outils pour s'informer ?
+##### Surveiller
 
 ::::{grid}
 
 :::{grid-item}
 :columns: 8
 
-<br>
-<br>
-<br>
-
-<p class="p-emphase"><strong>En voila une bonne question ! </strong></p>
+> Pour surveiller il faut déja avoir une piste, et pour trouver des piste il faut commencer à chercher.
 
 :::
 
@@ -441,7 +375,86 @@ Pendant l'examen, le jury vous demandera de justifier vos choix ! (pourquoi avez
 
 ::::
 
-### Internet bien sûr !
+
+::::{grid} 5
+
+:::{grid-item-card}
+:link: veille.html/#etude-de-marche
+:class-header: bg-light
+**Marché**
+^^^
+
+:::
+
+:::{grid-item-card}
+:link: veille.html/#etude-de-marche
+:class-header: bg-light
+**Concurrents**
+
+^^^
+
+:::
+
+
+:::{grid-item-card}
+**Utilisateurs**
+^^^
+
+:::
+
+:::{grid-item-card}
+**Société**
+^^^
+
+:::
+
+:::{grid-item-card}
+**Technologies**
+^^^
+
+:::
+
+::::
+
+```{note}
+
+Ancrer vers différents exercices ou questions en lien avec le bordel
+
+
+```
+
+##### Collecter
+
+::::{grid}
+
+:::{grid-item}
+:columns: 8
+
+> Nous sommes aujourd'hui submergé par l'information. Le plus gros de l'effort va se trouver dans la sélection et dans la capacité d'analyse de la source d'information dont la pertinence devra être mise au premier plan
+
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+
+<dotlottie-wc src="https://lottie.host/dc713bfb-9ccc-4b8c-8e5b-59b943cf59aa/k1fZFm2Q7o.lottie" style="width: 100%;height: auto" autoplay loop></dotlottie-wc>
+
+:::
+
+::::
+
+
+###### Quels outils ?
+
+<p class="p-emphase">Internet bien sûr !</p>
 
 <br>
 
@@ -537,7 +550,40 @@ Pendant l'examen, le jury vous demandera de justifier vos choix ! (pourquoi avez
 
 <br>
 
-### L'Intelligence Artificielle ? 
+###### L'Intelligence Artificielle  
+
+
+::::{grid}
+
+:::{grid-item}
+:columns: 6
+
+> Attention avec l'IA. Ca va venir rajouter des gouttes dans un monde ou l'on est déja submergé d'infos
+
+
+:::
+
+
+:::{grid-item}
+:columns: 6
+
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+
+<dotlottie-wc src="https://lottie.host/5baa20b6-11ce-4488-b4eb-ed10950330e3/QvrKEmk6gu.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc>
+
+:::
+
+::::
+
+
+
+::::::{tab-set}
+
+:::::{tab-item} Chat GPT
 
 ::::{grid} 2
 
@@ -572,6 +618,10 @@ Avis: 🌟 🌟 ★ ★ ★
 <br>
 <br>
 
+:::::
+
+:::::{tab-item} Perplexity
+
 ::::{grid} 2
 
 :::{grid-item-card}
@@ -596,11 +646,17 @@ Avis: 🌟 🌟 🌟 🌟 ★
 
 > Perplexity est un outil de recherche assistée par IA conçu pour fournir des réponses claires et précises à vos questions, tout **en s'appuyant sur des sources qu’il cite directement**. Il combine la rapidité de l’IA et la transparence des références, ce qui le rend idéal pour explorer des sujets ou valider des faits. Toutefois, comme pour tout outil, il est important de croiser les informations et de vérifier la fiabilité des sources fournies pour assurer une recherche rigoureuse.
 
+<br>
 
 :::
 
 ::::
 
+:::::
+
+::::::
+
+<br>
 <br>
 
 :::{admonition} Attention quand on utilise l'IA !
@@ -627,7 +683,444 @@ La consommation (en gramme de Carbonne) de l'IA générative **Source**: [Datafo
 
 <br>
 
-### Intérroge directement ta cible !
+
+
+##### Analyser
+
+::::{grid}
+
+:::{grid-item}
+:columns: 8
+
+> L'analyse, c'est plus compliqué. C'est traiter l'information pour savoir comment l'utiliser dans son projet. On en reparlera un peu plus tard dans la partie méthode
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<lottie-player src="https://assets7.lottiefiles.com/packages/lf20_ZAY921.json"  background="transparent"  speed="1"  style="width: 100%; height: auto;"  loop  autoplay></lottie-player>
+
+:::
+
+::::
+
+#### D'informations 
+
+<p class="p-emphase">C'est quoi une information ?
+</p>
+
+
+
+<p class="p-emphase">Une donnée devient une information quand on lui donne un sens. Cette information devient une connaissance quand on l’intègre à notre savoir pour prendre une décision ou comprendre quelque chose de plus large.
+</p>
+
+
+
+##### Quelles Informations ?
+
+En fonction des besoins que l'on a briêvement abordé plus haut, il existe plusieurs types de veille, que l'on regroupe en plusieurs catégories.
+
+<br>
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGW0yFhvb0/9f_zdWvkx3fz21wg2sdXPA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGW0yFhvb0&#x2F;9f_zdWvkx3fz21wg2sdXPA&#x2F;view?utm_content=DAGW0yFhvb0&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Types de Veille</a> par Vdeguin
+
+
+
+###### Bonne Questions !
+
+::::{grid}
+
+:::{grid-item}
+:columns: 8
+
+
+>La veille est un outil que l'on met en place pour s'informer des tendances en cours (dans l'instant présent - d'où l'intéret de la faire de manière régulière, ou de l'automatiser) et prendre des meilleurs décisions pour le futur. mais nous ne sommes pas encore des chefs d'entreprises accomplie à la conquette des marchés ... Je vous propose donc de faire un petit pas en arrière:
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<dotlottie-player src="https://lottie.host/79216f30-19dd-43bb-8f0f-94476c3d9e42/bDT7BRE14D.lottie" background="transparent" speed="1" style="width: 100%; height: auto" loop autoplay></dotlottie-player>
+
+:::
+::::
+
+<br>
+
+
+<p class="p-emphase">Interrogeons nous donc de manière générale sur notre marché (définie en <a href=""> Section 2 </a>), pour afiner la définition de nos cibles et construire des personas cohérentes (définies dans la <a href=""> Section 3 </a>).
+</p>
+
+##### Examples de questions
+
+<br>
+
+
+::::{card-carousel} 2
+
+:::{card}
+**Taille du marché**
+^^^
+
+<p class="p-emphase"><em>"Quelle est la taille du marché mondial pour [ton produit/service] en 2024 et sa croissance prévue d'ici 2028 ?"</em></p>
+
+:::
+:::{card}
+**Tendances du secteur**
+^^^
+
+<p class="p-emphase"><em>"Quelles sont les principales tendances du marché pour [ton secteur] dans les cinq dernières années ?"</em></p>
+
+:::
+:::{card}
+
+**Concurrence**
+^^^
+
+<p class="p-emphase"><em>"Quels sont les principaux acteurs du marché dans le secteur de [ton produit/service], et quelle est leur part de marché respective ?"</em></p>
+
+:::
+:::{card} 
+
+**Comportement des consommateurs**
+^^^
+
+<p class="p-emphase"><em>"Quels sont les comportements d'achat des consommateurs pour [ton produit/service] dans [ton pays] ?"</em></p>
+
+:::
+:::{card} 
+
+**Analyse démographique**
+^^^
+
+<p class="p-emphase"><em>"Comment les consommateurs pour [ton produit/service] se répartissent en termes de démographie ?"</em></p>
+
+:::
+:::{card}
+
+**Barrières à l'entrée**
+^^^
+
+<p class="p-emphase"><em>"Quelles sont les barrières à l'entrée pour un nouveau produit/service dans [ton secteur] en 2024 ?"</em></p>
+
+:::
+
+:::{card}
+
+**Et bien plus encore ...**
+^^^
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/2675e6f3-6135-4447-95a5-80252016a801/pBIsbGK9z3.json" background="##FFFFFF" speed="1" style="width: 100%; height: auto" loop autoplay direction="1" mode="normal"></lottie-player>
+
+:::
+
+::::
+
+<br>
+<br>
+
+```{admonition} Il faut continuellement se poser des questions,
+:class: warning, dropdown
+
+Oui c'est très important de se poser des questions
+
+```
+
+```{admonition} Car à l'examen on vous en posera beaucoup !
+:class: tip, dropdown
+
+Pendant l'examen, le jury vous demandera de justifier vos choix ! (pourquoi avez vous choisi cette cible ...). Avoir réaliser en amont un travail de questionnement vous aidera à aborder ces questions avec sérénité
+
+
+```
+
+<br>
+
+
+##### Quels Sources 
+
+```{note}
+
+Introduire l'image du cours que j'ai réalisé
+
+- Introduire Paragraphe IA
+
+```
+
+
+#### Pour Décider
+
+##### Hypothèses
+
+
+```{note}
+
+Expliquer pourquoi il est important de bien connaitre son environnement pour prendre de meilleurs décisions
+
+
+- Introduire section Biais cognitifs
+
+```
+
+##### Biais Cognitifs
+
+```{note}
+
+Expliquer pourquoi il est important de bien connaitre son environnement pour prendre de meilleurs décisions
+
+
+- Introduire section Biais cognitifs
+
+```
+
+::::{grid}
+
+:::{grid-item}
+:columns: 8
+
+<br>
+
+>Créer des personas à la va-vite, c’est un peu comme partir en randonnée avec une carte dessinée à la main : on croit savoir où on va, mais on risque de se perdre en chemin. Sans prendre le temps d’analyser correctement les cibles, on s’appuie sur des intuitions qui semblent solides mais qui peuvent être complètement à côté de la plaque. Résultat : des personas qui ne ressemblent pas vraiment aux utilisateurs réels, souvent parce qu’ils sont influencés par des biais cognitifs qu’on n’a même pas conscience d’appliquer.
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<br>
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/96e71aeb-b70b-4c65-b6b5-c374906667ce/UWDex7AajH.json" background="##fff" speed="1" style="width: 100%; height: auto" loop autoplay direction="1" mode="normal"></lottie-player>
+
+
+:::
+::::
+
+:::::{dropdown} C'est quoi un biais cognitif ?
+
+<p class="p-emphase">Les biais cognitifs sont des distorsions dans le traitement de l’information par notre cerveau, qui peuvent nous amener à des jugements ou des décisions irrationnelles.</p>
+
+***
+
+<br>
+
+- **Biais d’attention sélective** : Tendance à se concentrer sur certaines informations tout en en ignorant d’autres, souvent en raison de leur saillance.
+
+<br>
+
+- **Biais de confirmation** : Recherche, interprétation ou mémorisation d'informations qui confirment nos croyances, tout en ignorant celles qui les contredisent.
+
+<br>
+
+- **Effet de halo** : Tendance à juger positivement ou négativement une personne ou une chose sur la base d'une seule caractéristique (ex. : une personne sympathique est automatiquement perçue comme compétente).
+
+<br>
+
+- **Biais de mémoire sélective** : Rappel préférentiel d'événements ou d'informations en accord avec nos croyances ou émotions.
+
+<br>
+
+- **Biais d’ancrage** : Dépendance excessive à la première information reçue (l’ancre) pour prendre une décision.
+
+<br>
+
+- **Et plus encore !**
+
+:::::
+
+
+##### Esprit Critique
+
+- Comment est-ce qu'on aiguise son esprit critique ?
+
+### ⚙️ Méthodes
+
+#### Surveiller
+
+##### Méthodes Push / Pull
+
+Il existe deux grandes méthodes de veille, les méthodes Push and Pull (Pousser ou Tirer en anglais).
+
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="4-Veille-b" frameborder="0" width="1000" height="562.5" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/67461c334bc03be5580d139f" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+
+<br>
+<br>
+
+```{note}
+
+Créer un questionnaire H5P (ou interactivité Genially ?) - pour demander a l'utilisateur de choisir entre les deux ?
+
+
+```
+
+
+::::{grid} 5
+
+:::{grid-item}
+:columns: 6
+
+<div class="flashcard" id="card2">
+<div class="flashcard-inner">
+<div class="flashcard-front">
+<p class="p-emphase"><strong>PULL</strong></p>
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/9b3f9870-f287-4cc6-9e23-9ba59fc89be0/xW5N6wHwT9.json" background="##fff" speed="1" style="width: 80%; height: auto" loop autoplay direction="1" mode="normal"></lottie-player>
+
+</div>
+<div class="flashcard-back">
+<p><strong>C'est quand vous allez chercher l'information</strong>. <br>L'utilisateur doit effectuer une démarche active pour trouver les données qui l'intéressent.
+</p>
+</div>
+</div>
+</div>    
+
+<button class="button-flash-card" onclick="flipCard('card2')">Retourner</button>
+
+
+:::
+
+:::{grid-item}
+:columns: 6
+
+<div class="flashcard" id="card1">
+        <div class="flashcard-inner">
+            <div class="flashcard-front">
+<p class="p-emphase"><strong>PUSH</strong></p>   
+
+<br>                
+                
+<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<dotlottie-player src="https://lottie.host/f4a9d370-7266-4714-b129-42fab1dd40af/N79N2pBgoj.lottie" background="transparent" speed="1" style="width: 80%; height: auto" loop autoplay></dotlottie-player>
+                
+</div>
+<div class="flashcard-back">
+<p><strong>C'est quand l'information vient à vous.</strong> <br>Les informations sont directement envoyées à l'utilisateur sans qu'il ait besoin de les chercher.</p>
+</div>
+</div>
+</div>
+
+<button class="button-flash-card" onclick="flipCard('card1')">Retourner </button>
+
+:::
+
+::::
+
+<!-- partial -->
+<script  src="../../../../_static/scripts/flash-card.js"></script>
+
+<br>
+<br>
+
+
+###### Automatise ta Veille 
+
+>Jusqu'ici on a vu des outils pour **aller chercher de l'information** (méthode pull), très importante en début de projet. Cependant, pour continuer à rester informé (sans y passer trop de temps non plus), automatisons tout ça !
+
+::::{grid}
+
+:::{grid-item-card}
+:link: https://www.google.fr/alerts
+:class-header: bg-light
+:columns: 4
+**Google Alert**
+^^^
+
+```{image} Docs/Logos/logo-google-alerts.png
+:width: 100%
+:align: center
+```
+
+:::
+
+:::{grid-item-card}
+:link: https://www.google.fr/intl/fr/forms/about/
+:class-header: bg-light
+:columns: 4
+**Les Newsletters**
+^^^
+
+```{image} Docs/Logos/news-530220_640.jpg
+:width: 100%
+:align: center
+```
+
+:::
+
+:::{grid-item-card}
+:link: https://www.google.fr/intl/fr/forms/about/
+:class-header: bg-light
+:columns: 4
+**Flux RSS**
+^^^
+
+```{image} Docs/Logos/256px-Rss_Shiny_Icon.svg.png
+:width: 75%
+:align: center
+```
+
+:::
+
+::::
+
+<br>
+
+:::::{dropdown} Comparaison entre les différents outils de veille automatique
+
+::::{tab-set}
+:::{tab-item} Google Alert
+
+```{note}
+
+Insérer image
+
+```
+
+
+:::
+
+:::{tab-item} Newsletter
+
+On y pense pas assé mais les newletters sont un outil très performant pour automatiser votre veille. Il faut en revanche avoir fait un travail important de recherche en amont pour sélectionner les sites leaders dans votre secteur. 
+
+
+
+
+:::
+
+:::{tab-item} Flux RSS
+
+```{note}
+
+Comment les mettre en place
+
+
+```
+
+:::
+
+
+::::
+
+:::::
+
+
+
+
+##### Intérroge ta cible !
 
 
 <br>
@@ -651,7 +1144,7 @@ La consommation (en gramme de Carbonne) de l'IA générative **Source**: [Datafo
 ::::
 
 
-#### Les Outils de questionnaires
+###### Les Outils de questionnaires
 
 <br>
 
@@ -835,192 +1328,11 @@ Créer un questionnaire efficace nécessite de suivre plusieurs bonnes pratiques
   <button class="button">Le Questionnaire <br>🕑- 5 min</button>
 </div>
 
-## Receuil les données
-
-### Les 2 méthodes de veille
-
-::::{grid} 5
-
-:::{grid-item}
-:columns: 6
-
-<div class="flashcard" id="card2">
-<div class="flashcard-inner">
-<div class="flashcard-front">
-<h4 style="color:black;"><strong>PULL</strong></h4>
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/9b3f9870-f287-4cc6-9e23-9ba59fc89be0/xW5N6wHwT9.json" background="##fff" speed="1" style="width: 80%; height: auto" loop autoplay direction="1" mode="normal"></lottie-player>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-    
-</div>
-<div class="flashcard-back">
-<p><strong>C'est quand vous allez chercher l'information</strong>. <br>L'utilisateur doit effectuer une démarche active pour trouver les données qui l'intéressent.
-</p>
-</div>
-</div>
-</div>    
-
-<button class="button-flash-card" onclick="flipCard('card2')">Retourner</button>
-
-
-:::
-
-:::{grid-item}
-:columns: 6
-
-<div class="flashcard" id="card1">
-        <div class="flashcard-inner">
-            <div class="flashcard-front">
-<h4 style="color:black;"><strong>PUSH</strong></h4>    
-
-<br>                
-                
-<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-<dotlottie-player src="https://lottie.host/f4a9d370-7266-4714-b129-42fab1dd40af/N79N2pBgoj.lottie" background="transparent" speed="1" style="width: 80%; height: auto" loop autoplay></dotlottie-player>
-
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-                
-</div>
-<div class="flashcard-back">
-<p><strong>C'est quand l'information vient à vous.</strong> <br>Les informations sont directement envoyées à l'utilisateur sans qu'il ait besoin de les chercher.</p>
-</div>
-</div>
-</div>
-
-<button class="button-flash-card" onclick="flipCard('card1')">Retourner </button>
-
-:::
-
-::::
-
-<!-- partial -->
-<script  src="../../../../_static/scripts/flash-card.js"></script>
-
 <br>
 
-### Les différents cas d'usage
+#### Collecter
 
-<br>
-
-<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="4-Veille-b" frameborder="0" width="1000" height="562.5" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/67461c334bc03be5580d139f" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
-
-
-<br>
-<br>
-
-
->Jusqu'ici on a vu des outils pour **aller chercher de l'information** (méthode pull), très importante en début de projet. Cependant, pour continuer à rester informé (sans y passer trop de temps non plus), automatisons tout ça ! 
-
-
-
-
-
-
-
-### Automatise ta veille 
-
-::::{grid}
-
-:::{grid-item-card}
-:link: https://www.google.fr/alerts
-:class-header: bg-light
-:columns: 4
-**Google Alert**
-^^^
-
-```{image} Docs/Logos/logo-google-alerts.png
-:width: 100%
-:align: center
-```
-
-:::
-
-:::{grid-item-card}
-:link: https://www.google.fr/intl/fr/forms/about/
-:class-header: bg-light
-:columns: 4
-**Les Newsletters**
-^^^
-
-```{image} Docs/Logos/news-530220_640.jpg
-:width: 100%
-:align: center
-```
-
-:::
-
-:::{grid-item-card}
-:link: https://www.google.fr/intl/fr/forms/about/
-:class-header: bg-light
-:columns: 4
-**Flux RSS**
-^^^
-
-```{image} Docs/Logos/256px-Rss_Shiny_Icon.svg.png
-:width: 75%
-:align: center
-```
-
-:::
-
-::::
-
-<br>
-
-:::::{dropdown} Comparaison entre les différents outils de veille automatique
-
-::::{tab-set}
-:::{tab-item} Google Alert
-
-```{note}
-
-Insérer image
-
-```
-
-
-:::
-
-:::{tab-item} Newsletter
-
-On y pense pas assé mais les newletters sont un outil très performant pour automatiser votre veille. Il faut en revanche avoir fait un travail important de recherche en amont pour sélectionner les sites leaders dans votre secteur. 
-
-
-
-
-:::
-
-:::{tab-item} Flux RSS
-
-```{note}
-
-Comment les mettre en place
-
-
-```
-
-:::
-
-
-::::
-
-:::::
-
-
-
-
-## Utilise ton tableau de veille
+##### Utilise ton tableau de veille
 
 <p class="p-emphase">Quand une information te parvient, et si elle te semble pertinente, inscrit la dans ton tableau de veille ! </p>
 
@@ -1071,17 +1383,73 @@ Télécharger
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGXkHUJGXw&#x2F;TgaHIIPdoCTdd4CUW2IoBA&#x2F;view?utm_content=DAGXkHUJGXw&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Domaine</a> par Vincent Deguin
 
 
+#### Analyser
 
-## Analyse les informations
+##### Comment
 
 <br>
 
+::::{grid}
+
+:::{grid-item}
+:columns: 6
+
+> L'analyse, c'est un processus qui comprend plusieurs étapes résumé dans le diagramme ci dessous
+
+:::
+
+
+:::{grid-item}
+:columns: 6
+
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+
+<dotlottie-wc src="https://lottie.host/dbb108e0-342e-4e29-8bc2-5aff929cd4ef/9Mv16YcojT.lottie" style="width: 100%;height: auto" autoplay loop></dotlottie-wc>
+
+:::
+
+::::
 
 <div style="width: 100%;"><div style="position: relative; padding-bottom: 100%; padding-top: 0; height: 0;"><iframe title="Genially sans titre" frameborder="0" width="800" height="800" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/67424a09559c9e0171393c50" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
 
 >Le diagrammme suivant représente les différentes étapes nécéssaires a l'analyse d'une information  
 
-### Matrice SWOT
+
+
+### 🔎 Cas d'Usages
+
+
+#### Etude de Marché
+
+##### Objectifs
+
+```{note}
+
+Expliquer comment on fait une étude de marché
+
+- lien vers activité SWOT
+
+```
+
+Appliquons ce que l'on 
+
+
+##### Etapes
+
+<p class="p-emphase">💪 <strong>Trouver des Sources</strong></p>
+
+
+
+
+###### Business Model Canva
+
+
+
+###### Matrice SWOT
 
 ```{note}
 
@@ -1100,17 +1468,67 @@ La matrice SWOT
 
 
 
-## Testez-vous !
+
+<div class="activite">
+
+<p class="p-emphase">💪 <strong>A - Créé un SWOT</strong></p>
+
+***
+
+<br>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> SWOT - faire un lien vers l'activité - lien vers un template Canva ? 
+
+:::
+
+
+:::{grid-item-card}
+:columns: 3
+:class-header: bg-dark text-white
+:link: veille.html#swot
+**Activité A**
+^^^
+
+- 🕑 20 min
+- 🍅 0
+ 
+:::
+    
+::::
+
+
+</div>
+
+
+<br>
+
+### Veille Concurrentiel
+
+
+
+
+
+
+
+## 💪 Mise En Pratique
+
+#### Quelles Questions !?
 
 ```{note}
 
-Embed ce questionnaire : [Questionnaire veille](https://app.lumi.education/h5p/mco-les-enjeux-de-la-veille-informationnelle-dans-la-dmarche-mercatique-ecrui)
+Décrire l'exercice ! réalisé pendant le cours de veille avec la CDP3
 
 ```
 
+<iframe width="768" height="432" src="https://miro.com/app/live-embed/uXjVJ-N9yfE=/?embedMode=view_only_without_ui&moveToViewport=-1359,-359,2950,1400&embedId=399203596025" frameborder="0" scrolling="no" allow="fullscreen; clipboard-read; clipboard-write" allowfullscreen></iframe>
 
 
-## Pour Conclure
+## 📈 Pour Finir
 
 
 ### En résumé
@@ -1133,6 +1551,25 @@ Présentation de l'outil discord et explication de comment on peut nourrir cette
 
 ```
 
+
+#### Example
+
+> Avec Laszlo, nous avons mis en place une veille collaborative grçace à l'outil padlet
+
+<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/diebjgy7v4o4riow" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Fait avec Padlet"></div></a></div></div>
+
+
+
+```{admonition}
+
+Impliquer les apprenants dans la création d'une veille collective !
+
+- Créer un padlet par section (épinglé)
+
+
+```
+
+
 ### Autres Ressources
 
 - [analyse PESTEL](https://bpifrance-creation.fr/encyclopedie/letude-marche/determiner-sa-strategie/elaborer-sa-strategie-dentreprise-lanalyse)
@@ -1141,6 +1578,14 @@ Présentation de l'outil discord et explication de comment on peut nourrir cette
 
 Au programme du Master donc faire le lien quand ce dernier sera créé
 
+
+```
+
+### Testez-vous !
+
+```{note}
+
+Embed ce questionnaire : [Questionnaire veille](https://app.lumi.education/h5p/mco-les-enjeux-de-la-veille-informationnelle-dans-la-dmarche-mercatique-ecrui)
 
 ```
 

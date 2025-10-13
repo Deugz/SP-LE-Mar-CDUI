@@ -17,6 +17,7 @@
 > 
 > Bonne Lecture 😊  
 
+
 :::
 
 
@@ -149,6 +150,20 @@ Enumérer les différents objectifs pédagogiques (star classification avec diff
 :::::{dropdown} Support de Cours 
 
 ::::{tab-set}
+
+:::{tab-item} CDP 3
+
+
+<iframe src="https://drive.google.com/file/d/1dyY8CVgnTT5QcAdfWezfSY1QwmmCtFHZ/preview" 
+        width="100%" 
+        height="400px" 
+        frameborder="0" 
+        allowfullscreen>
+</iframe>
+
+
+:::
+
 :::{tab-item} CDP 1
 
 

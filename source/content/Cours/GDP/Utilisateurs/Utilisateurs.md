@@ -4,7 +4,8 @@
 
 ***
 
-<br>
+
+## 🏄 Avant de Commencer 
 
 ::::{grid} 3
 
@@ -39,6 +40,70 @@
 :::
     
 ::::
+
+***
+
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+<div id="div-no-colour"> 
+
+<p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
+
+
+
+- ⭐ Objectif 1
+- ⭐ ⭐ Objectif 2
+- ⭐ ⭐ ⭐ Objectif 3
+
+    
+```{note}
+
+Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)
+
+```
+
+</div>
+ 
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+
+<p class="p-emphase"><strong>Sommaire</strong></p>
+
+[🧠 **La Théorie**](#la-theorie)
+
+- 🌐 Internet
+- 🕸️ World Wibe Web
+- 💻 Site Web
+- 🛒 E-Commerce
+- 💑 Le Consommateur
+
+<br>
+<br>
+
+[💪 **Mise En Pratique**](#mise-en-pratique)
+
+- Activité A
+- Activité A
+
+</div> 
+
+<br>
+    
+:::
+    
+::::
+
 
 - **Liens** : {bdg-link-danger}`🎓 Stratégie Webmarketing <../../../Diplome/Competences/Communication/webmarketing.html#cible-focus>`
 
@@ -100,8 +165,18 @@ Implémenter les bonnes pratiques pour créer un questionnaire (transférer depu
 
 ```
 
+<br>
 
-## Besoins
+***
+
+## 🧠 La Théorie
+
+<p class="p-emphase">L'Exprience Utilisateur</p>
+
+### Expérience
+
+
+### Besoins
 
 - comment créer les personas
 
@@ -109,7 +184,7 @@ Implémenter les bonnes pratiques pour créer un questionnaire (transférer depu
     - lien persona / Canvas
     
 
-## Votre Problématique
+#### Votre Problématique
 
 ```{note}
 
@@ -117,11 +192,13 @@ Lien avec le chapitre précédent (définir votre projet)
 
 ```
 
+### Utilisateur
 
 
-## Recherche Utilisateur
 
-### Pourquoi s'intéresser aux utilisateurs ?
+#### Recherche Utilisateur
+
+#### Pourquoi s'intéresser aux utilisateurs ?
 
 <p class="p-emphase"><strong>C'est primordial !!</strong></p>
 
@@ -147,7 +224,7 @@ Source [https://sapientagestion.com/](https://sapientagestion.com/actualites/lec
 ```
 
     
-#### Biais cognitifs
+##### Biais cognitifs
 
 ```{note}
 
@@ -157,18 +234,29 @@ On en parlé au chapitre précédent ([La Veille](../Veille/Veille))
 ```
 
 
-## Les Cibles
+### 🎯 Les Cibles
 
 - BtoB / BtoC
 
+#### Coeur de cible
 
-## Personas
+
+#### Cible Principal
+
+
+#### Cible Secondaire
+
+
+#### Cible Relais
+
+
+### Personas
 
 <p class="p-emphase"> La meilleure façon de répondre efficacement aux besoins d’une variété d’utilisateurs est de concevoir pour des types spécifiques de personnes ayant des besoins spécifiques. </p>
 
 - Cooper, 2004
 
-### C'est quoi ?
+#### C'est quoi ?
 
 
 - Provisional personas (Cooper, 2004)
@@ -176,7 +264,7 @@ On en parlé au chapitre précédent ([La Veille](../Veille/Veille))
 - Proto personas
 
 
-### Pourquoi les utiliser
+#### Pourquoi les utiliser
 
 - **Rester concentré sur les utilisateurs**: S’assurer que les fonctionnalités ont été construites avec l’utilisateur en tête.
 
@@ -184,7 +272,7 @@ On en parlé au chapitre précédent ([La Veille](../Veille/Veille))
 
 - **Aider l’équipe à collaborer et communiquer**: Ils permettent l’établissement d’un langage commun et facilitent l’argumentation et les prises de décisions éclairées.
 
-### Construire vos personas
+#### Construire vos personas
 
 ```{warning}
 
@@ -209,7 +297,14 @@ Créer un génially qui reprend les différentes étapes de la création:
 ```
 
 
-### Mauvaises Personas
+#### Mauvaises Personas
+
+
+```{note}
+
+Flash card format ?
+
+```
 
 - **Personas jumeaux**: Différents en apparence mais très proches en terme de problématique de conception
 
@@ -222,23 +317,117 @@ Créer un génially qui reprend les différentes étapes de la création:
 - **Les personas "ma mère"**: Ils sont basés sur la connaissance d'une personne réelle, souvent de l'entourage du concepteur (parents ou grands-parents) pour créer des profils non technophiles.
 
 
-### Outils
+#### Outils
 
 - [Générer des images de visages](https://thispersonnotexist.org/) (qui n'existent pas)
 
 
-
-## Pour Conclure
-
-
-### En résumé
-
-
-### Examples de bonnes fiches persona
+## 💪 Mise En Pratique
 
 
 
 
-## En Plus
+## 📈 Pour Finir
+
+### Conclusion
+
+```{note}
+
+Conclusion plus fiche résumé (production collaborative ? Framanote ?) - produire un pdf exportable
+
+```
+
+### Test 
+
+#### Tes Connaissances
+
+```{note}
+
+Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregistre la progression de l'apprenant et offre une collection de badge !! 
+
+```
+
+
+#### Ton Projet
+
+::::{grid} 2
+
+:::{grid-item-card}
+:columns: 6
+
+**Dossier Projet**
+
+^^^
+
+- Livrable 1
+
+:::
+
+
+:::{grid-item-card}
+:columns: 6
+
+**Présentation Canva**
+
+^^^
+
+- Livrable 1
+    
+:::
+    
+::::
+
+
+### Sources
+
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+- [Lister](#) 
+
+    
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<p class="p-emphase"><strong>Glossaire</strong></p>
+
+```{note}
+
+termes du glossaire
+
+```
+
+:::
+    
+::::
+
+
+**Liste Figures**
+
+
+```{note}
+
+Référencer les figures de la page ?
+
+```
+
+#### Plus de Ressources
 
 - [Cours - Apprendre à construire des personas (we love users)](Docs/We-Love-Users-Personas.docx)
+
+### Commentaires
+
+```{note}
+
+Lien vers formulaire de feedback + possibilité de donner son avis dans les commentaires.
+
+```
+
+

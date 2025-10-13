@@ -846,3 +846,13 @@ Inclure template Miro
 
 
 ## Synthèse
+
+### Veille
+
+- [SEOJuice](https://seojuice.io/?ref=taaft&utm_source=taaft&utm_medium=referral)
+
+```{note}
+
+Utile aussi pour le benchmark
+
+```

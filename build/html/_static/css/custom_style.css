@@ -110,8 +110,8 @@ h6 {
   font-family: 'Fredoka', sans-serif;
   font-weight: 700;
   font-size: 1.8em;
-  margin-top: 50px;
-  margin-top: 50px;
+  margin-top: 70px;
+  margin-bottom: 70px;
   background: linear-gradient(90deg, #820CCC, #000000); /* dégradé bleu → violet */
   -webkit-background-clip: text; /* nécessaire pour Chrome/Safari */
   -webkit-text-fill-color: transparent; /* nécessaire aussi */

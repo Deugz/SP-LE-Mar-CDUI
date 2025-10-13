@@ -4,7 +4,7 @@
 
 ***
 
-<br>
+## 🏄 Avant de Commencer 
 
 ::::{grid} 3
 
@@ -35,6 +35,69 @@
 <br>
 
  
+    
+:::
+    
+::::
+
+***
+
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+<div id="div-no-colour"> 
+
+<p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
+
+
+
+- ⭐ Objectif 1
+- ⭐ ⭐ Objectif 2
+- ⭐ ⭐ ⭐ Objectif 3
+
+    
+```{note}
+
+Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)
+
+```
+
+</div>
+ 
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+
+<p class="p-emphase"><strong>Sommaire</strong></p>
+
+[🧠 **La Théorie**](#la-theorie)
+
+- 🌐 Internet
+- 🕸️ World Wibe Web
+- 💻 Site Web
+- 🛒 E-Commerce
+- 💑 Le Consommateur
+
+<br>
+<br>
+
+[💪 **Mise En Pratique**](#mise-en-pratique)
+
+- Activité A
+- Activité A
+
+</div> 
+
+<br>
     
 :::
     
@@ -104,7 +167,9 @@
 
 :::::
 
-## Les Attendus
+## 🧠 La Théorie
+
+### Les Attendus
 
 
 ```{figure} Docs/Expl-Bench-Slide.png
@@ -124,9 +189,7 @@ Créer une version interactive avec genially
 
 ```
 
-
-## Le Cours
-
+### Woorank
 
 ```{warning}
 
@@ -134,7 +197,7 @@ Gros focus sur le score Woorank
 
 ```
 
-### Tableau de Benchmark
+#### Tableau de Benchmark
 
 ```{note}
 
@@ -145,7 +208,7 @@ Mettre le tableau de benchmark et expliquer le système de notation
 
 
 
-## Examples 
+#### Examples 
 
 ```{note}
 
@@ -154,7 +217,7 @@ Sélectionner des projets et mettre des liens vers les projets des apprenants en
 ```
 
 
-## Synthèse
+#### Synthèse
 
 
 
@@ -168,7 +231,7 @@ Introduire ici le tableau de benchmark et surtout expliquer les différentes sec
 
 - Example
 
-### Benchmark Technologique
+#### Benchmark Technologique
 
 - Analyser le site de ses concurrents en se mettant dans la peu de ses utilisateurs
 
@@ -178,7 +241,7 @@ Lien vers les critères de bastien et scapin vue en webdesign
 
 ```
 
-#### Outils 
+##### Outils 
 
 ```{note}
 
@@ -188,7 +251,7 @@ Faire un benchmark des différents outils
 
 ```
 
-##### Wappalyzer
+###### Wappalyzer
 
 ::::{grid}
 
@@ -220,7 +283,7 @@ Faire un benchmark des différents outils
 ::::
 
 
-##### Woorank
+###### Woorank
 
 ::::{grid}
 
@@ -249,7 +312,7 @@ Faire un benchmark des différents outils
 
 ::::
 
-##### Semrush
+###### Semrush
 
 ::::{grid}
 
@@ -278,7 +341,7 @@ Faire un benchmark des différents outils
 
 ::::
 
-##### Ahrefs
+###### Ahrefs
 
 ::::{grid}
 
@@ -308,7 +371,7 @@ Faire un benchmark des différents outils
 ::::
 
 
-##### Majestic
+###### Majestic
 
 ::::{grid}
 
@@ -338,7 +401,7 @@ Faire un benchmark des différents outils
 ::::
 
 
-##### Goodsfox
+###### Goodsfox
 
 - [goodsfox](https://goodsfox.com/)
 
@@ -384,9 +447,9 @@ Très bon outil (très, trop ?) puissant!
 
 ```
 
-## Analyse Technologie
+### Analyse Technologie
 
- ### Wappalyzer
+#### Wappalyzer
 
 Fonctionnalités : Identifie CMS, frameworks, langages serveur, outils d’analyse, widgets, CDN, etc.
 
@@ -394,7 +457,7 @@ Extension navigateur disponible (Chrome/Firefox).
 
 Très simple d’utilisation : il suffit de saisir l’URL du site.
 
-### BuiltWith
+#### BuiltWith
 
 Très complet, notamment pour les sites e-commerce.
 
@@ -402,7 +465,7 @@ Donne des informations détaillées sur les technologies front-end, back-end, h�
 
 Utilisé aussi pour la veille concurrentielle.
 
-### WhatRuns
+#### WhatRuns
 
 Extension navigateur légère et intuitive.
 
@@ -411,9 +474,9 @@ Affiche les technologies utilisées directement lors de la navigation sur un sit
 Très pratique pour une utilisation rapide et discrète.
 
 
-## Autres
+### Autres
 
-### Mentions IA
+#### Mentions IA
 
 - [brek.ai](https://www.brek.ai/tools/brand-analyzer)
 
@@ -421,6 +484,114 @@ Très pratique pour une utilisation rapide et discrète.
 permet de checker les mentions de votre site par chat gpt. Analyse très complète, a éssayer !s
 
 
+
+## 💪 Mise En Pratique
+
+
+
+
+## 📈 Pour Finir
+
+### Conclusion
+
+```{note}
+
+Conclusion plus fiche résumé (production collaborative ? Framanote ?) - produire un pdf exportable
+
+```
+
+### Test 
+
+#### Tes Connaissances
+
+```{note}
+
+Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregistre la progression de l'apprenant et offre une collection de badge !! 
+
+```
+
+
+#### Ton Projet
+
+::::{grid} 2
+
+:::{grid-item-card}
+:columns: 6
+
+**Dossier Projet**
+
+^^^
+
+- Livrable 1
+
+:::
+
+
+:::{grid-item-card}
+:columns: 6
+
+**Présentation Canva**
+
+^^^
+
+- Livrable 1
+    
+:::
+    
+::::
+
+
+### Sources
+
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+- [Lister](#) 
+
+    
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<p class="p-emphase"><strong>Glossaire</strong></p>
+
+```{note}
+
+termes du glossaire
+
+```
+
+:::
+    
+::::
+
+
+**Liste Figures**
+
+
+```{note}
+
+Référencer les figures de la page ?
+
+```
+
+#### Plus de Ressources
+
+- [Cours - Apprendre à construire des personas (we love users)](Docs/We-Love-Users-Personas.docx)
+
+### Commentaires
+
+```{note}
+
+Lien vers formulaire de feedback + possibilité de donner son avis dans les commentaires.
+
+```
 
 
 
