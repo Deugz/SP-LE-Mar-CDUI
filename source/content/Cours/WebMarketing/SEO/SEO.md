@@ -856,3 +856,9 @@ Inclure template Miro
 Utile aussi pour le benchmark
 
 ```
+
+### Ressources
+
+- [Guide du débutant en référencement - ](https://www.francenum.gouv.fr/guides-et-conseils/communication-et-publicite/referencement/guide-du-debutant-en-referencement)
+
+- 

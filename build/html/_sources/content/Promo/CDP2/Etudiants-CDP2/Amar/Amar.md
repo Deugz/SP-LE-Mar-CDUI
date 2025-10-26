@@ -6,7 +6,7 @@
 ::::{grid} 
 
 :::{grid-item-card}
-:link: https://drive.google.com/drive/folders/1gy0X0FW5UCf2msNQ7d4fxF-95kOPSQnB?usp=drive_link
+:link: https://drive.google.com/drive/folders/1AqAF9F0dVKm43w57yBMHsGpDUCAhS3da
 :class-header: bg-light
 :columns: 3
 **Drive**
@@ -20,7 +20,7 @@
 :::
 
 :::{grid-item-card}
-:link: https://docs.google.com/document/d/16aKI5B6lty5nxEUtild6hQbaCzxV2esN/edit?usp=drive_link&ouid=113070474897761784681&rtpof=true&sd=true
+:link: https://docs.google.com/document/d/1LyX5JpK2VTjo0tyTDGv-nUUu7UZmvjHh/edit#heading=h.wx8jxi6vyvmk
 :class-header: bg-light
 :columns: 3
 **CDC**

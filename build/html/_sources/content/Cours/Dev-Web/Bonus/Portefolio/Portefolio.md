@@ -70,3 +70,6 @@ En retravaillant un template existant, vous économisez du temps tout en créant
 ## Exemples
 
 - [Sylvia Robert](https://360.articulate.com/review/content/c67bd17a-b9c5-495d-8921-add147a35d49/review)
+- [300K](https://300k.com/)
+
+- [Elodie Migeon](https://www.portfolio.formabilite.fr/)

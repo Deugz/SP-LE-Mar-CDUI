@@ -487,7 +487,16 @@ permet de checker les mentions de votre site par chat gpt. Analyse très complè
 
 ## 💪 Mise En Pratique
 
+### Le Tournoi
 
+- [Carte interactive](https://moncartel.com/)
+
+
+```{note}
+
+Idée d'activité. Les apprenants se mettente en équipe de deux et choisissent une agence qui leur plait. Ils font un benchmark du site de l'agence. Et doievent défendre le site face à leurs concurrents. L'idée serait de faire des petites battle.
+
+```
 
 
 ## 📈 Pour Finir

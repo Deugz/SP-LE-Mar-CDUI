@@ -101,9 +101,9 @@ On peut faire un truc cool ici !!
 
 ### Un peu d'histoire
 
+<p class="p-emphase">Hypertext Markup Language</p>
 
-
-
+**Langage de Balisage**
 
 ## Bonnes Pratiques
 

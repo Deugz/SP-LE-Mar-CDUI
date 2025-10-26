@@ -249,6 +249,112 @@ On en parlé au chapitre précédent ([La Veille](../Veille/Veille))
 
 #### Cible Relais
 
+### Choisir…
+
+<p class="p-emphase">C'est renoncé ...</p>
+
+Eh oui, c
+
+#### Générations
+
+```{note}
+
+Parler de l'age en décrivant la statistique suivante et expliquer pourquoi une classification par génération est pertinente
+
+```
+
+<a href="https://fr.statista.com/statistiques/472293/population-totale-par-groupe-dage-france/" rel="nofollow"><img src="https://fr.statista.com/graphique/1/472293/population-totale-par-groupe-dage-france.jpg" alt="Statistique: Nombre d'habitants en France au 1er janvier 2025, selon la tranche d'âge et le sexe  | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a><br />Trouver plus de statistiques sur  <a href="https://fr.statista.com" rel="nofollow">Statista</a>
+
+
+<iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://fr.statista.com/statistiques/472293/population-totale-par-groupe-dage-france/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+
+::::::{tab-set}
+
+:::::{tab-item}  2013 > aujourd’hui
+
+<br>
+
+<p class="p-emphase"> Gen A </p>
+
+```{note}
+
+C'est qui, extraire les infos du rapport
+
+```
+
+
+:::::
+
+
+:::::{tab-item} 1997 > 2012
+
+<br>
+
+<p class="p-emphase">Gen Z </p>
+
+```{note}
+
+C'est qui, extraire les infos du rapport
+
+```
+
+:::::
+
+:::::{tab-item} 1981 > 1996 
+
+<br>
+
+<p class="p-emphase">Gen X </p>
+
+```{note}
+
+C'est qui, extraire les infos du rapport
+
+```
+
+:::::
+
+:::::{tab-item} 1965 > 1980
+
+<br>
+
+<p class="p-emphase">Millenials </p>
+
+```{note}
+
+C'est qui, extraire les infos du rapport
+
+```
+
+:::::
+
+:::::{tab-item} 1946 > 1964
+
+<br>
+
+<p class="p-emphase">Baby Boomer  </p>
+
+```{note}
+
+C'est qui, extraire les infos du rapport
+
+```
+
+Entre 60 et 79 ans (en 2025).
+
+:::::
+
+::::::
+
+
+```{note}
+
+Activité. Sélectionnez une cible pour votre projet parmis celle proposés ci-dessus et aller checker dans ce rapport ses habitudes de consommation
+
+- [Mail & E-Commerce Through the Ages](https://www.uspsdelivers.com/2020-2021-generational-research-report/pdf/USPS_2020_2021_Generational_Research_Report.pdf)
+
+
+```
 
 ### Personas
 

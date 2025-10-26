@@ -1,6 +1,81 @@
 # Manuel
 
+## Livrables
+
+<br>
+
+::::{grid} 
+
+:::{grid-item-card}
+:link: https://drive.google.com/drive/folders/19UI3o1TYFynO8rA9bgcWvP857fB5cvPV?usp=drive_link
+:class-header: bg-light
+:columns: 3
+**Drive**
+^^^
+
+
+```{image} ../../../Docs/Logos/256px-Google_Drive_icon_(2020).svg.png
+:width: 100%
+```
+
+:::
+
+:::{grid-item-card}
+:link: #
+:class-header: bg-light
+:columns: 3
+**CDC**
+^^^
+
+
+```{image} ../../../Docs/Logos/256px-Microsoft_Office_Word_(2019–present).svg.png
+:width: 100%
+```
+
+:::
+
+:::{grid-item-card}
+:link: #
+:class-header: bg-light
+:columns: 3
+**Canva**
+^^^
+
+
+```{image} ../../../Docs/Logos/Canva_icon_2021.svg
+:width: 100%
+```
+
+:::
+
+:::{grid-item-card}
+:link: #
+:class-header: bg-light
+:columns: 3
+**Wordpress**
+^^^
+
+
+```{image} ../../../Docs/Logos/Wordpress-Logo.svg
+:width: 100%
+```
+
+:::
+
+::::
+
+<br>
+
+
 ## Profil
+
+```{figure} Docs/Pres-manuel.png
+---
+width: 100%
+name: Pres-manuel
+---
+Presentation Morgan
+```
 
 ### Ikigai
 

@@ -1581,6 +1581,14 @@ Au programme du Master donc faire le lien quand ce dernier sera créé
 
 ```
 
+- [Soot](https://spiral.soot.com/welcome)
+
+```{note}
+
+Outil de recherche visuelle, lié avec le chapitre charte graphique pour le moodboard
+
+```
+
 ### Testez-vous !
 
 ```{note}
@@ -1590,6 +1598,14 @@ Embed ce questionnaire : [Questionnaire veille](https://app.lumi.education/h5p/m
 ```
 
 #### Outils
+
+- [Soot](https://play.soot.com/)
+
+```{note}
+
+Outil de recherche visuelle qui produit un type de moodboard !
+
+```
 
 ##### Open Source
 

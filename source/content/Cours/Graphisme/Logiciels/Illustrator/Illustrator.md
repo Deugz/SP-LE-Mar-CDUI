@@ -226,7 +226,13 @@ Definition Dessin vectorielle:
 ```
 
 
-
+```{figure} Docs/Bitmap_VS_SVG.svg
+---
+width: 100%
+name: Bitmap_VS_SVG
+---
+[Source](https://en.wikipedia.org/wiki/Vector_graphics#/media/File:Bitmap_VS_SVG.svg) - Retravailler l'image pour que les termes soient en Francais (en profiter pour metrre a jour la page wikipedia francaise ?)
+```
 
 
 ### Choix des couleurs 

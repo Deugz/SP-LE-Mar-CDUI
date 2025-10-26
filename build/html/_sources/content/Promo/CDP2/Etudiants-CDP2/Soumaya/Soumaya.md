@@ -6,7 +6,7 @@
 ::::{grid} 
 
 :::{grid-item-card}
-:link: https://drive.google.com/drive/folders/1gy0X0FW5UCf2msNQ7d4fxF-95kOPSQnB?usp=drive_link
+:link: https://drive.google.com/drive/folders/1MSBSCuLnnzOljbDLK3T1Pyk4ZtgMWAG6
 :class-header: bg-light
 :columns: 3
 **Drive**
@@ -20,7 +20,7 @@
 :::
 
 :::{grid-item-card}
-:link: https://docs.google.com/document/d/16aKI5B6lty5nxEUtild6hQbaCzxV2esN/edit?usp=drive_link&ouid=113070474897761784681&rtpof=true&sd=true
+:link: https://docs.google.com/document/d/1pYaxvwhviC4sslKSGg2KKrC7gNZMfPYM/edit?usp=sharing&ouid=113070474897761784681&rtpof=true&sd=true
 :class-header: bg-light
 :columns: 3
 **CDC**
@@ -48,14 +48,14 @@
 :::
 
 :::{grid-item-card}
-:link: https://9.examlabelecole.fr/
+:link: https://docs.google.com/document/d/1b-MGcNJ8-uhxmlr7z8Q8FUwbgoIDpXVT/edit
 :class-header: bg-light
 :columns: 3
-**Wordpress**
+**Dossier Pro**
 ^^^
 
 
-```{image} ../../../Docs/Logos/Wordpress-Logo.svg
+```{image} ../../../../../_static/logos/Republique-francaise-logo.svg
 :width: 100%
 ```
 
@@ -70,4 +70,30 @@
 ## Exam blanc 1
 
 - Attention a la lecture
-- cible : 
+- cible :
+
+
+## Site
+
+::::{grid}
+
+:::{grid-item}
+:columns: 8
+
+:::
+
+:::{grid-item-card}
+:link: http://9.examlabelecole.fr
+:class-header: bg-light
+:columns: 4
+**Wordpress**
+^^^
+
+
+```{image} ../../../Docs/Logos/Wordpress-Logo.svg
+:width: 100%
+```
+
+:::
+
+::::

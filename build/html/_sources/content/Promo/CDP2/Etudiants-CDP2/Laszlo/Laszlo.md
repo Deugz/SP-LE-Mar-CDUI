@@ -6,7 +6,7 @@
 ::::{grid} 
 
 :::{grid-item-card}
-:link: https://drive.google.com/drive/folders/1gy0X0FW5UCf2msNQ7d4fxF-95kOPSQnB?usp=drive_link
+:link: https://drive.google.com/drive/folders/17IHehsv75Qp70pL0au4jdf5SE5kNwuqW
 :class-header: bg-light
 :columns: 3
 **Drive**
@@ -20,7 +20,7 @@
 :::
 
 :::{grid-item-card}
-:link: https://docs.google.com/document/d/16aKI5B6lty5nxEUtild6hQbaCzxV2esN/edit?usp=drive_link&ouid=113070474897761784681&rtpof=true&sd=true
+:link: https://docs.google.com/document/d/1OndK9U0tcU4DkXVbP6dRN4RYIyTMQweq/edit#heading=h.fw9o4b959nc
 :class-header: bg-light
 :columns: 3
 **CDC**
@@ -48,14 +48,14 @@
 :::
 
 :::{grid-item-card}
-:link: http://28.examlabelecole.fr/
+:link: https://docs.google.com/document/d/1FsKotXVfMfo4p_X-SsEZYmeKxaZ-d6xV/edit?usp=sharing&ouid=113063132720512283688&rtpof=true&sd=true
 :class-header: bg-light
 :columns: 3
-**Wordpress**
+**Dossier Pro**
 ^^^
 
 
-```{image} ../../../Docs/Logos/Wordpress-Logo.svg
+```{image} ../../../../../_static/logos/Republique-francaise-logo.svg
 :width: 100%
 ```
 
@@ -139,6 +139,31 @@ Mettre lien vers page boutton en bois
 
 ```
 
+
+## Site
+
+::::{grid}
+
+:::{grid-item}
+:columns: 8
+
+:::
+
+:::{grid-item-card}
+:link: http://28.examlabelecole.fr/
+:class-header: bg-light
+:columns: 4
+**Wordpress**
+^^^
+
+
+```{image} ../../../Docs/Logos/Wordpress-Logo.svg
+:width: 100%
+```
+
+:::
+
+::::
 
 
 

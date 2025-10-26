@@ -107,6 +107,9 @@ Parler des chapitres eco-conception et accessibilité qui sont dans la partie Bo
 
 ```
 
+
+
+
 ## Le Design ?
 
 ```{note}
@@ -114,6 +117,16 @@ Parler des chapitres eco-conception et accessibilité qui sont dans la partie Bo
 Introduction sur le design général et les différentes méthodes de Design 
 
 ```
+
+### Les Lois de l'UX
+
+
+```{note}
+
+Extraire les infos du document suivant [Lawsofux](https://lawsofux.com/)
+
+```
+
 
 ## Design System
 

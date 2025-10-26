@@ -45,6 +45,16 @@ Dossier-Professionel/DP
 
 ```
 
+```{toctree}
+:maxdepth: 2
+:caption: 🎓 Examens
+:hidden:
+
+Exam/Examen-Blanc/Exam-blanc-main
+Exam/Examen-Final/Examen-final
+
+```
+
 ***
 
 ```{note}

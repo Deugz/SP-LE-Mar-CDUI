@@ -364,6 +364,15 @@ Exercice pour refaire la DA de Label Ecole
 
 ```
 
+### Créer ta police
+
+```{note}
+
+S'inspirer du tuto suivant pour proposer aux apprenants la création de leur propre police (niveau élevé)
+
+- [Tuto réel youtube](https://youtube.com/shorts/v3uasiOS4is?si=Rh-zMzl-1WvhTocU)
+
+```
 
 ## 📈 Pour Finir
 
