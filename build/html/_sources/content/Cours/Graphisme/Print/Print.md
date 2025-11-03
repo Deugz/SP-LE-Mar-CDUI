@@ -4,7 +4,8 @@
 
 ***
 
-<br>
+
+## 🏄 Avant de Commencer 
 
 ::::{grid} 3
 
@@ -39,6 +40,70 @@
 :::
     
 ::::
+
+***
+
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+<div id="div-no-colour"> 
+
+<p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
+
+
+
+- ⭐ Objectif 1
+- ⭐ ⭐ Objectif 2
+- ⭐ ⭐ ⭐ Objectif 3
+
+    
+```{note}
+
+Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)
+
+```
+
+</div>
+ 
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+
+<p class="p-emphase"><strong>Sommaire</strong></p>
+
+[🧠 **La Théorie**](#la-theorie)
+
+- 🌐 Internet
+- 🕸️ World Wibe Web
+- 💻 Site Web
+- 🛒 E-Commerce
+- 💑 Le Consommateur
+
+<br>
+<br>
+
+[💪 **Mise En Pratique**](#mise-en-pratique)
+
+- Activité A
+- Activité A
+
+</div> 
+
+<br>
+    
+:::
+    
+::::
+
 
 {bdg-link-danger}`🎓 Supports de Communications <../../../Diplome/Competences/Graphisme/Supports.html#print-focus>`
 
@@ -95,7 +160,9 @@
 
 :::::
 
-## Formats
+## 🧠 La Théorie
+
+### Formats d'impression
 
 - Format A0 841 × 1189
 - Format B0 1414 × 1000
@@ -104,8 +171,24 @@
 - Format A3 297 × 420
 - Format A4 210 × 297
 
+```{note}
 
-## Mockups
+Vous le sélectionnez au début dans illustrator ... Non ?
+
+```
+
+
+### Repères d'impression
+
+```{note}
+
+Créer un tuto pour montrer comment sélectionner les différents paramètres à l'export
+
+```
+
+
+
+### Mockups
 
 ### Sites
 
@@ -130,13 +213,116 @@
 ::::
 
 
+## 💪 Mise En Pratique
+
 ### Tutos
 
 - [Youtube mockup emballage](https://youtube.com/shorts/ZBD0JFPjSpM?si=Ryx_zqafTnatyqti)
 
 
-### Ressources
+## 📈 Pour Finir
+
+### Conclusion
+
+```{note}
+
+Conclusion plus fiche résumé (production collaborative ? Framanote ?) - produire un pdf exportable
+
+```
+
+### Test 
+
+#### Tes Connaissances
+
+```{note}
+
+Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregistre la progression de l'apprenant et offre une collection de badge !! 
+
+```
+
+
+#### Ton Projet
+
+::::{grid} 2
+
+:::{grid-item-card}
+:columns: 6
+
+**Dossier Projet**
+
+^^^
+
+- Livrable 1
+
+:::
+
+
+:::{grid-item-card}
+:columns: 6
+
+**Présentation Canva**
+
+^^^
+
+- Livrable 1
+    
+:::
+    
+::::
+
+
+### Sources
+
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+- [Lister](#) 
+
+    
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<p class="p-emphase"><strong>Glossaire</strong></p>
+
+```{note}
+
+termes du glossaire
+
+```
+
+:::
+    
+::::
+
+
+**Liste Figures**
+
+
+```{note}
+
+Référencer les figures de la page ?
+
+```
+
+#### Plus de Ressources
 
 - [artboard.studio](https://artboard.studio/)
 
-## Synthèse
+
+### Commentaires
+
+```{note}
+
+Lien vers formulaire de feedback + possibilité de donner son avis dans les commentaires.
+
+```
+
+
+## Notes pendant le cours

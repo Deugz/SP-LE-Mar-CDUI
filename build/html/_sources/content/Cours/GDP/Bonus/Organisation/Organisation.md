@@ -11,6 +11,16 @@ Présenter des outils qui permettent de bien s'organiser
 
 ```
 
+- [Présentation Artur](https://www.canva.com/design/DAG2U2ZMlPI/8T-ot6irjLFWqnPIeZrf9w/edit)
+
+
+```{note}
+
+Extraire matreice eisenhower et expliquer. Produire et mettre a disposition un template Canva (tableau blanc)
+
+```
+
+
 ## Gérer Ses Fichiers
 
 ```{note}

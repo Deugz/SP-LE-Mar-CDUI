@@ -27,8 +27,9 @@
 
 ✍  - Vincent <br> 
 🚧 - En cours<br>
-🔨 - 12/08/2025    
-🕑 - 20 - 30 min <br>
+🔨 - 29/10/2025   
+⭐ - 48 <br>
+🕑 - 1 h 30 <br>
 
  
 
@@ -52,24 +53,99 @@
 :::{grid-item}
 :columns: 8
 
-<div id="div-no-colour"> 
+<br>
 
 <p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
 
+<br>
+<br>
+
+<div class="OP-slider">
+<button class="OP-nav-btn OP-left" id="OP-prev">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
 
 
-- ⭐ Objectif 1
-- ⭐ ⭐ Objectif 2
-- ⭐ ⭐ ⭐ Objectif 3
-
+<div class="OP-stage" id="OP-stage">
     
-```{note}
-
-Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)
-
-```
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Identifier les composantes d’un cahier des charges (contexte, objectifs, cible, contraintes, livrables, budget, planning).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Reconnaître les différents types de cahiers des charges (fonctionnel, technique, graphique).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Lister les acteurs impliqués dans la rédaction et la validation d’un cahier des charges.</p></div>
+</article>
+<article class="OP-card" >
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Expliquer l’utilité du cahier des charges dans un projet web ou e-commerce.</p></div>
+</article>
+<article class="OP-card" >
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Décrire la relation entre les besoins du client et les exigences fonctionnelles.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Reformuler un besoin exprimé par un client en objectifs de conception clairs.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-3">Appliquer</div>
+<div class="OP-content"><p>⭐⭐⭐</p><p>Construire une trame de cahier des charges à partir d’un brief client.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-3">Appliquer</div>
+<div class="OP-content"><p>⭐⭐⭐</p><p>Rédiger les sections principales d’un cahier des charges (contexte, objectifs, livrables, planning, contraintes techniques).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-3">Appliquer</div>
+<div class="OP-content"><p>⭐⭐⭐</p><p>Utiliser des outils de gestion documentaire (Google Docs, Notion, Figma, etc.) pour formaliser et partager le cahier des charges.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-4">Analyser</div>
+<div class="OP-content"><p>⭐⭐⭐⭐</p><p>Identifier les incohérences ou manques dans un cahier des charges existant.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-4">Analyser</div>
+<div class="OP-content"><p>⭐⭐⭐⭐</p><p>Comparer plusieurs modèles de cahiers des charges selon leur structure et leur pertinence.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-5">Évaluer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐</p><p>Vérifier la cohérence entre les besoins exprimés, les contraintes techniques et les livrables attendus.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-5">Évaluer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐</p><p>Évaluer la qualité d’un cahier des charges selon des critères professionnels (clarté, exhaustivité, cohérence, faisabilité).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-6">Créer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐⭐</p><p>Élaborer un cahier des charges complet pour un projet personnel ou fictif.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-6">Créer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐⭐</p><p>Mettre à jour et enrichir le cahier des charges tout au long de la formation, en intégrant les apprentissages de chaque module.</p></div>
+</article>
 
 </div>
+
+
+<button class="OP-nav-btn OP-right" id="OP-next">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
+</div>
+
+
+
+<script src="../../../../_static/scripts/OP-slider.js">
+
+</script>
  
 :::
 
@@ -105,6 +181,8 @@ Enumérer les différents objectifs pédagogiques (star classification avec diff
     
 ::::
 
+<br>
+<br>
 
 - **Liens** : {bdg-link-danger}`🎓 Communication <../../../Diplome/Activités/Communication.html#cdc-focus>` {bdg-link-danger}`🎓 Illustrations, Graphismes, Visuels <../../../Diplome/Competences/Graphisme/Illustration.html#cdc-focus2>` {bdg-link-success}`🛠️ Opq 12 <../../../Outils/Opquast/Contenus.html#chaque-graphique-est-accompagne-de-ses-donnees-numeriques>`
 

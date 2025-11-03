@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2025-10-13T10:04:27+02:00" />
+    <meta property="article:modified_time" content="2025-10-26T12:40:45+01:00" />
     <title>6 - Charte Graphique &#8212; Label Ecole V0 0.0.1 documentation</title>
   
   
@@ -41,12 +41,14 @@
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster-sideTip-borderless.min.css?v=dbff53e4" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/micromodal.css?v=d7bf34ee" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../../../../_static/css/custom_style.css?v=3af8f44c" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/custom_style.css?v=55d4e83b" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/slider.css?v=31e19075" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/flash-card.css?v=d4949c41" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/sliding-image.css?v=6628c2e1" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/modal.css?v=ac63beef" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/productivity.css?v=cdaf373b" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/OP-slider.css?v=658ff4f1" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/CG-style.css?v=8fca7ff8" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@400;700&display=swap" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -85,6 +87,8 @@
     <script src="../../../../_static/scripts/ga.js?v=c7c7aaaf"></script>
     <script src="../../../../_static/scripts/pomodoro.js?v=d9a168de"></script>
     <script src="../../../../_static/scripts/step-counter.js?v=49667bb6"></script>
+    <script src="../../../../_static/scripts/OP-slider.js?v=5f6fa32e"></script>
+    <script src="../../../../_static/_static/scripts/CG-script.js"></script>
     <link rel="canonical" href="https://deugz.github.io/SP-LE-Mar-CDUI/build/html/index.html/content/Cours/Graphisme/Charte-Graphique/Charte-graphique.html" />
     <link rel="icon" href="../../../../_static/Label-Ecole-Logo.png"/>
     <link rel="index" title="Index" href="../../../../genindex.html" />
@@ -93,7 +97,7 @@
     <link rel="prev" title="Bien s’organiser" href="../../GDP/Bonus/Organisation/Organisation.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="13 October 2025"/>
+    <meta name="docbuild:last-update" content="26 October 2025"/>
   </head>
   
   
@@ -524,6 +528,7 @@ document.write(`
 <li class="toctree-l1"><a class="reference internal" href="../../GDP/Utilisateurs/Utilisateurs.html">4 - Identifier ses utilisateurs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../GDP/Benchmark/Benchmark.html">5 - Benchmark Digital</a></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../../GDP/Bonus/Bonus-GDP.html">Bonus</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../GDP/Bonus/Branding/Branding.html">Identité de Marque</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../GDP/Bonus/Organisation/Organisation.html">Bien s’organiser</a></li>
 </ul>
 </details></li>
@@ -686,18 +691,87 @@ document.write(`
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
 <div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
-<div id="div-no-colour"> 
+<br>
 <p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
-<ul class="simple">
-<li><p>⭐ Objectif 1</p></li>
-<li><p>⭐ ⭐ Objectif 2</p></li>
-<li><p>⭐ ⭐ ⭐ Objectif 3</p></li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)</p>
+<br>
+<br>
+<div class="OP-slider">
+<button class="OP-nav-btn OP-left" id="OP-prev">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
+<div class="OP-stage" id="OP-stage">
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Définir ce qu’est une charte graphique et ses fonctions dans un projet digital.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Identifier les éléments constitutifs d’une charte graphique (logos, typographies, couleurs, iconographie, UI kit, ton éditorial).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Citer les outils de création du graphiste et leur utilité</p></div>
+</article>
+<article class="OP-card" >
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Expliquer la relation entre la charte graphique et l’identité visuelle d’une marque.</p></div>
+</article>
+<article class="OP-card" >
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Interpréter les principes de hiérarchie visuelle, de contraste, de lisibilité et de cohérence.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Décrire comment la charte graphique s’intègre dans un design system.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-3">Appliquer</div>
+<div class="OP-content"><p>⭐⭐⭐</p><p>Analyser une charte graphique existante (marque, site ou app).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-3">Appliquer</div>
+<div class="OP-content"><p>⭐⭐⭐</p><p>Sélectionner une palette de couleurs cohérente et accessible (contrastes, branding).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-3">Appliquer</div>
+<div class="OP-content"><p>⭐⭐⭐</p><p>Définir une hiérarchie typographique adaptée à un projet UI.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-4">Analyser</div>
+<div class="OP-content"><p>⭐⭐⭐⭐</p><p>Comparer plusieurs chartes graphiques pour identifier les tendances et bonnes pratiques.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-4">Analyser</div>
+<div class="OP-content"><p>⭐⭐⭐⭐</p><p>Identifier les incohérences possibles dans une charte graphique non maîtrisée.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-5">Évaluer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐</p><p>Évaluer la cohérence visuelle d’un projet au regard de sa charte graphique.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-5">Évaluer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐</p><p>Tester la charte graphique sur différents supports (desktop, mobile, tablette, print).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-6">Créer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐⭐</p><p>Concevoir une charte graphique complète et professionnelle pour un projet UI.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-6">Créer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐⭐</p><p>Documenter la charte dans un guide d’utilisation clair et accessible (PDF ou en ligne).</p></div>
+</article>
 </div>
+<button class="OP-nav-btn OP-right" id="OP-next">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
 </div>
+<script src="../../../../_static/scripts/OP-slider.js">
+
+</script>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
 <div id="div-colour"> 
@@ -722,6 +796,8 @@ document.write(`
 </div>
 </div>
 </div>
+<br>
+<br>
 <ul class="simple">
 <li><p><strong>Liens</strong> : <a class="sd-sphinx-override sd-badge sd-bg-danger sd-bg-text-danger reference external" href="../../../Diplome/Competences/Graphisme/Illustration.html#charte-graphique-focus3" rel="noreferrer" target="_blank"><span>🎓 Illustrations, Graphismes, Visuels</span></a> <a class="sd-sphinx-override sd-badge sd-bg-danger sd-bg-text-danger reference external" href="../../../Diplome/Competences/Graphisme/Interfaces.html#charte-graphique-focus1" rel="noreferrer" target="_blank"><span>🎓 Interfaces &amp; Prototypages</span></a> <a class="sd-sphinx-override sd-badge sd-bg-danger sd-bg-text-danger reference external" href="../../../Diplome/Competences/Graphisme/Supports.html#charte-graphique-focus2" rel="noreferrer" target="_blank"><span>🎓 Supports de Communications</span></a></p></li>
 </ul>
@@ -792,29 +868,870 @@ Autres promos</label><div class="sd-tab-content docutils">
 <h2>🧠 La Théorie<a class="headerlink" href="#la-theorie" title="Link to this heading">#</a></h2>
 <section id="le-graphisme">
 <h3>Le Graphisme<a class="headerlink" href="#le-graphisme" title="Link to this heading">#</a></h3>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Introduction générale au graphisme car premier cours en lien avec le sujet</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<br>
+<br>
+<p class="p-emphase">L’art et la technique de créer des visuels pour communiquer un message</p>
 </div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module"></script>
+<p><dotlottie-wc src="https://lottie.host/39cf1827-2098-428b-856f-4662d7d06384/lE0TLIuzsL.lottie" style="width: 100%;height: auto" autoplay loop></dotlottie-wc></p>
+</div>
+</div>
+</div>
+<hr class="docutils" />
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<p class="p-emphase"><strong>Graphisme Print</strong></p>
+<br>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 177.78%; padding-top: 0; height: 0;"><iframe title="Mood-Print" frameborder="0" width="360" height="640" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/6904d5c04170e033aaba1b15" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<p class="p-emphase"><strong>Graphisme Digital</strong></p>
+<br>
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 177.78%; padding-top: 0; height: 0;"><iframe title="Mood-Digital" frameborder="0" width="360" height="640" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/6904d7beb051fc8b3453e267" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<p class="p-emphase">Vous devez savoir faire les deux !!</p>
+<br>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">💥 Graphisme Print vs Graphisme Digital</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<br>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p class="sd-card-text"><strong>Critères</strong></p></th>
+<th class="head"><p class="sd-card-text"><strong>Graphisme Print</strong></p></th>
+<th class="head"><p class="sd-card-text"><strong>Graphisme Digital</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p class="sd-card-text">🎯 <strong>Objectif principal</strong></p></td>
+<td><p class="sd-card-text">Transmettre un message sur un support physique (affiche, brochure, magazine, packaging).</p></td>
+<td><p class="sd-card-text">Créer une expérience visuelle interactive sur un support numérique (site web, application, interface).</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">🖨️ <strong>Support de diffusion</strong></p></td>
+<td><p class="sd-card-text">Papier, carton, affichage, packaging, signalétique.</p></td>
+<td><p class="sd-card-text">Écrans : ordinateur, mobile, tablette, TV connectée, montre, etc.</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">🎨 <strong>Résolution &amp; format</strong></p></td>
+<td><p class="sd-card-text">Résolution fixe (généralement 300 dpi). <br>Formats précis (A4, A3, flyer, etc.).</p></td>
+<td><p class="sd-card-text">Résolution variable (72 à 144 ppi). <br>Formats adaptatifs (responsive design).</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">🧭 <strong>Espace et composition</strong></p></td>
+<td><p class="sd-card-text">Mise en page statique et figée. <br>L’œil parcourt le visuel de manière linéaire.</p></td>
+<td><p class="sd-card-text">Mise en page dynamique et interactive. <br>Le parcours dépend des actions de l’utilisateur (UX).</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">🌈 <strong>Couleurs</strong></p></td>
+<td><p class="sd-card-text">Système <strong>CMJN</strong> (Cyan, Magenta, Jaune, Noir) pour l’impression.</p></td>
+<td><p class="sd-card-text">Système <strong>RVB</strong> (Rouge, Vert, Bleu) pour les écrans.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">✍️ <strong>Typographie</strong></p></td>
+<td><p class="sd-card-text">Lisibilité sur papier, impression fine. <br>Grande liberté typographique.</p></td>
+<td><p class="sd-card-text">Lisibilité à l’écran, dépend des résolutions et des tailles d’écran. <br>Police web-safe ou variable.</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">🧩 <strong>Contraintes techniques</strong></p></td>
+<td><p class="sd-card-text">Marges d’impression, fond perdu, calibrage colorimétrique.</p></td>
+<td><p class="sd-card-text">Temps de chargement, responsive design, accessibilité, compatibilité navigateur.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">🧠 <strong>Expérience utilisateur (UX)</strong></p></td>
+<td><p class="sd-card-text">Lecture passive, message reçu d’un seul coup d’œil.</p></td>
+<td><p class="sd-card-text">Interaction active, navigation, animation, transitions.</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">⚙️ <strong>Outils principaux</strong></p></td>
+<td><p class="sd-card-text">Adobe InDesign, Illustrator, Photoshop.</p></td>
+<td><p class="sd-card-text">Figma, Adobe XD, Sketch, Canva, Webflow.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">♻️ <strong>Durée de vie</strong></p></td>
+<td><p class="sd-card-text">Durable mais coûteux à modifier une fois imprimé.</p></td>
+<td><p class="sd-card-text">Flexible, mise à jour facile, ajustable en temps réel.</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">🌍 <strong>Accessibilité et durabilité</strong></p></td>
+<td><p class="sd-card-text">Dépend de la qualité d’impression et de la distribution.</p></td>
+<td><p class="sd-card-text">Doit respecter les normes d’accessibilité (WCAG) et s’adapter à tous les écrans.</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">💡 <strong>Finalité</strong></p></td>
+<td><p class="sd-card-text">Objet tangible, matérialisé. <br>Basé sur la composition, le rythme visuel et l’émotion.</p></td>
+<td><p class="sd-card-text">Expérience interactive, fluide, évolutive. <br>Basée sur l’ergonomie et l’usage.</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="sd-card-text">💡 Le graphisme digital conserve les fondements du graphisme print (équilibre, lisibilité, harmonie), mais il les transpose dans un univers interactif où l’utilisateur devient acteur.
+C’est dans ce contexte que la <strong>charte graphique</strong> devient essentielle pour assurer la cohérence visuelle de l’expérience sur tous les supports. Avant de nous lancer à corps perdu dans la création de notre charte graphique, intéressons-nous à la notion d’<strong>identité visuelle</strong>.</p>
+</div>
+</details><br>
+<section id="identite-visuelle">
+<h4>Identité Visuelle<a class="headerlink" href="#identite-visuelle" title="Link to this heading">#</a></h4>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<p class="p-emphase">L’ensemble des éléments graphiques qui représentent visuellement une marque ou un projet</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module"></script>
+<p><dotlottie-wc src="https://lottie.host/56095cbb-d03c-4a93-bb62-82af8018a2c0/Ht3AgWbZbJ.lottie" style="width: 100%;height: auto" autoplay loop></dotlottie-wc></p>
+</div>
+</div>
+</div>
+<section id="identite-de-marque">
+<h5>Identité de Marque<a class="headerlink" href="#identite-de-marque" title="Link to this heading">#</a></h5>
+<p class="p-emphase">Avant de devenir visible, une marque doit être lisible</p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<blockquote>
+<div><p>Une identité de marque solide définit qui l’on est, à qui l’on s’adresse et quelle promesse on porte. C’est elle qui <strong>donne du sens à chaque choix graphique</strong> : couleurs, ton, iconographie, parcours utilisateur… Sans cette base stratégique, l’identité visuelle n’est qu’un joli décor. Avec elle, chaque élément devient un message clair et cohérent, capable de créer la confiance, de se différencier et de transformer un simple visiteur en client fidèle.</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Identité de Marque</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/puzzle-svgrepo-com.svg"><img alt="../../../../_images/puzzle-svgrepo-com.svg" src="../../../../_images/puzzle-svgrepo-com.svg" width="100%" /></a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="../../GDP/Bonus/Branding/Branding.html" rel="noreferrer" target="_blank"><span>../../GDP/Bonus/Branding/Branding.html</span></a></div>
+</div>
+</div>
+</div>
+<br>
+<div class="dropdown warning admonition">
+<p class="admonition-title">Prérequis</p>
+<p>Avant de se plonger dans l’identité visuelle de son projet, il est très important d’avoir bien définit l’identité de sa marque. C’est un peu hors programme (plus niveau Master), mais pour ceux qui le souhaite, je vous invite à cliquer sur la carte ci dessus (Identité de Marque), qui vous emmenera vers une page dédié. Je vous invite à faire l’Activité A qui est un audit de votre identité de marque avant de passer à la suite</p>
+</div>
+<br>
+</section>
+</section>
 <section id="le-la-graphiste">
 <h4>Le/La Graphiste<a class="headerlink" href="#le-la-graphiste" title="Link to this heading">#</a></h4>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<br>
+<p class="p-emphase">Il ou elle donne vie à l’expérience digitale en transformant des idées en images claires et attractives.</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module"></script>
+<p><dotlottie-wc src="https://lottie.host/94ce2d0a-0658-41fb-9a57-3d6922b3982e/IijxA0zOhm.lottie" style="width: 100%;height: auto" autoplay loop></dotlottie-wc></p>
+</div>
+</div>
+</div>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<blockquote>
+<div><p>Dans l’e-commerce, le graphiste est un véritable artiste de la conversion : il capte l’intention du client, interprète son univers et le transforme en une expérience visuelle irrésistible. Son regard créatif met en scène les produits, guide le parcours d’achat et rend chaque interaction à la fois intuitive et désirable. Grâce à lui, l’émotion devient un déclencheur de vente.</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Fiche métier</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/France-competence.jpg"><img alt="../../../../_images/France-competence.jpg" src="../../../../_images/France-competence.jpg" style="width: 100%;" />
+</a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://candidat.francetravail.fr/metierscope/fiche-metier/E1205/designer-graphique" rel="noreferrer" target="_blank"><span>https://candidat.francetravail.fr/metierscope/fiche-metier/E1205/designer-graphique</span></a></div>
+</div>
+</div>
+</div>
+<section id="sa-mission">
+<h5>Sa Mission<a class="headerlink" href="#sa-mission" title="Link to this heading">#</a></h5>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<p class="p-emphase"> Identité de <strong>Marque</strong></p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module"></script>
+<p><dotlottie-wc src="https://lottie.host/c313c58e-9f60-4573-95c7-0bc1f764c37c/R5AzMaRDQQ.lottie" style="width: 100%;height: auto" autoplay loop></dotlottie-wc></p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<br>
+<p class="p-emphase"> Identité <strong>Visuelle</strong></p>
+</div>
+</div>
+</div>
+</section>
+<section id="ses-outils">
+<h5>Ses Outils<a class="headerlink" href="#ses-outils" title="Link to this heading">#</a></h5>
+<p class="p-emphase">La Suite Adobe</p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-5 sd-row-cols-xs-5 sd-row-cols-sm-5 sd-row-cols-md-5 sd-row-cols-lg-5 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Illustrator</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/Adobe_Illustrator_CC_icon.svg"><img alt="../../../../_images/Adobe_Illustrator_CC_icon.svg" src="../../../../_images/Adobe_Illustrator_CC_icon.svg" width="100%" /></a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="../Logiciels/Illustrator/Illustrator.html" rel="noreferrer" target="_blank"><span>../Logiciels/Illustrator/Illustrator.html</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Photoshop</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/Adobe_Photoshop_CC_icon.svg"><img alt="../../../../_images/Adobe_Photoshop_CC_icon.svg" src="../../../../_images/Adobe_Photoshop_CC_icon.svg" width="100%" /></a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="../Logiciels/Illustrator/Illustrator.html" rel="noreferrer" target="_blank"><span>../Logiciels/Illustrator/Illustrator.html</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Premiere Pro</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/Adobe_Premiere_Pro_CC_icon.svg"><img alt="../../../../_images/Adobe_Premiere_Pro_CC_icon.svg" src="../../../../_images/Adobe_Premiere_Pro_CC_icon.svg" width="100%" /></a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="../Logiciels/Illustrator/Illustrator.html" rel="noreferrer" target="_blank"><span>../Logiciels/Illustrator/Illustrator.html</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>After Effects</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/Adobe_After_Effects_CC_icon.svg"><img alt="../../../../_images/Adobe_After_Effects_CC_icon.svg" src="../../../../_images/Adobe_After_Effects_CC_icon.svg" width="100%" /></a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="../Logiciels/Illustrator/Illustrator.html" rel="noreferrer" target="_blank"><span>../Logiciels/Illustrator/Illustrator.html</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>InDesign</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/Adobe_InDesign_CC_icon.svg"><img alt="../../../../_images/Adobe_InDesign_CC_icon.svg" src="../../../../_images/Adobe_InDesign_CC_icon.svg" width="100%" /></a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="../Logiciels/Illustrator/Illustrator.html" rel="noreferrer" target="_blank"><span>../Logiciels/Illustrator/Illustrator.html</span></a></div>
+</div>
+</div>
+</div>
+<br>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Utilisations et Alternatives Gratuites !</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-2" name="sd-tab-set-1" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-2">
+Dessin Vectorielle</label><div class="sd-tab-content docutils">
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<blockquote>
+<div><p class="sd-card-text">P Explication</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference internal image-reference" href="../../../../_images/Adobe_Illustrator_CC_icon.svg"><img alt="../../../../_images/Adobe_Illustrator_CC_icon.svg" src="../../../../_images/Adobe_Illustrator_CC_icon.svg" width="100%" /></a>
+<br>
+<p class="sd-card-text"><strong>Utilisations principales</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">Création de logos</p></li>
+<li><p class="sd-card-text">Illustrations</p></li>
+<li><p class="sd-card-text">Affiches, flyers, brochures</p></li>
+<li><p class="sd-card-text">Typographie et lettrage</p></li>
+<li><p class="sd-card-text">Graphisme web &amp; mobile</p></li>
+<li><p class="sd-card-text">Schémas, infographies, pictogrammes</p></li>
+<li><p class="sd-card-text">Export optimisé pour impression ou écran</p></li>
+</ul>
+</div>
+</div>
+</div>
+<br>
+<p class="sd-card-text"><strong>Alternatives</strong> :</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-4 sd-row-cols-xs-4 sd-row-cols-sm-4 sd-row-cols-md-4 sd-row-cols-lg-4 docutils">
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Inkscape</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/Inkscape_iduvhh4MZz_1.svg"><img alt="../../../../_images/Inkscape_iduvhh4MZz_1.svg" src="../../../../_images/Inkscape_iduvhh4MZz_1.svg" width="100%" /></a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://inkscape.org/fr/" rel="noreferrer" target="_blank"><span>https://inkscape.org/fr/</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Krita</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/&#64;Krita&#64;mastodon.art_idFx9kIHCa_1.svg"><img alt="../../../../_images/%40Krita%40mastodon.art_idFx9kIHCa_1.svg" src="../../../../_images/%40Krita%40mastodon.art_idFx9kIHCa_1.svg" width="100%" /></a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://krita.org/fr/" rel="noreferrer" target="_blank"><span>https://krita.org/fr/</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Vectr</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/Vectr-logo.png"><img alt="../../../../_images/Vectr-logo.png" src="../../../../_images/Vectr-logo.png" style="width: 100%;" />
+</a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://vectr.com/en" rel="noreferrer" target="_blank"><span>https://vectr.com/en</span></a></div>
+</div>
+<div class="sd-col sd-d-flex-row docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Boxy SVG</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/boxy-svg-logo.png"><img alt="../../../../_images/boxy-svg-logo.png" src="../../../../_images/boxy-svg-logo.png" style="width: 100%;" />
+</a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://boxy-svg.com/" rel="noreferrer" target="_blank"><span>https://boxy-svg.com/</span></a></div>
+</div>
+</div>
+</div>
+<br>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p class="sd-card-text">Besoin</p></th>
+<th class="head"><p class="sd-card-text">Recommandation</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p class="sd-card-text">Logos / graphisme pro</p></td>
+<td><p class="sd-card-text">✅ Inkscape</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Illustration artistique</p></td>
+<td><p class="sd-card-text">✅ Krita</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Design rapide et simple</p></td>
+<td><p class="sd-card-text">✅ Vectr</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Icônes pour le web</p></td>
+<td><p class="sd-card-text">✅ Boxy SVG</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<input id="sd-tab-item-3" name="sd-tab-set-1" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-3">
+Retouche Image</label><div class="sd-tab-content docutils">
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<blockquote>
+<div><p class="sd-card-text">P Explication</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference internal image-reference" href="../../../../_images/Adobe_Photoshop_CC_icon.svg"><img alt="../../../../_images/Adobe_Photoshop_CC_icon.svg" src="../../../../_images/Adobe_Photoshop_CC_icon.svg" width="100%" /></a>
+<br>
+<p class="sd-card-text"><strong>Utilisations principales</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">Retouche et montage photo (corrections, effets, colorimétrie…)</p></li>
+<li><p class="sd-card-text">Photomanipulation / compositions créatives</p></li>
+<li><p class="sd-card-text">Dessin et peinture numérique</p></li>
+<li><p class="sd-card-text">Création de visuels web (bannières, miniatures, réseaux sociaux)</p></li>
+<li><p class="sd-card-text">Maquettage UI/UX (moins fréquent aujourd’hui)</p></li>
+<li><p class="sd-card-text">Traitement d’images haute résolution pour impression</p></li>
+</ul>
+</div>
+</div>
+</div>
+<br>
+<p class="sd-card-text"><strong>Alternatives</strong> :</p>
+<ul class="simple">
+<li><p class="sd-card-text">GIMP – La meilleure alternative libre</p></li>
+<li><p class="sd-card-text">Krita – Pour l’illustration et le digital painting</p></li>
+<li><p class="sd-card-text">Darktable – Pour les photographes (développement RAW)</p></li>
+<li><p class="sd-card-text">RawTherapee – Retouche photo professionnelle RAW</p></li>
+</ul>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p class="sd-card-text">Besoin</p></th>
+<th class="head"><p class="sd-card-text">Recommandation</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p class="sd-card-text">Retouche photo générale / graphisme</p></td>
+<td><p class="sd-card-text">✅ GIMP</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Dessin &amp; peinture numérique</p></td>
+<td><p class="sd-card-text">✅ Krita</p></td>
+</tr>
+<tr class="row-even"><td><p class="sd-card-text">Développement RAW (photographie pro)</p></td>
+<td><p class="sd-card-text">✅ Darktable ou RawTherapee</p></td>
+</tr>
+<tr class="row-odd"><td><p class="sd-card-text">Créations simples, apprentissage</p></td>
+<td><p class="sd-card-text">✅ GIMP puis Krita si besoin</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<input id="sd-tab-item-4" name="sd-tab-set-1" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-4">
+Montage Vidéo</label><div class="sd-tab-content docutils">
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<blockquote>
+<div><p class="sd-card-text">P Explication</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<a class="reference internal image-reference" href="../../../../_images/Adobe_Premiere_Pro_CC_icon.svg"><img alt="../../../../_images/Adobe_Premiere_Pro_CC_icon.svg" src="../../../../_images/Adobe_Premiere_Pro_CC_icon.svg" width="100%" /></a>
+<br>
+<p class="sd-card-text"><strong>Utilisations principales</strong></p>
+<ul class="simple">
+<li><p class="sd-card-text">Retouche et montage photo (corrections, effets, colorimétrie…)</p></li>
+<li><p class="sd-card-text">Photomanipulation / compositions créatives</p></li>
+<li><p class="sd-card-text">Dessin et peinture numérique</p></li>
+<li><p class="sd-card-text">Création de visuels web (bannières, miniatures, réseaux sociaux)</p></li>
+<li><p class="sd-card-text">Maquettage UI/UX (moins fréquent aujourd’hui)</p></li>
+<li><p class="sd-card-text">Traitement d’images haute résolution pour impression</p></li>
+</ul>
+<p class="sd-card-text">Documentation</p>
+<ul class="simple">
+<li><p class="sd-card-text">[Anglais mais complet](<a class="reference external" href="https://docs.kdenlive.org/en/cutting_and_assembling/editing.html" rel="noreferrer" target="_blank">https://docs.kdenlive.org/en/cutting_and_assembling/editing.html</a>]</p></li>
+</ul>
+</div>
+</div>
+</div>
+<br>
+<p class="sd-card-text"><strong>Alternatives</strong> :</p>
+</div>
+</div>
+</div>
+</details><br>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Introduire la mentalité de l’artiste, créateur</p>
+<p>Créer une activité drag and drop pour associer les différents livrables aux diférents outils et introduire le vocabulaire technique (mockup, fichiers impressions etc)</p>
 </div>
 </section>
 </section>
-<section id="identite-visuelle">
-<h3>Identité Visuelle<a class="headerlink" href="#identite-visuelle" title="Link to this heading">#</a></h3>
 </section>
 <section id="id1">
 <h3>Charte Graphique<a class="headerlink" href="#id1" title="Link to this heading">#</a></h3>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<p class="p-emphase">L’outil qui formalise et organise les éléments graphiques pour qu’ils soient cohérents et reproductibles sur tous les supports</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module"></script>
+<p><dotlottie-wc src="https://lottie.host/a81bf5a5-d32d-46a6-93e3-fbee4d4fa00d/VkR3XUgtvU.lottie" style="width: 100%;height: auto" autoplay loop></dotlottie-wc></p>
+</div>
+</div>
+</div>
+<br>
+<p class="p-emphase">Elle se compose des éléments suivants : </p>
+<section id="moodboard">
+<h4>Moodboard<a class="headerlink" href="#moodboard" title="Link to this heading">#</a></h4>
+<p class="p-emphase">Un <strong>Tableau d’Inspiration Visuelle</strong></p>
+<br>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<blockquote>
+<div><p>Il réunit toutes les références nécessaires pour définir l’ambiance d’un projet : couleurs, typographies, textures, styles photos, icônes, univers artistique…</p>
+<p>👉<strong>Objectif</strong> : Traduire une intention créative en images avant de se lancer dans la production graphique.</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module"></script>
+<p><dotlottie-wc src="https://lottie.host/facf15ad-7c3d-48e8-8089-ea8699d8acf0/PmbNa1kGeG.lottie" style="width: 100%;height: auto" autoplay loop></dotlottie-wc></p>
+</div>
+</div>
+</div>
+<section id="exemples">
+<h5>Exemples<a class="headerlink" href="#exemples" title="Link to this heading">#</a></h5>
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAG3i9ZDzvg/JG4o_DMARpK9HX5nRaK3nw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAG3i9ZDzvg&#x2F;JG4o_DMARpK9HX5nRaK3nw&#x2F;view?utm_content=DAG3i9ZDzvg&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Moodboards-CDP1</a> par Vdeguin
+<br>
+<br>
+<br>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Leurs Processus de Réflexion</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-5" name="sd-tab-set-2" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-5">
+Soula Moodboard Projet</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Tout en conservant cet état d’esprit et cette sensibilité artistique qui m’animent, je me suis lancé dans une quête d’inspiration pour enrichir et affiner mon projet “Nez Rouge”. Pour ce faire, j’ai exploré diverses sources en ligne, notamment Google, ainsi que des plateformes de réseaux sociaux telles qu’Instagram et Pinterest. Ces outils se sont révélés être des mines d’or pour découvrir des visuels et des idées en parfaite adéquation avec l’univers du cirque vintage.</p>
+<p class="sd-card-text">Google a été ma première étape pour effectuer des recherches approfondies. En utilisant des mots-clés précis comme “affiche de cirque vintage”, “spectacle de monstres des années 1920” ou encore “esthétique rétro du cirque”, j’ai pu accéder à une multitude de résultats pertinents. Les images et les articles trouvés m’ont permis de mieux comprendre les codes visuels et les éléments graphiques qui caractérisent cet univers. Les affiches minimalistes, avec leurs typographies élégantes et leurs illustrations épurées, m’ont particulièrement inspiré pour la création du logo et des supports visuels du projet.</p>
+<p class="sd-card-text">Instagram, avec sa communauté créative et passionnée, a été une autre source précieuse d’inspiration. En suivant des comptes dédiés à l’histoire du cirque, aux spectacles vintage et à la photographie rétro, j’ai pu découvrir des clichés authentiques et des mises en scène captivantes. Les photos de spectacles de “monstres” des années passées, avec leurs costumes extravagants et leurs décors surannés, m’ont offert une plongée immersive dans l’atmosphère unique de ces représentations. Ces visuels m’ont aidé à affiner la palette de couleurs et les textures que j’ai utilisées dans mes créations.</p>
+<p class="sd-card-text">Pinterest, quant à lui, m’a permis de centraliser et d’organiser toutes mes trouvailles. J’ai créé des tableaux thématiques où j’ai épinglé des affiches, des illustrations, des typographies et des photographies qui correspondaient à l’esthétique recherchée. Cette plateforme m’a offert une vue d’ensemble de mes inspirations, facilitant ainsi la synthèse et l’intégration de ces éléments dans mon projet. Les épingles de Pinterest m’ont également permis de découvrir des artistes contemporains qui revisitent l’univers du cirque vintage, apportant une touche de modernité à des thèmes intemporels.</p>
+<p class="sd-card-text">Au terme de ces recherches, je peux affirmer que mes investigations ont été particulièrement fructueuses. De l’affiche de cirque minimaliste à la photo vintage de spectacle de “monstres”, chaque découverte a enrichi ma compréhension et ma sensibilité artistique. Ces inspirations m’ont permis de créer des visuels cohérents et évocateurs, fidèles à l’esprit du cirque vintage tout en apportant une touche personnelle et contemporaine. Grâce à ces ressources, j’ai pu donner vie à un projet qui, je l’espère, saura captiver et émerveiller son public.</p>
+</div>
+<input id="sd-tab-item-6" name="sd-tab-set-2" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-6">
+Soula Moodboard Logo</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Pour la création de mon logo, j’ai commencé par constituer un moodboard, un outil essentiel pour organiser et visualiser mes inspirations. Grâce à mes recherches approfondies sur Pinterest, Google et Instagram, j’ai rassemblé une multitude d’images, de typographies et d’éléments graphiques qui résonnaient avec l’univers du cirque vintage et l’identité que je souhaitais donner à “Nez Rouge”. Ce moodboard m’a servi de guide tout au long du processus créatif, m’aidant à affiner mes idées et à trouver l’équilibre parfait entre tradition et modernité.</p>
+<p class="sd-card-text">L’un des premiers aspects que je voulais intégrer dans mon logo était une référence visuelle à la vidéo. Étant donné que la vidéo est un élément central de mon projet, il était crucial que le logo évoque cet aspect dès le premier coup d’œil. J’ai donc décidé d’incorporer un élément inspiré du bouton “Rec” (enregistrement) des caméras vidéo. Ce petit cercle rouge, universellement reconnu, est un symbole fort qui rappelle immédiatement l’univers de la vidéo. En l’intégrant subtilement dans le design du logo, j’ai pu créer un lien visuel direct avec cet aspect essentiel du projet.</p>
+<p class="sd-card-text">Ensuite, il était essentiel que le logo rappelle l’univers du cirque et, plus spécifiquement, le personnage emblématique du clown. Le nez rouge, symbole par excellence du clown, devait être présent dans le logo pour ancrer immédiatement l’identité visuelle dans cet univers. J’ai donc réfléchi à la manière d’intégrer cet élément de manière élégante et reconnaissable. Le nez rouge, avec sa forme ronde et ses couleurs vives, est devenu un élément central du design, apportant une touche de fantaisie et de nostalgie.</p>
+</div>
+<input id="sd-tab-item-7" name="sd-tab-set-2" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-7">
+Audrey</label><div class="sd-tab-content docutils">
+<p class="sd-card-text">Le moodboard met en avant les années 70 avec des éléments culturels et iconiques de cette époque, marquée par des couleurs vives  et audacieuses, couramment utilisées pour exprimer la liberté, l’individualité et un rejet des conventions strictes de la société.
+C’est la prise de conscience de la gravité des problèmes écologiques, un retour aux racines et à la nature,  ainsi qu’une recherche d’originalité et de modernité dans un contexte de consommation de masse.
+Des œuvres de Seund Ja Rhee, artiste sud coréenne, qui pour fuir son pays en guerre a migré en France dans les années 50, à Paris et qui dans les années 70 explore la construction et déconstruction de la forme yin et yang qui m’a inspiré pour mon logo.</p>
+<p class="sd-card-text">Il en ressort un univers visuel qui sert le propos du site et la démarche artistique.</p>
+</div>
+</div>
+</div>
+</details></section>
+</section>
+<section id="logo">
+<h4>Logo<a class="headerlink" href="#logo" title="Link to this heading">#</a></h4>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<br>
+<p class="p-emphase">Signe graphique destiné à identifier une entreprise, un produit ou une marque et à en assurer la reconnaissance</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module"></script>
+<p><dotlottie-wc src="https://lottie.host/a9e5b603-aa67-4666-bb49-c49f8db5e645/6P1CoYWhkj.lottie" style="width: 100%;height: auto" autoplay loop></dotlottie-wc></p>
+</div>
+</div>
+</div>
+<br>
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAG3jCwKTww/VmvCUZzS5DiLyLULMLjArg/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAG3jCwKTww&#x2F;VmvCUZzS5DiLyLULMLjArg&#x2F;view?utm_content=DAG3jCwKTww&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Logo-présentations</a> par Vdeguin
+<br>
+<br>
+<section id="un-bon-logo">
+<h5>Un Bon Logo<a class="headerlink" href="#un-bon-logo" title="Link to this heading">#</a></h5>
+<p class="p-emphase">Doit être ...</p>
+<br>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-8" name="sd-tab-set-3" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-8">
+Simple</label><div class="sd-tab-content docutils">
+<br>
+<p>Un bon logo doit être <strong>clair, lisible et facile à reconnaître</strong>.</p>
+<p><strong>Marche à suivre</strong> :</p>
+<ul class="simple">
+<li><p>Utiliser des formes simples et peu d’éléments</p></li>
+<li><p>Éviter les détails inutiles</p></li>
+<li><p>Privilégier une typographie lisible</p></li>
+<li><p>Vérifier qu’il reste compréhensible à petite taille</p></li>
+</ul>
+</div>
+<input id="sd-tab-item-9" name="sd-tab-set-3" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-9">
+Mémorisable</label><div class="sd-tab-content docutils">
+<br>
+<p>Le logo doit être facilement <strong>mémorisable</strong> au premier coup d’œil.</p>
+<p><strong>Marche à suivre</strong> :</p>
+<ul class="simple">
+<li><p>Concevoir une forme ou une idée graphique forte</p></li>
+<li><p>Travailler une silhouette reconnaissable</p></li>
+<li><p>Tester auprès de plusieurs personnes : peuvent-ils le décrire après 5 secondes ?</p></li>
+</ul>
+</div>
+<input id="sd-tab-item-10" name="sd-tab-set-3" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-10">
+Pertinent</label><div class="sd-tab-content docutils">
+<br>
+<p>Le style du logo doit refléter l’identité de la marque (son secteur, ses valeurs, son ton).</p>
+<p><strong>Marche à suivre</strong> :</p>
+<ul class="simple">
+<li><p>Définir la personnalité de la marque (moderne ? luxueuse ? amusante ?)</p></li>
+<li><p>Étudier les logos du secteur pour se positionner</p></li>
+<li><p>Choisir des couleurs et typographies en cohérence avec les messages à transmettre</p></li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Définition</p>
+<ul class="simple">
+<li><p>image logo airbnb</p></li>
+</ul>
 </div>
-<section id="couleurs">
-<h4>Couleurs<a class="headerlink" href="#couleurs" title="Link to this heading">#</a></h4>
+</div>
+<input id="sd-tab-item-11" name="sd-tab-set-3" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-11">
+Polyvalent</label><div class="sd-tab-content docutils">
+<br>
+<p>Le logo doit fonctionner partout : imprimé, digital, devanture, réseaux sociaux…</p>
+<p><strong>Marche à suivre</strong> :</p>
+<ul class="simple">
+<li><p>Tester le logo en petit, en grand, en couleur, en noir &amp; blanc</p></li>
+<li><p>Prévoir différentes versions (horizontale, verticale, pictogramme seul)</p></li>
+<li><p>Exporter dans plusieurs formats (vectoriel indispensable : .SVG/.AI/.EPS)</p></li>
+</ul>
+</div>
+<input id="sd-tab-item-12" name="sd-tab-set-3" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-12">
+Intemporel</label><div class="sd-tab-content docutils">
+<br>
+<p>Un bon logo doit durer dans le temps sans suivre de mode trop éphémère.</p>
+<p><strong>Marche à suivre</strong> :</p>
+<ul class="simple">
+<li><p>Éviter les tendances graphiques trop datées</p></li>
+<li><p>Miser sur des choix durables plutôt que sur ce qui est “à la mode”</p></li>
+<li><p>S’assurer que le logo sera toujours pertinent dans 5, 10 ou 20 ans</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Intégrer l’image logo apple</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.creads.com/blog/decryptage/tendance-design-graphique/evolution-et-histoire-du-logo-apple/" rel="noreferrer" target="_blank">Lien vers </a></p></li>
+</ul>
+</div>
+</div>
+<input id="sd-tab-item-13" name="sd-tab-set-3" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-13">
+Original</label><div class="sd-tab-content docutils">
+<br>
+<p>Le logo doit se démarquer des concurrents et être identifiable.</p>
+<p><strong>Marche à suivre</strong> :</p>
+<ul class="simple">
+<li><p>Faire une recherche approfondie sur les logos existants dans le secteur</p></li>
+<li><p>Jouer sur l’idée créative plutôt que sur la complexité visuelle</p></li>
+<li><p>Vérifier la disponibilité légale (droits d’auteur / marque déposée)</p></li>
+</ul>
+</div>
+</div>
+<br>
+<p class="p-emphase">Et pour ça, il faut passer par un ...</p>
+</section>
+<section id="processus-de-reflexion">
+<h5>Processus de Réflexion<a class="headerlink" href="#processus-de-reflexion" title="Link to this heading">#</a></h5>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<br>
+<br>
+<p class="p-emphase">La créativité donne la forme, <br> la réflexion donne le sens</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module"></script>
+<p><dotlottie-wc src="https://lottie.host/2ae116fd-c526-4454-a2a1-c93e39a1f45d/sVDWqzxJ4d.lottie" style="width: 140%;" autoplay loop></dotlottie-wc></p>
+</div>
+</div>
+</div>
+<br>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">✍ Documentez vos tentatives !</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Blabla, penser à écrire le cheminement dans le dossier projet</p>
+</div>
+</details><section id="exemple">
+<h6>Exemple<a class="headerlink" href="#exemple" title="Link to this heading">#</a></h6>
+<figure class="align-default" id="soula-tentative-logo">
+<a class="reference internal image-reference" href="../../../../_images/Soula-tentative-logo.png"><img alt="../../../../_images/Soula-tentative-logo.png" src="../../../../_images/Soula-tentative-logo.png" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-text">Tentative de logo de Soula lien vers son projet</span><a class="headerlink" href="#soula-tentative-logo" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">Le Processus de Réflexion de Soula</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-14" name="sd-tab-set-4" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-14">
+Tentative 1</label><div class="sd-tab-content docutils">
+<figure class="align-default" id="soula-tentative-logo-1">
+<a class="img-float-right reference internal image-reference" href="../../../../_images/Soula-tentative-logo-1.png"><img alt="../../../../_images/Soula-tentative-logo-1.png" class="img-float-right" src="../../../../_images/Soula-tentative-logo-1.png" style="width: 50%;" />
+</a>
+</figure>
+<p class="sd-card-text">Dès le départ, mon intention était de créer un logo qui soit avant tout graphique plutôt que textuel. Je voulais qu’il évoque immédiatement l’humour et l’univers audiovisuel, deux éléments centraux du projet “Nez Rouge”. L’objectif était de capter l’attention dès le premier regard et de transmettre une impression de légèreté et de divertissement.</p>
+<p class="sd-card-text">Pour atteindre cet objectif, j’ai opté pour un design qui combine plusieurs éléments visuels forts. J’ai choisi de mettre en avant un large sourire cartoonesque, avec ses lignes exagérées et ses courbes dynamiques, pour évoquer l’humour et la bonne humeur. J’ai également intégré un nez de clown, symbole emblématique du cirque et de la comédie, placé au centre du logo.</p>
+<p class="sd-card-text">Pour renforcer la dimension audiovisuelle, j’ai ajouté un symbole de lecture vidéo en plein milieu du nez de clown. Ce petit triangle, universellement reconnu, rappelle immédiatement le monde de la vidéo et du cinéma. En combinant ces trois éléments – le sourire, le nez de clown et le symbole de lecture – j’ai créé un logo qui fusionne l’humour et l’audiovisuel de manière harmonieuse et visuellement attrayante.</p>
+<p class="sd-card-text">Cependant, malgré la richesse de ces éléments visuels, j’ai rapidement constaté un problème de clarté. Le logo, bien que graphiquement intéressant, ne parvenait pas à évoquer immédiatement le nom “Nez Rouge”. Les visiteurs pouvaient être séduits par le design, mais ils ne faisaient pas nécessairement le lien avec l’identité du projet. Cette confusion pouvait nuire à la reconnaissance et à la mémorisation du logo.</p>
+<p class="sd-card-text">Pour remédier à ce problème, il était essentiel de rendre le logo plus explicite. J’ai donc entrepris de réviser le design pour intégrer des éléments qui évoquent plus directement le nom “Nez Rouge”. Cela pouvait passer par l’ajout de texte, la modification des proportions ou l’ajout de détails supplémentaires pour renforcer la clarté du message. L’objectif était de conserver l’esprit ludique et audiovisuel du logo tout en le rendant limpide.</p>
+</div>
+<input id="sd-tab-item-15" name="sd-tab-set-4" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-15">
+Tentative 2</label><div class="sd-tab-content docutils">
+<figure class="align-default" id="soula-tentative-logo-2">
+<a class="img-float-right reference internal image-reference" href="../../../../_images/Soula-tentative-logo-2.png"><img alt="../../../../_images/Soula-tentative-logo-2.png" class="img-float-right" src="../../../../_images/Soula-tentative-logo-2.png" style="width: 50%;" />
+</a>
+</figure>
+<p class="sd-card-text">Pour ma seconde piste, j’ai opté pour une approche bien plus abstraite. L’idée était de créer un logo qui ne se contente pas de représenter visuellement le projet, mais qui raconte également une histoire et transmet une vision artistique unique.</p>
+<p class="sd-card-text">J’ai choisi de mettre en scène la silhouette d’un clown se servant d’une caméra pour filmer une scène. Ce concept de “clown réalisateur” est né de mon désir de retranscrire l’essence même de “Nez Rouge”. Je voulais que “Nez Rouge” soit perçu comme une agence dirigée par un clown cinéaste, un personnage à la fois ludique et professionnel, capable de capturer des moments magiques et de les transformer en œuvres visuelles captivantes.</p>
+<p class="sd-card-text">Ce choix n’est pas anodin. Le clown, avec son nez rouge emblématique, représente l’humour, la fantaisie et la capacité à apporter de la joie. La caméra, quant à elle, symbolise le monde de l’audiovisuel, la créativité et la technique. En combinant ces deux éléments, j’ai voulu créer une métaphore visuelle puissante : un clown qui, derrière la caméra, devient le maître d’œuvre de spectacles visuels uniques. Cette image évoque à la fois le divertissement et l’expertise, deux valeurs fondamentales de “Nez Rouge”.</p>
+<p class="sd-card-text">Cependant, malgré la richesse de cette métaphore, j’ai rapidement constaté que ce logo souffrait du même problème que la piste précédente : il n’évoquait pas immédiatement le nom “Nez Rouge”. Bien que l’image du clown réalisateur soit intrigante et artistiquement intéressante, elle ne permettait pas aux observateurs de faire le lien direct avec l’identité du projet. Cette abstraction, bien que poétique, pouvait prêter à confusion et nuire à la reconnaissance immédiate du logo.</p>
+<p class="sd-card-text">Pour remédier à ce problème, il est devenu évident que le logo devait inclure une composante textuelle. Le nom “Nez Rouge” devait être intégré de manière claire et lisible, afin que le logo soit immédiatement reconnaissable. Cette intégration textuelle permettrait de conserver l’esprit créatif et ludique du concept tout en assurant que le message principal est bien transmis.</p>
+</div>
+<input id="sd-tab-item-16" name="sd-tab-set-4" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-16">
+Tentative 3</label><div class="sd-tab-content docutils">
+<figure class="align-default" id="soula-tentative-logo-3">
+<a class="img-float-right reference internal image-reference" href="../../../../_images/Soula-tentative-logo-3.png"><img alt="../../../../_images/Soula-tentative-logo-3.png" class="img-float-right" src="../../../../_images/Soula-tentative-logo-3.png" style="width: 50%;" />
+</a>
+</figure>
+<p class="sd-card-text">Pour ma troisième piste, j’ai décidé d’adopter une approche plus directe. Après avoir expérimenté des concepts visuels abstraits et symboliques, il est apparu clairement que la clarté et la lisibilité étaient essentielles pour que le logo soit immédiatement reconnaissable. J’ai donc choisi de mettre en avant le nom de mon agence, “Nez Rouge”, de manière explicite.</p>
+<p class="sd-card-text">Pour ce troisième essai, j’ai opté pour une écriture cartoonesque, rappelant l’univers de Tex Avery. Ce style, avec ses lettres dynamiques et ses courbes exagérées, apporte une touche de fantaisie et d’humour, en parfaite adéquation avec l’esprit ludique et créatif de “Nez Rouge”. En choisissant cette typographie, je voulais capturer l’énergie et la joie de vivre des dessins animés classiques, tout en restant fidèle à l’identité du projet.</p>
+<p class="sd-card-text">Un élément clé de ce design est la mise en avant du “O” de “Nez Rouge” en rouge. Ce choix chromatique n’est pas anodin : le rouge est une couleur vive et attrayante qui capte immédiatement l’attention. En colorant le “O” en rouge, j’ai voulu créer un point focal dans le logo, rappelant subtilement le nez rouge emblématique du clown. Cette touche de couleur ajoute une dimension visuelle intéressante tout en renforçant la mémorabilité du logo.</p>
+<p class="sd-card-text">Cependant, après avoir finalisé ce design, une nouvelle difficulté est apparue : le logo me semblait trop excentrique. Bien que l’écriture cartoonesque et le “O” rouge soient visuellement attrayants, ils pouvaient donner une impression de décalage par rapport à ma cible. Mon objectif était de créer un logo qui soit à la fois créatif et professionnel, capable de séduire une clientèle variée, y compris des entreprises et des institutions.</p>
+<p class="sd-card-text">Il est devenu évident que le logo devait être moins décalé et plus sobre pour être en adéquation avec ma cible. Un design trop excentrique pouvait limiter l’attrait du logo auprès de clients potentiels qui recherchent une approche plus professionnelle et sérieuse. Il était donc crucial de trouver un équilibre entre créativité et sobriété, afin de créer un logo qui soit à la fois unique et adapté à un large public.</p>
+</div>
+<input id="sd-tab-item-17" name="sd-tab-set-4" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-17">
+Tentative 4</label><div class="sd-tab-content docutils">
+<figure class="align-default" id="soula-tentative-logo-4">
+<a class="img-float-right reference internal image-reference" href="../../../../_images/Soula-tentative-logo-4.png"><img alt="../../../../_images/Soula-tentative-logo-4.png" class="img-float-right" src="../../../../_images/Soula-tentative-logo-4.png" style="width: 50%;" />
+</a>
+</figure>
+<p class="sd-card-text">Après avoir exploré des approches plus directes et explicites, j’ai décidé de revenir en arrière et de réévaluer une approche abstraite pour le logo de “Nez Rouge”. L’idée était de créer un design minimaliste et visuellement impactant, capable de captiver l’attention tout en laissant une part de mystère et d’interprétation.</p>
+<p class="sd-card-text">Pour cette nouvelle tentative, j’ai opté pour une approche extrêmement simplifiée. Le logo se compose d’un simple rond rouge, suivi d’un vecteur représentant une caméra. Ce choix graphique vise à évoquer les éléments fondamentaux du projet : le nez rouge emblématique du clown et l’univers audiovisuel. Le rond rouge, par sa simplicité et sa couleur vive, capte immédiatement l’attention et rappelle subtilement le nez du clown. Le vecteur caméra, quant à lui, symbolise l’aspect créatif et technique du projet, lié à la production vidéo.</p>
+<p class="sd-card-text">Cependant, malgré la simplicité et l’élégance de ce design, un problème persiste : ce logo n’évoque pas immédiatement le nom “Nez Rouge”. Le rond rouge et le vecteur caméra, bien que visuellement attrayants, ne permettent pas aux observateurs de faire le lien direct avec l’identité du projet. Cette abstraction, bien que poétique et esthétique, peut prêter à confusion et nuire à la reconnaissance immédiate du logo.</p>
+</div>
+<input id="sd-tab-item-18" name="sd-tab-set-4" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-18">
+Tentative 5</label><div class="sd-tab-content docutils">
+<figure class="align-default" id="soula-tentative-logo-5">
+<a class="img-float-right reference internal image-reference" href="../../../../_images/Soula-tentative-logo-5.png"><img alt="../../../../_images/Soula-tentative-logo-5.png" class="img-float-right" src="../../../../_images/Soula-tentative-logo-5.png" style="width: 300px;" />
+</a>
+</figure>
+<p class="sd-card-text">Après plusieurs itérations et ajustements, j’ai finalement trouvé la combinaison parfaite pour le logo de “Nez Rouge”. Cette dernière piste représente la synthèse de mes précédentes explorations, intégrant les éléments les plus réussis de chacune pour créer un design cohérent et efficace.</p>
+<p class="sd-card-text">Pour cette ultime tentative, j’ai décidé de fusionner les concepts des pistes 3 et 4. La piste 4, avec son rond rouge et son vecteur caméra, apportait une simplicité et une élégance visuelles indéniables. Cependant, elle manquait de clarté quant à l’identité de “Nez Rouge”. La piste 3, quant à elle, mettait l’accent sur une approche plus directe, avec le nom de l’agence écrit de manière explicite, mais elle pouvait sembler trop excentrique.</p>
+<p class="sd-card-text">Pour créer le logo final, j’ai donc combiné ces deux approches. J’ai conservé le rond rouge et le vecteur caméra de la piste 4, mais je les ai intégrés de manière plus subtile dans le design. Le rond rouge est devenu un élément central, rappelant immédiatement le nez du clown, tandis que le vecteur caméra est placé de manière à évoquer l’univers audiovisuel sans dominer le logo.</p>
+<p class="sd-card-text">En parallèle, j’ai repris l’idée de la piste 3 en écrivant le nom “Nez Rouge” de manière directe, mais cette fois-ci avec une typographie plus professionnelle. J’ai opté pour une police de caractères élégante et lisible, qui conserve une touche de fantaisie tout en étant suffisamment sobre pour être prise au sérieux. Cette typographie permet de transmettre à la fois la créativité et le professionnalisme de l’agence.</p>
+<p class="sd-card-text">En somme, cette dernière piste représente la synthèse parfaite de mes précédentes explorations. En combinant les éléments visuels forts du rond rouge et du vecteur caméra avec une typographie professionnelle, j’ai créé un logo qui est à la fois mémorable, reconnaissable et adapté à ma cible. Ce logo final incarne parfaitement l’identité de “Nez Rouge”, alliant créativité, humour et professionnalisme.</p>
+</div>
+</div>
+</div>
+</details></section>
+</section>
+<section id="outils-et-bonnes-pratiques">
+<h5>Outils et Bonnes Pratiques<a class="headerlink" href="#outils-et-bonnes-pratiques" title="Link to this heading">#</a></h5>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-9 sd-col-xs-9 sd-col-sm-9 sd-col-md-9 sd-col-lg-9 docutils">
+<blockquote>
+<div><p>Introduction Dessin vectorielle et Illustrator</p>
+</div></blockquote>
+</div>
+<div class="sd-col sd-d-flex-row sd-col-3 sd-col-xs-3 sd-col-sm-3 sd-col-md-3 sd-col-lg-3 docutils">
+<div class="sd-card sd-sphinx-override sd-w-100 sd-shadow-sm sd-card-hover docutils">
+<div class="sd-card-header bg-light docutils">
+<p class="sd-card-text"><strong>Illustrator</strong></p>
+</div>
+<div class="sd-card-body docutils">
+<a class="reference internal image-reference" href="../../../../_images/France-competence.jpg"><img alt="../../../../_images/France-competence.jpg" src="../../../../_images/France-competence.jpg" style="width: 100%;" />
+</a>
+</div>
+<a class="sd-stretched-link sd-hide-link-text reference external" href="https://candidat.francetravail.fr/metierscope/fiche-metier/E1205/designer-graphique" rel="noreferrer" target="_blank"><span>https://candidat.francetravail.fr/metierscope/fiche-metier/E1205/designer-graphique</span></a></div>
+</div>
+</div>
+</div>
+<details class="sd-sphinx-override sd-dropdown sd-card sd-mb-3">
+<summary class="sd-summary-title sd-card-header">
+<span class="sd-summary-text">💥 Image Vectoriel vs Image Matricielle</span><span class="sd-summary-state-marker sd-summary-chevron-right"><svg version="1.1" width="1.5em" height="1.5em" class="sd-octicon sd-octicon-chevron-right" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.72 18.78a.75.75 0 0 1 0-1.06L14.44 12 8.72 6.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"></path></svg></span></summary><div class="sd-summary-content sd-card-body docutils">
+<p class="sd-card-text">Focus sur la théorie et la différence entre image vectorielle vs matricielle.</p>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<p class="p-emphase">Image Vectorielle</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<p class="p-emphase">Image Matricielle</p>
+</div>
+</div>
+</div>
+<a class="reference internal image-reference" href="../../../../_images/matriciel-vs-vectoriel.gif"><img alt="../../../../_images/matriciel-vs-vectoriel.gif" src="../../../../_images/matriciel-vs-vectoriel.gif" style="width: 100%;" />
+</a>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Formats</strong>: svg, ai, eps</p></li>
+</ul>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-6 sd-col-xs-6 sd-col-sm-6 sd-col-md-6 sd-col-lg-6 docutils">
+<ul class="simple">
+<li><p class="sd-card-text"><strong>Formats</strong>: jpg, gif, png, tiff, raw, psd</p></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</details><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Zone de sécurité</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Export svg</p></li>
+<li><p>garder plusieurs versions</p></li>
+<li><p>…</p></li>
+</ul>
+</div>
+</section>
+<section id="declinaisons-du-logo">
+<h5>Déclinaisons du Logo<a class="headerlink" href="#declinaisons-du-logo" title="Link to this heading">#</a></h5>
+</section>
+<section id="interdits-du-logo">
+<h5>Interdits du Logo<a class="headerlink" href="#interdits-du-logo" title="Link to this heading">#</a></h5>
+</section>
+</section>
+<section id="palette-de-couleurs">
+<h4>Palette de Couleurs<a class="headerlink" href="#palette-de-couleurs" title="Link to this heading">#</a></h4>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<br>
+<p class="p-emphase">Phrase d'Intro</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module"></script>
+<p><dotlottie-wc src="https://lottie.host/a34271c0-a603-4cec-b64c-5c07d223eb1b/BCEuay9Vj0.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc></p>
+</div>
+</div>
+</div>
+<br>
+<section id="psychologie-des-couleurs">
+<h5>Psychologie des couleurs<a class="headerlink" href="#psychologie-des-couleurs" title="Link to this heading">#</a></h5>
+<figure class="align-default" id="color-emotion-guide221">
+<a class="reference internal image-reference" href="../../../../_images/Color_Emotion_Guide221.webp"><img alt="../../../../_images/Color_Emotion_Guide221.webp" src="../../../../_images/Color_Emotion_Guide221.webp" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><a class="reference external" href="https://thelogocompany.net/psychology-of-color-in-logo-design/" rel="noreferrer" target="_blank">Source</a></span><a class="headerlink" href="#color-emotion-guide221" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Les couleurs ont une signification</p>
+<ul class="simple">
+<li><p>lien activité porait chinois</p></li>
+</ul>
+</div>
+</section>
 <section id="outils-de-selection">
 <h5>Outils de sélection<a class="headerlink" href="#outils-de-selection" title="Link to this heading">#</a></h5>
 <ul class="simple">
@@ -824,13 +1741,24 @@ Autres promos</label><div class="sd-tab-content docutils">
 <p class="admonition-title">Note</p>
 <p>Outils pour tester ta palette de couleurs sur un site factice ? a tester</p>
 </div>
-<ul class="simple">
-<li><p><a class="reference external" href="https://codepen.io/Juxtopposed/pen/gOBWdaY" rel="noreferrer" target="_blank">Codepen</a></p></li>
-</ul>
+</section>
+<section id="contrastes">
+<h5>Contrastes<a class="headerlink" href="#contrastes" title="Link to this heading">#</a></h5>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Un jeux pour tester la visibilité de différentes nuances de couleurs</p>
 </div>
+<p class="p-emphase">On se fait un petit jeu ?</p>
+<div class="CG-container">
+<p>Selectionne le block qui a une couleur différente.</p>
+<div id="CG-game"></div>
+<div id="CG-score">Pick a block to play.</div>
+<div id="CG-try-again"></div>
+</div>
+<script src="../../../../_static/scripts/CG-script.js"></script>
+<ul class="simple">
+<li><p><a class="reference external" href="https://codepen.io/Juxtopposed/pen/gOBWdaY" rel="noreferrer" target="_blank">Codepen</a></p></li>
+</ul>
 </section>
 </section>
 <section id="typographies">
@@ -862,6 +1790,19 @@ Autres promos</label><div class="sd-tab-content docutils">
 </section>
 <section id="iconographie">
 <h4>Iconographie<a class="headerlink" href="#iconographie" title="Link to this heading">#</a></h4>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row docutils">
+<div class="sd-col sd-d-flex-column sd-col-7 sd-col-xs-7 sd-col-sm-7 sd-col-md-7 sd-col-lg-7 docutils">
+<br>
+<p class="p-emphase">Phrase d'Intro</p>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-5 sd-col-xs-5 sd-col-sm-5 sd-col-md-5 sd-col-lg-5 docutils">
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module"></script>
+<p><dotlottie-wc src="https://lottie.host/aed8664b-dac2-4469-b709-d9d1639062a4/Yppwtoim5X.lottie" style="width: 100%;height: auto" autoplay loop></dotlottie-wc></p>
+</div>
+</div>
+</div>
+<br>
 <section id="pictogrammes-de-reassurance">
 <h5>pictogrammes de réassurance<a class="headerlink" href="#pictogrammes-de-reassurance" title="Link to this heading">#</a></h5>
 <div class="admonition note">
@@ -889,13 +1830,6 @@ Autres promos</label><div class="sd-tab-content docutils">
 <p>Choisissez une bibliothèque et prenez toute vos icones dedans afin de maximiser la consistence</p>
 </div>
 </section>
-</section>
-<section id="logo">
-<h4>Logo<a class="headerlink" href="#logo" title="Link to this heading">#</a></h4>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Lien vers chapitre Illustrator</p>
-</div>
 </section>
 <section id="synthese">
 <h4>Synthèse<a class="headerlink" href="#synthese" title="Link to this heading">#</a></h4>
@@ -946,6 +1880,12 @@ Autres promos</label><div class="sd-tab-content docutils">
 </div>
 </section>
 </section>
+</section>
+<section id="autres-outils">
+<h4>Autres Outils<a class="headerlink" href="#autres-outils" title="Link to this heading">#</a></h4>
+<ul class="simple">
+<li><p><a class="reference external" href="https://fr.pattern.monster/japanese-pattern-3" rel="noreferrer" target="_blank">Pattern monster</a></p></li>
+</ul>
 </section>
 </section>
 </section>
@@ -1022,7 +1962,7 @@ Autres promos</label><div class="sd-tab-content docutils">
 <div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
 <div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
 <ul class="simple">
-<li><p><a class="reference internal" href="#"><span class="xref myst">Lister</span></a></p></li>
+<li><p><a class="reference external" href="https://www.canva.com/fr_fr/decouvrir/type-de-logo/" rel="noreferrer" target="_blank">Différents types de logo</a></p></li>
 </ul>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
@@ -1047,6 +1987,26 @@ Autres promos</label><div class="sd-tab-content docutils">
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Un site qui met en lumière les copies dans les pubs. La personne réalise également une analyse des intentions derrière la pub</p>
+</div>
+<ul class="simple">
+<li><p><a class="reference external" href="https://audacieuses-creatives.com/15-exemples-de-chartes-graphiques-pour-tinspirer/#elementor-toc__heading-anchor-4" rel="noreferrer" target="_blank">15 exemples de charte graphique</a></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Utiliser pour une activité ? ou utiliser comme exemples ?</p>
+<ul class="simple">
+<li><p>Bien car liens vers pages guidelines</p></li>
+</ul>
+</div>
+<ul class="simple">
+<li><p><a class="reference external" href="https://looka.com/blog/15-brand-guidelines-examples-to-inspire-your-brand-guide/" rel="noreferrer" target="_blank">28 exemples de chartes graphiques</a></p></li>
+<li><p><a class="reference external" href="https://www.logodesignlove.com/aphex-twin" rel="noreferrer" target="_blank">aphex-twin logo history</a></p></li>
+<li><p><a class="reference external" href="https://google-doodles.fandom.com/wiki/Category:Doodles_by_Dennis_Hwang" rel="noreferrer" target="_blank">Google Doodle</a></p></li>
+<li><p><a class="reference external" href="https://www.affinity.studio/fr_fr" rel="noreferrer" target="_blank">Affinity</a></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Un très bon outil, a tester !!</p>
 </div>
 <section id="bibliotheques-d-images">
 <h5>Bibliothèques d’images<a class="headerlink" href="#bibliotheques-d-images" title="Link to this heading">#</a></h5>
@@ -1165,13 +2125,37 @@ Autres promos</label><div class="sd-tab-content docutils">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#avant-de-commencer">🏄 Avant de Commencer</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#la-theorie">🧠 La Théorie</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-graphisme">Le Graphisme</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#le-la-graphiste">Le/La Graphiste</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#identite-visuelle">Identité Visuelle</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#identite-de-marque">Identité de Marque</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#identite-visuelle">Identité Visuelle</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#le-la-graphiste">Le/La Graphiste</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#sa-mission">Sa Mission</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#ses-outils">Ses Outils</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Charte Graphique</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#couleurs">Couleurs</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#moodboard">Moodboard</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#exemples">Exemples</a></li>
+</ul>
+</li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#logo">Logo</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#un-bon-logo">Un Bon Logo</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#processus-de-reflexion">Processus de Réflexion</a><ul class="nav section-nav flex-column">
+<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#exemple">Exemple</a></li>
+</ul>
+</li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#outils-et-bonnes-pratiques">Outils et Bonnes Pratiques</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#declinaisons-du-logo">Déclinaisons du Logo</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#interdits-du-logo">Interdits du Logo</a></li>
+</ul>
+</li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#palette-de-couleurs">Palette de Couleurs</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#psychologie-des-couleurs">Psychologie des couleurs</a></li>
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#outils-de-selection">Outils de sélection</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#contrastes">Contrastes</a></li>
 </ul>
 </li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#typographies">Typographies</a><ul class="nav section-nav flex-column">
@@ -1186,7 +2170,6 @@ Autres promos</label><div class="sd-tab-content docutils">
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#bibliotheque">Bibliothèque</a></li>
 </ul>
 </li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#logo">Logo</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#synthese">Synthèse</a><ul class="nav section-nav flex-column">
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#cours-ines">Cours Ines</a></li>
 <li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#atelier-pratique">Atelier pratique</a><ul class="nav section-nav flex-column">
@@ -1195,6 +2178,7 @@ Autres promos</label><div class="sd-tab-content docutils">
 </li>
 </ul>
 </li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#autres-outils">Autres Outils</a></li>
 </ul>
 </li>
 </ul>

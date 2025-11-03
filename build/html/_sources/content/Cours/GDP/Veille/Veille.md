@@ -51,24 +51,99 @@
 :::{grid-item}
 :columns: 8
 
-<div id="div-no-colour"> 
+<br>
 
 <p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
 
+<br>
+<br>
+
+<div class="OP-slider">
+<button class="OP-nav-btn OP-left" id="OP-prev">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
 
 
-- ⭐ Objectif 1
-- ⭐ ⭐ Objectif 2
-- ⭐ ⭐ ⭐ Objectif 3
-
+<div class="OP-stage" id="OP-stage">
     
-```{note}
-
-Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)
-
-```
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Identifier les différents types de veille (concurrentielle, technologique, créative, sectorielle, UX/UI, juridique).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Lister les outils de veille disponibles (Feedly, Inoreader, Behance, Dribbble, Pinterest, Google Alerts, Talkwalker, etc.).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Reconnaître les étapes de mise en place d’un système de veille.</p></div>
+</article>
+<article class="OP-card" >
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Expliquer les objectifs et bénéfices d’une veille dans un projet web ou UI (anticipation, innovation, différenciation).</p></div>
+</article>
+<article class="OP-card" >
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Décrire les sources pertinentes pour sa veille selon le secteur (blogs, réseaux, newsletters, plateformes de design, etc.).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Reformuler les informations recueillies dans un langage clair et synthétique.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-3">Appliquer</div>
+<div class="OP-content"><p>⭐⭐⭐</p><p>Configurer un outil ou tableau de veille personnalisé selon une thématique choisie.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-3">Appliquer</div>
+<div class="OP-content"><p>⭐⭐⭐</p><p>Sélectionner et catégoriser les informations pertinentes issues de la veille.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-3">Appliquer</div>
+<div class="OP-content"><p>⭐⭐⭐</p><p>Partager régulièrement sa veille (newsletter, padlet, document collaboratif, Slack, Notion…).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-4">Analyser</div>
+<div class="OP-content"><p>⭐⭐⭐⭐</p><p>Identifier les tendances émergentes du design, du web ou du e-commerce à partir des données collectées.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-4">Analyser</div>
+<div class="OP-content"><p>⭐⭐⭐⭐</p><p>Comparer les approches concurrentes ou créatives observées (ton, identité, ergonomie, innovation, positionnement).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-5">Évaluer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐</p><p>Évaluer la pertinence et la fiabilité des sources utilisées.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-5">Évaluer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐</p><p>Mesurer la valeur ajoutée de la veille dans son projet de conception (inspiration, innovation, différenciation).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-6">Créer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐⭐</p><p>Concevoir un tableau de veille complet (créative et concurrentielle) en lien avec son projet UI.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-6">Créer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐⭐</p><p>Produire une synthèse visuelle ou un rapport de veille (infographie, moodboard, mapping, présentation orale).</p></div>
+</article>
 
 </div>
+
+
+<button class="OP-nav-btn OP-right" id="OP-next">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
+</div>
+
+
+
+<script src="../../../../_static/scripts/OP-slider.js">
+
+</script>
  
 :::
 
@@ -104,6 +179,8 @@ Enumérer les différents objectifs pédagogiques (star classification avec diff
     
 ::::
 
+<br>
+<br>
 
 - **Liens** : {bdg-link-danger}`🎓 Système de Veille <../../../Diplome/Competences/Communication/veille.html#veille-focus>` {bdg-link-danger}`🎓 Illustrations, Graphismes, Visuels <../../../Diplome/Competences/Graphisme/Illustration.html#veille-focus2>`
 

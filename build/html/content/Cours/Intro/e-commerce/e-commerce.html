@@ -41,12 +41,14 @@
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster-sideTip-borderless.min.css?v=dbff53e4" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/micromodal.css?v=d7bf34ee" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../../../../_static/css/custom_style.css?v=3af8f44c" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/custom_style.css?v=55d4e83b" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/slider.css?v=31e19075" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/flash-card.css?v=d4949c41" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/sliding-image.css?v=6628c2e1" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/modal.css?v=ac63beef" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/productivity.css?v=cdaf373b" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/OP-slider.css?v=658ff4f1" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/CG-style.css?v=8fca7ff8" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@400;700&display=swap" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -85,6 +87,8 @@
     <script src="../../../../_static/scripts/ga.js?v=c7c7aaaf"></script>
     <script src="../../../../_static/scripts/pomodoro.js?v=d9a168de"></script>
     <script src="../../../../_static/scripts/step-counter.js?v=49667bb6"></script>
+    <script src="../../../../_static/scripts/OP-slider.js?v=5f6fa32e"></script>
+    <script src="../../../../_static/_static/scripts/CG-script.js"></script>
     <link rel="canonical" href="https://deugz.github.io/SP-LE-Mar-CDUI/build/html/index.html/content/Cours/Intro/e-commerce/e-commerce.html" />
     <link rel="icon" href="../../../../_static/Label-Ecole-Logo.png"/>
     <link rel="index" title="Index" href="../../../../genindex.html" />
@@ -675,7 +679,8 @@ document.write(`
 <p class="p-emphase"><strong>Infos</strong></p>
 <p>✍  - Vincent <br>
 🚧 - En cours<br>
-🔨 - 22/09/2025<br />
+🔨 - 22/09/2025
+⭐ - 9
 🕑 - 1 h <br></p>
 </div>    
 <br>
@@ -692,18 +697,51 @@ document.write(`
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
 <div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
-<div id="div-no-colour"> 
+<br>
 <p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
-<ul class="simple">
-<li><p>⭐ Objectif 1</p></li>
-<li><p>⭐ ⭐ Objectif 2</p></li>
-<li><p>⭐ ⭐ ⭐ Objectif 3</p></li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)</p>
+<br>
+<br>
+<div class="OP-slider">
+<button class="OP-nav-btn OP-left" id="OP-prev">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
+<div class="OP-stage" id="OP-stage">
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Identifier les principaux concepts liés au web.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Lister les grandes étapes de l’évolution du web et du e-commerce.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Nommer les principaux acteurs du web.</p></div>
+</article>
+<article class="OP-card" >
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Expliquer le fonctionnement général d’un site web et d’une boutique en ligne</p></div>
+</article>
+<article class="OP-card" >
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Décrire les différences entre web statique et web dynamique.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Reformuler les modèles économiques du e-commerce (B2B, B2C, C2C, marketplaces)</p></div>
+</article>
 </div>
+<button class="OP-nav-btn OP-right" id="OP-next">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
 </div>
+<script src="../../../../_static/scripts/OP-slider.js">
+
+</script>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
 <div id="div-colour"> 
@@ -728,6 +766,8 @@ document.write(`
 </div>
 </div>
 </div>
+<br>
+<br>
 <ul class="simple">
 <li><p><strong>Liens</strong> : <a class="sd-sphinx-override sd-badge sd-bg-danger sd-bg-text-danger reference external" href="../../../Diplome/Competences/Dev-Web/Integrer.html#dev-focus" rel="noreferrer" target="_blank"><span>🎓 Dev-Web Intégrer</span></a></p></li>
 </ul>
@@ -936,17 +976,22 @@ Entre Plusieurs Ordinateurs</label><div class="sd-tab-content docutils">
 <input id="sd-tab-item-5" name="sd-tab-set-1" type="radio">
 <label class="sd-tab-label" for="sd-tab-item-5">
 Pour échanger en réseau</label><div class="sd-tab-content docutils">
+<br>
+<p>Arpanet est le premier réseau à transfert de paquets de données conçu aux États-Unis.</p>
+<figure class="align-center" id="arpanet-logical-map-march-1977">
+<a class="reference internal image-reference" href="../../../../_images/Arpanet_logical_map,_march_1977.png"><img alt="../../../../_images/Arpanet_logical_map%2C_march_1977.png" src="../../../../_images/Arpanet_logical_map%2C_march_1977.png" style="width: 100%;" />
+</a>
+<figcaption>
+<p><span class="caption-text"><a class="reference external" href="https://fr.wikipedia.org/wiki/ARPANET" rel="noreferrer" target="_blank">Source</a></span><a class="headerlink" href="#arpanet-logical-map-march-1977" title="Link to this image">#</a></p>
+</figcaption>
+</figure>
+<br>
 <figure class="align-center" id="osi-model-v1">
 <a class="reference internal image-reference" href="../../../../_images/OSI_Model_v1.svg"><img alt="../../../../_images/OSI_Model_v1.svg" src="../../../../_images/OSI_Model_v1.svg" width="60%" /></a>
 <figcaption>
 <p><span class="caption-text"><a class="reference internal" href="#"><span class="xref myst">Source</span></a></span><a class="headerlink" href="#osi-model-v1" title="Link to this image">#</a></p>
 </figcaption>
 </figure>
-</div>
-<input id="sd-tab-item-6" name="sd-tab-set-1" type="radio">
-<label class="sd-tab-label" for="sd-tab-item-6">
-Comment ? (💪)</label><div class="sd-tab-content docutils">
-<p class="p-emphase">Comment ça marche tout ça ?</p>
 <ul class="simple">
 <li><p>Protocole <strong>TCP/IP</strong></p></li>
 </ul>
@@ -956,6 +1001,68 @@ Comment ? (💪)</label><div class="sd-tab-content docutils">
 <li><p><a class="reference external" href="https://fr.wikipedia.org/wiki/Suite_des_protocoles_Internet#/media/Fichier:TCPIP_couche_ISO_modele_OSI.png" rel="noreferrer" target="_blank">TCPIP</a></p></li>
 </ul>
 <p>Communication physique ou non</p>
+</div>
+<input id="sd-tab-item-6" name="sd-tab-set-1" type="radio">
+<label class="sd-tab-label" for="sd-tab-item-6">
+Comment ?</label><div class="sd-tab-content docutils">
+<br>
+<p class="p-emphase">Comment ça marche tout ça ?</p>
+<br>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Inclure les différents termes dans le glossaire</p>
+</div>
+<div class="pst-scrollable-table-container"><table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Concept</p></th>
+<th class="head"><p>Rôle principal</p></th>
+<th class="head"><p>Exemple</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>Internet</strong></p></td>
+<td><p>Réseau mondial d’ordinateurs</p></td>
+<td><p>Connexion entre serveurs et clients</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Web</strong></p></td>
+<td><p>Service d’échange d’informations sur Internet</p></td>
+<td><p>Sites web, applications web</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Nom de domaine</strong></p></td>
+<td><p>Identifie un site web</p></td>
+<td><p><a class="reference external" href="http://openai.com" rel="noreferrer" target="_blank">openai.com</a></p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Hébergement</strong></p></td>
+<td><p>Stocke les fichiers du site</p></td>
+<td><p>OVH, Ionos</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Navigateur</strong></p></td>
+<td><p>Permet d’afficher les pages</p></td>
+<td><p>Chrome, Firefox</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Protocole HTTP/HTTPS</strong></p></td>
+<td><p>Permet la communication</p></td>
+<td><p><a class="reference external" href="https://www.wikipedia.org" rel="noreferrer" target="_blank">https://www.wikipedia.org</a></p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Serveur web</strong></p></td>
+<td><p>Fournit les pages demandées</p></td>
+<td><p>Apache, Nginx</p></td>
+</tr>
+<tr class="row-odd"><td><p><strong>Adresse IP / DNS</strong></p></td>
+<td><p>Localise les serveurs</p></td>
+<td><p>192.168.1.1</p></td>
+</tr>
+<tr class="row-even"><td><p><strong>Langages web</strong></p></td>
+<td><p>Construisent les sites</p></td>
+<td><p>HTML, CSS, JS</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Créer une activité. Schéma globale qui reprend tout les éléments suivany</p>
+</div>
 </div>
 </div>
 <br>
@@ -1022,6 +1129,9 @@ Comment ? (💪)</label><div class="sd-tab-content docutils">
 </div>
 </div>
 </div>
+<ul class="simple">
+<li><p>Explication site web statique</p></li>
+</ul>
 </section>
 <section id="evolution">
 <h4>Evolution<a class="headerlink" href="#evolution" title="Link to this heading">#</a></h4>
@@ -1033,22 +1143,52 @@ Comment ? (💪)</label><div class="sd-tab-content docutils">
   </iframe>
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGzW8wsAmQ&#x2F;wXwCDPTCs4t-8UbGWwxcbA&#x2F;view?utm_content=DAGzW8wsAmQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Design</a> par Vdeguin
-</section>
-<section id="aujourd-hui">
-<h4>Aujourd’hui<a class="headerlink" href="#aujourd-hui" title="Link to this heading">#</a></h4>
-<section id="comment-ca-marche">
-<h5>Comment ça marche ?<a class="headerlink" href="#comment-ca-marche" title="Link to this heading">#</a></h5>
-<section id="hypertext">
-<h6>Hypertext<a class="headerlink" href="#hypertext" title="Link to this heading">#</a></h6>
-</section>
-<section id="standarts">
-<h6>Standarts<a class="headerlink" href="#standarts" title="Link to this heading">#</a></h6>
+<div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
+<div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
+<div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
+<h5 class="rubric" id="web-2-0">Web 2.0</h5>
+<ul class="simple">
+<li><p>Années 2003 - 2005 : explosion du web 2.0 (interactivité, réseaux sociaux)</p></li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>W3C</p>
+<p>Expliquer l’évolution</p>
 </div>
-</section>
-</section>
+<h6 class="rubric" id="interactivite">Interactivité</h6>
+<p>Les sites commencent à utiliser des technologies comme AJAX, JavaScript et PHP, permettant des pages dynamiques sans rechargement complet.</p>
+<p>L’utilisateur peut commenter, liker, partager, publier, ou modifier le contenu.</p>
+<p>Exemple : YouTube (2005) permet d’uploader et de commenter des vidéos ; Wikipedia (2001) permet d’éditer les articles.</p>
+<h6 class="rubric" id="essor-des-reseaux-sociaux">Essor des réseaux sociaux</h6>
+<p>MySpace (2003), Facebook (2004), Twitter (2006) et plus tard Instagram (2010) changent la manière dont on communique.</p>
+<p>Le web devient un espace d’expression personnelle et de mise en réseau.</p>
+<p>On passe d’un web “lecture seule” à un web “lecture-écriture”.</p>
+<p>Les utilisateurs deviennent aussi des producteurs de contenu — ce qu’on appelle le User Generated Content (UGC).</p>
+<h6 class="rubric" id="partage-et-collaboration">Partage et Collaboration</h6>
+<p>Explosion des blogs et wikis.</p>
+<p>Les internautes participent à des projets collaboratifs : open source, encyclopédies, forums, plateformes de création.</p>
+<p>Apparition du concept de communauté en ligne.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Prendre l’exemple du discord pour illustrer la collaboration et le partage</p>
+</div>
+<h6 class="rubric" id="nouveaux-modeles-economiques">Nouveaux modèles économiques</h6>
+<p>Les géants du Web 2.0 (Google, Facebook, YouTube) basent leur modèle sur la publicité ciblée et la collecte de données.</p>
+<p>Le contenu devient gratuit, mais financé par l’attention des utilisateurs.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Introduire les GAFAM</p>
+</div>
+<h5 class="rubric" id="web-3-0">Web 3.0</h5>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Aborder brièvement</p>
+</div>
+</div>
+<div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 800%; padding-top: 0; height: 0;"><iframe title="Chronologie" frameborder="0" width="500" height="4000" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/690389bfff652f629e0f6a55" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+</div>
+</div>
+</div>
 </section>
 </section>
 <section id="site-web">
@@ -1071,6 +1211,19 @@ Comment ? (💪)</label><div class="sd-tab-content docutils">
 </div>
 </div>
 </div>
+</section>
+<section id="comment-ca-marche">
+<h4>Comment ça marche ?<a class="headerlink" href="#comment-ca-marche" title="Link to this heading">#</a></h4>
+<section id="hypertext">
+<h5>Hypertext<a class="headerlink" href="#hypertext" title="Link to this heading">#</a></h5>
+</section>
+<section id="standarts">
+<h5>Standarts<a class="headerlink" href="#standarts" title="Link to this heading">#</a></h5>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>W3C</p>
+</div>
+</section>
 </section>
 </section>
 <section id="e-commerce">
@@ -1115,6 +1268,13 @@ Tendances actuelles : IA, personnalisation, livraisons rapides (Amazon Prime, dr
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Insérer présentation Ines</p>
+</div>
+<ul class="simple">
+<li><p><a class="reference external" href="https://spaces.statista.com/a0b905a81d594a8184a991f97298b375.pdf" rel="noreferrer" target="_blank">Consumer trends</a></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Intégrer le rapport et commenter</p>
 </div>
 </section>
 </section>
@@ -1467,18 +1627,15 @@ Tendances actuelles : IA, personnalisation, livraisons rapides (Amazon Prime, dr
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#world-wibe-web">🕸️ World Wibe Web</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#invention">Invention</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#evolution">Evolution</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#aujourd-hui">Aujourd’hui</a><ul class="nav section-nav flex-column">
-<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#comment-ca-marche">Comment ça marche ?</a><ul class="nav section-nav flex-column">
-<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#hypertext">Hypertext</a></li>
-<li class="toc-h6 nav-item toc-entry"><a class="reference internal nav-link" href="#standarts">Standarts</a></li>
-</ul>
-</li>
-</ul>
-</li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#site-web">💻 Site Web</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#parlons-en">Parlons-en</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#comment-ca-marche">Comment ça marche ?</a><ul class="nav section-nav flex-column">
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#hypertext">Hypertext</a></li>
+<li class="toc-h5 nav-item toc-entry"><a class="reference internal nav-link" href="#standarts">Standarts</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#e-commerce">🛒 E-Commerce</a><ul class="nav section-nav flex-column">

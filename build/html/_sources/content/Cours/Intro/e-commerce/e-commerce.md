@@ -30,7 +30,8 @@
 
 ✍  - Vincent <br> 
 🚧 - En cours<br>
-🔨 - 22/09/2025    
+🔨 - 22/09/2025 
+⭐ - 9
 🕑 - 1 h <br>
 
  
@@ -62,24 +63,63 @@
 :::{grid-item}
 :columns: 8
 
-<div id="div-no-colour"> 
+<br>
 
 <p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
 
+<br>
+<br>
+
+<div class="OP-slider">
+<button class="OP-nav-btn OP-left" id="OP-prev">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
 
 
-- ⭐ Objectif 1
-- ⭐ ⭐ Objectif 2
-- ⭐ ⭐ ⭐ Objectif 3
-
-    
-```{note}
-
-Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)
-
-```
-
+<div class="OP-stage" id="OP-stage">
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Identifier les principaux concepts liés au web.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Lister les grandes étapes de l’évolution du web et du e-commerce.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Nommer les principaux acteurs du web.</p></div>
+</article>
+<article class="OP-card" >
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Expliquer le fonctionnement général d’un site web et d’une boutique en ligne</p></div>
+</article>
+<article class="OP-card" >
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Décrire les différences entre web statique et web dynamique.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Reformuler les modèles économiques du e-commerce (B2B, B2C, C2C, marketplaces)</p></div>
+</article>
 </div>
+
+
+<button class="OP-nav-btn OP-right" id="OP-next">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
+</div>
+
+
+
+<script src="../../../../_static/scripts/OP-slider.js">
+
+</script>
+
+
  
 :::
 
@@ -115,6 +155,8 @@ Enumérer les différents objectifs pédagogiques (star classification avec diff
     
 ::::
 
+<br>
+<br>
 
 - **Liens** : {bdg-link-danger}`🎓 Dev-Web Intégrer <../../../Diplome/Competences/Dev-Web/Integrer.html#dev-focus>`
 
@@ -394,6 +436,21 @@ name: internet-schema-2c
 
 :::::{tab-item} Pour échanger en réseau
 
+<br>
+
+Arpanet est le premier réseau à transfert de paquets de données conçu aux États-Unis.
+
+```{figure} Docs/Arpanet_logical_map,_march_1977.png
+---
+width: 100%
+align: center
+name: Arpanet_logical_map,_march_1977
+---
+[Source](https://fr.wikipedia.org/wiki/ARPANET)
+```
+
+<br>
+
 
 ```{figure} Docs/OSI_Model_v1.svg
 ---
@@ -403,14 +460,6 @@ name: OSI_Model_v1
 ---
 [Source](#)
 ```
-
-:::::
-
-
-:::::{tab-item} Comment ? (💪)
-
-
-<p class="p-emphase">Comment ça marche tout ça ?</p>
 
 
 - Protocole **TCP/IP**
@@ -423,6 +472,44 @@ Recup image protocoles
 
 Communication physique ou non
 
+
+:::::
+
+
+:::::{tab-item} Comment ? 
+
+<br>
+
+<p class="p-emphase">Comment ça marche tout ça ?</p>
+
+<br>
+
+```{note}
+
+Inclure les différents termes dans le glossaire
+
+```
+
+
+| Concept                  | Rôle principal                                | Exemple                                                |
+| ------------------------ | --------------------------------------------- | ------------------------------------------------------ |
+| **Internet**             | Réseau mondial d’ordinateurs                  | Connexion entre serveurs et clients                    |
+| **Web**                  | Service d’échange d’informations sur Internet | Sites web, applications web                            |
+| **Nom de domaine**       | Identifie un site web                         | openai.com                                             |
+| **Hébergement**          | Stocke les fichiers du site                   | OVH, Ionos                                             |
+| **Navigateur**           | Permet d’afficher les pages                   | Chrome, Firefox                                        |
+| **Protocole HTTP/HTTPS** | Permet la communication                       | [https://www.wikipedia.org](https://www.wikipedia.org) |
+| **Serveur web**          | Fournit les pages demandées                   | Apache, Nginx                                          |
+| **Adresse IP / DNS**     | Localise les serveurs                         | 192.168.1.1                                            |
+| **Langages web**         | Construisent les sites                        | HTML, CSS, JS                                          |
+
+
+
+```{note}
+
+Créer une activité. Schéma globale qui reprend tout les éléments suivany
+
+```
 
 :::::
 
@@ -521,6 +608,8 @@ Communication physique ou non
     
 ::::
 
+- Explication site web statique
+
 
 #### Evolution
 
@@ -536,24 +625,88 @@ Communication physique ou non
 
 
 
-#### Aujourd'hui
+::::{grid} 2
 
+:::{grid-item}
+:columns: 8
 
-##### Comment ça marche ?
+##### Web 2.0
 
-
-
-###### Hypertext
-
-
-
-###### Standarts
+- Années 2003 - 2005 : explosion du web 2.0 (interactivité, réseaux sociaux)
 
 ```{note}
 
-W3C
+Expliquer l'évolution
 
 ```
+
+###### Interactivité
+
+Les sites commencent à utiliser des technologies comme AJAX, JavaScript et PHP, permettant des pages dynamiques sans rechargement complet.
+
+L’utilisateur peut commenter, liker, partager, publier, ou modifier le contenu.
+
+Exemple : YouTube (2005) permet d’uploader et de commenter des vidéos ; Wikipedia (2001) permet d’éditer les articles.
+
+###### Essor des réseaux sociaux
+
+MySpace (2003), Facebook (2004), Twitter (2006) et plus tard Instagram (2010) changent la manière dont on communique.
+
+Le web devient un espace d’expression personnelle et de mise en réseau.
+
+On passe d’un web “lecture seule” à un web “lecture-écriture”.
+
+Les utilisateurs deviennent aussi des producteurs de contenu — ce qu’on appelle le User Generated Content (UGC).
+
+
+###### Partage et Collaboration 
+
+Explosion des blogs et wikis.
+
+Les internautes participent à des projets collaboratifs : open source, encyclopédies, forums, plateformes de création.
+
+Apparition du concept de communauté en ligne.
+
+```{note}
+
+Prendre l'exemple du discord pour illustrer la collaboration et le partage 
+
+```
+
+###### Nouveaux modèles économiques
+
+Les géants du Web 2.0 (Google, Facebook, YouTube) basent leur modèle sur la publicité ciblée et la collecte de données.
+
+Le contenu devient gratuit, mais financé par l’attention des utilisateurs.
+
+```{note}
+
+Introduire les GAFAM
+
+```
+
+##### Web 3.0
+
+```{note}
+
+Aborder brièvement
+
+```
+
+
+
+:::
+
+:::{grid-item}
+:columns: 4
+
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 800%; padding-top: 0; height: 0;"><iframe title="Chronologie" frameborder="0" width="500" height="4000" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/690389bfff652f629e0f6a55" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+
+
+:::
+
+::::
+
 
 
 ### 💻 Site Web
@@ -592,6 +745,23 @@ Utiliser format flash card
 :::
     
 ::::
+
+
+#### Comment ça marche ?
+
+
+
+##### Hypertext
+
+
+
+##### Standarts
+
+```{note}
+
+W3C
+
+```
 
 
 ### 🛒 E-Commerce
@@ -651,6 +821,13 @@ Tendances actuelles : IA, personnalisation, livraisons rapides (Amazon Prime, dr
 
 Insérer présentation Ines
 
+```
+
+- [Consumer trends](https://spaces.statista.com/a0b905a81d594a8184a991f97298b375.pdf)
+
+```{note}
+
+Intégrer le rapport et commenter
 
 ```
 

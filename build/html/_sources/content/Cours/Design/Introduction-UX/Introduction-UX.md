@@ -4,7 +4,8 @@
 
 ***
 
-<br>
+
+## 🏄 Avant de Commencer 
 
 ::::{grid} 3
 
@@ -38,6 +39,70 @@
 :::
     
 ::::
+
+***
+
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+<div id="div-no-colour"> 
+
+<p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
+
+
+
+- ⭐ Objectif 1
+- ⭐ ⭐ Objectif 2
+- ⭐ ⭐ ⭐ Objectif 3
+
+    
+```{note}
+
+Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)
+
+```
+
+</div>
+ 
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+
+<p class="p-emphase"><strong>Sommaire</strong></p>
+
+[🧠 **La Théorie**](#la-theorie)
+
+- 🌐 Internet
+- 🕸️ World Wibe Web
+- 💻 Site Web
+- 🛒 E-Commerce
+- 💑 Le Consommateur
+
+<br>
+<br>
+
+[💪 **Mise En Pratique**](#mise-en-pratique)
+
+- Activité A
+- Activité A
+
+</div> 
+
+<br>
+    
+:::
+    
+::::
+
 
 - **Liens** : {bdg-link-danger}`🎓 Interfaces & Prototypages <../../../Diplome/Competences/Graphisme/Interfaces.html#UX-focus>`
 
@@ -108,9 +173,9 @@ Parler des chapitres eco-conception et accessibilité qui sont dans la partie Bo
 ```
 
 
+## 🧠 La Théorie
 
-
-## Le Design ?
+### 💡 Le Design ?
 
 ```{note}
 
@@ -118,7 +183,10 @@ Introduction sur le design général et les différentes méthodes de Design
 
 ```
 
-### Les Lois de l'UX
+#### UX vs UI Design
+
+
+#### Les Lois de l'UX
 
 
 ```{note}
@@ -128,9 +196,9 @@ Extraire les infos du document suivant [Lawsofux](https://lawsofux.com/)
 ```
 
 
-## Design System
+### Design System
 
-### Un example
+#### Un example
 
 <iframe src="https://www.behance.net/embed/project/128860125?ilo0=1" height="500" width="100%" allowfullscreen lazyload frameborder="0" allow="clipboard-write" refererPolicy="strict-origin-when-cross-origin"></iframe>
 
@@ -142,32 +210,13 @@ Extraire les infos du document suivant [Lawsofux](https://lawsofux.com/)
 
 
 
-### Atomic Design
+#### Atomic Design
 
 - [blog-ux.com](https://blog-ux.com/quest-ce-que-latomic-design/)
 
-## Ressources
-
-- [15 Tips for Better Signup / Login UX](https://www.learnui.design/blog/tips-signup-login-ux.html)
-
-- [Usabilis.com](https://www.usabilis.com/experience-map-carte-dexperience/?utm_source=blog_ux&utm_medium=referent&utm_id=info)
-
-```{note}
-
-Pas mal de templates a télécharger
 
 
-```
-
-- [uxpressia.com](https://uxpressia.com/)
-
-```{note}
-
-Des templates pour faciliter la définition de l'UX
-
-```
-
-## Synthèse
+### Synthèse
 
 ::::{grid} 4
 
@@ -248,9 +297,9 @@ Créer des flash cards avec les différentes critères de Bastien et scapin
 
 ```
 
-## Sections
+### Sections
 
-### Hero section
+#### Hero section
 
 ```{note}
 
@@ -259,4 +308,134 @@ Inclure vidéo - hero section.
 Créer un lien vers la section vidéo pour la diminution de la taille et les différents formats vidéo ...
 
 ```
+
+## 💪 Mise En Pratique
+
+
+## 📈 Pour Finir
+
+### Conclusion
+
+```{note}
+
+Conclusion plus fiche résumé (production collaborative ? Framanote ?) - produire un pdf exportable
+
+```
+
+### Test 
+
+#### Tes Connaissances
+
+```{note}
+
+Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregistre la progression de l'apprenant et offre une collection de badge !! 
+
+```
+
+
+#### Ton Projet
+
+::::{grid} 2
+
+:::{grid-item-card}
+:columns: 6
+
+**Dossier Projet**
+
+^^^
+
+- Livrable 1
+
+:::
+
+
+:::{grid-item-card}
+:columns: 6
+
+**Présentation Canva**
+
+^^^
+
+- Livrable 1
+    
+:::
+    
+::::
+
+
+### Sources
+
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+- [Lister](#) 
+
+    
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<p class="p-emphase"><strong>Glossaire</strong></p>
+
+```{note}
+
+termes du glossaire
+
+```
+
+:::
+    
+::::
+
+
+**Liste Figures**
+
+
+```{note}
+
+Référencer les figures de la page ?
+
+```
+
+#### Plus de Ressources
+
+- [15 Tips for Better Signup / Login UX](https://www.learnui.design/blog/tips-signup-login-ux.html)
+
+- [Usabilis.com](https://www.usabilis.com/experience-map-carte-dexperience/?utm_source=blog_ux&utm_medium=referent&utm_id=info)
+
+```{note}
+
+Pas mal de templates a télécharger
+
+
+```
+
+- [uxpressia.com](https://uxpressia.com/)
+
+```{note}
+
+Des templates pour faciliter la définition de l'UX
+
+```
+
+
+
+
+### Commentaires
+
+```{note}
+
+Lien vers formulaire de feedback + possibilité de donner son avis dans les commentaires.
+
+```
+
+
+## Notes pendant le cours
+
 

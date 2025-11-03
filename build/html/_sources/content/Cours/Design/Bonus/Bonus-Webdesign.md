@@ -81,3 +81,15 @@ Délivre des awards pour des vidéos
 ## Outils IA
 
 - [visily](https://www.visily.ai/)
+
+
+## Investisements
+
+- [Design Templates](https://shop.stephaniewalter.design/)
+
+
+```{note}
+
+Est-ce que ca vaudrait pas le coup d'investir dans ce genre de templates ?
+
+```

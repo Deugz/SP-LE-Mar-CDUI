@@ -4,7 +4,8 @@
 
 ***
 
-<br>
+
+## 🏄 Avant de Commencer 
 
 ::::{grid} 3
 
@@ -38,6 +39,70 @@
 :::
     
 ::::
+
+***
+
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+<div id="div-no-colour"> 
+
+<p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
+
+
+
+- ⭐ Objectif 1
+- ⭐ ⭐ Objectif 2
+- ⭐ ⭐ ⭐ Objectif 3
+
+    
+```{note}
+
+Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)
+
+```
+
+</div>
+ 
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+
+<p class="p-emphase"><strong>Sommaire</strong></p>
+
+[🧠 **La Théorie**](#la-theorie)
+
+- 🌐 Internet
+- 🕸️ World Wibe Web
+- 💻 Site Web
+- 🛒 E-Commerce
+- 💑 Le Consommateur
+
+<br>
+<br>
+
+[💪 **Mise En Pratique**](#mise-en-pratique)
+
+- Activité A
+- Activité A
+
+</div> 
+
+<br>
+    
+:::
+    
+::::
+
 
 - **Liens** : {bdg-link-danger}`🎓 Interfaces & Prototypages <../../../Diplome/Competences/Graphisme/Interfaces.html#navigation-focus>` {bdg-link-danger}`🎓 Optimiser <../../../Diplome/Competences/Dev-Web/Optimiser.html#navigation-focus2>`
 
@@ -101,11 +166,34 @@
 :::::
 
 
+## 🧠 La Théorie
 
+### 🧭 Parcours Utilisateur
 
-## Parcours Utilisateur
+<p class="p-emphase"><em>Ou voulez-vous emmener votre Utilisateur ?</em></p>
+
 
 - [blog-ux.com](https://blog-ux.com/quest-ce-que-le-parcours-utilisateur/)
+
+
+```{note}
+
+S'inspirer de la ressource ci-dessus
+
+
+```
+
+
+```{note}
+
+Idée activité : Se mettre dans la peau de son persona et imaginer son interaction avec notre site
+- dans quel situation
+- pour quelle utilité
+- etc
+
+```
+
+
 
 ### Arborescence
 
@@ -123,13 +211,123 @@ A fin de construire votre arborescence, je vous invite à consulter le document 
 - [Lois d'UX](https://blog.hubspot.fr/website/lois-ux)
 
 
-## Synthèse
-
-## Ressource complémentaires
-
-- 
 
 
+## 💪 Mise En Pratique
+
+### Le Persona Personnifié
+
+```{note}
+
+Se mettre dans la peau de son persona et inventer une histoire qui emmene l'utilisateur sur son site
+- Coucours de l'histoire la plus inventive gagne quelque chose pour stimuler la créativité
+
+```
+
+## 📈 Pour Finir
+
+### Conclusion
+
+```{note}
+
+Conclusion plus fiche résumé (production collaborative ? Framanote ?) - produire un pdf exportable
+
+```
+
+### Test 
+
+#### Tes Connaissances
+
+```{note}
+
+Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregistre la progression de l'apprenant et offre une collection de badge !! 
+
+```
+
+
+#### Ton Projet
+
+::::{grid} 2
+
+:::{grid-item-card}
+:columns: 6
+
+**Dossier Projet**
+
+^^^
+
+- Livrable 1
+
+:::
+
+
+:::{grid-item-card}
+:columns: 6
+
+**Présentation Canva**
+
+^^^
+
+- Livrable 1
+    
+:::
+    
+::::
+
+
+### Sources
+
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+- [Lister](#) 
+
+    
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<p class="p-emphase"><strong>Glossaire</strong></p>
+
+```{note}
+
+termes du glossaire
+
+```
+
+:::
+    
+::::
+
+
+**Liste Figures**
+
+
+```{note}
+
+Référencer les figures de la page ?
+
+```
+
+#### Plus de Ressources
+
+
+### Commentaires
+
+```{note}
+
+Lien vers formulaire de feedback + possibilité de donner son avis dans les commentaires.
+
+```
+
+
+### Notes pendant le cours
 
 
 

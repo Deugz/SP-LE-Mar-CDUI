@@ -350,6 +350,11 @@ a.reference.internal:hover > span.xref.std.std-term {
   color: orange;
 }
 
+.img-float-right {
+  float: right;
+  margin: 1em;
+}
+
 
 
 

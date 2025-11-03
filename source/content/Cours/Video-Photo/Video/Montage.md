@@ -4,7 +4,7 @@
 
 ***
 
-<br>
+## 🏄 Avant de Commencer 
 
 ::::{grid} 3
 
@@ -39,6 +39,69 @@
 :::
     
 ::::
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+<div id="div-no-colour"> 
+
+<p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
+
+
+
+- ⭐ Objectif 1
+- ⭐ ⭐ Objectif 2
+- ⭐ ⭐ ⭐ Objectif 3
+
+    
+```{note}
+
+Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)
+
+```
+
+</div>
+ 
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+
+<p class="p-emphase"><strong>Sommaire</strong></p>
+
+[🧠 **La Théorie**](#la-theorie)
+
+- 🌐 Internet
+- 🕸️ World Wibe Web
+- 💻 Site Web
+- 🛒 E-Commerce
+- 💑 Le Consommateur
+
+<br>
+<br>
+
+[💪 **Mise En Pratique**](#mise-en-pratique)
+
+- Activité A
+- Activité A
+
+</div> 
+
+<br>
+    
+:::
+    
+::::
+
 
 - **Liens** : {bdg-link-danger}`🎓 Animations Vidéo <../../../Diplome/Competences/Graphisme/Animations.html#montage-focus>` 
 
@@ -103,21 +166,12 @@ Pas le bon support mais quelques documents sur le drive
 
 :::::
 
-## Cours
 
+## 🧠 La Théorie
 
+### Exemples 
 
-
-
-
-
-
-
-
-
-## Exemples 
-
-### Professionels
+#### Professionels
 
 ::::{grid} 2
 
@@ -137,9 +191,9 @@ Pas le bon support mais quelques documents sur le drive
 
 ::::
 
-### Apprenants
+#### Apprenants
 
-#### Soula
+##### Soula
 
 ::::{grid} 3
 
@@ -163,7 +217,7 @@ Pas le bon support mais quelques documents sur le drive
 ::::
 
 
-#### Mahran
+##### Mahran
 
 ::::{grid} 3
 
@@ -187,16 +241,136 @@ Pas le bon support mais quelques documents sur le drive
 ::::
 
 
-## Effets
+### Effets
 
-### Speed Ramp
+#### Speed Ramp
 
 - [Tuto Youtube](https://youtube.com/shorts/XxhMb5h_z10?si=jMwZ6T8SPiU8VJqy)
 
 
-## Synthèse
+### Synthèse
 
 
-### IA Générative
+#### IA Générative
 
 - [REX de l'utilisation de l'IA dans les écoles de Design](https://etienne.design/2023/01/27/ai-2-ecole/)
+
+## 💪 Mise En Pratique
+
+
+
+```{note}
+
+Quelles activités ?
+
+- check trello
+
+```
+
+
+## 📈 Pour Finir
+
+### Conclusion
+
+```{note}
+
+Conclusion plus fiche résumé (production collaborative ? Framanote ?) - produire un pdf exportable
+
+```
+
+### Test 
+
+#### Tes Connaissances
+
+```{note}
+
+Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregistre la progression de l'apprenant et offre une collection de badge !! 
+
+```
+
+
+#### Ton Projet
+
+::::{grid} 2
+
+:::{grid-item-card}
+:columns: 6
+
+**Dossier Projet**
+
+^^^
+
+- Livrable 1
+
+:::
+
+
+:::{grid-item-card}
+:columns: 6
+
+**Présentation Canva**
+
+^^^
+
+- Livrable 1
+    
+:::
+    
+::::
+
+
+### Sources
+
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+- [Lister](#) 
+
+    
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<p class="p-emphase"><strong>Glossaire</strong></p>
+
+```{note}
+
+termes du glossaire
+
+```
+
+:::
+    
+::::
+
+
+**Liste Figures**
+
+
+```{note}
+
+Référencer les figures de la page ?
+
+```
+
+#### Plus de Ressources
+
+
+### Commentaires
+
+```{note}
+
+Lien vers formulaire de feedback + possibilité de donner son avis dans les commentaires.
+
+```
+
+
+### Notes pendant le cours
+
+

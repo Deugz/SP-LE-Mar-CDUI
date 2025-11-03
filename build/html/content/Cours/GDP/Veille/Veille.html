@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2025-10-13T10:04:27+02:00" />
+    <meta property="article:modified_time" content="2025-10-26T12:40:45+01:00" />
     <title>3 - Système de Veille &#8212; Label Ecole V0 0.0.1 documentation</title>
   
   
@@ -41,12 +41,14 @@
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/tooltipster-sideTip-borderless.min.css?v=dbff53e4" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/micromodal.css?v=d7bf34ee" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/sphinx-design.min.css?v=95c83b7e" />
-    <link rel="stylesheet" type="text/css" href="../../../../_static/css/custom_style.css?v=3af8f44c" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/custom_style.css?v=55d4e83b" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/slider.css?v=31e19075" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/flash-card.css?v=d4949c41" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/sliding-image.css?v=6628c2e1" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/modal.css?v=ac63beef" />
     <link rel="stylesheet" type="text/css" href="../../../../_static/css/productivity.css?v=cdaf373b" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/OP-slider.css?v=658ff4f1" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/CG-style.css?v=8fca7ff8" />
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@400;700&display=swap" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
@@ -85,6 +87,8 @@
     <script src="../../../../_static/scripts/ga.js?v=c7c7aaaf"></script>
     <script src="../../../../_static/scripts/pomodoro.js?v=d9a168de"></script>
     <script src="../../../../_static/scripts/step-counter.js?v=49667bb6"></script>
+    <script src="../../../../_static/scripts/OP-slider.js?v=5f6fa32e"></script>
+    <script src="../../../../_static/_static/scripts/CG-script.js"></script>
     <link rel="canonical" href="https://deugz.github.io/SP-LE-Mar-CDUI/build/html/index.html/content/Cours/GDP/Veille/Veille.html" />
     <link rel="icon" href="../../../../_static/Label-Ecole-Logo.png"/>
     <link rel="index" title="Index" href="../../../../genindex.html" />
@@ -93,7 +97,7 @@
     <link rel="prev" title="2 - Cahier des charges" href="../CDC/CDC.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="13 October 2025"/>
+    <meta name="docbuild:last-update" content="26 October 2025"/>
   </head>
   
   
@@ -686,18 +690,87 @@ document.write(`
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-3 sd-row-cols-xs-3 sd-row-cols-sm-3 sd-row-cols-md-3 sd-row-cols-lg-3 docutils">
 <div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
-<div id="div-no-colour"> 
+<br>
 <p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
-<ul class="simple">
-<li><p>⭐ Objectif 1</p></li>
-<li><p>⭐ ⭐ Objectif 2</p></li>
-<li><p>⭐ ⭐ ⭐ Objectif 3</p></li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)</p>
+<br>
+<br>
+<div class="OP-slider">
+<button class="OP-nav-btn OP-left" id="OP-prev">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M15 18l-6-6 6-6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
+<div class="OP-stage" id="OP-stage">
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Identifier les différents types de veille (concurrentielle, technologique, créative, sectorielle, UX/UI, juridique).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Lister les outils de veille disponibles (Feedly, Inoreader, Behance, Dribbble, Pinterest, Google Alerts, Talkwalker, etc.).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-1">Mémoriser</div>
+<div class="OP-content"><p>⭐</p><p>Reconnaître les étapes de mise en place d’un système de veille.</p></div>
+</article>
+<article class="OP-card" >
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Expliquer les objectifs et bénéfices d’une veille dans un projet web ou UI (anticipation, innovation, différenciation).</p></div>
+</article>
+<article class="OP-card" >
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Décrire les sources pertinentes pour sa veille selon le secteur (blogs, réseaux, newsletters, plateformes de design, etc.).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-2">Comprendre</div>
+<div class="OP-content"><p>⭐⭐</p><p>Reformuler les informations recueillies dans un langage clair et synthétique.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-3">Appliquer</div>
+<div class="OP-content"><p>⭐⭐⭐</p><p>Configurer un outil ou tableau de veille personnalisé selon une thématique choisie.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-3">Appliquer</div>
+<div class="OP-content"><p>⭐⭐⭐</p><p>Sélectionner et catégoriser les informations pertinentes issues de la veille.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-3">Appliquer</div>
+<div class="OP-content"><p>⭐⭐⭐</p><p>Partager régulièrement sa veille (newsletter, padlet, document collaboratif, Slack, Notion…).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-4">Analyser</div>
+<div class="OP-content"><p>⭐⭐⭐⭐</p><p>Identifier les tendances émergentes du design, du web ou du e-commerce à partir des données collectées.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-4">Analyser</div>
+<div class="OP-content"><p>⭐⭐⭐⭐</p><p>Comparer les approches concurrentes ou créatives observées (ton, identité, ergonomie, innovation, positionnement).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-5">Évaluer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐</p><p>Évaluer la pertinence et la fiabilité des sources utilisées.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-5">Évaluer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐</p><p>Mesurer la valeur ajoutée de la veille dans son projet de conception (inspiration, innovation, différenciation).</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-6">Créer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐⭐</p><p>Concevoir un tableau de veille complet (créative et concurrentielle) en lien avec son projet UI.</p></div>
+</article>
+<article class="OP-card">
+<div class="OP-media" id="OP-6">Créer</div>
+<div class="OP-content"><p>⭐⭐⭐⭐⭐⭐</p><p>Produire une synthèse visuelle ou un rapport de veille (infographie, moodboard, mapping, présentation orale).</p></div>
+</article>
 </div>
+<button class="OP-nav-btn OP-right" id="OP-next">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+<path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>
 </div>
+<script src="../../../../_static/scripts/OP-slider.js">
+
+</script>
 </div>
 <div class="sd-col sd-d-flex-column sd-col-4 sd-col-xs-4 sd-col-sm-4 sd-col-md-4 sd-col-lg-4 docutils">
 <div id="div-colour"> 
@@ -722,6 +795,8 @@ document.write(`
 </div>
 </div>
 </div>
+<br>
+<br>
 <ul class="simple">
 <li><p><strong>Liens</strong> : <a class="sd-sphinx-override sd-badge sd-bg-danger sd-bg-text-danger reference external" href="../../../Diplome/Competences/Communication/veille.html#veille-focus" rel="noreferrer" target="_blank"><span>🎓 Système de Veille</span></a> <a class="sd-sphinx-override sd-badge sd-bg-danger sd-bg-text-danger reference external" href="../../../Diplome/Competences/Graphisme/Illustration.html#veille-focus2" rel="noreferrer" target="_blank"><span>🎓 Illustrations, Graphismes, Visuels</span></a></p></li>
 </ul>

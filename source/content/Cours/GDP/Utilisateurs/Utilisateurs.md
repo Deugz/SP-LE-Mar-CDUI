@@ -266,8 +266,6 @@ Parler de l'age en décrivant la statistique suivante et expliquer pourquoi une 
 <a href="https://fr.statista.com/statistiques/472293/population-totale-par-groupe-dage-france/" rel="nofollow"><img src="https://fr.statista.com/graphique/1/472293/population-totale-par-groupe-dage-france.jpg" alt="Statistique: Nombre d'habitants en France au 1er janvier 2025, selon la tranche d'âge et le sexe  | Statista" style="width: 100%; height: auto !important; max-width:1000px;-ms-interpolation-mode: bicubic;"/></a><br />Trouver plus de statistiques sur  <a href="https://fr.statista.com" rel="nofollow">Statista</a>
 
 
-<iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;" src="https://fr.statista.com/statistiques/472293/population-totale-par-groupe-dage-france/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
-
 ::::::{tab-set}
 
 :::::{tab-item}  2013 > aujourd’hui

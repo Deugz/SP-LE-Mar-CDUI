@@ -4,7 +4,7 @@
 
 ***
 
-<br>
+## 🏄 Avant de Commencer 
 
 ::::{grid} 3
 
@@ -39,6 +39,69 @@
 :::
     
 ::::
+
+***
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+<div id="div-no-colour"> 
+
+<p class="p-emphase"><strong>Objectifs Pédagogiques</strong></p>
+
+
+
+- ⭐ Objectif 1
+- ⭐ ⭐ Objectif 2
+- ⭐ ⭐ ⭐ Objectif 3
+
+    
+```{note}
+
+Enumérer les différents objectifs pédagogiques (star classification avec difficulté taxonomie de bloom)
+
+```
+
+</div>
+ 
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<div id="div-colour"> 
+
+<p class="p-emphase"><strong>Sommaire</strong></p>
+
+[🧠 **La Théorie**](#la-theorie)
+
+- 🌐 Internet
+- 🕸️ World Wibe Web
+- 💻 Site Web
+- 🛒 E-Commerce
+- 💑 Le Consommateur
+
+<br>
+<br>
+
+[💪 **Mise En Pratique**](#mise-en-pratique)
+
+- Activité A
+- Activité A
+
+</div> 
+
+<br>
+    
+:::
+    
+::::
+
 
 :::{dropdown} Syllabus
 
@@ -98,7 +161,9 @@ A venir
 
 :::::
 
-## A inclure
+## 🧠 La Théorie
+
+### A inclure
 
 - [Google page speed](https://pagespeed.web.dev/?utm_source=psi&utm_medium=redirect)
 
@@ -121,23 +186,23 @@ Outil pour checker la pertinence des mots clés
 
 ***
 
-## Introduction
+### Introduction
 
 - [Vidéo Youtube](https://www.youtube.com/watch?v=LVV_93mBfSU)
 
 
 
 
-## Intégrer le SEO dans la stratégie marketing de son projet
+### Intégrer le SEO dans la stratégie marketing de son projet
 
-### SEO ?
+#### SEO ?
 
 <p class="p-emphase"><strong>S</strong>earch <strong>E</strong>ngine <strong>O</strong>ptimization
 </p>
 
 Ensemble des techniques mises en oeuvre pour améliorer la position d’un site web sur les pages de résultats des moteurs de recherche de manière “*naturelle*”.
 
-### Robot, crawler, spider ou agent
+#### Robot, crawler, spider ou agent
 
 Au départ de toute indexation se trouve un logiciel appelé robot, spider, agent ou crawler. Celui de Google s’appelle Googlebot, celui de Bing, Bingbot, celui de Yahoo ! Slurp, etc. Ces robots ne savent faire que deux choses :
 - Suivre (cliquer sur) des liens pour naviguer de page en page ou en appelant le sitemaps
@@ -152,7 +217,7 @@ intégrer image process-1
 
 ```
 
-#### Algorithme
+##### Algorithme
 
 <p class="p-emphas">Un algorithme est une suite finie et non ambiguë d'instructions et d’opérations permettant de résoudre une classe de problèmes</p>
 
@@ -252,7 +317,7 @@ Trouver un example de page
 :::::
 
 
-### SERP
+#### SERP
 
 <p class="p-emphase"><strong>S</strong>earch <strong>E</strong>ngine <strong>R</strong>esult <strong>P</strong>age
 </p>
@@ -279,7 +344,7 @@ Insérer un example de pages avec les différentes infos mentionnées
 
 ```
 
-#### Composition de la SERP
+##### Composition de la SERP
 
 <p class="p-emphase">SEA vs SEO</p>
 
@@ -290,9 +355,9 @@ créer une grille avec les deux images
 ```
 
 
-### Les bases du Web
+#### Les bases du Web
 
-#### Nom de domaine & URLs
+##### Nom de domaine & URLs
 
 ::::{grid} 2
 
@@ -324,7 +389,7 @@ Anatomie d'une URL
 ::::
 
 
-#### Comment Google visite mon site ?
+##### Comment Google visite mon site ?
 
 Une fois le texte optimisé il reste une balise très importante afin de laisser Google
 Accéder à cette page, cette balise est située dans la partie `<head>` de la page.
@@ -398,9 +463,9 @@ Le problème vient du server, le site est inaccessible pour quiconque depuis les
 :::::
 
 
-#### En Pratique
+##### En Pratique
 
-##### Robots.txt
+###### Robots.txt
 
 Un fichier robots.txt permet de gérer les activités des robots d'exploration du web afin qu'ils ne surchargent pas votre site web ou n'indiquent pas des pages qui ne sont pas destinées à être vues par le public.
 
@@ -408,7 +473,7 @@ En effet, les robots peuvent avoir accès à des fichiers de codes qu’ils ne s
 
 - [Documentation officielle de Google sur le robots.txt](https://developers.google.com/search/docs/crawling-indexing/robots/intro?hl=fr)
 
-##### Sitemap.xml
+###### Sitemap.xml
 
 Un fichier sitemap.xml permet de donner une sorte de carte de toutes les pages existantes sur le site des robots d'exploration et d'informer les moteurs de recherche des adresses d'un site web disponibles pour l'indexation automatique.
 
@@ -418,7 +483,7 @@ Pour trouver un sitemap il suffit de rajouter “/sitemap.xml” après l’url 
 
 - [Documentation officielle de Google sur le sitemap.xml](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview?hl=fr)
 
-### Les 3 Pilliers du SEO
+#### Les 3 Pilliers du SEO
 
 ```{note}
 
@@ -426,16 +491,16 @@ Flashcard ?
 
 ```
 
-## Choisir les bons mots ou expressions-clés
+### Choisir les bons mots ou expressions-clés
 
-### Qu'est-ce qu'un mot-clé
+#### Qu'est-ce qu'un mot-clé
 
 Il s'agit des expressions que les internautes utilisent dans les moteurs de recherche.
 
 En SEO, on cherche à répondre à une demande d'un internaute.
 -> Il faut identifier ce que recherchent les internautes sur la thématique qui concerne le site.
 
-### Qu'est-ce qu'un **BON** mot-clé
+#### Qu'est-ce qu'un **BON** mot-clé
 
 Un bon mot-clé doit répondre à la requête tapée par les internautes. Mais, il doit également être utile d’un point de vue business !
 
@@ -450,7 +515,7 @@ Faire une grille à la place
 ```
 
 
-### Les types de mots-clés 
+#### Les types de mots-clés 
 
 <p class="emphase">permettant de faire la <strong>Recherche</strong></p>
 
@@ -481,7 +546,7 @@ format grid
 - Le trafic est donc plus faible mais la conversion plus élevée.
 
 
-### Analyse sémantique
+#### Analyse sémantique
 
 <p class="emphase">Recherche de mots-clés <strong>pertinents</strong></p>
 
@@ -498,7 +563,7 @@ créer des flash-cartes
 
 ```
 
-## Activité ?
+### Activité ?
 
 ```{note}
 
@@ -507,9 +572,9 @@ Page 31-32 - checker comment on le met en place - on l'emmene
 ```
 
 
-## Les Outils
+### Les Outils
 
-### Keyword surfer
+#### Keyword surfer
 
 - Extension Chrome - [lien](https://chromewebstore.google.com/detail/keyword-surfer/bafijghppfhdpldihckdcadbcobikaca?pli=1)
 
@@ -519,26 +584,32 @@ Leur demander de l'installer et activer
 
 ```
 
-### Answer the public
+#### Answer the public
 
 - [lien](https://answerthepublic.com/fr)
 
 Answer the public n’est pas un outils de calcul des mots-clés !
 Ses recommandations sont un point de départ pour votre recherche
 
-### Ahref
+#### Ahref
 
 - [lien](https://ahrefs.com/fr)
 
-### SEMrush
+#### SEMrush
 
 - [lien](https://fr.semrush.com/)
 
 
+#### HeadingsMap
 
-## Activité
+Extension google chrome qui permet d'obtenir l'arborescence des titres d'une page
 
-### Trouver les mots clés
+- [Lien extension](https://chromewebstore.google.com/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?pli=1)
+
+
+### Activité
+
+#### Trouver les mots clés
 
 ```{note}
 
@@ -549,7 +620,7 @@ Ses recommandations sont un point de départ pour votre recherche
 - consigne: trouver plusieurs mots clés en lien avec votre projet
 
 
-### Trier les mots clés
+#### Trier les mots clés
 
 
 ```{warning}
@@ -558,7 +629,7 @@ Créer un fichier excel et le mettre dans le drive de chacun des apprenants
 
 ```
 
-### Créer des cocons sémantiques
+#### Créer des cocons sémantiques
 
 ```{note}
 
@@ -568,16 +639,16 @@ Insérer image
 
 
 
-### Planning éditorial
+#### Planning éditorial
 
 <p class="emphase">Outil permettant d'établir à l'avance les sujets à traiter</p>
 
 Il s'agit d'un outil de pilotage qui sert à planifier et anticiper les contenus web à produire pour une période donnée. Optimiser les sujets à traiter sur une période donnéeaz
 
 
-## Optimisation du site
+### Optimisation du site
 
-### Rédaction de contenus
+#### Rédaction de contenus
 
 **Objectif**: Identifier, rédiger et publier du contenu optimisé sur les thématiques séléctionnées.
 
@@ -588,7 +659,7 @@ Les deux grands axes du pilier contenu sont:
 - la rédaction des contenus
 
 
-### Localisation des mots clés
+#### Localisation des mots clés
 
 Insérer au moins 10 fois le mot clé principal : notamment dans la
 meta description, le title, l’Url, le H1, l’intro et le corps du texte.
@@ -599,9 +670,9 @@ Insérer image
 
 ```
 
-### Optimisation des pages
+#### Optimisation des pages
 
-#### Title
+##### Title
 
 <p class="emphase">Titre de l'article, visible dans les résultats de recherche</p>
 
@@ -617,7 +688,7 @@ title
 - Utiliser un verbe à l'infinitifpour les requêtes transactionnelles. Ex: choisir un vélo
 - **Unique**: un même title ne peut pas être utilisé pour 2 pages
 
-#### Balises Hn
+##### Balises Hn
 
 <p class="emphase">Respecter la structure des balises dédié au texte Hn</p>
 
@@ -630,7 +701,7 @@ title
 >- **H2**: titre des parties
 >- **H3**: titre des sous parties
 
-#### Meta description
+##### Meta description
 
 <p class="emphase">Petite description de l'article visible dans les résultats de recherche</p>
 
@@ -641,7 +712,7 @@ title
 - Il faut donner envie à l'internaute d'accéder à ce contenu là plutôt qu'un autre : Utiliser des termes comme "Découvrez", "Nouveau", "Incroyable".
 
 
-#### Fraicheur de la page
+##### Fraicheur de la page
 
 En cas de mise a jour d'une page, il faut penser à actualiser la date pour augmenter la confiance des internautes envers vos résultats. 
 
@@ -651,7 +722,7 @@ Automatique dans la plupart des CMS
 
 ```
 
-#### Images
+##### Images
 
 Google affiche régulièrement un bloc images qui peut vous apporter du trafic et du business intéréssant.
 
@@ -845,9 +916,9 @@ Inclure template Miro
 ::::
 
 
-## Synthèse
+### Synthèse
 
-### Veille
+#### Veille
 
 - [SEOJuice](https://seojuice.io/?ref=taaft&utm_source=taaft&utm_medium=referral)
 
@@ -857,8 +928,125 @@ Utile aussi pour le benchmark
 
 ```
 
-### Ressources
+#### Ressources
 
 - [Guide du débutant en référencement - ](https://www.francenum.gouv.fr/guides-et-conseils/communication-et-publicite/referencement/guide-du-debutant-en-referencement)
 
-- 
+## 💪 Mise En Pratique
+
+
+
+```{note}
+
+Quelles activités ?
+
+- check trello
+
+```
+
+
+## 📈 Pour Finir
+
+### Conclusion
+
+```{note}
+
+Conclusion plus fiche résumé (production collaborative ? Framanote ?) - produire un pdf exportable
+
+```
+
+### Test 
+
+#### Tes Connaissances
+
+```{note}
+
+Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregistre la progression de l'apprenant et offre une collection de badge !! 
+
+```
+
+
+#### Ton Projet
+
+::::{grid} 2
+
+:::{grid-item-card}
+:columns: 6
+
+**Dossier Projet**
+
+^^^
+
+- Livrable 1
+
+:::
+
+
+:::{grid-item-card}
+:columns: 6
+
+**Présentation Canva**
+
+^^^
+
+- Livrable 1
+    
+:::
+    
+::::
+
+
+### Sources
+
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 8
+
+- [Lister](#) 
+
+    
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<p class="p-emphase"><strong>Glossaire</strong></p>
+
+```{note}
+
+termes du glossaire
+
+```
+
+:::
+    
+::::
+
+
+**Liste Figures**
+
+
+```{note}
+
+Référencer les figures de la page ?
+
+```
+
+#### Plus de Ressources
+
+
+### Commentaires
+
+```{note}
+
+Lien vers formulaire de feedback + possibilité de donner son avis dans les commentaires.
+
+```
+
+
+### Notes pendant le cours
+

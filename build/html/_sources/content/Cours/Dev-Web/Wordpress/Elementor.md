@@ -1,5 +1,11 @@
 # Elementor
 
+```{note}
+
+Attention a ne pas télécharger de mise a jour pour élémentor pro !
+
+```
+
 ## Blog Developpeurs
 
 Vous prendrez bien une petite dose de veille n'est-ce pas ?
