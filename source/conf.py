@@ -123,6 +123,6 @@ html_theme_options = {
 
 
 html_css_files = ["css/custom_style.css", "css/slider.css", "css/flash-card.css","css/sliding-image.css", "css/modal.css", "css/productivity.css", "css/OP-slider.css","css/CG-style.css", 'https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@400;700&display=swap',]
-html_js_files = ["scripts/slider-script.js", "scripts/page-layout.js", "scripts/flash-card.js", "scripts/sliding-image.js", "scripts/custom.js", ("https://www.googletagmanager.com/gtag/js?id=G-V9S9HSF9X0",{"async": "async"}),"scripts/ga.js","scripts/pomodoro.js", "scripts/step-counter.js", "scripts/OP-slider.js", "_static/scripts/CG-script.js", "scripts/Lib/dotlottie-web.js" ]
+html_js_files = ["scripts/slider-script.js", "scripts/page-layout.js", "scripts/flash-card.js", "scripts/sliding-image.js", "scripts/custom.js", ("https://www.googletagmanager.com/gtag/js?id=G-V9S9HSF9X0",{"async": "async"}),"scripts/ga.js","scripts/pomodoro.js", "scripts/step-counter.js", "scripts/OP-slider.js", "_static/scripts/CG-script.js",]
 
     

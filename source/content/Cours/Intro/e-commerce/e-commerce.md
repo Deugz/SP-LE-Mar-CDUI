@@ -462,31 +462,6 @@ name: Arpanet_logical_map,_march_1977
 
 <br>
 
-
-<canvas id="lottieCanvasC1" width="300" height="300"></canvas>
-
-<script type="module">
-  import { DotLottie } from "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web/+esm";
-
-  const player = new DotLottie({
-    canvas: document.getElementById('lottieCanvasC1'),
-    src: '../../../../_static/lottie/C1-Order-packed.lottie',
-    autoplay: true,
-    loop: true
-  });
-</script>
-
-
-
-<script
-  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
-  type="module"
-></script>
-<dotlottie-wc src="../../../../_static/lottie/C1-connect-web-message.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc>
-
-
-
-
 <p class="p-emphase">Echanger Quoi ?</p>
 
 
@@ -499,6 +474,62 @@ donner différents usages :
 - fichier
 
 ```
+
+
+<p class="p-emphase">Transfert de Données</p>
+
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
+> Expliquer
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+<dotlottie-wc src="../../../../_static/lottie/C1-connect-web-message.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc>
+    
+:::
+    
+::::
+
+<p class="p-emphase">Encodage</p>
+
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
+> Expliquer
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+<dotlottie-wc src="../../../../_static/lottie/C1-Order-packed.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc>
+  
+:::
+    
+::::
+
 
 <p class="p-emphase">Comment</p>
 
