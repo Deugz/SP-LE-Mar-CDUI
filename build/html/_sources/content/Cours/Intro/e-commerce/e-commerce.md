@@ -463,22 +463,20 @@ name: Arpanet_logical_map,_march_1977
 <br>
 
 
-<canvas id="lottieCanvas" width="300" height="300"></canvas>
-
-<!-- Inclusion du player local -->
-<script type="module" src="../../../../_static/scripts/Lib/dotlottie-web.js"></script>
+<canvas id="lottieCanvasC1" width="300" height="300"></canvas>
 
 <script type="module">
-    import { DotLottie } from '../../../../_static/scripts/Lib/dotlottie-web.js';
+  import { DotLottie } from "https://cdn.jsdelivr.net/npm/@lottiefiles/dotlottie-web/+esm";
 
-    // Création du player
-    const player = new DotLottie({
-      canvas: document.getElementById('lottieCanvas'),
-      src: '../../../../_static/lottie/C1-Order-packed.lottie', // chemin vers ton fichier local
-      autoplay: true,
-      loop: true
-    });
+  const player = new DotLottie({
+    canvas: document.getElementById('lottieCanvasC1'),
+    src: '../../../../_static/lottie/C1-Order-packed.lottie',
+    autoplay: true,
+    loop: true
+  });
 </script>
+
+
 
 
 
