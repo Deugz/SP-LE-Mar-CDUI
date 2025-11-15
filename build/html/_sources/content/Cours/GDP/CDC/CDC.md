@@ -373,27 +373,48 @@
 
 ## 🧠 La Théorie
 
-### 💡 Trouver l'Idée
+### 🏢 le Numérique 
+
+:::::::{dropdown} Un bref historique
+
+::::::{tab-set}
+
+:::::{tab-item} 1950-1980
+
+<br>
+
+<p class="p-emphase"></p>
+
+:::::
+
+:::::::
+
+<p class="p-emphase">Numérique ou Digital ?</p>
+
+- [Article intéréssant](https://kwark.education/blog/digital-vs-numerique-quelles-sont-les-differences)
+
+#### Fabriquer un produit Digitale
+
+##### Étapes
+
+- [Modèle en cascade](https://fr.wikipedia.org/wiki/Mod%C3%A8le_en_cascade)
 
 
-#### Design Thinking
 
 
-#### Création
-
-#### De l'Idée à la Définition
-
-Tu as un projet, tu es donc désormais un *Maitre d'Ouvrage*
-
-```{note}
-
-Lien vers document veille Laszlo - Outils de Brainstorming
 
 
-```
+### 💡 Votre Projet
 
-### 🚧 Préparation
 
+####  Trouver l'Idée
+
+
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module"></script>
+<dotlottie-wc src="https://lottie.host/73c09b80-2cbd-4519-879c-f1b95e832fc3/nT2NrZDIZH.lottie" style="width: 300px;height: 300px" autoplay loop></dotlottie-wc>
+
+
+#### 🚧 Préparation
 
 ::::{grid} 2
 
@@ -427,15 +448,23 @@ Ce bon vieux [Abraham Lincoln](https://fr.wikipedia.org/wiki/Abraham_Lincoln) qu
 ::::
 
 
-#### Vos Outils
+##### Les étapes
+
 
 ```{note}
 
-Liens vers les différents outils (section dédié)
+Lien et explication waterfall diagram
+
+- Liens vers outils UX Design
 
 ```
 
-### Formaliser l'idée
+
+<script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module"></script>
+<dotlottie-wc src="https://lottie.host/0d72763c-e0df-4234-86f6-d72b88c7e597/Pkmia0yVul.lottie" style="width: 100%;height: 300px" autoplay loop></dotlottie-wc>
+
+
+##### Formaliser l'idée
 
 
 ```{note}
@@ -449,9 +478,16 @@ lien vers le template CDC Isaure - [Lien Drive](https://docs.google.com/document
 ```
 
 
+##### De l'Idée à la Définition
+
+Tu as un projet, tu es donc désormais un *Maitre d'Ouvrage*
+
+```{note}
+
+Lien vers document veille Laszlo - Outils de Brainstorming
 
 
-
+```
 
 
 ### ⚙️ Cahier des charges
@@ -605,7 +641,13 @@ Différentes étapes - Reprendre le programme et les différents livrables
 
 ```
 
+#### Vos Outils
 
+```{note}
+
+Liens vers les différents outils (section dédié)
+
+```
 
 
 ### 🚀 Gestion de Projet
@@ -806,7 +848,7 @@ Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregist
 :::{grid-item}
 :columns: 8
 
-- [Lister](#) 
+- Lister les figures
 
     
 

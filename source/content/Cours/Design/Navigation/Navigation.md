@@ -172,11 +172,17 @@ Enumérer les différents objectifs pédagogiques (star classification avec diff
 
 <p class="p-emphase"><em>Ou voulez-vous emmener votre Utilisateur ?</em></p>
 
+Le {term}`Parcours utilisateur` représente
 
-- [blog-ux.com](https://blog-ux.com/quest-ce-que-le-parcours-utilisateur/)
+
+- **Usages** : quelles sont les actions de l’utilisateur pour atteindre ses objectifs ?
+- **Besoins** : quelles sont ses pensées durant ce parcours ou la réalisation de sa tâche ?
+- **Sentiments** : quelles sont ses émotions à chacune des étapes et interactions ?
 
 
 ```{note}
+
+- [blog-ux.com](https://blog-ux.com/quest-ce-que-le-parcours-utilisateur/)
 
 S'inspirer de la ressource ci-dessus
 
@@ -184,7 +190,26 @@ S'inspirer de la ressource ci-dessus
 ```
 
 
+#### Recherche Utilisateur
+
+
 ```{note}
+
+Faire le lien ici avec tout les livrables générés précédemment et faire la synthèse. Arriver jusqu'aux personas pour mettre en avant son utilité
+
+- Trouver une faco, de générer un gif d'une fiche persona qui se transforme en avatar 3D
+
+
+```
+
+
+
+
+
+
+```{note}
+
+- Actvité Persona personifié
 
 Idée activité : Se mettre dans la peau de son persona et imaginer son interaction avec notre site
 - dans quel situation
@@ -203,7 +228,7 @@ A fin de construire votre arborescence, je vous invite à consulter le document 
 
 ```
 
-- [Guide pour construire l'arborescence de son site](Docs/FR-Guide-construire-arborescence-site-web)
+- [Guide pour construire l'arborescence de son site](Docs/FR-Guide-construire-arborescence-site-web.pdf)
 
 
 ## Bonnes pratiques
@@ -283,7 +308,7 @@ Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregist
 :::{grid-item}
 :columns: 8
 
-- [Lister](#) 
+- Liste des sources
 
     
 

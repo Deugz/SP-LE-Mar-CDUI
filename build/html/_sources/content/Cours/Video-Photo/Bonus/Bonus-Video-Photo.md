@@ -48,6 +48,27 @@ IA-Gen/IA-Generative
     
 ::::
 
+
+## Créer Gratuitement
+
+### Alternatives Adobe ?
+
+<p class="p-emphase">Eh oui, Adobe est payant ... Mais il existe plein d'alternatives</p>
+
+
+#### Affinity
+
+- [La suite Affinity](https://www.affinity.studio/fr_fr)
+
+
+```{note}
+
+A tester et créer des tutos !
+
+
+```
+
+
 ## L'IA Générative
 
 ```{note}
@@ -57,14 +78,22 @@ Profiter de cette section pour faire un focus - page spéciale sur les outils d'
 
 ```
 
-
-## En plus
-
 ### Cout énergétique de L'IA
 
 ```{note}
 
 Partager une veille sur le sujet
 
+
+```
+
+
+## Outils en vrac
+
+- [screen to gif](https://www.screentogif.com/)
+
+```{note}
+
+Enregistreur d'écran, de webcam et de tableau blanc avec un éditeur intégré
 
 ```

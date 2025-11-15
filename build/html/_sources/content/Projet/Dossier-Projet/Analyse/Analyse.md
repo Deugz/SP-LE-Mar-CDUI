@@ -2,7 +2,6 @@
 
 ```{toctree}
 :maxdepth: 2
-:caption: 
 :hidden:
 
 Syst-tableau-veille

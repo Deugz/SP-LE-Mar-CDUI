@@ -185,6 +185,11 @@ Introduction sur le design général et les différentes méthodes de Design
 
 #### UX vs UI Design
 
+- https://fr.wikipedia.org/wiki/Exp%C3%A9rience_utilisateur#/media/Fichier:UX_Design.png
+
+
+Figure pour introduire la conception centré sur l'utilisateur
+
 
 #### Les Lois de l'UX
 
@@ -194,6 +199,16 @@ Introduction sur le design général et les différentes méthodes de Design
 Extraire les infos du document suivant [Lawsofux](https://lawsofux.com/)
 
 ```
+
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAG3v3Fex8Q/8pBVFWS5Xj8u3bCsQsYHIw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAG3v3Fex8Q&#x2F;8pBVFWS5Xj8u3bCsQsYHIw&#x2F;view?utm_content=DAG3v3Fex8Q&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Laws of UX</a> par Vdeguin
+
 
 
 ### Design System
@@ -309,6 +324,14 @@ Créer un lien vers la section vidéo pour la diminution de la taille et les dif
 
 ```
 
+
+
+### UX Methods
+
+
+
+
+
 ## 💪 Mise En Pratique
 
 
@@ -371,7 +394,7 @@ Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregist
 :::{grid-item}
 :columns: 8
 
-- [Lister](#) 
+- Lister
 
     
 
@@ -424,8 +447,18 @@ Des templates pour faciliter la définition de l'UX
 
 ```
 
+- [design-basics Figma](https://www.figma.com/resource-library/design-basics/)
 
 
+
+- [Boite à outil webdesign](https://www.vakoshvili.com/resources)
+
+
+```{note}
+
+Très bonne boite à outil avec plein de ressources à exploiter.
+
+```
 
 ### Commentaires
 

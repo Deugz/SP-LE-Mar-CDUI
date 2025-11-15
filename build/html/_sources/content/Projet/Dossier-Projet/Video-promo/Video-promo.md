@@ -1,8 +1,7 @@
 # Vidéo Promo
 
 ```{toctree}
-:maxdepth: 2
-:caption: 
+:maxdepth: 2 
 :hidden:
 
 Storyboard-video

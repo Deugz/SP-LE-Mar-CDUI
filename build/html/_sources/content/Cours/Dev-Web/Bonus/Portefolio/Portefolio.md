@@ -67,6 +67,23 @@ Intégrez un formulaire de contact pour que les visiteurs puissent vous contacte
 En retravaillant un template existant, vous économisez du temps tout en créant un portfolio professionnel et attrayant pour présenter vos compétences en développement web.
 
 
+## Les Petits Plus
+
+<p class="p-emphase">qui peuvent faire la différence !</p>
+
+### Art Numérique
+
+```{note}
+
+Mettre un lien vers la page correspondante et montrer des exemples
+- Expliquer que c'est important de montrer qu'on est impliqué dans le numérique a l'exterieur des compétences métier ()
+
+```
+
+
+
+
+
 ## Exemples
 
 - [Sylvia Robert](https://360.articulate.com/review/content/c67bd17a-b9c5-495d-8921-add147a35d49/review)

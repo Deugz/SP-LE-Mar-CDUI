@@ -1,6 +1,6 @@
 # Audrey
 
-***
+<br>
 
 ::::{grid} 
 
@@ -33,7 +33,6 @@
 :::
 
 :::{grid-item-card}
-:link: 
 :class-header: bg-light
 :columns: 4
 **Canva**

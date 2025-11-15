@@ -150,7 +150,7 @@ La vérification peut également être menée en amont du projet, lors de la con
 
 La nature de la cible de chaque icône-lien lorsqu'elle n'est pas accompagnée d'un contenu textuel est précisée par l'attribut  `alt`  de l'image et par l'attribut  `title`  ou  `aria-label`  du lien.
 
-En savoir plus: [<img> : l'élément d'image embarquée](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/img)
+En savoir plus: [`<img>` : l'élément d'image embarquée](https://developer.mozilla.org/fr/docs/Web/HTML/Reference/Elements/img)
 
 #### Contrôle
 

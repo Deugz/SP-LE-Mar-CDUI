@@ -426,6 +426,69 @@ Flash card format ?
 - [Générer des images de visages](https://thispersonnotexist.org/) (qui n'existent pas)
 
 
+##### UX Research
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 6
+
+> Reflexion sur ce que l'on a fait jusque la + introduction aux différentes méthodes d'UX Research
+
+:::
+
+:::{grid-item}
+:columns: 4
+
+```{figure} Docs/Images/User-experience-diagram.png
+:width: 100%
+name: User-experience-diagram
+:align: center
+
+[Source](https://fr.wikipedia.org/wiki/Exp%C3%A9rience_utilisateur)
+```
+
+:::
+
+::::
+
+
+
+
+- [Cours ](https://courses.theteamw.com/ux-methods-fundamentals/580303)
+
+
+```{image} Docs/Images/UX-Methods.png
+:width: 100%
+
+```
+
+
+```{note}
+
+Reprendre le schéma et créer une description rapide des différents domaines
+
+- Créer un format grid avec les différentes et liens vers une page dédié UX Research + anchor
+
+```
+
+
+##### Business Canva
+
+- [User centered business canva](https://ucdc.therectangles.com/User-Centered-Design-Canvas-Manual.pdf)
+
+- [UCDC 2](https://ucdc.therectangles.com/#what)
+
+- [UCDC 3](https://blog.akiani.fr/user-centered-design-canvas-ux/)
+
+- [Canva a imprimer](https://blog.akiani.fr/wp-content/uploads/2021/07/ucdc-light.pdf)
+
+```{note}
+
+Idée activité : Leur faire remplir un ucdc avec les ajustements obtenue suite a la recherche utilisateur
+
+```
+
 ## 💪 Mise En Pratique
 
 
@@ -490,7 +553,7 @@ Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregist
 :::{grid-item}
 :columns: 8
 
-- [Lister](#) 
+- Lister les figures
 
     
 

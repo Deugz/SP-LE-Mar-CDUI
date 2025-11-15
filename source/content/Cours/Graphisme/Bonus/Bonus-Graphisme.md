@@ -7,6 +7,7 @@
 Canva/Canva
 ../Logiciels/Illustrator/Perfect-Illustrator
 ../Logiciels/Photoshop/Perfect-Photoshop
+Art-numérique/art-num
 ```
 
 <br>

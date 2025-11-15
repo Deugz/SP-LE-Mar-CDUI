@@ -342,6 +342,8 @@
 | 🌍 **Accessibilité et durabilité** | Dépend de la qualité d’impression et de la distribution.                                 | Doit respecter les normes d’accessibilité (WCAG) et s’adapter à tous les écrans.                       |
 | 💡 **Finalité**                    | Objet tangible, matérialisé. <br>Basé sur la composition, le rythme visuel et l’émotion. | Expérience interactive, fluide, évolutive. <br>Basée sur l’ergonomie et l’usage.                       |
 
+<br>
+
 💡 Le graphisme digital conserve les fondements du graphisme print (équilibre, lisibilité, harmonie), mais il les transpose dans un univers interactif où l’utilisateur devient acteur.
 C’est dans ce contexte que la **charte graphique** devient essentielle pour assurer la cohérence visuelle de l’expérience sur tous les supports. Avant de nous lancer à corps perdu dans la création de notre charte graphique, intéressons-nous à la notion d'**identité visuelle**.
 
@@ -633,6 +635,8 @@ Avant de se plonger dans l'identité visuelle de son projet, il est très import
 
 **Alternatives** : 
 
+<br>
+
 ::::{grid} 4
 
 :::{grid-item-card}
@@ -687,6 +691,7 @@ Avant de se plonger dans l'identité visuelle de son projet, il est très import
 ::::
 
 
+<br>
 <br>
 
 
@@ -815,6 +820,93 @@ Documentation
 <br>
 
 **Alternatives** : 
+
+- Kdenlive
+- Shotcut
+- DaVinci Resolve
+- Blender
+
+
+<br>
+<br>
+
+| Besoin                          | Recommandation        |
+| ------------------------------- | --------------------- |
+| Remplacement direct de Premiere | ✅ Kdenlive            |
+| Simplicité + efficacité         | ✅ Shotcut             |
+| Color grading cinéma / pro      | ✅ DaVinci Resolve     |
+| 3D + montage vidéo              | ✅ Blender             |
+| Ordinateur peu puissant         | ✅ Shotcut ou Kdenlive |
+
+
+
+:::::
+
+:::::{tab-item} Motion Design
+
+<br>
+
+::::{grid}
+
+:::{grid-item}
+:columns: 8
+
+
+> P Explication
+
+:::
+
+:::{grid-item}
+:columns: 4
+
+```{image} ../../../../_static/logos/Adobe/Adobe_Premiere_Pro_CC_icon.svg
+:width: 100%
+```
+
+<br>
+
+**Utilisations principales**
+
+- Retouche et montage photo (corrections, effets, colorimétrie…)
+
+- Photomanipulation / compositions créatives
+
+- Dessin et peinture numérique
+
+- Création de visuels web (bannières, miniatures, réseaux sociaux)
+
+- Maquettage UI/UX (moins fréquent aujourd’hui)
+
+- Traitement d’images haute résolution pour impression
+
+Documentation
+
+- [Anglais mais complet](https://docs.kdenlive.org/en/cutting_and_assembling/editing.html]
+
+:::
+
+::::
+
+<br>
+
+**Alternatives** : 
+
+- Kdenlive
+- Shotcut
+- DaVinci Resolve
+- Blender
+
+
+<br>
+<br>
+
+| Besoin                          | Recommandation        |
+| ------------------------------- | --------------------- |
+| Remplacement direct de Premiere | ✅ Kdenlive            |
+| Simplicité + efficacité         | ✅ Shotcut             |
+| Color grading cinéma / pro      | ✅ DaVinci Resolve     |
+| 3D + montage vidéo              | ✅ Blender             |
+| Ordinateur peu puissant         | ✅ Shotcut ou Kdenlive |
 
 
 
@@ -1140,7 +1232,7 @@ Le logo doit se démarquer des concurrents et être identifiable.
 :columns: 5
 
 <script src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js" type="module"></script>
-<dotlottie-wc src="https://lottie.host/2ae116fd-c526-4454-a2a1-c93e39a1f45d/sVDWqzxJ4d.lottie" style="width: 140%;" autoplay loop></dotlottie-wc>
+<dotlottie-wc src="https://lottie.host/2ae116fd-c526-4454-a2a1-c93e39a1f45d/sVDWqzxJ4d.lottie" style="width: 100%;" autoplay loop></dotlottie-wc>
 
 ::::
 
@@ -1284,6 +1376,15 @@ En somme, cette dernière piste représente la synthèse parfaite de mes précé
 
 :::::::
 
+###### Mauvais Logo
+
+
+```{note}
+
+Intégrer pres canva
+
+```
+
 
 ##### Outils et Bonnes Pratiques 
 
@@ -1304,7 +1405,7 @@ En somme, cette dernière piste représente la synthèse parfaite de mes précé
 **Illustrator**
 ^^^
 
-```{image} ../../../../_static/logos/France-competence.jpg
+```{image} ../../../../_static/logos/Adobe/Adobe_Illustrator_CC_icon.svg
 :width: 100%
 ```
 
@@ -1313,20 +1414,21 @@ En somme, cette dernière piste représente la synthèse parfaite de mes précé
 ::::
 
 
-
+<br>
 
 
 ::::::{dropdown} 💥 Image Vectoriel vs Image Matricielle
 
-Focus sur la théorie et la différence entre image vectorielle vs matricielle.
+<br>
 
+Il existe deux grandes familles d'images : les images matricielles et les images vectorielles. Comparons-les !
 
 ::::{grid}
 
 :::{grid-item}
 :columns: 6
 
-<p class="p-emphase">Image Vectorielle</p>
+<p class="p-emphase"><strong>Image Vectorielle</strong></p>
 
 :::
 
@@ -1334,7 +1436,7 @@ Focus sur la théorie et la différence entre image vectorielle vs matricielle.
 :::{grid-item}
 :columns: 6
 
-<p class="p-emphase">Image Matricielle</p>
+<p class="p-emphase"><strong>Image Matricielle</strong></p>
 
 :::
 
@@ -1351,6 +1453,13 @@ Focus sur la théorie et la différence entre image vectorielle vs matricielle.
 
 - **Formats**: svg, ai, eps
 
+<br>
+
+```{image} Docs/vecteur-animation.gif
+:width: 60%
+:align: center
+```
+
 :::
 
 
@@ -1359,22 +1468,42 @@ Focus sur la théorie et la différence entre image vectorielle vs matricielle.
 
 - **Formats**: jpg, gif, png, tiff, raw, psd
 
+<br>
+
+```{image} Docs/matriciel-animation.gif
+:width: 60%
+:align: center
+```
+
 :::
 
 ::::
 
 
-::::::
+<br>
 
-
-
-
+- [Image recap utilisations](https://commons.wikimedia.org/wiki/File:Image_formats_by_scope.svg)
 
 ```{note}
 
-Zone de sécurité
+Peut être inclure dans une fiche récap
 
 ```
+
+::::::
+
+<br>
+
+###### Zone de sécurité
+
+
+
+###### Déclinaisons
+
+###### Interdits du Logo
+
+###### Export
+
 
 ```{note}
 
@@ -1382,15 +1511,13 @@ Zone de sécurité
 - garder plusieurs versions
 - ...
 
+- Lien vers format réseau sociaux en bas pour expliquer qu'il faut un export par plateforme
 
 ```
 
-##### Déclinaisons du Logo
 
 
 
-
-##### Interdits du Logo
 
 
 #### Palette de Couleurs
@@ -1454,6 +1581,21 @@ Outils pour tester ta palette de couleurs sur un site factice ? a tester
 ```
 
 
+
+###### Besoin d'inspi ?
+
+- **Dribble**
+
+<iframe src="https://dribbble.com/shots/5393611-Experience-map-for-a-coworking-place-project/attachments/10844753?mode=media" width="100%" height="600" frameborder="0" allowfullscreen></iframe>
+
+
+```{note}
+
+Mettre ici les différentes sources d'inspiration (lien vers le chapitre veille - veille inspirationnel, veille créative).
+
+```
+
+
 ##### Contrastes
 
 
@@ -1491,7 +1633,7 @@ Un jeux pour tester la visibilité de différentes nuances de couleurs
 
 - [fontsilovetypography](https://fonts.ilovetypography.com/)
 
-- [fontpair.co](fontpair.co)
+- [fontpair.co](https://fontpair.co)
 
 
 ```{note}
@@ -1567,6 +1709,9 @@ Choisissez une bibliothèque et prenez toute vos icones dedans afin de maximiser
 
 ```
 
+##### Outils IA
+
+- [svgs.app](https://svgs.app/)
 
 #### Synthèse
 
@@ -1620,9 +1765,203 @@ Exercice hyper intéréssant. Voir plus-tard comment cela se traduit dans la cha
 
 ```
 
+
 #### Autres Outils
 
 - [Pattern monster](https://fr.pattern.monster/japanese-pattern-3)
+
+
+
+
+
+
+#### UI KIT
+
+```{note}
+
+Intégrer une image et petite description dans chaque
+
+```
+
+
+##### Images
+
+
+<p class="p-emphase"></p>
+
+
+::::::{tab-set}
+
+:::::{tab-item} Instagram
+
+<br>
+
+| Type de contenu | Dimensions (pixels) | Notes |
+|-----------------|---------------------|--------|
+| **Photo de profil** | 320 × 320 | — |
+| **Paysage (photo horizontale)** | 1080 × 566 | — |
+| **Portrait (photo verticale)** | 1080 × 1350 | — |
+| **Carré (photo carrée)** | 1080 × 1080 | Le maximum autorisé est de 2080 × 2080 |
+| **Stories** | 1080 × 1920 | — |
+| **Reel** | 1080 × 1920 | — |
+
+
+:::::
+
+:::::{tab-item} X / Twitter
+
+<br>
+
+| Type de contenu | Dimensions (pixels) | Taille maximale / Notes |
+|-----------------|---------------------|--------------------------|
+| **Photo de profil** | 400 × 400 | — |
+| **Image d’en-tête** | 1500 × 500 | Taille max du fichier : 5 MB |
+| **Image dans un post** | 1024 × 512 | — |
+| **Tweet avec image et lien** | 600 × 335 | — |
+| **Twitter Cards (dimension standard)** | 800 × 418 ou 800 × 800 | Taille max du fichier : 3 MB |
+| **Summary Card avec image** | 280 × 150 | Taille max du fichier : 1 MB |
+| **Image In-stream** | Minimum 440 × 220 | Taille max du fichier : 5 MB |
+| **GIF** | — | Seuls les formats JPG ou PNG sont autorisés |
+| **Formats pris en charge** | — | .GIF, .JPG, .PNG |
+
+
+:::::
+
+:::::{tab-item} Facebook
+
+<br>
+
+| Type de contenu | Dimensions (pixels) | Notes |
+|-----------------|---------------------|--------|
+| **Photo de profil** | 170 × 170 | — |
+| **Photo de couverture (navigateur)** | 820 × 312 | — |
+| **Messenger** | 254 × 133 | — |
+| **Couverture vidéo** | 1250 × 630 | — |
+| **Publication vidéo** | 1080 × 1080 | — |
+| **Publication carrée** | 1200 × 630 | — |
+| **Photo avec lien** | 1200 × 630 | — |
+| **Photo de couverture d’évènement** | 1200 × 628 | — |
+| **Panorama** | 600 × 600 | — |
+| **Photo en 360°** | 6000 × 3000 | — |
+| **Reels Facebook** | Jusqu’à 60 s, 1080p, format 9:16, MP4 | — |
+| **Stories Facebook** | 1080 × 1920 | — |
+
+- **Publicités :**
+
+| Type de contenu | Dimensions (pixels) | Notes |
+|-----------------|---------------------|--------|
+| **Image sur la timeline** | 1600 × 628 | — |
+| **Vidéo** | 600 × 315 ou 600 × 600 (carré) | — |
+| **Carrousel** | 1080 × 1080 | — |
+| **Réseau d’audience (Audience Network)** | 398 × 208 | — |
+| **Marketplace** | 1200 × 1200 | — |
+| **Photo colonne de droite** | 1200 × 628 | — |
+| **Photo d’article instantané** | 1200 × 628 | — |
+| **Photo d’annonce Marketplace** | 1200 × 628 | — |
+
+- **Application mobile**
+
+| Type de contenu | Dimensions (pixels) | Notes |
+|-----------------|---------------------|--------|
+| **Photo de couverture** | 640 × 360 | — |
+| **Photo de profil** | 128 × 128 | — |
+
+
+:::::
+
+:::::{tab-item} LinkedIn
+
+<br>
+
+| Type de contenu | Dimensions (pixels) | Notes |
+|-----------------|---------------------|--------|
+| **Photo de profil** | 400 × 400 | Taille max du fichier : 8 MB |
+| **Image d’en-tête** | 1584 × 396 | Taille max du fichier : 4 MB |
+| **Image pour publication** | 520 × 320 | — |
+| **Image pour article lié (avec lien)** | 520 × 272 | — |
+
+- Pages de l’entreprise
+
+| Type de contenu | Dimensions (pixels) | Notes |
+|-----------------|---------------------|--------|
+| **Image de couverture de l’entreprise** | 1584 × 396 | — |
+| **Logo de l’entreprise** | 300 × 300 | — |
+| **Image principale pour une section** | 1128 × 376 | — |
+| **Photos de l’entreprise dans la section Vie** | 900 × 600 | — |
+| **Image pour section Vie dans modules personnalisés** | 502 × 282 | — |
+
+- Tailles des annonces (publicités) LinkedIn
+
+| Type de contenu | Dimensions / Ratio | Notes |
+|-----------------|------------------|--------|
+| **Annonce avec une seule image** | 1,91:1 (paysage), 1:1 (carré), 1:1,91 (portrait mobile uniquement) | JPG ou PNG, 5 MB |
+| **Annonce vidéo** | Horizontal : 16:9, Carré : 1:1, Vertical : 9:16 | MP4 ; format sonore : AAC ou MPEG4 ; Fréquence recommandée : 30 fps |
+| **Annonce carrousel** | 1080 × 1080 | JPG ou PNG ; Ratio : 1:1 |
+| **Annonce d’événement** | 4:1 | Image extraite de la page de l’événement |
+
+
+:::::
+
+:::::{tab-item} Pinterest
+
+<br>
+
+
+| Type de contenu | Dimensions (pixels) | Notes |
+|-----------------|---------------------|--------|
+| **Image du profil** | 180 × 180 | Format JPG ou PNG |
+| **Image de couverture** | 800 × 450 | — |
+| **Épingle (Pin)** | 1000 × 1500 | Rapport hauteur/largeur : 2:3 |
+| **Couverture de tableau** | 200 × 150 | Idéalement |
+| **Vignette de couverture de tableau** | 100 × 100 | — |
+| **Épingle de story** | 1080 × 1920 | — |
+| **Épingles promues** | 1000 × 1500 | Rapport hauteur/largeur : 2:3 à 1:3,5 |
+
+
+:::::
+
+:::::{tab-item} Youtube
+
+<br>
+
+
+| Type de contenu | Dimensions (pixels) | Notes |
+|-----------------|---------------------|--------|
+| **Photo de profil** | 800 × 800 | Taille maximale : 4 Mo ; Formats : JPG, BMP, PNG |
+| **Photo de couverture de la chaîne** | 2048 × 1152 | Rapport hauteur/largeur : 16:9 |
+| **Miniature de vidéo** | 1280 × 720 | HD |
+
+- Résolutions vidéo
+
+| Résolution | Dimensions (pixels) |
+|------------|-------------------|
+| **4320p (8K)** | 7680 × 4320 |
+| **2160p (4K)** | 3840 × 2160 |
+| **1440p (2K)** | 2560 × 1440 |
+| **1080p (HD)** | 1920 × 1080 |
+| **720p (HD)** | 1280 × 720 |
+| **480p (SD)** | 854 × 480 |
+| **360p (SD)** | 640 × 360 |
+| **240p (SD)** | 426 × 240 |
+
+
+:::::
+
+::::::
+
+
+
+### Design System
+
+- [design-tokens](https://prototypr.io/post/design-tokens-cheatsheet)
+
+```{note}
+
+Très bonne ressource a explorer - récupérer les images.
+
+```
+
+
 
 ## 💪 Mise En Pratique
 
@@ -1703,7 +2042,7 @@ Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregist
 :columns: 8
 
 - [Différents types de logo](https://www.canva.com/fr_fr/decouvrir/type-de-logo/) 
-
+- [Pourquoi un logo au format vectorielle ?](https://maitre-christele.fr/news/pourquoi-un-logo-au-format-vectoriel/)
     
 
 :::
@@ -1712,7 +2051,7 @@ Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregist
 :::{grid-item}
 :columns: 4
 
-<p class="p-emphase"><strong>Glossaire</strong></p>
+<p class="p-emphase"><strong>Vocabulaire</strong></p>
 
 ```{note}
 

@@ -68,9 +68,9 @@ Cette vérification s’effectue en trois temps. Pour chaque page examinée :
 
 - Vérifier, le cas échéant, la conformité à cet en-tête de l’élément meta http-equiv="Content-Type" dans le code HTML des pages.
 
-- Vérifier que le contenu des pages est effectivement encodé en UTF-8 (absence de caractères inattendus ou erronés), par exemple en soumettant la page à une validation HTML auprès du validateur du W3C ([Validatpr W3C](validator.w3.org)).
+- Vérifier que le contenu des pages est effectivement encodé en UTF-8 (absence de caractères inattendus ou erronés), par exemple en soumettant la page à une validation HTML auprès du validateur du W3C ([Validatpr W3C](https://validator.w3.org)).
 
-L’outil [Internationalization Checker du W3C](validator.w3.org/i18n-checker/) permet de combiner ces trois étapes.
+L’outil [Internationalization Checker du W3C](https://validator.w3.org/i18n-checker/) permet de combiner ces trois étapes.
 
 ### 227 - Le contenu de chaque page est organisé selon une structure de titres et sous-titres hiérarchisée.
 
@@ -163,7 +163,7 @@ La solution la plus radicale consiste à s’assurer de la validité complète d
 
 #### Contrôle
 
-Soumettre la page au validateur HTML du [W3C](validator.w3.org) ou un autre outil de validation de code et vérifier que chaque valeur d’attribut `id` est unique dans la page.
+Soumettre la page au validateur HTML du [W3C](https://validator.w3.org) ou un autre outil de validation de code et vérifier que chaque valeur d’attribut `id` est unique dans la page.
 
 ### 230 - Le site ne bloque pas la copie de contenu
 

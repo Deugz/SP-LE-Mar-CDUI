@@ -1,6 +1,6 @@
 # Soidrou
 
-***
+<br>
 
 ::::{grid} 
 
@@ -19,7 +19,6 @@
 :::
 
 :::{grid-item-card}
-:link: none 
 :class-header: bg-light
 :columns: 4
 **CDC**

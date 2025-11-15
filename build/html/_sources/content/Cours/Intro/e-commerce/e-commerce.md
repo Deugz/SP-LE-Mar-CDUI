@@ -30,8 +30,8 @@
 
 ✍  - Vincent <br> 
 🚧 - En cours<br>
-🔨 - 22/09/2025 
-⭐ - 9
+🔨 - 22/09/2025<br> 
+⭐ - 9<br>
 🕑 - 1 h <br>
 
  
@@ -237,8 +237,8 @@
 
 
 
-
-## 🧠 La Théorie
+(la-theorie)=
+## 🧠 La Théorie 
 
 ### 🌐 Internet 
 
@@ -258,9 +258,9 @@ Nuage de mot en réponse a la question : Ca vous inspire quoi Internet réalisé
 <br>
 <br>
 
-<div class="activite">
+<div class="activite" id="💪-1.A">
 
-<p class="p-emphase">💪 <strong>A - Donne ton avis</strong></p>
+<p class="p-emphase">💪 <strong>1.A - Donne ton avis</strong></p>
 
 ***
 
@@ -279,11 +279,13 @@ Nuage de mot en réponse a la question : Ca vous inspire quoi Internet réalisé
 :::{grid-item-card}
 :columns: 3
 :link: e-commerce.html#a-donne-ton-avis
+:class-header: bg-light
 **Activité A**
 ^^^
 
 - 🕑 5 min
 - 🍅 0
+- ⭐ 1
  
 :::
     
@@ -362,6 +364,13 @@ name: Internet-work
 
 ```
 
+
+```{note}
+
+Faire le lien avec le chapitre précédent (0) - mise en place de règles de communication et d'utilisation (commentaire, discord, etc) 
+
+```
+
 <br>
 
 <p class="p-emphase"> Ecoute Active </p>
@@ -429,14 +438,8 @@ name: internet-schema-2c
 ```
 
 
+<p class="p-emphase">ARPANET</p>
 
-
-:::::
-
-
-:::::{tab-item} Pour échanger en réseau
-
-<br>
 
 Arpanet est le premier réseau à transfert de paquets de données conçu aux États-Unis.
 
@@ -452,13 +455,67 @@ name: Arpanet_logical_map,_march_1977
 <br>
 
 
+:::::
+
+
+:::::{tab-item} Pour échanger en réseau
+
+<br>
+
+
+<canvas id="lottieCanvas" width="300" height="300"></canvas>
+
+<!-- Inclusion du player local -->
+<script type="module" src="../../../../_static/scripts/Lib/dotlottie-web.js"></script>
+
+<script type="module">
+    import { DotLottie } from '../../../../_static/scripts/Lib/dotlottie-web.js';
+
+    // Création du player
+    const player = new DotLottie({
+      canvas: document.getElementById('lottieCanvas'),
+      src: '../../../../_static/lottie/C1-Order-packed.lottie', // chemin vers ton fichier local
+      autoplay: true,
+      loop: true
+    });
+</script>
+
+
+
+<p class="p-emphase">Echanger Quoi ?</p>
+
+
+```{note}
+
+donner différents usages :
+- documents
+- mail
+- informations
+- fichier
+
+```
+
+<p class="p-emphase">Comment</p>
+
+```{note}
+
+Parler des différents protocoles pour chaque usage
+
+- ASCII 
+
+- CDN (content delivery Network)
+
+- UTF-8 ?
+
+```
+
 ```{figure} Docs/OSI_Model_v1.svg
 ---
 width: 60%
 align: center
 name: OSI_Model_v1
 ---
-[Source](#)
+[Source](https://fr.wikipedia.org/wiki/Fichier:OSI_Model_v1.svg)
 ```
 
 
@@ -466,6 +523,7 @@ name: OSI_Model_v1
 
 
 Recup image protocoles
+
 - [OSI Model](https://fr.wikipedia.org/wiki/Mod%C3%A8le_OSI#/media/Fichier:OSI_Model_v1.svg) 
 - [TCPIP](https://fr.wikipedia.org/wiki/Suite_des_protocoles_Internet#/media/Fichier:TCPIP_couche_ISO_modele_OSI.png)
 
@@ -476,7 +534,7 @@ Communication physique ou non
 :::::
 
 
-:::::{tab-item} Comment ? 
+:::::{tab-item} 🚀 En savoir plus
 
 <br>
 
@@ -507,7 +565,7 @@ Inclure les différents termes dans le glossaire
 
 ```{note}
 
-Créer une activité. Schéma globale qui reprend tout les éléments suivany
+Créer une activité. Schéma globale qui reprend tout les éléments précédent et changer d'endroit (site web ?)
 
 ```
 
@@ -517,16 +575,262 @@ Créer une activité. Schéma globale qui reprend tout les éléments suivany
 
 
 <br>
-<br>
+
 
 
 ##### Pour Echanger
 
 
+<p class="p-emphase"><strong>Pleins de Choses</strong></p>
+
+
+<br>
+
+::::{card-carousel} 2
+
+:::{card}
+**🛒 Biens matériels**
+^^^
+- Produits neufs (électronique, vêtements, meubles, etc.)
+- Produits d’occasion (revente, troc, enchères)
+- Produits artisanaux ou faits main
+- Livres, CD, vinyles, DVD
+- Pièces détachées et accessoires
+- Véhicules (voitures, vélos, trottinettes, motos)
+- Objets de collection (cartes, timbres, figurines, NFT physiques associés)
+- Nourriture et boissons (courses en ligne, plats livrés, produits fermiers)
+:::
+
+:::{card}
+**💾 Biens immatériels / numériques**
+^^^
+
+- Logiciels, applications, jeux vidéo
+- Films, séries, musiques en version numérique
+- Livres et articles numériques (ebooks, presse en ligne)
+- Cours, tutoriels, formations en ligne
+- Photos, vidéos, créations graphiques
+- Modèles 3D, plans architecturaux, fichiers imprimables (impression 3D)
+- Bases de données
+- Sites web et noms de domaine
+
+:::
+:::{card}
+
+**🛠️ Services**
+^^^
+
+- Freelance (rédaction, traduction, design, programmation, marketing)
+- Conseil et expertise (juridique, comptable, médical, coaching)
+- Livraison, transport, covoiturage
+- Services à domicile (ménage, bricolage, jardinage, garde d’enfants via plateformes)
+- Streaming en direct (gaming, musique, conférences)
+- Assistance technique / support informatique
+
+:::
+:::{card} 
+**💰 Échanges financiers**
+^^^
+- Transferts d’argent (banques en ligne, PayPal, Revolut, etc.)
+- Cryptomonnaies (Bitcoin, Ethereum, etc.)
+- Actions, obligations, produits financiers (bourses en ligne)
+- Crowdfunding / financement participatif
+- Prêts entre particuliers (P2P lending)
+- Paiements de factures et abonnements
+
+:::
+:::{card} 
+**📚 Échanges de savoir et d’information**
+^^^
+- Connaissances via forums, blogs, encyclopédies collaboratives
+- Cours en visioconférence, MOOCs
+- Partage d’expériences (réseaux sociaux, communautés)
+- Conseils pratiques (cuisine, bricolage, santé, voyages)
+
+:::
+:::{card}
+
+**🗨️ Échanges sociaux et culturels**
+^^^
+
+- Messages, mails, chat en temps réel
+- Photos, vidéos et stories sur les réseaux sociaux
+- Groupes de discussion et communautés virtuelles
+- Jeux en ligne multijoueurs
+- Échanges culturels (langues, traditions, musique)
+- Rencontres amoureuses ou amicales (sites et applis de rencontre)
+  
+:::
+
+:::{card}
+
+**🤝 Échanges collaboratifs et alternatifs**
+^^^
+
+- Troc (objets, services, compétences)
+- Location entre particuliers (maison, voiture, outils, vêtements)
+- Partage (bibliothèques numériques, open source, contenus libres)
+- Temps et compétences (banques du temps)
+- Bénévolat en ligne (aide à distance, mentorat, soutien scolaire)
+:::
+
+:::{card}
+
+**📈 Échanges professionnels et économiques**
+^^^
+- Offres et demandes d’emploi
+- Missions temporaires et freelancing
+- Partage de CV et profils LinkedIn
+- Réseautage professionnel
+- Commandes et approvisionnements pour entreprises
+- Franchise et partenariats
+:::
+
+::::
+
+<br>
+
+
+
+```{note}
+
+Créer un sondage interactif avec les différents types d'utilisation ?
+
+```
+
+
+
+<br>
+
+
+<p class="p-emphase"><em>"Et tout cela grace au ..."</em></p>
+
+### 🕸️ World Wibe Web
+
+<p class="p-emphase"> 👉 Le World Wide Web (WWW), ou Web, est un système qui permet d’accéder à des informations et des services sur Internet via des pages web liées entre elles par des liens hypertextes, consultables avec un navigateur web.</p>
+
+#### Invention
+
+<br>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 8
+
+> Introduction
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<p class="p-emphase"> <strong>Tim Berners Lee</strong></p>
+
+
+```{image} Docs/Sir_Tim_Berners-Lee.jpg
+:width: 100%
+
+```
+
+
+    
+:::
+    
+::::
+
+<br>
+<br>
+
+<p class="p-emphase"> <strong>Créé le World Wide Web</strong></p>
+
+<br>
+
+> L'{term}`iframe` ci dessous montre la première version du World Wibe Web
+
+<br>
+<br>
+
+<iframe 
+  src="https://info.cern.ch/hypertext/WWW/TheProject.html" 
+  width="100%" 
+  height="600" 
+  style="border: 1px solid #ccc; border-radius: 8px;">
+</iframe>
+
+
+<br>
+<br>
+
+<p class="p-emphase"> <strong>Pourquoi faire ? </strong></p>
+
+
+<br>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 6
+
+```{image} Docs/Web-of-document.svg
+:width: 100%
+
+```
+
+:::
+
+:::{grid-item}
+:columns: 1
+
+
+:::
+
+:::{grid-item}
+:columns: 5
+
+```{image} Docs/meme-generator-science.jpg
+:width: 100%
+
+```
+    
+:::
+    
+::::
+
+
+<br>
+<br>
+
+
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Pourquoi faire explication
+
+:::
+
+
+:::{grid-item-card}
+:columns: 3
+
+```{image} Docs/Web-1.png
+:width: 100%
+
+```
+    
+:::
+    
+::::
+
+
 <div class="activite">
 
 
-<p class="p-emphase"> 💪 <strong>B - Pleins de Choses ! </strong></p>
+<p class="p-emphase"> 💪 <strong>B - Fouiller dans les Archives ! </strong></p>
 
 ***
 
@@ -537,7 +841,7 @@ Créer une activité. Schéma globale qui reprend tout les éléments suivany
 :::{grid-item}
 :columns: 5
 
-> Donner l'opportunité à l'apprenant de choisir parmis une liste de domaine d'échanges sur Internet
+> Trouver 
 
 :::
 
@@ -556,6 +860,7 @@ Créer une activité. Schéma globale qui reprend tout les éléments suivany
 :::{grid-item-card}
 :columns: 3
 :link: e-commerce.html#b-pleins-de-choses
+:class-header: bg-light
 **Activité B**
 ^^^
 
@@ -570,45 +875,73 @@ Créer une activité. Schéma globale qui reprend tout les éléments suivany
 
 </div>
 
-<br>
 
 
-<p class="p-emphase"><em>"Et tout cela grace au ..."</em></p>
 
-### 🕸️ World Wibe Web
 
-<p class="p-emphase"> 👉 Le World Wide Web (WWW), ou Web, est un système qui permet d’accéder à des informations et des services sur Internet via des pages web liées entre elles par des liens hypertextes, consultables avec un navigateur web.</p>
-
-#### Invention
+##### Les Archives 
 
 ::::{grid} 2
 
 :::{grid-item}
-:columns: 8
+:columns: 6
 
-> Introduction
+> Introduction et mise en lumière du fait qu'on vient de loin niveau interface
 
 :::
 
 
 :::{grid-item}
-:columns: 4
-
-<p class="p-emphase"> Tim Berners Lee </p>
-
-```{image} Docs/Sir_Tim_Berners-Lee.jpg
-:width: 100%
+:columns: 6
 
 
+```{figure} Docs/pizza-net-capture.png
+---
+width: 100%
+align: center
+name: pizza-net-capture
+---
+[Source](https://www.reddit.com/r/90s/comments/147agew/1994_pizza_hut_website/?tl=fr)
 ```
-
-
-    
+ 
 :::
     
 ::::
 
-- Explication site web statique
+<br>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 9
+
+> Fouiller dans les archives
+
+:::
+
+
+:::{grid-item-card}
+:columns: 3
+:link: https://web.archive.org/
+:class-header: bg-light
+**Internet Archive**
+^^^
+
+```{image} Docs/Wayback_Machine_logo_2010.svg
+:width: 100%
+
+```
+ 
+:::
+    
+::::
+
+
+```{note}
+
+Trouver un site dont la version correspond à votre année de naissance. Faite un bref audit de ce site (deux slide - une capture du site et une slide reflexion)
+
+```
 
 
 #### Evolution
@@ -623,6 +956,94 @@ Créer une activité. Schéma globale qui reprend tout les éléments suivany
 </div>
 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGzW8wsAmQ&#x2F;wXwCDPTCs4t-8UbGWwxcbA&#x2F;view?utm_content=DAGzW8wsAmQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Design</a> par Vdeguin
 
+<br>
+
+:::::::{dropdown} 🧐 Les Grandes Figures de l'évolution du web
+
+::::::{tab-set}
+
+:::::{tab-item} David Siegel
+
+<br>
+
+**Rôle** : Designer et auteur de Creating Killer Websites (1996)
+Apports majeurs :
+
+Premier à défendre le web design comme discipline graphique, et non comme simple mise en page technique.
+
+A popularisé l’usage du design responsive avant l’heure, des grilles visuelles, et de l’importance du branding sur le web.
+
+Son livre a formé toute une génération de designers de la fin des années 1990.
+
+Influence :
+→ A fait passer le web du stade “document hypertexte” au médium visuel à part entière.
+→ Précurseur du web “esthétique”, il a inspiré l’émergence du web design professionnel.
+
+:::::
+
+:::::{tab-item} Jeffrey Zeldman
+
+<br>
+
+**Rôle** : Fondateur de A List Apart et défenseur des standards du web
+Apports majeurs :
+
+Promoteur des standards W3C, du design accessible et du code propre (HTML + CSS).
+
+Son livre Designing with Web Standards (2003) a révolutionné la pratique du web design.
+
+A cofondé Happy Cog, l’une des premières agences de design centrées sur l’expérience utilisateur.
+
+Influence :
+→ A professionnalisé le web design au début des années 2000.
+→ Son travail a permis le passage du “web bricolé” à des interfaces durables, évolutives et cohérentes.
+
+:::::
+
+:::::{tab-item} Don Norman
+
+<br>
+
+**Rôle** : Pionnier de l’ergonomie et de l’expérience utilisateur (UX)
+Apports majeurs :
+
+Auteur du célèbre The Design of Everyday Things (1988).
+
+A introduit et popularisé le terme “User Experience” lors de son passage chez Apple dans les années 1990.
+
+Son approche “human-centered design” influence encore la conception des interfaces web et mobiles.
+
+Influence :
+→ A déplacé la focale du “beau site” vers le site utile, utilisable et désiré.
+→ A posé les fondations théoriques du UX design moderne.
+
+:::::
+
+:::::{tab-item} Ethan Marcotte
+
+<br>
+
+**Rôle** : Inventeur du Responsive Web Design
+Apports majeurs :
+
+En 2010, il publie un article fondateur dans A List Apart introduisant le concept de Responsive Design, c’est-à-dire des interfaces adaptables à toutes tailles d’écran.
+
+Son approche a transformé le web en un espace fluid, mobile-friendly et cohérent.
+
+Auteur de Responsive Web Design (2011), texte clé pour les designers contemporains.
+
+Influence :
+→ A défini la norme visuelle et technique du web moderne.
+→ Son travail est à la base de la conception des interfaces modulaires et accessibles utilisées aujourd’hui.
+
+:::::
+
+::::::
+
+:::::::
+
+
+<br>
 
 
 ::::{grid} 2
@@ -708,21 +1129,34 @@ Aborder brièvement
 ::::
 
 
+##### DApps ?
+
+- [Article](https://brave.com/web3/what-are-dapps/)
+
+
 
 ### 💻 Site Web
 
+<p class="p-emphase">Un site web est un <strong>ensemble de pages liées entre elles</strong>, accessibles via une adresse (URL) sur Internet et consultables à l’aide d’un navigateur</p>
 
-#### Parlons-en
+#### Comment ça marche ?
 
 
-<p class="p-emphase"><strong>Il en existe 2 types</strong></p>
+```{note}
 
+Créer une présentation canva qui permet de faire le point sur les notions abordées précédemment qui reprend les éléments de vocabulaire suivants :
+
+```
+
+
+
+##### 2 Grandes Catégories
 
 <br>
 
 ```{note}
 
-Utiliser format flash card
+Utiliser format flash card et les notions abordés dans la pres pour définir les deux grandes catégories de sites
 
 
 ```
@@ -747,9 +1181,6 @@ Utiliser format flash card
 ::::
 
 
-#### Comment ça marche ?
-
-
 
 ##### Hypertext
 
@@ -762,6 +1193,10 @@ Utiliser format flash card
 W3C
 
 ```
+
+
+##### CMS
+
 
 
 ### 🛒 E-Commerce
@@ -790,7 +1225,20 @@ grid 2 pour présenter les chiffres ?
 
 ```
 
-Années 2010s :
+```{note}
+
+Histoire de surf and buy
+
+- [article les echos sur surf and buy](https://www.lesechos.fr/1998/02/ibm-dresse-le-bilan-de-sa-galerie-marchande-sur-internet-786299)
+    - image cool à récupérer
+- [article LA Times](https://www.latimes.com/archives/la-xpm-1997-dec-08-fi-61883-story.html?utm_source=chatgpt.com)
+
+```
+
+
+
+
+- Années 2010s :
 
 Montée des places de marché (marketplaces), du m-commerce (mobile commerce) et de
 l’omnicanal
@@ -801,9 +1249,61 @@ Impact mondial :
 Tendances actuelles : IA, personnalisation, livraisons rapides (Amazon Prime, drones)
 
 
-#### Chiffres clés 
 
 
+
+
+#### Les Modèles
+
+##### B2B
+
+- [The European B2B marketplace landscape in 2024](https://20324024.fs1.hubspotusercontent-na1.net/hubfs/20324024/2024%20Hero%202%20Campaign%20-%20Marketplace%20Hub/2024%20B2B%20Marketplace%20Lanscape.pdf)
+
+
+###### Chiffres clés 
+
+
+
+##### B2C 
+
+```{note}
+
+Transférer dans un génially
+
+
+```
+
+
+
+| Secteur                                                                         | Description                                                                                           | Remarques                                                                                                  |
+| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| Mode & Apparel (vêtements, chaussures, accessoires)                             | Vente en ligne de vêtements, chaussures, sacs, bijoux et accessoires mode.                            | C’est souvent le plus gros segment en valeur dans le B2C e-commerce. ([grandviewresearch.com][1])          |
+| Électronique grand public & technologie (consumer electronics)                  | Produits comme téléphones, ordinateurs, tablettes, objets connectés, audio/vidéo.                     | Segment clé, fort volume et sensibilité aux promotions. ([grandviewresearch.com][1])                       |
+| Maison & ameublement (furniture & home décor)                                   | Meubles, décoration intérieure, objets pour la maison, amélioration de l’habitat.                     | Montée en puissance avec le e-commerce et l’ameublement en ligne. ([Mordor Intelligence][2])               |
+| Alimentation & boissons (food & beverage)                                       | Courses en ligne, livraison de repas, produits alimentaires et boissons.                              | L’un des segments à plus forte croissance prévue dans B2C. ([Mordor Intelligence][2])                      |
+| Beauté & soins personnels (beauty & personal care)                              | Produits de beauté, maquillage, soins de la peau, soins capillaires, parfums.                         | Segments plus spécialisés mais avec forte valeur ajoutée. ([Mordor Intelligence][2])                       |
+| Sports, loisirs, jeux & hobbies (sports & leisure; toys/hobby)                  | Équipements sportifs, articles de loisir, jouets, hobbies créatifs.                                   | Segment varié, utile pour la diversification. ([Commerce international][3])                                |
+| Médias, divertissement & services numériques (media & entertainment / software) | Streaming, jeux vidéo, e-books, logiciels, services numériques.                                       | Moins de « produit physique », mais entrant dans la dynamique e-commerce B2C. ([grandviewresearch.com][1]) |
+| Automobile & accessoires (automotive)                                           | Vente d’accessoires auto, pièces détachées, accessoires véhicules pour consommateurs.                 | Segment mentionné dans les rapports comme catégorie de produit. ([grandviewresearch.com][1])               |
+| Autres (others)                                                                 | Inclut les segments plus petits ou plus « niche » : bricolage/DIY, santé, fournitures de bureau, etc. | Permet d’intégrer les zones de croissance émergentes. ([Mordor Intelligence][2])                           |
+
+[1]: https://www.grandviewresearch.com/industry-analysis/b2c-e-commerce-market?utm_source=chatgpt.com "B2C E-commerce Market Size, Share & Trends Report, 2030"
+[2]: https://www.mordorintelligence.com/industry-reports/b2c-ecommerce-market?utm_source=chatgpt.com "B2C E-Commerce Market Size & Share Analysis"
+[3]: https://www.trade.gov/ecommerce-sales-size-forecast?utm_source=chatgpt.com "eCommerce Sales & Size Forecast"
+
+
+
+
+<div style="width: 100%;"><div style="position: relative; padding-bottom: 56.25%; padding-top: 0; height: 0;"><iframe title="e-commerce-sector" frameborder="0" width="1200" height="675" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://view.genially.com/6909dd86efb36e0355f0eaae" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
+
+
+```{note}
+
+Travailler sur une version interactive des différents domaines. 
+
+```
+
+###### Chiffres clés
 
 
 #### Tunnel de vente
@@ -831,6 +1331,47 @@ Intégrer le rapport et commenter
 
 ```
 
+
+#### Parcours Client
+
+- [Tuto Canva](https://www.canva.com/fr_fr/tableau-blanc/cartographie-parcours-client/)
+
+```{note}
+
+Activité ?
+
+- [Template](https://www.canva.com/design/DAG3u9uah0s/4S5gyt8yQ1J4KBsBxp64xg/edit) - Utilise des personas donc a transférer plutot dans identité de marque
+
+```
+
+- [Image](https://www.manager-go.com/assets/Uploads/parcours-client.png)
+
+
+```{note}
+
+Reproduire le diagramme sur génially.
+
+- [Source](https://www.manager-go.com/marketing/parcours-client.htm)
+
+```
+
+
+
+##### Utilisateur vs Acheteur
+
+```{note}
+
+Bien différencier les deux grâce au Parcours Client.
+
+- Bein mettre l'accent sur l'utilisateur qui est notre cible en tant que CDUI
+
+- Transformer l'utilisateur en acheteur
+
+```
+
+
+
+(mise-en-pratique)=
 ## 💪 Mise En Pratique
 
 ### A - Donne ton avis
@@ -878,133 +1419,6 @@ Ci-dessus se trouve une copie de l'interface à mettre en place avant le scéanc
 
 
 <br>
-
-### B - Pleins de Choses
-
-
-
-```{admonition} Consigne
-
-Utilise les listes ci-dessus pour sélectionner les domaines qui t'intéressent. 
-
-- Note tes choix dans ton [Dossier Projet]() - link vers section !
-
-```
-
-
-<br>
-<br>
-
-::::{card-carousel} 2
-
-:::{card}
-**🛒 Biens matériels**
-^^^
-- Produits neufs (électronique, vêtements, meubles, etc.)
-- Produits d’occasion (revente, troc, enchères)
-- Produits artisanaux ou faits main
-- Livres, CD, vinyles, DVD
-- Pièces détachées et accessoires
-- Véhicules (voitures, vélos, trottinettes, motos)
-- Objets de collection (cartes, timbres, figurines, NFT physiques associés)
-- Nourriture et boissons (courses en ligne, plats livrés, produits fermiers)
-:::
-
-:::{card}
-**💾 Biens immatériels / numériques**
-^^^
-
-- Logiciels, applications, jeux vidéo
-- Films, séries, musiques en version numérique
-- Livres et articles numériques (ebooks, presse en ligne)
-- Cours, tutoriels, formations en ligne
-- Photos, vidéos, créations graphiques
-- Modèles 3D, plans architecturaux, fichiers imprimables (impression 3D)
-- Bases de données
-- Sites web et noms de domaine
-
-:::
-:::{card}
-
-**🛠️ Services**
-^^^
-
-- Freelance (rédaction, traduction, design, programmation, marketing)
-- Conseil et expertise (juridique, comptable, médical, coaching)
-- Livraison, transport, covoiturage
-- Services à domicile (ménage, bricolage, jardinage, garde d’enfants via plateformes)
-- Streaming en direct (gaming, musique, conférences)
-- Assistance technique / support informatique
-
-:::
-:::{card} 
-**💰 Échanges financiers**
-^^^
-- Transferts d’argent (banques en ligne, PayPal, Revolut, etc.)
-- Cryptomonnaies (Bitcoin, Ethereum, etc.)
-- Actions, obligations, produits financiers (bourses en ligne)
-- Crowdfunding / financement participatif
-- Prêts entre particuliers (P2P lending)
-- Paiements de factures et abonnements
-
-:::
-:::{card} 
-**📚 Échanges de savoir et d’information**
-^^^
-- Connaissances via forums, blogs, encyclopédies collaboratives
-- Cours en visioconférence, MOOCs
-- Partage d’expériences (réseaux sociaux, communautés)
-- Conseils pratiques (cuisine, bricolage, santé, voyages)
-
-:::
-:::{card}
-
-**🗨️ Échanges sociaux et culturels**
-^^^
-
-- Messages, mails, chat en temps réel
-- Photos, vidéos et stories sur les réseaux sociaux
-- Groupes de discussion et communautés virtuelles
-- Jeux en ligne multijoueurs
-- Échanges culturels (langues, traditions, musique)
-- Rencontres amoureuses ou amicales (sites et applis de rencontre)
-:::
-
-:::{card}
-
-**🤝 Échanges collaboratifs et alternatifs**
-^^^
-
-- Troc (objets, services, compétences)
-- Location entre particuliers (maison, voiture, outils, vêtements)
-- Partage (bibliothèques numériques, open source, contenus libres)
-- Temps et compétences (banques du temps)
-- Bénévolat en ligne (aide à distance, mentorat, soutien scolaire)
-:::
-
-:::{card}
-
-**📈 Échanges professionnels et économiques**
-^^^
-- Offres et demandes d’emploi
-- Missions temporaires et freelancing
-- Partage de CV et profils LinkedIn
-- Réseautage professionnel
-- Commandes et approvisionnements pour entreprises
-- Franchise et partenariats
-:::
-
-::::
-
-<br>
-
-
-
-```{note}
-
-Créer un sondage interactif avec les différents types d'utilisation ?
-
-```
 
 
 ## 📈 Pour Finir
@@ -1068,6 +1482,7 @@ Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregist
 
 - [Le fonctionnement de l'Internet](https://developer.mozilla.org/fr/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work) - Licence CC
 
+- [Web 3 vs Web 1 vs Web 2](https://brave.com/web3/versus-web1-and-web2/)
     
 
 :::
@@ -1112,8 +1527,19 @@ Présenter en détail individuellement
 - [TheProject](http://info.cern.ch/hypertext/WWW/TheProject.html) : La première page avant wwww
 
 
+- [OECD unpacking-e-commerce](https://www.oecd.org/content/dam/oecd/en/publications/reports/2019/06/unpacking-e-commerce_35b43e2b/23561431-en.pdf?utm_source=chatgpt.com)
 
+- [ressource](https://www.tandfonline.com/doi/epdf/10.1080/10864415.2017.1364114?needAccess=true)
 
+- [Les-sujets-incontournables-du-E-commerce](https://lecafedelecommerce.notion.site/Les-sujets-incontournables-du-E-commerce-dd569c4d265c4e5f82cd3672b5e1139f)
+
+```{note}
+
+grosse liste de ressources et de podcast en ligne sur le e-commerce
+
+```
+
+- [ARPANET - INRIA](https://www.inria.fr/fr/arpanet-internet-en-france-dates-reperes#:~:text=Arpanet%20est%20mis%20en%20service,%C3%A9gaux%20(peer%20to%20peer).)
 
 ### Commentaires
 

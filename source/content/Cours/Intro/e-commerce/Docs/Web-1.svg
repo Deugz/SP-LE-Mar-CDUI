@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   version="1.1"
+   viewBox="0 0 646388.81 753850.81"
+   width="646388.81"
+   height="753850.81"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs19">
+    <clipPath
+       id="clippath-1">
+      <circle
+         cx="319.70999"
+         cy="507.64999"
+         r="120.96"
+         class="cls-2"
+         id="circle2" />
+    </clipPath>
+    <clipPath
+       id="clippath-2">
+      <circle
+         cx="228.5"
+         cy="789.91998"
+         r="52.470001"
+         class="cls-2"
+         id="circle3" />
+    </clipPath>
+    <clipPath
+       id="clippath-3">
+      <circle
+         cx="410.92001"
+         cy="789.91998"
+         r="52.470001"
+         class="cls-2"
+         id="circle4" />
+    </clipPath>
+    <style
+       id="style19">.cls-2,.cls-3,.cls-4{fill:none}.cls-2,.cls-6{stroke-width:0}.cls-10,.cls-11,.cls-12,.cls-3,.cls-4,.cls-7,.cls-8,.cls-9{stroke:#000;stroke-linecap:round;stroke-linejoin:round}.cls-10,.cls-7{fill:#768cf5}.cls-4,.cls-7{stroke-width:1.5px}.cls-13{fill:#000;font-family:Poppins-Regular,Poppins;font-size:44.37px}.cls-13,.cls-14{isolation:isolate}.cls-8{fill:#b6f0b5}.cls-10,.cls-11,.cls-12,.cls-3,.cls-8,.cls-9{stroke-width:2px}.cls-9{fill:#fd5907}.cls-6{fill:#ddf9fd}.cls-11{fill:#f6ba22}.cls-12{fill:#fff}</style>
+  </defs>
+  <path
+     d="m -290122.54,-156736.1 a 31.52,31.52 0 0 1 -31.52,31.52 h -271.59 a 31.52,31.52 0 0 1 -10.64,-61.2 62.07,62.07 0 0 1 78.69,-61.65 c 14.19,-22.02 38.93,-36.6 67.07,-36.6 28.14,0 52.24,14.2 66.51,35.75 a 62.07,62.07 0 0 1 75.28,60.66 l -0,0.45 a 31.54,31.54 0 0 1 26.21,31.07 z"
+     class="cls-12"
+     id="path20" />
+  <g
+     class="cls-14"
+     id="g20"
+     transform="translate(-290609.56,-157010.41)">
+    <text
+       class="cls-13"
+       transform="translate(237.68,263.72)"
+       id="text20"><tspan
+         x="0"
+         y="0"
+         id="tspan20">Web 1.0</tspan></text>
+  </g>
+  <circle
+     cx="-290289.84"
+     cy="-156502.75"
+     r="120.96"
+     class="cls-10"
+     id="circle34" />
+  <g
+     clip-path="url(#clippath-1)"
+     id="g38"
+     transform="translate(-290609.56,-157010.41)">
+    <ellipse
+       cx="367.14999"
+       cy="507.64999"
+       class="cls-3"
+       rx="120.96"
+       ry="134.09"
+       id="ellipse34" />
+    <ellipse
+       cx="272.26999"
+       cy="507.64999"
+       class="cls-3"
+       rx="120.96"
+       ry="134.09"
+       id="ellipse35" />
+    <line
+       x1="319.70999"
+       x2="319.70999"
+       y1="373.57001"
+       y2="663"
+       class="cls-3"
+       id="line35" />
+    <line
+       x1="98.410004"
+       x2="541.01001"
+       y1="561.46002"
+       y2="561.46002"
+       class="cls-3"
+       id="line36" />
+    <line
+       x1="98.410004"
+       x2="541.01001"
+       y1="507.64999"
+       y2="507.64999"
+       class="cls-3"
+       id="line37" />
+    <line
+       x1="98.410004"
+       x2="541.01001"
+       y1="453.84"
+       y2="453.84"
+       class="cls-3"
+       id="line38" />
+  </g>
+  <circle
+     cx="-290381.06"
+     cy="-156220.48"
+     r="52.470001"
+     class="cls-6"
+     id="circle38" />
+  <circle
+     cx="-290381.06"
+     cy="-156234.72"
+     r="24.18"
+     class="cls-12"
+     id="circle39" />
+  <g
+     clip-path="url(#clippath-2)"
+     id="g40"
+     transform="translate(-290609.56,-157010.41)">
+    <circle
+       cx="228.5"
+       cy="840.53998"
+       r="35.009998"
+       class="cls-8"
+       id="circle40" />
+  </g>
+  <circle
+     cx="-290381.06"
+     cy="-156220.48"
+     r="52.470001"
+     class="cls-3"
+     id="circle41" />
+  <circle
+     cx="-290198.66"
+     cy="-156220.48"
+     r="52.470001"
+     class="cls-6"
+     id="circle42" />
+  <circle
+     cx="-290198.66"
+     cy="-156234.72"
+     r="24.18"
+     class="cls-12"
+     id="circle43" />
+  <g
+     clip-path="url(#clippath-3)"
+     id="g44"
+     transform="translate(-290609.56,-157010.41)">
+    <circle
+       cx="410.92001"
+       cy="840.53998"
+       r="35.009998"
+       class="cls-8"
+       id="circle44" />
+  </g>
+  <circle
+     cx="-290198.66"
+     cy="-156220.48"
+     r="52.470001"
+     class="cls-3"
+     id="circle45" />
+  <line
+     x1="-290346.03"
+     x2="-290378.28"
+     y1="-156361.78"
+     y2="-156292.97"
+     class="cls-3"
+     id="line45" />
+  <polyline
+     points="245.82 710.88 231.09 717.43 228.5 701.51"
+     class="cls-3"
+     id="polyline45"
+     transform="translate(-290609.56,-157010.41)" />
+  <line
+     x1="-290246"
+     x2="-290213.75"
+     y1="-156361.78"
+     y2="-156292.97"
+     class="cls-3"
+     id="line46" />
+  <polyline
+     points="381.27 710.88 396 717.43 398.59 701.51"
+     class="cls-3"
+     id="polyline46"
+     transform="translate(-290609.56,-157010.41)" />
+</svg>

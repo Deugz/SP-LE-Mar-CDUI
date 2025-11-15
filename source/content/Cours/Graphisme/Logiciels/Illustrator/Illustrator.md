@@ -235,6 +235,15 @@ name: Bitmap_VS_SVG
 ```
 
 
+## Plugins
+
+### Logos
+
+**Logos Grid**
+
+- [KSDrafter](https://ksdrafter.gumroad.com/l/FreeLogoDrafter)
+
+
 ### Choix des couleurs 
 
 en fonction du 
@@ -391,7 +400,7 @@ Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregist
 :::{grid-item}
 :columns: 8
 
-- [Lister](#) 
+- Liste des sources 
 
     
 

@@ -88,8 +88,6 @@ Pour son projet, Laszlo souhaite permettre à ses utilisateurs de dessiner un pa
 
 ##### WPDrawSVG
 
-- [lien](#)
-
 - Fonctionnalités :
     - Permet de dessiner sur une toile HTML5 avec des outils vectoriels.
     - Peut être intégré dans une page ou un article.
@@ -116,7 +114,7 @@ Pour son projet, Laszlo souhaite permettre à ses utilisateurs de dessiner un pa
 
 Ajoute ce bout de code dans ton site
 
-```{html}
+```html
 
 <iframe
     id="svgEditorContainer"

@@ -265,6 +265,32 @@ simulators for creating fake social media posts with comments that look and feel
 - [Site](https://zeoob.com/)
 
 
+### Analyse Concurrentiel
+
+- [Outil metricool](https://docs.google.com/spreadsheets/d/10bH-28ROs5gJFn4hQqqQpiESGxiQSb-alvE3vnd11rw/edit?pli=1&gid=1914682134#gid=1914682134)
+
+```{note}
+
+Lien avec benchmark 
+
+
+```
+
+### Rapport
+
+- [Ressource Métricool](https://docs.google.com/presentation/d/1zmNNxmOEu1WWakmww2ZCSEojPSjOhfi99aaNw9q5X3Q/edit?slide=id.g28a00eddd86_0_456#slide=id.g28a00eddd86_0_456)
+
+
+```{note}
+
+Bon outil de reporting (hors programme) mais peut cool à disséquer
+
+```
+
+
+
+
+
 
 ## Ressources
 
@@ -278,6 +304,12 @@ A tester
 
 ```
 
+
+
+
+
+
+
 ## Synthèse
 
 ### En Plus
@@ -287,6 +319,7 @@ A tester
 Insérer vidéo yo
 
 ```
+
 
 ## 💪 Mise En Pratique
 
@@ -360,7 +393,7 @@ Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregist
 :::{grid-item}
 :columns: 8
 
-- [Lister](#) 
+- Liste des sources
 
     
 

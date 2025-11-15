@@ -5,98 +5,89 @@
 Ad-exchange
   Plateforme de mise en relation entre acheteurs et vendeurs permettant la vente et l'achat d'espaces publicitaires sur internet. Ad-exchange s'adresse tant aux grands groupes internationaux qu'aux PME/TPE.
 
-Adresse IP 
+Adresse IP
   Internet Protocol, en anglais. Une adresse IP est un numéro d'identification attribué à chaque branchement au réseau informatique. Tout objet connecté à internet possède donc une adresse IP (tablette, mobile, 
   ordinateur...). L'adresse IP se compose de quatre groupes de nombres séparés par des points (ex : 188.156.207.29). Mais à quoi servent-elles ? Les adresses IP permettent aux ordinateurs du réseau pour 
   communiquer entre-eux. Grâce à une adresse IP l'ordinateur est capable de retracer le parcours utilisateur de quelqu'un.  
 
 AdWords
   Outil de Google permettant de créer et configurer des campagnes qui sont diffusées par groupe d'annonces sur les SERP. Publication fonctionnant sur un système d'enchères. L’annonceur est facturé au CPC (coût 
-  par clic). Ainsi il ne paie Google que lorsqu'un utilisateur clique sur sa publicité.  
+  par clic). Ainsi il ne paie Google que lorsqu'un utilisateur clique sur sa publicité.
 
-Affiliation 
+Affiliation
   Technique e-marketing permettant à un site web de promouvoir ses produits sur d'autres sites qui toucheront un pourcentage au moment de chaque vente conclue grâce au site où figurait la publicité.
 
-Analytics 
+Analytics
   Nom du module de statistiques de Google, on y trouve diverses statistiques sur son site internet, comme le nombre de visiteurs en temps réel, leur provenance...  
 
-Apache 
+Apache
   Apache HTTP Server. Logiciel libre de serveur web développé et maintenu par la Apache Software Foundation. Il permet de diffuser des pages et des applications web en répondant aux requêtes HTTP des navigateurs.    Polyvalent et modulaire, Apache prend en charge de nombreux langages côté serveur (comme PHP, Python ou Perl) et propose des fonctionnalités telles que la gestion des certificats SSL/TLS, la réécriture d’URL, la   compression des contenus ou la gestion fine des accès. Lancé en 1995, il est l’un des serveurs web les plus utilisés au monde et fonctionne sur différents systèmes d’exploitation, notamment Linux, Windows et       macOS.
 
 API
-  Applications Programming Interface, une API est une interface de programmation qui permet de se brancher sur une application afin d'échanger des données.  
+  Applications Programming Interface, une API est une interface de programmation qui permet de se brancher sur une application afin d'échanger des données.
 
-Backlink 
+Backlink
   Lien externe présent sur un site A qui redirige vers un site B. Une bonne stratégie SEO comprend une stratégie de partenariats permettant la mise en place de backlinks.
 
 Back Office
   Le Back Office représente la partie administrative d'un site Internet. Un Webmaster effectue les modifications via cette partie du site.
 
-Baidu  
+Baidu
   Moteur de recherche chinois, sa technologie de recherche en mandarin lui a permis de devenir le moteur numéro 1 en Chine.
 
 Base de données
   Ensemble contenant des données essentielles à un site, une application etc... Les données sont classées par table.
 
-Big Data 
-  Littéralement "grosses données" en français, le Big Data représente des ensembles volumineux de données analysées dans des buts commerciaux et non commerciaux  
+Big Data
+  Littéralement "grosses données" en français, le Big Data représente des ensembles volumineux de données analysées dans des buts commerciaux et non commerciaux.
 
-Blacklist 
-  Liste noire, un individu blacklisté ne pourra plus accéder à un service. Dans le cas de l’indexation de site sur Google, un site blacklisté ne pourra plus être retrouvé sur le moteur de recherche
+Blacklist
+  Liste noire, un individu blacklisté ne pourra plus accéder à un service. Dans le cas de l’indexation de site sur Google, un site blacklisté ne pourra plus être retrouvé sur le moteur de recherche.
 
-Body 
-  Corps du texte en français. Le body, en langage informatique, représente le corps du texte d'une page compris entre le header et le footer. C'est dans le body qu'on trouve la partie la plus rédigée, variable 
-  d'une page à l'autre. A contrario, le header et le footer, eux, sont statiques et comportent les mêmes informations Quelles que soient les pages du site.  
+Body
+  Corps du texte en français. Le body, en langage informatique, représente le corps du texte d'une page compris entre le header et le footer. C'est dans le body qu'on trouve la partie la plus rédigée, variable d'une page à l'autre. A contrario, le header et le footer, eux, sont statiques et comportent les mêmes informations quelles que soient les pages du site.
 
 B2B
-  Business to Business, ce terme désigne les entreprises qui commercent avec les autres compagnies.
-
+    Business to Business, ce terme désigne les entreprises qui commercent avec les autres compagnies.
 
 B2C
-  Business to Consumer, ce terme désigne les entreprises qui commercent avec les consommateurs.  
+    Business to Consumer, ce terme désigne les entreprises qui commercent avec les consommateurs.
 
 Buzz
-  Action marketing virale faisant parler d'elle, en bien, ou en mal (bad buzz).
-  
+    Action marketing virale faisant parler d'elle, en bien, ou en mal (bad buzz).
+
 Cache
-  Le cache ou la mise en cache est le fait de stocker du contenu relatif aux recherches effectuées sur les moteurs de recherches dans les bases de données des navigateurs web. Ces données en cache permettent à 
-  l'utilisateur de rapidement trouver le résultat de sa recherche grâce à l'enregistrement périodique de ses requêtes. Le cache d'un navigateur ou d'un logiciel (ex : CMS) peut s'assimiler à sa mémoire ou son 
-  historique et est remis à jour régulièrement. Néanmoins, il est possible à l'utilisateur de vider manuellement son cache en cas de besoin (faire disparaître d'anciennes données, mise à jour de 
-  publications...)
+  Le cache ou la mise en cache est le fait de stocker du contenu relatif aux recherches effectuées sur les moteurs de recherches dans les bases de données des navigateurs web. Ces données en cache permettent à l'utilisateur de rapidement trouver le résultat de sa recherche grâce à l'enregistrement périodique de ses requêtes. Le cache d'un navigateur ou d'un logiciel (ex : CMS) peut s'assimiler à sa mémoire ou son historique et est remis à jour régulièrement. Néanmoins, il est possible à l'utilisateur de vider manuellement son cache en cas de besoin (faire disparaître d'anciennes données, mise à jour de publications...)
 
 Cartes
   Une carte est un conteneur graphique (souvent rectangulaire, avec ombre et bord arrondi) qui encapsule un contenu cohérent, comme un article, une info utilisateur, un événement ou un produit.
 
 Cheval de Troie
-  Virus informatique prenant son modèle sur le moyen utilisé par Ulysse lors de la guerre de Troie, il s'agit d'un virus caché dans un fichier qui a l'air hors de danger. On l'appelle également Trojan.  
+  Virus informatique prenant son modèle sur le moyen utilisé par Ulysse lors de la guerre de Troie, il s'agit d'un virus caché dans un fichier qui a l'air hors de danger. On l'appelle également Trojan.
 
-Clickbait 
-  Le clickbait ou attrape-clics est une méthode utilisée pour attirer le visiteur vers son article, sa page produit ou tout type de contenu en attisant sa curiosité par le biais d'un message exagéré.  
+Clickbait
+  Le clickbait ou attrape-clics est une méthode utilisée pour attirer le visiteur vers son article, sa page produit ou tout type de contenu en attisant sa curiosité par le biais d'un message exagéré.
 
 CMS
   Content Management System, regroupement de solutions permettant de créer, gérer et mettre à un jour un site Internet (Exemple : WordPress)
 
-Community Manager 
-  Également nommé CM ou Animateur de Communauté en français, il a à sa charge tous les réseaux sociaux de son entreprise ou client. Sa mission ? Augmenter le nombre d'abonnés, créer une communauté virtuelle et 
-  la fédérer aux moyens de leviers webmarketing. Dans les grands groupes ou les agences de communications, le Community Manager est généralement sous la direction du Social Media Manager.  
+Community Manager
+  Également nommé CM ou Animateur de Communauté en français, il a à sa charge tous les réseaux sociaux de son entreprise ou client. Sa mission ? Augmenter le nombre d'abonnés, créer une communauté virtuelle et la fédérer aux moyens de leviers webmarketing. Dans les grands groupes ou les agences de communications, le Community Manager est généralement sous la direction du Social Media Manager.
 
-Content Spinning 
-  Le Content Spinning est une méthode d'écriture qui consiste à modifier un texte original en le réécrivant afin de faire paraître celui-ci comme différent auprès des moteurs de recherches. Le Content Spinning 
-  permet surtout d'éviter la duplication de contenu, pratique SEO sévèrement puni par les navigateurs web, sans pour autant recréer un nouveau contenu. C'est en quelque sorte du recyclage de contenu.  
+Content Spinning
+  Le Content Spinning est une méthode d'écriture qui consiste à modifier un texte original en le réécrivant afin de faire paraître celui-ci comme différent auprès des moteurs de recherches. Le Content Spinning permet surtout d'éviter la duplication de contenu, pratique SEO sévèrement puni par les navigateurs web, sans pour autant recréer un nouveau contenu. C'est en quelque sorte du recyclage de contenu.
 
-Crawler 
-  Robot explorant les différents sites qui peuplent Internet afin de les analyser. Différents robots existent et ont différents objectifs, les robots Google permettent d'établir le classement des sites lors 
-  d'une recherche.  
+Crawler
+  Robot explorant les différents sites qui peuplent Internet afin de les analyser. Différents robots existent et ont différents objectifs, les robots Google permettent d'établir le classement des sites lors d'une recherche.
 
-CRM 
+CRM
   Le CRM ou Customer Relationship Management représente la Gestion de la Relation Client (GRC). Son objectif est de renforcer la relation entre l'entreprise et ses clients à l'aide d'outils technologiques.  
 
 CTA
   Un CTA ou *Call to Action* est un bouton contenant un texte incitant l'utilisateur à cliquer dessus. Généralement utilisé par un site pour diriger l'utilisateur vers une conversion.
 
 Culture fit 
-  Le Culture fit est un concept basé sur les soft skills (compétences comportementales) d'un candidat. C'est le juste équilibre entre son profil et l'environnement de travail. Le Culture fit permet avant tout 
-  de déterminer si le candidat s'adapte aisément ou non dans son nouvel environnement. En anglais Cultural fit signifie "ajustement culturel".  
+  Le Culture fit est un concept basé sur les soft skills (compétences comportementales) d'un candidat. C'est le juste équilibre entre son profil et l'environnement de travail. Le Culture fit permet avant tout de déterminer si le candidat s'adapte aisément ou non dans son nouvel environnement. En anglais Cultural fit signifie "ajustement culturel".
 
 Didacticiel
   Logiciel permettant de suivre un enseignement sur un thème donné.
@@ -104,23 +95,21 @@ Didacticiel
 Dropdown
   Un dropdown (ou menu déroulant en français) est un élément d’interface utilisateur qui permet à l’utilisateur de choisir une option parmi une liste cachée qui s’affiche lorsqu’on clique ou survole un bouton ou une zone de sélection.
 
-Drupal 
-  CMS ou Système de Gestion de Contenu programmé en langage PHP par Dries Buytaert en 2000. Drupal est un open-source faisant partie des grands leaders sur son marché. En 2010 Drupal équipait environ 1% des sites internet au niveau mondial. Le CMS est également considéré par les professionnels comme étant simple d’utilisation et ne possédant pas de back office. Les fonctions de Drupal étant moins populaires, elles sont par conséquent légèrement plus complexes à appréhender.  
+Drupal
+  CMS ou Système de Gestion de Contenu programmé en langage PHP par Dries Buytaert en 2000. Drupal est un open-source faisant partie des grands leaders sur son marché. En 2010 Drupal équipait environ 1% des sites internet au niveau mondial. Le CMS est également considéré par les professionnels comme étant simple d’utilisation et ne possédant pas de back office. Les fonctions de Drupal étant moins populaires, elles sont par conséquent légèrement plus complexes à appréhender.
 
 DNS
   Domain Name System ou Système de Noms de Domaine en français, le DNS est une base de données disponible sur le réseau permettant de traduire les noms de domaines entre eux (en adresse IP par exemple).
 
-Effet Sandbox 
+Effet Sandbox
   Bac à sable en français, l'Effet Sandbox est apparenté à une mise en quarantaine des nouveaux sites e-commerce par Google. Longtemps considéré comme une rumeur, l'Effet Sandbox, selon Matt Cutts (blogueur très connu dans le SEO) existe vraiment et consiste à pénaliser les nouveaux sites e-commerce en ne leur permettant pas de monter rapidement dans les SERP; mais ceci en raison d'une période de mise à l'épreuve. Bien que tout site émergeant ait droit a des chances égales pour se positionner dans les résultats des moteurs de recherches (SERP), Google estime toutefois qu'un nouveau site e-commerce doit prouver de part plusieurs facteurs (la qualité de ses liens entrants, sa pérennité, sa notoriété, son trafic...) qu'il mérite de gagner des places auprès de ses concurrents déjà actifs sur le marché et occupant des positions fortement convoitées.
 
-
 E-learning
-  Formation en ligne ou Apprentissage en ligne, l'E-learning est un terme issu de la cyberculture. Il donne accès à l'apprentissage par des moyens numériques et multimédias. E-mail : Courrier électronique. 
-  Celui-ci peut-être rédigé en HTML ou en texte brut. L'e-mail a été inventé en 1965.
+  Formation en ligne ou Apprentissage en ligne, l'E-learning est un terme issu de la cyberculture. Il donne accès à l'apprentissage par des moyens numériques et multimédias. E-mail : Courrier électronique. Celui-ci peut-être rédigé en HTML ou en texte brut. L'e-mail a été inventé en 1965.
 
 Environnement numérique d’apprentissage
-  Plateforme en ligne qui regroupe des outils et des ressources pour faciliter l’enseignement et l’apprentissage. Un ENA permet d’accéder à des cours, de déposer des travaux, de communiquer avec enseignants et       apprenants, et de suivre sa progression. Il fonctionne comme une salle de classe virtuelle, accessible depuis un ordinateur, une tablette ou un smartphone.
-   
+  Plateforme en ligne qui regroupe des outils et des ressources pour faciliter l’enseignement et l’apprentissage. Un ENA permet d’accéder à des cours, de déposer des travaux, de communiquer avec enseignants et apprenants, et de suivre sa progression. Il fonctionne comme une salle de classe virtuelle, accessible depuis un ordinateur, une tablette ou un smartphone.
+
 ERP
   Entreprise Ressource Planning ou PGI (Progiciel de Gestion Intégré) en français, c'est un outil permettant de piloter l'entreprise par le biais d'un seul outil comportant les fonctionnalités nécessaires pour gérer la totalité de l'activité d'une entreprise.  
 
@@ -187,11 +176,10 @@ Lien Profond
   Lien pointant vers toute autre page que la page d'accueil d'un site web. Également appelé Deep Linking en anglais, le Lien Profond est jugé de qualité pour la précision de sa direction. Les liens entrants, aussi appelés Backlinks dans le jargon SEO, ont bien souvent pour habitude de pointer vers la page d'accueil. Raison pour laquelle Google accorde moins d’importance aux Backlinks et fait la part belle aux Liens Profonds.
 
 LMS
-  Un LMS (Learning Management System) est un logiciel qui permet de gérer, suivre et diffuser des cours ou des formations en ligne. Il est utilisé par les écoles, les universités et les entreprises pour organiser 
-  l'apprentissage à distance ou en présentiel.
+  Un LMS (Learning Management System) est un logiciel qui permet de gérer, suivre et diffuser des cours ou des formations en ligne. Il est utilisé par les écoles, les universités et les entreprises pour organiser l'apprentissage à distance ou en présentiel.
 
 Maître d’œuvre 
-  Dans le cadre d’un projet, notamment numérique ou web, le maître d’œuvre est la personne physique ou morale chargée de la réalisation technique et opérationnelle du projet, conformément aux besoins exprimés dans   le cahier des charges établi par le maître d’ouvrage (MOA). Il met en œuvre les ressources, compétences et méthodes nécessaires pour concevoir, développer, tester et livrer la solution demandée. Le maître          d’œuvre peut être une agence web, un prestataire informatique ou une équipe interne, et il a la responsabilité de respecter les délais, le budget et les spécifications techniques convenus.
+  Dans le cadre d’un projet, notamment numérique ou web, le maître d’œuvre est la personne physique ou morale chargée de la réalisation technique et opérationnelle du projet, conformément aux besoins exprimés dans   le cahier des charges établi par le maître d’ouvrage (MOA). Il met en œuvre les ressources, compétences et méthodes nécessaires pour concevoir, développer, tester et livrer la solution demandée. Le maître d’œuvre peut être une agence web, un prestataire informatique ou une équipe interne, et il a la responsabilité de respecter les délais, le budget et les spécifications techniques convenus.
 
 Maître d’ouvrage 
   Dans le cadre d’un projet, y compris numérique ou web, le maître d’ouvrage est la personne physique ou morale qui définit les besoins, fixe les objectifs et valide les résultats finaux. Il est à l’origine du       projet et en est le commanditaire. Le maître d’ouvrage rédige ou supervise le cahier des charges, sélectionne le maître d’œuvre (MOE) chargé de la réalisation technique, et s’assure que le produit ou service       livré correspond aux attentes exprimées. Il se concentre sur la vision, la finalité et la conformité du projet, tandis que le maître d’œuvre se charge de la mise en œuvre technique.
@@ -217,15 +205,17 @@ Open Data
 Opt-in
   Définit un lead, autrement dit une adresse ou un contact acquis avec le consentement de la personne concernée. Une adresse obtenue Opt-in est jugée pertinente et de qualité, car celle-ci est issue d'une personne ayant pris le temps de considérer la demande d'enregistrement de ses données.
 
-Outbound Marketing 
+Outbound Marketing
   Le outbound marketing, opposé de l’inbound marketing, est le « marketing sortant ». Il s’agit de toutes les pratiques marketing et communicationnelles partant de l’entreprise vers le consommateur. Ainsi, les campagnes d’affichages ou de bannières publicitaires sur les sites web sont des exemples d’outbound marketing. Quelle est la réalité derrière le jargon des métiers du web et de l’IT ?
+
+Parcours utilisateur
+   Traduction <img src="../../_static/svg-icons/Flags/Flag_of_the_United_Kingdom.svg" alt="UK flag" width="20" style="vertical-align: middle; margin-left: 4px; margin-right: 6px;"> User Journey - Le parcours utilisateur (ou user journey en anglais) est le chemin que suit une personne lorsqu’elle interagit avec un produit, un service ou un site web — depuis le moment où elle découvre la marque jusqu’à la réalisation de son objectif (achat, inscription, demande d’information, etc.).  
 
 Pay Per Lead (PPL) 
   Mode de paiement utilisé suite à l'obtention d'adresses ou de contacts. L'Affilié, celui qui publie l'annonce sur son site, redirige l'internaute sur une page appelée landing page afin que celui-ci puisse, selon son intérêt pour l'annonce, enregistrer ses coordonnées. De la sont comptabilisées le nombre d’adresses enregistrées afin de débiter l’Affilieur en conséquence des résultats.
 
 Pay Per Clic (PPC) 
-  Mode de paiement utilisé sur les affiches publicitaires en ligne. À chaque clic effectué, l'annonceur est débité d'un certain montant, et ce, à la hauteur du nombre de clics. Ainsi plus le nombre de clics est élevé... plus la facture est salée. Toutefois, afin d'éviter les abus, des robots se chargent d'analyser régulièrement la source du clic pour ne pas débiter l'annonceur inutilement.  
-
+  Mode de paiement utilisé sur les affiches publicitaires en ligne. À chaque clic effectué, l'annonceur est débité d'un certain montant, et ce, à la hauteur du nombre de clics. Ainsi plus le nombre de clics est élevé... plus la facture est salée. Toutefois, afin d'éviter les abus, des robots se chargent d'analyser régulièrement la source du clic pour ne pas débiter l'annonceur inutilement.
 
 PHP
   Langage de script libre principalement utilisé pour le développement web côté serveur. PHP est interprété par le serveur avant l’envoi du contenu au navigateur, ce qui permet de générer des pages web dynamiques, de traiter des formulaires, de gérer des sessions, et d’interagir avec des bases de données (notamment MySQL). Il peut être intégré directement dans du code HTML, ce qui le rend particulièrement pratique pour mélanger structure de page et logique applicative. Créé en 1994 par Rasmus Lerdorf, PHP est aujourd’hui largement utilisé pour des systèmes de gestion de contenu (CMS) comme WordPress, Drupal ou Joomla. 
@@ -238,7 +228,6 @@ PHP
     ?>
 
     ```
-
 
 Ping
   Programme adressant un paquet dans le but de recevoir une réponse afin de mesurer la vitesse de la connexion, exprimée en millisecondes.
@@ -279,19 +268,19 @@ SERP
 SMO  
   Le Social Media Optimization, ou Optimisation des Réseaux Sociaux en français, regroupe les techniques permettant d’accroître la visibilité d’une marque ou entreprise sur les réseaux sociaux.
 
-Shadow IT 
+Shadow IT
   Matériel informatique ou logiciel utilisé dans une entreprise sans l'approbation du service informatique.
 
-Site Map 
+Site Map
   Plan de site en français, un Site Map permet aux moteurs de recherches d'indexer un site web et les informations relatives à ce dernier. Le Site Map se présente sous la forme d'un ficher XML.
 
 Snippet
   Petit extrait de code réutilisable qui accomplit une tâche spécifique. Les snippets permettent de gagner du temps et d’éviter de réécrire du code répétitif. Ils peuvent être intégrés directement dans un projet     ou utilisés via des raccourcis dans un éditeur de code.
-  
+
 Sphinx
   Générateur de documentation puissant pour Python et d'autres projets.
 
-Sprint 
+Sprint
   Période allant de deux semaines à un mois dans laquelle les équipes de développement, le Scrum Master et le Product Owner doivent concevoir un élément spécifique du livrable avant révision.
 
 SQL
@@ -325,26 +314,20 @@ Veille
 VRML 
   De l'acronyme Virtual Reality Markup Language, VRML est un langage de programmation permettant de décrire des univers virtuels en 3 dimensions.
 
-
 W3C
   Le sigle W3C, pour World Wide Web Consortium, désigne l’organisation à but non lucratif responsable de la normalisation des usages et procédés du web, notamment dans le cadre du langage HTML. La W3C se charge aussi de nouvelles normes concernant l’accessibilité des sites web, afin de facilité leur utilisation par les personnes en situation de handicap.
-
 
 Web
   Le Web ou toile en français est le terme utilisé pour parler du World Wide Web. Ce terme fait tout simplement référence à Internet, il est utilisé en référence aux liens reliant les pages entre elles, formant une sorte de toile numérique.
 
-
 Webinar 
-  Séminaire en Ligne en français, le Webinar est ce qu'on appelle un mot-valise combinant les mots "web" et "séminaire". Le Webinar a pour vocation de fournir une conférence interactive en ligne dans le but d'un travail collaboratif ou pour transmettre un savoir. Wireframe : Ou mock-up. Croquis utilisé dans le cadre d'une conception
-d'interface afin de définir les composants et les zones visuelles à utiliser.
+  Séminaire en Ligne en français, le Webinar est ce qu'on appelle un mot-valise combinant les mots "web" et "séminaire". Le Webinar a pour vocation de fournir une conférence interactive en ligne dans le but d'un travail collaboratif ou pour transmettre un savoir. Wireframe : Ou mock-up. Croquis utilisé dans le cadre d'une conception d'interface afin de définir les composants et les zones visuelles à utiliser.
 
-Yandex 
+Yandex
   Moteur de recherche Russe. Yandex est le premier moteur de recherche utilisé en Russie, loin devant Google, comme Baidu l'est en Chine. Jugé plus efficace, Yandex répond davantage aux besoins des internautes russes que tout autre moteur. Aujourd'hui Yandex se qualifie comme étant le moteur de recherche le plus sécurisé, ce qui fortifie indéniablement sa position de leader sur le marché.
 
-Zoning 
-  Gabarit ou Wireframe, selon les appellations, le Zoning est une méthode permettant de définir les différentes découpes d'une page. En utilisant la pratique du Zoning, il est plus facile de visualiser la structure de la page puisque celle-ci est
-découpée en plusieurs zones. Faire du Zoning ne nécessite pas d'être précis dans son découpage, mais plutôt de créer stratégiquement et logiquement des zones bien définies. On peut également assimiler le Zoning à un template ou un draft.  
-
+Zoning
+  Gabarit ou Wireframe, selon les appellations, le Zoning est une méthode permettant de définir les différentes découpes d'une page. En utilisant la pratique du Zoning, il est plus facile de visualiser la structure de la page puisque celle-ci est découpée en plusieurs zones. Faire du Zoning ne nécessite pas d'être précis dans son découpage, mais plutôt de créer stratégiquement et logiquement des zones bien définies. On peut également assimiler le Zoning à un template ou un draft.
 
 ::::
 

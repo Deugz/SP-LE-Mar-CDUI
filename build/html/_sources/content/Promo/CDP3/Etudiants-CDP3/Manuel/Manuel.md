@@ -21,7 +21,6 @@
 :::
 
 :::{grid-item-card}
-:link: #
 :class-header: bg-light
 :columns: 3
 **CDC**
@@ -35,7 +34,6 @@
 :::
 
 :::{grid-item-card}
-:link: #
 :class-header: bg-light
 :columns: 3
 **Canva**
@@ -49,7 +47,6 @@
 :::
 
 :::{grid-item-card}
-:link: #
 :class-header: bg-light
 :columns: 3
 **Wordpress**

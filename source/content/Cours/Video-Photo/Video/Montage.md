@@ -169,6 +169,19 @@ Pas le bon support mais quelques documents sur le drive
 
 ## 🧠 La Théorie
 
+### Quels Logiciels ?
+
+<p class="p-emphase">Eh bien figurez-vous que c'est une question que l'on se pose !</p>
+
+- [Capcut](https://www.capcut.com/fr-fr/)
+
+- [DavinciResolve](https://www.blackmagicdesign.com/fr/products/davinciresolve)
+
+
+
+
+
+
 ### Exemples 
 
 #### Professionels
@@ -327,7 +340,7 @@ Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregist
 :::{grid-item}
 :columns: 8
 
-- [Lister](#) 
+- Liste des sources
 
     
 

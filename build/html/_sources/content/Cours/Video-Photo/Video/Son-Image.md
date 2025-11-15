@@ -292,7 +292,7 @@ Outil pour obtenir une représentation visuelle (vidéo) de l'évolution d'un r�
 
 ```
 
-```cmd
+```bash
 
 gource -a 2 3A_Alliance/School_3A/Formations/Label-Ecole/Marseille/CDUI/SP-LE-Mar-CDUI/
 
@@ -382,7 +382,7 @@ Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregist
 :::{grid-item}
 :columns: 8
 
-- [Lister](#) 
+- Liste des sources 
 
     
 

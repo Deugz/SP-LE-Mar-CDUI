@@ -167,27 +167,131 @@ Enumérer les différents objectifs pédagogiques (star classification avec diff
 
 :::::
 
-## 🧠 La Théorie
 
-### Les Attendus
+```{admonition} Prérequis
+
+Avoir séléctionné deux concurrents
 
 
-```{figure} Docs/Expl-Bench-Slide.png
----
-width: 90%
-name: Expl-Bench-Slide
----
-Voici un **exemple** de slide pour présenter les résultats de votre benchmark
 ```
 
-<br>
+
+## 🧠 La Théorie
+
+### Un Benchmark ?
 
 ```{note}
 
-Créer une version interactive avec genially
+Petite intro sur le vocabulaire
+
+- C'est quoi un benchmark
+
+- Les différents types de benchmark
+
+- [Lien exemple Benchmark EatSalad](https://file.notion.so/f/f/073b4237-418c-4bce-b135-cd59cfe7208f/5acf80c6-b8a7-429b-9cf5-f38d184b80c2/benchmark-eatsalad.pdf?table=block&id=28b358a1-31f9-80bc-8cc7-db0ec08c01de&spaceId=073b4237-418c-4bce-b135-cd59cfe7208f&expirationTimestamp=1762531200000&signature=yOEltu5UlxCHEIp7u_RX0dhBy4kE24jX4KygQenIrJQ&downloadName=benchmark-eatsalad.pdf)
 
 
 ```
+
+
+
+
+
+
+### Benchmark Digital
+
+
+- Analyser l'expérience utilisateur de manière structurée
+- Comparer parcours, fonctionnalités et interfaces.
+- Produire des recommandations UX/UI actionnables pour votre projet.
+- Méthodique vs intuitif.
+
+```{note}
+
+Différence Benchmark et Veille 
+
+```
+
+#### 5 Pilliers
+
+
+##### Navigation & Ergonomie
+
+Menu, fil d'Ariane, recherche
+
+
+###### Exemples
+
+- Menu de navigation visible sans scroller ?
+- Barre de recherche accessible sur toutes les pages ?
+- Boutons CTA clairement identifiables ?
+- Fil d'Ariane sur pages profondes ?
+- Navigation au clavier opérationnelle ?
+- Zones de tap mobile > 44px ?
+
+##### Interface & responsive
+
+Composants UI, adaptabilité devices
+
+
+##### Parcours utilisateur
+
+Tunnel conversion, 
+
+###### étapes clés
+
+Parcours UX types à tester en e-commerce :
+- Trouver un produit via une recherche
+- Ajouter au panier et valider commande
+- Créer un compte utilisateur
+- Accéder au service client
+
+
+###### Points clés à observer 
+
+- Page produit (photos, description, CTA)
+- Ajout au panier (feedback visuel, persistance)
+- Tunnel de commande (nombre d'étapes, formulaires)
+- Options de livraison et paiement
+- Confirmation de commande
+- Il y a une vrai importance à voir le parcours complet.
+- Le diable se cache dans les détails. Et les dark patterns.
+
+##### Accessibilité 
+
+Contraste, navigation clavier, ARIA
+
+
+##### Fonctionnalités
+
+Filtres, compte utilisateur, options avancées
+
+
+#### Bonnes Pratiques
+
+- Soyez factuels : chaque affirmation doit être sourcée et argumentée
+- Soyez visuels : captures d'écran, schémas, tableaux comparatifs
+- Soyez actionnables : recommandations concrètes et budgétées
+- Soyez cohérents : même méthodologie sur tous les concurrents
+- Soyez stratégiques : lien permanent avec votre sujet initial
+
+##### 1 Méthode !
+
+```{note}
+
+Garder les même critères de comparaisons pour chacun des sites que vous analysez
+
+```
+
+
+- Votre grille d'analyse UX/UI :
+- Notation : /10 avec justification factuelle (toujours !)
+- Observer le comportement réel sur mobile ET desktop (mobile-first)
+- Préparez captures d'écran pour argumenter (on garde des traces)
+
+
+
+##### Outils
 
 ### Woorank
 
@@ -474,6 +578,20 @@ Affiche les technologies utilisées directement lors de la navigation sur un sit
 Très pratique pour une utilisation rapide et discrète.
 
 
+#### LightHouse
+
+- [Chrome Extension](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=fr)
+
+#### WhatFont
+
+
+#### Colorzilla
+
+
+#### Wave Evaluation Tool
+
+
+
 ### Autres
 
 #### Mentions IA
@@ -483,6 +601,54 @@ Très pratique pour une utilisation rapide et discrète.
 
 permet de checker les mentions de votre site par chat gpt. Analyse très complète, a éssayer !s
 
+
+
+### De L'Analyse à la Synthèse
+
+#### Les Attendus
+
+
+```{figure} Docs/Expl-Bench-Slide.png
+---
+width: 90%
+name: Expl-Bench-Slide
+---
+Voici un **exemple** de slide pour présenter les résultats de votre benchmark
+```
+
+<br>
+
+```{note}
+
+Créer une version interactive avec genially et donner plusieurs examples 
+
+
+```
+
+
+#### Mapping UX
+
+[Comment faire un mapping concurrentiel ?](https://blog.hubspot.fr/marketing/mapping-concurrentiel)
+
+
+
+
+### Réseaux sociaux et positionnement digital
+
+- Pourquoi analyser ?
+- Complément d'expérience utilisateur
+- Canaux de contact et SAV
+- Image de marque vs expérience réelle
+- Comment procéder ?
+- Listez les réseaux majeurs des concurrents
+- Analysez contenus, réactivité, accessibilité
+
+
+```{note}
+
+Creuser
+
+```
 
 
 ## 💪 Mise En Pratique
@@ -549,7 +715,6 @@ Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregist
     
 ::::
 
-
 ### Sources
 
 
@@ -558,7 +723,7 @@ Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregist
 :::{grid-item}
 :columns: 8
 
-- [Lister](#) 
+- Liste des sources
 
     
 
@@ -592,7 +757,18 @@ Référencer les figures de la page ?
 
 #### Plus de Ressources
 
-- [Cours - Apprendre à construire des personas (we love users)](Docs/We-Love-Users-Personas.docx)
+
+
+- [Notion Benchmark Digital](https://leswww.notion.site/Le-benchmark-digital-28b358a131f980f3991de0491a3d204a)
+
+
+```{note}
+
+Faire un lien vers e e-book suivant : JamaisLeVendredi_-_Benchmark_101 localisé dans static asset
+
+```
+
+- [Article de blog](https://www.jamaislevendredi.com/comment-creer-un-benchmark-concurrentiel-efficace/)
 
 ### Commentaires
 
@@ -601,6 +777,10 @@ Référencer les figures de la page ?
 Lien vers formulaire de feedback + possibilité de donner son avis dans les commentaires.
 
 ```
+
+#### Notes Pendant le cours
+
+
 
 
 

@@ -38,6 +38,7 @@ Opquast/Structure-code
 :hidden:
 
 Glossaire
+Acronymes
 Bibliography
 Webography
 

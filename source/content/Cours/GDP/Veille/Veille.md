@@ -385,7 +385,7 @@ On peut très bien appliquer la méthode scientifique à n'importe quelle projet
 
 <br>
 
-
+expliquer 
 
 :::::
 
@@ -394,12 +394,16 @@ On peut très bien appliquer la méthode scientifique à n'importe quelle projet
 
 <br>
 
-
+expliquer 
 
 :::::
 
 
 :::::{tab-item} Hypothèse
+
+<br>
+
+expliquer 
 
 :::::
 
@@ -414,11 +418,15 @@ On peut très bien appliquer la méthode scientifique à n'importe quelle projet
 
 <br>
 
+expliquer 
+
 :::::
 
 :::::{tab-item} Rapport et Conclusions
 
 <br>
+
+expliquer 
 
 :::::
 
@@ -1586,15 +1594,9 @@ La matrice SWOT
 
 ### Veille Concurrentiel
 
-
-
-
-
-
-
 ## 💪 Mise En Pratique
 
-#### Quelles Questions !?
+### Quelles Questions !?
 
 ```{note}
 
@@ -1637,7 +1639,7 @@ Présentation de l'outil discord et explication de comment on peut nourrir cette
 
 
 
-```{admonition}
+```{admonition} To Do
 
 Impliquer les apprenants dans la création d'une veille collective !
 

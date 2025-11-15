@@ -1,6 +1,6 @@
 # Christophe
 
-***
+<br>
 
 ::::{grid} 
 
@@ -56,13 +56,13 @@
 
 - pose des questions au jury
 
-```{tips}
+```{tip}
 
 Super Data Research
 
 ```
 
-- précise un peu ton diagrammee
+- précise un peu ton diagramme
 
 - Emma, fais pas partie du coeur de cible
 

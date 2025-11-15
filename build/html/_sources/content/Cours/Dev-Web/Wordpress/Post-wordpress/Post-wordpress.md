@@ -117,7 +117,6 @@ Capture d'écran du dossier obtenue à la suite d'un export depuis wordpress
 
 ```{image} Docs/mamp-viewer-logo.png
 
-
 ```
 
 +++
