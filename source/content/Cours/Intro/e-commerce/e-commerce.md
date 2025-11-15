@@ -478,6 +478,13 @@ name: Arpanet_logical_map,_march_1977
 
 
 
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+<dotlottie-wc src="../../../../_static/lottie/C1-connect-web-message.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc>
+
+
 
 
 <p class="p-emphase">Echanger Quoi ?</p>
