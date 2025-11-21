@@ -1,5 +1,8 @@
 # Portefolio
 
+## C'est Quoi ?
+
+### Exemples
 
 ```{note}
 
@@ -12,9 +15,35 @@ Insérer la ressource DonutPanic
 
 - [Template css](https://www.free-css.com/free-css-templates/page296/browny)
 
-## Étapes
+
+
+## Réaliser mon Portefolio 
+
+
+### Étapes par étape
+
+#### Réflexion
 
 Créer un portfolio en utilisant un template HTML, CSS et JavaScript est une excellente façon de mettre en valeur vos compétences et réalisations en tant que développeur. Voici comment vous pouvez **retravailler un template existant** pour créer votre propre portfolio :
+
+
+#### Design / Conception
+
+<p class="p-emphase">Oui, nous sommes Concepteur Designer après tout !!</p>
+
+##### Croquis
+
+
+```{figure} Docs/Croquis-portefolio-excalidraw.svg
+---
+width: 100%
+name: Croquis-portefolio-excalidraw
+---
+Figure réalisé avec excalidraw - [Lien de travail](https://excalidraw.com/#json=J5tmd4gbWdWDSZ2gWkFrp,Y6FlIZLVRJ8RNG6FD1x_AQ)
+```
+
+
+
 
 
 ### Choisir un template

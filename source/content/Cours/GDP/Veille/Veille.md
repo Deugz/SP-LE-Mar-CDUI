@@ -225,6 +225,16 @@
 
 ::::{tab-set}
 
+:::{tab-item} CDP 3
+
+```{note}
+
+Pas de support de cours
+
+```
+
+:::
+
 :::{tab-item} CDP 2
 
 ```{note}
@@ -237,11 +247,12 @@ Pas de support de cours
 
 :::{tab-item} CDP 1
 
-```{note}
-
-Pas de support de cours
-
-```
+<iframe src="https://drive.google.com/file/d/19YH16YJi6P--jH8K8WiRf9_7ciWG0quH/preview" 
+        width="100%" 
+        height="400px" 
+        frameborder="0" 
+        allowfullscreen>
+</iframe>
 
 :::
 
@@ -1667,6 +1678,10 @@ Au programme du Master donc faire le lien quand ce dernier sera créé
 Outil de recherche visuelle, lié avec le chapitre charte graphique pour le moodboard
 
 ```
+
+#### Chaines Youtube
+
+- [lespritcritique](https://www.youtube.com/@lespritcritique)
 
 ### Testez-vous !
 

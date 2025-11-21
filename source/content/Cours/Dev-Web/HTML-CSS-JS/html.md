@@ -165,16 +165,207 @@ On peut faire un truc cool ici !!
 
 ```
 
+### Introduction au HTML
 
-### Un peu d'histoire
+#### HTML ?
 
-<p class="p-emphase">Hypertext Markup Language</p>
+::::{grid} 2
 
-**Langage de Balisage**
+:::{grid-item}
+:columns: 8
 
-## Bonnes Pratiques
+> Explication rapide
 
-### W3C
+:::
+
+:::{grid-item}
+:columns: 4
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+<dotlottie-wc src="../../../../_static/lottie/C19-HTML5.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc>
+
+:::
+
+::::
+
+ 
+
+<br>
+
+
+::::::{tab-set}
+
+:::::{tab-item} HyperText
+
+<br>
+
+L’hypertexte est un texte qui peut **mener vers d’autres contenus** grâce à des liens appelés *hyperliens*.
+
+:::::
+
+:::::{tab-item} Markup
+
+<br>
+
+Le “markup” est un **système de balises** qui sert à organiser, structurer ou décrire un document.
+
+:::::
+
+
+:::::{tab-item} Langage
+
+<br>
+
+Un langage est un **ensemble de règles et de mots** permettant de communiquer quelque chose. Ici, HTML est un langage qui permet de communiquer **avec un navigateur web**.
+
+:::::
+
+:::::{tab-item} Définition complète
+
+<br>
+
+Un langage est un **ensemble de règles et de mots** permettant de communiquer quelque chose. Ici, HTML est un langage qui permet de communiquer **avec un navigateur web**.
+
+:::::
+
+::::::
+
+
+
+#### Un Langage de Structure 
+
+```{note}
+
+Trouver une analogie sympa pour expliquer ce concept abstrait
+
+```
+
+- Fonctionnement général : navigateur → interprétation du code
+
+
+
+- Version actuelle : HTML5, évolution et nouveaux apports
+
+```{note}
+
+Créé un tab-item (dropdown) avec les différentes versions ?
+
+```
+
+### Écrire en HTML
+
+```{note}
+
+Implémenter progressivement un digipen pour montrer l'évolution
+
+
+```
+
+#### Les Balises
+
+```{note}
+
+Créer quelque slide pour présenter successivement les différents éléments.
+
+```
+
+- Balises ouvrantes / fermantes
+
+- Attributs
+
+- Indentation, lisibilité, hiérarchie
+
+- Notions de blocs vs inline
+
+
+
+##### Balises de structure / sémantiques
+
+Pourquoi la sémantique est importante (accessibilité, SEO, cohérence UI)
+
+- `<header>`    
+- `<nav>` 
+- `<main>` 
+- `<section>` 
+- `<article>` 
+- `<aside>` 
+- `<footer>`
+
+
+##### Textes et contenus
+
+- Titres `<h1>` à `<h6>`
+
+- Paragraphe `<p>`
+
+- Mise en emphase : `<strong>`, `<em>`
+
+- Listes `<ul>`, `<ol>`, `<li>`
+
+- Citations : `<blockquote>`, `<q>`
+
+##### Médias
+
+- Images : `<img>` (src, alt, rôle UI/UX)
+
+- Vidéos avec `<video>` et audio `<audio>`
+
+- Iframes : usages, limites
+
+
+##### Liens et navigation
+
+`<a>` : attributs href, target, bonnes pratiques
+
+Liens internes / externes / ancres
+
+
+
+#### Attributs
+
+
+##### Globaux
+
+- Attributs globaux (`id`, `class`, `title`, `style`, `role`)
+
+
+##### Accessibilité
+
+- `alt`
+
+- attributs ARIA (vue d’ensemble sans détail technique)
+
+```{note}
+
+Explorer ce qu'est l'ARIA
+
+```
+
+<p class="p-emphase">Accessible Rich Internet Applications</p>
+
+Description des éléments non textuels : Sur une page web, de nombreux éléments peuvent ne pas être accompagnés de texte descriptif, tels que les icônes ou les éléments graphiques. L’attribut aria-label permet de pallier ce manque en fournissant une description textuelle, facilitant ainsi la compréhension de ces éléments par les utilisateurs.
+
+
+### le DOM 
+
+- Arborescence du document
+
+- Noeuds, parents, enfants, frères
+
+- Importance pour :
+
+    - styling CSS
+
+    - interactions JS
+
+    - lecture par les technologies d’assistance
+
+### Bonnes Pratiques
+
+#### W3C
 
 ```{note}
 
@@ -182,7 +373,7 @@ Identifier le lien entre W3C et Opquast
 
 ```
 
-## Synthèse
+### Synthèse
 
 ```{warning}
 

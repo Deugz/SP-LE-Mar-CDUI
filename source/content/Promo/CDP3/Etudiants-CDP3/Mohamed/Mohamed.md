@@ -1,5 +1,70 @@
 # Mohamed
 
+## Livrables
+
+<br>
+
+::::{grid} 
+
+:::{grid-item-card}
+:link: https://drive.google.com/drive/folders/12O54ylEI-4HKMJQuWopjny5ufQaKw9cV
+:class-header: bg-light
+:columns: 3
+**Drive**
+^^^
+
+
+```{image} ../../../Docs/Logos/256px-Google_Drive_icon_(2020).svg.png
+:width: 100%
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: https://docs.google.com/document/d/1rpu_xhtseIgM7pyB-3m4M8TdX7r56FtKQstxNtGCZyk/edit?tab=t.0#heading=h.27s8i0w7oxxq
+:columns: 3
+**CDC**
+^^^
+
+
+```{image} ../../../Docs/Logos/256px-Microsoft_Office_Word_(2019–present).svg.png
+:width: 100%
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+:link: https://www.canva.com/design/DAG37loqaV8/0EFflu31NA-XDFzzfFZcfQ/edit?utm_content=DAG37loqaV8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+**Canva**
+^^^
+
+
+```{image} ../../../Docs/Logos/Canva_icon_2021.svg
+:width: 100%
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+**Wordpress**
+^^^
+
+
+```{image} ../../../Docs/Logos/Wordpress-Logo.svg
+:width: 100%
+```
+
+:::
+
+::::
+
+<br>
+
 ## Profil
 
 ```{note}

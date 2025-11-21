@@ -4,6 +4,7 @@
 :maxdepth: 2
 :hidden:
 
+Marche/etude-marche
 Branding/Branding
 Organisation/Organisation
 
@@ -49,21 +50,38 @@ Organisation/Organisation
     
 ::::
 
-## Outils
 
-### Trouver vos propres outils
+## 🔍 Veille
 
-- [Framalibre](https://framalibre.org/)
-
+<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/sw1zks3c5hp7dnwu" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Fait avec Padlet"></div></a></div></div>
 
 
-## Bien s'Organiser
+
+## ➕ En Plus !
+
+
+
+### Étude de Marché
+
+
+### Identité de Marque
+
+
+### Bien s'Organiser
 
 ```{note}
 
 Parler du docs *suivie projets apprenants*. Expliquer comment ca marche
 
 ```
+
+
+
+## Outils
+
+### Trouver vos propres outils
+
+- [Framalibre](https://framalibre.org/)
 
 
 
@@ -81,7 +99,3 @@ Logiciel de gestion de projet open source
 
 - [Xisemapping](https://latelierduformateur.fr/tutoriels-wisemapping-creation-de-cartes-mentales/)
 
-
-## 🔍 Veille
-
-<div class="padlet-embed" style="border:1px solid rgba(0,0,0,0.1);border-radius:2px;box-sizing:border-box;overflow:hidden;position:relative;width:100%;background:#F4F4F4"><p style="padding:0;margin:0"><iframe src="https://padlet.com/embed/sw1zks3c5hp7dnwu" frameborder="0" allow="camera;microphone;geolocation;display-capture;clipboard-write" style="width:100%;height:608px;display:block;padding:0;margin:0"></iframe></p><div style="display:flex;align-items:center;justify-content:end;margin:0;height:28px"><a href="https://padlet.com?ref=embed" style="display:block;flex-grow:0;margin:0;border:none;padding:0;text-decoration:none" target="_blank"><div style="display:flex;align-items:center;"><img src="https://padlet.net/embeds/made_with_padlet_2022.png" width="114" height="28" style="padding:0;margin:0;background:0 0;border:none;box-shadow:none" alt="Fait avec Padlet"></div></a></div></div>

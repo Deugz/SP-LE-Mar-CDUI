@@ -140,6 +140,31 @@ Enumérer les différents objectifs pédagogiques (star classification avec diff
 :::::{dropdown} Support de Cours 
 
 ::::{tab-set}
+
+:::{tab-item} CDP 3
+
+
+<iframe src="https://drive.google.com/file/d/1MJs6he809I1LLm_C_xTwOSxbkjvHtelq/preview" 
+        width="100%" 
+        height="400px" 
+        frameborder="0" 
+        allowfullscreen>
+</iframe>
+
+:::
+
+:::{tab-item} CDP 2
+
+
+<iframe src="https://drive.google.com/file/d/1MJs6he809I1LLm_C_xTwOSxbkjvHtelq/preview" 
+        width="100%" 
+        height="400px" 
+        frameborder="0" 
+        allowfullscreen>
+</iframe>
+
+:::
+
 :::{tab-item} CDP 1
 
 
@@ -551,6 +576,16 @@ Très bon outil (très, trop ?) puissant!
 
 ```
 
+
+- [pageaudit](https://pageaudit.com/)
+
+
+```{note}
+
+A tester
+
+```
+
 ### Analyse Technologie
 
 #### Wappalyzer
@@ -764,11 +799,15 @@ Référencer les figures de la page ?
 
 ```{note}
 
+- créer grid card for top
+
 Faire un lien vers e e-book suivant : JamaisLeVendredi_-_Benchmark_101 localisé dans static asset
 
 ```
 
 - [Article de blog](https://www.jamaislevendredi.com/comment-creer-un-benchmark-concurrentiel-efficace/)
+
+- [Benchmark Notion](https://anthonyhobday.com/sideprojects/attentiontodetail/notion.html)
 
 ### Commentaires
 

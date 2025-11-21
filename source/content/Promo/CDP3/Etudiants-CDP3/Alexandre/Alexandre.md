@@ -36,6 +36,7 @@
 :::{grid-item-card}
 :class-header: bg-light
 :columns: 3
+:link: https://www.canva.com/design/DAG1AXRsIGE/a9CTXMrAjoCPQ56cQmWTmw/edit?utm_content=DAG1AXRsIGE&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 **Canva**
 ^^^
 

@@ -204,8 +204,47 @@ name: Etapes-conception
 Les étapes de conception
 ```
 
+#### Croquis
 
-### Prototypage
+- [excalidraw](https://excalidraw.com/)
+
+
+```{note}
+
+Un bon outil pour réaliser des sketxhs grace a un tableau blanc qui donne un feel "fait à la main" !
+
+- Intéréssant, a tester mais bien préciser que les sketchs doivent être fait à la main (peut être utile pour un portfolio) - peut être les reporter dans un second temps
+
+- créer format carte avec logo présent dans doss Docs
+
+```
+
+
+
+#### Zoning
+
+
+
+
+
+#### Wireframe
+
+
+
+
+#### Maquette
+
+
+```{figure} Docs/example-maquette-wavemind-manon.png
+---
+width: 100%
+name: example-maquette-wavemind-manon
+---
+La Maquette de Manon et son projet wavemind - CDP2 
+```
+
+
+#### Prototype
 
 
 <div class="embedresize">
@@ -215,7 +254,10 @@ Les étapes de conception
 
 
 
-#### Variables
+##### Variables
+
+
+
 
 <div class="embedresize">
 <iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/pwEndoM4ZCc?si=MMNs048XcTKngP6e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -242,29 +284,6 @@ Les étapes de conception
 
 ## Ressources
 
-### Cours Complets
-
-::::{grid} 2
-
-:::{grid-item}
-:columns: 5
-
-> Test de présentation
-> - [Lien](https://academie.digidop.fr/formations/figma)
-
-
-:::
-
-:::{grid-item}
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3J7zfAxz_fM?si=Ud_8_Xa8-AH09xtj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-:::
-
-::::
-
-
-
 
 - [Bonnes pratiques du design web](https://anthonyhobday.com/sideprojects/saferules/)
 
@@ -275,6 +294,37 @@ Très bonne ressource mais en Anglais ...
 ```
 
 - [Laws of UX](https://lawsofux.com/)
+
+
+### Sources d'Inspis
+
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 4
+
+> Paragraphe d'introduction pour expliquer la ressource et son utilité
+
+:::
+
+
+:::{grid-item}
+:columns: 8
+
+<iframe 
+  src="https://anthonyhobday.com/sideprojects/visualtechniques/#letting-the-background-through" 
+  width="100%" 
+  height="500" 
+  style="border:none; overflow:auto;" 
+  allowfullscreen>
+</iframe>
+
+    
+:::
+    
+::::
+
 
 
 ## Autres méthodes 

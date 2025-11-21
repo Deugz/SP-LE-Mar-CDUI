@@ -374,6 +374,13 @@ Référencer les figures de la page ?
 
 #### Plus de Ressources
 
+- [no-one-is-an-island](https://myhero.com/no-one-is-an-island)
+
+```{note}
+
+Un exemple de vidéo dont l'objectif est de résumer un projet scientifique
+
+```
 
 ### Commentaires
 

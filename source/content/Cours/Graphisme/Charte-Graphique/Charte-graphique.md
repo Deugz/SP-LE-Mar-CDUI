@@ -947,7 +947,7 @@ Créer une activité drag and drop pour associer les différents livrables aux d
 
 <br>
 
-<p class="p-emphase">Elle se compose des éléments suivants : </p>
+<p class="p-emphase"><strong>Elle se compose des éléments suivants : </strong></p>
 
 
 #### Moodboard
@@ -1376,6 +1376,18 @@ En somme, cette dernière piste représente la synthèse parfaite de mes précé
 
 :::::::
 
+
+
+```{note}
+
+- choisir la couleur de son logo: https://www.codeur.com/blog/choisir-couleur-logo/
+
+```
+
+
+
+
+
 ###### Mauvais Logo
 
 
@@ -1387,6 +1399,10 @@ Intégrer pres canva
 
 
 ##### Outils et Bonnes Pratiques 
+
+
+
+
 
 ::::{grid}
 
@@ -1516,9 +1532,17 @@ Peut être inclure dans une fiche récap
 ```
 
 
+###### En Plus
 
+- [Logo Grid](https://drive.google.com/file/d/1O2NfCl2umR5aJlRAWSLFcqnWxpVqFHaK/view?usp=drive_link)
 
+```{note}
 
+Free template extrait de ce site [Lien](https://www.akrivi.io/resources#resources-templates)
+
+- A tester
+
+```
 
 #### Palette de Couleurs
 
@@ -1550,6 +1574,15 @@ Peut être inclure dans une fiche récap
 
 
 
+```{note}
+
+S'appuyer sur la ressource suivante : [Lien](https://anthonyhobday.com/sideprojects/quickstart/colour.html)
+
+- Parler de la Théorie et mettre le chapitre psychologie dans un dropdown
+
+```
+
+
 ##### Psychologie des couleurs
 
 
@@ -1570,7 +1603,299 @@ Les couleurs ont une signification
 ```
 
 
-##### Outils de sélection
+##### Associations de Couleurs
+
+::::{grid}
+
+:::{grid-item}
+:columns: 5
+
+> Les systèmes d’associations proposés par la roue chromatique reposent sur la manière dont l’œil humain perçoit les couleurs et leurs relations spatiales sur le cercle. Certaines combinaisons créent du contraste, d’autres de la douceur — mais toutes sont conçues pour être visuellement équilibrées.
+
+
+:::
+
+:::{grid-item}
+:columns: 1
+
+
+:::
+
+:::{grid-item}
+:columns: 6
+
+<style>
+    .app-container { width: 360px; display: flex; flex-direction: column; align-items: center; gap: 20px; }
+    .color-wheel-container { position: relative; width: 320px; height: 320px; }
+    .color-wheel { width: 100%; height: 100%; border-radius: 50%; cursor: crosshair; background: conic-gradient(from 0deg, red, #ff0, lime, aqua, blue, magenta, red); }
+    .selector, .scheme-point { position: absolute; width: 14px; height: 14px; border-radius: 50%; pointer-events: none; transform: translate(-50%, -50%); box-shadow: 0 0 4px rgba(0,0,0,0.5); }
+    .selector { background: white; border: 3px solid #000; }
+    .scheme-point { background: transparent; border: 2px solid white; }
+    .preview { width: 80px; height: 80px; border-radius: 8px; border: 2px solid #999; }
+    .values { font-size: 14px; text-align: center; }
+    .scheme-preview { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; }
+    .scheme-block { width: 60px; height: 60px; border-radius: 6px; border: 2px solid #ccc; box-shadow: 0 0 4px rgba(0,0,0,0.2); display: flex; flex-direction: column; align-items: center; justify-content: center; font-size: 10px; color: #000; }
+    select { padding: 6px; font-size: 14px; margin-bottom: 10px; }
+    .slider-container { display: flex; flex-direction: column; gap: 10px; width: 100%; align-items: center; }
+    .slider-container label { font-size: 12px; }
+    .slider-container input { width: 90%; }
+</style>
+
+<div class="app-container">
+<select id="schemeSelect">
+<option value="none">Aucun</option>
+<option value="analogous">Analogous</option>
+<option value="complementary">Complementary</option>
+<option value="split">Split complementary</option>
+<option value="double-split">Double split</option>
+<option value="triadic">Triadic</option>
+<option value="rectangle">Rectangle</option>
+<option value="tetradic">Tetradic</option>
+</select>
+<div class="color-wheel-container" id="wheelContainer">
+<div class="color-wheel" id="wheel"></div>
+<div class="selector" id="selector"></div>
+</div>
+<div class="slider-container">
+<label>Saturation: <span id="saturationValue">100%</span></label>
+<input type="range" id="saturationSlider" min="0" max="100" value="100">
+<label>Lightness: <span id="lightnessValue">50%</span></label>
+<input type="range" id="lightnessSlider" min="0" max="100" value="50">
+</div>
+<div class="preview" id="preview"></div>
+<div class="values">
+<p>Hex : <span id="hexValue">#ff0000</span></p>
+<p>HSL : <span id="hslValue">hsl(0, 100%, 50%)</span></p>
+</div>
+<div class="scheme-preview" id="schemePreview"></div>
+</div>
+<script>
+const wheel = document.getElementById("wheel");
+const selector = document.getElementById("selector");
+const preview = document.getElementById("preview");
+const hexValue = document.getElementById("hexValue");
+const hslValue = document.getElementById("hslValue");
+const schemePreview = document.getElementById("schemePreview");
+const schemeSelect = document.getElementById("schemeSelect");
+const saturationSlider = document.getElementById("saturationSlider");
+const lightnessSlider = document.getElementById("lightnessSlider");
+const saturationValue = document.getElementById("saturationValue");
+const lightnessValue = document.getElementById("lightnessValue");
+const wheelContainer = document.getElementById("wheelContainer");
+const wheelRect = wheel.getBoundingClientRect();
+const wheelRadius = wheelRect.width / 2;
+let schemePoints = [];
+function hslToHex(h, s, l) { s /= 100; l /= 100; const k = n => (n + h / 30) % 12; const a = s * Math.min(l, 1 - l); const f = n => l - a * Math.max(-1, Math.min(k(n) - 3, Math.min(9 - k(n), 1))); return "#" + [f(0), f(8), f(4)].map(x => Math.round(255*x).toString(16).padStart(2,'0')).join(''); }
+let currentAngle = 0, currentS = 100, currentL = 50;
+function setColorFromAngle(angle) {
+    currentAngle = (angle + 360) % 360;
+    const x = wheelRadius + Math.cos((currentAngle-90)*Math.PI/180)*(wheelRadius-8);
+    const y = wheelRadius + Math.sin((currentAngle-90)*Math.PI/180)*(wheelRadius-8);
+    selector.style.left = x+'px'; selector.style.top = y+'px';
+    const hex = hslToHex(currentAngle, currentS, currentL);
+    preview.style.background = hex; hexValue.textContent = hex; hslValue.textContent = `hsl(${Math.round(currentAngle)}, ${currentS}%, ${currentL}%)`;
+    updateSchemeBlocks(schemeSelect.value, currentAngle);
+    updateWheelPoints(schemeSelect.value, currentAngle);
+}
+function getAngleFromEvent(e){const rect = wheel.getBoundingClientRect(); const x = e.clientX - (rect.left + wheelRadius); const y = e.clientY - (rect.top + wheelRadius); return Math.atan2(y, x)*180/Math.PI + 90;}
+let isDragging=false; wheel.addEventListener('mousedown', e=>{isDragging=true; setColorFromAngle(getAngleFromEvent(e));}); document.addEventListener('mousemove', e=>{if(isDragging) setColorFromAngle(getAngleFromEvent(e));}); document.addEventListener('mouseup', ()=>{isDragging=false;});
+schemeSelect.addEventListener('change', ()=>{setColorFromAngle(currentAngle);});
+saturationSlider.addEventListener('input', ()=>{currentS=parseInt(saturationSlider.value); saturationValue.textContent=currentS+'%'; setColorFromAngle(currentAngle);});
+lightnessSlider.addEventListener('input', ()=>{currentL=parseInt(lightnessSlider.value); lightnessValue.textContent=currentL+'%'; setColorFromAngle(currentAngle);});
+function updateSchemeBlocks(type, baseAngle){
+    schemePreview.innerHTML=''; if(type==='none') return; let angles=[];
+    switch(type){
+        case 'analogous': angles=[baseAngle-30, baseAngle, baseAngle+30]; break;
+        case 'complementary': angles=[baseAngle, baseAngle+180]; break;
+        case 'split': angles=[baseAngle-150, baseAngle+150]; break;
+        case 'double-split': angles=[baseAngle-150, baseAngle+150, baseAngle-30, baseAngle+30]; break;
+        case 'triadic': angles=[baseAngle, baseAngle+120, baseAngle+240]; break;
+        case 'rectangle': angles=[baseAngle, baseAngle+60, baseAngle+180, baseAngle+240]; break;
+        case 'tetradic': angles=[baseAngle, baseAngle+90, baseAngle+180, baseAngle+270]; break;
+    }
+    angles.forEach(a=>{
+        const h=(a+360)%360; const hex=hslToHex(h,currentS,currentL);
+        const block=document.createElement('div'); block.className='scheme-block'; block.style.background=hex;
+        const hexLabel = document.createElement('div'); hexLabel.textContent=hex; hexLabel.style.fontSize='10px'; hexLabel.style.marginTop='4px'; block.appendChild(hexLabel);
+        schemePreview.appendChild(block);
+    });
+}
+function updateWheelPoints(type, baseAngle){
+    schemePoints.forEach(p=>p.remove()); schemePoints=[]; if(type==='none') return; let angles=[];
+    switch(type){
+        case 'complementary': angles=[baseAngle, baseAngle+180]; break;
+        case 'split': angles=[baseAngle, baseAngle-150, baseAngle+150]; break;
+        case 'double-split': angles=[baseAngle, baseAngle-150, baseAngle+150, baseAngle-30, baseAngle+30]; break;
+        case 'triadic': angles=[baseAngle, baseAngle+120, baseAngle+240]; break;
+        case 'rectangle': angles=[baseAngle, baseAngle+60, baseAngle+180, baseAngle+240]; break;
+        case 'tetradic': angles=[baseAngle, baseAngle+90, baseAngle+180, baseAngle+270]; break;
+        case 'analogous': angles=[baseAngle-30, baseAngle, baseAngle+30]; break;
+    }
+    angles.forEach(a=>{
+        const point=document.createElement('div'); point.className='scheme-point';
+        const x = wheelRadius + Math.cos((a-90)*Math.PI/180)*(wheelRadius-8);
+        const y = wheelRadius + Math.sin((a-90)*Math.PI/180)*(wheelRadius-8);
+        point.style.left=x+'px'; point.style.top=y+'px';
+        wheelContainer.appendChild(point); schemePoints.push(point);
+    });
+}
+setColorFromAngle(0);
+</script>
+
+
+:::
+
+::::
+
+<br>
+
+
+:::::::{dropdown} Les Différentes associations de couleurs
+
+::::::{tab-set}
+
+:::::{tab-item} Analogous
+
+<br>
+
+<p class="p-emphase">Couleurs analogues</p>
+
+- **Définition** : Trois couleurs (parfois plus) côte à côte sur la roue chromatique. Ex. : bleu — bleu-vert — vert.
+
+- **Pourquoi c’est harmonieux** : Les couleurs étant proches en teinte, elles partagent une portion importante de leurs longueurs d’onde.
+
+<br>
+
+👉 **Résultat** : effet doux, naturel, cohérent, très utilisé en design et en nature (couchers de soleil, feuillages).
+
+
+:::::
+
+:::::{tab-item} Complementary
+
+<br>
+
+<p class="p-emphase">Complémentaires</p>
+
+- **Définition** : Deux couleurs opposées sur la roue. Ex. : bleu / orange, rouge / vert.
+
+- **Pourquoi c’est harmonieux** : Elles créent le plus fort contraste tout en restant équilibrées, car leurs longueurs d’onde se complètent visuellement.
+
+<br>
+
+👉 **Résultat** : palette dynamique, idéale pour attirer l’attention.
+
+:::::
+
+:::::{tab-item} Split Complementary
+
+<br>
+
+<p class="p-emphase">Complémentaires divisées</p>
+
+- **Définition** : Une couleur + les deux couleurs adjacentes à sa complémentaire. Ex. : bleu avec jaune-orangé et rouge-orangé.
+
+- **Pourquoi c’est harmonieux** : Vous obtenez un contraste intéressant (comme les complémentaires), mais moins agressif, car la complémentaire directe est “ouverte” en deux teintes voisines.
+
+<br>
+
+👉 **Résultat** : équilibre entre tension et douceur.
+
+
+:::::
+
+:::::{tab-item} Double Split Complementary
+
+<br>
+
+<p class="p-emphase">Double complémentaires divisées</p>
+
+- **Définition** : Deux paires de split complementaries. En d’autres termes, deux couleurs et leurs deux complémentaires adjacentes. Ex : bleu + vert, associés à leurs split complements respectifs.
+
+- **Pourquoi c’est harmonieux** : Cela crée un système complexe mais très équilibré :
+
+    - contraste → grâce aux complémentaires
+
+    - douceur → grâce aux splits
+
+<br>
+
+👉 **Résultat** : palette riche et vibrante, utile pour des compositions colorées sans être chaotiques.
+
+
+:::::
+
+:::::{tab-item} Rectangle
+
+<br>
+
+<p class="p-emphase">Schéma en rectangle / quadrichromie complémentaire</p>
+
+- **Définition** : Quatre couleurs formant deux paires complémentaires, disposées en rectangle sur la roue.
+
+- **Pourquoi c’est harmonieux** : L’équilibre vient du fait qu’il y a deux contrastes forts mais répartis de manière stable.
+
+<br>
+
+👉 **Résultat** : variété + contraste, tout en gardant une structure solide.
+
+
+:::::
+
+:::::{tab-item} Tetradic
+
+<br>
+
+<p class="p-emphase">Tétradique / double complémentaire</p>
+
+- **Définition** : Quatre couleurs formant un carré parfait sur la roue chromatique. Les teintes sont à égale distance les unes des autres.
+
+- **Pourquoi c’est harmonieux** : L’espacement régulier crée un équilibre mathématique entre contraste et variété.
+
+<br>
+
+👉 **Résultat** : palette très complète, avec une grande amplitude visuelle.
+
+
+:::::
+
+:::::{tab-item} Triadic
+
+<br>
+
+<p class="p-emphase">Triade</p>
+
+- **Définition** : Trois couleurs espacées de manière égale (triangle équilatéral). Ex. : rouge / jaune / bleu.
+
+- **Pourquoi c’est harmonieux** : Les teintes sont suffisamment éloignées pour créer du contraste, mais équilibrées grâce à la symétrie.
+
+<br>
+
+👉 **Résultat** : palette vive, stable et dynamique.
+
+
+:::::
+
+
+::::::
+
+:::::::
+
+
+###### Outils de sélection
+
+- [visual.app](https://visual.app/colors/color-wheel)
+
+```{note}
+
+Ajouter adobe color etc ...
+
+```
+
+
+
+###### Outils de Tests
+
 
 - [www.realtimecolors.com](https://www.realtimecolors.com/)
 
@@ -1673,6 +1998,12 @@ Méthode pédagogique
 
 <br>
 
+
+```{note}
+
+Utiliser le document suivant [Icons - quick start](https://anthonyhobday.com/sideprojects/quickstart/icons.html)
+
+```
 
 
 ##### pictogrammes de réassurance
@@ -1971,6 +2302,29 @@ Très bonne ressource a explorer - récupérer les images.
 Exercice pour refaire la DA de Label Ecole
 
 ```
+
+
+### Brief
+
+- [goodbrief](https://goodbrief.io/)
+
+```{note}
+
+Utiliser le site ci-dessus pour générer un brief client pour différentes applications
+
+- Très intéréssant ! A tester
+
+```
+
+- [fakeclients](https://fakeclients.com/)
+
+
+```{note}
+
+Autre site, tester les deux et voir la différence (un produit des briefs plus complet ?)
+
+```
+
 
 ### Créer ta police
 

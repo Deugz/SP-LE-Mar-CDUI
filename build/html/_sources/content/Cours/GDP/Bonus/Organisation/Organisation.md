@@ -44,3 +44,14 @@ Créer des templates en lien avec le projet des apprenants
 - Récupérer le diagramme de Gant de Jana
 
 ```
+
+
+## Autres Outils
+
+- [youtrack](https://www.jetbrains.com/fr-fr/youtrack/)
+
+```{note}
+
+Jetbrains ? - pas sur qu'il y ai une version gratuite
+
+```

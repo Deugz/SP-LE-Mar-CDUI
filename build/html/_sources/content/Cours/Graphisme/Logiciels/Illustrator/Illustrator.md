@@ -191,6 +191,34 @@ Pas le bon support
 :::::
 
 
+
+:::::{dropdown} Ressources complémentaires
+
+::::{tab-set}
+:::{tab-item} Mockups
+
+- liste
+- etc
+
+:::
+
+:::{tab-item} Autres banques
+
+
+
+:::
+
+::::
+
+:::::
+
+
+
+
+
+
+
+
 ```{warning}
 
 C'est un peu le bordel dans les supports de cours ...

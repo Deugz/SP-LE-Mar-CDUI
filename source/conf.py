@@ -99,16 +99,21 @@ html_theme_options = {
         },
         {
             "name": "Discord",
-            "url": "https://github.com/Deugz/Encyclopedia-Home",
+            "url": "https://discord.com/channels/1309808626088677386/1312828051494535208",
             "icon": "fa-brands fa-discord",
         },
         {
             "name": "GitHub",
-            "url": "https://github.com/Deugz/SP-Label-Ecole",
+            "url": "https://github.com/Deugz/SP-LE-Mar-CDUI",
             "icon": "fa-brands fa-github",
         },
+        {
+            "name": "Pad",
+            "url": "https://mypads2.framapad.org/mypads/?/mypads/group/site-label-ecole-cdui-yu4d489qw/pad/view/to-do-site-cu4db89bm",
+            "icon": "fa-solid fa-file-pen",
+        },
     ],
-    
+  
     "logo": {
         "text": " &nbsp (13) CDUI &nbsp ",
         "image_dark": "_static/logos/Label-Ecole-Logo.png",
@@ -123,6 +128,6 @@ html_theme_options = {
 
 
 html_css_files = ["css/custom_style.css", "css/slider.css", "css/flash-card.css","css/sliding-image.css", "css/modal.css", "css/productivity.css", "css/OP-slider.css","css/CG-style.css", 'https://fonts.googleapis.com/css2?family=Fredoka:wght@400;700&family=Montserrat:wght@400;700&display=swap',]
-html_js_files = ["scripts/slider-script.js", "scripts/page-layout.js", "scripts/flash-card.js", "scripts/sliding-image.js", "scripts/custom.js", ("https://www.googletagmanager.com/gtag/js?id=G-V9S9HSF9X0",{"async": "async"}),"scripts/ga.js","scripts/pomodoro.js", "scripts/step-counter.js", "scripts/OP-slider.js", "_static/scripts/CG-script.js",]
+html_js_files = ["scripts/slider-script.js", "scripts/page-layout.js", "scripts/flash-card.js", "scripts/sliding-image.js", "scripts/custom.js", ("https://www.googletagmanager.com/gtag/js?id=G-V9S9HSF9X0",{"async": "async"}),"scripts/ga.js","scripts/pomodoro.js", "scripts/step-counter.js", "scripts/OP-slider.js", "_static/scripts/CG-script.js","_static/scripts/crazy-button.js"]
 
     

@@ -135,6 +135,32 @@ Enumérer les différents objectifs pédagogiques (star classification avec diff
 :::::{dropdown} Support de Cours 
 
 ::::{tab-set}
+
+:::{tab-item} CDP 3
+
+
+```{warning}
+
+Pas de support, a récupérer
+
+```
+
+
+:::
+
+:::{tab-item} CDP 2
+
+
+<iframe src="https://drive.google.com/file/d/1-PJ7MLNto7NJPQhqw0eRmBnK_rsk1ODh/preview" 
+        width="100%" 
+        height="400px" 
+        frameborder="0" 
+        allowfullscreen>
+</iframe>
+
+
+:::
+
 :::{tab-item} CDP 1
 
 

@@ -1,5 +1,70 @@
 # Sofiane
 
+## Livrables
+
+<br>
+
+::::{grid} 
+
+:::{grid-item-card}
+:link: https://drive.google.com/drive/folders/1XbU11BlWR7eb7q6b2HoyE-mU_IlvT9Dn
+:class-header: bg-light
+:columns: 3
+**Drive**
+^^^
+
+
+```{image} ../../../Docs/Logos/256px-Google_Drive_icon_(2020).svg.png
+:width: 100%
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: https://drive.google.com/drive/folders/1LYJbVxcX9G7aPANn76_H4902p8CFH32w
+:columns: 3
+**CDC**
+^^^
+
+
+```{image} ../../../Docs/Logos/256px-Microsoft_Office_Word_(2019–present).svg.png
+:width: 100%
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+:link: https://www.canva.com/design/DAG2-mKXd90/2u0LrTXqjsuvGZoYUcIBbQ/edit?utm_content=DAG2-mKXd90&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+**Canva**
+^^^
+
+
+```{image} ../../../Docs/Logos/Canva_icon_2021.svg
+:width: 100%
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+**Wordpress**
+^^^
+
+
+```{image} ../../../Docs/Logos/Wordpress-Logo.svg
+:width: 100%
+```
+
+:::
+
+::::
+
+<br>
+
 ## Profil
 
 ### Ikigai

@@ -1,5 +1,71 @@
 # Amina
 
+
+## Livrables
+
+<br>
+
+::::{grid} 
+
+:::{grid-item-card}
+:link: https://drive.google.com/drive/folders/1UG1dUzRyAxkN4i4MONHW4uK70fBZXPnA
+:class-header: bg-light
+:columns: 3
+**Drive**
+^^^
+
+
+```{image} ../../../Docs/Logos/256px-Google_Drive_icon_(2020).svg.png
+:width: 100%
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:link: https://docs.google.com/document/d/1lhQdMNm3rxreJ3YpgRYfEjF3ahU9Hj8yXEDoRV3taBA/edit?usp=drive_link
+:columns: 3
+**CDC**
+^^^
+
+
+```{image} ../../../Docs/Logos/256px-Microsoft_Office_Word_(2019–present).svg.png
+:width: 100%
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+:link: https://www.canva.com/design/DAG4qvax7z8/_eJvmi2DI_Cdh52zeguYRQ/edit
+**Canva**
+^^^
+
+
+```{image} ../../../Docs/Logos/Canva_icon_2021.svg
+:width: 100%
+```
+
+:::
+
+:::{grid-item-card}
+:class-header: bg-light
+:columns: 3
+**Wordpress**
+^^^
+
+
+```{image} ../../../Docs/Logos/Wordpress-Logo.svg
+:width: 100%
+```
+
+:::
+
+::::
+
+<br>
+
 ## Profil
 
 ```{note}

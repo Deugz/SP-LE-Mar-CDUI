@@ -175,6 +175,48 @@ Parler des chapitres eco-conception et accessibilité qui sont dans la partie Bo
 
 ## 🧠 La Théorie
 
+### L'Expérience Utilisateur
+
+<p class="p-emphase">Clique sur le bouton dans la fenêtre ci-dessous</p>
+
+<div class="crazy-button-container">
+
+<button class="crazy-button">Tout savoir sur l'UX !</button>
+
+</div>
+
+<script src="../../../../_static/scripts/crazy-button.js"></script>
+
+<br>
+
+
+
+<p class="p-emphase">😤</p>
+
+
+```{note}
+
+Inséerer un autre bouton encore plus frustrant
+
+```
+
+
+
+<p class="p-emphase">😠</p>
+
+
+```{note}
+
+Inséerer un autre bouton encore plus frustrant
+
+```
+
+
+
+<p class="p-emphase">😡</p>
+
+
+
 ### 💡 Le Design ?
 
 ```{note}
@@ -330,6 +372,10 @@ Créer un lien vers la section vidéo pour la diminution de la taille et les dif
 
 
 
+
+### Sources d'inspirations
+
+- [mobbin.com](https://mobbin.com/pricing)
 
 
 ## 💪 Mise En Pratique

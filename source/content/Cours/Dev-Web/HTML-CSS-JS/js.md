@@ -156,7 +156,27 @@ A venir
 
 ## 🧠 La Théorie
 
+::::{grid} 2
 
+:::{grid-item}
+:columns: 8
+
+> Explication rapide
+
+:::
+
+:::{grid-item}
+:columns: 4
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+<dotlottie-wc src="../../../../_static/lottie/C19-javascript.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc>
+
+:::
+
+::::
 
 
 ## 💪 Mise En Pratique

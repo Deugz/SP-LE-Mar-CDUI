@@ -33,3 +33,14 @@ Très bonne solution pour générer des questions
 - [Yeswiki](https://yeswiki.net/?PagePrincipale)
 
 
+
+### Boite a outil
+
+- [louisdujarier](https://louisdujarier.com/)
+
+
+```{note}
+
+Pleins de boite à outils dont on peut extraire le contenue
+
+```
