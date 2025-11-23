@@ -169,6 +169,8 @@ On peut faire un truc cool ici !!
 
 #### HTML ?
 
+<p class="p-emphase"> <strong>Hypertext Markup Language </strong></p>
+
 ::::{grid} 2
 
 :::{grid-item}
@@ -351,7 +353,20 @@ Description des éléments non textuels : Sur une page web, de nombreux élémen
 
 ### le DOM 
 
+
+#### Arborescence
+
+Document
+ └── html
+      ├── head
+      └── body
+           ├── h1
+           ├── p
+           └── img
+
+
 - Arborescence du document
+
 
 - Noeuds, parents, enfants, frères
 
@@ -401,6 +416,16 @@ Quelles activités ?
 ```{note}
 
 Conclusion plus fiche résumé (production collaborative ? Framanote ?) - produire un pdf exportable
+
+```
+
+#### Synthèse
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XRoFTzGcCsw?si=1QT8HAtignE-SFtn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+```{note}
+
+La vidéo ci-dessus résume très bien les notions fondamentales en html que nous venons de voir
 
 ```
 

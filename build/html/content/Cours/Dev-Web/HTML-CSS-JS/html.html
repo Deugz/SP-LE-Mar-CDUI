@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta property="article:modified_time" content="2025-11-15T18:21:21+01:00" />
+    <meta property="article:modified_time" content="2025-11-21T10:19:53+01:00" />
     <title>19.a - HTML &#8212; Label Ecole V0 0.0.1 documentation</title>
   
   
@@ -98,7 +98,7 @@
     <link rel="prev" title="19 - HTML / CSS / JS" href="Developpement-Main.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
-    <meta name="docbuild:last-update" content="15 November 2025"/>
+    <meta name="docbuild:last-update" content="21 November 2025"/>
   </head>
   
   
@@ -545,6 +545,10 @@ document.write(`
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="../../Intro/Edito/Edito.html">0 - Le p’tit mot de l’équipe</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../Intro/e-commerce/e-commerce.html">1 - Web et e-commerce</a></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../Intro/Bonus/Bonus-Intro.html">Bonus</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Intro/Bonus/Intro-IA/Intro-IA.html">Introduction à l’IA</a></li>
+</ul>
+</details></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">💼 Gestion de projet</span></p>
 <ul class="nav bd-sidenav">
@@ -815,6 +819,7 @@ Autres promos</label><div class="sd-tab-content docutils">
 <h3>Introduction au HTML<a class="headerlink" href="#introduction-au-html" title="Link to this heading">#</a></h3>
 <section id="html">
 <h4>HTML ?<a class="headerlink" href="#html" title="Link to this heading">#</a></h4>
+<p class="p-emphase"> <strong>Hypertext Markup Language </strong></p>
 <div class="sd-container-fluid sd-sphinx-override sd-mb-4 docutils">
 <div class="sd-row sd-row-cols-2 sd-row-cols-xs-2 sd-row-cols-sm-2 sd-row-cols-md-2 sd-row-cols-lg-2 docutils">
 <div class="sd-col sd-d-flex-column sd-col-8 sd-col-xs-8 sd-col-sm-8 sd-col-md-8 sd-col-lg-8 docutils">
@@ -877,6 +882,10 @@ Définition complète</label><div class="sd-tab-content docutils">
 </section>
 <section id="ecrire-en-html">
 <h3>Écrire en HTML<a class="headerlink" href="#ecrire-en-html" title="Link to this heading">#</a></h3>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Implémenter progressivement un digipen pour montrer l’évolution</p>
+</div>
 <section id="les-balises">
 <h4>Les Balises<a class="headerlink" href="#les-balises" title="Link to this heading">#</a></h4>
 <div class="admonition note">
@@ -951,6 +960,15 @@ Définition complète</label><div class="sd-tab-content docutils">
 </section>
 <section id="le-dom">
 <h3>le DOM<a class="headerlink" href="#le-dom" title="Link to this heading">#</a></h3>
+<section id="arborescence">
+<h4>Arborescence<a class="headerlink" href="#arborescence" title="Link to this heading">#</a></h4>
+<p>Document
+└── html
+├── head
+└── body
+├── h1
+├── p
+└── img</p>
 <ul class="simple">
 <li><p>Arborescence du document</p></li>
 <li><p>Noeuds, parents, enfants, frères</p></li>
@@ -962,6 +980,7 @@ Définition complète</label><div class="sd-tab-content docutils">
 </ul>
 </li>
 </ul>
+</section>
 </section>
 <section id="bonnes-pratiques">
 <h3>Bonnes Pratiques<a class="headerlink" href="#bonnes-pratiques" title="Link to this heading">#</a></h3>
@@ -999,6 +1018,14 @@ Définition complète</label><div class="sd-tab-content docutils">
 <p class="admonition-title">Note</p>
 <p>Conclusion plus fiche résumé (production collaborative ? Framanote ?) - produire un pdf exportable</p>
 </div>
+<section id="id1">
+<h4>Synthèse<a class="headerlink" href="#id1" title="Link to this heading">#</a></h4>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XRoFTzGcCsw?si=1QT8HAtignE-SFtn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La vidéo ci-dessus résume très bien les notions fondamentales en html que nous venons de voir</p>
+</div>
+</section>
 </section>
 <section id="test">
 <h3>Test<a class="headerlink" href="#test" title="Link to this heading">#</a></h3>
@@ -1166,7 +1193,10 @@ Définition complète</label><div class="sd-tab-content docutils">
 </li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-dom">le DOM</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#le-dom">le DOM</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#arborescence">Arborescence</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bonnes-pratiques">Bonnes Pratiques</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#w3c">W3C</a></li>
 </ul>
@@ -1176,7 +1206,10 @@ Définition complète</label><div class="sd-tab-content docutils">
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#mise-en-pratique">💪 Mise En Pratique</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pour-finir">📈 Pour Finir</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#conclusion">Conclusion</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">Synthèse</a></li>
+</ul>
+</li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#test">Test</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#tes-connaissances">Tes Connaissances</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#ton-projet">Ton Projet</a></li>

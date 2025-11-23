@@ -225,6 +225,46 @@ Introduction sur le design général et les différentes méthodes de Design
 
 ```
 
+
+#### Design et Psychologie
+
+
+
+::::::{dropdown} Cas d'étude (Chrome vs Brave)
+
+<br>
+
+::::{grid} 3
+
+:::{grid-item}
+:columns: 4
+
+> Explication ...
+
+:::
+
+
+:::{grid-item}
+:columns: 8
+
+```{figure} Docs/Capture-case-study-chrome-brave.png
+---
+width: 100%
+name: Capture-case-study-chrome-brave
+---
+Capture-case-study-chrome-brave
+```
+     
+:::
+    
+::::
+
+
+- [brave-browser-onboarding](https://growth.design/case-studies/brave-browser-onboarding)
+
+::::::
+
+
 #### UX vs UI Design
 
 - https://fr.wikipedia.org/wiki/Exp%C3%A9rience_utilisateur#/media/Fichier:UX_Design.png

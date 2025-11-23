@@ -7,6 +7,7 @@
 
 Intro/Edito/Edito
 Intro/e-commerce/e-commerce
+Intro/Bonus/Bonus-Intro
 
 ```
 
@@ -153,18 +154,38 @@ image
 **e-commerce**
 ^^^
 
-image
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+
+<dotlottie-wc src="https://lottie.host/6fe2ffaf-a70c-4e2c-86d0-22ba1b4bdd9a/7LRoEiEN2x.lottie" style="width: 100%;height: auto" autoplay loop></dotlottie-wc>
+ 
 
 +++
 
 <div style="display:flex; align-items:center; gap:8px; width:100%;">
 <span style="white-space:nowrap;">🚧</span>
-<progress value="10" max="100" style="flex-grow:1; height:1.2em; accent-color: red;"></progress>
+<progress value="70" max="100" style="flex-grow:1; height:1.2em; accent-color: green;"></progress>
 </div>
 
 :::
 
 ::::
+
+<br>
+
+:::::{dropdown} Syllabus
+
+
+```{note}
+
+Insérer ici le syllabus ?
+
+```
+
+:::::
 
 ## 💼 Gestion de projet
 
@@ -187,7 +208,12 @@ image
 **CDC**
 ^^^
 
-image
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+<dotlottie-wc src="../../_static/lottie/C2-CDC-intro.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc>
+
 
 +++
 

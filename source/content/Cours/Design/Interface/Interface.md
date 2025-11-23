@@ -184,6 +184,19 @@ Introduction à Figma et explication des différentes fonctionnalités
 
 ```
 
+
+### Autres Outils
+
+- [Penpot](https://penpot.app/)
+
+
+```{note}
+
+Propose des cours pour utiliser l'interface :
+- [get-started-in-penpot](https://penpot.app/courses/block-1/get-started-in-penpot/)
+
+```
+
 ## Cours
 
 ### Intro 
