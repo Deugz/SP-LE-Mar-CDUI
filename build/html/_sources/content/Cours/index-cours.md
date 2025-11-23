@@ -226,6 +226,19 @@ Insérer ici le syllabus ?
 
 ::::
 
+<br>
+
+:::::{dropdown} Syllabus
+
+
+```{note}
+
+Insérer ici le syllabus ?
+
+```
+
+:::::
+
 ### 3 - Système de Veille
 
 ::::{grid} 2
@@ -245,7 +258,13 @@ Insérer ici le syllabus ?
 **Veille**
 ^^^
 
-image
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+<dotlottie-wc src="../../_static/lottie/C3-Veille-intro.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc>
+
+
 
 +++
 <div style="display:flex; align-items:center; gap:8px; width:100%;">
@@ -255,6 +274,19 @@ image
 :::
 
 ::::
+
+<br>
+
+:::::{dropdown} Syllabus
+
+
+```{note}
+
+Insérer ici le syllabus ?
+
+```
+
+:::::
 
 
 ### 4 - Identifier ses utilisateurs

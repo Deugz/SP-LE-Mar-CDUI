@@ -35,6 +35,12 @@
 
 <br>
 
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+<dotlottie-wc src="../../../../_static/lottie/C3-Veille-intro.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc>
+
  
     
 :::
@@ -288,7 +294,428 @@ Petite phrase pour expliquer:
 
 ## 🧠 La Théorie
 
-### 💡 Définition
+### 🔎 Recherche d'Infos
+
+#### La Recherche
+
+<p class="p-emphase">Inspirons-nous de la <strong>Méthode Scientifique</strong></p>
+
+<br>
+<br>
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 5
+
+> Avant de rentrer dans le vif du sujet j'aimerai vous introduire à un concept qui m'est chère, la **méthode scientifique**, représenté par le diagramme ci-dessous. 
+
+
+:::
+
+:::{grid-item}
+:columns: 7
+
+
+```{figure} Docs/Images/The_Scientific_Method.svg
+---
+width: 100%
+name: The_Scientific_Method
+---
+Explication de la méthode scientifique [Source](https://commons.wikimedia.org/wiki/File:The_Scientific_Method.svg#/media/File:The_Scientific_Method.svg)
+```
+
+:::
+
+::::
+
+<br>
+<br>
+
+***
+
+<p class="p-emphase"><strong>Pour notre projet</strong></p>
+
+<br>
+
+::::::{tab-set}
+
+:::::{tab-item} ✅ Observation
+
+<br>
+
+<p class="p-emphase">✅ Ce que l'on vient de faire</p>
+
+l’analyse préliminaire du contexte : comprendre l’environnement, le secteur, les tendances et les comportements des consommateurs.
+
+```{note}
+
+Lien vers les deux chapitres précédents
+
+```
+
+:::::
+
+
+:::::{tab-item} 📍 Recherche
+
+<br>
+
+<p class="p-emphase">📍 Ce que l'on doit faire maintenant</p>
+
+expliquer 
+
+:::::
+
+
+:::::{tab-item} 🔜 Hypothèse
+
+<br>
+
+expliquer 
+
+:::::
+
+
+:::::{tab-item} Testes
+
+<br>
+
+:::::
+
+:::::{tab-item} Analyse 
+
+<br>
+
+expliquer 
+
+:::::
+
+:::::{tab-item} Conclusions et Rapport
+
+<br>
+
+expliquer 
+
+:::::
+
+::::::
+
+
+<br>
+<br>
+
+<p class="p-emphase"><em>"Afin de voir plus loin, en s'asseyant sur les épaules de géants"</em></p>
+
+<br>
+
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 5
+
+On peut très bien appliquer la méthode scientifique à n'importe quelle projet. D'ailleurs dans le cadre de la formation, ça pourrait prendre la forme suiante : Décrire, pour l'instant, nous somme à l'instant crucial de la recherche. Cette étape est primordiale car elle va nous permettre de générer de bonnes hypothèses. Il est important de faire des bonnes hypothèses sinon il faut repartir du début.
+
+:::
+
+:::{grid-item}
+:columns: 7
+
+
+```{figure} Docs/Images/shoulders-of-giants.jpg
+---
+width: 100%
+name: shoulders-of-giants
+---
+[Source](https://in.pinterest.com/pin/615796949067828967/) - De bas en haut, Nicolas Copernic, Johannes Kepler, Galilée, Carl Sagan, Neil Tyson De Grass
+```
+
+:::
+
+::::
+
+
+
+<br>
+
+
+
+#### D'informations 
+
+<p class="p-emphase">C'est quoi une information ?
+</p>
+
+
+```{note}
+
+Insérer présentation c'est quoi une information
+
+```
+
+
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 6
+
+<p class="p-emphase">Une donnée devient une information quand on lui donne un sens. Cette information devient une connaissance quand on l’intègre à notre savoir pour prendre une décision ou comprendre quelque chose de plus large.
+</p>
+
+:::
+
+:::{grid-item}
+:columns: 6
+
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+<dotlottie-wc src="../../../../_static/lottie/C3-Book-Idea.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc>
+
+ 
+
+
+:::
+
+::::
+
+
+
+
+
+
+
+
+
+##### Bonne Questions !
+
+::::{grid}
+
+:::{grid-item}
+:columns: 8
+
+
+>La veille est un outil que l'on met en place pour s'informer des tendances en cours (dans l'instant présent - d'où l'intéret de la faire de manière régulière, ou de l'automatiser) et prendre des meilleurs décisions pour le futur. mais nous ne sommes pas encore des chefs d'entreprises accomplie à la conquette des marchés ... Je vous propose donc de faire un petit pas en arrière:
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+<dotlottie-player src="https://lottie.host/79216f30-19dd-43bb-8f0f-94476c3d9e42/bDT7BRE14D.lottie" background="transparent" speed="1" style="width: 100%; height: auto" loop autoplay></dotlottie-player>
+
+:::
+::::
+
+<br>
+
+
+<p class="p-emphase">Interrogeons nous donc de manière générale sur notre marché (définie en <a href=""> Section 2 </a>), pour afiner la définition de nos cibles et construire des personas cohérentes (définies dans la <a href=""> Section 3 </a>).
+</p>
+
+##### Examples de questions
+
+<br>
+
+
+::::{card-carousel} 2
+
+:::{card}
+**Taille du marché**
+^^^
+
+<p class="p-emphase"><em>"Quelle est la taille du marché mondial pour [ton produit/service] en 2024 et sa croissance prévue d'ici 2028 ?"</em></p>
+
+:::
+:::{card}
+**Tendances du secteur**
+^^^
+
+<p class="p-emphase"><em>"Quelles sont les principales tendances du marché pour [ton secteur] dans les cinq dernières années ?"</em></p>
+
+:::
+:::{card}
+
+**Concurrence**
+^^^
+
+<p class="p-emphase"><em>"Quels sont les principaux acteurs du marché dans le secteur de [ton produit/service], et quelle est leur part de marché respective ?"</em></p>
+
+:::
+:::{card} 
+
+**Comportement des consommateurs**
+^^^
+
+<p class="p-emphase"><em>"Quels sont les comportements d'achat des consommateurs pour [ton produit/service] dans [ton pays] ?"</em></p>
+
+:::
+:::{card} 
+
+**Analyse démographique**
+^^^
+
+<p class="p-emphase"><em>"Comment les consommateurs pour [ton produit/service] se répartissent en termes de démographie ?"</em></p>
+
+:::
+:::{card}
+
+**Barrières à l'entrée**
+^^^
+
+<p class="p-emphase"><em>"Quelles sont les barrières à l'entrée pour un nouveau produit/service dans [ton secteur] en 2024 ?"</em></p>
+
+:::
+
+:::{card}
+
+**Et bien plus encore ...**
+^^^
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/2675e6f3-6135-4447-95a5-80252016a801/pBIsbGK9z3.json" background="##FFFFFF" speed="1" style="width: 100%; height: auto" loop autoplay direction="1" mode="normal"></lottie-player>
+
+:::
+
+::::
+
+<br>
+<br>
+
+```{admonition} Il faut continuellement se poser des questions,
+:class: warning, dropdown
+
+Oui c'est très important de se poser des questions
+
+```
+
+```{admonition} Car à l'examen on vous en posera beaucoup !
+:class: tip, dropdown
+
+Pendant l'examen, le jury vous demandera de justifier vos choix ! (pourquoi avez vous choisi cette cible ...). Avoir réaliser en amont un travail de questionnement vous aidera à aborder ces questions avec sérénité
+
+
+```
+
+<br>
+
+
+##### Quels Sources 
+
+```{note}
+
+Introduire l'image du cours que j'ai réalisé
+
+- Introduire Paragraphe IA
+
+```
+
+
+#### Pour Décider
+
+
+```{note}
+
+insérer vidéo esprit critique 
+
+```
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4pyUfpXPPEU?si=TYN-2Ww953BMDJQt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+##### Hypothèses
+
+
+```{note}
+
+Expliquer pourquoi il est important de bien connaitre son environnement pour prendre de meilleurs décisions
+
+
+- Introduire section Biais cognitifs
+
+```
+
+##### Biais Cognitifs
+
+```{note}
+
+Expliquer pourquoi il est important de bien connaitre son environnement pour prendre de meilleurs décisions
+
+
+- Introduire section Biais cognitifs
+
+```
+
+::::{grid}
+
+:::{grid-item}
+:columns: 8
+
+<br>
+
+>Créer des personas à la va-vite, c’est un peu comme partir en randonnée avec une carte dessinée à la main : on croit savoir où on va, mais on risque de se perdre en chemin. Sans prendre le temps d’analyser correctement les cibles, on s’appuie sur des intuitions qui semblent solides mais qui peuvent être complètement à côté de la plaque. Résultat : des personas qui ne ressemblent pas vraiment aux utilisateurs réels, souvent parce qu’ils sont influencés par des biais cognitifs qu’on n’a même pas conscience d’appliquer.
+
+:::
+
+
+:::{grid-item}
+:columns: 4
+
+<br>
+
+<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/96e71aeb-b70b-4c65-b6b5-c374906667ce/UWDex7AajH.json" background="##fff" speed="1" style="width: 100%; height: auto" loop autoplay direction="1" mode="normal"></lottie-player>
+
+
+:::
+::::
+
+:::::{dropdown} C'est quoi un biais cognitif ?
+
+<p class="p-emphase">Les biais cognitifs sont des distorsions dans le traitement de l’information par notre cerveau, qui peuvent nous amener à des jugements ou des décisions irrationnelles.</p>
+
+***
+
+<br>
+
+- **Biais d’attention sélective** : Tendance à se concentrer sur certaines informations tout en en ignorant d’autres, souvent en raison de leur saillance.
+
+<br>
+
+- **Biais de confirmation** : Recherche, interprétation ou mémorisation d'informations qui confirment nos croyances, tout en ignorant celles qui les contredisent.
+
+<br>
+
+- **Effet de halo** : Tendance à juger positivement ou négativement une personne ou une chose sur la base d'une seule caractéristique (ex. : une personne sympathique est automatiquement perçue comme compétente).
+
+<br>
+
+- **Biais de mémoire sélective** : Rappel préférentiel d'événements ou d'informations en accord avec nos croyances ou émotions.
+
+<br>
+
+- **Biais d’ancrage** : Dépendance excessive à la première information reçue (l’ancre) pour prendre une décision.
+
+<br>
+
+- **Et plus encore !**
+
+:::::
+
+
+##### Esprit Critique
+
+- Comment est-ce qu'on aiguise son esprit critique ?
+
+
+
+
+### 💡 La Veille
+
+#### Définition
 
 <p class="p-emphase">👉 La veille consiste à surveiller, collecter et analyser régulièrement des informations sur un sujet précis. Elle sert à rester informé des nouveautés, des tendances ou des évolutions qui pourraient être utiles pour prendre de meilleures décisions.
 </p>
@@ -346,106 +773,26 @@ C'est une activité pour rester à jour et anticiper grâce à des informations 
 
 ::::
 
-#### La Recherche
+#### Quelles Informations ?
 
-<p class="p-emphase">Inspirons-nous de la <strong>Méthode Scientifique</strong></p>
-
-<br>
-<br>
-
-::::{grid} 2
-
-:::{grid-item}
-:columns: 5
-
-> Avant de rentrer dans le vif du sujet j'aimerai vous introduire à un concept qui m'est chère, la **méthode scientifique**, représenté par le diagramme ci-dessous. 
-
-
-:::
-
-:::{grid-item}
-:columns: 7
-
-
-```{figure} Docs/Images/The_Scientific_Method.svg
----
-width: 100%
-name: The_Scientific_Method
----
-Explication de la méthode scientifique [Source](https://commons.wikimedia.org/wiki/File:The_Scientific_Method.svg#/media/File:The_Scientific_Method.svg)
-```
-
-:::
-
-::::
-
-
-<p class="p-emphase">Pour notre projet</p>
+En fonction des besoins que l'on a briêvement abordé plus haut, il existe plusieurs types de veille, que l'on regroupe en plusieurs catégories.
 
 <br>
 
-On peut très bien appliquer la méthode scientifique à n'importe quelle projet. D'ailleurs dans le cadre de la formation, ça pourrait prendre la forme suiante : Décrire, pour l'instant, nous somme à l'instant crucial de la recherche. Cette étape est primordiale car elle va nous permettre de générer de bonnes hypothèses. Il est important de faire des bonnes hypothèses sinon il faut repartir du début.
+<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https://www.canva.com/design/DAGW0yFhvb0/9f_zdWvkx3fz21wg2sdXPA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGW0yFhvb0&#x2F;9f_zdWvkx3fz21wg2sdXPA&#x2F;view?utm_content=DAGW0yFhvb0&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Types de Veille</a> par Vdeguin
 
 
-<br>
-<br>
-
-::::::{tab-set}
-
-:::::{tab-item} Objectifs
-
-<br>
-
-expliquer 
-
-:::::
 
 
-:::::{tab-item} Recherche
+#### ⚙️ Méthodes
 
-<br>
-
-expliquer 
-
-:::::
-
-
-:::::{tab-item} Hypothèse
-
-<br>
-
-expliquer 
-
-:::::
-
-
-:::::{tab-item} Teste Utilisateur
-
-<br>
-
-:::::
-
-:::::{tab-item} Analyse des données
-
-<br>
-
-expliquer 
-
-:::::
-
-:::::{tab-item} Rapport et Conclusions
-
-<br>
-
-expliquer 
-
-:::::
-
-::::::
-
-
-<br>
-<br>
 
 
 ##### Surveiller
@@ -804,246 +1151,11 @@ La consommation (en gramme de Carbonne) de l'IA générative **Source**: [Datafo
 
 ::::
 
-#### D'informations 
 
-<p class="p-emphase">C'est quoi une information ?
-</p>
 
 
 
-<p class="p-emphase">Une donnée devient une information quand on lui donne un sens. Cette information devient une connaissance quand on l’intègre à notre savoir pour prendre une décision ou comprendre quelque chose de plus large.
-</p>
 
-
-
-##### Quelles Informations ?
-
-En fonction des besoins que l'on a briêvement abordé plus haut, il existe plusieurs types de veille, que l'on regroupe en plusieurs catégories.
-
-<br>
-
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAGW0yFhvb0/9f_zdWvkx3fz21wg2sdXPA/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGW0yFhvb0&#x2F;9f_zdWvkx3fz21wg2sdXPA&#x2F;view?utm_content=DAGW0yFhvb0&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Types de Veille</a> par Vdeguin
-
-
-
-###### Bonne Questions !
-
-::::{grid}
-
-:::{grid-item}
-:columns: 8
-
-
->La veille est un outil que l'on met en place pour s'informer des tendances en cours (dans l'instant présent - d'où l'intéret de la faire de manière régulière, ou de l'automatiser) et prendre des meilleurs décisions pour le futur. mais nous ne sommes pas encore des chefs d'entreprises accomplie à la conquette des marchés ... Je vous propose donc de faire un petit pas en arrière:
-
-:::
-
-
-:::{grid-item}
-:columns: 4
-
-<script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
-<dotlottie-player src="https://lottie.host/79216f30-19dd-43bb-8f0f-94476c3d9e42/bDT7BRE14D.lottie" background="transparent" speed="1" style="width: 100%; height: auto" loop autoplay></dotlottie-player>
-
-:::
-::::
-
-<br>
-
-
-<p class="p-emphase">Interrogeons nous donc de manière générale sur notre marché (définie en <a href=""> Section 2 </a>), pour afiner la définition de nos cibles et construire des personas cohérentes (définies dans la <a href=""> Section 3 </a>).
-</p>
-
-##### Examples de questions
-
-<br>
-
-
-::::{card-carousel} 2
-
-:::{card}
-**Taille du marché**
-^^^
-
-<p class="p-emphase"><em>"Quelle est la taille du marché mondial pour [ton produit/service] en 2024 et sa croissance prévue d'ici 2028 ?"</em></p>
-
-:::
-:::{card}
-**Tendances du secteur**
-^^^
-
-<p class="p-emphase"><em>"Quelles sont les principales tendances du marché pour [ton secteur] dans les cinq dernières années ?"</em></p>
-
-:::
-:::{card}
-
-**Concurrence**
-^^^
-
-<p class="p-emphase"><em>"Quels sont les principaux acteurs du marché dans le secteur de [ton produit/service], et quelle est leur part de marché respective ?"</em></p>
-
-:::
-:::{card} 
-
-**Comportement des consommateurs**
-^^^
-
-<p class="p-emphase"><em>"Quels sont les comportements d'achat des consommateurs pour [ton produit/service] dans [ton pays] ?"</em></p>
-
-:::
-:::{card} 
-
-**Analyse démographique**
-^^^
-
-<p class="p-emphase"><em>"Comment les consommateurs pour [ton produit/service] se répartissent en termes de démographie ?"</em></p>
-
-:::
-:::{card}
-
-**Barrières à l'entrée**
-^^^
-
-<p class="p-emphase"><em>"Quelles sont les barrières à l'entrée pour un nouveau produit/service dans [ton secteur] en 2024 ?"</em></p>
-
-:::
-
-:::{card}
-
-**Et bien plus encore ...**
-^^^
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/2675e6f3-6135-4447-95a5-80252016a801/pBIsbGK9z3.json" background="##FFFFFF" speed="1" style="width: 100%; height: auto" loop autoplay direction="1" mode="normal"></lottie-player>
-
-:::
-
-::::
-
-<br>
-<br>
-
-```{admonition} Il faut continuellement se poser des questions,
-:class: warning, dropdown
-
-Oui c'est très important de se poser des questions
-
-```
-
-```{admonition} Car à l'examen on vous en posera beaucoup !
-:class: tip, dropdown
-
-Pendant l'examen, le jury vous demandera de justifier vos choix ! (pourquoi avez vous choisi cette cible ...). Avoir réaliser en amont un travail de questionnement vous aidera à aborder ces questions avec sérénité
-
-
-```
-
-<br>
-
-
-##### Quels Sources 
-
-```{note}
-
-Introduire l'image du cours que j'ai réalisé
-
-- Introduire Paragraphe IA
-
-```
-
-
-#### Pour Décider
-
-##### Hypothèses
-
-
-```{note}
-
-Expliquer pourquoi il est important de bien connaitre son environnement pour prendre de meilleurs décisions
-
-
-- Introduire section Biais cognitifs
-
-```
-
-##### Biais Cognitifs
-
-```{note}
-
-Expliquer pourquoi il est important de bien connaitre son environnement pour prendre de meilleurs décisions
-
-
-- Introduire section Biais cognitifs
-
-```
-
-::::{grid}
-
-:::{grid-item}
-:columns: 8
-
-<br>
-
->Créer des personas à la va-vite, c’est un peu comme partir en randonnée avec une carte dessinée à la main : on croit savoir où on va, mais on risque de se perdre en chemin. Sans prendre le temps d’analyser correctement les cibles, on s’appuie sur des intuitions qui semblent solides mais qui peuvent être complètement à côté de la plaque. Résultat : des personas qui ne ressemblent pas vraiment aux utilisateurs réels, souvent parce qu’ils sont influencés par des biais cognitifs qu’on n’a même pas conscience d’appliquer.
-
-:::
-
-
-:::{grid-item}
-:columns: 4
-
-<br>
-
-<script src="https://unpkg.com/@lottiefiles/lottie-player@2.0.8/dist/lottie-player.js"></script><lottie-player src="https://lottie.host/96e71aeb-b70b-4c65-b6b5-c374906667ce/UWDex7AajH.json" background="##fff" speed="1" style="width: 100%; height: auto" loop autoplay direction="1" mode="normal"></lottie-player>
-
-
-:::
-::::
-
-:::::{dropdown} C'est quoi un biais cognitif ?
-
-<p class="p-emphase">Les biais cognitifs sont des distorsions dans le traitement de l’information par notre cerveau, qui peuvent nous amener à des jugements ou des décisions irrationnelles.</p>
-
-***
-
-<br>
-
-- **Biais d’attention sélective** : Tendance à se concentrer sur certaines informations tout en en ignorant d’autres, souvent en raison de leur saillance.
-
-<br>
-
-- **Biais de confirmation** : Recherche, interprétation ou mémorisation d'informations qui confirment nos croyances, tout en ignorant celles qui les contredisent.
-
-<br>
-
-- **Effet de halo** : Tendance à juger positivement ou négativement une personne ou une chose sur la base d'une seule caractéristique (ex. : une personne sympathique est automatiquement perçue comme compétente).
-
-<br>
-
-- **Biais de mémoire sélective** : Rappel préférentiel d'événements ou d'informations en accord avec nos croyances ou émotions.
-
-<br>
-
-- **Biais d’ancrage** : Dépendance excessive à la première information reçue (l’ancre) pour prendre une décision.
-
-<br>
-
-- **Et plus encore !**
-
-:::::
-
-
-##### Esprit Critique
-
-- Comment est-ce qu'on aiguise son esprit critique ?
-
-### ⚙️ Méthodes
 
 #### Surveiller
 
