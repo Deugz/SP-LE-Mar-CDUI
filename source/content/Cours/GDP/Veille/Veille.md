@@ -298,7 +298,44 @@ Petite phrase pour expliquer:
 
 #### La Recherche
 
-<p class="p-emphase">Inspirons-nous de la <strong>Méthode Scientifique</strong></p>
+
+<p class="p-emphase"><em>"Voir plus loin, en s'asseyant sur les épaules de géants"</em></p>
+
+<br>
+
+
+::::{grid} 2
+
+:::{grid-item}
+:columns: 5
+
+On peut très bien appliquer la méthode scientifique à n'importe quelle projet. D'ailleurs dans le cadre de la formation, ça pourrait prendre la forme suiante : Décrire, pour l'instant, nous somme à l'instant crucial de la recherche. Cette étape est primordiale car elle va nous permettre de générer de bonnes hypothèses. Il est important de faire des bonnes hypothèses sinon il faut repartir du début.
+
+:::
+
+:::{grid-item}
+:columns: 7
+
+
+```{figure} Docs/Images/shoulders-of-giants.jpg
+---
+width: 100%
+name: shoulders-of-giants
+---
+[Source](https://in.pinterest.com/pin/615796949067828967/) - De bas en haut, Nicolas Copernic, Johannes Kepler, Galilée, Carl Sagan, Neil Tyson De Grass
+```
+
+:::
+
+::::
+
+
+<br>
+<br>
+
+***
+
+<p class="p-emphase">Grâce à la <strong>Méthode Scientifique</strong></p>
 
 <br>
 <br>
@@ -330,11 +367,24 @@ Explication de la méthode scientifique [Source](https://commons.wikimedia.org/w
 ::::
 
 <br>
+
+
+:::{dropdown} La Science du e-commerce ?
+
+```{note}
+
+Intégrer les dernièrs sujet de recherche du e-commerce
+
+```
+
+
+:::
+
 <br>
 
 ***
 
-<p class="p-emphase"><strong>Pour notre projet</strong></p>
+<p class="p-emphase">Appliqué à <strong>notre projet</strong></p>
 
 <br>
 
@@ -401,42 +451,6 @@ expliquer
 
 ::::::
 
-
-<br>
-<br>
-
-<p class="p-emphase"><em>"Afin de voir plus loin, en s'asseyant sur les épaules de géants"</em></p>
-
-<br>
-
-
-::::{grid} 2
-
-:::{grid-item}
-:columns: 5
-
-On peut très bien appliquer la méthode scientifique à n'importe quelle projet. D'ailleurs dans le cadre de la formation, ça pourrait prendre la forme suiante : Décrire, pour l'instant, nous somme à l'instant crucial de la recherche. Cette étape est primordiale car elle va nous permettre de générer de bonnes hypothèses. Il est important de faire des bonnes hypothèses sinon il faut repartir du début.
-
-:::
-
-:::{grid-item}
-:columns: 7
-
-
-```{figure} Docs/Images/shoulders-of-giants.jpg
----
-width: 100%
-name: shoulders-of-giants
----
-[Source](https://in.pinterest.com/pin/615796949067828967/) - De bas en haut, Nicolas Copernic, Johannes Kepler, Galilée, Carl Sagan, Neil Tyson De Grass
-```
-
-:::
-
-::::
-
-
-
 <br>
 
 
@@ -468,6 +482,8 @@ Insérer présentation c'est quoi une information
 :::{grid-item}
 :columns: 6
 
+<br>
+<br>
 
 <script
   src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
@@ -483,14 +499,7 @@ Insérer présentation c'est quoi une information
 ::::
 
 
-
-
-
-
-
-
-
-##### Bonne Questions !
+##### Se poser les bonnes questions !
 
 ::::{grid}
 
@@ -518,7 +527,7 @@ Insérer présentation c'est quoi une information
 <p class="p-emphase">Interrogeons nous donc de manière générale sur notre marché (définie en <a href=""> Section 2 </a>), pour afiner la définition de nos cibles et construire des personas cohérentes (définies dans la <a href=""> Section 3 </a>).
 </p>
 
-##### Examples de questions
+###### Quelques examples 
 
 <br>
 
@@ -604,7 +613,13 @@ Pendant l'examen, le jury vous demandera de justifier vos choix ! (pourquoi avez
 <br>
 
 
-##### Quels Sources 
+##### Une Bonne Information
+
+###### Pertinence
+
+- Une bonne information, c'est avant tout une information qui apporte une réponse a la question que l'on se posait à la base
+
+###### La Source 
 
 ```{note}
 
@@ -614,8 +629,17 @@ Introduire l'image du cours que j'ai réalisé
 
 ```
 
+###### La Date
 
-#### Pour Décider
+En effet, le monde évolue, et une information peut être vrai à l'époque ou elle a été énnoncé mais plus vrai aujourd'hui pour plusieirs raisons :
+- evolution de la loi ....
+
+
+
+#### Pour Quoi Faire ?
+
+
+##### Prendre de Bonnes Décision
 
 
 ```{note}
@@ -627,7 +651,7 @@ insérer vidéo esprit critique
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4pyUfpXPPEU?si=TYN-2Ww953BMDJQt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
-##### Hypothèses
+##### Des Hypothèses Solides
 
 
 ```{note}
@@ -639,7 +663,7 @@ Expliquer pourquoi il est important de bien connaitre son environnement pour pre
 
 ```
 
-##### Biais Cognitifs
+##### Contrer nos Biais Cognitifs
 
 ```{note}
 
@@ -706,11 +730,9 @@ Expliquer pourquoi il est important de bien connaitre son environnement pour pre
 :::::
 
 
-##### Esprit Critique
+##### Aiguiser l'Esprit Critique
 
 - Comment est-ce qu'on aiguise son esprit critique ?
-
-
 
 
 ### 💡 La Veille

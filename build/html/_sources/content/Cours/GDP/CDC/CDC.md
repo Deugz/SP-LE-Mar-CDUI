@@ -897,7 +897,13 @@ Ajouter a la biblio
 ```
 
 
+- [9-outils-pedagogiques-pour-introduire-les-objectifs-de-developpement-durable](https://www.comprendrepouragir.org/9-outils-pedagogiques-pour-introduire-les-objectifs-de-developpement-durable/)
 
+```{note}
+
+explorer et tester
+
+```
 
 ### Commentaires
 
