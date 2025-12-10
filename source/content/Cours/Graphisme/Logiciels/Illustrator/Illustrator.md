@@ -263,6 +263,18 @@ name: Bitmap_VS_SVG
 ```
 
 
+<br>
+<br>
+
+```{note}
+
+[mister-chad](https://mister-chad.com/vector/!+vector+drawing+resources)
+
+Super ressource à exploiter
+
+```
+
+
 ## Plugins
 
 ### Logos
