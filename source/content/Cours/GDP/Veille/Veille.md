@@ -294,6 +294,15 @@ Petite phrase pour expliquer:
 
 ## 🧠 La Théorie
 
+
+```{admonition} To Include
+
+[visualping](https://visualping.io/)
+
+Tester et inclure - faire lien avec le benchmark
+
+```
+
 ### 🔎 Recherche d'Infos
 
 #### La Recherche

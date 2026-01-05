@@ -700,6 +700,28 @@ Idée d'activité. Les apprenants se mettente en équipe de deux et choisissent 
 ```
 
 
+
+### Petites astuces
+
+#### Captures d'écran
+
+✅ Directement dans le navigateur 
+
+- Ouvre la page web
+
+- Appuie sur F12 (outils de développement)
+
+- Puis Ctrl + Shift + P
+
+- Tape “capture”
+
+- Choisis “Capture full size screenshot”
+
+
+➡️ L’image complète de la page est téléchargée automatiquement.
+
+
+
 ## 📈 Pour Finir
 
 ### Conclusion
