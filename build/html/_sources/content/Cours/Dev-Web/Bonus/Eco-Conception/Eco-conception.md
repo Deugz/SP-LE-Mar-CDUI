@@ -6,6 +6,14 @@ Faire le lien vers page dans [SP-Marseile](https://deugz.github.io/SP-LE-Marseil
 
 ```
 
+- [Meexr](https://meexr.fr/)
+
+```{note}
+
+Outil d'audit à tester ! 
+
+```
+
 ## Petit Rappel
 
 - Reprendre les éléments vues précédemment qui peuvent avoir un impact sur l'écologie et expliquer les bonnes pratiques relatives

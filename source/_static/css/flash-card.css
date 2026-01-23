@@ -55,6 +55,11 @@
             transform: rotateY(180deg); /* Inversion de la face arrière pour la rotation */
 }
 
+.flashcard-front p{
+            color: black !important;
+
+}
+
 .flashcard-back p{
             color: white !important;
 
