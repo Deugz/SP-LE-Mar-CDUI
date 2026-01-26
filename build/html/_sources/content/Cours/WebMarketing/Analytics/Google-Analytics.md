@@ -271,17 +271,21 @@ Etre sur qu'ils ont déja télécharger le plugin GA sur wordpress en amont de l
 
 <p class="p-emphase">Un Cookie ? </p>
 
+<br>
+
 ::::{grid} 3
 
 :::{grid-item}
-:columns: 8
+:columns: 7
 
-> **Un cookie est un petit fichier déposé sur le navigateur d’un utilisateur lorsqu’il visite un site web**. Il permet au site de se **souvenir de certaines informations** comme la langue choisie, la connexion à un compte ou la façon dont le site est utilisé.
+👉 **Un cookie est un petit fichier déposé sur le navigateur d’un utilisateur lorsqu’il visite un site web**. 
+
+Il permet au site de se **souvenir de certaines informations** comme la langue choisie, la connexion à un compte ou la façon dont le site est utilisé.
 
 :::
 
 :::{grid-item}
-:columns: 4
+:columns: 5
 
 
 <script
@@ -294,14 +298,65 @@ Etre sur qu'ils ont déja télécharger le plugin GA sur wordpress en amont de l
 
 ::::
 
+***
+
 <p class="p-emphase">Une information </p>
 
+<br>
 
-###### Comment c'est récolté ?
+::::{grid} 2
+
+:::{grid-item-card}
+:columns: 6
+🍪 **Essentiels**
+^^^
+
+👉 Ils sont indispensables au bon fonctionnement du site.
+
+*Sans eux, certaines fonctionnalités de base ne marcheraient pas.*
+
+✅ Pas de consentement requis, car :
+
+- ils ne servent pas à suivre l’utilisateur à des fins commerciales
+- ils sont strictement techniques
+
+:::
+
+:::{grid-item-card}
+:columns: 6
+🍪 **Optionnels**
+^^^
+
+👉 Ils ne sont pas essentiels au fonctionnement du site, mais ...
+
+*servent à analyser, personnaliser ou faire de la publicité.*
+
+❌ Ils ne peuvent être déposés qu’avec l’accord explicite de l’utilisateur, car :
+
+- ils permettent de suivre le comportement de navigation
+- ils peuvent être partagés avec des tiers
+
+:::
+
+::::
+
+
+###### Comment ça fonctionne ?
 
 <p class="p-emphase">En Bref</p>
 
 - Tags
+
+```{note}
+
+Trouver un schéma explicatif et faire le lien vers le cours initiation au web et e-commerce
+
+```
+
+<div class="embedresize">
+<iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/Ln4bik2e0YI?si=DVrJgoSqRWLy6UAf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 
 ##### Histoire
 
