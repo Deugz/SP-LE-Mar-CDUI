@@ -271,11 +271,28 @@ Etre sur qu'ils ont déja télécharger le plugin GA sur wordpress en amont de l
 
 <p class="p-emphase">Un Cookie ? </p>
 
-```{note}
+::::{grid} 3
 
-Intégrer lottie
+:::{grid-item}
+:columns: 7
 
-```
+**Un cookie est un petit fichier déposé sur le navigateur d’un utilisateur lorsqu’il visite un site web**. Il permet au site de se **souvenir de certaines informations** comme la langue choisie, la connexion à un compte ou la façon dont le site est utilisé.
+
+:::
+
+:::{grid-item}
+:columns: 5
+
+
+<script
+  src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.1/dist/dotlottie-wc.js"
+  type="module"
+></script>
+<dotlottie-wc src="../../../../_static/lottie/C24-Eating-Cookie.lottie" style="width: 100%; height: auto" autoplay loop></dotlottie-wc>
+
+:::
+
+::::
 
 <p class="p-emphase">Une information </p>
 
