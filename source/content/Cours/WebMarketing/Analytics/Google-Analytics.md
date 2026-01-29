@@ -267,20 +267,18 @@ Etre sur qu'ils ont déja télécharger le plugin GA sur wordpress en amont de l
 
 ##### Les Données Web
 
-###### C'est quoi ?
+###### Un Cookie ?
 
-<p class="p-emphase">Un Cookie ? </p>
+<p class="p-emphase"> 👉 Un fichier déposé sur <strong>le navigateur d’un utilisateur</strong> lorsqu’il visite un site</p>
 
 <br>
 
-::::{grid} 3
+::::{grid} 2
 
 :::{grid-item}
 :columns: 7
 
-👉 **Un cookie est un petit fichier déposé sur le navigateur d’un utilisateur lorsqu’il visite un site web**. 
-
-Il permet au site de se **souvenir de certaines informations** comme la langue choisie, la connexion à un compte ou la façon dont le site est utilisé.
+Il permet au site de se **souvenir de certaines informations** comme la langue choisie, la connexion à un compte ou la façon dont le site est utilisé. Dans le cadre de l’analyse d’audience, les cookies servent à comprendre comment les visiteurs naviguent sur un site : quelles pages sont consultées, combien de temps elles sont vues ou encore si un utilisateur revient sur le site. Les outils d’analytics s’appuient notamment sur ces cookies pour collecter des données de navigation et produire des statistiques anonymes sur l’audience d’un site.
 
 :::
 
@@ -300,7 +298,9 @@ Il permet au site de se **souvenir de certaines informations** comme la langue c
 
 ***
 
-<p class="p-emphase">Une information </p>
+###### Une Information
+
+<p class="p-emphase">Il en existe deux grandes catégories ! </p>
 
 <br>
 
@@ -353,12 +353,78 @@ Trouver un schéma explicatif et faire le lien vers le cours initiation au web e
 
 ```
 
+:::{dropdown} Vidéo Explicative (et test)
+
+<br>
+
+```{admonition} On se fait un petit test ?
+
+On vient de voire en détail le fonctionnement d'un cookie. La vidéo ci-dessous réintroduit le concept de manière plus synthétique (et en anglais). Commencez à regarder la vidéo sur ce site, puis cliquez sur le logo Youtube afin de continuer la lecture sur Youtube.
+
+
+```
+
 <div class="embedresize">
 <iframe width="100%" height="56.25%" src="https://www.youtube.com/embed/Ln4bik2e0YI?si=DVrJgoSqRWLy6UAf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
+:::
+
+##### Les Types de Cookies
+
+
+```{note}
+
+Propriétaires vs Third Party
+
+```
+
+
+::::::{tab-set}
+
+:::::{tab-item} 🍪 de Session
+
+Cookie temporaire, supprimé automatiquement lorsque l’utilisateur ferme son navigateur. Il sert par exemple à maintenir une connexion pendant une visite.
+
+:::::
+
+:::::{tab-item} 🍪 Persistant
+
+Cookie conservé pendant une durée définie (quelques jours, mois ou années). Il permet de reconnaître un visiteur lors de visites ultérieures.
+
+:::::
+
+:::::{tab-item} 🍪 Nécessaire
+
+Cookie indispensable au bon fonctionnement du site (sécurité, panier, langue…). Il ne nécessite pas de consentement.
+
+:::::
+
+:::::{tab-item} 🍪 de mesure d’audience
+
+Cookie utilisé pour analyser la fréquentation d’un site (pages vues, visites, parcours…). Il est soumis au consentement.
+
+:::::
+
+:::::{tab-item} 🍪 Publicitaire
+
+Cookie permettant de suivre la navigation d’un utilisateur pour afficher des publicités ciblées. Il est toujours optionnel.
+:::::
+
+::::::
+
+
+
 
 ##### Histoire
+
+```{admonition} L'invention du cookie
+
+- [Lou Montulli](https://hiddenheroes.netguru.com/lou-montulli)
+
+Vince : *Je trouve le design de cet article assé cool et vous invite pendant sa lecture à y préter attention*. Malhereusement, l'article est en anglais ...
+
+```
 
 ```{figure} Docs/Origines-web-analytics.png
 ---
@@ -467,11 +533,28 @@ To do
 
 ##### Tendences actuelles
 
-###### Un Cookie ?
+###### La protection des données
 
-<p class="p-emphase">Non Merci !</p>
+```{note}
 
-- Un Cookie ?
+Faire le liens vers le cours de RGPD
+
+```
+
+
+###### Un Web sans Cookie
+
+<p class="p-emphase">Un Cookie, Non Merci !</p>
+
+
+::::::{dropdown} Cookies et Publicité
+
+- [Documentation google](https://policies.google.com/technologies/ads)
+
+
+::::::
+
+
 
 #### Les Données Web
 
@@ -684,38 +767,202 @@ Il est possible qu'en tapant Google Analytics dans la barre de recherche Google 
 ```{figure} Docs/Tuto-lancement/Lancement-Etape-1.b.png
 ---
 width: 100%
-name: Lancement-Etape-1
+name: Lancement-Etape-1.b
 ---
 L'arrivée sur site.
 ```
+
+<br>
+<br>
+
+Si vous avez du mal à trouver les site en question, rentrez l'url suivante dans votre navigateur
+
+```html
+https://analytics.google.com/
+```
+
+<br>
+<br>
 
 :::
 
 :::{tab-item} Creation de compte
 
+<br>
 
+Maintenant qu'on est arrivé sur le site. Créons notre compte Google Analytics
 
+<br>
+
+```{figure} Docs/Tuto-lancement/Lancement-Etape-2.png
+---
+width: 100%
+name: Lancement-Etape-2
+---
+Creation du compte 1
+```
+
+<br>
+
+```{figure} Docs/Tuto-lancement/Lancement-Etape-2.b.png
+---
+width: 100%
+name: Lancement-Etape-2.b
+---
+Creation du compte 1.b
+```
+
+:::
+
+:::{tab-item} Propriétés
+
+<br>
+
+```{figure} Docs/Tuto-lancement/Lancement-Etape-3.png
+---
+width: 100%
+name: Lancement-Etape-3
+---
+Creation d'une propriété
+```
+
+<br>
+<br>
+
+:::
+
+:::{tab-item} Infos
+
+<br>
+
+```{figure} Docs/Tuto-lancement/Lancement-Etape-4.png
+---
+width: 100%
+name: Lancement-Etape-4
+---
+Creation d'une propriété 2
+```
 
 
 :::
 
-:::{tab-item} Autres promos
+:::{tab-item} Objectifs
 
+<br>
+
+```{figure} Docs/Tuto-lancement/Lancement-Etape-5.png
+---
+width: 100%
+name: Lancement-Etape-5
+---
+Creation d'une propriété 2
+```
 
 :::
+
+
+:::{tab-item} Collecte
+
+<br>
+
+```{figure} Docs/Tuto-lancement/Lancement-Etape-6.png
+---
+width: 100%
+name: Lancement-Etape-6
+---
+Creation d'une propriété 2
+```
+
+<br>
+<br>
+
+```{figure} Docs/Tuto-lancement/Lancement-Etape-7.png
+---
+width: 100%
+name: Lancement-Etape-7
+---
+Creation d'une propriété 2
+```
+
+<br>
+<br>
+
+```{figure} Docs/Tuto-lancement/Lancement-Etape-8.png
+---
+width: 100%
+name: Lancement-Etape-8
+---
+Creation d'une propriété 2
+```
+
+<br>
+<br>
+
+```{figure} Docs/Tuto-lancement/Lancement-Etape-9.png
+---
+width: 100%
+name: Lancement-Etape-9
+---
+Creation d'une propriété 2
+```
+
+:::
+
+:::{tab-item} sur Wordpress
+
+<br>
+
+```{figure} Docs/Tuto-lancement/Lancement-WP-1.png
+---
+width: 100%
+name: Lancement-WP-1
+---
+Chercher et trouver l'extension
+```
+
+- [Lien vers la doc du plugin](https://perishablepress.com/google-analytics-plugin/)
+
+Cliquez sur `Installer` puis `Activer` l'extension 
+
+
+```{figure} Docs/Tuto-lancement/Lancement-WP-2.png
+---
+width: 100%
+name: Lancement-WP-2
+---
+Ouvrir l'extension
+```
+
+<br>
+<br>
+
+```{figure} Docs/Tuto-lancement/Lancement-WP-3.png
+---
+width: 100%
+name: Lancement-WP-3
+---
+Rentrer les informations nécessaires !
+```
+
+Rentrer les informations, et normalement tout est bon
+
+:::
+
 
 ::::
 
 
-
-
-#### Fondamentaux 
-
-##### Créer un compte
-
-
-
 ##### L'interface
+
+
+```{note}
+
+Capture d'écran de l'interface !
+
+```
+
+
+
 
 #### Problèmes
 
@@ -823,9 +1070,19 @@ Créer un grand Storyline pour ajouter un questionnaire a chaque cours, enregist
 :::{grid-item}
 :columns: 8
 
-- Liste des sources
+- [Comprendre les cookies](https://web.dev/articles/understanding-cookies?hl=fr)
 
-    
+```{note}
+
+A extraire en tab item dans partie comment ca fonctionne
+
+- [Principes de base des cookies](https://privacysandbox.google.com/cookies/basics?hl=fr)
+
+```
+
+- [cookie-blocking](https://privacysandbox.google.com/cookies/basics/cookie-blocking?hl=fr)
+
+- [Attributs des cookies](https://privacysandbox.google.com/cookies/basics/cookie-attributes?hl=fr)
 
 :::
 
@@ -856,6 +1113,22 @@ Référencer les figures de la page ?
 ```
 
 #### Plus de Ressources
+
+- [the-early-days-of-web-analytics](https://amplitude.com/blog/the-early-days-of-web-analytics?utm_source=chatgpt.com)
+- [Cookie🍪 : Deep Dive in cookies](https://dev.to/tanishtt/cookie-deep-dive-in-cookies-5fn9)
+- [mdn cookies](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies)
+
+- [Ressources GA](https://thomasgadroy.fr/check-list-parametrer-correctement-compte-google-analytics/#02)
+
+- [Pulsedive](https://pulsedive.com/about/)
+
+```{note}
+
+Bon outil pour tester l'utilisation des cookies et les failles de sécurités !
+
+```
+
+- [Check des cookies grâce a l'outil devtool](https://privacysandbox.google.com/cookies/basics/cookie-tools?hl=fr)
 
 
 ### Commentaires

@@ -108,6 +108,11 @@ html_theme_options = {
             "icon": "fa-brands fa-github",
         },
         {
+            "name": "How to",
+            "url": "https://deugz.github.io/SP-LE-Mar-CDUI/build/html/sort/How-to-Main.html",
+            "icon": "fa-solid fa-gear",
+        },
+        {
             "name": "Pad",
             "url": "https://mypads2.framapad.org/mypads/?/mypads/group/site-label-ecole-cdui-yu4d489qw/pad/view/to-do-site-cu4db89bm",
             "icon": "fa-solid fa-file-pen",
